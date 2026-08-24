@@ -1,0 +1,527 @@
+{
+  "source": "pastpaper local downloader/library",
+  "files": [
+    {
+      "year": 2021,
+      "session": "May/June",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-May-June/9618_s21_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2021-may-june/ms/9618_s21_ms_31.pdf",
+      "status": "success-existing",
+      "bytes": 274029
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-May-June/9618_s21_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2021-may-june/ms/9618_s21_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 274041
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-May-June/9618_s21_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2021-may-june/ms/9618_s21_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 274032
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-May-June/9618_s21_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2021-may-june/ms/9618_s21_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 283199
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-May-June/9618_s21_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2021-may-june/ms/9618_s21_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 283195
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-May-June/9618_s21_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2021-may-june/ms/9618_s21_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 283201
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2021-oct-nov/ms/9618_w21_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 260281
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2021-oct-nov/ms/9618_w21_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 260293
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-Oct-Nov/9618_w21_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2021-oct-nov/ms/9618_w21_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 292934
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2021-Oct-Nov/9618_w21_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2021-oct-nov/ms/9618_w21_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 292927
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-May-June/9618_s22_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2022-may-june/ms/9618_s22_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 241197
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-May-June/9618_s22_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2022-may-june/ms/9618_s22_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 236114
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-May-June/9618_s22_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2022-may-june/ms/9618_s22_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 241210
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-May-June/9618_s22_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2022-may-june/ms/9618_s22_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 308797
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-May-June/9618_s22_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2022-may-june/ms/9618_s22_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 374216
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-May-June/9618_s22_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2022-may-june/ms/9618_s22_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 308841
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2022-oct-nov/ms/9618_w22_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 406489
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2022-oct-nov/ms/9618_w22_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 304464
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2022-oct-nov/ms/9618_w22_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 406500
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-Oct-Nov/9618_w22_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2022-oct-nov/ms/9618_w22_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 347235
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-Oct-Nov/9618_w22_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2022-oct-nov/ms/9618_w22_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 323851
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2022-Oct-Nov/9618_w22_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2022-oct-nov/ms/9618_w22_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 347261
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-May-June/9618_s23_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2023-may-june/ms/9618_s23_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 247116
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-May-June/9618_s23_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2023-may-june/ms/9618_s23_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 293005
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-May-June/9618_s23_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2023-may-june/ms/9618_s23_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 247114
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-May-June/9618_s23_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2023-may-june/ms/9618_s23_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 294234
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-May-June/9618_s23_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2023-may-june/ms/9618_s23_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 319524
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-May-June/9618_s23_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2023-may-june/ms/9618_s23_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 294232
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2023-oct-nov/ms/9618_w23_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 332603
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2023-oct-nov/ms/9618_w23_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 286164
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2023-oct-nov/ms/9618_w23_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 332605
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-Oct-Nov/9618_w23_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2023-oct-nov/ms/9618_w23_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 343043
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-Oct-Nov/9618_w23_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2023-oct-nov/ms/9618_w23_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 355460
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2023-Oct-Nov/9618_w23_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2023-oct-nov/ms/9618_w23_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 343087
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-May-June/9618_s24_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2024-may-june/ms/9618_s24_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 205695
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-May-June/9618_s24_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2024-may-june/ms/9618_s24_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 186290
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-May-June/9618_s24_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2024-may-june/ms/9618_s24_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 205693
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-May-June/9618_s24_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2024-may-june/ms/9618_s24_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 301601
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-May-June/9618_s24_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2024-may-june/ms/9618_s24_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 276180
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-May-June/9618_s24_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2024-may-june/ms/9618_s24_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 301604
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2024-oct-nov/ms/9618_w24_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 337779
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2024-oct-nov/ms/9618_w24_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 333330
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2024-oct-nov/ms/9618_w24_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 337755
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-Oct-Nov/9618_w24_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2024-oct-nov/ms/9618_w24_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 527464
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-Oct-Nov/9618_w24_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2024-oct-nov/ms/9618_w24_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 531323
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2024-Oct-Nov/9618_w24_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2024-oct-nov/ms/9618_w24_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 527438
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-May-June/9618_s25_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2025-may-june/ms/9618_s25_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 345894
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-May-June/9618_s25_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2025-may-june/ms/9618_s25_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 360819
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-May-June/9618_s25_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2025-may-june/ms/9618_s25_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 372943
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-May-June/9618_s25_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2025-may-june/ms/9618_s25_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 501557
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-May-June/9618_s25_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2025-may-june/ms/9618_s25_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 476273
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-May-June/9618_s25_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2025-may-june/ms/9618_s25_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 481773
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "variant": "31",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+      "path": "_source-pdfs/2025-oct-nov/ms/9618_w25_ms_31.pdf",
+      "status": "downloaded",
+      "bytes": 367693
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "variant": "32",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+      "path": "_source-pdfs/2025-oct-nov/ms/9618_w25_ms_32.pdf",
+      "status": "downloaded",
+      "bytes": 366756
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "variant": "33",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+      "path": "_source-pdfs/2025-oct-nov/ms/9618_w25_ms_33.pdf",
+      "status": "downloaded",
+      "bytes": 325356
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "variant": "41",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-Oct-Nov/9618_w25_ms_41.pdf?download=true",
+      "path": "_source-pdfs/2025-oct-nov/ms/9618_w25_ms_41.pdf",
+      "status": "downloaded",
+      "bytes": 432938
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "variant": "42",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-Oct-Nov/9618_w25_ms_42.pdf?download=true",
+      "path": "_source-pdfs/2025-oct-nov/ms/9618_w25_ms_42.pdf",
+      "status": "downloaded",
+      "bytes": 545678
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "variant": "43",
+      "url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20(for%20first%20examination%20in%202021)%20(9618)/2025-Oct-Nov/9618_w25_ms_43.pdf?download=true",
+      "path": "_source-pdfs/2025-oct-nov/ms/9618_w25_ms_43.pdf",
+      "status": "downloaded",
+      "bytes": 544094
+    }
+  ]
+}

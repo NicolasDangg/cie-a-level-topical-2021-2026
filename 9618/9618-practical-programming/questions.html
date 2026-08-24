@@ -1,0 +1,808 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'>
+<title>9618 Computer Science — Practical programming — questions</title>
+<style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 10.5pt/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #17202a; }
+h1 { font-size: 20pt; margin: 0 0 4mm; } h2 { font-size: 14pt; margin: 0 0 2mm; } h3 { font-size: 11.5pt; margin: 0 0 2mm; }
+header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom: 6mm; }
+.meta { color: #4b5563; font-size: 9pt; } .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(55mm, 1fr)); gap: 3mm; }
+.card { border: .5pt solid #9ca3af; border-radius: 2mm; padding: 3mm; break-inside: avoid; } a { color: inherit; }
+.question { padding-bottom: 2mm; }
+.question + .question { page-break-before: always; break-before: page; }
+.question-start { page-break-inside: avoid; break-inside: avoid; }
+.question-head { display: flex; justify-content: space-between; gap: 4mm; border-bottom: .5pt solid #9ca3af; padding-bottom: 2mm; margin-bottom: 4mm; page-break-after: avoid; break-after: avoid-page; }
+.crop { margin: 0 0 5mm; page-break-inside: avoid; break-inside: avoid; }
+.crop img { display: block; max-width: 100%; max-height: 232mm; width: auto; height: auto; margin: 0 auto; border: .35pt solid #d1d5db; }
+.note { color: #6b7280; font-size: 8.5pt; }
+@media screen { body { max-width: 190mm; margin: 12mm auto; } .question { margin-bottom: 12mm; } .crop img { width: 100%; max-height: none; } }
+</style>
+</head><body>
+<header><h1>Practical programming</h1><div class='meta'>9618 Computer Science · A2 topical questions · 87 questions</div></header>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-41-q01</h2><div class='meta'>May/June 2021 · Paper 41 · Question 1 · 24 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q01-p01.png' alt='9618-2021-mj-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q01-p02.png' alt='9618-2021-mj-41-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q01-p03.png' alt='9618-2021-mj-41-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q01-p04.png' alt='9618-2021-mj-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-41-q02</h2><div class='meta'>May/June 2021 · Paper 41 · Question 2 · 20 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q02-p01.png' alt='9618-2021-mj-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q02-p02.png' alt='9618-2021-mj-41-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-41-q03</h2><div class='meta'>May/June 2021 · Paper 41 · Question 3 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q03-p01.png' alt='9618-2021-mj-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q03-p02.png' alt='9618-2021-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q03-p03.png' alt='9618-2021-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q03-p04.png' alt='9618-2021-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-41-q03-p05.png' alt='9618-2021-mj-41-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-42-q01</h2><div class='meta'>May/June 2021 · Paper 42 · Question 1 · 24 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q01-p01.png' alt='9618-2021-mj-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q01-p02.png' alt='9618-2021-mj-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q01-p03.png' alt='9618-2021-mj-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q01-p04.png' alt='9618-2021-mj-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-42-q02</h2><div class='meta'>May/June 2021 · Paper 42 · Question 2 · 20 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q02-p01.png' alt='9618-2021-mj-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q02-p02.png' alt='9618-2021-mj-42-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-42-q03</h2><div class='meta'>May/June 2021 · Paper 42 · Question 3 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q03-p01.png' alt='9618-2021-mj-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q03-p02.png' alt='9618-2021-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q03-p03.png' alt='9618-2021-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q03-p04.png' alt='9618-2021-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-42-q03-p05.png' alt='9618-2021-mj-42-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-43-q01</h2><div class='meta'>May/June 2021 · Paper 43 · Question 1 · 24 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q01-p01.png' alt='9618-2021-mj-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q01-p02.png' alt='9618-2021-mj-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q01-p03.png' alt='9618-2021-mj-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q01-p04.png' alt='9618-2021-mj-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-43-q02</h2><div class='meta'>May/June 2021 · Paper 43 · Question 2 · 20 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q02-p01.png' alt='9618-2021-mj-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q02-p02.png' alt='9618-2021-mj-43-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-mj-43-q03</h2><div class='meta'>May/June 2021 · Paper 43 · Question 3 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q03-p01.png' alt='9618-2021-mj-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q03-p02.png' alt='9618-2021-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q03-p03.png' alt='9618-2021-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q03-p04.png' alt='9618-2021-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-mj-43-q03-p05.png' alt='9618-2021-mj-43-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-on-41-q01</h2><div class='meta'>Oct/Nov 2021 · Paper 41 · Question 1 · 17 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-on-41-q01-p01.png' alt='9618-2021-on-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-on-41-q01-p02.png' alt='9618-2021-on-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-on-41-q02</h2><div class='meta'>Oct/Nov 2021 · Paper 41 · Question 2 · 30 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-on-41-q02-p01.png' alt='9618-2021-on-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-on-41-q02-p02.png' alt='9618-2021-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-41-q02-p03.png' alt='9618-2021-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-41-q02-p04.png' alt='9618-2021-on-41-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-on-41-q03</h2><div class='meta'>Oct/Nov 2021 · Paper 41 · Question 3 · 34 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-on-41-q03-p01.png' alt='9618-2021-on-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-on-41-q03-p02.png' alt='9618-2021-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-41-q03-p03.png' alt='9618-2021-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-41-q03-p04.png' alt='9618-2021-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-41-q03-p05.png' alt='9618-2021-on-41-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-on-42-q01</h2><div class='meta'>Oct/Nov 2021 · Paper 42 · Question 1 · 17 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-on-42-q01-p01.png' alt='9618-2021-on-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-on-42-q01-p02.png' alt='9618-2021-on-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-on-42-q02</h2><div class='meta'>Oct/Nov 2021 · Paper 42 · Question 2 · 30 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-on-42-q02-p01.png' alt='9618-2021-on-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-on-42-q02-p02.png' alt='9618-2021-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-42-q02-p03.png' alt='9618-2021-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-42-q02-p04.png' alt='9618-2021-on-42-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2021-on-42-q03</h2><div class='meta'>Oct/Nov 2021 · Paper 42 · Question 3 · 34 marks</div></div>
+<figure class='crop'><img src='assets/9618-2021-on-42-q03-p01.png' alt='9618-2021-on-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2021-on-42-q03-p02.png' alt='9618-2021-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-42-q03-p03.png' alt='9618-2021-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-42-q03-p04.png' alt='9618-2021-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2021-on-42-q03-p05.png' alt='9618-2021-on-42-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-41-q01</h2><div class='meta'>May/June 2022 · Paper 41 · Question 1 · 29 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q01-p01.png' alt='9618-2022-mj-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q01-p02.png' alt='9618-2022-mj-41-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q01-p03.png' alt='9618-2022-mj-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-41-q02</h2><div class='meta'>May/June 2022 · Paper 41 · Question 2 · 25 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q02-p01.png' alt='9618-2022-mj-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q02-p02.png' alt='9618-2022-mj-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q02-p03.png' alt='9618-2022-mj-41-q02 source crop'></figure>
+<div class='note'>Source pages: 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-41-q03</h2><div class='meta'>May/June 2022 · Paper 41 · Question 3 · 21 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q03-p01.png' alt='9618-2022-mj-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q03-p02.png' alt='9618-2022-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q03-p03.png' alt='9618-2022-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q03-p04.png' alt='9618-2022-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-41-q03-p05.png' alt='9618-2022-mj-41-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-42-q01</h2><div class='meta'>May/June 2022 · Paper 42 · Question 1 · 25 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q01-p01.png' alt='9618-2022-mj-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q01-p02.png' alt='9618-2022-mj-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-42-q02</h2><div class='meta'>May/June 2022 · Paper 42 · Question 2 · 23 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q02-p01.png' alt='9618-2022-mj-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q02-p02.png' alt='9618-2022-mj-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q02-p03.png' alt='9618-2022-mj-42-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-42-q03</h2><div class='meta'>May/June 2022 · Paper 42 · Question 3 · 27 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q03-p01.png' alt='9618-2022-mj-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q03-p02.png' alt='9618-2022-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q03-p03.png' alt='9618-2022-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q03-p04.png' alt='9618-2022-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q03-p05.png' alt='9618-2022-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-42-q03-p06.png' alt='9618-2022-mj-42-q03 source crop'></figure>
+<div class='note'>Source pages: 7, 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-43-q01</h2><div class='meta'>May/June 2022 · Paper 43 · Question 1 · 29 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q01-p01.png' alt='9618-2022-mj-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q01-p02.png' alt='9618-2022-mj-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q01-p03.png' alt='9618-2022-mj-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-43-q02</h2><div class='meta'>May/June 2022 · Paper 43 · Question 2 · 25 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q02-p01.png' alt='9618-2022-mj-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q02-p02.png' alt='9618-2022-mj-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q02-p03.png' alt='9618-2022-mj-43-q02 source crop'></figure>
+<div class='note'>Source pages: 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-mj-43-q03</h2><div class='meta'>May/June 2022 · Paper 43 · Question 3 · 21 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q03-p01.png' alt='9618-2022-mj-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q03-p02.png' alt='9618-2022-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q03-p03.png' alt='9618-2022-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q03-p04.png' alt='9618-2022-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-mj-43-q03-p05.png' alt='9618-2022-mj-43-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-41-q01</h2><div class='meta'>Oct/Nov 2022 · Paper 41 · Question 1 · 23 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-41-q01-p01.png' alt='9618-2022-on-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-41-q01-p02.png' alt='9618-2022-on-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-41-q02</h2><div class='meta'>Oct/Nov 2022 · Paper 41 · Question 2 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-41-q02-p01.png' alt='9618-2022-on-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-41-q02-p02.png' alt='9618-2022-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-41-q02-p03.png' alt='9618-2022-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-41-q02-p04.png' alt='9618-2022-on-41-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-41-q03</h2><div class='meta'>Oct/Nov 2022 · Paper 41 · Question 3 · 21 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-41-q03-p01.png' alt='9618-2022-on-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-41-q03-p02.png' alt='9618-2022-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-41-q03-p03.png' alt='9618-2022-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-41-q03-p04.png' alt='9618-2022-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-41-q03-p05.png' alt='9618-2022-on-41-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-42-q01</h2><div class='meta'>Oct/Nov 2022 · Paper 42 · Question 1 · 23 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-42-q01-p01.png' alt='9618-2022-on-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-42-q01-p02.png' alt='9618-2022-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-42-q01-p03.png' alt='9618-2022-on-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-42-q02</h2><div class='meta'>Oct/Nov 2022 · Paper 42 · Question 2 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-42-q02-p01.png' alt='9618-2022-on-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-42-q02-p02.png' alt='9618-2022-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-42-q02-p03.png' alt='9618-2022-on-42-q02 source crop'></figure>
+<div class='note'>Source pages: 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-42-q03</h2><div class='meta'>Oct/Nov 2022 · Paper 42 · Question 3 · 21 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-42-q03-p01.png' alt='9618-2022-on-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-42-q03-p02.png' alt='9618-2022-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-42-q03-p03.png' alt='9618-2022-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-42-q03-p04.png' alt='9618-2022-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-42-q03-p05.png' alt='9618-2022-on-42-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-43-q01</h2><div class='meta'>Oct/Nov 2022 · Paper 43 · Question 1 · 23 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-43-q01-p01.png' alt='9618-2022-on-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-43-q01-p02.png' alt='9618-2022-on-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-43-q02</h2><div class='meta'>Oct/Nov 2022 · Paper 43 · Question 2 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-43-q02-p01.png' alt='9618-2022-on-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-43-q02-p02.png' alt='9618-2022-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-43-q02-p03.png' alt='9618-2022-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-43-q02-p04.png' alt='9618-2022-on-43-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2022-on-43-q03</h2><div class='meta'>Oct/Nov 2022 · Paper 43 · Question 3 · 21 marks</div></div>
+<figure class='crop'><img src='assets/9618-2022-on-43-q03-p01.png' alt='9618-2022-on-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2022-on-43-q03-p02.png' alt='9618-2022-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-43-q03-p03.png' alt='9618-2022-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-43-q03-p04.png' alt='9618-2022-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2022-on-43-q03-p05.png' alt='9618-2022-on-43-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-41-q01</h2><div class='meta'>May/June 2023 · Paper 41 · Question 1 · 18 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q01-p01.png' alt='9618-2023-mj-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q01-p02.png' alt='9618-2023-mj-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-41-q02</h2><div class='meta'>May/June 2023 · Paper 41 · Question 2 · 32 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q02-p01.png' alt='9618-2023-mj-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q02-p02.png' alt='9618-2023-mj-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q02-p03.png' alt='9618-2023-mj-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q02-p04.png' alt='9618-2023-mj-41-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-41-q03</h2><div class='meta'>May/June 2023 · Paper 41 · Question 3 · 25 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q03-p01.png' alt='9618-2023-mj-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q03-p02.png' alt='9618-2023-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q03-p03.png' alt='9618-2023-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q03-p04.png' alt='9618-2023-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-41-q03-p05.png' alt='9618-2023-mj-41-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-42-q01</h2><div class='meta'>May/June 2023 · Paper 42 · Question 1 · 14 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q01-p01.png' alt='9618-2023-mj-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q01-p02.png' alt='9618-2023-mj-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q01-p03.png' alt='9618-2023-mj-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-42-q02</h2><div class='meta'>May/June 2023 · Paper 42 · Question 2 · 28 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q02-p01.png' alt='9618-2023-mj-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q02-p02.png' alt='9618-2023-mj-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q02-p03.png' alt='9618-2023-mj-42-q02 source crop'></figure>
+<div class='note'>Source pages: 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-42-q03</h2><div class='meta'>May/June 2023 · Paper 42 · Question 3 · 33 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q03-p01.png' alt='9618-2023-mj-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q03-p02.png' alt='9618-2023-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q03-p03.png' alt='9618-2023-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q03-p04.png' alt='9618-2023-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-42-q03-p05.png' alt='9618-2023-mj-42-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-43-q01</h2><div class='meta'>May/June 2023 · Paper 43 · Question 1 · 18 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q01-p01.png' alt='9618-2023-mj-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q01-p02.png' alt='9618-2023-mj-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-43-q02</h2><div class='meta'>May/June 2023 · Paper 43 · Question 2 · 32 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q02-p01.png' alt='9618-2023-mj-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q02-p02.png' alt='9618-2023-mj-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q02-p03.png' alt='9618-2023-mj-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q02-p04.png' alt='9618-2023-mj-43-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-mj-43-q03</h2><div class='meta'>May/June 2023 · Paper 43 · Question 3 · 25 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q03-p01.png' alt='9618-2023-mj-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q03-p02.png' alt='9618-2023-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q03-p03.png' alt='9618-2023-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q03-p04.png' alt='9618-2023-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-mj-43-q03-p05.png' alt='9618-2023-mj-43-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-41-q01</h2><div class='meta'>Oct/Nov 2023 · Paper 41 · Question 1 · 16 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-41-q01-p01.png' alt='9618-2023-on-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-41-q01-p02.png' alt='9618-2023-on-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-41-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 41 · Question 2 · 29 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-41-q02-p01.png' alt='9618-2023-on-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-41-q02-p02.png' alt='9618-2023-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-41-q02-p03.png' alt='9618-2023-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-41-q02-p04.png' alt='9618-2023-on-41-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-41-q03</h2><div class='meta'>Oct/Nov 2023 · Paper 41 · Question 3 · 30 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-41-q03-p01.png' alt='9618-2023-on-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-41-q03-p02.png' alt='9618-2023-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-41-q03-p03.png' alt='9618-2023-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-41-q03-p04.png' alt='9618-2023-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-41-q03-p05.png' alt='9618-2023-on-41-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-42-q01</h2><div class='meta'>Oct/Nov 2023 · Paper 42 · Question 1 · 27 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-42-q01-p01.png' alt='9618-2023-on-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-42-q01-p02.png' alt='9618-2023-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q01-p03.png' alt='9618-2023-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q01-p04.png' alt='9618-2023-on-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-42-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 42 · Question 2 · 17 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-42-q02-p01.png' alt='9618-2023-on-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-42-q02-p02.png' alt='9618-2023-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q02-p03.png' alt='9618-2023-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q02-p04.png' alt='9618-2023-on-42-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-42-q03</h2><div class='meta'>Oct/Nov 2023 · Paper 42 · Question 3 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-42-q03-p01.png' alt='9618-2023-on-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-42-q03-p02.png' alt='9618-2023-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q03-p03.png' alt='9618-2023-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q03-p04.png' alt='9618-2023-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q03-p05.png' alt='9618-2023-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q03-p06.png' alt='9618-2023-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-42-q03-p07.png' alt='9618-2023-on-42-q03 source crop'></figure>
+<div class='note'>Source pages: 10, 11, 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-43-q01</h2><div class='meta'>Oct/Nov 2023 · Paper 43 · Question 1 · 16 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-43-q01-p01.png' alt='9618-2023-on-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-43-q01-p02.png' alt='9618-2023-on-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-43-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 43 · Question 2 · 29 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-43-q02-p01.png' alt='9618-2023-on-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-43-q02-p02.png' alt='9618-2023-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-43-q02-p03.png' alt='9618-2023-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-43-q02-p04.png' alt='9618-2023-on-43-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2023-on-43-q03</h2><div class='meta'>Oct/Nov 2023 · Paper 43 · Question 3 · 30 marks</div></div>
+<figure class='crop'><img src='assets/9618-2023-on-43-q03-p01.png' alt='9618-2023-on-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2023-on-43-q03-p02.png' alt='9618-2023-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-43-q03-p03.png' alt='9618-2023-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-43-q03-p04.png' alt='9618-2023-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2023-on-43-q03-p05.png' alt='9618-2023-on-43-q03 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-41-q01</h2><div class='meta'>May/June 2024 · Paper 41 · Question 1 · 27 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q01-p01.png' alt='9618-2024-mj-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q01-p02.png' alt='9618-2024-mj-41-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q01-p03.png' alt='9618-2024-mj-41-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q01-p04.png' alt='9618-2024-mj-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-41-q02</h2><div class='meta'>May/June 2024 · Paper 41 · Question 2 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q02-p01.png' alt='9618-2024-mj-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q02-p02.png' alt='9618-2024-mj-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q02-p03.png' alt='9618-2024-mj-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q02-p04.png' alt='9618-2024-mj-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q02-p05.png' alt='9618-2024-mj-41-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9, 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-41-q03</h2><div class='meta'>May/June 2024 · Paper 41 · Question 3 · 17 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q03-p01.png' alt='9618-2024-mj-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q03-p02.png' alt='9618-2024-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q03-p03.png' alt='9618-2024-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q03-p04.png' alt='9618-2024-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q03-p05.png' alt='9618-2024-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-41-q03-p06.png' alt='9618-2024-mj-41-q03 source crop'></figure>
+<div class='note'>Source pages: 11, 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-42-q01</h2><div class='meta'>May/June 2024 · Paper 42 · Question 1 · 22 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q01-p01.png' alt='9618-2024-mj-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q01-p02.png' alt='9618-2024-mj-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q01-p03.png' alt='9618-2024-mj-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q01-p04.png' alt='9618-2024-mj-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-42-q02</h2><div class='meta'>May/June 2024 · Paper 42 · Question 2 · 30 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q02-p01.png' alt='9618-2024-mj-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q02-p02.png' alt='9618-2024-mj-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q02-p03.png' alt='9618-2024-mj-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q02-p04.png' alt='9618-2024-mj-42-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-42-q03</h2><div class='meta'>May/June 2024 · Paper 42 · Question 3 · 23 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q03-p01.png' alt='9618-2024-mj-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q03-p02.png' alt='9618-2024-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q03-p03.png' alt='9618-2024-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q03-p04.png' alt='9618-2024-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q03-p05.png' alt='9618-2024-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q03-p06.png' alt='9618-2024-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-42-q03-p07.png' alt='9618-2024-mj-42-q03 source crop'></figure>
+<div class='note'>Source pages: 10, 11, 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-43-q01</h2><div class='meta'>May/June 2024 · Paper 43 · Question 1 · 27 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q01-p01.png' alt='9618-2024-mj-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q01-p02.png' alt='9618-2024-mj-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q01-p03.png' alt='9618-2024-mj-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q01-p04.png' alt='9618-2024-mj-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-43-q02</h2><div class='meta'>May/June 2024 · Paper 43 · Question 2 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q02-p01.png' alt='9618-2024-mj-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q02-p02.png' alt='9618-2024-mj-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q02-p03.png' alt='9618-2024-mj-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q02-p04.png' alt='9618-2024-mj-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q02-p05.png' alt='9618-2024-mj-43-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9, 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-mj-43-q03</h2><div class='meta'>May/June 2024 · Paper 43 · Question 3 · 17 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q03-p01.png' alt='9618-2024-mj-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q03-p02.png' alt='9618-2024-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q03-p03.png' alt='9618-2024-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q03-p04.png' alt='9618-2024-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q03-p05.png' alt='9618-2024-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-mj-43-q03-p06.png' alt='9618-2024-mj-43-q03 source crop'></figure>
+<div class='note'>Source pages: 11, 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-41-q01</h2><div class='meta'>Oct/Nov 2024 · Paper 41 · Question 1 · 22 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-41-q01-p01.png' alt='9618-2024-on-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-41-q01-p02.png' alt='9618-2024-on-41-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q01-p03.png' alt='9618-2024-on-41-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q01-p04.png' alt='9618-2024-on-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-41-q02</h2><div class='meta'>Oct/Nov 2024 · Paper 41 · Question 2 · 34 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-41-q02-p01.png' alt='9618-2024-on-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-41-q02-p02.png' alt='9618-2024-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q02-p03.png' alt='9618-2024-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q02-p04.png' alt='9618-2024-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q02-p05.png' alt='9618-2024-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q02-p06.png' alt='9618-2024-on-41-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9, 10, 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-41-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 41 · Question 3 · 19 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-41-q03-p01.png' alt='9618-2024-on-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-41-q03-p02.png' alt='9618-2024-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q03-p03.png' alt='9618-2024-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q03-p04.png' alt='9618-2024-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-41-q03-p05.png' alt='9618-2024-on-41-q03 source crop'></figure>
+<div class='note'>Source pages: 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-42-q01</h2><div class='meta'>Oct/Nov 2024 · Paper 42 · Question 1 · 29 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-42-q01-p01.png' alt='9618-2024-on-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-42-q01-p02.png' alt='9618-2024-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q01-p03.png' alt='9618-2024-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q01-p04.png' alt='9618-2024-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q01-p05.png' alt='9618-2024-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q01-p06.png' alt='9618-2024-on-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5, 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-42-q02</h2><div class='meta'>Oct/Nov 2024 · Paper 42 · Question 2 · 29 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-42-q02-p01.png' alt='9618-2024-on-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-42-q02-p02.png' alt='9618-2024-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q02-p03.png' alt='9618-2024-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q02-p04.png' alt='9618-2024-on-42-q02 source crop'></figure>
+<div class='note'>Source pages: 8, 9, 10, 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-42-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 42 · Question 3 · 17 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-42-q03-p01.png' alt='9618-2024-on-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-42-q03-p02.png' alt='9618-2024-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q03-p03.png' alt='9618-2024-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q03-p04.png' alt='9618-2024-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-42-q03-p05.png' alt='9618-2024-on-42-q03 source crop'></figure>
+<div class='note'>Source pages: 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-43-q01</h2><div class='meta'>Oct/Nov 2024 · Paper 43 · Question 1 · 22 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-43-q01-p01.png' alt='9618-2024-on-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-43-q01-p02.png' alt='9618-2024-on-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q01-p03.png' alt='9618-2024-on-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q01-p04.png' alt='9618-2024-on-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-43-q02</h2><div class='meta'>Oct/Nov 2024 · Paper 43 · Question 2 · 34 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-43-q02-p01.png' alt='9618-2024-on-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-43-q02-p02.png' alt='9618-2024-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q02-p03.png' alt='9618-2024-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q02-p04.png' alt='9618-2024-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q02-p05.png' alt='9618-2024-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q02-p06.png' alt='9618-2024-on-43-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9, 10, 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2024-on-43-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 43 · Question 3 · 19 marks</div></div>
+<figure class='crop'><img src='assets/9618-2024-on-43-q03-p01.png' alt='9618-2024-on-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2024-on-43-q03-p02.png' alt='9618-2024-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q03-p03.png' alt='9618-2024-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q03-p04.png' alt='9618-2024-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2024-on-43-q03-p05.png' alt='9618-2024-on-43-q03 source crop'></figure>
+<div class='note'>Source pages: 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-41-q01</h2><div class='meta'>May/June 2025 · Paper 41 · Question 1 · 20 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q01-p01.png' alt='9618-2025-mj-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q01-p02.png' alt='9618-2025-mj-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-41-q02</h2><div class='meta'>May/June 2025 · Paper 41 · Question 2 · 25 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q02-p01.png' alt='9618-2025-mj-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q02-p02.png' alt='9618-2025-mj-41-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-41-q03</h2><div class='meta'>May/June 2025 · Paper 41 · Question 3 · 30 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q03-p01.png' alt='9618-2025-mj-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q03-p02.png' alt='9618-2025-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q03-p03.png' alt='9618-2025-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q03-p04.png' alt='9618-2025-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q03-p05.png' alt='9618-2025-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q03-p06.png' alt='9618-2025-mj-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-41-q03-p07.png' alt='9618-2025-mj-41-q03 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-42-q01</h2><div class='meta'>May/June 2025 · Paper 42 · Question 1 · 27 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q01-p01.png' alt='9618-2025-mj-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q01-p02.png' alt='9618-2025-mj-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q01-p03.png' alt='9618-2025-mj-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q01-p04.png' alt='9618-2025-mj-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-42-q02</h2><div class='meta'>May/June 2025 · Paper 42 · Question 2 · 22 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q02-p01.png' alt='9618-2025-mj-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q02-p02.png' alt='9618-2025-mj-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q02-p03.png' alt='9618-2025-mj-42-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-42-q03</h2><div class='meta'>May/June 2025 · Paper 42 · Question 3 · 26 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q03-p01.png' alt='9618-2025-mj-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q03-p02.png' alt='9618-2025-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q03-p03.png' alt='9618-2025-mj-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-42-q03-p04.png' alt='9618-2025-mj-42-q03 source crop'></figure>
+<div class='note'>Source pages: 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-43-q01</h2><div class='meta'>May/June 2025 · Paper 43 · Question 1 · 26 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q01-p01.png' alt='9618-2025-mj-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q01-p02.png' alt='9618-2025-mj-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-43-q02</h2><div class='meta'>May/June 2025 · Paper 43 · Question 2 · 20 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q02-p01.png' alt='9618-2025-mj-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q02-p02.png' alt='9618-2025-mj-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q02-p03.png' alt='9618-2025-mj-43-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-mj-43-q03</h2><div class='meta'>May/June 2025 · Paper 43 · Question 3 · 29 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q03-p01.png' alt='9618-2025-mj-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q03-p02.png' alt='9618-2025-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q03-p03.png' alt='9618-2025-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q03-p04.png' alt='9618-2025-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q03-p05.png' alt='9618-2025-mj-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-mj-43-q03-p06.png' alt='9618-2025-mj-43-q03 source crop'></figure>
+<div class='note'>Source pages: 7, 8, 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-41-q01</h2><div class='meta'>Oct/Nov 2025 · Paper 41 · Question 1 · 20 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-41-q01-p01.png' alt='9618-2025-on-41-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-41-q01-p02.png' alt='9618-2025-on-41-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-41-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 41 · Question 2 · 30 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-41-q02-p01.png' alt='9618-2025-on-41-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-41-q02-p02.png' alt='9618-2025-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-41-q02-p03.png' alt='9618-2025-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-41-q02-p04.png' alt='9618-2025-on-41-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-41-q02-p05.png' alt='9618-2025-on-41-q02 source crop'></figure>
+<div class='note'>Source pages: 4, 5, 6, 7, 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-41-q03</h2><div class='meta'>Oct/Nov 2025 · Paper 41 · Question 3 · 25 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-41-q03-p01.png' alt='9618-2025-on-41-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-41-q03-p02.png' alt='9618-2025-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-41-q03-p03.png' alt='9618-2025-on-41-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-41-q03-p04.png' alt='9618-2025-on-41-q03 source crop'></figure>
+<div class='note'>Source pages: 9, 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-42-q01</h2><div class='meta'>Oct/Nov 2025 · Paper 42 · Question 1 · 28 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-42-q01-p01.png' alt='9618-2025-on-42-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-42-q01-p02.png' alt='9618-2025-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-42-q01-p03.png' alt='9618-2025-on-42-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-42-q01-p04.png' alt='9618-2025-on-42-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-42-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 42 · Question 2 · 26 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-42-q02-p01.png' alt='9618-2025-on-42-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-42-q02-p02.png' alt='9618-2025-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-42-q02-p03.png' alt='9618-2025-on-42-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-42-q02-p04.png' alt='9618-2025-on-42-q02 source crop'></figure>
+<div class='note'>Source pages: 6, 7, 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-42-q03</h2><div class='meta'>Oct/Nov 2025 · Paper 42 · Question 3 · 21 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-42-q03-p01.png' alt='9618-2025-on-42-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-42-q03-p02.png' alt='9618-2025-on-42-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-42-q03-p03.png' alt='9618-2025-on-42-q03 source crop'></figure>
+<div class='note'>Source pages: 10, 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-43-q01</h2><div class='meta'>Oct/Nov 2025 · Paper 43 · Question 1 · 31 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-43-q01-p01.png' alt='9618-2025-on-43-q01 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-43-q01-p02.png' alt='9618-2025-on-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q01-p03.png' alt='9618-2025-on-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q01-p04.png' alt='9618-2025-on-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q01-p05.png' alt='9618-2025-on-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q01-p06.png' alt='9618-2025-on-43-q01 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q01-p07.png' alt='9618-2025-on-43-q01 source crop'></figure>
+<div class='note'>Source pages: 2, 3, 4, 5, 6, 7, 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-43-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 43 · Question 2 · 24 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-43-q02-p01.png' alt='9618-2025-on-43-q02 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-43-q02-p02.png' alt='9618-2025-on-43-q02 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q02-p03.png' alt='9618-2025-on-43-q02 source crop'></figure>
+<div class='note'>Source pages: 9, 10, 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+<article class='question'>
+<div class='question-start'>
+<div class='question-head'><h2>9618-2025-on-43-q03</h2><div class='meta'>Oct/Nov 2025 · Paper 43 · Question 3 · 20 marks</div></div>
+<figure class='crop'><img src='assets/9618-2025-on-43-q03-p01.png' alt='9618-2025-on-43-q03 source crop'></figure>
+</div>
+<figure class='crop'><img src='assets/9618-2025-on-43-q03-p02.png' alt='9618-2025-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q03-p03.png' alt='9618-2025-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q03-p04.png' alt='9618-2025-on-43-q03 source crop'></figure>
+<figure class='crop'><img src='assets/9618-2025-on-43-q03-p05.png' alt='9618-2025-on-43-q03 source crop'></figure>
+<div class='note'>Source pages: 12, 13, 14, 15, 16 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
+</body></html>

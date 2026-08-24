@@ -1,0 +1,716 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'>
+<title>9618 Data representation — answers</title>
+<style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 10.5pt/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #17202a; }
+h1 { font-size: 20pt; margin: 0 0 4mm; } h2 { font-size: 14pt; margin: 0 0 2mm; }
+header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom: 6mm; }
+.meta, .note { color: #4b5563; font-size: 9pt; } .question { padding-bottom: 2mm; }
+.question + .question { page-break-before: always; break-before: page; }
+.question-head { display: flex; justify-content: space-between; gap: 4mm; border-bottom: .5pt solid #9ca3af; padding-bottom: 2mm; margin-bottom: 4mm; page-break-after: avoid; break-after: avoid-page; }
+.question-head + .answer-text { page-break-before: avoid; break-before: avoid-page; }
+.answer-text { white-space: pre-wrap; font: 9pt/1.35 ui-monospace, SFMono-Regular, Menlo, monospace; border: .5pt solid #d1d5db; padding: 4mm; overflow-wrap: anywhere; }
+@media screen { body { max-width: 190mm; margin: 12mm auto; } .question { margin-bottom: 12mm; } }
+</style>
+</head><body>
+<header><h1>Data representation</h1><div class='meta'>9618 Computer Science · official mark-scheme answers · 26 questions</div></header>
+<article class='question'>
+<div class='question-head'><h2>9618-2021-mj-31-q01</h2><div class='meta'>May/June 2021 · Paper 31 · Question 1 · 14 marks</div></div>
+<div class='answer-text'>1(a) Working: one mark for calculation of the mantissa and one mark for 3
+calculation or use of the exponent
+Exponent: one from:
+= 0.11101 × 23 // 0.11101 × 211 // 0.11101 × 103 // 0.11101 × 1011
+= 1.00011 × 23 // 1.00011 × 211 // 1.00011 × 103 // 1.00011 × 1011
+= appropriate shifting of binary point for +7.25
+Mantissa: one from:
+= 111.01 (conversion to binary +7.25 – 10 bits)
+= 0111010000 (mantissa 10 bits for +7.25
+= 1000101111(one’s complement mantissa for –7.25)
+= 1000110000 (two’s complement mantissa for –7.25)
+Correct Answer (Max 1)
+Mantissa Exponent
+
+1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1
+
+1(b) One mark for working out the exponent 3
+One mark for working out the mantissa
+One mark for the correct answer
+Example answers
+• =1.011000111 × 27 (exponent is 7)
+• =10110001.11 // –128 + 32 + 16 + 1 + 0.5 + 0.25 // convert to positive
+01001110.01 (and add a minus sign to the answer)
+• –78.25
+
+1(c) One mark for working 3
+One mark for correct mantissa
+One mark for correct exponent
+Example answers
+Number of places added to exponent for normalisation −6 for number to
+retain its value // mantissa moved 6 places left
+Mantissa
+0 1 1 1 0 0 0 0 0 0
+Exponent
+
+1 0 0 0 0 1
+
+1(d)(i) One mark for each correct marking point (Max 3) 3
+• Requires 11 bits / more than 10 bits to store (accurately) / reference to
+maximum (positive) number that can be stored = 511
+• Denary 513 in binary is 1000000001 // Normalised: 0.1000000001
+• Results in overflow
+© UCLES 2021 Page 3 of 10
+
+1(d)(ii) One mark for each correct marking point (Max 2) 2
+• The number of bits for the mantissa must be increased
+• 11/12 bits mantissa and 5/4 bits exponent
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3, 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2021-mj-32-q01</h2><div class='meta'>May/June 2021 · Paper 32 · Question 1 · 14 marks</div></div>
+<div class='answer-text'>1(a) Working: one mark for calculation of the mantissa and one mark for 3
+calculation or use of the exponent
+Exponent: one from:
+= 0.11101 × 23 // 0.11101 × 211 // 0.11101 × 103 // 0.11101 × 1011
+= 1.00011 × 23 // 1.00011 × 211 // 1.00011 × 103 // 1.00011 × 1011
+= appropriate shifting of binary point for +7.25
+Mantissa: one from:
+= 111.01 (conversion to binary +7.25 – 10 bits)
+= 0111010000 (mantissa 10 bits for +7.25
+= 1000101111(one’s complement mantissa for –7.25)
+= 1000110000 (two’s complement mantissa for –7.25)
+Correct Answer (Max 1)
+Mantissa Exponent
+
+1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1
+
+1(b) One mark for working out the exponent 3
+One mark for working out the mantissa
+One mark for the correct answer
+Example answers
+• =1.011000111 × 27 (exponent is 7)
+• =10110001.11 // –128 + 32 + 16 + 1 + 0.5 + 0.25 // convert to positive
+01001110.01 (and add a minus sign to the answer)
+• –78.25
+
+1(c) One mark for working 3
+One mark for correct mantissa
+One mark for correct exponent
+Example answers
+Number of places added to exponent for normalisation −6 for number to
+retain its value // mantissa moved 6 places left
+Mantissa
+0 1 1 1 0 0 0 0 0 0
+Exponent
+
+1 0 0 0 0 1
+
+1(d)(i) One mark for each correct marking point (Max 3) 3
+• Requires 11 bits / more than 10 bits to store (accurately) / reference to
+maximum (positive) number that can be stored = 511
+• Denary 513 in binary is 1000000001 // Normalised: 0.1000000001
+• Results in overflow
+© UCLES 2021 Page 3 of 10
+
+1(d)(ii) One mark for each correct marking point (Max 2) 2
+• The number of bits for the mantissa must be increased
+• 11/12 bits mantissa and 5/4 bits exponent
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3, 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2021-mj-33-q01</h2><div class='meta'>May/June 2021 · Paper 33 · Question 1 · 14 marks</div></div>
+<div class='answer-text'>1(a) Working: one mark for calculation of the mantissa and one mark for 3
+calculation or use of the exponent
+Exponent: one from:
+= 0.11101 × 23 // 0.11101 × 211 // 0.11101 × 103 // 0.11101 × 1011
+= 1.00011 × 23 // 1.00011 × 211 // 1.00011 × 103 // 1.00011 × 1011
+= appropriate shifting of binary point for +7.25
+Mantissa: one from:
+= 111.01 (conversion to binary +7.25 – 10 bits)
+= 0111010000 (mantissa 10 bits for +7.25
+= 1000101111(one’s complement mantissa for –7.25)
+= 1000110000 (two’s complement mantissa for –7.25)
+Correct Answer (Max 1)
+Mantissa Exponent
+
+1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1
+
+1(b) One mark for working out the exponent 3
+One mark for working out the mantissa
+One mark for the correct answer
+Example answers
+• =1.011000111 × 27 (exponent is 7)
+• =10110001.11 // –128 + 32 + 16 + 1 + 0.5 + 0.25 // convert to positive
+01001110.01 (and add a minus sign to the answer)
+• –78.25
+
+1(c) One mark for working 3
+One mark for correct mantissa
+One mark for correct exponent
+Example answers
+Number of places added to exponent for normalisation −6 for number to
+retain its value // mantissa moved 6 places left
+Mantissa
+0 1 1 1 0 0 0 0 0 0
+Exponent
+
+1 0 0 0 0 1
+
+1(d)(i) One mark for each correct marking point (Max 3) 3
+• Requires 11 bits / more than 10 bits to store (accurately) / reference to
+maximum (positive) number that can be stored = 511
+• Denary 513 in binary is 1000000001 // Normalised: 0.1000000001
+• Results in overflow
+© UCLES 2021 Page 3 of 10
+
+1(d)(ii) One mark for each correct marking point (Max 2) 2
+• The number of bits for the mantissa must be increased
+• 11/12 bits mantissa and 5/4 bits exponent
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3, 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2021-on-31-q01</h2><div class='meta'>Oct/Nov 2021 · Paper 31 · Question 1 · 7 marks</div></div>
+<div class='answer-text'>1(a)(i) One mark for each correct marking point (Max 2) 2
+• 010111000110 (correct mantissa)
+• 0111 (correct exponent)
+
+1(a)(ii) One mark for each correct consequence 2
+One mark for each correct justification
+Consequence
+• The precision/accuracy of the number would be reduced
+Justification
+• … because the least significant bits of the original number have been
+truncated/lost // the original number had 13 bits / 14 bits with sign but the
+mantissa can only store 12 bits
+
+1(b) One mark for each correct marking point (Max 3) 3
+• To store the maximum range of numbers in the minimum number of bytes
+/ bits
+• Normalisation minimises the number of leading zeros/ones represented
+• Maximising the number of significant bits // maximising the (potential)
+precision / accuracy of the number for the given number of bits
+• … enables very large / small numbers to be stored with accuracy.
+• Avoids the possibility of many numbers having multiple representations.
+© UCLES 2021 Page 3 of 10</div>
+<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2021-on-32-q01</h2><div class='meta'>Oct/Nov 2021 · Paper 32 · Question 1 · 7 marks</div></div>
+<div class='answer-text'>1(a)(i) One mark for each correct marking point (Max 2) 2
+• 010111000110 (correct mantissa)
+• 0111 (correct exponent)
+
+1(a)(ii) One mark for each correct consequence 2
+One mark for each correct justification
+Consequence
+• The precision/accuracy of the number would be reduced
+Justification
+• … because the least significant bits of the original number have been
+truncated/lost // the original number had 13 bits / 14 bits with sign but the
+mantissa can only store 12 bits
+
+1(b) One mark for each correct marking point (Max 3) 3
+• To store the maximum range of numbers in the minimum number of bytes
+/ bits
+• Normalisation minimises the number of leading zeros/ones represented
+• Maximising the number of significant bits // maximising the (potential)
+precision / accuracy of the number for the given number of bits
+• … enables very large / small numbers to be stored with accuracy.
+• Avoids the possibility of many numbers having multiple representations.
+© UCLES 2021 Page 3 of 10</div>
+<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2022-on-31-q01</h2><div class='meta'>Oct/Nov 2022 · Paper 31 · Question 1 · 9 marks</div></div>
+<div class='answer-text'>1(a) Two marks for working 3
+One mark for correct answer
+Working:
+Conversion to binary + 202 = 11001010 // repeated division by 2 // 128 + 64 + 8 + 2
+Appropriate shifting of binary point for + 202 = 0.1100101  28 // exponent = 8
+Answer:
+= 01100101 00001000 (stored as mantissa and exponent)
+
+1(b) Two marks for working 3
+One mark for correct answer
+Working:
+• Appropriate method of conversion e.g.
+= 10011010 (one’s complement of 8-bit mantissa)
+= 10011011 (two’s complement of 8-bit mantissa)
+–256 + 32 + 16 + 4 +2
+• Realisation that the exponent doesn’t change // value of exponent = 8 // appropriate shifting of binary point
+Answer:
+= 10011011 00001000 (stored as mantissa and exponent)
+
+1(c)(i) The mantissa does not begin with 01/10 (as its most significant bits) 1
+// the mantissa begins with 00 // first two digits are the same.
+
+1(c)(ii) One mark for each point: 2
+• Correct mantissa
+• Correct exponent
+Mantissa Exponent
+0 1 1 1 1 0 0 0 0 0 0 1 0 1 1 0
+© UCLES 2022 Page 4 of 15</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2022-on-32-q01</h2><div class='meta'>Oct/Nov 2022 · Paper 32 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) Mantissa Exponent 1
+0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+
+1(b) Two marks for working 3
+• correct calculation of exponent seen
+• correct application of exponent to mantissa seen
+One mark for correct answer
+Working:
+= 1.0110010011  29 //exponent = 9
+= 1011001001.1 (moving bp 9 places to right) // evaluate two’s complement
+For example: –512 + 128 + 64 + 8 + 1 + 0.5
+Answer:
+–310.5 // –3101/</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2022-on-33-q01</h2><div class='meta'>Oct/Nov 2022 · Paper 33 · Question 1 · 9 marks</div></div>
+<div class='answer-text'>1(a) Two marks for working 3
+One mark for correct answer
+Working:
+Conversion to binary + 202 = 11001010 // repeated division by 2 // 128 + 64 + 8 + 2
+Appropriate shifting of binary point for + 202 = 0.1100101  28 // exponent = 8
+Answer:
+= 01100101 00001000 (stored as mantissa and exponent)
+
+1(b) Two marks for working 3
+One mark for correct answer
+Working:
+• Appropriate method of conversion e.g.
+= 10011010 (one’s complement of 8-bit mantissa)
+= 10011011 (two’s complement of 8-bit mantissa)
+–256 + 32 + 16 + 4 +2
+• Realisation that the exponent doesn’t change // value of exponent = 8 // appropriate shifting of binary point
+Answer:
+= 10011011 00001000 (stored as mantissa and exponent)
+
+1(c)(i) The mantissa does not begin with 01/10 (as its most significant bits) 1
+// the mantissa begins with 00 // first two digits are the same.
+
+1(c)(ii) One mark for each point: 2
+• Correct mantissa
+• Correct exponent
+Mantissa Exponent
+0 1 1 1 1 0 0 0 0 0 0 1 0 1 1 0
+© UCLES 2022 Page 4 of 15</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2023-mj-31-q01</h2><div class='meta'>May/June 2023 · Paper 31 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 4) 4
+ conversion of 113.75 to binary seen 1110001.11
+ exponent for normalisation 7 converted to binary 111 // evidence of binary
+point moved 7 places // evidence of finding exponent = 7
+ system 1 answer
+ system 2 answer showing correct version from system 1
+System 1 Mantissa Exponent
+0 1 1 1 0 0 0 1 1 1 0 0 0 1 1 1
+System 2 Mantissa Exponent
+0 1 1 1 0 0 0 1 0 0 0 0 0 1 1 1
+
+1(b) One mark per mark point (Max 2) 2
+ the mantissa in system 2 does not have enough bits to store the whole
+binary number // 10 bits required and only 8 bits available
+ so precision is lost / the number is truncated
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2023-mj-32-q01</h2><div class='meta'>May/June 2023 · Paper 32 · Question 1 · 5 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point 2
+ correct mantissa
+ correct exponent with associated working
+Answer
+Mantissa Exponent
+0 1 0 1 0 1 0 1 1 1 0 0 0 1 1 0
+Working
+exponent = 6 (movement of 6 bicimal places seen to find what exponent should
+be)
+calculation of denary 6 to binary (000)110
+
+1(b) One mark per mark point (Max 3) 3
+MP1 the mantissa of the number would need to be 0.101011111001 / 13
+bits / digits
+MP2 … it can only store 10 bits / digits
+MP3 The 3 least significant digits would be truncated
+MP4 …causing a loss of precision
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2023-mj-33-q01</h2><div class='meta'>May/June 2023 · Paper 33 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 4) 4
+ conversion of 113.75 to binary seen 1110001.11
+ exponent for normalisation 7 converted to binary 111 // evidence of binary
+point moved 7 places // evidence of finding exponent = 7
+ system 1 answer
+ system 2 answer showing correct version from system 1
+System 1 Mantissa Exponent
+0 1 1 1 0 0 0 1 1 1 0 0 0 1 1 1
+System 2 Mantissa Exponent
+0 1 1 1 0 0 0 1 0 0 0 0 0 1 1 1
+
+1(b) One mark per mark point (Max 2) 2
+ the mantissa in system 2 does not have enough bits to store the whole
+binary number // 10 bits required and only 8 bits available
+ so precision is lost / the number is truncated
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2023-on-31-q01</h2><div class='meta'>Oct/Nov 2023 · Paper 31 · Question 1 · 5 marks</div></div>
+<div class='answer-text'>1(a) One mark for working (Max 1) 3
+• conversion of 65.25 to binary seen e.g. 1000001.01 = 65.25 //
+64 + 1 + 0.25 / ¼
+One mark per mark point (Max 2)
+• correct mantissa
+• correct exponent
+Mantissa Exponent
+0 1 0 0 0 0 0 1 0 1 0 0 0 1 1 1
+
+1(b) One mark per mark point (Max 2) 2
+MP1 the decimal fraction 0.20 cannot be represented exactly (the closest
+is 0.25 / 0.1875)
+MP2 therefore, there will be a loss of precision due to a rounding
+error/truncation
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2023-on-32-q01</h2><div class='meta'>Oct/Nov 2023 · Paper 32 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 1) 3
+• conversion of −96.75 to binary e.g., positive 96.75, flip the bits + 1 to give
+10011111.01
+// –128 + 16 + 8 + 4 + 2 + 1 + 0.25 / ¼ seen
+One mark per mark point (Max 2)
+• correct mantissa
+• correct exponent
+Mantissa Exponent
+
+1 0 0 1 1 1 1 1 0 1 0 0 0 1 1 1
+
+1(b) One mark per mark point (Max 3) 3
+MP1 Real numbers (can) have a fractional part (such as 1/3 and ½) / (such
+as 0.4 and 0.25)
+MP2 The fixed length of the storage means that you can’t store very large /
+very small numbers
+MP3 Binary numbers represent numbers based on powers of 2, with limited
+fractional representations such as 1/2, 1/4, 1/8, 1/16, etc.
+MP4 It isn’t possible to store all fractions with the level of precision provided
+by this system
+MP5 …the fractional part of the number is as close as possible within these
+constraints.
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2023-on-33-q01</h2><div class='meta'>Oct/Nov 2023 · Paper 33 · Question 1 · 5 marks</div></div>
+<div class='answer-text'>1(a) One mark for working (Max 1) 3
+• conversion of 65.25 to binary seen e.g. 1000001.01 = 65.25 //
+64 + 1 + 0.25 / ¼
+One mark per mark point (Max 2)
+• correct mantissa
+• correct exponent
+Mantissa Exponent
+0 1 0 0 0 0 0 1 0 1 0 0 0 1 1 1
+
+1(b) One mark per mark point (Max 2) 2
+MP1 the decimal fraction 0.20 cannot be represented exactly (the closest
+is 0.25 / 0.1875)
+MP2 therefore, there will be a loss of precision due to a rounding
+error/truncation
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2024-mj-31-q01</h2><div class='meta'>May/June 2024 · Paper 31 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 3) 3
+MP1 conversion of exponent 001001 to 9
+MP2 application of exponent to mantissa to go from 0.100111100 to 100111100 // 256 + 32 + 16 + 8 + 4 seen // 64/128
++ 8/128 + 4/128 + 2/128 + 1/128 = 79/128 // 1/2 + 1/16 + 1/32 + 1/64 + 1/128 = 79/128
+MP3 correct answer = 316
+
+1(b) One mark per mark point (Max 3) 3
+MP1 number converted to binary 10011001.01 // number converted to positive 102.75, reversed bits and 1 added.
+(0)1100110.11  10011001.00  10011001.01 // -128 + 16 + 8 + 1 + 0.25 = –102.75
+MP2 exponent = 7 // Moving binary point the correct number of places
+MP3 correct answer
+Mantissa Exponent
+
+1 0 0 1 1 0 0 1 0 1 0 0 0 1 1 1
+© Cambridge University Press &amp; Assessment 2024 Page 4 of 14</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2024-mj-32-q01</h2><div class='meta'>May/June 2024 · Paper 32 · Question 1 · 5 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 2) 2
+MP1 When the number of bits in the mantissa is raised, the precision / accuracy of the number represented increases //
+when the number of bits in the mantissa is lowered, the precision / accuracy of the number represented reduces.
+MP2 When the number of bits in the exponent is reduced, the range of numbers that can be represented is reduced //
+when the number of bits in the exponent is increased, the range of possible numbers that can be represented
+increases.
+MP3 When the range increases the accuracy decreases // When the range decreases the accuracy increases.
+
+1(b) One mark per mark point (Max 3) 3
+ number converted to binary e.g. 54.8125 = 00110110.1101 // Fractions method 1/2 + 1/4 + 1/16 + 1/32 + 1/128 + 1/256
++ 1/1024 = 877/1024 // 32 + 16 + 4 + 2 + 0.5 + 0.25 + 0.0625 / (1/2 + 1/4 + 1/16)
+ exponent = 6 // Moving binary point the correct number of places
+ correct answer
+Mantissa Exponent
+0 1 1 0 1 1 0 1 1 0 1 0 0 1 1 0
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2024-mj-33-q01</h2><div class='meta'>May/June 2024 · Paper 33 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 3) 3
+MP1 conversion of exponent 001001 to 9
+MP2 application of exponent to mantissa to go from 0.100111100 to 100111100 // 256 + 32 + 16 + 8 + 4 seen // 64/128
++ 8/128 + 4/128 + 2/128 + 1/128 = 79/128 // 1/2 + 1/16 + 1/32 + 1/64 + 1/128 = 79/128
+MP3 correct answer = 316
+
+1(b) One mark per mark point (Max 3) 3
+MP1 number converted to binary 10011001.01 // number converted to positive 102.75, reversed bits and 1 added.
+(0)1100110.11  10011001.00  10011001.01 // -128 + 16 + 8 + 1 + 0.25 = –102.75
+MP2 exponent = 7 // Moving binary point the correct number of places
+MP3 correct answer
+Mantissa Exponent
+
+1 0 0 1 1 0 0 1 0 1 0 0 0 1 1 1
+© Cambridge University Press &amp; Assessment 2024 Page 4 of 14</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2024-on-31-q01</h2><div class='meta'>Oct/Nov 2024 · Paper 31 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 1) 3
+• correct answer
+• statement regarding number losing precision/rounding error
+One mark per mark point for working (Max 2)
+• number converted to binary 201.125 = 11001001.001
+// 128 + 64 + 8 + 1 + 0.125 / 1/ seen
+8
+• use of the exponent e.g. moving the binary point 8 places /  28.
+Mantissa Exponent
+0 1 1 0 0 1 0 0 1 0 0 0 1 0 0 0
+
+1(b) One mark per mark point (Max 2) 3
+• application of exponent to go from 1.010110011 to 101011.0011 // x 25 // movement of binary point 5 places seen
+• –32 + 8 + 2 + 1 + .125 + .0625 // –32 + 8 + 2 + 1 + 1/ + 1/ seen
+8 16
+// –1 + ¼ + 1/ + 1/ + 1/ + 1/ // –1 + 179/ // –333/
+16 32 256 512 512 512
+One mark for correct answer (Max 1)
+• –20.8125 //
+–2013/
+16
+© Cambridge University Press &amp; Assessment 2024 Page 4 of 17</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2024-on-32-q04</h2><div class='meta'>Oct/Nov 2024 · Paper 32 · Question 4 · 6 marks</div></div>
+<div class='answer-text'>4(a) One mark for working 2
+• application of exponent to mantissa to go from 0.10001110111 to 01000111.0111 //
+moving the binary point 7 places //
+multiplying by 27/128 in the fractions method //
+64 + 4 + 2 +1 + .25+ .125 + .0625 seen
+One mark for correct answer
+• 71.4375
+// 717/
+16
+
+4(b) One mark per mark point (Max 2) 4
+• correct mantissa – exact answer only
+• correct exponent – exact answer only
+Mantissa Exponent
+1 0 0 1 1 1 0 1 1 0 1 0 0 1 1 0
+One mark per mark point for working (Max 2)
+• number converted to binary e.g., positive binary version of 49.1875 = 0110001.0011 //
+two’s complement version bits flipped and 1 added = 1001110.1101 //
+–64 + 8 + 4 + 2 + .5 + .25 + .0625 //
+–64 + 14.8125
+• use of the exponent e.g. moving the binary point 6 places /  26.
+© Cambridge University Press &amp; Assessment 2024 Page 6 of 15</div>
+<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2024-on-33-q01</h2><div class='meta'>Oct/Nov 2024 · Paper 33 · Question 1 · 6 marks</div></div>
+<div class='answer-text'>1(a) One mark per mark point (Max 1) 3
+• correct answer
+• statement regarding number losing precision/rounding error
+One mark per mark point for working (Max 2)
+• number converted to binary 201.125 = 11001001.001
+// 128 + 64 + 8 + 1 + 0.125 / 1/ seen
+8
+• use of the exponent e.g. moving the binary point 8 places /  28.
+Mantissa Exponent
+0 1 1 0 0 1 0 0 1 0 0 0 1 0 0 0
+
+1(b) One mark per mark point (Max 2) 3
+• application of exponent to go from 1.010110011 to 101011.0011 // x 25 // movement of binary point 5 places seen
+• –32 + 8 + 2 + 1 + .125 + .0625 // –32 + 8 + 2 + 1 + 1/ + 1/ seen
+8 16
+// –1 + ¼ + 1/ + 1/ + 1/ + 1/ // –1 + 179/ // –333/
+16 32 256 512 512 512
+One mark for correct answer (Max 1)
+• –20.8125 //
+–2013/
+16
+© Cambridge University Press &amp; Assessment 2024 Page 4 of 17</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2025-mj-31-q02</h2><div class='meta'>May/June 2025 · Paper 31 · Question 2 · 6 marks</div></div>
+<div class='answer-text'>2(a) One mark per mark point 2
+MP1 Correct mantissa
+MP2 Correct exponent
+Mantissa Exponent
+0 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0
+
+2(b) One mark per mark point for working (Max 2) 4
+• number converted to binary e.g., positive binary version of 25.3125 = (0)11001.0101
+• two’s complement version
+bits flipped and 1 added = 100110.1011
+• -32 + 4 + 2 + 0.5 + 0.125 + 0.0625 // -32 + 4 + 2 + 1/2 + 1/8 + 1/16
+• movement of binary point seen (5 places)
+One mark per mark point
+• correct mantissa
+• correct exponent
+Mantissa Exponent
+1 0 0 1 1 0 1 0 1 1 0 0 0 1 0 1
+© Cambridge University Press &amp; Assessment 2025 Page 7 of 15</div>
+<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2025-mj-32-q02</h2><div class='meta'>May/June 2025 · Paper 32 · Question 2 · 6 marks</div></div>
+<div class='answer-text'>2(a) Two marks for working 3
+• number converted to binary (0)1111100.0111
+• use of exponent = 7 // Moving binary point the correct number (7) of
+places
+One mark for correct answer
+Mantissa Exponent
+0 1 1 1 1 1 0 0 0 1 1 1 0 1 1 1
+© Cambridge University Press &amp; Assessment 2025 Page 4 of 12
+
+2(b) Two marks for working 3
+• correct use of exponent seen
+• correct conversion method from binary to denary
+One mark for correct answer
+Working:
+1010001.01011 // moving bp 6 places to right
+Evaluation of two’s complement −64 +16 + 1 + 0.25 + 0.0625 + 0.03125 //
+−64 + 16 + 1 + 1/4 + 1/16 + 1/32 // Converting two’s complement back and
+evaluating positive binary number 32 + 8 + 4 + 2 + 0.5 + 0.125 + 0.03125 // 32
++ 8 + 4 + 2 + 1/2 + 1/8 + 1/32
+Fractions methods - award both working marks for either
+(– 2048 + 512 + 32 + 8 + 2 + 1) / 2048 x 26 = -1493 / 32
+OR
+– 1 + 1/4 + 1/64 + 1/ 256 + 1/1024 + 1/2048 x 26 = -1493 / 32
+Answer:
+−46.65625 // −4621/
+32
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 4, 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2025-mj-33-q02</h2><div class='meta'>May/June 2025 · Paper 33 · Question 2 · 6 marks</div></div>
+<div class='answer-text'>2(a) One mark for two’s complement version and one mark for denary version 2
+Mantissa Exponent
+0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+127  2120 // 0.9921875 x 2127 // 127/128 x 2127
+
+2(b) One mark per mark point for working (Max 2) 4
+• number converted to binary e.g., positive binary version of 3.59375 = (0)11.10011
+• negative two’s complement version -
+bits flipped and 1 added = 100.01101
+• -4 + 1/4 + 1/8 + 1/32 // -4 + 025 +0.125 + 0.03125 // -(64 + 32 + 16 + 2 + 1)/32
+• -22 + 2-2 + 2-3 + 2-5
+• 22 (- 20 + 2-4 + 2-5 + 2-7)
+One mark per mark point
+• correct mantissa
+• correct exponent, with working seen.
+Mantissa Exponent
+1 0 0 0 1 1 0 1 0 0 0 0 0 0 1 0
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2025-on-31-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 31 · Question 2 · 6 marks</div></div>
+<div class='answer-text'>2(a) One mark per mark point (Max 2) 2
+MP1 Correct mantissa
+MP2 Correct exponent
+Mantissa Exponent
+0 1 1 1 0 1 0 1 1 0 1 0 1 0 0 1
+© Cambridge University Press &amp; Assessment 2025 Page 6 of 15
+
+2(b) One mark per mark point (Max 4) 4
+MP1 correct method to find the binary number
+MP2 additional working towards binary number
+MP3 correct use of exponent
+MP4 correct answer in the space provided
+Two from:
+e.g.
+76.1875 = 64+8+4+0.125+0.0625
+(0)1001100.0011
+–76.1875 = –128+32+16+2+1+0.5+0.25+0.0625
+10110011.11 01
+One mark
+movement of binary point by 7 places // 1.011001111 01 x 27
+One mark
+Mantissa Exponent
+1 0 1 1 0 0 1 1 1 1 0 1 0 1 1 1
+Question Answer Marks Guidance</div>
+<p class='note'>Official mark scheme pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2025-on-32-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 32 · Question 2 · 6 marks</div></div>
+<div class='answer-text'>2(a) Two marks for working 3
+• correct calculation/application of exponent seen
+• correct method to find the final answer
+Working:
+Exponent = 8 + 2 + 1 = 11
+// =0.111100101 x 211
+// =11110010100.0 (moving bp 11 places to right)
+Method to find the answer
+// 1024 + 512 + 256 + 128 + 16 + 4
+One mark for correct answer
+Denary value: 1940
+Example of solution using fractions:
+
+2(b) One mark per mark point (Max 3) 3
+MP1 correct method to find the binary number
+MP2 correct use of exponent
+MP3 correct answer in the space provided
+Working:
+26.6875 converted to binary (0)11010.1011 // 16+8+2+0.5+0.125+0.0625 movement of binary point by 5 places
+Mantissa Exponent
+0 1 1 0 1 0 1 0 1 1 0 0 0 1 0 1
+© Cambridge University Press &amp; Assessment 2025 Page 7 of 17</div>
+<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question'>
+<div class='question-head'><h2>9618-2025-on-33-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 33 · Question 2 · 6 marks</div></div>
+<div class='answer-text'>2(a) One mark per mark point (Max 3) 3
+MP1 the precision of the number stored in the mantissa will be reduced
+MP2 the number of bits available for the exponent will increase to 6
+MP3 … this will increase the range of numbers that can be stored.
+
+2(b) One mark per mark point (Max 3) 3
+MP1 a process involving a calculation / the multiplication of two large
+numbers could take place
+MP2 the result might be outside of the range of values possible to store
+in the given system
+MP3 … leading to the most significant bits of the mantissa/exponent
+being lost (which is an overflow).
+Question Answer Marks Guidance</div>
+<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true'>source PDF URL</a></p>
+</article>
+</body></html>
