@@ -12,29 +12,45 @@ header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom:
 .question + .question { page-break-before: always; break-before: page; }
 .question-start { page-break-inside: avoid; break-inside: avoid; }
 .question-head { display: flex; justify-content: space-between; gap: 4mm; border-bottom: .5pt solid #9ca3af; padding-bottom: 2mm; margin-bottom: 4mm; page-break-after: avoid; break-after: avoid-page; }
+.question-layout { display: block; }
+.answer-pane { display: none; }
+.answer-link { white-space: nowrap; }
 .crop { margin: 0 0 5mm; page-break-inside: avoid; break-inside: avoid; }
 .crop img { display: block; max-width: 100%; max-height: 232mm; width: auto; height: auto; margin: 0 auto; border: .35pt solid #d1d5db; }
 .note { color: #6b7280; font-size: 8.5pt; }
-@media screen { body { max-width: 190mm; margin: 12mm auto; } .question { margin-bottom: 12mm; } .crop img { width: 100%; max-height: none; } }
+@media screen {
+  body { max-width: 190mm; margin: 12mm auto; }
+  body.answer-open { max-width: 380mm; }
+  .question { margin-bottom: 12mm; }
+  .crop img { width: 100%; max-height: none; }
+  .question-layout.has-answer { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6mm; align-items: start; }
+  .question-pane { min-width: 0; }
+  .question-layout.has-answer .answer-pane { display: block; min-width: 0; position: sticky; top: 0; height: calc(100vh - 24mm); border-left: .5pt solid #9ca3af; padding-left: 6mm; }
+  .answer-pane iframe { display: block; width: 100%; height: 100%; border: 0; background: #fff; }
+}
+@media print {
+  .question-layout, .question-pane { display: block !important; }
+  .answer-pane, .answer-link { display: none !important; }
+}
 </style>
 </head><body>
 <header><h1>9702 Physics</h1><div class='meta'>2021–2026 · A2 topical question crops · generated 2026-08-14</div></header>
 <p>Questions are grouped by official A2 topic. Each entry links to a printable question file; answers are added in the answer stage.</p><div class='grid'>
-<div class='card'><h2><a href='9702-topic-12-motion-in-a-circle/questions.html'>Motion in a circle</a></h2><div class='meta'>8 captured questions · <a href='9702-topic-12-motion-in-a-circle/questions.html'>print questions</a> · <a href='9702-topic-12-motion-in-a-circle/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-13-gravitational-fields/questions.html'>Gravitational fields</a></h2><div class='meta'>23 captured questions · <a href='9702-topic-13-gravitational-fields/questions.html'>print questions</a> · <a href='9702-topic-13-gravitational-fields/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-14-temperature/questions.html'>Temperature</a></h2><div class='meta'>23 captured questions · <a href='9702-topic-14-temperature/questions.html'>print questions</a> · <a href='9702-topic-14-temperature/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-15-ideal-gases/questions.html'>Ideal gases</a></h2><div class='meta'>14 captured questions · <a href='9702-topic-15-ideal-gases/questions.html'>print questions</a> · <a href='9702-topic-15-ideal-gases/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-16-thermodynamics/questions.html'>Thermodynamics</a></h2><div class='meta'>30 captured questions · <a href='9702-topic-16-thermodynamics/questions.html'>print questions</a> · <a href='9702-topic-16-thermodynamics/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-17-oscillations/questions.html'>Oscillations</a></h2><div class='meta'>35 captured questions · <a href='9702-topic-17-oscillations/questions.html'>print questions</a> · <a href='9702-topic-17-oscillations/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-18-electric-fields/questions.html'>Electric fields</a></h2><div class='meta'>21 captured questions · <a href='9702-topic-18-electric-fields/questions.html'>print questions</a> · <a href='9702-topic-18-electric-fields/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-19-capacitance/questions.html'>Capacitance</a></h2><div class='meta'>24 captured questions · <a href='9702-topic-19-capacitance/questions.html'>print questions</a> · <a href='9702-topic-19-capacitance/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-20-magnetic-fields/questions.html'>Magnetic fields</a></h2><div class='meta'>43 captured questions · <a href='9702-topic-20-magnetic-fields/questions.html'>print questions</a> · <a href='9702-topic-20-magnetic-fields/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-21-alternating-currents/questions.html'>Alternating currents</a></h2><div class='meta'>30 captured questions · <a href='9702-topic-21-alternating-currents/questions.html'>print questions</a> · <a href='9702-topic-21-alternating-currents/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-22-quantum-physics/questions.html'>Quantum physics</a></h2><div class='meta'>26 captured questions · <a href='9702-topic-22-quantum-physics/questions.html'>print questions</a> · <a href='9702-topic-22-quantum-physics/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-23-nuclear-physics/questions.html'>Nuclear physics</a></h2><div class='meta'>34 captured questions · <a href='9702-topic-23-nuclear-physics/questions.html'>print questions</a> · <a href='9702-topic-23-nuclear-physics/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-24-medical-physics/questions.html'>Medical physics</a></h2><div class='meta'>30 captured questions · <a href='9702-topic-24-medical-physics/questions.html'>print questions</a> · <a href='9702-topic-24-medical-physics/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-topic-25-astronomy-and-cosmology/questions.html'>Astronomy and cosmology</a></h2><div class='meta'>25 captured questions · <a href='9702-topic-25-astronomy-and-cosmology/questions.html'>print questions</a> · <a href='9702-topic-25-astronomy-and-cosmology/answers.html'>answers</a></div></div>
-<div class='card'><h2><a href='9702-practical-skills/questions.html'>Practical skills</a></h2><div class='meta'>70 captured questions · <a href='9702-practical-skills/questions.html'>print questions</a> · <a href='9702-practical-skills/answers.html'>answers</a></div></div>
+<div class='card'><h2><a href='9702-topic-12-motion-in-a-circle/questions.html'>Motion in a circle</a></h2><div class='meta'>10 captured questions · <a href='9702-topic-12-motion-in-a-circle/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-13-gravitational-fields/questions.html'>Gravitational fields</a></h2><div class='meta'>28 captured questions · <a href='9702-topic-13-gravitational-fields/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-14-temperature/questions.html'>Temperature</a></h2><div class='meta'>16 captured questions · <a href='9702-topic-14-temperature/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-15-ideal-gases/questions.html'>Ideal gases</a></h2><div class='meta'>12 captured questions · <a href='9702-topic-15-ideal-gases/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-16-thermodynamics/questions.html'>Thermodynamics</a></h2><div class='meta'>30 captured questions · <a href='9702-topic-16-thermodynamics/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-17-oscillations/questions.html'>Oscillations</a></h2><div class='meta'>33 captured questions · <a href='9702-topic-17-oscillations/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-18-electric-fields/questions.html'>Electric fields</a></h2><div class='meta'>21 captured questions · <a href='9702-topic-18-electric-fields/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-19-capacitance/questions.html'>Capacitance</a></h2><div class='meta'>24 captured questions · <a href='9702-topic-19-capacitance/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-20-magnetic-fields/questions.html'>Magnetic fields</a></h2><div class='meta'>45 captured questions · <a href='9702-topic-20-magnetic-fields/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-21-alternating-currents/questions.html'>Alternating currents</a></h2><div class='meta'>34 captured questions · <a href='9702-topic-21-alternating-currents/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-22-quantum-physics/questions.html'>Quantum physics</a></h2><div class='meta'>27 captured questions · <a href='9702-topic-22-quantum-physics/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-23-nuclear-physics/questions.html'>Nuclear physics</a></h2><div class='meta'>30 captured questions · <a href='9702-topic-23-nuclear-physics/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-24-medical-physics/questions.html'>Medical physics</a></h2><div class='meta'>31 captured questions · <a href='9702-topic-24-medical-physics/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-topic-25-astronomy-and-cosmology/questions.html'>Astronomy and cosmology</a></h2><div class='meta'>25 captured questions · <a href='9702-topic-25-astronomy-and-cosmology/questions.html'>print questions</a></div></div>
+<div class='card'><h2><a href='9702-practical-skills/questions.html'>Practical skills</a></h2><div class='meta'>70 captured questions · <a href='9702-practical-skills/questions.html'>print questions</a></div></div>
 </div><h2 style='margin-top:8mm'>Paper coverage</h2><div class='grid'>
 <div class='card'><h3>2021 March · 42</h3><div class='meta'>12 questions · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true'>source PDF</a></div></div>
 <div class='card'><h3>2021 March · 52</h3><div class='meta'>2 questions · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_52.pdf?download=true'>source PDF</a></div></div>

@@ -1725,8 +1725,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 9,
-      "topic": "Ideal gases",
-      "topic_slug": "9702-topic-15-ideal-gases",
+      "topic": "Magnetic fields",
+      "topic_slug": "9702-topic-20-magnetic-fields",
       "marks": 9,
       "status": "available",
       "reason": null,
@@ -1736,7 +1736,7 @@
       ],
       "source_pdf": "_source-pdfs/2021-Oct-Nov/ms/9702_w21_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_41.pdf?download=true",
-      "html": "9702-topic-15-ideal-gases/answers.html",
+      "html": "9702-topic-20-magnetic-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w21_ms_41-p13.png"
       ]
@@ -2351,8 +2351,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 9,
-      "topic": "Ideal gases",
-      "topic_slug": "9702-topic-15-ideal-gases",
+      "topic": "Magnetic fields",
+      "topic_slug": "9702-topic-20-magnetic-fields",
       "marks": 9,
       "status": "available",
       "reason": null,
@@ -2362,7 +2362,7 @@
       ],
       "source_pdf": "_source-pdfs/2021-Oct-Nov/ms/9702_w21_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_43.pdf?download=true",
-      "html": "9702-topic-15-ideal-gases/answers.html",
+      "html": "9702-topic-20-magnetic-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w21_ms_43-p13.png"
       ]
@@ -2875,8 +2875,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 10,
-      "topic": "Temperature",
-      "topic_slug": "9702-topic-14-temperature",
+      "topic": "Medical physics",
+      "topic_slug": "9702-topic-24-medical-physics",
       "marks": 7,
       "status": "available",
       "reason": null,
@@ -2887,7 +2887,7 @@
       ],
       "source_pdf": "_source-pdfs/2022-Feb-March/ms/9702_m22_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
-      "html": "9702-topic-14-temperature/answers.html",
+      "html": "9702-topic-24-medical-physics/answers.html",
       "image_paths": [
         "../answer-assets/9702_m22_ms_42-p14.png",
         "../answer-assets/9702_m22_ms_42-p15.png"
@@ -3461,8 +3461,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 8,
-      "topic": "Nuclear physics",
-      "topic_slug": "9702-topic-23-nuclear-physics",
+      "topic": "Quantum physics",
+      "topic_slug": "9702-topic-22-quantum-physics",
       "marks": 8,
       "status": "available",
       "reason": null,
@@ -3472,7 +3472,7 @@
       ],
       "source_pdf": "_source-pdfs/2022-May-June/ms/9702_s22_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_42.pdf?download=true",
-      "html": "9702-topic-23-nuclear-physics/answers.html",
+      "html": "9702-topic-22-quantum-physics/answers.html",
       "image_paths": [
         "../answer-assets/9702_s22_ms_42-p14.png"
       ]
@@ -4055,8 +4055,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 4,
-      "topic": "Nuclear physics",
-      "topic_slug": "9702-topic-23-nuclear-physics",
+      "topic": "Electric fields",
+      "topic_slug": "9702-topic-18-electric-fields",
       "marks": 12,
       "status": "available",
       "reason": null,
@@ -4066,7 +4066,7 @@
       ],
       "source_pdf": "_source-pdfs/2022-Oct-Nov/ms/9702_w22_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_41.pdf?download=true",
-      "html": "9702-topic-23-nuclear-physics/answers.html",
+      "html": "9702-topic-18-electric-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w22_ms_41-p09.png"
       ]
@@ -4237,8 +4237,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 1,
-      "topic": "Electric fields",
-      "topic_slug": "9702-topic-18-electric-fields",
+      "topic": "Gravitational fields",
+      "topic_slug": "9702-topic-13-gravitational-fields",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -4248,7 +4248,7 @@
       ],
       "source_pdf": "_source-pdfs/2022-Oct-Nov/ms/9702_w22_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
-      "html": "9702-topic-18-electric-fields/answers.html",
+      "html": "9702-topic-13-gravitational-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w22_ms_42-p06.png"
       ]
@@ -4289,8 +4289,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 3,
-      "topic": "Temperature",
-      "topic_slug": "9702-topic-14-temperature",
+      "topic": "Ideal gases",
+      "topic_slug": "9702-topic-15-ideal-gases",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -4300,7 +4300,7 @@
       ],
       "source_pdf": "_source-pdfs/2022-Oct-Nov/ms/9702_w22_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
-      "html": "9702-topic-14-temperature/answers.html",
+      "html": "9702-topic-15-ideal-gases/answers.html",
       "image_paths": [
         "../answer-assets/9702_w22_ms_42-p08.png"
       ]
@@ -4577,8 +4577,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 4,
-      "topic": "Nuclear physics",
-      "topic_slug": "9702-topic-23-nuclear-physics",
+      "topic": "Electric fields",
+      "topic_slug": "9702-topic-18-electric-fields",
       "marks": 12,
       "status": "available",
       "reason": null,
@@ -4588,7 +4588,7 @@
       ],
       "source_pdf": "_source-pdfs/2022-Oct-Nov/ms/9702_w22_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_43.pdf?download=true",
-      "html": "9702-topic-23-nuclear-physics/answers.html",
+      "html": "9702-topic-18-electric-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w22_ms_43-p09.png"
       ]
@@ -4933,8 +4933,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 1,
-      "topic": "Electric fields",
-      "topic_slug": "9702-topic-18-electric-fields",
+      "topic": "Gravitational fields",
+      "topic_slug": "9702-topic-13-gravitational-fields",
       "marks": 12,
       "status": "available",
       "reason": null,
@@ -4945,7 +4945,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-March/ms/9702_m23_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
-      "html": "9702-topic-18-electric-fields/answers.html",
+      "html": "9702-topic-13-gravitational-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_m23_ms_42-p06.png",
         "../answer-assets/9702_m23_ms_42-p07.png"
@@ -5149,8 +5149,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 9,
-      "topic": "Ideal gases",
-      "topic_slug": "9702-topic-15-ideal-gases",
+      "topic": "Medical physics",
+      "topic_slug": "9702-topic-24-medical-physics",
       "marks": 9,
       "status": "available",
       "reason": null,
@@ -5160,7 +5160,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-March/ms/9702_m23_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
-      "html": "9702-topic-15-ideal-gases/answers.html",
+      "html": "9702-topic-24-medical-physics/answers.html",
       "image_paths": [
         "../answer-assets/9702_m23_ms_42-p17.png"
       ]
@@ -5287,8 +5287,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 2,
-      "topic": "Oscillations",
-      "topic_slug": "9702-topic-17-oscillations",
+      "topic": "Motion in a circle",
+      "topic_slug": "9702-topic-12-motion-in-a-circle",
       "marks": 12,
       "status": "available",
       "reason": null,
@@ -5299,7 +5299,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-May-June/ms/9702_s23_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_41.pdf?download=true",
-      "html": "9702-topic-17-oscillations/answers.html",
+      "html": "9702-topic-12-motion-in-a-circle/answers.html",
       "image_paths": [
         "../answer-assets/9702_s23_ms_41-p07.png",
         "../answer-assets/9702_s23_ms_41-p08.png"
@@ -5549,8 +5549,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 2,
-      "topic": "Temperature",
-      "topic_slug": "9702-topic-14-temperature",
+      "topic": "Ideal gases",
+      "topic_slug": "9702-topic-15-ideal-gases",
       "marks": 12,
       "status": "available",
       "reason": null,
@@ -5560,7 +5560,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-May-June/ms/9702_s23_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_42.pdf?download=true",
-      "html": "9702-topic-14-temperature/answers.html",
+      "html": "9702-topic-15-ideal-gases/answers.html",
       "image_paths": [
         "../answer-assets/9702_s23_ms_42-p07.png"
       ]
@@ -5809,8 +5809,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 2,
-      "topic": "Oscillations",
-      "topic_slug": "9702-topic-17-oscillations",
+      "topic": "Motion in a circle",
+      "topic_slug": "9702-topic-12-motion-in-a-circle",
       "marks": 12,
       "status": "available",
       "reason": null,
@@ -5821,7 +5821,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-May-June/ms/9702_s23_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_43.pdf?download=true",
-      "html": "9702-topic-17-oscillations/answers.html",
+      "html": "9702-topic-12-motion-in-a-circle/answers.html",
       "image_paths": [
         "../answer-assets/9702_s23_ms_43-p07.png",
         "../answer-assets/9702_s23_ms_43-p08.png"
@@ -6231,8 +6231,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 1,
-      "topic": "Electric fields",
-      "topic_slug": "9702-topic-18-electric-fields",
+      "topic": "Gravitational fields",
+      "topic_slug": "9702-topic-13-gravitational-fields",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -6242,7 +6242,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-Oct-Nov/ms/9702_w23_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
-      "html": "9702-topic-18-electric-fields/answers.html",
+      "html": "9702-topic-13-gravitational-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w23_ms_41-p07.png"
       ]
@@ -6387,8 +6387,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 7,
-      "topic": "Ideal gases",
-      "topic_slug": "9702-topic-15-ideal-gases",
+      "topic": "Alternating currents",
+      "topic_slug": "9702-topic-21-alternating-currents",
       "marks": 8,
       "status": "available",
       "reason": null,
@@ -6398,7 +6398,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-Oct-Nov/ms/9702_w23_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
-      "html": "9702-topic-15-ideal-gases/answers.html",
+      "html": "9702-topic-21-alternating-currents/answers.html",
       "image_paths": [
         "../answer-assets/9702_w23_ms_41-p13.png"
       ]
@@ -6517,8 +6517,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 2,
-      "topic": "Ideal gases",
-      "topic_slug": "9702-topic-15-ideal-gases",
+      "topic": "Gravitational fields",
+      "topic_slug": "9702-topic-13-gravitational-fields",
       "marks": 12,
       "status": "available",
       "reason": null,
@@ -6528,7 +6528,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-Oct-Nov/ms/9702_w23_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_42.pdf?download=true",
-      "html": "9702-topic-15-ideal-gases/answers.html",
+      "html": "9702-topic-13-gravitational-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w23_ms_42-p07.png"
       ]
@@ -6751,8 +6751,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 1,
-      "topic": "Electric fields",
-      "topic_slug": "9702-topic-18-electric-fields",
+      "topic": "Gravitational fields",
+      "topic_slug": "9702-topic-13-gravitational-fields",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -6762,7 +6762,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-Oct-Nov/ms/9702_w23_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
-      "html": "9702-topic-18-electric-fields/answers.html",
+      "html": "9702-topic-13-gravitational-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_w23_ms_43-p07.png"
       ]
@@ -6907,8 +6907,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 7,
-      "topic": "Ideal gases",
-      "topic_slug": "9702-topic-15-ideal-gases",
+      "topic": "Alternating currents",
+      "topic_slug": "9702-topic-21-alternating-currents",
       "marks": 8,
       "status": "available",
       "reason": null,
@@ -6918,7 +6918,7 @@
       ],
       "source_pdf": "_source-pdfs/2023-Oct-Nov/ms/9702_w23_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
-      "html": "9702-topic-15-ideal-gases/answers.html",
+      "html": "9702-topic-21-alternating-currents/answers.html",
       "image_paths": [
         "../answer-assets/9702_w23_ms_43-p13.png"
       ]
@@ -7679,8 +7679,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 7,
-      "topic": "Temperature",
-      "topic_slug": "9702-topic-14-temperature",
+      "topic": "Alternating currents",
+      "topic_slug": "9702-topic-21-alternating-currents",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -7690,7 +7690,7 @@
       ],
       "source_pdf": "_source-pdfs/2024-May-June/ms/9702_s24_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_41.pdf?download=true",
-      "html": "9702-topic-14-temperature/answers.html",
+      "html": "9702-topic-21-alternating-currents/answers.html",
       "image_paths": [
         "../answer-assets/9702_s24_ms_41-p12.png"
       ]
@@ -8201,8 +8201,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 7,
-      "topic": "Temperature",
-      "topic_slug": "9702-topic-14-temperature",
+      "topic": "Alternating currents",
+      "topic_slug": "9702-topic-21-alternating-currents",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -8212,7 +8212,7 @@
       ],
       "source_pdf": "_source-pdfs/2024-May-June/ms/9702_s24_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_43.pdf?download=true",
-      "html": "9702-topic-14-temperature/answers.html",
+      "html": "9702-topic-21-alternating-currents/answers.html",
       "image_paths": [
         "../answer-assets/9702_s24_ms_43-p12.png"
       ]
@@ -9665,8 +9665,8 @@
       "paper": 4,
       "variant": "42",
       "question_number": 9,
-      "topic": "Medical physics",
-      "topic_slug": "9702-topic-24-medical-physics",
+      "topic": "Nuclear physics",
+      "topic_slug": "9702-topic-23-nuclear-physics",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -9676,7 +9676,7 @@
       ],
       "source_pdf": "_source-pdfs/2025-March/ms/9702_m25_ms_42.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_ms_42.pdf?download=true",
-      "html": "9702-topic-24-medical-physics/answers.html",
+      "html": "9702-topic-23-nuclear-physics/answers.html",
       "image_paths": [
         "../answer-assets/9702_m25_ms_42-p13.png"
       ]
@@ -9805,8 +9805,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 2,
-      "topic": "Nuclear physics",
-      "topic_slug": "9702-topic-23-nuclear-physics",
+      "topic": "Electric fields",
+      "topic_slug": "9702-topic-18-electric-fields",
       "marks": 11,
       "status": "available",
       "reason": null,
@@ -9817,7 +9817,7 @@
       ],
       "source_pdf": "_source-pdfs/2025-May-June/ms/9702_s25_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_41.pdf?download=true",
-      "html": "9702-topic-23-nuclear-physics/answers.html",
+      "html": "9702-topic-18-electric-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_s25_ms_41-p09.png",
         "../answer-assets/9702_s25_ms_41-p10.png"
@@ -10333,8 +10333,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 2,
-      "topic": "Nuclear physics",
-      "topic_slug": "9702-topic-23-nuclear-physics",
+      "topic": "Electric fields",
+      "topic_slug": "9702-topic-18-electric-fields",
       "marks": 11,
       "status": "available",
       "reason": null,
@@ -10345,7 +10345,7 @@
       ],
       "source_pdf": "_source-pdfs/2025-May-June/ms/9702_s25_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_43.pdf?download=true",
-      "html": "9702-topic-23-nuclear-physics/answers.html",
+      "html": "9702-topic-18-electric-fields/answers.html",
       "image_paths": [
         "../answer-assets/9702_s25_ms_43-p09.png",
         "../answer-assets/9702_s25_ms_43-p10.png"
@@ -10835,8 +10835,8 @@
       "paper": 4,
       "variant": "41",
       "question_number": 4,
-      "topic": "Temperature",
-      "topic_slug": "9702-topic-14-temperature",
+      "topic": "Ideal gases",
+      "topic_slug": "9702-topic-15-ideal-gases",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -10846,7 +10846,7 @@
       ],
       "source_pdf": "_source-pdfs/2025-Oct-Nov/ms/9702_w25_ms_41.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
-      "html": "9702-topic-14-temperature/answers.html",
+      "html": "9702-topic-15-ideal-gases/answers.html",
       "image_paths": [
         "../answer-assets/9702_w25_ms_41-p11.png"
       ]
@@ -11359,8 +11359,8 @@
       "paper": 4,
       "variant": "43",
       "question_number": 4,
-      "topic": "Temperature",
-      "topic_slug": "9702-topic-14-temperature",
+      "topic": "Ideal gases",
+      "topic_slug": "9702-topic-15-ideal-gases",
       "marks": 10,
       "status": "available",
       "reason": null,
@@ -11370,7 +11370,7 @@
       ],
       "source_pdf": "_source-pdfs/2025-Oct-Nov/ms/9702_w25_ms_43.pdf",
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
-      "html": "9702-topic-14-temperature/answers.html",
+      "html": "9702-topic-15-ideal-gases/answers.html",
       "image_paths": [
         "../answer-assets/9702_w25_ms_43-p11.png"
       ]

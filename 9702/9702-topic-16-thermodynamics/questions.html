@@ -12,214 +12,246 @@ header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom:
 .question + .question { page-break-before: always; break-before: page; }
 .question-start { page-break-inside: avoid; break-inside: avoid; }
 .question-head { display: flex; justify-content: space-between; gap: 4mm; border-bottom: .5pt solid #9ca3af; padding-bottom: 2mm; margin-bottom: 4mm; page-break-after: avoid; break-after: avoid-page; }
+.question-layout { display: block; }
+.answer-pane { display: none; }
+.answer-link { white-space: nowrap; }
 .crop { margin: 0 0 5mm; page-break-inside: avoid; break-inside: avoid; }
 .crop img { display: block; max-width: 100%; max-height: 232mm; width: auto; height: auto; margin: 0 auto; border: .35pt solid #d1d5db; }
 .note { color: #6b7280; font-size: 8.5pt; }
-@media screen { body { max-width: 190mm; margin: 12mm auto; } .question { margin-bottom: 12mm; } .crop img { width: 100%; max-height: none; } }
+@media screen {
+  body { max-width: 190mm; margin: 12mm auto; }
+  body.answer-open { max-width: 380mm; }
+  .question { margin-bottom: 12mm; }
+  .crop img { width: 100%; max-height: none; }
+  .question-layout.has-answer { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6mm; align-items: start; }
+  .question-pane { min-width: 0; }
+  .question-layout.has-answer .answer-pane { display: block; min-width: 0; position: sticky; top: 0; height: calc(100vh - 24mm); border-left: .5pt solid #9ca3af; padding-left: 6mm; }
+  .answer-pane iframe { display: block; width: 100%; height: 100%; border: 0; background: #fff; }
+}
+@media print {
+  .question-layout, .question-pane { display: block !important; }
+  .answer-pane, .answer-link { display: none !important; }
+}
 </style>
+<script>
+function openAnswerSideBySide(link) {
+  const layout = document.querySelector('.question-layout');
+  const pane = document.getElementById('answer-pane');
+  const frame = pane && pane.querySelector('iframe');
+  if (!layout || !pane || !frame) return true;
+  frame.src = link.href;
+  layout.classList.add('has-answer');
+  document.body.classList.add('answer-open');
+  const questionId = new URL(link.href, document.baseURI).hash.slice(1);
+  const question = document.getElementById(questionId);
+  if (question) question.scrollIntoView({block: 'start'});
+  return false;
+}
+</script>
 </head><body>
+<div class='question-layout'><main class='question-pane'>
 <header><h1>Thermodynamics</h1><div class='meta'>9702 Physics · A2 topical questions · 30 questions</div></header>
-<article class='question'>
+<article class='question' id='9702-2021-mj-41-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2021-mj-41-q02</h2><div class='meta'>May/June 2021 · Paper 41 · Question 2 · 10 marks</div></div>
+<div class='question-head'><h2>9702-2021-mj-41-q02</h2><div class='meta'>May/June 2021 · Paper 41 · Question 2 · 10 marks · <a class='answer-link' href='answers.html#9702-2021-mj-41-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2021-mj-41-q02-p01.png' alt='9702-2021-mj-41-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2021-mj-41-q02-p02.png' alt='9702-2021-mj-41-q02 source crop'></figure>
 <div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2021-mj-42-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2021-mj-42-q02</h2><div class='meta'>May/June 2021 · Paper 42 · Question 2 · 9 marks</div></div>
+<div class='question-head'><h2>9702-2021-mj-42-q02</h2><div class='meta'>May/June 2021 · Paper 42 · Question 2 · 9 marks · <a class='answer-link' href='answers.html#9702-2021-mj-42-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2021-mj-42-q02-p01.png' alt='9702-2021-mj-42-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2021-mj-42-q02-p02.png' alt='9702-2021-mj-42-q02 source crop'></figure>
 <div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2021-mj-43-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2021-mj-43-q02</h2><div class='meta'>May/June 2021 · Paper 43 · Question 2 · 10 marks</div></div>
+<div class='question-head'><h2>9702-2021-mj-43-q02</h2><div class='meta'>May/June 2021 · Paper 43 · Question 2 · 10 marks · <a class='answer-link' href='answers.html#9702-2021-mj-43-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2021-mj-43-q02-p01.png' alt='9702-2021-mj-43-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2021-mj-43-q02-p02.png' alt='9702-2021-mj-43-q02 source crop'></figure>
 <div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2021-on-41-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2021-on-41-q03</h2><div class='meta'>Oct/Nov 2021 · Paper 41 · Question 3 · 13 marks</div></div>
+<div class='question-head'><h2>9702-2021-on-41-q03</h2><div class='meta'>Oct/Nov 2021 · Paper 41 · Question 3 · 13 marks · <a class='answer-link' href='answers.html#9702-2021-on-41-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2021-on-41-q03-p01.png' alt='9702-2021-on-41-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2021-on-41-q03-p02.png' alt='9702-2021-on-41-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2021-on-43-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2021-on-43-q03</h2><div class='meta'>Oct/Nov 2021 · Paper 43 · Question 3 · 13 marks</div></div>
+<div class='question-head'><h2>9702-2021-on-43-q03</h2><div class='meta'>Oct/Nov 2021 · Paper 43 · Question 3 · 13 marks · <a class='answer-link' href='answers.html#9702-2021-on-43-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2021-on-43-q03-p01.png' alt='9702-2021-on-43-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2021-on-43-q03-p02.png' alt='9702-2021-on-43-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2022-m-42-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2022-m-42-q02</h2><div class='meta'>March 2022 · Paper 42 · Question 2 · 10 marks</div></div>
+<div class='question-head'><h2>9702-2022-m-42-q02</h2><div class='meta'>March 2022 · Paper 42 · Question 2 · 10 marks · <a class='answer-link' href='answers.html#9702-2022-m-42-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2022-m-42-q02-p01.png' alt='9702-2022-m-42-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2022-m-42-q02-p02.png' alt='9702-2022-m-42-q02 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2022-mj-41-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2022-mj-41-q03</h2><div class='meta'>May/June 2022 · Paper 41 · Question 3 · 11 marks</div></div>
+<div class='question-head'><h2>9702-2022-mj-41-q03</h2><div class='meta'>May/June 2022 · Paper 41 · Question 3 · 11 marks · <a class='answer-link' href='answers.html#9702-2022-mj-41-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2022-mj-41-q03-p01.png' alt='9702-2022-mj-41-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2022-mj-41-q03-p02.png' alt='9702-2022-mj-41-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2022-mj-42-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2022-mj-42-q03</h2><div class='meta'>May/June 2022 · Paper 42 · Question 3 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2022-mj-42-q03</h2><div class='meta'>May/June 2022 · Paper 42 · Question 3 · 12 marks · <a class='answer-link' href='answers.html#9702-2022-mj-42-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2022-mj-42-q03-p01.png' alt='9702-2022-mj-42-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2022-mj-42-q03-p02.png' alt='9702-2022-mj-42-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2022-mj-43-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2022-mj-43-q03</h2><div class='meta'>May/June 2022 · Paper 43 · Question 3 · 11 marks</div></div>
+<div class='question-head'><h2>9702-2022-mj-43-q03</h2><div class='meta'>May/June 2022 · Paper 43 · Question 3 · 11 marks · <a class='answer-link' href='answers.html#9702-2022-mj-43-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2022-mj-43-q03-p01.png' alt='9702-2022-mj-43-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2022-mj-43-q03-p02.png' alt='9702-2022-mj-43-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2022-on-42-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2022-on-42-q02</h2><div class='meta'>Oct/Nov 2022 · Paper 42 · Question 2 · 7 marks</div></div>
+<div class='question-head'><h2>9702-2022-on-42-q02</h2><div class='meta'>Oct/Nov 2022 · Paper 42 · Question 2 · 7 marks · <a class='answer-link' href='answers.html#9702-2022-on-42-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2022-on-42-q02-p01.png' alt='9702-2022-on-42-q02 source crop'></figure>
 </div>
 <div class='note'>Source pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2023-m-42-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2023-m-42-q02</h2><div class='meta'>March 2023 · Paper 42 · Question 2 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2023-m-42-q02</h2><div class='meta'>March 2023 · Paper 42 · Question 2 · 12 marks · <a class='answer-link' href='answers.html#9702-2023-m-42-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2023-m-42-q02-p01.png' alt='9702-2023-m-42-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2023-m-42-q02-p02.png' alt='9702-2023-m-42-q02 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2023-mj-41-q04'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2023-mj-41-q04</h2><div class='meta'>May/June 2023 · Paper 41 · Question 4 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2023-mj-41-q04</h2><div class='meta'>May/June 2023 · Paper 41 · Question 4 · 12 marks · <a class='answer-link' href='answers.html#9702-2023-mj-41-q04' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2023-mj-41-q04-p01.png' alt='9702-2023-mj-41-q04 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2023-mj-41-q04-p02.png' alt='9702-2023-mj-41-q04 source crop'></figure>
 <div class='note'>Source pages: 10, 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2023-mj-42-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2023-mj-42-q03</h2><div class='meta'>May/June 2023 · Paper 42 · Question 3 · 9 marks</div></div>
+<div class='question-head'><h2>9702-2023-mj-42-q03</h2><div class='meta'>May/June 2023 · Paper 42 · Question 3 · 9 marks · <a class='answer-link' href='answers.html#9702-2023-mj-42-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2023-mj-42-q03-p01.png' alt='9702-2023-mj-42-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2023-mj-42-q03-p02.png' alt='9702-2023-mj-42-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2023-mj-43-q04'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2023-mj-43-q04</h2><div class='meta'>May/June 2023 · Paper 43 · Question 4 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2023-mj-43-q04</h2><div class='meta'>May/June 2023 · Paper 43 · Question 4 · 12 marks · <a class='answer-link' href='answers.html#9702-2023-mj-43-q04' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2023-mj-43-q04-p01.png' alt='9702-2023-mj-43-q04 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2023-mj-43-q04-p02.png' alt='9702-2023-mj-43-q04 source crop'></figure>
 <div class='note'>Source pages: 10, 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2023-on-41-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2023-on-41-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 41 · Question 2 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2023-on-41-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 41 · Question 2 · 12 marks · <a class='answer-link' href='answers.html#9702-2023-on-41-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2023-on-41-q02-p01.png' alt='9702-2023-on-41-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2023-on-41-q02-p02.png' alt='9702-2023-on-41-q02 source crop'></figure>
 <div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2023-on-42-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2023-on-42-q03</h2><div class='meta'>Oct/Nov 2023 · Paper 42 · Question 3 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2023-on-42-q03</h2><div class='meta'>Oct/Nov 2023 · Paper 42 · Question 3 · 8 marks · <a class='answer-link' href='answers.html#9702-2023-on-42-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2023-on-42-q03-p01.png' alt='9702-2023-on-42-q03 source crop'></figure>
 </div>
 <div class='note'>Source pages: 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2023-on-43-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2023-on-43-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 43 · Question 2 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2023-on-43-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 43 · Question 2 · 12 marks · <a class='answer-link' href='answers.html#9702-2023-on-43-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2023-on-43-q02-p01.png' alt='9702-2023-on-43-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2023-on-43-q02-p02.png' alt='9702-2023-on-43-q02 source crop'></figure>
 <div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2024-m-42-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2024-m-42-q02</h2><div class='meta'>March 2024 · Paper 42 · Question 2 · 11 marks</div></div>
+<div class='question-head'><h2>9702-2024-m-42-q02</h2><div class='meta'>March 2024 · Paper 42 · Question 2 · 11 marks · <a class='answer-link' href='answers.html#9702-2024-m-42-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2024-m-42-q02-p01.png' alt='9702-2024-m-42-q02 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2024-m-42-q02-p02.png' alt='9702-2024-m-42-q02 source crop'></figure>
 <div class='note'>Source pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2024-mj-41-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2024-mj-41-q03</h2><div class='meta'>May/June 2024 · Paper 41 · Question 3 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2024-mj-41-q03</h2><div class='meta'>May/June 2024 · Paper 41 · Question 3 · 12 marks · <a class='answer-link' href='answers.html#9702-2024-mj-41-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2024-mj-41-q03-p01.png' alt='9702-2024-mj-41-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2024-mj-41-q03-p02.png' alt='9702-2024-mj-41-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2024-mj-42-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2024-mj-42-q03</h2><div class='meta'>May/June 2024 · Paper 42 · Question 3 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2024-mj-42-q03</h2><div class='meta'>May/June 2024 · Paper 42 · Question 3 · 8 marks · <a class='answer-link' href='answers.html#9702-2024-mj-42-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2024-mj-42-q03-p01.png' alt='9702-2024-mj-42-q03 source crop'></figure>
 </div>
 <div class='note'>Source pages: 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2024-mj-43-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2024-mj-43-q03</h2><div class='meta'>May/June 2024 · Paper 43 · Question 3 · 12 marks</div></div>
+<div class='question-head'><h2>9702-2024-mj-43-q03</h2><div class='meta'>May/June 2024 · Paper 43 · Question 3 · 12 marks · <a class='answer-link' href='answers.html#9702-2024-mj-43-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2024-mj-43-q03-p01.png' alt='9702-2024-mj-43-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2024-mj-43-q03-p02.png' alt='9702-2024-mj-43-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2024-on-41-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2024-on-41-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 41 · Question 3 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2024-on-41-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 41 · Question 3 · 8 marks · <a class='answer-link' href='answers.html#9702-2024-on-41-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2024-on-41-q03-p01.png' alt='9702-2024-on-41-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2024-on-41-q03-p02.png' alt='9702-2024-on-41-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2024-on-42-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2024-on-42-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 42 · Question 3 · 11 marks</div></div>
+<div class='question-head'><h2>9702-2024-on-42-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 42 · Question 3 · 11 marks · <a class='answer-link' href='answers.html#9702-2024-on-42-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2024-on-42-q03-p01.png' alt='9702-2024-on-42-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2024-on-42-q03-p02.png' alt='9702-2024-on-42-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2024-on-43-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2024-on-43-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 43 · Question 3 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2024-on-43-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 43 · Question 3 · 8 marks · <a class='answer-link' href='answers.html#9702-2024-on-43-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2024-on-43-q03-p01.png' alt='9702-2024-on-43-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2024-on-43-q03-p02.png' alt='9702-2024-on-43-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2025-mj-41-q04'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2025-mj-41-q04</h2><div class='meta'>May/June 2025 · Paper 41 · Question 4 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2025-mj-41-q04</h2><div class='meta'>May/June 2025 · Paper 41 · Question 4 · 8 marks · <a class='answer-link' href='answers.html#9702-2025-mj-41-q04' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2025-mj-41-q04-p01.png' alt='9702-2025-mj-41-q04 source crop'></figure>
 </div>
 <div class='note'>Source pages: 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2025-mj-42-q03'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2025-mj-42-q03</h2><div class='meta'>May/June 2025 · Paper 42 · Question 3 · 13 marks</div></div>
+<div class='question-head'><h2>9702-2025-mj-42-q03</h2><div class='meta'>May/June 2025 · Paper 42 · Question 3 · 13 marks · <a class='answer-link' href='answers.html#9702-2025-mj-42-q03' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2025-mj-42-q03-p01.png' alt='9702-2025-mj-42-q03 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2025-mj-42-q03-p02.png' alt='9702-2025-mj-42-q03 source crop'></figure>
 <div class='note'>Source pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2025-mj-43-q04'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2025-mj-43-q04</h2><div class='meta'>May/June 2025 · Paper 43 · Question 4 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2025-mj-43-q04</h2><div class='meta'>May/June 2025 · Paper 43 · Question 4 · 8 marks · <a class='answer-link' href='answers.html#9702-2025-mj-43-q04' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2025-mj-43-q04-p01.png' alt='9702-2025-mj-43-q04 source crop'></figure>
 </div>
 <div class='note'>Source pages: 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2025-on-41-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2025-on-41-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 41 · Question 2 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2025-on-41-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 41 · Question 2 · 8 marks · <a class='answer-link' href='answers.html#9702-2025-on-41-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2025-on-41-q02-p01.png' alt='9702-2025-on-41-q02 source crop'></figure>
 </div>
 <div class='note'>Source pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2025-on-42-q04'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2025-on-42-q04</h2><div class='meta'>Oct/Nov 2025 · Paper 42 · Question 4 · 10 marks</div></div>
+<div class='question-head'><h2>9702-2025-on-42-q04</h2><div class='meta'>Oct/Nov 2025 · Paper 42 · Question 4 · 10 marks · <a class='answer-link' href='answers.html#9702-2025-on-42-q04' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2025-on-42-q04-p01.png' alt='9702-2025-on-42-q04 source crop'></figure>
 </div>
 <figure class='crop'><img src='assets/9702-2025-on-42-q04-p02.png' alt='9702-2025-on-42-q04 source crop'></figure>
 <div class='note'>Source pages: 10, 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_42.pdf?download=true'>source PDF URL</a></div></article>
-<article class='question'>
+<article class='question' id='9702-2025-on-43-q02'>
 <div class='question-start'>
-<div class='question-head'><h2>9702-2025-on-43-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 43 · Question 2 · 8 marks</div></div>
+<div class='question-head'><h2>9702-2025-on-43-q02</h2><div class='meta'>Oct/Nov 2025 · Paper 43 · Question 2 · 8 marks · <a class='answer-link' href='answers.html#9702-2025-on-43-q02' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>
 <figure class='crop'><img src='assets/9702-2025-on-43-q02-p01.png' alt='9702-2025-on-43-q02 source crop'></figure>
 </div>
 <div class='note'>Source pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true'>source PDF URL</a></div></article>
-</body></html>
+</main><aside class='answer-pane' id='answer-pane' aria-label='Matching answer'><iframe title='Matching answer'></iframe></aside></div></body></html>
