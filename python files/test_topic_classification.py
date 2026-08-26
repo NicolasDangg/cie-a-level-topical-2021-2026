@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Small regression check for topical assignments in the generated collection."""
+import json
+from pathlib import Path
+
+
+ROOT = Path("/Users/nicolasdangg/Documents/past paper/cie-a-level-topical-2021-2026")
+
+EXPECTED_MOVES = {
+    **{qid: 12 for qid in (
+        "9702-2023-mj-41-q02", "9702-2023-mj-43-q02",
+    )},
+    **{qid: 13 for qid in (
+        "9702-2022-on-42-q01", "9702-2023-m-42-q01",
+        "9702-2023-on-41-q01", "9702-2023-on-42-q02", "9702-2023-on-43-q01",
+    )},
+    **{qid: 15 for qid in (
+        "9702-2022-on-42-q03", "9702-2023-mj-42-q02",
+        "9702-2025-on-41-q04", "9702-2025-on-43-q04",
+    )},
+    **{qid: 18 for qid in (
+        "9702-2022-on-41-q04", "9702-2022-on-43-q04",
+        "9702-2025-mj-41-q02", "9702-2025-mj-43-q02",
+    )},
+    **{qid: 20 for qid in (
+        "9702-2021-on-41-q09", "9702-2021-on-43-q09",
+    )},
+    **{qid: 21 for qid in (
+        "9702-2023-on-41-q07", "9702-2023-on-43-q07",
+        "9702-2024-mj-41-q07", "9702-2024-mj-43-q07",
+    )},
+    "9702-2022-mj-42-q08": 22,
+    "9702-2025-m-42-q09": 23,
+    **{qid: 24 for qid in (
+        "9702-2022-m-42-q10", "9702-2023-m-42-q09",
+    )},
+}
+
+
+def main():
+    records = json.loads((ROOT / "9702" / "manifest.json").read_text())["records"]
+    by_id = {record["id"]: record for record in records}
+    for qid, topic_number in EXPECTED_MOVES.items():
+        assert qid in by_id, qid
+        assert by_id[qid]["topic_number"] == topic_number, (
+            qid, by_id[qid]["topic_number"], topic_number
+        )
+
+    topic12 = [r for r in records if r["topic_slug"] == "9702-topic-12-motion-in-a-circle"]
+    motion_markers = ("centripetal", "circular motion", "angular velocity", "angular speed", "radian")
+    non_motion_markers = (
+        "amplitude modulation",
+        "frequency modulation",
+        "operational amplifier",
+        "op-amp",
+        "photoelectric",
+        "work function",
+        "ultraviolet",
+    )
+    assert topic12, "Physics topic 12 has no records"
+    for record in topic12:
+        text = record.get("text_excerpt", "").lower()
+        assert any(marker in text for marker in motion_markers), record["id"]
+        assert not any(marker in text for marker in non_motion_markers), record["id"]
+
+    question_html = (ROOT / "9702" / "9702-topic-12-motion-in-a-circle" / "questions.html").read_text()
+    answer_html = (ROOT / "9702" / "9702-topic-12-motion-in-a-circle" / "answers.html").read_text()
+    for html in (question_html, answer_html):
+        assert "page-break-after: always" not in html
+        assert ".question + .question" in html
+        assert "break-after: avoid-page" in html
+    assert question_html.count("class='question-start'") == len(topic12)
+
+
+if __name__ == "__main__":
+    main()
