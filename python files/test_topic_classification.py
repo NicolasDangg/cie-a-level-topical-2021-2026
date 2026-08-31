@@ -36,6 +36,54 @@ EXPECTED_MOVES = {
     )},
 }
 
+EXPECTED_9618_MOVES = {
+    **{qid: 13 for qid in (
+        "9618-2021-mj-31-q02", "9618-2021-mj-32-q02", "9618-2021-mj-33-q02",
+        "9618-2021-on-31-q03", "9618-2021-on-32-q03",
+        "9618-2021-on-31-q05", "9618-2021-on-32-q05",
+        "9618-2022-mj-31-q01", "9618-2022-mj-33-q01",
+        "9618-2022-on-31-q03", "9618-2022-on-32-q04", "9618-2022-on-33-q03",
+        "9618-2023-mj-31-q03", "9618-2023-mj-33-q03",
+        "9618-2023-mj-31-q04", "9618-2023-mj-33-q04",
+        "9618-2023-mj-32-q02",
+        "9618-2023-on-31-q03", "9618-2023-on-32-q02", "9618-2023-on-32-q03", "9618-2023-on-33-q03",
+        "9618-2023-on-31-q04", "9618-2023-on-33-q04",
+        "9618-2024-mj-31-q03", "9618-2024-mj-32-q03", "9618-2024-mj-33-q03",
+        "9618-2024-mj-31-q04", "9618-2024-mj-33-q04", "9618-2024-mj-32-q07",
+        "9618-2024-on-31-q05", "9618-2024-on-33-q05",
+        "9618-2024-on-31-q06", "9618-2024-on-33-q06",
+        "9618-2024-on-32-q02", "9618-2024-on-32-q03",
+        "9618-2025-mj-31-q01", "9618-2025-mj-32-q01", "9618-2025-mj-33-q01",
+        "9618-2025-on-31-q01", "9618-2025-on-32-q01", "9618-2025-on-33-q01",
+    )},
+    **{qid: 15 for qid in (
+        "9618-2023-mj-31-q08", "9618-2023-mj-33-q08",
+        "9618-2024-mj-31-q11", "9618-2024-mj-32-q09", "9618-2024-mj-33-q11",
+    )},
+    **{qid: 16 for qid in (
+        "9618-2023-on-31-q07", "9618-2023-on-33-q07",
+    )},
+    **{qid: 18 for qid in (
+        "9618-2023-on-32-q08",
+        "9618-2025-on-33-q08",
+    )},
+    **{qid: 19 for qid in (
+        "9618-2023-on-32-q09",
+        "9618-2024-on-31-q11", "9618-2024-on-32-q11", "9618-2024-on-33-q11",
+    )},
+    **{qid: 20 for qid in (
+        "9618-2021-on-31-q02", "9618-2021-on-32-q02",
+        "9618-2022-mj-32-q01", "9618-2022-mj-32-q02",
+        "9618-2023-mj-31-q10", "9618-2023-mj-33-q10",
+        "9618-2023-mj-32-q06",
+        "9618-2023-on-31-q08", "9618-2023-on-33-q08",
+        "9618-2023-on-31-q11", "9618-2023-on-33-q11",
+        "9618-2023-on-32-q12",
+        "9618-2024-on-31-q09", "9618-2024-on-33-q09",
+        "9618-2025-mj-31-q12", "9618-2025-mj-32-q13", "9618-2025-mj-33-q11",
+    )},
+}
+
 
 def main():
     records = json.loads((ROOT / "9702" / "manifest.json").read_text())["records"]
@@ -70,6 +118,15 @@ def main():
         assert ".question + .question" in html
         assert "break-after: avoid-page" in html
     assert question_html.count("class='question-start'") == len(topic12)
+
+    cs_records = json.loads((ROOT / "9618" / "manifest.json").read_text())["records"]
+    cs_by_id = {record["id"]: record for record in cs_records}
+    assert len(cs_records) == 407
+    for qid, topic_number in EXPECTED_9618_MOVES.items():
+        assert qid in cs_by_id, qid
+        assert cs_by_id[qid]["topic_number"] == topic_number, (
+            qid, cs_by_id[qid]["topic_number"], topic_number
+        )
 
 
 if __name__ == "__main__":

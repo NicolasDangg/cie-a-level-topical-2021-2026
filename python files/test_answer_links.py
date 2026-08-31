@@ -47,46 +47,47 @@ class AnswerIdParser(HTMLParser):
 
 
 def main():
-    manifest = json.loads((ROOT / "9702" / "manifest.json").read_text())
-    answers = json.loads((ROOT / "9702" / "answers-manifest.json").read_text())
-    assert len(manifest["records"]) == 436
-    assert len(answers["records"]) == 436
+    for subject, expected_count in (("9702", 436), ("9618", 407)):
+        manifest = json.loads((ROOT / subject / "manifest.json").read_text())
+        answers = json.loads((ROOT / subject / "answers-manifest.json").read_text())
+        assert len(manifest["records"]) == expected_count
+        assert len(answers["records"]) == expected_count
 
-    expected = {record["id"]: record for record in manifest["records"]}
-    expected_answers = {record["id"]: record for record in answers["records"]}
-    found = {}
-    for topic in manifest["topics"]:
-        question_path = ROOT / "9702" / topic["questions_html"]
-        parser = QuestionParser()
-        parser.feed(question_path.read_text())
-        for question in parser.questions:
-            assert question["id"] in expected, question["id"]
-            assert expected[question["id"]]["topic_slug"] == topic["slug"]
-            assert expected_answers[question["id"]]["html"] == topic["answers_html"]
-            assert len(question["links"]) == 1, question["id"]
-            href = question["links"][0]
-            parsed = urlsplit(href)
-            assert parsed.path == "answers.html", (question["id"], href)
-            assert unquote(parsed.fragment) == question["id"], (question["id"], href)
-            assert (question_path.parent / parsed.path).is_file(), href
-            found[question["id"]] = (question_path.parent / parsed.path, parsed.fragment)
+        expected = {record["id"]: record for record in manifest["records"]}
+        expected_answers = {record["id"]: record for record in answers["records"]}
+        found = {}
+        for topic in manifest["topics"]:
+            question_path = ROOT / subject / topic["questions_html"]
+            parser = QuestionParser()
+            parser.feed(question_path.read_text())
+            for question in parser.questions:
+                assert question["id"] in expected, question["id"]
+                assert expected[question["id"]]["topic_slug"] == topic["slug"]
+                assert expected_answers[question["id"]]["html"] == topic["answers_html"]
+                assert len(question["links"]) == 1, question["id"]
+                href = question["links"][0]
+                parsed = urlsplit(href)
+                assert parsed.path == "answers.html", (question["id"], href)
+                assert unquote(parsed.fragment) == question["id"], (question["id"], href)
+                assert (question_path.parent / parsed.path).is_file(), href
+                found[question["id"]] = (question_path.parent / parsed.path, parsed.fragment)
 
-    assert set(found) == set(expected)
-    for answer_path, fragment in found.values():
-        parser = AnswerIdParser()
-        parser.feed(answer_path.read_text())
-        assert fragment in parser.ids, (answer_path, fragment)
+        assert set(found) == set(expected)
+        for answer_path, fragment in found.values():
+            parser = AnswerIdParser()
+            parser.feed(answer_path.read_text())
+            assert fragment in parser.ids, (answer_path, fragment)
 
-    for topic in manifest["topics"]:
-        question_text = (ROOT / "9702" / topic["questions_html"]).read_text()
-        assert ".question-layout.has-answer" in question_text
-        assert "@media print" in question_text
-        assert "if (layout.dataset.answerId === questionId)" in question_text
-        assert "frame.removeAttribute('src')" in question_text
-        assert "layout.classList.remove('has-answer')" in question_text
-        assert "document.body.classList.remove('answer-open')" in question_text
-        assert "link.textContent = 'Hide answer'" in question_text
-        assert "link.textContent = 'View answer side by side'" in question_text
+        for topic in manifest["topics"]:
+            question_text = (ROOT / subject / topic["questions_html"]).read_text()
+            assert ".question-layout.has-answer" in question_text
+            assert "@media print" in question_text
+            assert "if (layout.dataset.answerId === questionId)" in question_text
+            assert "frame.removeAttribute('src')" in question_text
+            assert "layout.classList.remove('has-answer')" in question_text
+            assert "document.body.classList.remove('answer-open')" in question_text
+            assert "link.textContent = 'Hide answer'" in question_text
+            assert "link.textContent = 'View answer side by side'" in question_text
 
 
 if __name__ == "__main__":

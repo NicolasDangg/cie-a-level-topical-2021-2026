@@ -7,6 +7,7 @@ body { margin: 0; font: 10.5pt/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI
 h1 { font-size: 20pt; margin: 0 0 4mm; } h2 { font-size: 14pt; margin: 0 0 2mm; }
 header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom: 6mm; }
 .meta, .note { color: #4b5563; font-size: 9pt; } .question { padding-bottom: 2mm; }
+.question[id] { scroll-margin-top: 12mm; }
 .question + .question { page-break-before: always; break-before: page; }
 .question-head { display: flex; justify-content: space-between; gap: 4mm; border-bottom: .5pt solid #9ca3af; padding-bottom: 2mm; margin-bottom: 4mm; page-break-after: avoid; break-after: avoid-page; }
 .question-head + .answer-text { page-break-before: avoid; break-before: avoid-page; }
@@ -16,39 +17,8 @@ header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom:
 @media screen { body { max-width: 190mm; margin: 12mm auto; } .question { margin-bottom: 12mm; } }
 </style>
 </head><body>
-<header><h1>Further programming</h1><div class='meta'>9618 Computer Science · official mark-scheme answers · 60 questions</div></header>
-<article class='question'>
-<div class='question-head'><h2>9618-2021-mj-31-q02</h2><div class='meta'>May/June 2021 · Paper 31 · Question 2 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s21_ms_31-p04.png' alt='9618-2021-mj-31-q02 official mark scheme page'>
-</div>
-<div class='answer-text'>2(a) One mark for each correct marking point (Max 2) 2
-• To create a new data type (from existing data types)
-• To allow data types not available in a programming language to be
-constructed // To extend the flexibility of the programming language
-
-2(b)(i) TYPE SchoolDay = (Monday, Tuesday, Wednesday, Thursday, 1
-Friday)
-
-2(b)(ii) TYPE WeekEnd = (Saturday, Sunday) 1
-
-2(c) One mark for each marking point (Max 4) 4
-• TYPE ClubMeet and ENDTYPE correct
-• DECLARE FirstName and DECLARE LastName included with correct
-data types
-• DECLARE Schoolday included with correct data types from part 2(b)(i)
-• DECLARE Weekend included with correct data types from part 2(b)(ii)
-Example answer
-TYPE ClubMeet
-DECLARE FirstName : STRING
-DECLARE LastName : STRING
-DECLARE Schoolday : SchoolDay
-DECLARE Weekend : WeekEnd
-ENDTYPE
-© UCLES 2021 Page 4 of 10</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<header><h1>Further programming</h1><div class='meta'>9618 Computer Science · official mark-scheme answers · 40 questions</div></header>
+<article class='question' id='9618-2021-mj-31-q09'>
 <div class='question-head'><h2>9618-2021-mj-31-q09</h2><div class='meta'>May/June 2021 · Paper 31 · Question 9 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s21_ms_31-p09.png' alt='9618-2021-mj-31-q09 official mark scheme page'>
@@ -96,38 +66,7 @@ speed = 0;
 © UCLES 2021 Page 10 of 10</div>
 <p class='note'>Official mark scheme pages: 9, 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2021-mj-32-q02</h2><div class='meta'>May/June 2021 · Paper 32 · Question 2 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s21_ms_32-p04.png' alt='9618-2021-mj-32-q02 official mark scheme page'>
-</div>
-<div class='answer-text'>2(a) One mark for each correct marking point (Max 2) 2
-• To create a new data type (from existing data types)
-• To allow data types not available in a programming language to be
-constructed // To extend the flexibility of the programming language
-
-2(b)(i) TYPE SchoolDay = (Monday, Tuesday, Wednesday, Thursday, 1
-Friday)
-
-2(b)(ii) TYPE WeekEnd = (Saturday, Sunday) 1
-
-2(c) One mark for each marking point (Max 4) 4
-• TYPE ClubMeet and ENDTYPE correct
-• DECLARE FirstName and DECLARE LastName included with correct
-data types
-• DECLARE Schoolday included with correct data types from part 2(b)(i)
-• DECLARE Weekend included with correct data types from part 2(b)(ii)
-Example answer
-TYPE ClubMeet
-DECLARE FirstName : STRING
-DECLARE LastName : STRING
-DECLARE Schoolday : SchoolDay
-DECLARE Weekend : WeekEnd
-ENDTYPE
-© UCLES 2021 Page 4 of 10</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2021-mj-32-q09'>
 <div class='question-head'><h2>9618-2021-mj-32-q09</h2><div class='meta'>May/June 2021 · Paper 32 · Question 9 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s21_ms_32-p09.png' alt='9618-2021-mj-32-q09 official mark scheme page'>
@@ -175,38 +114,7 @@ speed = 0;
 © UCLES 2021 Page 10 of 10</div>
 <p class='note'>Official mark scheme pages: 9, 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2021-mj-33-q02</h2><div class='meta'>May/June 2021 · Paper 33 · Question 2 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s21_ms_33-p04.png' alt='9618-2021-mj-33-q02 official mark scheme page'>
-</div>
-<div class='answer-text'>2(a) One mark for each correct marking point (Max 2) 2
-• To create a new data type (from existing data types)
-• To allow data types not available in a programming language to be
-constructed // To extend the flexibility of the programming language
-
-2(b)(i) TYPE SchoolDay = (Monday, Tuesday, Wednesday, Thursday, 1
-Friday)
-
-2(b)(ii) TYPE WeekEnd = (Saturday, Sunday) 1
-
-2(c) One mark for each marking point (Max 4) 4
-• TYPE ClubMeet and ENDTYPE correct
-• DECLARE FirstName and DECLARE LastName included with correct
-data types
-• DECLARE Schoolday included with correct data types from part 2(b)(i)
-• DECLARE Weekend included with correct data types from part 2(b)(ii)
-Example answer
-TYPE ClubMeet
-DECLARE FirstName : STRING
-DECLARE LastName : STRING
-DECLARE Schoolday : SchoolDay
-DECLARE Weekend : WeekEnd
-ENDTYPE
-© UCLES 2021 Page 4 of 10</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2021-mj-33-q09'>
 <div class='question-head'><h2>9618-2021-mj-33-q09</h2><div class='meta'>May/June 2021 · Paper 33 · Question 9 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s21_ms_33-p09.png' alt='9618-2021-mj-33-q09 official mark scheme page'>
@@ -254,70 +162,57 @@ speed = 0;
 © UCLES 2021 Page 10 of 10</div>
 <p class='note'>Official mark scheme pages: 9, 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2021-on-31-q05</h2><div class='meta'>Oct/Nov 2021 · Paper 31 · Question 5 · 6 marks</div></div>
+<article class='question' id='9618-2021-on-31-q02'>
+<div class='question-head'><h2>9618-2021-on-31-q02</h2><div class='meta'>Oct/Nov 2021 · Paper 31 · Question 2 · 4 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w21_ms_31-p05.png' alt='9618-2021-on-31-q05 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w21_ms_31-p04.png' alt='9618-2021-on-31-q02 official mark scheme page'>
 </div>
-<div class='answer-text'>5(a) One mark for each correct marking point (Max 4) 4
-• In both serial and sequential files records are stored one after the other …
-• … and need to be accessed one after the other
-• Serial files are stored in chronological order
-• Sequential files are stored with ordered records
-• … and stored in the order of the key field
-• In serial files, new records are added in the next available space / records
-are appended to the file
-• In sequential files, new records are inserted in the correct position.
-
-5(b) Direct (access) 1
-
-5(c) Sequential (access) 1
-© UCLES 2021 Page 5 of 10</div>
-<p class='note'>Official mark scheme pages: 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2021-on-32-q05</h2><div class='meta'>Oct/Nov 2021 · Paper 32 · Question 5 · 6 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w21_ms_32-p05.png' alt='9618-2021-on-32-q05 official mark scheme page'>
-</div>
-<div class='answer-text'>5(a) One mark for each correct marking point (Max 4) 4
-• In both serial and sequential files records are stored one after the other …
-• … and need to be accessed one after the other
-• Serial files are stored in chronological order
-• Sequential files are stored with ordered records
-• … and stored in the order of the key field
-• In serial files, new records are added in the next available space / records
-are appended to the file
-• In sequential files, new records are inserted in the correct position.
-
-5(b) Direct (access) 1
-
-5(c) Sequential (access) 1
-© UCLES 2021 Page 5 of 10</div>
-<p class='note'>Official mark scheme pages: 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2022-mj-31-q01</h2><div class='meta'>May/June 2022 · Paper 31 · Question 1 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s22_ms_31-p04.png' alt='9618-2022-mj-31-q01 official mark scheme page'>
-</div>
-<div class='answer-text'>1(a) LibraryBook.Title  &quot;A Level Computer Science&quot; 2
-LibraryBook.Fiction  FALSE
-
-1(b)(i) DECLARE NumberOfCopies : 1 .. 10 1
-
-1(b)(ii) DECLARE AccessionNumber : ARRAY[1:NumberOfCopies] OF INTEGER 2
-
-1(c) Any two from 3
- A data type constructed by a programmer // not a primitive data type
- A data type that references at least one other data type…
- … the data types can be primitive, or user defined
-One mark for an example
- Class / object / set
+<div class='answer-text'>2 One mark for each single correct line from Programming Paradigm to 4
+Description
+Programming Paradigm Description
+Programs using the instruction set of a
+processor
+Declarative
+Programs based on events such as
+user actions or sensor outputs
+Imperative
+Programs using the concepts of class,
+inheritance, encapsulation and
+Low-level polymorphism
+Programs with an explicit sequence of
+commands that update the program
+Object oriented state, with or without procedure calls
+Programs that specify the desired
+result rather than how to get to it
 Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true'>source PDF URL</a></p>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2021-on-32-q02'>
+<div class='question-head'><h2>9618-2021-on-32-q02</h2><div class='meta'>Oct/Nov 2021 · Paper 32 · Question 2 · 4 marks</div></div>
+<div class='answer-images'>
+<img class='answer-image' src='../answer-assets/9618_w21_ms_32-p04.png' alt='9618-2021-on-32-q02 official mark scheme page'>
+</div>
+<div class='answer-text'>2 One mark for each single correct line from Programming Paradigm to 4
+Description
+Programming Paradigm Description
+Programs using the instruction set of a
+processor
+Declarative
+Programs based on events such as
+user actions or sensor outputs
+Imperative
+Programs using the concepts of class,
+inheritance, encapsulation and
+Low-level polymorphism
+Programs with an explicit sequence of
+commands that update the program
+Object oriented state, with or without procedure calls
+Programs that specify the desired
+result rather than how to get to it
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question' id='9618-2022-mj-31-q02'>
 <div class='question-head'><h2>9618-2022-mj-31-q02</h2><div class='meta'>May/June 2022 · Paper 31 · Question 2 · 6 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s22_ms_31-p04.png' alt='9618-2022-mj-31-q02 official mark scheme page'>
@@ -334,7 +229,7 @@ hair(caracal, short).
 © UCLES 2022 Page 4 of 11</div>
 <p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2022-mj-31-q07'>
 <div class='question-head'><h2>9618-2022-mj-31-q07</h2><div class='meta'>May/June 2022 · Paper 31 · Question 7 · 11 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s22_ms_31-p09.png' alt='9618-2022-mj-31-q07 official mark scheme page'>
@@ -379,7 +274,50 @@ Inheritance max 2:
 Question Answer Marks</div>
 <p class='note'>Official mark scheme pages: 9, 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2022-mj-32-q01'>
+<div class='question-head'><h2>9618-2022-mj-32-q01</h2><div class='meta'>May/June 2022 · Paper 32 · Question 1 · 9 marks</div></div>
+<div class='answer-images'>
+<img class='answer-image' src='../answer-assets/9618_s22_ms_32-p04.png' alt='9618-2022-mj-32-q01 official mark scheme page'>
+</div>
+<div class='answer-text'>1(a) BuildingRegister.BuildingID  1067 2
+BuildingRegister.BuildingGroup  &quot;house&quot;
+
+1(b)(i) One mark: TYPE BuildingType = 2
+One mark: (house, bungalow, apartment, farm)
+TYPE BuildingType = (house, bungalow, apartment, farm)
+
+1(b)(ii) DECLARE BuildingGroup : BuildingType 1
+
+1(b)(iii) BuildingRegister.BuildingGroup  house 1
+
+1(c)(i) PRIVATE OwnerName : STRING 1
+
+1(c)(ii) To ensure that attributes can only be accessed by the class’s own methods 2
+To enforce encapsulation // ensure they are hidden
+Question Answer Marks</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question' id='9618-2022-mj-32-q02'>
+<div class='question-head'><h2>9618-2022-mj-32-q02</h2><div class='meta'>May/June 2022 · Paper 32 · Question 2 · 7 marks</div></div>
+<div class='answer-images'>
+<img class='answer-image' src='../answer-assets/9618_s22_ms_32-p04.png' alt='9618-2022-mj-32-q02 official mark scheme page'>
+</div>
+<div class='answer-text'>2(a) studies(sam, history). 2
+tutors(nina, sam).
+
+2(b) freya, hua // hua, freya 1
+
+2(c) one mark for correct use of X 4
+one mark for two other variables in correct positions
+one mark for three correct clauses in any order
+one mark for correct syntax
+teaches(R, S),
+studies(X, S),
+tutors(R, X).
+© UCLES 2022 Page 4 of 9</div>
+<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true'>source PDF URL</a></p>
+</article>
+<article class='question' id='9618-2022-mj-32-q09'>
 <div class='question-head'><h2>9618-2022-mj-32-q09</h2><div class='meta'>May/June 2022 · Paper 32 · Question 9 · 4 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s22_ms_32-p08.png' alt='9618-2022-mj-32-q09 official mark scheme page'>
@@ -398,28 +336,7 @@ Example divide by zero // end of file // file not found
 © UCLES 2022 Page 9 of 9</div>
 <p class='note'>Official mark scheme pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2022-mj-33-q01</h2><div class='meta'>May/June 2022 · Paper 33 · Question 1 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s22_ms_33-p04.png' alt='9618-2022-mj-33-q01 official mark scheme page'>
-</div>
-<div class='answer-text'>1(a) LibraryBook.Title  &quot;A Level Computer Science&quot; 2
-LibraryBook.Fiction  FALSE
-
-1(b)(i) DECLARE NumberOfCopies : 1 .. 10 1
-
-1(b)(ii) DECLARE AccessionNumber : ARRAY[1:NumberOfCopies] OF INTEGER 2
-
-1(c) Any two from 3
- A data type constructed by a programmer // not a primitive data type
- A data type that references at least one other data type…
- … the data types can be primitive, or user defined
-One mark for an example
- Class / object / set
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2022-mj-33-q02'>
 <div class='question-head'><h2>9618-2022-mj-33-q02</h2><div class='meta'>May/June 2022 · Paper 33 · Question 2 · 6 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s22_ms_33-p04.png' alt='9618-2022-mj-33-q02 official mark scheme page'>
@@ -436,7 +353,7 @@ hair(caracal, short).
 © UCLES 2022 Page 4 of 11</div>
 <p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2022-mj-33-q07'>
 <div class='question-head'><h2>9618-2022-mj-33-q07</h2><div class='meta'>May/June 2022 · Paper 33 · Question 7 · 11 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s22_ms_33-p09.png' alt='9618-2022-mj-33-q07 official mark scheme page'>
@@ -481,38 +398,7 @@ Inheritance max 2:
 Question Answer Marks</div>
 <p class='note'>Official mark scheme pages: 9, 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2022-on-31-q03</h2><div class='meta'>Oct/Nov 2022 · Paper 31 · Question 3 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w22_ms_31-p05.png' alt='9618-2022-on-31-q03 official mark scheme page'>
-<img class='answer-image' src='../answer-assets/9618_w22_ms_31-p06.png' alt='9618-2022-on-31-q03 official mark scheme page'>
-</div>
-<div class='answer-text'>3(a) A (user-defined non-composite) data type with an ordered list of possible values. 1
-
-3(b) A user-defined non-composite data type used to reference a memory location. 1
-
-3(c) Marks as shown in the square brackets: 2
-TYPE Quarter1 = (January, February, March)
-TYPE Quarter1 = [1]
-(January, February, March) [1]
-
-3(d)(i) DECLARE Pet1 : Pet 1
-© UCLES 2022 Page 5 of 15
-
-3(d)(ii) One mark for each point: 3
-• Correct assignment of all string data values
-• Correct assignment of char data value
-• Correct assignment of integer data value
-Example answer:
-Pet1.PetName  &quot;Tibbles&quot;
-Pet1.AnimalType  &quot;Cat&quot;
-Pet1.PetAge  8
-Pet1.PetGender  &#x27;M&#x27;
-Pet1.OwnerName  &quot;Jasmine Smith&quot;
-© UCLES 2022 Page 6 of 15</div>
-<p class='note'>Official mark scheme pages: 5, 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2022-on-31-q11'>
 <div class='question-head'><h2>9618-2022-on-31-q11</h2><div class='meta'>Oct/Nov 2022 · Paper 31 · Question 11 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w22_ms_31-p12.png' alt='9618-2022-on-31-q11 official mark scheme page'>
@@ -552,47 +438,7 @@ ENDCLASS
 © UCLES 2022 Page 13 of 15</div>
 <p class='note'>Official mark scheme pages: 12, 13 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2022-on-32-q04</h2><div class='meta'>Oct/Nov 2022 · Paper 32 · Question 4 · 10 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w22_ms_32-p06.png' alt='9618-2022-on-32-q04 official mark scheme page'>
-<img class='answer-image' src='../answer-assets/9618_w22_ms_32-p07.png' alt='9618-2022-on-32-q04 official mark scheme page'>
-</div>
-<div class='answer-text'>4(a) Marks as shown in the square brackets: 2
-TYPE Aircraft = (C300, C350, D242, E757, X380)
-TYPE Aircraft = [1]
-(C300, C350, D242, E757, X380) [1]
-
-4(b) One mark for each point (Max 4) 4
-• TYPE Flight and ENDTYPE correct
-• DECLARE FlightNumber and DECLARE Destination as STRING
-• DECLARE DepartureDate as DATE
-• DECLARE AircraftType as Aircraft (correct data type from part 4(a))
-Example answer:
-TYPE Flight
-DECLARE FlightNumber : STRING
-DECLARE Destination : STRING
-DECLARE DepartureDate : DATE
-DECLARE AircraftType : Aircraft
-ENDTYPE
-
-4(c)(i) Example answer: 1
-DECLARE Flight1 : Flight
-© UCLES 2022 Page 6 of 16
-
-4(c)(ii) One mark for each point (Max 3) 3
-• Correct assignments of both string data values
-• Correct assignments of date data value
-• Correct assignments of enumerated data value
-Example answer:
-Flight1.FlightNumber  &quot;XA782&quot;
-Flight1.Destination  &quot;Cambridge&quot;
-Flight1.DepartureDate  12/12/2022
-Flight1.AircraftType  C350
-© UCLES 2022 Page 7 of 16</div>
-<p class='note'>Official mark scheme pages: 6, 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2022-on-32-q10'>
 <div class='question-head'><h2>9618-2022-on-32-q10</h2><div class='meta'>Oct/Nov 2022 · Paper 32 · Question 10 · 6 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w22_ms_32-p13.png' alt='9618-2022-on-32-q10 official mark scheme page'>
@@ -622,38 +468,7 @@ GetInSchool()
 © UCLES 2022 Page 14 of 16</div>
 <p class='note'>Official mark scheme pages: 13, 14 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2022-on-33-q03</h2><div class='meta'>Oct/Nov 2022 · Paper 33 · Question 3 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w22_ms_33-p05.png' alt='9618-2022-on-33-q03 official mark scheme page'>
-<img class='answer-image' src='../answer-assets/9618_w22_ms_33-p06.png' alt='9618-2022-on-33-q03 official mark scheme page'>
-</div>
-<div class='answer-text'>3(a) A (user-defined non-composite) data type with an ordered list of possible values. 1
-
-3(b) A user-defined non-composite data type used to reference a memory location. 1
-
-3(c) Marks as shown in the square brackets: 2
-TYPE Quarter1 = (January, February, March)
-TYPE Quarter1 = [1]
-(January, February, March) [1]
-
-3(d)(i) DECLARE Pet1 : Pet 1
-© UCLES 2022 Page 5 of 15
-
-3(d)(ii) One mark for each point: 3
-• Correct assignment of all string data values
-• Correct assignment of char data value
-• Correct assignment of integer data value
-Example answer:
-Pet1.PetName  &quot;Tibbles&quot;
-Pet1.AnimalType  &quot;Cat&quot;
-Pet1.PetAge  8
-Pet1.PetGender  &#x27;M&#x27;
-Pet1.OwnerName  &quot;Jasmine Smith&quot;
-© UCLES 2022 Page 6 of 15</div>
-<p class='note'>Official mark scheme pages: 5, 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2022-on-33-q11'>
 <div class='question-head'><h2>9618-2022-on-33-q11</h2><div class='meta'>Oct/Nov 2022 · Paper 33 · Question 11 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w22_ms_33-p12.png' alt='9618-2022-on-33-q11 official mark scheme page'>
@@ -693,41 +508,29 @@ ENDCLASS
 © UCLES 2022 Page 13 of 15</div>
 <p class='note'>Official mark scheme pages: 12, 13 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-mj-31-q04</h2><div class='meta'>May/June 2023 · Paper 31 · Question 4 · 4 marks</div></div>
+<article class='question' id='9618-2023-mj-31-q10'>
+<div class='question-head'><h2>9618-2023-mj-31-q10</h2><div class='meta'>May/June 2023 · Paper 31 · Question 10 · 5 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s23_ms_31-p04.png' alt='9618-2023-mj-31-q04 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_s23_ms_31-p08.png' alt='9618-2023-mj-31-q10 official mark scheme page'>
 </div>
-<div class='answer-text'>4(a) One mark per mark point (Max 2) 2
- TYPE Prime
- = (2, 3, 5, 7, 11, 13, 17, 19)
-Example answer
-TYPE Prime = (2, 3, 5, 7, 11, 13, 17, 19)
-
-4(b) One mark per mark point (Max 2) 2
- TYPE TDayPointer
- = ^STRING //^DayOfWeek
-Example answer
-TYPE TDayPointer = ^STRING // ^DayOfWeek
-© UCLES 2023 Page 4 of 10</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-mj-31-q08</h2><div class='meta'>May/June 2023 · Paper 31 · Question 8 · 3 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s23_ms_31-p07.png' alt='9618-2023-mj-31-q08 official mark scheme page'>
-</div>
-<div class='answer-text'>8 One mark per mark point (Max 3) 3
-MP1 A large number of computer processors / separate computers
-connected together
-MP2 … simultaneously performing a set of coordinated computations //
-collaborative processing
-MP3 network infrastructure
-MP4 communicate using a message interface / by sending messages.
+<div class='answer-text'>10 One mark for each correctly completed line (Max 5) 5
+DECLARE Account : STRING
+OPENFILE &quot;ActiveFile.txt&quot; FOR READ
+OPENFILE &quot;ArchiveFile.txt&quot; FOR WRITE
+WHILE NOT EOF(&quot;ActiveFile.txt&quot;)
+READFILE &quot;ActiveFile.txt&quot;, Account
+IF Account = &quot;&quot; THEN
+WRITEFILE &quot;ArchiveFile.txt&quot;, &quot;Account not present&quot;
+ELSE
+WRITEFILE &quot;ArchiveFile.txt&quot;, Account
+ENDIF
+ENDWHILE
+CLOSEFILE &quot;ActiveFile.txt&quot;
+CLOSEFILE &quot;ArchiveFile.txt&quot;
 Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true'>source PDF URL</a></p>
+<p class='note'>Official mark scheme pages: 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2023-mj-32-q04'>
 <div class='question-head'><h2>9618-2023-mj-32-q04</h2><div class='meta'>May/June 2023 · Paper 32 · Question 4 · 4 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s23_ms_32-p06.png' alt='9618-2023-mj-32-q04 official mark scheme page'>
@@ -752,125 +555,123 @@ that inherits from a parent class
 Question Answer Marks</div>
 <p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-mj-33-q04</h2><div class='meta'>May/June 2023 · Paper 33 · Question 4 · 4 marks</div></div>
+<article class='question' id='9618-2023-mj-32-q06'>
+<div class='question-head'><h2>9618-2023-mj-32-q06</h2><div class='meta'>May/June 2023 · Paper 32 · Question 6 · 9 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s23_ms_33-p04.png' alt='9618-2023-mj-33-q04 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_s23_ms_32-p07.png' alt='9618-2023-mj-32-q06 official mark scheme page'>
 </div>
-<div class='answer-text'>4(a) One mark per mark point (Max 2) 2
- TYPE Prime
- = (2, 3, 5, 7, 11, 13, 17, 19)
+<div class='answer-text'>6(a) One mark for TYPE TAppointments and ENDTYPE correct 4
+One mark for every two correct declarations (Max 3)
 Example answer
-TYPE Prime = (2, 3, 5, 7, 11, 13, 17, 19)
+TYPE TAppointments
+DECLARE Name : STRING
+DECLARE DateOfBirth : DATE
+DECLARE Telephone : STRING
+DECLARE LastAppointment : DATE
+DECLARE NextAppointment : DATE
+DECLARE TreatmentsComplete : BOOLEAN
+ENDTYPE
 
-4(b) One mark per mark point (Max 2) 2
- TYPE TDayPointer
- = ^STRING //^DayOfWeek
-Example answer
-TYPE TDayPointer = ^STRING // ^DayOfWeek
-© UCLES 2023 Page 4 of 10</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-mj-33-q08</h2><div class='meta'>May/June 2023 · Paper 33 · Question 8 · 3 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s23_ms_33-p07.png' alt='9618-2023-mj-33-q08 official mark scheme page'>
-</div>
-<div class='answer-text'>8 One mark per mark point (Max 3) 3
-MP1 A large number of computer processors / separate computers
-connected together
-MP2 … simultaneously performing a set of coordinated computations //
-collaborative processing
-MP3 network infrastructure
-MP4 communicate using a message interface / by sending messages.
+6(b) One mark for each correctly completed line (Max 5) 5
+DECLARE DentalRecord : ARRAY[1:250] OF TAppointments
+DECLARE DentalFile : STRING
+DECLARE Count : INTEGER
+DentalFile  &quot;DentalFile.dat&quot;
+OUTPUT &quot;The file &quot;, DentalFile, &quot; contains these records:&quot;
+OPENFILE DentalFile FOR RANDOM
+Count  1
+REPEAT
+SEEK DentalFile, Count
+GETRECORD DentalFile, DentalRecord[Count]
+OUTPUT DentalRecord[Count]
+Count  Count + 1
+UNTIL EOF(DentalFile)
+CLOSEFILE DentalFile
 Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true'>source PDF URL</a></p>
+<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-on-31-q03</h2><div class='meta'>Oct/Nov 2023 · Paper 31 · Question 3 · 4 marks</div></div>
+<article class='question' id='9618-2023-mj-33-q10'>
+<div class='question-head'><h2>9618-2023-mj-33-q10</h2><div class='meta'>May/June 2023 · Paper 33 · Question 10 · 5 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w23_ms_31-p04.png' alt='9618-2023-on-31-q03 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_s23_ms_33-p08.png' alt='9618-2023-mj-33-q10 official mark scheme page'>
 </div>
-<div class='answer-text'>3 One mark per mark point – enumerated type (Max 2) 4
-MP1 A user-defined non-composite (data type) (only award once)
-MP2 …with a list of all possible values
-MP3 …that is ordered.
-One mark per mark point – pointer type (Max 2)
-MP4 A user-defined non-composite (data type) (only award once)
-MP5 …that stores addresses/memory locations only
-MP6 …and indicates the type of data stored in the memory location.
+<div class='answer-text'>10 One mark for each correctly completed line (Max 5) 5
+DECLARE Account : STRING
+OPENFILE &quot;ActiveFile.txt&quot; FOR READ
+OPENFILE &quot;ArchiveFile.txt&quot; FOR WRITE
+WHILE NOT EOF(&quot;ActiveFile.txt&quot;)
+READFILE &quot;ActiveFile.txt&quot;, Account
+IF Account = &quot;&quot; THEN
+WRITEFILE &quot;ArchiveFile.txt&quot;, &quot;Account not present&quot;
+ELSE
+WRITEFILE &quot;ArchiveFile.txt&quot;, Account
+ENDIF
+ENDWHILE
+CLOSEFILE &quot;ActiveFile.txt&quot;
+CLOSEFILE &quot;ArchiveFile.txt&quot;
 Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true'>source PDF URL</a></p>
+<p class='note'>Official mark scheme pages: 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-on-31-q04</h2><div class='meta'>Oct/Nov 2023 · Paper 31 · Question 4 · 6 marks</div></div>
+<article class='question' id='9618-2023-on-31-q08'>
+<div class='question-head'><h2>9618-2023-on-31-q08</h2><div class='meta'>Oct/Nov 2023 · Paper 31 · Question 8 · 8 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w23_ms_31-p04.png' alt='9618-2023-on-31-q04 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w23_ms_31-p06.png' alt='9618-2023-on-31-q08 official mark scheme page'>
 </div>
-<div class='answer-text'>4(a) One mark per mark point – sequential (Max 2) 4
-MP1 Records (in the file) are ordered
-MP2 …based on the key field
-MP3 A new version (of the file) has to be created to update the file
-One mark per mark point – random (Max 2)
-MP4 Records are stored in no particular order within the file // There is no
-sequencing in the placement of the records
-MP5 There is a relationship between the key of the record and its location
-within the file // a hashing algorithm is used to find the location of the
-record
-MP6 Updates to the file can be carried out directly.
+<div class='answer-text'>8(a) One mark for each correctly completed line (Max 5) 5
+DECLARE Customer : TAccount
+DECLARE Location : INTEGER
+DECLARE AccountFile : STRING
+AccountFile  &quot;AccountRecords.dat&quot;
+OPENFILE AccountFile FOR RANDOM
+OUTPUT &quot;Please enter an account number&quot;
+INPUT Customer.AccountNumber
+Location  Hash(Customer.AccountNumber)
+SEEK AccountFile, Location
+GETRECORD AccountFile, Customer
+OUTPUT Customer
+CLOSEFILE AccountFile
 
-4(b) One mark per mark point (Max 2) 2
-MP1 Start at the beginning of the file
-MP2 …check records linearly
-MP3 …until the desired record is found // … processing / updating records
-as required //… EOF found.
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-on-31-q07</h2><div class='meta'>Oct/Nov 2023 · Paper 31 · Question 7 · 5 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w23_ms_31-p06.png' alt='9618-2023-on-31-q07 official mark scheme page'>
-</div>
-<div class='answer-text'>7(a) One mark for a benefit (Max 1) e.g. 2
-MP1 The user interface hides the complexities of the computer
-hardware/operating system from the user
-MP2 It provides appropriate access systems for users with differing needs
-MP3 Complex commands involving memory locations/buses/computer
-hardware/ are avoided
-One mark for a valid example (Max 1) e.g.
-Clicking on icon rather than writing code
-Using a graphical user interface / icons for navigation
+8(b) One mark for correct definition 1
+(Exception handling is the process of) responding to an unexpected event
+when the program is running so it does not halt unexpectedly
 
-7(b) Blocked (state) 1
-
-7(c) One mark per mark point (Max 2) 2
-MP1 When the time slice of the running process expires (round robin).
-MP2 …and there is a process with a higher priority in the ready queue, the
-running process is pre-empted
-MP3 When an interrupt arrives at the CPU, (the process running on the
-CPU gets pre-empted).
-Question Answer Marks</div>
+8(c) One mark per mark point (Max 2), for example: 2
+• Programming errors
+• User errors
+• Hardware failure
+• Runtime errors
+© UCLES 2023 Page 6 of 9</div>
 <p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-on-32-q02</h2><div class='meta'>Oct/Nov 2023 · Paper 32 · Question 2 · 4 marks</div></div>
+<article class='question' id='9618-2023-on-31-q11'>
+<div class='question-head'><h2>9618-2023-on-31-q11</h2><div class='meta'>Oct/Nov 2023 · Paper 31 · Question 11 · 8 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w23_ms_32-p03.png' alt='9618-2023-on-32-q02 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w23_ms_31-p08.png' alt='9618-2023-on-31-q11 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w23_ms_31-p09.png' alt='9618-2023-on-31-q11 official mark scheme page'>
 </div>
-<div class='answer-text'>2 One mark per mark point – composite (Max 2) 4
-MP1 A (user defined) data type that is a collection of data that can consist
-of multiple elements
-MP2 …of different or the same data types
-MP3 …grouped under a single identifier.
-One mark per mark point – non-composite (Max 2)
-MP4 It can be defined without referencing another data type.
-MP5 It can be a primitive type available in a programming language, or a
-user- defined type.
+<div class='answer-text'>11(a) One mark for each correctly completed clause (Max 3) 3
+(22) student(anthony).
+(23) choice1(anthony, history).
+(24) choice2(anthony, geography).
+
+11(b) X = tomaz, pietre, nico 1
+© UCLES 2023 Page 8 of 9
+
+11(c) One mark per mark point (Max 4) 4
+• student(N)
+• subject(S)
+• choice1(N, S)
+• all logical operators correct with no additional code (see example
+answers)
+Example answers:
+may_choose_subject(N, S)
+IF student(N) AND subject(S) AND NOT choice1(N, S)
+may_choose_subject(N, S)
+IF NOT choice1(N, S), student(N), subject(S)
 Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 3 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true'>source PDF URL</a></p>
+<p class='note'>Official mark scheme pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2023-on-32-q11'>
 <div class='question-head'><h2>9618-2023-on-32-q11</h2><div class='meta'>Oct/Nov 2023 · Paper 32 · Question 11 · 9 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w23_ms_32-p08.png' alt='9618-2023-on-32-q11 official mark scheme page'>
@@ -897,124 +698,108 @@ IF NOT dislikes(N, H), person(N), hobby(H)
 © UCLES 2023 Page 8 of 9</div>
 <p class='note'>Official mark scheme pages: 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-on-33-q03</h2><div class='meta'>Oct/Nov 2023 · Paper 33 · Question 3 · 4 marks</div></div>
+<article class='question' id='9618-2023-on-32-q12'>
+<div class='question-head'><h2>9618-2023-on-32-q12</h2><div class='meta'>Oct/Nov 2023 · Paper 32 · Question 12 · 9 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w23_ms_33-p04.png' alt='9618-2023-on-33-q03 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w23_ms_32-p09.png' alt='9618-2023-on-32-q12 official mark scheme page'>
 </div>
-<div class='answer-text'>3 One mark per mark point – enumerated type (Max 2) 4
-MP1 A user-defined non-composite (data type) (only award once)
-MP2 …with a list of all possible values
-MP3 …that is ordered.
-One mark per mark point – pointer type (Max 2)
-MP4 A user-defined non-composite (data type) (only award once)
-MP5 …that stores addresses/memory locations only
-MP6 …and indicates the type of data stored in the memory location.
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true'>source PDF URL</a></p>
+<div class='answer-text'>12(a) One mark for description, for example: 2
+An exception is an event that occurs during the execution of a program that
+disrupts the normal flow of instructions / causes the program to halt execution
+One mark for example:
+• Hardware failure // hard disk crash
+• Programming error // trying to access out-of-bounds array element // divide
+by zero error // runtime error
+• User error // typing incorrect filename / data type
+
+12(b) One mark for each correctly completed blank (Max 7) 7
+DECLARE Customer : TAccount
+DECLARE Location : INTEGER
+DECLARE MaxSize : INTEGER
+DECLARE: FoundFlag : BOOLEAN
+DECLARE SearchCustomer : STRING
+MaxSize  1000
+OPENFILE &quot;AccountRecord.dat&quot; FOR RANDOM
+Location  1
+FoundFlag  FALSE
+OUTPUT &quot;Enter the customer’s name&quot;
+INPUT SearchCustomer
+WHILE NOT FoundFlag AND Location &lt;= MaxSize
+SEEK &quot;AccountRecord.dat&quot;, Location
+GETRECORD &quot;AccountRecord.dat&quot;, Customer
+IF SearchCustomer = Customer.Name THEN
+OUTPUT &quot;Customer found: &quot;
+OUTPUT Customer
+FoundFlag  TRUE
+ENDIF
+Location  Location + 1
+ENDWHILE
+IF NOT FoundFlag THEN
+OUTPUT &quot;Customer does not exist.&quot;
+ENDIF
+© UCLES 2023 Page 9 of 9</div>
+<p class='note'>Official mark scheme pages: 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-on-33-q04</h2><div class='meta'>Oct/Nov 2023 · Paper 33 · Question 4 · 6 marks</div></div>
+<article class='question' id='9618-2023-on-33-q08'>
+<div class='question-head'><h2>9618-2023-on-33-q08</h2><div class='meta'>Oct/Nov 2023 · Paper 33 · Question 8 · 8 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w23_ms_33-p04.png' alt='9618-2023-on-33-q04 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w23_ms_33-p06.png' alt='9618-2023-on-33-q08 official mark scheme page'>
 </div>
-<div class='answer-text'>4(a) One mark per mark point – sequential (Max 2) 4
-MP1 Records (in the file) are ordered
-MP2 …based on the key field
-MP3 A new version (of the file) has to be created to update the file
-One mark per mark point – random (Max 2)
-MP4 Records are stored in no particular order within the file // There is no
-sequencing in the placement of the records
-MP5 There is a relationship between the key of the record and its location
-within the file // a hashing algorithm is used to find the location of the
-record
-MP6 Updates to the file can be carried out directly.
+<div class='answer-text'>8(a) One mark for each correctly completed line (Max 5) 5
+DECLARE Customer : TAccount
+DECLARE Location : INTEGER
+DECLARE AccountFile : STRING
+AccountFile  &quot;AccountRecords.dat&quot;
+OPENFILE AccountFile FOR RANDOM
+OUTPUT &quot;Please enter an account number&quot;
+INPUT Customer.AccountNumber
+Location  Hash(Customer.AccountNumber)
+SEEK AccountFile, Location
+GETRECORD AccountFile, Customer
+OUTPUT Customer
+CLOSEFILE AccountFile
 
-4(b) One mark per mark point (Max 2) 2
-MP1 Start at the beginning of the file
-MP2 …check records linearly
-MP3 …until the desired record is found // … processing / updating records
-as required //… EOF found.
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2023-on-33-q07</h2><div class='meta'>Oct/Nov 2023 · Paper 33 · Question 7 · 5 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w23_ms_33-p06.png' alt='9618-2023-on-33-q07 official mark scheme page'>
-</div>
-<div class='answer-text'>7(a) One mark for a benefit (Max 1) e.g. 2
-MP1 The user interface hides the complexities of the computer
-hardware/operating system from the user
-MP2 It provides appropriate access systems for users with differing needs
-MP3 Complex commands involving memory locations/buses/computer
-hardware/ are avoided
-One mark for a valid example (Max 1) e.g.
-Clicking on icon rather than writing code
-Using a graphical user interface / icons for navigation
+8(b) One mark for correct definition 1
+(Exception handling is the process of) responding to an unexpected event
+when the program is running so it does not halt unexpectedly
 
-7(b) Blocked (state) 1
-
-7(c) One mark per mark point (Max 2) 2
-MP1 When the time slice of the running process expires (round robin).
-MP2 …and there is a process with a higher priority in the ready queue, the
-running process is pre-empted
-MP3 When an interrupt arrives at the CPU, (the process running on the
-CPU gets pre-empted).
-Question Answer Marks</div>
+8(c) One mark per mark point (Max 2), for example: 2
+• Programming errors
+• User errors
+• Hardware failure
+• Runtime errors
+© UCLES 2023 Page 6 of 9</div>
 <p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-mj-31-q03</h2><div class='meta'>May/June 2024 · Paper 31 · Question 3 · 7 marks</div></div>
+<article class='question' id='9618-2023-on-33-q11'>
+<div class='question-head'><h2>9618-2023-on-33-q11</h2><div class='meta'>Oct/Nov 2023 · Paper 33 · Question 11 · 8 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s24_ms_31-p06.png' alt='9618-2024-mj-31-q03 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w23_ms_33-p08.png' alt='9618-2023-on-33-q11 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w23_ms_33-p09.png' alt='9618-2023-on-33-q11 official mark scheme page'>
 </div>
-<div class='answer-text'>3(a) One mark per mark point (Max 2) 3
-non-composite data types
-MP1 Non-composite data types can both be user-defined or primitive
-MP2 Non-composite data types do not refer to other data types in their definition / contain one data type in their
-definition
-MP3 Non-composite data types can be primitive/enumerated/pointer
-One mark per mark point (Max 2)
-composite data types
-MP4 Composite data types can be user-defined or primitive
-MP5 Composite data types refer to other data types in their definition/contain more than one data type in their
-definition
-MP6 Composite data types can be record/set/class
+<div class='answer-text'>11(a) One mark for each correctly completed clause (Max 3) 3
+(22) student(anthony).
+(23) choice1(anthony, history).
+(24) choice2(anthony, geography).
 
-3(b) One mark for TYPE FootballClub and ENDTYPE correct 4
-One mark for every two correct declarations
-Example answer
-TYPE FootballClub
-DECLARE TeamName : STRING
-DECLARE DateOfJoining : DATE
-DECLARE MainTelephone : STRING
-DECLARE ManagerName : STRING
-DECLARE NumberOfMembers : INTEGER
-DECLARE LeaguePosition : INTEGER
-ENDTYPE
-© Cambridge University Press &amp; Assessment 2024 Page 6 of 14</div>
-<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-mj-31-q04</h2><div class='meta'>May/June 2024 · Paper 31 · Question 4 · 5 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s24_ms_31-p07.png' alt='9618-2024-mj-31-q04 official mark scheme page'>
-</div>
-<div class='answer-text'>4(a) One mark per mark point (Max 2) 2
-MP1 Sequential access method searches for records one after the other
-MP2 … from the physical start of the file until the record is found/the end of file.
+11(b) X = tomaz, pietre, nico 1
+© UCLES 2023 Page 8 of 9
 
-4(b) One mark per mark point (Max 3) 3
-MP1 For serial files, records are stored in chronological order
-MP2 … every record needs to be checked until the record is found, or all records have been checked.
-MP3 For sequential files, records are stored in order of a key field/index, and it is the key field/index that is compared.
-MP4 … every record is checked until the record is found, or the key field of the current record is greater than the key
-field of the target record.
+11(c) One mark per mark point (Max 4) 4
+• student(N)
+• subject(S)
+• choice1(N, S)
+• all logical operators correct with no additional code (see example
+answers)
+Example answers:
+may_choose_subject(N, S)
+IF student(N) AND subject(S) AND NOT choice1(N, S)
+may_choose_subject(N, S)
+IF NOT choice1(N, S), student(N), subject(S)
 Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true'>source PDF URL</a></p>
+<p class='note'>Official mark scheme pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2024-mj-31-q08'>
 <div class='question-head'><h2>9618-2024-mj-31-q08</h2><div class='meta'>May/June 2024 · Paper 31 · Question 8 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s24_ms_31-p11.png' alt='9618-2024-mj-31-q08 official mark scheme page'>
@@ -1039,52 +824,7 @@ feature(F), bodystyle(B), NOT unavailable(F, B).
 Question Answer Marks</div>
 <p class='note'>Official mark scheme pages: 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-mj-32-q03</h2><div class='meta'>May/June 2024 · Paper 32 · Question 3 · 7 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s24_ms_32-p05.png' alt='9618-2024-mj-32-q03 official mark scheme page'>
-</div>
-<div class='answer-text'>3(a) One mark per mark point (Max 3) 3
-MP1 A data type that is defined without referencing another data type.
-MP2 It can be a primitive data type found in a programming language or a user-defined data type.
-MP3 Example – enumerated data type / pointer data type / allow a correct example of an enumerated or pointer data
-type declaration.
-
-3(b) One mark per mark point (Max 4) 4
-MP1 Type statement fully correct
-MP2 DEFINE EvenNumbers
-MP3 Correct list of values in brackets
-MP4 : &lt;set identifier&gt; from Type statement used
-Example answer
-TYPE Numbers = SET OF INTEGER
-DEFINE EvenNumbers (2, 4, 6, 8, 10, 12): Numbers
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-mj-32-q07</h2><div class='meta'>May/June 2024 · Paper 32 · Question 7 · 6 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s24_ms_32-p08.png' alt='9618-2024-mj-32-q07 official mark scheme page'>
-<img class='answer-image' src='../answer-assets/9618_s24_ms_32-p09.png' alt='9618-2024-mj-32-q07 official mark scheme page'>
-</div>
-<div class='answer-text'>7(a) One mark per mark point (Max 2) 2
-MP1 Direct access allows a record to be found in a file without other records being read.
-MP2 Records are found by using the key field of the target record // the location of the record is found using a
-hashing algorithm.
-
-7(b)(i) One mark per mark point (Max 2) 2
-MP1 In sequential files, an index of all key fields is kept
-MP2 The index is searched for the address of the file location where the target record is stored.
-© Cambridge University Press &amp; Assessment 2024 Page 8 of 14
-
-7(b)(ii) One mark per mark point (Max 2) 2
-MP1 A hashing algorithm is used on the key field of the record
-MP2 … to calculate the address of the memory location where the target record is expected to be stored.
-MP3 Method to find a record if it is not at the expected location e.g. linear probing, search overflow area etc.
-© Cambridge University Press &amp; Assessment 2024 Page 9 of 14</div>
-<p class='note'>Official mark scheme pages: 8, 9 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2024-mj-32-q10'>
 <div class='question-head'><h2>9618-2024-mj-32-q10</h2><div class='meta'>May/June 2024 · Paper 32 · Question 10 · 9 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s24_ms_32-p13.png' alt='9618-2024-mj-32-q10 official mark scheme page'>
@@ -1112,57 +852,7 @@ client(C), activity(A), NOT (done(C, A)).
 © Cambridge University Press &amp; Assessment 2024 Page 13 of 14</div>
 <p class='note'>Official mark scheme pages: 13 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-mj-33-q03</h2><div class='meta'>May/June 2024 · Paper 33 · Question 3 · 7 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s24_ms_33-p06.png' alt='9618-2024-mj-33-q03 official mark scheme page'>
-</div>
-<div class='answer-text'>3(a) One mark per mark point (Max 2) 3
-non-composite data types
-MP1 Non-composite data types can both be user-defined or primitive
-MP2 Non-composite data types do not refer to other data types in their definition / contain one data type in their
-definition
-MP3 Non-composite data types can be primitive/enumerated/pointer
-One mark per mark point (Max 2)
-composite data types
-MP4 Composite data types can be user-defined or primitive
-MP5 Composite data types refer to other data types in their definition/contain more than one data type in their
-definition
-MP6 Composite data types can be record/set/class
-
-3(b) One mark for TYPE FootballClub and ENDTYPE correct 4
-One mark for every two correct declarations
-Example answer
-TYPE FootballClub
-DECLARE TeamName : STRING
-DECLARE DateOfJoining : DATE
-DECLARE MainTelephone : STRING
-DECLARE ManagerName : STRING
-DECLARE NumberOfMembers : INTEGER
-DECLARE LeaguePosition : INTEGER
-ENDTYPE
-© Cambridge University Press &amp; Assessment 2024 Page 6 of 14</div>
-<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-mj-33-q04</h2><div class='meta'>May/June 2024 · Paper 33 · Question 4 · 5 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s24_ms_33-p07.png' alt='9618-2024-mj-33-q04 official mark scheme page'>
-</div>
-<div class='answer-text'>4(a) One mark per mark point (Max 2) 2
-MP1 Sequential access method searches for records one after the other
-MP2 … from the physical start of the file until the record is found/the end of file.
-
-4(b) One mark per mark point (Max 3) 3
-MP1 For serial files, records are stored in chronological order
-MP2 … every record needs to be checked until the record is found, or all records have been checked.
-MP3 For sequential files, records are stored in order of a key field/index, and it is the key field/index that is compared.
-MP4 … every record is checked until the record is found, or the key field of the current record is greater than the key
-field of the target record.
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 7 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2024-mj-33-q08'>
 <div class='question-head'><h2>9618-2024-mj-33-q08</h2><div class='meta'>May/June 2024 · Paper 33 · Question 8 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s24_ms_33-p11.png' alt='9618-2024-mj-33-q08 official mark scheme page'>
@@ -1187,77 +877,35 @@ feature(F), bodystyle(B), NOT unavailable(F, B).
 Question Answer Marks</div>
 <p class='note'>Official mark scheme pages: 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-on-31-q06</h2><div class='meta'>Oct/Nov 2024 · Paper 31 · Question 6 · 7 marks</div></div>
+<article class='question' id='9618-2024-on-31-q09'>
+<div class='question-head'><h2>9618-2024-on-31-q09</h2><div class='meta'>Oct/Nov 2024 · Paper 31 · Question 9 · 6 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w24_ms_31-p07.png' alt='9618-2024-on-31-q06 official mark scheme page'>
-<img class='answer-image' src='../answer-assets/9618_w24_ms_31-p08.png' alt='9618-2024-on-31-q06 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w24_ms_31-p12.png' alt='9618-2024-on-31-q09 official mark scheme page'>
 </div>
-<div class='answer-text'>6(a) One mark per mark point (Max 3) 3
-MP1 A set user-defined data type is a composite data type
-MP2 … which includes a list of unordered elements
-MP3 Set theory operations, such as intersection and union, can be applied to these elements
-MP4 A set data type includes the type of data/data type it uses as part of its definition
-MP5 All the elements are of the same data type.
-© Cambridge University Press &amp; Assessment 2024 Page 7 of 17
+<div class='answer-text'>9(a) To ensure that the attributes are only accessible using the class’s own methods/within the class. 1
 
-6(b) One mark for each mark point (Max 4) 4
-MP1 TYPE SymbolSet/Operators =
-MP2 SET OF CHAR
-MP3 DEFINE Operators/SymbolSet
-MP4 (&#x27;+&#x27;, &#x27;–&#x27;, &#x27;*&#x27;, &#x27;/&#x27;, &#x27;^&#x27;)
-MP5 : SymbolSet/Operators
-Example answers
-TYPE SymbolSet = SET OF CHAR
-DEFINE Operators (&#x27;+&#x27;, &#x27;–&#x27;, &#x27;*&#x27;, &#x27;/&#x27;, &#x27;^&#x27;) : SymbolSet
-TYPE Operators = SET OF CHAR
-DEFINE SymbolSet (&#x27;+&#x27;, &#x27;–&#x27;, &#x27;*&#x27;, &#x27;/&#x27;, &#x27;^&#x27;) : Operators
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 7, 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true'>source PDF URL</a></p>
+9(b) One mark per mark point (Max 5) 5
+MP1 Two correct attributes with sensible names and correct data types.
+MP2 Constructor present.
+MP3 Two correct setters with exact names and appropriate parameters and data types.
+MP4 Two correct getters with appropriate names.
+MP5 Name assigned to pet name getter matches the attribute.
+Pet
+PetID : STRING
+PetType : STRING
+OwnerTelephone : STRING
+DateRegistered : DATE
+PetName : STRING
+OwnerName : STRING
+Constructor()
+SetPetID(APetID : STRING)
+SetDateRegistered(RegDate : DATE)
+GetPetName()
+GetOwnerTelephone()
+© Cambridge University Press &amp; Assessment 2024 Page 12 of 17</div>
+<p class='note'>Official mark scheme pages: 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-on-32-q02</h2><div class='meta'>Oct/Nov 2024 · Paper 32 · Question 2 · 3 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w24_ms_32-p05.png' alt='9618-2024-on-32-q02 official mark scheme page'>
-</div>
-<div class='answer-text'>2(a) One mark per mark point (Max 2) 2
-MP1 Records are stored one after the other as they are collected // records are stored in chronological order
-MP2 New records are appended to the end of the file.
-
-2(b) One mark for a use (Max 1) 1
-MP1 Creating unsorted / temporary transaction files
-MP2 Creating data logging files
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-on-32-q03</h2><div class='meta'>Oct/Nov 2024 · Paper 32 · Question 3 · 7 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w24_ms_32-p05.png' alt='9618-2024-on-32-q03 official mark scheme page'>
-</div>
-<div class='answer-text'>3(a) One mark per mark point (Max 3) 3
-MP1 A user-defined record data type is a composite data type
-MP2 It uses other data types in its definition to form a single new data type
-MP3 The data types referenced may be primitive data types from a programming language or they may be other user-
-defined data types.
-MP4 Includes related items
-MP5 Includes a fixed number of items.
-
-3(b) One mark for TYPE Order and ENDTYPE correct 4
-One mark for correct use of DECLARE in all declarations seen
-One mark for the two shaded declarations
-One mark for the two unshaded declarations
-Example answer
-TYPE Order
-DECLARE AccountNumber : INTEGER
-DECLARE OrderNumber : INTEGER
-DECLARE OrderPrice : REAL
-DECLARE OrderDate : DATE
-ENDTYPE
-© Cambridge University Press &amp; Assessment 2024 Page 5 of 15</div>
-<p class='note'>Official mark scheme pages: 5 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2024-on-32-q10'>
 <div class='question-head'><h2>9618-2024-on-32-q10</h2><div class='meta'>Oct/Nov 2024 · Paper 32 · Question 10 · 6 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w24_ms_32-p11.png' alt='9618-2024-on-32-q10 official mark scheme page'>
@@ -1284,64 +932,35 @@ MP5 A class can use inheritance. An object cannot.
 © Cambridge University Press &amp; Assessment 2024 Page 12 of 15</div>
 <p class='note'>Official mark scheme pages: 11, 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2024-on-33-q06</h2><div class='meta'>Oct/Nov 2024 · Paper 33 · Question 6 · 7 marks</div></div>
+<article class='question' id='9618-2024-on-33-q09'>
+<div class='question-head'><h2>9618-2024-on-33-q09</h2><div class='meta'>Oct/Nov 2024 · Paper 33 · Question 9 · 6 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w24_ms_33-p07.png' alt='9618-2024-on-33-q06 official mark scheme page'>
-<img class='answer-image' src='../answer-assets/9618_w24_ms_33-p08.png' alt='9618-2024-on-33-q06 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_w24_ms_33-p12.png' alt='9618-2024-on-33-q09 official mark scheme page'>
 </div>
-<div class='answer-text'>6(a) One mark per mark point (Max 3) 3
-MP1 A set user-defined data type is a composite data type
-MP2 … which includes a list of unordered elements
-MP3 Set theory operations, such as intersection and union, can be applied to these elements
-MP4 A set data type includes the type of data/data type it uses as part of its definition
-MP5 All the elements are of the same data type.
-© Cambridge University Press &amp; Assessment 2024 Page 7 of 17
+<div class='answer-text'>9(a) To ensure that the attributes are only accessible using the class’s own methods/within the class. 1
 
-6(b) One mark for each mark point (Max 4) 4
-MP1 TYPE SymbolSet/Operators =
-MP2 SET OF CHAR
-MP3 DEFINE Operators/SymbolSet
-MP4 (&#x27;+&#x27;, &#x27;–&#x27;, &#x27;*&#x27;, &#x27;/&#x27;, &#x27;^&#x27;)
-MP5 : SymbolSet/Operators
-Example answers
-TYPE SymbolSet = SET OF CHAR
-DEFINE Operators (&#x27;+&#x27;, &#x27;–&#x27;, &#x27;*&#x27;, &#x27;/&#x27;, &#x27;^&#x27;) : SymbolSet
-TYPE Operators = SET OF CHAR
-DEFINE SymbolSet (&#x27;+&#x27;, &#x27;–&#x27;, &#x27;*&#x27;, &#x27;/&#x27;, &#x27;^&#x27;) : Operators
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 7, 8 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true'>source PDF URL</a></p>
+9(b) One mark per mark point (Max 5) 5
+MP1 Two correct attributes with sensible names and correct data types.
+MP2 Constructor present.
+MP3 Two correct setters with exact names and appropriate parameters and data types.
+MP4 Two correct getters with appropriate names.
+MP5 Name assigned to pet name getter matches the attribute.
+Pet
+PetID : STRING
+PetType : STRING
+OwnerTelephone : STRING
+DateRegistered : DATE
+PetName : STRING
+OwnerName : STRING
+Constructor()
+SetPetID(APetID : STRING)
+SetDateRegistered(RegDate : DATE)
+GetPetName()
+GetOwnerTelephone()
+© Cambridge University Press &amp; Assessment 2024 Page 12 of 17</div>
+<p class='note'>Official mark scheme pages: 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2025-mj-31-q01</h2><div class='meta'>May/June 2025 · Paper 31 · Question 1 · 6 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s25_ms_31-p06.png' alt='9618-2025-mj-31-q01 official mark scheme page'>
-</div>
-<div class='answer-text'>1(a) One mark per mark point 2
-MP1 TYPE Vehicle =
-MP2 (M100, M230, T101, T102, T120, T150)
-Example answer:
-TYPE Vehicle = (M100, M230, T101, T102, T120, T150)
-
-1(b) One mark per mark point 4
-MP1 TYPE Booking and ENDTYPE correct
-MP2 Declare used correctly for every field in the response
-MP3 Any four fields correct
-MP4 Remaining fields correct
-Example answer:
-TYPE Booking
-DECLARE BookingNumber : STRING
-DECLARE Destination : STRING
-DECLARE ClientName : STRING
-DECLARE ClientTelephone : STRING
-DECLARE DateOfDeparture : DATE
-DECLARE PickupAddress : STRING
-DECLARE TaxiUsed : Vehicle
-ENDTYPE
-© Cambridge University Press &amp; Assessment 2025 Page 6 of 15</div>
-<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2025-mj-31-q11'>
 <div class='question-head'><h2>9618-2025-mj-31-q11</h2><div class='meta'>May/June 2025 · Paper 31 · Question 11 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s25_ms_31-p14.png' alt='9618-2025-mj-31-q11 official mark scheme page'>
@@ -1379,33 +998,40 @@ copied / used / changed / overwritten / overridden in the subclass.
 © Cambridge University Press &amp; Assessment 2025 Page 14 of 15</div>
 <p class='note'>Official mark scheme pages: 14 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2025-mj-32-q01</h2><div class='meta'>May/June 2025 · Paper 32 · Question 1 · 6 marks</div></div>
+<article class='question' id='9618-2025-mj-31-q12'>
+<div class='question-head'><h2>9618-2025-mj-31-q12</h2><div class='meta'>May/June 2025 · Paper 31 · Question 12 · 5 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s25_ms_32-p04.png' alt='9618-2025-mj-32-q01 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_s25_ms_31-p15.png' alt='9618-2025-mj-31-q12 official mark scheme page'>
 </div>
-<div class='answer-text'>1(a) One mark for each mark point 3
-MP1 Use of correct Flight1 variable with given field names
-MP2 Correct assignments of four string data values
-MP3 Correct assignment of date data value
-Example answer
-Flight1.FlightNumber  &quot;SB2789&quot;
-Flight1.Destination  &quot;Dublin&quot;
-Flight1.FlightDate  30/07/2025
-Flight1.Gate  &quot;N03&quot;
-Flight1.Airline  &quot;Cambridge Airways&quot;
-
-1(b)(i) One mark per mark point 2
-MP1 TYPE GateID =
-MP2 (N01, N02, N03, W01, W02, W03, W04)
-Example answer
-TYPE GateID = (N01, N02, N03, W01, W02, W03, W04)
-
-1(b)(ii) DECLARE Gate : GateID 1
-Question Answer Marks</div>
-<p class='note'>Official mark scheme pages: 4 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true'>source PDF URL</a></p>
+<div class='answer-text'>12 One mark for each correctly completed line (Max 5) 5
+DECLARE Location : INTEGER
+DECLARE Item : STRING
+DECLARE Continue : BOOLEAN
+DECLARE Answer : CHAR
+Continue  TRUE
+OPENFILE &quot;StockList.dat&quot; FOR RANDOM
+WHILE Continue
+OUTPUT &quot;Enter a location between 1 and 500: &quot;
+INPUT Location
+SEEK &quot;StockList.dat&quot;, Location
+GETRECORD &quot;StockList.dat&quot;, Item
+IF Item = &quot;&quot; THEN
+OUTPUT &quot;This record is missing&quot;
+ELSE
+OUTPUT &quot;The item in stock is &quot;, Item
+ENDIF
+OUTPUT &quot;Another location (Y or N)?&quot;
+INPUT Answer
+IF Answer &lt;&gt; &#x27;Y&#x27; THEN
+Continue  FALSE
+ENDIF
+ENDWHILE
+CLOSEFILE &quot;StockList.dat&quot;
+OUTPUT &quot;End of program&quot;
+© Cambridge University Press &amp; Assessment 2025 Page 15 of 15</div>
+<p class='note'>Official mark scheme pages: 15 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2025-mj-32-q12'>
 <div class='question-head'><h2>9618-2025-mj-32-q12</h2><div class='meta'>May/June 2025 · Paper 32 · Question 12 · 8 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s25_ms_32-p11.png' alt='9618-2025-mj-32-q12 official mark scheme page'>
@@ -1444,33 +1070,31 @@ MP2 … in derived / inherited classes / subclasses
 © Cambridge University Press &amp; Assessment 2025 Page 11 of 12</div>
 <p class='note'>Official mark scheme pages: 11 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2025-mj-33-q01</h2><div class='meta'>May/June 2025 · Paper 33 · Question 1 · 6 marks</div></div>
+<article class='question' id='9618-2025-mj-32-q13'>
+<div class='question-head'><h2>9618-2025-mj-32-q13</h2><div class='meta'>May/June 2025 · Paper 32 · Question 13 · 5 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_s25_ms_33-p06.png' alt='9618-2025-mj-33-q01 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_s25_ms_32-p12.png' alt='9618-2025-mj-32-q13 official mark scheme page'>
 </div>
-<div class='answer-text'>1(a) One mark per mark point 4
-MP1 TYPE VideoLibrary and ENDTYPE correct
-MP2 Declare used correctly for every field in the response
-MP3 All Three STRING fields correct (shaded)
-MP4 Remaining Three fields correct (unshaded)
-Example answer
-TYPE VideoLibrary
-DECLARE VideoID : STRING
-DECLARE Title : STRING
-DECLARE ReleaseYear : INTEGER
-DECLARE PurchaseDate : DATE
-DECLARE VideoFormat : STRING
-DECLARE RunningTime : INTEGER
-ENDTYPE
-
-1(b) One mark for identification of field and one mark for reason 2
-VideoFormat
-This field can have a fixed range of possible values
-© Cambridge University Press &amp; Assessment 2025 Page 6 of 16</div>
-<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true'>source PDF URL</a></p>
+<div class='answer-text'>13 One mark for each correctly completed line 5
+DECLARE Grade : StudentResult
+DECLARE Position : INTEGER
+OPENFILE &quot;CurrentResults.dat&quot; FOR RANDOM
+OPENFILE &quot;StoredResults.dat&quot; FOR RANDOM
+FOR Position  1 TO 50
+SEEK &quot;CurrentResults.dat&quot;, Position
+GETRECORD &quot;CurrentResults.dat&quot;, Grade
+IF Grade.ExamGrade = &quot;&quot; THEN
+Grade.ExamGrade  &quot;Missing grade&quot;
+ENDIF
+SEEK &quot;StoredResults.dat&quot;, Position
+PUTRECORD &quot;StoredResults.dat&quot;, Grade
+NEXT Position
+CLOSEFILE &quot;CurrentResults.dat&quot;
+CLOSEFILE &quot;StoredResults.dat&quot;
+© Cambridge University Press &amp; Assessment 2025 Page 12 of 12</div>
+<p class='note'>Official mark scheme pages: 12 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2025-mj-33-q05'>
 <div class='question-head'><h2>9618-2025-mj-33-q05</h2><div class='meta'>May/June 2025 · Paper 33 · Question 5 · 4 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_s25_ms_33-p10.png' alt='9618-2025-mj-33-q05 official mark scheme page'>
@@ -1485,30 +1109,41 @@ Method A programmed function / procedure / subroutine
 Question Answer Marks</div>
 <p class='note'>Official mark scheme pages: 10 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2025-on-31-q01</h2><div class='meta'>Oct/Nov 2025 · Paper 31 · Question 1 · 6 marks</div></div>
+<article class='question' id='9618-2025-mj-33-q11'>
+<div class='question-head'><h2>9618-2025-mj-33-q11</h2><div class='meta'>May/June 2025 · Paper 33 · Question 11 · 5 marks</div></div>
 <div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w25_ms_31-p06.png' alt='9618-2025-on-31-q01 official mark scheme page'>
+<img class='answer-image' src='../answer-assets/9618_s25_ms_33-p14.png' alt='9618-2025-mj-33-q11 official mark scheme page'>
 </div>
-<div class='answer-text'>1(a)(i) DECLARE Member1 : ClubMember 1
-
-1(a)(ii) One mark for each correct answer 2
-Example answer
-Member1.Code  984632
-Member1.FeesPaid  TRUE
-
-1(b)(i) One mark per mark point (Max 2) 2
-MP1 TYPE Activity=
-MP2 (Badminton, Football, Golf, Snooker, Swimming, Tennis)
-Example answer
-TYPE Activity = (Badminton, Football, Golf, Snooker, Swimming,
-Tennis)
-
-1(b)(ii) DECLARE Choice : Activity 1
-Question Answer Marks Guidance</div>
-<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true'>source PDF URL</a></p>
+<div class='answer-text'>11 One mark for each correctly completed line 5
+DECLARE Location : INTEGER
+DECLARE NewStock : STRING
+DECLARE CurrentStock : STRING
+DECLARE Stored : BOOLEAN
+DECLARE Max : INTEGER
+Max  100000
+Stored  FALSE
+Location  1
+OPENFILE &quot;StockList.dat&quot; FOR RANDOM
+OUTPUT &quot;Enter the new item you wish to store&quot;
+INPUT NewStock
+WHILE NOT Stored AND Location &lt;= Max
+SEEK &quot;StockList.dat&quot;, Location
+GETRECORD &quot;StockList.dat&quot;, CurrentStock
+IF CurrentStock = &quot;&quot; THEN
+PUTRECORD &quot;StockList.dat&quot;, NewStock
+Stored  TRUE
+ELSE
+Location  Location + 1
+ENDIF
+ENDWHILE
+IF Stored = FALSE THEN
+OUTPUT &quot;The new stock item has not been stored as the file was full&quot;
+ENDIF
+CLOSEFILE &quot;StockList.dat&quot;
+© Cambridge University Press &amp; Assessment 2025 Page 14 of 16</div>
+<p class='note'>Official mark scheme pages: 14 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
+<article class='question' id='9618-2025-on-31-q10'>
 <div class='question-head'><h2>9618-2025-on-31-q10</h2><div class='meta'>Oct/Nov 2025 · Paper 31 · Question 10 · 3 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w25_ms_31-p14.png' alt='9618-2025-on-31-q10 official mark scheme page'>
@@ -1524,29 +1159,7 @@ MP5 Hardware failure // losing connection to a device such as a printer
 © Cambridge University Press &amp; Assessment 2025 Page 14 of 15</div>
 <p class='note'>Official mark scheme pages: 14 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2025-on-32-q01</h2><div class='meta'>Oct/Nov 2025 · Paper 32 · Question 1 · 6 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w25_ms_32-p06.png' alt='9618-2025-on-32-q01 official mark scheme page'>
-</div>
-<div class='answer-text'>1(a)(i) DECLARE Car1 : Car 1
-
-1(a)(ii) One mark for each correct answer 2
-Example answer
-Car1.Colour  &quot;Blue&quot;
-Car1.IntoStock  21/10/2025
-
-1(b)(i) One mark per mark point (Max 2) 2
-MP1 TYPE Body =
-MP2 (Convertible, Hatchback, Saloon, SUV)
-Example answer
-TYPE Body = (Convertible, Hatchback, Saloon, SUV)
-
-1(b)(ii) DECLARE BodyStyle : Body 1
-© Cambridge University Press &amp; Assessment 2025 Page 6 of 17</div>
-<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2025-on-32-q10'>
 <div class='question-head'><h2>9618-2025-on-32-q10</h2><div class='meta'>Oct/Nov 2025 · Paper 32 · Question 10 · 4 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w25_ms_32-p15.png' alt='9618-2025-on-32-q10 official mark scheme page'>
@@ -1562,41 +1175,7 @@ MP3 Hardware failure // Losing connection to a device e.g. a printer
 © Cambridge University Press &amp; Assessment 2025 Page 15 of 17</div>
 <p class='note'>Official mark scheme pages: 15 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true'>source PDF URL</a></p>
 </article>
-<article class='question'>
-<div class='question-head'><h2>9618-2025-on-33-q01</h2><div class='meta'>Oct/Nov 2025 · Paper 33 · Question 1 · 8 marks</div></div>
-<div class='answer-images'>
-<img class='answer-image' src='../answer-assets/9618_w25_ms_33-p06.png' alt='9618-2025-on-33-q01 official mark scheme page'>
-</div>
-<div class='answer-text'>1(a)(i) One mark per mark point (Max 2) 2
-MP1 TYPE Spectrum =
-MP2 (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
-Example answer
-TYPE Spectrum = (Red, Orange, Yellow, Green, Blue,
-Indigo, Violet)
-
-1(a)(ii) One mark per mark point (Max 2) 2
-MP1 the list is ordered/ordinal
-MP2 the list contains all possible values
-MP3 no duplicate values in list
-MP4 all values are the same data type
-
-1(b) One mark for TYPE ColourData and ENDTYPE correct 4
-One mark for correct use of DECLARE in all declarations
-One mark for correct use of Spectrum in declaration
-One mark for remaining four declarations correct (STRING, INTEGER,
-REAL, BOOLEAN)
-Example answer
-TYPE ColourData
-DECLARE ColourCode : STRING
-DECLARE Colour : Spectrum
-DECLARE Wavelength : INTEGER
-DECLARE Frequency : REAL
-DECLARE PrimaryColour : BOOLEAN
-ENDTYPE
-© Cambridge University Press &amp; Assessment 2025 Page 6 of 16</div>
-<p class='note'>Official mark scheme pages: 6 · <a href='https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true'>source PDF URL</a></p>
-</article>
-<article class='question'>
+<article class='question' id='9618-2025-on-33-q12'>
 <div class='question-head'><h2>9618-2025-on-33-q12</h2><div class='meta'>Oct/Nov 2025 · Paper 33 · Question 12 · 5 marks</div></div>
 <div class='answer-images'>
 <img class='answer-image' src='../answer-assets/9618_w25_ms_33-p14.png' alt='9618-2025-on-33-q12 official mark scheme page'>

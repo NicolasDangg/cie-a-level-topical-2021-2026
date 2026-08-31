@@ -275,6 +275,47 @@ def classify(subject, paper, text, question_id=None):
             label, slug = result[number]
             return number, label, f"9618-topic-{number:02d}-{slug}"
 
+        # Resolve distinctive syllabus phrases before the broad keyword list.
+        # The same stem can mention several concepts, especially in code and
+        # data-structure questions, so the assessed skill takes precedence.
+        if (
+            "file handling" in t
+            or "file-handling" in t
+            or ("random file is" in t and "new stock item" in t)
+        ):
+            return choose(20)
+        if any(keyword in t for keyword in (
+            "programming paradigm", "object-oriented", "object oriented", "(oop)",
+            "declarative", "imperative", "exception handling", "what is meant by an exception",
+        )):
+            return choose(20)
+        if (
+            "class diagram" in t
+            or (re.search(r"\bclass\b", t) and any(keyword in t for keyword in ("attribute", "method", "object")))
+        ):
+            return choose(20)
+        if "binary tree" in t or "linked list" in t or "abstract data type" in t:
+            return choose(19)
+        if any(keyword in t for keyword in (
+            "data types can be defined", "user-defined data type", "enumerated data",
+            "pointer data", "composite data type", "non-composite data type",
+            "data type set", "data type record",
+        )) or re.search(r"\b(enumerated|composite|non-composite)\b", t):
+            return choose(13)
+        if any(keyword in t for keyword in (
+            "file organisation", "file organization", "method of file access", "direct access",
+            "random access file", "serial file", "sequential file", "hashing algorithm",
+        )):
+            return choose(13)
+        if "dijkstra" in t or "a* algorithm" in t:
+            return choose(18)
+        if any(keyword in t for keyword in (
+            "risc", "cisc", "virtual machine", "massively parallel", "sisd", "simd", "misd", "mimd",
+        )):
+            return choose(15)
+        if "user interface" in t:
+            return choose(16)
+
         priority = [
             (18, ["artificial intelligence", "machine learning", "neural network", "supervised learning", "unsupervised learning", "reinforcement learning", "expert system", "fuzzy logic"]),
             (17, ["digital certificate", "digital signature", "asymmetric encryption", "symmetric encryption", "public key", "private key", "quantum cryptography", "ssl", "tls", "encryption", "authentication", "firewall", "malware", "phishing", "cyber"]),
