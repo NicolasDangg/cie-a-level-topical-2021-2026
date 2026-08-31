@@ -364,6 +364,7 @@ header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom:
 .question-layout { display: block; }
 .answer-pane { display: none; }
 .answer-link { white-space: nowrap; }
+.answer-button { display: inline-block; margin-top: 2mm; padding: 1.5mm 3mm; border: .5pt solid #17202a; border-radius: 1.5mm; text-decoration: none; }
 .crop { margin: 0 0 5mm; page-break-inside: avoid; break-inside: avoid; }
 .crop img { display: block; max-width: 100%; max-height: 232mm; width: auto; height: auto; margin: 0 auto; border: .35pt solid #d1d5db; }
 .note { color: #6b7280; font-size: 8.5pt; }
@@ -446,9 +447,9 @@ def write_index(subject, defs, grouped, papers, missing):
     subject_dir = ROOT / subject
     out = ["<!doctype html><html lang='en'><head><meta charset='utf-8'>", f"<title>{subject} {SUBJECTS[subject]['name']} topical collection</title>", css(), "</head><body>"]
     out.append(f"<header><h1>{subject} {html.escape(SUBJECTS[subject]['name'])}</h1><div class='meta'>2021–2026 · A2 topical question crops · generated {TODAY}</div></header>")
-    out.append("<p>Questions are grouped by official A2 topic. Each entry links to a printable question file; answers are added in the answer stage.</p><div class='grid'>")
+    out.append("<p>Questions are grouped by official A2 topic. Each entry links to printable question and answer files.</p><div class='grid'>")
     for _, label, slug in defs:
-        out.append(f"<div class='card'><h2><a href='{slug}/questions.html'>{html.escape(label)}</a></h2><div class='meta'>{len(grouped.get(slug, []))} captured questions · <a href='{slug}/questions.html'>print questions</a></div></div>")
+        out.append(f"<div class='card'><h2><a href='{slug}/questions.html'>{html.escape(label)}</a></h2><div class='meta'>{len(grouped.get(slug, []))} captured questions · <a href='{slug}/questions.html'>print questions</a></div><a class='answer-button' href='{slug}/answers.html' target='_blank' rel='noopener'>Open answers separately</a></div>")
     out.append("</div><h2 style='margin-top:8mm'>Paper coverage</h2><div class='grid'>")
     for p in papers:
         out.append(f"<div class='card'><h3>{p['year']} {html.escape(p['session'])} · {p['variant']}</h3><div class='meta'>{p['question_count']} questions · <a href='{html.escape(p['source_pdf'])}'>source PDF</a></div></div>")

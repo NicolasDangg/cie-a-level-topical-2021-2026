@@ -46,6 +46,17 @@ class AnswerIdParser(HTMLParser):
                 self.ids.add(attrs["id"])
 
 
+class TopicIndexParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.answer_links = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "a" and "answer-button" in attrs.get("class", "").split():
+            self.answer_links.append(attrs.get("href", ""))
+
+
 def main():
     for subject, expected_count in (("9702", 436), ("9618", 407)):
         manifest = json.loads((ROOT / subject / "manifest.json").read_text())
@@ -88,6 +99,15 @@ def main():
             assert "document.body.classList.remove('answer-open')" in question_text
             assert "link.textContent = 'Hide answer'" in question_text
             assert "link.textContent = 'View answer side by side'" in question_text
+
+        index_path = ROOT / subject / "index.html"
+        index_parser = TopicIndexParser()
+        index_parser.feed(index_path.read_text())
+        expected_index_links = {topic["answers_html"] for topic in manifest["topics"]}
+        assert set(index_parser.answer_links) == expected_index_links
+        assert len(index_parser.answer_links) == len(expected_index_links)
+        for href in index_parser.answer_links:
+            assert (index_path.parent / href).is_file(), href
 
 
 if __name__ == "__main__":
