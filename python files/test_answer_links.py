@@ -3,9 +3,13 @@ import json
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+import sys
 
 
 ROOT = Path("/Users/nicolasdangg/Documents/past paper/cie-a-level-topical-2021-2026")
+sys.path.insert(0, str(ROOT / "python files"))
+
+from generate_answers import extract_sections
 
 
 class QuestionParser(HTMLParser):
@@ -58,6 +62,12 @@ class TopicIndexParser(HTMLParser):
 
 
 def main():
+    sections = extract_sections(
+        ROOT / "9702/_source-pdfs/2021-March/ms/9702_m21_ms_42.pdf", 12
+    )
+    assert sections[3]["source_pages"] == [10, 11]
+    assert sections[3]["text"].startswith("3(a) Any 2 from:")
+
     for subject, expected_count in (("9702", 436), ("9618", 407)):
         manifest = json.loads((ROOT / subject / "manifest.json").read_text())
         answers = json.loads((ROOT / subject / "answers-manifest.json").read_text())

@@ -40,7 +40,10 @@ def page_markers(text, question_count):
     markers = []
     lines = text.splitlines()
     for i, line in enumerate(lines):
-        m = re.match(r"^\s*(\d{1,2})(?=\s|\(|$)", line)
+        m = re.match(
+            r"^\s*(\d{1,2})\s*(?=\([a-z]|Defining|Methods?|Additional detail)",
+            line,
+        )
         if m and 1 <= int(m.group(1)) <= question_count:
             markers.append((i, int(m.group(1))))
     return markers
