@@ -14,7 +14,7 @@ import pdfplumber
 import pypdfium2 as pdfium
 
 ROOT = Path("/Users/nicolasdangg/Documents/past paper/cie-a-level-topical-2021-2026")
-TODAY = "2026-08-14"
+TODAY = "2026-09-24"
 
 TOPICS = {
     "9702": [
@@ -43,6 +43,12 @@ TOPICS = {
         (19, "Computational thinking and problem-solving", "computational-thinking-and-problem-solving"),
         (20, "Further programming", "further-programming"),
     ],
+    "9990": [
+        (1, "Clinical Psychology", "clinical-psychology"),
+        (2, "Consumer Psychology", "consumer-psychology"),
+        (3, "Health Psychology", "health-psychology"),
+        (4, "Organisational Psychology", "organisational-psychology"),
+    ],
 }
 SUBJECTS = {
     "9702": {
@@ -62,6 +68,15 @@ SUBJECTS = {
         "syllabus_url": "https://www.cambridgeinternational.org/Images/697372-2026-syllabus.pdf",
         "expected_questions": {"3": 9, "4": 3},
         "bucket": ("practical-programming", "Practical programming"),
+    },
+    "9990": {
+        "name": "Psychology",
+        "allowed": {"31", "32", "33", "41", "42", "43"},
+        "sessions": {"m": "March", "s": "May/June", "w": "Oct/Nov"},
+        "slug": "Psychology-9990",
+        "syllabus_url": "https://www.cambridgeinternational.org/Images/634461-2024-2026-syllabus.pdf",
+        "expected_questions": {"3": 16, "4": 12},
+        "bucket": None,
     },
 }
 
@@ -97,15 +112,16 @@ PHYSICS_TOPIC_OVERRIDES = {
 
 def topic_defs(subject):
     defs = [(n, label, f"{subject}-topic-{n:02d}-{slug}") for n, label, slug in TOPICS[subject]]
-    slug, label = SUBJECTS[subject]["bucket"]
-    defs.append((None, label, f"{subject}-{slug}"))
+    if SUBJECTS[subject]["bucket"]:
+        slug, label = SUBJECTS[subject]["bucket"]
+        defs.append((None, label, f"{subject}-{slug}"))
     return defs
 
 def normalize_session(code):
     return {"m": ("m", "March"), "s": ("mj", "May/June"), "w": ("on", "Oct/Nov")}[code]
 
 def parse_pdf(path):
-    m = re.search(r"(9702|9618)_([msw])(\d{2})_qp_(\d{2})\.pdf$", path.name)
+    m = re.search(r"(9702|9618|9990)_([msw])(\d{2})_qp_(\d{2})\.pdf$", path.name)
     if not m:
         return None
     subject, raw_session, yy, variant = m.groups()
@@ -119,6 +135,8 @@ def parse_pdf(path):
     }
 
 def expected_question_count(meta):
+    if meta["subject"] == "9990":
+        return 8 if meta["paper"] == 3 and meta["year"] < 2024 else SUBJECTS["9990"]["expected_questions"][str(meta["paper"])]
     return SUBJECTS[meta["subject"]]["expected_questions"][str(meta["paper"])]
 
 def detect_starts(meta):
@@ -185,6 +203,23 @@ def classify(subject, paper, text, question_id=None):
         return None, "Practical skills", "9702-practical-skills"
     if subject == "9618" and paper == 4:
         return None, "Practical programming", "9618-practical-programming"
+    if subject == "9990":
+        year_match = re.search(r"9990-(\d{4})-", question_id or "")
+        question_match = re.search(r"-q(\d{2})$", question_id or "")
+        if not year_match or not question_match:
+            raise ValueError(f"Cannot determine Psychology topic for {question_id!r}")
+        year, question_number = int(year_match.group(1)), int(question_match.group(1))
+        limit = 8 if paper == 3 and year < 2024 else 16 if paper == 3 else 12
+        if not 1 <= question_number <= limit:
+            raise ValueError(f"Question {question_number} is outside Psychology Paper {paper}")
+        if paper == 3:
+            option = (question_number - 1) // (2 if year < 2024 else 4)
+        elif paper == 4:
+            option = (question_number - 1) % 4
+        else:
+            raise ValueError(f"Unexpected Psychology paper: {paper}")
+        label, slug = TOPICS["9990"][option][1:]
+        return option + 1, label, f"9990-topic-0{option + 1}-{slug}"
     t = text.lower()
     if subject == "9702":
         # Use specific syllabus language and explicit precedence for questions
@@ -508,9 +543,15 @@ def build_subject(subject):
     missing = []
     for year in range(2021, 2027):
         for raw_session, session in config["sessions"].items():
-            for variant in sorted(config["allowed"]):
+            variants = sorted(config["allowed"])
+            if subject == "9990":
+                if (year < 2024 and raw_session == "m") or (year == 2026 and raw_session == "w"):
+                    continue
+                if raw_session == "m":
+                    variants = ["32", "42"]
+            for variant in variants:
                 if (year, raw_session, variant) not in available:
-                    reason = "unpublished as of 2026-08-14" if year == 2026 else "not available from the local downloader/source search"
+                    reason = "unpublished as of 2026-09-24" if year == 2026 and subject != "9990" else "not available from the local downloader/source search"
                     temp = {"subject": subject, "year": year, "raw_session": raw_session, "variant": variant, "paper": int(variant[0])}
                     missing.append({"year": year, "session": session, "variant": variant, "source_pdf": source_url(temp), "reason": reason})
     for values in grouped.values():
@@ -533,4 +574,4 @@ def build_subject(subject):
 
 if __name__ == "__main__":
     ROOT.mkdir(parents=True, exist_ok=True)
-    print(json.dumps([build_subject("9702"), build_subject("9618")], indent=2))
+    print(json.dumps([build_subject("9702"), build_subject("9618"), build_subject("9990")], indent=2))

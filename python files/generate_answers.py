@@ -16,6 +16,7 @@ ROOT = Path("/Users/nicolasdangg/Documents/past paper/cie-a-level-topical-2021-2
 SUBJECTS = {
     "9702": {"name": "Physics"},
     "9618": {"name": "Computer Science"},
+    "9990": {"name": "Psychology"},
 }
 
 def css():
@@ -209,7 +210,7 @@ def build_subject(subject):
         "schema": "cie-topical-past-papers/answers-v1",
         "subject": subject,
         "subject_name": SUBJECTS[subject]["name"],
-        "generated": "2026-08-14",
+        "generated": "2026-09-24",
         "coverage": {
             "question_records": len(answer_records),
             "available_mark_scheme_entries": available_ms,
@@ -221,4 +222,4 @@ def build_subject(subject):
     return {"subject": subject, "answers": len(answer_records), "available": available_ms, "unavailable": unavailable_ms, "mark_scheme_pdfs": len(sections_cache)}
 
 if __name__ == "__main__":
-    print(json.dumps([build_subject("9702"), build_subject("9618")], indent=2))
+    print(json.dumps([build_subject("9702"), build_subject("9618"), build_subject("9990")], indent=2))
