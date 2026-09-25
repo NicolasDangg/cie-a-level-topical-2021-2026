@@ -1,0 +1,86 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-41-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-41-q07-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-41-q07-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the *capacitance* of a parallel plate capacitor.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A capacitor of capacitance *C* is connected into the circuit shown in Fig. 7.1.\n\n[[fig:f1]]\n\nWhen the two-way switch is in position A, the capacitor is charged so that the potential difference across it is *V*.\n\nThe switch moves repeatedly between A and B so that the capacitor charges and then discharges with frequency *f*.",
+      "text": "Show that the average current *I* in the ammeter is given by the expression\n\n*I* = *fCV*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "For a potential difference *V* of 150 V and a frequency *f* of 60 Hz, the average current in the ammeter is 4.8 μA.\n\nCalculate the capacitance, in pF, of the capacitor.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "capacitance",
+        "unit": "pF"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A second capacitor, having the same capacitance as the capacitor in (b), is connected into the circuit of Fig. 7.1. The two capacitors are connected in series.\n\nState and explain the new reading on the ammeter.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "new reading",
+        "unit": "μA"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A circuit diagram shows a capacitor connected to a two-way switch with positions A and B, a voltage supply, and a sensitive ammeter.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.23,
+        0.1771,
+        0.7735,
+        0.3655
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

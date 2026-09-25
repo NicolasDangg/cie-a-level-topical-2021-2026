@@ -1,0 +1,2271 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 14,
+    "label": "Communication and internet technologies",
+    "slug": "9618-topic-14-communication-and-internet-technologies"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-mj-31-q06",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2021-mj-31-q06-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2883
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3311,
+                  0.5772
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "6 One mark for each correct benefit (Max 2) 4\n• Accuracy – Ensures accurate delivery of the message\n• Completeness – Missing packets can be easily detected and a re-send\nrequest sent so the message arrives complete\n• Resilience – if a network changes the router can detect this and send\nthe data another way to ensure it arrives\n• Path also available to other users // Doesn’t use whole bandwidth //\nallows simultaneous use of channel by multiple users\n• Better security as packets hashed and sent by different routes.\nOne mark for each correct drawback (Max 2)\n• Time delays to correct errors // Network problems may introduce errors\nin packets\n• Requires complex protocols for delivery\n• Unsuitable for real time transmission applications\n© UCLES 2021 Page 7 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q06",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2021-mj-32-q06-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-mj-31-q06",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2883
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3311,
+                  0.5772
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "6 One mark for each correct benefit (Max 2) 4\n• Accuracy – Ensures accurate delivery of the message\n• Completeness – Missing packets can be easily detected and a re-send\nrequest sent so the message arrives complete\n• Resilience – if a network changes the router can detect this and send\nthe data another way to ensure it arrives\n• Path also available to other users // Doesn’t use whole bandwidth //\nallows simultaneous use of channel by multiple users\n• Better security as packets hashed and sent by different routes.\nOne mark for each correct drawback (Max 2)\n• Time delays to correct errors // Network problems may introduce errors\nin packets\n• Requires complex protocols for delivery\n• Unsuitable for real time transmission applications\n© UCLES 2021 Page 7 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q06",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2021-mj-33-q06-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2021-mj-31-q06",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2883
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3311,
+                  0.5772
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "6 One mark for each correct benefit (Max 2) 4\n• Accuracy – Ensures accurate delivery of the message\n• Completeness – Missing packets can be easily detected and a re-send\nrequest sent so the message arrives complete\n• Resilience – if a network changes the router can detect this and send\nthe data another way to ensure it arrives\n• Path also available to other users // Doesn’t use whole bandwidth //\nallows simultaneous use of channel by multiple users\n• Better security as packets hashed and sent by different routes.\nOne mark for each correct drawback (Max 2)\n• Time delays to correct errors // Network problems may introduce errors\nin packets\n• Requires complex protocols for delivery\n• Unsuitable for real time transmission applications\n© UCLES 2021 Page 7 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q06",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2021-on-31-q06-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.3043
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3043,
+                  0.4746
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for each correct marking point (Max 5) 5\n• A large message is divided up into a group of smaller chunks of the same\nsize called packets\n• The packet has a header and a payload\n• The header contains a source IP address, destination IP address (and\nsequence number)\n• Each packet is dispatched independently\n• … and may travel along different routes / paths\n• The packets may arrive out of order\n• … and are reassembled into the original message at the destination\n• If packets are missing / corrupted a re-transmission request is sent.\n\n6(b) One mark for each correct marking point (Max 3) 3\n• The router examines the packet’s header\n• It reads the IP address of the destination (from the packet header)\n• A router has access to a routing table\n• …containing information about, e.g., available hops / netmask / gateway\nused\n• … and the status of the routes along the route\n• … the router decides on the next hop / best route\n• … and sends the packet on its next hop.\n© UCLES 2021 Page 6 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q06",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2021-on-32-q06-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-on-31-q06",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.3043
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3043,
+                  0.4746
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for each correct marking point (Max 5) 5\n• A large message is divided up into a group of smaller chunks of the same\nsize called packets\n• The packet has a header and a payload\n• The header contains a source IP address, destination IP address (and\nsequence number)\n• Each packet is dispatched independently\n• … and may travel along different routes / paths\n• The packets may arrive out of order\n• … and are reassembled into the original message at the destination\n• If packets are missing / corrupted a re-transmission request is sent.\n\n6(b) One mark for each correct marking point (Max 3) 3\n• The router examines the packet’s header\n• It reads the IP address of the destination (from the packet header)\n• A router has access to a routing table\n• …containing information about, e.g., available hops / netmask / gateway\nused\n• … and the status of the routes along the route\n• … the router decides on the next hop / best route\n• … and sends the packet on its next hop.\n© UCLES 2021 Page 6 of 10"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q03",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2022-mj-31-q03-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5842
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "3 Circuit switching max four marks 8\nAny two from\n a dedicated circuit\n circuit is established before transmission starts //\ncircuit is released after transmission ends\n data is transferred using the whole bandwidth\n all data is transferred over the same route\nTwo from\n Advantage – data /frames arrive in order and do not need to be reassembled\n Disadvantage – nobody else can use the same circuit even if it is idle //less secure as only one route used\nPacket switching max four marks\nAny two from\n data is split into packets\n each packet is given its own route\n the routing for a packet depends on the congestion\n packets may not arrive in the order sent\nTwo from\n Advantage – packets can be rerouted if there are problems// more secure as harder to intercept messages\n Disadvantage – time taken to reassemble packets at the destination\n© UCLES 2022 Page 5 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q03",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2022-mj-32-q03-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0695,
+              0.1459,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.299
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.299,
+                  0.4496
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5101,
+                  0.6011
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6011,
+                  0.7857
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) Protocol one mark, description one mark, max four 4\nAny two from\n HTTP(S) (1) for sending and receiving web pages / hypertext documents (1)\n FTP (1) for sending and receiving files over a network / between devices (1)\n SMTP (1) for sending/uploading emails /push protocol (1)\n POP(3) (1) for receiving/downloading emails /pull protocol (1)\n IMAP (1) for receiving/downloading emails /pull protocol (1)\n\n3(b) Layer one mark, matching function one mark, max four 4\nAny two from\n Transport (1) handles packets (1)\n Internet (1) handles transmission of data using\nIP addresses // provides (optimal) route (1)\n Network Access (Interface) // (Data) Link // Physical (1) Handles how data is physically sent (1)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q03",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2022-mj-33-q03-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-mj-31-q03",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5842
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "3 Circuit switching max four marks 8\nAny two from\n a dedicated circuit\n circuit is established before transmission starts //\ncircuit is released after transmission ends\n data is transferred using the whole bandwidth\n all data is transferred over the same route\nTwo from\n Advantage – data /frames arrive in order and do not need to be reassembled\n Disadvantage – nobody else can use the same circuit even if it is idle //less secure as only one route used\nPacket switching max four marks\nAny two from\n data is split into packets\n each packet is given its own route\n the routing for a packet depends on the congestion\n packets may not arrive in the order sent\nTwo from\n Advantage – packets can be rerouted if there are problems// more secure as harder to intercept messages\n Disadvantage – time taken to reassemble packets at the destination\n© UCLES 2022 Page 5 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q02",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2022-on-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4625
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.523,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.6052
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6052,
+                  0.7558
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7558,
+                  0.7961
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "2 One mark for each point (Max 3) 5\nMP1 The Transport Layer breaks data into manageable packets / performs segmentation\nMP2 It sequences the packets // adds data to the packet header // adds a packet header\nMP3 It sends the packets to the Internet / Network Layer // It receives data from the Application Layer\nMP4 It controls the flow of packets\nMP5 It handles packet loss/corruption // Acknowledges receipt of complete error free packets\nOne mark for each point (Max 3)\nMP6 The Internet Layer identifies the intended network and host\nMP7 It transmits packets to the (Data) Link / Physical Layer\nMP8 It routes the packets independently through the optimum route\nMP9 It addresses packets with their source and destination IP addresses\nMP10 It then uses an IP address and port number to form a socket.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q03",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2022-on-32-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2756
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3449,
+                  0.4956
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4956,
+                  0.7228
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7228,
+                  0.8743
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per point (Max 2) 2\n• Protocols set a standard for communication\n• Protocols enable communication/compatibility between devices from different manufacturers/platforms\n• If two devices were sending messages to each other but using different protocols, they would not be able to\ncommunicate properly\n\n3(b) One mark for each correct answer 2\nApplication (Layer)\nTransport\nInternet/Network (Layer)\nLink\n\n3(c) One mark per point (Max 2) 2\n• used by email clients to retrieve email messages // a pull protocol\n• from a mail server (over a TCP/IP connection)\n• keeps the server and client in sync (by not deleting the original email). // allows a copy of the email to be downloaded\nfrom the mail server.\n© UCLES 2022 Page 5 of 16"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q02",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2022-on-33-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-on-31-q02",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4625
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.523,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.6052
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6052,
+                  0.7558
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7558,
+                  0.7961
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "2 One mark for each point (Max 3) 5\nMP1 The Transport Layer breaks data into manageable packets / performs segmentation\nMP2 It sequences the packets // adds data to the packet header // adds a packet header\nMP3 It sends the packets to the Internet / Network Layer // It receives data from the Application Layer\nMP4 It controls the flow of packets\nMP5 It handles packet loss/corruption // Acknowledges receipt of complete error free packets\nOne mark for each point (Max 3)\nMP6 The Internet Layer identifies the intended network and host\nMP7 It transmits packets to the (Data) Link / Physical Layer\nMP8 It routes the packets independently through the optimum route\nMP9 It addresses packets with their source and destination IP addresses\nMP10 It then uses an IP address and port number to form a socket.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q05",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2023-mj-31-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2091
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2091,
+                  0.5835
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6325,
+                  0.8
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8,
+                  0.8439
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per mark point (Max 2) 2\n Circuit switching is used where a dedicated path needs to be sustained\nthroughout the call / communication // where the whole bandwidth is\nrequired // where a real time communication is used.\n A typical application is standard voice communications / video streaming /\nprivate data networks\n\n5(b) One mark per benefit (Max 2) 4\nMP1 Whole of bandwidth is available\nMP2 Dedicated communication channel increases the quality of transmission\nMP3 Data is transmitted with a fixed data rate\nMP4 No waiting time at switches\nMP5 Suitable for long continuous communication\nMP6 Fast method of data transfer\nMP7 Data arrives in the same order as it was sent\nMP8 Data can’t get lost\nMP9 Data all follows the same path / route\nMP10 Better for real-time\nMP11 Simple method of data transfer.\nOne mark per drawback (Max 2)\nMP1 A dedicated connection makes it impossible to transmit other data even\nif the channel is free\nMP2 Not very flexible\nMP3 No alternative route in case of failure\nMP4 The time required to establish the physical link between the two stations\ncan be too long\nMP5 The need to establish a dedicated path for each connection can have\ncost implications\nMP6 Dedicated channels require the whole bandwidth / bandwidth can’t be\nshared\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q07",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2023-mj-32-q07-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p07.png",
+          "/9618/answer-assets/9618_s23_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2963
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2963,
+                  0.5419
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5909,
+                  0.7852
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4473
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4963,
+                  0.661
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per mark point (Max 2) 2\nMP1 Packet switching is most commonly used on data networks such as\nthe internet to send large data files that don’t need to be live streamed\nMP2 Packet switching is used when it is necessary to be able to overcome\nfailed/faulty lines by rerouting.\nMP3 Packet switching is used when it is necessary for the communication\nto be more secure.\nMP4 Packet switching is used for high volume data transmission.\nMP5 Packet switching is used when it isn’t necessary to use all the\nbandwidth.\nMP6 Specific examples e.g. email, text messages, documents, VOIP etc.\n(up to two marks).\n© UCLES 2023 Page 7 of 12\n\n7(b) One mark per mark point (Max 4) 4\nMP1 Circuit switching uses a dedicated channel to make communication,\nwhereas packet switching forms data into packets to transmit over a\ndigital network.\nMP2 The dedicated path for circuit switching must be established before\nthe transfer of data can commence, which is not the case with packet\nswitching (as it doesn’t require a dedicated path).\nMP3 Data in packet switching is split into packets, in circuit switching the\nmessage remains intact.\nMP4 All of the transmission in circuit switching follows the same path\nwhereas different packets in packet switching can take different\nroutes.\nMP5 The message is received in the same order in which it is sent with\ncircuit switching, but with packet switching, the packets can be\nreceived out of order (for assembly at the destination).\nMP6 Circuit switching is implemented at the physical layer while packet\nswitching is implemented at the network layer.\nMP7 Circuit switching uses the whole bandwidth of the channel used,\npacket switching can share bandwidth.\nMP8 Circuit switching communication ends with an error but packet\nswitching allows packets to be re-sent.\nMP9 Circuit switching is a simpler process than packet switching.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q05",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2023-mj-33-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-mj-31-q05",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2091
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2091,
+                  0.5835
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6325,
+                  0.8
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8,
+                  0.8439
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per mark point (Max 2) 2\n Circuit switching is used where a dedicated path needs to be sustained\nthroughout the call / communication // where the whole bandwidth is\nrequired // where a real time communication is used.\n A typical application is standard voice communications / video streaming /\nprivate data networks\n\n5(b) One mark per benefit (Max 2) 4\nMP1 Whole of bandwidth is available\nMP2 Dedicated communication channel increases the quality of transmission\nMP3 Data is transmitted with a fixed data rate\nMP4 No waiting time at switches\nMP5 Suitable for long continuous communication\nMP6 Fast method of data transfer\nMP7 Data arrives in the same order as it was sent\nMP8 Data can’t get lost\nMP9 Data all follows the same path / route\nMP10 Better for real-time\nMP11 Simple method of data transfer.\nOne mark per drawback (Max 2)\nMP1 A dedicated connection makes it impossible to transmit other data even\nif the channel is free\nMP2 Not very flexible\nMP3 No alternative route in case of failure\nMP4 The time required to establish the physical link between the two stations\ncan be too long\nMP5 The need to establish a dedicated path for each connection can have\ncost implications\nMP6 Dedicated channels require the whole bandwidth / bandwidth can’t be\nshared\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q02",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2023-on-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p03.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2862
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2862,
+                  0.3905
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4396,
+                  0.7691
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7691,
+                  0.9036
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for each correct line connecting a protocol to its most appropriate 4\ndescription (Max 4).\nProtocol Use\nto provide peer-to-peer file sharing\nHTTP\nwhen retrieving email messages from a\nmail server over a TCP/IP connection\nBitTorrent\nwhen transmitting hypertext\ndocuments\nSMTP\nto map MAC addresses onto IP\naddresses\nIMAP\nwhen sending email messages\ntowards the intended destination\n\n2(b) One mark per mark point (Max 2) 2\nMP1 To ensure correct network protocols are followed\nMP2 To enable the upper layers to access the physical medium //\nenables connection/ communication with the internet / network layer\nMP3 To be responsible for transporting data within the network/local\nsegments\nMP4 To format the data into frames for transmission\nMP5 Maps IP addresses to MAC/Physical addresses.\n© UCLES 2023 Page 3 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q04",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2023-on-32-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p04.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9243
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.3729
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4219,
+                  0.496
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.545,
+                  0.6494
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6494,
+                  0.8136
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "4 One mark for each correct word (Max 3) 3\nThe protocols in a stack determine the interconnectivity rules for a layered\nnetwork model such as the TCP/IP model.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q02",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2023-on-33-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-on-31-q02",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p03.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2862
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2862,
+                  0.3905
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4396,
+                  0.7691
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7691,
+                  0.9036
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for each correct line connecting a protocol to its most appropriate 4\ndescription (Max 4).\nProtocol Use\nto provide peer-to-peer file sharing\nHTTP\nwhen retrieving email messages from a\nmail server over a TCP/IP connection\nBitTorrent\nwhen transmitting hypertext\ndocuments\nSMTP\nto map MAC addresses onto IP\naddresses\nIMAP\nwhen sending email messages\ntowards the intended destination\n\n2(b) One mark per mark point (Max 2) 2\nMP1 To ensure correct network protocols are followed\nMP2 To enable the upper layers to access the physical medium //\nenables connection/ communication with the internet / network layer\nMP3 To be responsible for transporting data within the network/local\nsegments\nMP4 To format the data into frames for transmission\nMP5 Maps IP addresses to MAC/Physical addresses.\n© UCLES 2023 Page 3 of 9"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q02",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-mj-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3731
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3731,
+                  0.5197
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5197,
+                  0.8163
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "2(a) Two marks for all protocols in correct position 2\nOne mark for at least two protocols in correct position\nApplication\nTransport\nInternet\nLink\n\n2(b) One mark per mark point (Max 2) 2\nMP1 The transport layer is responsible for delivery of data from the source host to the destination host\nMP2 It is where data is broken up into packets and sent to the internet layer\nMP3 Adds the sequence number to the packet header\nMP4 It establishes end to end contact\nMP5 It ensures data arrives error free // It retransmits packets if lost.\n\n2(c) One mark for name of protocol and one mark for expansion (Max 2) 2\nHTTP(S) – responsible for correct transfer of files / hypertext documents that make up web pages on the world wide web\nFTP – used when transferring files from a server to a client on a network\nPOP3 – handles the receiving of emails\nIMAP – handles the receiving of emails\nSMTP – handles the sending of emails\nBitTorrent – provides peer-to-peer file sharing\n© Cambridge University Press & Assessment 2024 Page 5 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q02",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-mj-32-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p04.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2925
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2925,
+                  0.5044
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5649,
+                  0.6696
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6696,
+                  0.7534
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7534,
+                  0.8791
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark per mark point (Max 2) 2\nMP1 Protocols provide a standard set of rules that enables successful data transfer between devices.\nMP2 Allows communication between devices on different platforms.\nMP3 Makes communications independent of software and hardware.\n\n2(b) One mark per mark point 2\nMP1 Sending - SMTP\nMP2 Receiving – POP3 // IMAP // Post Office Protocol 3\n\n2(c) One mark per mark point (Max 3) 3\nMP1 BitTorrent allows the sharing of files between thousands of users who are connected together over the internet.\nMP2 It allows more users to share files with each other than would be the case with a peer-to-peer network.\nMP3 Users share files directly with each other // the users’ computers are acting as peers\nMP4 … no web server / central device is used // all users are of equal status.\n© Cambridge University Press & Assessment 2024 Page 4 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q02",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-mj-33-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3731
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3731,
+                  0.5197
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5197,
+                  0.8163
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "2(a) Two marks for all protocols in correct position 2\nOne mark for at least two protocols in correct position\nApplication\nTransport\nInternet\nLink\n\n2(b) One mark per mark point (Max 2) 2\nMP1 The transport layer is responsible for delivery of data from the source host to the destination host\nMP2 It is where data is broken up into packets and sent to the internet layer\nMP3 Adds the sequence number to the packet header\nMP4 It establishes end to end contact\nMP5 It ensures data arrives error free // It retransmits packets if lost.\n\n2(c) One mark for name of protocol and one mark for expansion (Max 2) 2\nHTTP(S) – responsible for correct transfer of files / hypertext documents that make up web pages on the world wide web\nFTP – used when transferring files from a server to a client on a network\nPOP3 – handles the receiving of emails\nIMAP – handles the receiving of emails\nSMTP – handles the sending of emails\nBitTorrent – provides peer-to-peer file sharing\n© Cambridge University Press & Assessment 2024 Page 5 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q03",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-on-31-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p05.png",
+          "/9618/answer-assets/9618_w24_ms_31-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3779
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4472,
+                  0.6156
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4416
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5109,
+                  0.722
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 3) 3\nMP1 A dedicated circuit / channel is required\nMP2 The circuit is established before the transmission begins\nMP3 The circuit lasts for the whole of the transmission // The circuit is closed at the end of the transmission\nMP4 Data travels in a continuous stream along the same route\nMP5 Transmission is usually bidirectional.\n© Cambridge University Press & Assessment 2024 Page 5 of 17\n\n3(b) One mark for a benefit (Max 1) 2\nMP1 No need for data to be reassembled // data / frames arrive in the same order in which they were sent\nMP2 Suitable for real time transmission // fast data transfer rate\nMP3 The whole of the bandwidth is available\nOne mark for a drawback (Max 1)\nMP4 No other transmission can use the same circuit when it is in use // Bandwidth can be wasted as it cannot be used by\nother messages\nMP5 Not secure // Can be intercepted as all data travelling along the same route\nMP6 If there is a problem with the route the transmission ends // No other route is available without first doing the setup\nMP7 The circuit is always there whether or not it’s being used\nMP8 Can take time to set up before transmission starts.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q04",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-on-31-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4416
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5109,
+                  0.722
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "4 One mark per mark point (Max 4) 4\nMP1 Each layer can only accept input from the next higher layer or the next lower layer\nMP2 There is an interface between the adjacent layers which is the only interaction between layers\nMP3 Data is added to the headers as the frames/packets pass through the layers\nMP4 The interactions are carried out by installed software\nMP5 User interaction takes place at the highest/Application layer of the stack through protocols associated with that layer\nof the stack\nMP6 Direct access to hardware takes place at the lowest/Link layer of the stack.\n© Cambridge University Press & Assessment 2024 Page 6 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q01",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-on-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p04.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3989
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3989,
+                  0.7373
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 3) 3\nMP1 The data to be transmitted is divided into equal sized packets\nMP2 A packet header is attached to each packet containing key information\nMP3 … such as source/destination IP addresses, packet number, etc\nMP4 Packets are transmitted independently\nMP5 … and may travel though different routes/paths to the destination\nMP6 Routes are determined using a routing table//Packets take the optimum route depending on congestion\nMP7 The packets usually arrive out of order\nMP8 The packets are reassembled in the correct order at the destination // The packets are re-ordered using the\nsequence number/the header\nMP9 If packets are missing/corrupted a re-transmission request is sent / packets are re-sent.\n\n1(b) One mark for each benefit (Max 2) 4\nMP1 Packets are more likely to arrive because they can be re-routed if a problem occurs with one of the routes//Packets\nare more likely to arrive because if a packet is lost, it can be re-transmitted\nMP2 Bandwidth can be shared allowing packets from different messages to share the same path\nMP3 Considered secure as the packets generally travel via different routes\nMP4 High data transmission rate is possible\nOne mark for each drawback (Max 2)\nMP5 Time delay because packets need to be re-ordered/reassembled at the destination//Time delay caused by missing\npackets needing to be re-sent//Time delay because it has to share the bandwidth of the circuit / channel with\nother packets\nMP6 Requires a complex algorithm to function\nMP7 Needs lots of RAM to handle large amounts of data.\n© Cambridge University Press & Assessment 2024 Page 4 of 15"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q05",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-on-32-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5689
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5689,
+                  0.7373
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark for each correct name (Max 2) 4\nOne mark for each correct corresponding expansion (Max 2)\nMP1 HTTP/HTTPS\nMP2 For sending and receiving / transferring web pages / hypertext\nMP3 FTP\nMP4 For sending and receiving files over a network / between devices\nMP5 POP3\nMP6 Pull protocol / for receiving / downloading emails\nMP7 IMAP\nMP8 Pull protocol / for receiving / downloading emails\nMP9 SMTP\nMP10 Push protocol / for sending / uploading emails\nMP11 BitTorrent\nMP12 Peer-to-peer file sharing over a network\n\n5(b) One mark per mark point (Max 3) 3\nMP1 The application layer provides access to all the programs that exchange data // Interacts directly with user.\nMP2 … used by, for example, web browsers, server software.\nMP3 Communicates/enables data transfer to/from Transport layer // It allows applications to access the services used in\nother TCP/IP layers.\nMP4 It defines the protocols that any application uses to allow the exchange of data.\n© Cambridge University Press & Assessment 2024 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q03",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-on-33-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2024-on-31-q03",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p05.png",
+          "/9618/answer-assets/9618_w24_ms_33-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3779
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4472,
+                  0.6156
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4416
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5109,
+                  0.722
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 3) 3\nMP1 A dedicated circuit / channel is required\nMP2 The circuit is established before the transmission begins\nMP3 The circuit lasts for the whole of the transmission // The circuit is closed at the end of the transmission\nMP4 Data travels in a continuous stream along the same route\nMP5 Transmission is usually bidirectional.\n© Cambridge University Press & Assessment 2024 Page 5 of 17\n\n3(b) One mark for a benefit (Max 1) 2\nMP1 No need for data to be reassembled // data / frames arrive in the same order in which they were sent\nMP2 Suitable for real time transmission // fast data transfer rate\nMP3 The whole of the bandwidth is available\nOne mark for a drawback (Max 1)\nMP4 No other transmission can use the same circuit when it is in use // Bandwidth can be wasted as it cannot be used by\nother messages\nMP5 Not secure // Can be intercepted as all data travelling along the same route\nMP6 If there is a problem with the route the transmission ends // No other route is available without first doing the setup\nMP7 The circuit is always there whether or not it’s being used\nMP8 Can take time to set up before transmission starts.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q04",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2024-on-33-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2024-on-31-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4416
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5109,
+                  0.722
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "4 One mark per mark point (Max 4) 4\nMP1 Each layer can only accept input from the next higher layer or the next lower layer\nMP2 There is an interface between the adjacent layers which is the only interaction between layers\nMP3 Data is added to the headers as the frames/packets pass through the layers\nMP4 The interactions are carried out by installed software\nMP5 User interaction takes place at the highest/Application layer of the stack through protocols associated with that layer\nof the stack\nMP6 Direct access to hardware takes place at the lowest/Link layer of the stack.\n© Cambridge University Press & Assessment 2024 Page 6 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q03",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-mj-31-q03-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5262,
+                  0.7164
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 5) 5\nOne mark per mark point for purpose of Application Layer (Max 3)\nMP1 To provide services / interface with the user // access to applications, for example login, file transfer, network file\naccess, email, etc\nMP2 To provide mechanisms for securing communication e.g. encryption/authentication\nMP3 To define/provide protocols used to allow the exchange of data/communication // to contain programs that\nexchange data\nMP4 Error detection and recovery mechanisms to handle application specific errors\nOne mark per mark point for purpose of Transport Layer (Max 3)\nMP5 To provide logical communication between applications running on different hosts // To ensure that data is\ndelivered to the correct application process on the destination machine\nMP6 To ensure error-free, end-to-end delivery of data between a source and a destination, in sequence // to provide\nerror recovery techniques such as error detection codes and automatic repeat request\nMP7 To break data into segments when sent and to reconstruct when received // To reassemble segments at\ndestination\nMP8 To regulate network connections // to provide flow control mechanisms to prevent data loss.\n\n3(b) One mark per mark point (Max 4) 4\nMP1 Data are broken into equal sized packets\nMP2 Data packets have headers containing information such as the IP addresses of the sender and receiver\nMP3 Each packet of data is sent independently to the destination // Packets don’t necessarily follow the same route\nMP4 Each packet is sent via the most optimum path available\nMP5 Packets don’t necessarily arrive in the order they were sent // Packets are reconstructed at the destination in the\ncorrect order\nMP6 Missing / damaged packets are re-sent\n© Cambridge University Press & Assessment 2025 Page 8 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q03",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-mj-32-q03-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.4042
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4538,
+                  0.5462
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5462,
+                  0.7406
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) Two from 1\n• Application Layer\n• Transport Layer\n• Internet Layer\n• Link Layer\n\n3(b) One mark per mark point (Max 4) 4\nMP1 The TCP/IP suite can be viewed as layers within a stack\nMP2 Each layer can only accept input from the next higher or the next\nlower layer/adjacent layer\nMP3 The user/sender/computer interfaces with the top layer/application\nlayer to send/receive a message\nMP4 The message when sent passes from the top layer/application layer\nto the bottom layer/link layer\nMP5 The message when received passes from bottom layer/link layer to\nthe top layer/application layer\nMP6 The link layer interfaces directly with the network and sends/receives\nthe message.\n© Cambridge University Press & Assessment 2025 Page 5 of 12"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q04",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-mj-32-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.4179
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4669,
+                  0.5439
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5439,
+                  0.7982
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "4 One mark for each benefit (Max 2) 4\nMP1 Suitable for long continuous transmission once the connection is\nmade, it is available until the end of the transmission\nMP2 No time lost in resending/rearranging packets as no loss of packets\nor out of order packets\nMP3 Steady/high rate of transmission because the whole of the bandwidth\nis available\nMP4 Data loss unlikely as all data follows the same path\nOne mark for each drawback (Max 2)\nMP5 Delays due to dedicated connection required to be set up/established\nbefore transmission can begin\nMP6 The dedicated connection cannot be used to transmit any other data\nMP7 System resources may be underutilised/inefficient/not very flexible\nbecause the bandwidth can’t be shared/high bandwidth is required //\nBandwidth may be wasted // May send empty frames // the circuit is always\nthere whether or not used\nMP8 There are no alternative routes if there is a failure or fault on the line\nMP9 Reduced security due to use of single path\nMP10 Scalability is difficult\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q04",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-mj-33-q04-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.253
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3223,
+                  0.7035
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7035,
+                  0.8719
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point (Max 5) 5\nOne mark per mark point for purpose of Internet Layer (Max 3)\nMP1 To identify the intended network and host.\nMP2 To add header containing IP addresses. // To address packets with their source and destination IP Addresses.\nMP3 To prepare packets for delivery by formatting them into datagrams.\nMP4 To route datagrams through the optimum route over a network.\nOne mark per mark point for purpose of Link Layer (Max 3)\nMP5 To prepare the next hop by managing the link between two directly connected devices. // To identify and move\ntraffic across local segments.\nMP6 To format datagrams into frames for transmission.\nMP7 To identify network protocols in the packet header. // To ensure correct network protocols are/is followed.\nMP8 To deliver frames to the receiving network. // To receive frames from the sending network. // To map IP addresses\nto MAC physical addresses.\nMP9 To provide error checking/error correction/recovery/reconstruction\nMP10 including resend requests.\n\n4(b) One mark for each correct marking point (Max 4) 4\nMP1 The router reads the IP address of the destination from the packet header.\nMP2 A router uses a routing table to find information …\nMP3 … about e.g., available hops / netmask / gateway used / adjacent routers / the status of the routers along the\nroute.\nMP4 The router determines the next hop / optimum route. // The router sends the packet on its next hop.\nMP5 The router manages the hop counter // The hop counter is reduced by 1 every time the packet passes a router.\n© Cambridge University Press & Assessment 2025 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q03",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-on-31-q03-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p07.png",
+          "/9618/answer-assets/9618_w25_ms_31-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.5879
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6581,
+                  0.8266
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2935
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2935,
+                  0.5476
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6161,
+                  0.7484
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 2) 2\nMP1 Protocols set a standard for communication // Protocols establish a standard set\nof rules for communication\nMP2 Protocols enable compatibility between devices from different\nmanufacturers/platforms\nMP3 Two devices wouldn’t be able to communicate/send messages to each other if\nthey were using different protocols\n© Cambridge University Press & Assessment 2025 Page 7 of 15\n\n3(b) One mark for a protocol and one mark for a description (Max 4) 4\nExample answers:\nSMTP [1] a protocol used to send emails between mail servers // a protocol used to\nsend emails from a computer to a mail server [1]\nIMAP [1] allows users to access/read their emails from any device without removing\nthe message from the mail server // synchronises emails on any device [1]\n\n3(c) Two marks for each description mark as 2 x 2 (Max 4) 4\nExample answers:\nPackets checked at receiving end / on arrival [1]\n… if packets arrive damaged or don’t arrive at all, a re-send request is sent [1]\nPackets routed through different paths / sent individually [1]\n… if a route is blocked, the packet is sent through a different route to ensure it arrives [1]\nIf the packet’s hop count is exceeded [1]\n… the packet will be retired, which can generate a re-send request [1]\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q03",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-on-32-q03-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2315
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2315,
+                  0.5073
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 2) 2\n• HTTP to send and receive / transfer web pages / hypertext / images / videos\n• IMAP allows users to access/read their emails from any device without removing the message from the mail server\n// synchronises emails on any device\n\n3(b) One mark per mark point (Max 4) 4\nMP1 Files are shared over a peer-to-peer network\nMP2 A small file, a torrent (descriptor file), is initially created by a peer\nMP3 The torrent (descriptor file) contains metadata about the file to be shared\nMP4 The whole file must initially be located on at least one peer\nMP5 The file is broken into equal sized pieces\nMP6 Other peers who wish to download the file first obtain the torrent (descriptor file) and connect to a tracker\nMP7 A tracker acts like a server that holds all the data about all the computers connected to it / the swarm\nMP8 Each peer downloads parts of the file from other peers until the entire file has been downloaded\nMP9 As each peer receives a piece of the file, they become a source for that piece of the file\nMP10 A peer who has a complete file and is sharing it is a seed // Once a peer has completely downloaded the file\nand made the file available to others in the swarm, they become a seed.\n© Cambridge University Press & Assessment 2025 Page 8 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q04",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-on-32-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p09.png",
+          "/9618/answer-assets/9618_w25_ms_32-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.6121
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.4427
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5024,
+                  0.65
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.65,
+                  0.8992
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark for a benefit of circuit switching (Max 1) 2\nMP1 Once the connection is made, it is available until the end of the transmission (suitable for long continuous\ntransmission)\nMP2 The dedicated path ensures a steady rate of data transmission, once connection has been made (because the\nwhole bandwidth is available)\nMP3 The dedicated path ensures data is less likely to be lost.\nMP4 No intermediate delays once the circuit is established, enables real time transmission\nMP5 No additional time/delay to reorder needed because data arrives in the order it was sent / data sent as a\ncontinuous stream\nOne mark for a benefit of packet switching (Max 1)\nMP6 No need to tie up a communication line // path available to multiple users // bandwidth can be shared by multiple\nusers\nMP7 Possible to overcome failed / faulty / busy lines by re-routing packets\nMP8 Individual packets can be resent if lost/damaged\nMP9 Users only charged for the duration of connectivity\nMP10 High rate of data transmission possible\nMP11 Always uses digital networks so data is transmitted directly to the destination\nMP12 Good security because all packets can take different routes // A more secure method because all packets can take\ndifferent routes\n© Cambridge University Press & Assessment 2025 Page 9 of 17\n\n4(b) One mark per difference (Max 2) 2\nMP1 Circuit switching requires a dedicated line to be connected before the data transfer takes place, in packet\nswitching, data transfer commences directly/ straight away\nMP2 In circuit switching, each data unit knows the entire path address, but in packet switching, each data unit only\nknows the final address (routers decide intermediate paths)\nMP3 Circuit switching uses the whole bandwidth of the transmission path, but packet switching shares it with other users\n// circuit switching uses a constant high bandwidth. Packet switching has variable bandwidth\nMP4 In circuit switching each data unit follows the same route, but in packet switching, packets can follow any route\nMP5 In circuit switching data arrives in the correct order but in packet switching it has to be reordered\nMP6 Data remains intact / a continuous stream in circuit switching but is segmented in packet switching\nMP7 Lost data in circuit switching requires the whole transmission to be resent, but individual packets can be\nresent in packet switching\nMP8 Circuit switching doesn’t suffer data loss but packets can be lost in packet switching.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q03",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-on-33-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2298
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2298,
+                  0.3984
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4685,
+                  0.6782
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "3 One mark per mark point (Max 4) 4\nMP1 the message is divided into small chunks called packets\nMP2 each packet is given a header with important data including source\nand destination IP addresses\nMP3 each packet is sent independently // packets can be sent through\ndifferent routes\nMP4 packets are sent through the optimum route // packets can be re-\nrouted if a route is unavailable\nMP5 packets are reassembled at the destination into the whole message\n© Cambridge University Press & Assessment 2025 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q04",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2025-on-33-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.4847
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5548,
+                  0.596
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.596,
+                  0.7
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "4 One mark for a correct protocol and one mark for a correct corresponding 6\ndescription (Max 6)\nThree from:\nHTTP/S [1] a protocol/secure protocol used to transfer hypermedia\ndocuments / web pages / (data) files between networked devices [1]\nFTP [1] a protocol to download, upload and transfer files from one location to\nanother on a network [1]\nPOP3 [1] a protocol used to retrieve/receive emails from a mail server to a\ncomputer [1]\nIMAP [1] allows users to access/read their emails from any device without\nremoving the message from the mail server // synchronises emails on any\ndevice [1]\nSMTP [1] a protocol used to send emails between mail servers // a protocol\nused to send emails from a computer to a mail server [1]\nBitTorrent [1] a communication protocol used for peer-to-peer file sharing [1]\nQuestion Answer Marks Guidance"
+      }
+    }
+  ]
+}

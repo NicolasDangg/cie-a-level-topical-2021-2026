@@ -1,0 +1,1421 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 17,
+    "label": "Security",
+    "slug": "9618-topic-17-security"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-on-31-q08",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2021-on-31-q08-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2256
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2256,
+                  0.4587
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5014,
+                  0.6239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6239,
+                  0.8712
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correct marking point (Max 2) 2\n• The SSL and TLS protocols provide communications security over the\ninternet / network\n• … they provide encryption\n• They enable two parties to identify and authenticate each other\n• … and communicate with confidentiality and integrity.\n\n8(b) One mark for each correct marking point (Max 4) 4\n• An SSL/TLS connection is initiated by an application\n• … which becomes the client\n• The application which receives the connection becomes the server\n• Every new session begins with a handshake (as defined by the\n(SSL/TLS) protocols)\n• The client requests the digital certificate from the server // the server\nsends the digital certificate to the client\n• The client verifies the server’s digital certificate\n• …and obtains the server’s public key\n• The encryption algorithms are agreed\n• The symmetric\n• … session keys are generated / defined\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q08",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2021-on-32-q08-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-on-31-q08",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2256
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2256,
+                  0.4587
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5014,
+                  0.6239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6239,
+                  0.8712
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correct marking point (Max 2) 2\n• The SSL and TLS protocols provide communications security over the\ninternet / network\n• … they provide encryption\n• They enable two parties to identify and authenticate each other\n• … and communicate with confidentiality and integrity.\n\n8(b) One mark for each correct marking point (Max 4) 4\n• An SSL/TLS connection is initiated by an application\n• … which becomes the client\n• The application which receives the connection becomes the server\n• Every new session begins with a handshake (as defined by the\n(SSL/TLS) protocols)\n• The client requests the digital certificate from the server // the server\nsends the digital certificate to the client\n• The client verifies the server’s digital certificate\n• …and obtains the server’s public key\n• The encryption algorithms are agreed\n• The symmetric\n• … session keys are generated / defined\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q08",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2022-mj-31-q08-p01.png",
+        "/9618/9618-topic-17-security/assets/9618-2022-mj-31-q08-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4085
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.469,
+                  0.6003
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6003,
+                  0.6624
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6624,
+                  0.7712
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7712,
+                  0.9017
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a)(i) Any two from 2\n To ensure the message is authentic // came from a trusted source\n To ensure that only the intended receiver is able to understand the message\n To ensure the message has not been altered during transmission\n Non-repudiation, neither the sender or receiver can deny the transmission occurred\n\n8(a)(ii) Symmetric 2\nAsymmetric\n\n8(b)(i) Any two from 2\n Any eavesdropping can be identified (as the state will be changed)\n Integrity of the key once transferred can be guaranteed (cannot be copied and decrypted at a later date)\n Longer/more secure keys can be exchanged\n\n8(b)(ii) Any two from 2\n Limited range\n requires dedicated fibre (optic) line and specialist hardware\n cost of dedicated fibre (optic) line and specialist hardware is expensive\n polarisation of light may be altered whilst travelling down fibre optic cables\n© UCLES 2022 Page 10 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q07",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2022-mj-32-q07-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0695,
+              0.1459,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2716
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2716,
+                  0.3554
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3554,
+                  0.5238
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5834,
+                  0.6914
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6914,
+                  0.7325
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) Any three from 3\nMP1 enquiry made to Certificate Authority (CA)\nMP2 enquirer’s details checked by CA\nMP3 if enquirer details verified by CA then public key is agreed\nMP4 CA creates/issues certificate that includes the enquirers public key\nMP5 encrypting data sent to/by CA with the CA’s public/private key\n\n7(b)(i) MP1 The message is hashed with (the agreed hashing algorithm)… 3\nMP2 … to produce a message digest\nMP3 The message digest is then encrypted with the sender’s private key to form the digital signature\n\n7(b)(ii) Any four from 4\nMP1 The message together with the digital signature is decrypted using the receiver’s private key\nMP2 The digital signature received is decrypted with the sender’s public key to recover the message digest sent\nMP3 The decrypted message received is hashed with the agreed hashing algorithm to reproduce the message digest\nof the message received\nMP4 The two message digests are compared\nMP5 … if they are the same the message has not been altered // if they are different the message has been altered\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q08",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2022-mj-33-q08-p01.png",
+        "/9618/9618-topic-17-security/assets/9618-2022-mj-33-q08-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-mj-31-q08",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4085
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.469,
+                  0.6003
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6003,
+                  0.6624
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6624,
+                  0.7712
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7712,
+                  0.9017
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "8(a)(i) Any two from 2\n To ensure the message is authentic // came from a trusted source\n To ensure that only the intended receiver is able to understand the message\n To ensure the message has not been altered during transmission\n Non-repudiation, neither the sender or receiver can deny the transmission occurred\n\n8(a)(ii) Symmetric 2\nAsymmetric\n\n8(b)(i) Any two from 2\n Any eavesdropping can be identified (as the state will be changed)\n Integrity of the key once transferred can be guaranteed (cannot be copied and decrypted at a later date)\n Longer/more secure keys can be exchanged\n\n8(b)(ii) Any two from 2\n Limited range\n requires dedicated fibre (optic) line and specialist hardware\n cost of dedicated fibre (optic) line and specialist hardware is expensive\n polarisation of light may be altered whilst travelling down fibre optic cables\n© UCLES 2022 Page 10 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q06",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2022-on-31-q06-p01.png",
+        "/9618/9618-topic-17-security/assets/9618-2022-on-31-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2538
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2538,
+                  0.4037
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4037,
+                  0.6213
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for each correct point (Max 2) 2\n• A private key is the unpublished/secret key/never transmitted anywhere.\n• It has a matching public key\n• It is used to decrypt data that was encrypted with its matching public key.\n\n6(b) One mark for each correct point (Max 2) 2\n• The message to be sent is encrypted using the recipient’s public key. // The message to be sent is encrypted using\nthe sender’s private key.\n• The message is decrypted using the recipient’s private key. // The message is decrypted using the sender’s public\nkey.\n\n6(c) One mark for each correct point (Max 4) 4\n• The message together with the digital signature is decrypted using the receiver’s private key\n• The digital signature received is decrypted with the sender’s public key to recover the message digest sent\n• The decrypted message received is hashed with the agreed hashing algorithm to reproduce the message digest of the\nmessage received\n• The two message digests are compared\n• … if both digests are the same the message has not been altered // if they are different the message has been\naltered.\n© UCLES 2022 Page 8 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q06",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2022-on-32-q06-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p08.png",
+          "/9618/answer-assets/9618_w22_ms_32-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.6712
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7317,
+                  0.8598
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3199
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3803,
+                  0.7051
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for each point 2\n• Symmetric encryption uses a single key and asymmetric encryption uses a pair of keys.\n• The symmetric single key is used by all, whereas only one of the keys for asymmetric encryption is available to\neveryone / one of the asymmetric encryption keys needs to be kept secret.\n© UCLES 2022 Page 8 of 16\n\n6(b) One mark for each point (Max 4) 4\n• The organisation requests a certificate from a Certificate Authority (CA)\n• The organisation may send their public key to CA\n• The organisation gathers all the information required by the CA in order to obtain their certificate, which includes\ninformation to prove their identity\n• The CA verifies the organisation’s identity\n• The CA generates / issues the certificate including the organisation’s public key (and other information).\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q06",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2022-on-33-q06-p01.png",
+        "/9618/9618-topic-17-security/assets/9618-2022-on-33-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-on-31-q06",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2538
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2538,
+                  0.4037
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4037,
+                  0.6213
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for each correct point (Max 2) 2\n• A private key is the unpublished/secret key/never transmitted anywhere.\n• It has a matching public key\n• It is used to decrypt data that was encrypted with its matching public key.\n\n6(b) One mark for each correct point (Max 2) 2\n• The message to be sent is encrypted using the recipient’s public key. // The message to be sent is encrypted using\nthe sender’s private key.\n• The message is decrypted using the recipient’s private key. // The message is decrypted using the sender’s public\nkey.\n\n6(c) One mark for each correct point (Max 4) 4\n• The message together with the digital signature is decrypted using the receiver’s private key\n• The digital signature received is decrypted with the sender’s public key to recover the message digest sent\n• The decrypted message received is hashed with the agreed hashing algorithm to reproduce the message digest of the\nmessage received\n• The two message digests are compared\n• … if both digests are the same the message has not been altered // if they are different the message has been\naltered.\n© UCLES 2022 Page 8 of 15"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q09",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2023-mj-31-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.196,
+                  0.2575
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3071,
+                  0.4262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4752,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.8336
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark per mark point (Max 2) 2\nMP1 To provide better security\nMP2 … by using two different keys / a public key and a private key\nMP3 One of the keys is used to encrypt the message\nMP4 … the matching key is used to decrypt the message.\n\n9(b) One mark per benefit (Max 2) 4\nMP1 Provides security based on laws of physics rather than mathematical\nalgorithms, so more secure.\nMP2 To protect the security of data transmitted over fibre optic cables.\nMP3 Virtually unhackable.\nMP4 The performance of quantum cryptography is continuously improved,\nmaking it suitable for most valuable government/industrial secrets.\nMP5 Longer keys can be used\nMP6 Eavesdropping can be detected\nOne mark per drawback (Max 2)\nMP1 Lacks many vital features such as digital signature, certified mail, etc.\nMP2 High cost of purchasing / maintaining equipment required.\nMP3 Currently only works over relatively short distances.\nMP4 Error rates are relatively high as technology is still being developed.\nMP5 Polarisation of light can change during transmission.\nMP6 Allows criminals and terrorists to hide their communications.\n© UCLES 2023 Page 7 of 10"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q05",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2023-mj-32-q05-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4832
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5328,
+                  0.6815
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6815,
+                  0.861
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per mark point (Max 2) 2\nMP1 to produce a virtually unbreakable encryption system / send\nvirtually un-hackable secure messages …\nMP2 …using the laws / principles of quantum mechanics / properties of\nphotons\nMP3 detects eavesdropping …\nMP4 …because the properties of photons change\nMP5 to protect security of data transmitted over fibre optic cables\nMP6 to enable the use of longer keys.\n\n5(b) One mark per mark point (Max 3) 3\nMP1 Symmetric cryptography uses a single key to encrypt and decrypt\nmessages, Asymmetric cryptography uses two.\nMP2 The symmetric key is shared, whereas with asymmetric, only the\npublic key is shared (and the private key isn’t).\nMP3 … the risk of compromise is higher with symmetric encryption and\nasymmetric encryption is more secure.\nMP4 Symmetric cryptography is a simple process that can be carried out\nquickly, but asymmetric is much more complex, so slower.\nMP5 The length of the keys in symmetric encryption are (usually) shorter\nthan those for asymmetric (128/256 bits v 2048 bits).\n© UCLES 2023 Page 6 of 12"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q09",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2023-mj-33-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-mj-31-q09",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.196,
+                  0.2575
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3071,
+                  0.4262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4752,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.8336
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark per mark point (Max 2) 2\nMP1 To provide better security\nMP2 … by using two different keys / a public key and a private key\nMP3 One of the keys is used to encrypt the message\nMP4 … the matching key is used to decrypt the message.\n\n9(b) One mark per benefit (Max 2) 4\nMP1 Provides security based on laws of physics rather than mathematical\nalgorithms, so more secure.\nMP2 To protect the security of data transmitted over fibre optic cables.\nMP3 Virtually unhackable.\nMP4 The performance of quantum cryptography is continuously improved,\nmaking it suitable for most valuable government/industrial secrets.\nMP5 Longer keys can be used\nMP6 Eavesdropping can be detected\nOne mark per drawback (Max 2)\nMP1 Lacks many vital features such as digital signature, certified mail, etc.\nMP2 High cost of purchasing / maintaining equipment required.\nMP3 Currently only works over relatively short distances.\nMP4 Error rates are relatively high as technology is still being developed.\nMP5 Polarisation of light can change during transmission.\nMP6 Allows criminals and terrorists to hide their communications.\n© UCLES 2023 Page 7 of 10"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q07",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2024-mj-31-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3312
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3312,
+                  0.5165
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5165,
+                  0.5576
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6172,
+                  0.7438
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7438,
+                  0.8268
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per point (max 3) 3\nMP1 A digital certificate is an electronic/online document.\nMP2 used to authenticate/prove the identity of a website/the online identity of an individual/organisation\nMP3 typically issued by a CA\nMP4 For example: it contains information identifying a website owner/individual and a public key\n\n7(b) One mark per point (max 2) 2\nMP1 The digital certificate provides the public key\nMP2 … that can be used to validate the private key associated with the organisation/website/digital signature\n© Cambridge University Press & Assessment 2024 Page 10 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q04",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2024-mj-32-q04-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2506
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2506,
+                  0.4641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5238,
+                  0.6712
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7317,
+                  0.8606
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "4 One mark per mark point (Max 4) 4\nMP1 Sheila’s computer uses an algorithm to generate a matching pair of keys private and public\nMP2 Sheila’s computer sends Fred’s computer Sheila’s public key // Fred‘s computer acquires Sheila’s public key\nMP3 Fred’s computer encrypts the document/plain text using Sheila’s public key to create cipher text\nMP4 Fred’s computer sends the cipher text to Sheila’s computer The cipher text can only be decrypted using Sheila’s\nprivate key // Sheila’s computer uses Sheila’s private key to decrypt the cipher text.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q07",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2024-mj-33-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3312
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3312,
+                  0.5165
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5165,
+                  0.5576
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6172,
+                  0.7438
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7438,
+                  0.8268
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per point (max 3) 3\nMP1 A digital certificate is an electronic/online document.\nMP2 used to authenticate/prove the identity of a website/the online identity of an individual/organisation\nMP3 typically issued by a CA\nMP4 For example: it contains information identifying a website owner/individual and a public key\n\n7(b) One mark per point (max 2) 2\nMP1 The digital certificate provides the public key\nMP2 … that can be used to validate the private key associated with the organisation/website/digital signature\n© Cambridge University Press & Assessment 2024 Page 10 of 14"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q09",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2025-mj-31-q09-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2288
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2288,
+                  0.3554
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4247,
+                  0.5294
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5294,
+                  0.6978
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for each mark point (Max 2) 2\nMP1 Ensure security/privacy when using the internet\nMP2 Data encryption\nMP3 Identification / authentication of client and server\n\n9(b) One mark for each mark point (Max 2) 2\nMP1 When transmitting authentication data e.g. passwords, session cookies\nMP2 When transmitting data that must be protected from modification on its way to or from a server e.g. user input, or\nresults from the server\nMP3 When transmitting data classified as non-public.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q10",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2025-mj-32-q10-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.1921
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2417,
+                  0.4208
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4698,
+                  0.8757
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "10 One mark for identifying a protocol and one mark for stating its purpose 4\nMP1 Handshake protocol\nMP2 To establish a secure and reliable connection between two devices,\nsystems or networks // Permits the web server and client to authenticate each\nother to make use of encryption algorithms\nMP3 Record protocol\nMP4 Provides a secure and reliable way to send and receive data over a\nnetwork // To exchange records between the client and server // Responsible\nfor securing application data end ensuring its integrity and authenticity during\ntransmission // Encrypts and authenticates data exchanged between a client\nand a server // Deals with the format for data transmission.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q07",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2025-mj-33-q07-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3989
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.469,
+                  0.66
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7301,
+                  0.8767
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "7 One mark for each correct marking point (Max 4) 4\nMP1 An SSL/TLS connection is initiated by an application/client.\nMP2 Every new session begins with a handshake as defined by the SSL/TLS protocols.\nMP3 The client requests the digital certificate from the server // The server sends the digital certificate to the client.\nMP4 The client verifies the server’s digital certificate\nMP5 … and obtains the server’s public key.\nMP6 The encryption algorithms are agreed. // The symmetric session keys are generated/defined.\nMP7 A secure session is established between client and server.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q05",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2025-on-31-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p09.png",
+          "/9618/answer-assets/9618_w25_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.5065
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5758,
+                  0.7742
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2718
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3419,
+                  0.821
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) Two from: 2\n• Name of certificate holder // Subject\n• Serial number\n• Version number\n• Expiration date // Start date // Validity (not before/not after)\n• Certificate holder’s public key // Subject public key\n• Subject digital signature\n• Certificate Issuer // Digital signature of CA\n© Cambridge University Press & Assessment 2025 Page 9 of 15\n\n5(b) One mark per mark point (Max 3) 3\nMP1 A digital certificate provides a public key\nMP2 … which validates the private key used to create the digital signature\nMP3 It makes a digital signature virtually impossible to spoof // Provides evidence of\nsigner identity that the document was not altered and the signatures are valid\nMP4 Non repudiation.\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q07",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2025-on-32-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2089
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2089,
+                  0.3766
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4371,
+                  0.5895
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5895,
+                  0.7419
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) One from 1\nSymmetric (cryptography / encryption)\nQuantum (cryptography)\n\n7(b) One mark per mark point (Max 4) 4\nMP1 The two keys held by the organisation are a private key and a public key\nMP2 The organisation makes the public key available to anyone who wishes to send them secure transmissions // The\nsender obtains the organisation’s public key\nMP3 The sender uses the organisation’s public key to encrypt the message / plain text // The sender uses the\norganisation’s public key to turn the message into cipher text\nMP4 The organisation uses its private key to decrypt the message.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q09",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-17-security/assets/9618-2025-on-33-q09-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.5306
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6,
+                  0.896
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "9 One mark per mark point (Max 4) 4\nMP1 the company generates a public and private key pair locally using a\nweb browser and an RSA key generator tool, which may be part of\nthe CA’s web page\nMP2 the company requests a digital certificate from a Certificate\nAuthority (CA)\nMP3 the CA responds with its public key and digital certificate,\nMP4 … signed with its private key\nMP5 the company gathers authentication information e.g. its public key\nMP6 … and sends it to the CA signed with the company’s private key and\nencrypted with the CA’s public key\nMP7 the CA verifies the received information and generates/issues the\ndigital certificate.\n© Cambridge University Press & Assessment 2025 Page 12 of 16"
+      }
+    }
+  ]
+}

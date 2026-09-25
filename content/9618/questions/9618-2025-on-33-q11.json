@@ -1,0 +1,35 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2025-on-33-q11",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-33-q11-p01.png"
+  ],
+  "marks_total": 3,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Describe when the use of recursion would be beneficial and give an example.",
+      "marks": 3,
+      "kind": "written",
+      "slots": [
+        "Description",
+        "Example"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

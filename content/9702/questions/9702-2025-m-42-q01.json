@@ -1,0 +1,104 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-m-42-q01-p01.png",
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-m-42-q01-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": "A steel ball is placed on the inside surface of a hollow circular cone. The ball moves in a horizontal circle at constant speed, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe angle of the side of the cone to the horizontal is 52°. There is no friction between the ball and the cone.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Fig. 1.2 shows a cross-section through the cone and the steel ball.\n\n[[fig:f2]]\n\nOn Fig. 1.2, draw labelled arrows to show the two forces acting on the ball.",
+      "marks": 1,
+      "kind": "diagram",
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Describe how the forces acting on the ball cause its acceleration to be centripetal.",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The ball moves in a circle of radius 0.15 m.\n\nShow that the speed of the ball is 1.4 m s⁻¹.",
+      "marks": 3,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Calculate the angular speed ω of the ball.",
+      "marks": 2,
+      "kind": "numeric",
+      "answer": {
+        "symbol": "ω",
+        "unit": "rad s⁻¹"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The speed of the ball is increased.\n\nExplain why the radius of the circular path of the ball increases.",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A hollow cone cross-section shows a steel ball on its inside surface, its circular path, and the cone side angles of 52° to the horizontal.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-m-42-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2148,
+        0.0569,
+        0.784,
+        0.2548
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 1.2",
+      "alt": "A cross-section of a cone shows a steel ball on its right-hand sloping side above a dashed horizontal line.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-m-42-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2148,
+        0.4255,
+        0.784,
+        0.6026
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

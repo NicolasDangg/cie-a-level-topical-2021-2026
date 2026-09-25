@@ -1,0 +1,105 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2024-on-31-q11",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p02.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p03.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p04.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p05.png"
+  ],
+  "marks_total": 12,
+  "stem": "The following diagram shows an ordered binary tree.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A linked list of nodes is used to store the data. Each node consists of a left pointer, the data and a right pointer.\n\n−1 is used to represent a null pointer.\n\nComplete this linked list to represent the given binary tree.\n\n[[fig:f2]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A user-defined record structure is used to store the nodes of the linked list in part (a).\n\nComplete the diagram, using your answer for part (a).\n\n[[fig:f3]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The linked list in part (a) is implemented using a 1D array of records. Each record contains a left pointer, data and a right pointer.\n\nThe following pseudocode represents a function that searches for an element in the array of records `BinTree`. It returns the index of the record if the element is found, or it returns a null pointer if the element is not found.\n\nComplete the pseudocode for the function.\n\n```\nFUNCTION SearchTree(Item : STRING) [[blank]]\n\n    NowPtr ← [[blank]]\n    WHILE NowPtr <> −1\n        IF [[blank]] THEN\n            NowPtr ← BinTree[NowPtr].LeftPtr\n        ELSE\n            IF BinTree[NowPtr].Data < Item THEN\n[[blank]]\n            ELSE\n                RETURN NowPtr\n            ENDIF\n        ENDIF\n    ENDWHILE\n    RETURN NowPtr\nENDFUNCTION\n```",
+      "marks": 4,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "An ordered binary tree with Red at the root, Green and Yellow as its children, and Blue, Orange, Indigo and Violet below them.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1103,
+        0.0393,
+        0.892,
+        0.3069
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": null,
+      "alt": "A linked-list representation diagram with a RootPtr box, a Red node and a Green node connected by arrows, and a Blue node with −1 pointer values.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0962,
+        0.4423,
+        0.7394,
+        0.6891
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A record-array diagram with a RootPtr box, a table of records indexed 0 to 7 with Data values, and a TreePtr box.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0962,
+        0.0875,
+        0.9193,
+        0.3659
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

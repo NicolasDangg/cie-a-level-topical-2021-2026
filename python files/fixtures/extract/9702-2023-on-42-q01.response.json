@@ -1,0 +1,25 @@
+{
+  "stem": null,
+  "parts": [
+    {"partId": "a", "label": "(a)", "lead": null, "text": "Define the radian.", "marks": 1, "kind": "written", "answer": null},
+    {"partId": "b", "label": "(b)", "lead": null,
+     "text": "The minute hand of a clock revolves at constant angular speed around the face of the clock, completing one revolution every hour. A small piece of modelling clay is attached to the hand with its centre of gravity at a distance *L* from the fixed end of the hand, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nCalculate the angular speed *ω* of the minute hand.",
+     "marks": 2, "kind": "numeric", "answer": {"symbol": "ω", "unit": "rad s⁻¹"}},
+    {"partId": "c-i", "label": "(c)(i)",
+     "lead": "During a time interval of 1400 s, the centre of gravity of the piece of modelling clay in Fig. 1.1 moves through a total distance of 0.44 m.",
+     "text": "Calculate the angle through which the minute hand moves in this time interval.",
+     "marks": 1, "kind": "numeric", "answer": {"symbol": "angle", "unit": "rad"}},
+    {"partId": "c-ii", "label": "(c)(ii)", "lead": null, "text": "Determine distance *L*.", "marks": 2, "kind": "numeric", "answer": {"symbol": "L", "unit": "m"}},
+    {"partId": "c-iii", "label": "(c)(iii)", "lead": null,
+     "text": "Calculate the magnitude of the centripetal acceleration of the piece of modelling clay.",
+     "marks": 2, "kind": "numeric", "answer": {"symbol": "centripetal acceleration", "unit": "m s⁻²"}},
+    {"partId": "d", "label": "(d)", "lead": null,
+     "text": "Use your answer in (c)(iii) to explain why the variation with time of the magnitude of the force exerted by the minute hand on the piece of modelling clay is negligible as the minute hand undergoes one full revolution.",
+     "marks": 2, "kind": "written", "answer": null}
+  ],
+  "figures": [
+    {"id": "f1", "image": 0, "box": [0.0939, 0.1787, 0.892, 0.475], "caption": "Fig. 1.1",
+     "alt": "A clock face with the minute hand pointing up from the fixed end at the centre; a piece of modelling clay is attached to the hand at distance L from the fixed end."}
+  ],
+  "notes": []
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-41-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2025-on-41-q06-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2025-on-41-q06-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Two parallel plate capacitors C₁ and C₂ are connected to a supply that has a potential difference (p.d.) Vₛ. The capacitors may be connected in series or in parallel.\n\nThe supply provides charge Qₛ and the plates of the two capacitors are charges Q₁ and Q₂ respectively. The p.d.s across the plates of the capacitors are V₁ and V₂ respectively.\n\nComplete Table 6.1 to indicate how Qₛ, Q₁ and Q₂ relate to each other, and how Vₛ, V₁, and V₂ relate to each other, for series and parallel connections of the capacitors to the supply.\n\n[[fig:f1]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An isolated capacitor of capacitance 470 μF stores 19 mJ of energy.",
+      "text": "Calculate the p.d. across the capacitor.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "p.d.",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Calculate the charge on the capacitor.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "charge",
+        "unit": "C"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "The capacitor is now connected in parallel with a capacitor of capacitance 180 μF that is initially uncharged.\n\nDetermine the total energy, in mJ, now stored in the two capacitors.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "mJ"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 6.1",
+      "alt": "A blank table for comparing the relationships between charges and p.d.s for series and parallel capacitor connections.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2025-on-41-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.115,
+        0.1979,
+        0.8862,
+        0.3654
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

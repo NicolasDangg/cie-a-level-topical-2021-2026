@@ -1,0 +1,62 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2022-on-41-q01",
+  "subject": "9990",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2022-on-41-q01-p01.png"
+  ],
+  "marks_total": 15,
+  "stem": "Richard has a fear of oranges and knows about the behavioural explanation of phobias. Richard wants to be treated using systematic desensitisation (Wolpe, 1958). However, his partner thinks that other treatments may be better.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Explain what is meant by a ‘behavioural explanation of phobias’.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Explain how systematic desensitisation would be used to treat Richard’s fear of oranges.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Suggest two ways in which a phobia can be treated, other than systematic desensitisation.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Discuss the strengths and weaknesses of using systematic desensitisation to treat phobias. You should include a conclusion in your answer.",
+      "marks": 5,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

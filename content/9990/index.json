@@ -1,0 +1,659 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9990",
+  "subject_name": "Psychology",
+  "syllabus_url": "https://www.cambridgeinternational.org/Images/634461-2024-2026-syllabus.pdf",
+  "generated": "2026-09-24",
+  "topics": [
+    {
+      "number": 1,
+      "label": "Clinical Psychology",
+      "slug": "9990-topic-01-clinical-psychology",
+      "question_count": 188,
+      "distinct_count": 130
+    },
+    {
+      "number": 2,
+      "label": "Consumer Psychology",
+      "slug": "9990-topic-02-consumer-psychology",
+      "question_count": 188,
+      "distinct_count": 130
+    }
+  ],
+  "papers": [
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-May-June/9990_s21_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-May-June/9990_s21_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-May-June/9990_s21_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-May-June/9990_s21_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-May-June/9990_s21_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-May-June/9990_s21_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-Oct-Nov/9990_w21_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-Oct-Nov/9990_w21_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-Oct-Nov/9990_w21_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-Oct-Nov/9990_w21_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-Oct-Nov/9990_w21_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-Oct-Nov/9990_w21_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-May-June/9990_s22_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-May-June/9990_s22_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-May-June/9990_s22_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-May-June/9990_s22_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-May-June/9990_s22_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-May-June/9990_s22_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-Oct-Nov/9990_w22_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-Oct-Nov/9990_w22_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-Oct-Nov/9990_w22_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-Oct-Nov/9990_w22_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-Oct-Nov/9990_w22_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2022-Oct-Nov/9990_w22_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-May-June/9990_s23_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-May-June/9990_s23_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-May-June/9990_s23_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-May-June/9990_s23_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-May-June/9990_s23_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-May-June/9990_s23_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-Oct-Nov/9990_w23_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-Oct-Nov/9990_w23_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 8,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-Oct-Nov/9990_w23_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-Oct-Nov/9990_w23_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-Oct-Nov/9990_w23_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2023-Oct-Nov/9990_w23_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-March/9990_m24_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-March/9990_m24_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-May-June/9990_s24_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-May-June/9990_s24_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-May-June/9990_s24_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-May-June/9990_s24_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-May-June/9990_s24_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-May-June/9990_s24_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-Oct-Nov/9990_w24_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-Oct-Nov/9990_w24_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-Oct-Nov/9990_w24_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-Oct-Nov/9990_w24_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-Oct-Nov/9990_w24_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2024-Oct-Nov/9990_w24_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-March/9990_m25_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-March/9990_m25_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-May-June/9990_s25_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-May-June/9990_s25_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-May-June/9990_s25_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-May-June/9990_s25_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-May-June/9990_s25_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-May-June/9990_s25_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-Oct-Nov/9990_w25_qp_31.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-Oct-Nov/9990_w25_qp_32.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_count": 16,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-Oct-Nov/9990_w25_qp_33.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-Oct-Nov/9990_w25_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-Oct-Nov/9990_w25_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2025-Oct-Nov/9990_w25_qp_43.pdf?download=true"
+    }
+  ],
+  "missing_papers": [
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "32",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-March/9990_m26_qp_32.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "42",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-March/9990_m26_qp_42.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "31",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-May-June/9990_s26_qp_31.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "32",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-May-June/9990_s26_qp_32.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "33",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-May-June/9990_s26_qp_33.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-May-June/9990_s26_qp_41.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "42",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-May-June/9990_s26_qp_42.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2026-May-June/9990_s26_qp_43.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2024-mj-31-q10",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-mj-31-q10-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-mj-31-q10-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State a condition that must be true for an array to be searchable for a binary search.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Complete the given pseudocode for an item in a 1D array Names of type STRING using a binary search.\n\n```\nDECLARE Names : ARRAY[1:10000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE CurrentItem : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList ← 1\nEndOfList ← 10000\n\nOUTPUT \"Which name do you wish to find? \"\nINPUT ToFind\n[[blank]]\nNotInList ← FALSE\n\nWHILE [[blank]] AND [[blank]]\n    CurrentItem ← (TopOfList + EndOfList) DIV 2\n\n    IF [[blank]] THEN\n        Found ← TRUE\n    ELSE\n        IF TopOfList >= EndOfList THEN\n\n            [[blank]]\n        ELSE\n            IF ToFind > Names[CurrentItem] THEN\n\n                [[blank]]\n            ELSE\n                EndOfList ← CurrentItem − 1\n            ENDIF\n        ENDIF\n    ENDIF\nENDWHILE\nIF Found = TRUE THEN\n    OUTPUT \"Item found at position \", CurrentItem, \" in array\"\nELSE\n    OUTPUT \"Item not in array\"\nENDIF\n```",
+      "marks": 5,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Describe the performance of a binary search in relation to the number of data items in the array being searched. Refer to Big O notation in your answer.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

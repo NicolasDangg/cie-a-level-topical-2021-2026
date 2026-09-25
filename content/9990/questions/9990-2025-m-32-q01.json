@@ -1,0 +1,32 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2025-m-32-q01",
+  "subject": "9990",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2025-m-32-q01-p01.png"
+  ],
+  "marks_total": 4,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Rahul has obsessive-compulsive disorder (OCD) and constantly worries about his family’s safety. To reduce these worries, he arranges his books by colour, newspapers in date order and food in his kitchen cupboards alphabetically. If any of the items are placed out of sequence, Rahul becomes very anxious and immediately puts them back in order.\n\nSuggest how cognitive-behavioural therapy (CBT) could treat Rahul’s OCD.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

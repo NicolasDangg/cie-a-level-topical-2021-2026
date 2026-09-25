@@ -1,0 +1,118 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2022-on-42-q06-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2022-on-42-q06-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "A capacitor of capacitance *C* and a resistor of resistance *R* are connected as shown in Fig. 6.1.\n\n[[fig:f1]]\n\nInitially, the capacitor is charged and the switch is open.\n\nThe switch is closed at time *t* = 0.\n\nFig. 6.2 and Fig. 6.3 show, respectively, the variations with *t* of the charge *Q* on the capacitor and the potential difference (p.d.) *V* across the resistor.\n\n[[fig:f2]]\n\n[[fig:f3]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Explain the shape of the line in Fig. 6.3 representing the variation of *V* with *t*.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Use Fig. 6.2 to show that the time constant of the circuit in Fig. 6.1 is 5.5 s.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Use Fig. 6.2, Fig. 6.3 and the information in (b) to determine:",
+      "text": "capacitance *C*, in μF",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "C",
+        "unit": "μF"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "resistance *R*, in kΩ.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "R",
+        "unit": "kΩ"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A circuit with a capacitor labelled C, a resistor labelled R and an open switch connected in a loop.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-on-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2923,
+        0.0386,
+        0.7077,
+        0.2327
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "A graph of charge Q against time t showing a decreasing curve that approaches zero.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-on-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0458,
+        0.4114,
+        0.4977,
+        0.6095
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 6.3",
+      "alt": "A graph of potential difference V against time t showing a decreasing curve that approaches zero.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-on-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.5235,
+        0.4114,
+        0.9531,
+        0.6095
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

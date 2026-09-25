@@ -1,0 +1,4103 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 15,
+    "label": "Hardware and virtual machines",
+    "slug": "9618-topic-15-hardware-and-virtual-machines"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-mj-31-q07",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2021-mj-31-q07-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4239,
+                  0.453
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.453,
+                  0.5709
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6137,
+                  0.7054
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for working, (all three columns P, Q and R) 3\nOne mark for each correct column Y, Z\nA B C P Q R Y Z\n0 0 0 0 0 0 0 0\n0 0 1 0 0 0 1 0\n0 1 0 1 0 0 1 0\n0 1 1 1 0 1 0 1\n1 0 0 1 0 0 1 0\n1 0 1 1 0 1 0 1\n1 1 0 0 1 0 0 1\n1 1 1 0 1 0 1 1\n\n7(b) Full adder 1\n\n7(c) One mark for each point 4\n_ _ _ _ _ _\nY = A B C + A B C + A B C + A B C\nPurpose: Sum bit\n_ _ _\nZ = A B C + A B C + A B C + A B C\nPurpose: Carry output\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q07",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2021-mj-32-q07-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-mj-31-q07",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4239,
+                  0.453
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.453,
+                  0.5709
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6137,
+                  0.7054
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for working, (all three columns P, Q and R) 3\nOne mark for each correct column Y, Z\nA B C P Q R Y Z\n0 0 0 0 0 0 0 0\n0 0 1 0 0 0 1 0\n0 1 0 1 0 0 1 0\n0 1 1 1 0 1 0 1\n1 0 0 1 0 0 1 0\n1 0 1 1 0 1 0 1\n1 1 0 0 1 0 0 1\n1 1 1 0 1 0 1 1\n\n7(b) Full adder 1\n\n7(c) One mark for each point 4\n_ _ _ _ _ _\nY = A B C + A B C + A B C + A B C\nPurpose: Sum bit\n_ _ _\nZ = A B C + A B C + A B C + A B C\nPurpose: Carry output\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q07",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2021-mj-33-q07-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2021-mj-31-q07",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4239,
+                  0.453
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.453,
+                  0.5709
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6137,
+                  0.7054
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for working, (all three columns P, Q and R) 3\nOne mark for each correct column Y, Z\nA B C P Q R Y Z\n0 0 0 0 0 0 0 0\n0 0 1 0 0 0 1 0\n0 1 0 1 0 0 1 0\n0 1 1 1 0 1 0 1\n1 0 0 1 0 0 1 0\n1 0 1 1 0 1 0 1\n1 1 0 0 1 0 0 1\n1 1 1 0 1 0 1 1\n\n7(b) Full adder 1\n\n7(c) One mark for each point 4\n_ _ _ _ _ _\nY = A B C + A B C + A B C + A B C\nPurpose: Sum bit\n_ _ _\nZ = A B C + A B C + A B C + A B C\nPurpose: Carry output\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q07",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2021-on-31-q07-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2021-on-31-q07-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.212
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.212,
+                  0.4724
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4724,
+                  0.7635
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7635,
+                  0.8689
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8689,
+                  0.898
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per two correct products (Max 3) 3\n_ _ _ _ _ _\n(Z =) A B C D + A B C D + A B C D + A B C D +\n_\nA B C D + A B C D\n\n7(b)(i) One mark for every two correct rows or columns (Max 2) 2\nAB\n00 01 11 10\n00 0 0 1 0\n01 0 0 1 1\nCD\n11 0 0 1 1\n10 0 0 1 0\n\n7(b)(ii) One mark for correct loop (Max 2) 2\nAB\n00 01 11 10\n0 1\n00 0 0\n01 0 0 1 1\nCD\n11 0 0 1 1\n01 0 0 1 0\n\n7(b)(iii) One mark per correct marking point (Max 2) 2\n• A B // A D\n• + A D // + A B\n(Z =) A B + A D // A D + A B\n\n7(b)(iv) (Z =) A (B + D) // A (D + B) 1\n© UCLES 2021 Page 7 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q07",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2021-on-32-q07-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2021-on-32-q07-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-on-31-q07",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.212
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.212,
+                  0.4724
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4724,
+                  0.7635
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7635,
+                  0.8689
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8689,
+                  0.898
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per two correct products (Max 3) 3\n_ _ _ _ _ _\n(Z =) A B C D + A B C D + A B C D + A B C D +\n_\nA B C D + A B C D\n\n7(b)(i) One mark for every two correct rows or columns (Max 2) 2\nAB\n00 01 11 10\n00 0 0 1 0\n01 0 0 1 1\nCD\n11 0 0 1 1\n10 0 0 1 0\n\n7(b)(ii) One mark for correct loop (Max 2) 2\nAB\n00 01 11 10\n0 1\n00 0 0\n01 0 0 1 1\nCD\n11 0 0 1 1\n01 0 0 1 0\n\n7(b)(iii) One mark per correct marking point (Max 2) 2\n• A B // A D\n• + A D // + A B\n(Z =) A B + A D // A D + A B\n\n7(b)(iv) (Z =) A (B + D) // A (D + B) 1\n© UCLES 2021 Page 7 of 10"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q04",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-31-q04-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5447
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5447,
+                  0.8767
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a) RISC max 2 any two from: 4\n Uses simple instructions\n Uses fixed length instructions\n Instructions only require one clock cycle\n Uses many registers\n Makes use of pipelining\n Hardwired CU\nCISC max 2 any two from:\n Uses many instruction formats\n Uses variable length instructions\n Makes use of different addressing modes\n Uses few registers\n Has a large instruction set\n Requires complex circuits\n Frequently uses cache\n Instructions (converted to sub-instructions that) may require many clock cycles\n Programmable CU\n\n4(b) One mark for each difference max 2 from: 2\n RISC has fewer instructions // CISC has more instructions\n RISC has many registers // CISC has few registers\n RISC’s instructions are simpler // CISC’s instructions are more complex\n RISC has a few instruction formats / CISC has many instruction formats\n RISC usually uses single-cycle instructions// CISC uses multi-cycle instructions\n RISC uses fixed-length instructions // CISC uses variable-length instructions\n RISC has better pipelineability // CISC has poorer pipelineability\n RISC requires less complex circuits// CISC requires more complex circuits\n RISC has fewer addressing modes // CISC has more addressing modes\n RISC makes more use of RAM// CISC makes more use of cache/less use of RAM\n RISC has a hard-wired control unit // CISC has a programmable control unit\n RISC only uses load and store instructions to address memory // CISC has many types of instructions to address\nmemory\n© UCLES 2022 Page 6 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q06",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-31-q06-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.6535
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "6 Two marks each benefit description max 4 6\nNew system can be tried on different virtual hardware (1)\nwithout need to purchase the hardware (1)\nEasier to recover if software emulating the new computer causes system crash (1) as VM provides protection to other\nsoftware (1)\nEmulate programs for the new computer system that are not compatible with the host computer / operating system (1) by\nusing the guest operating system on the old computer (1)\nMore than one new computer system can be emulated (1) this allows multiple operating systems to coexist on a single\ncomputer(1)\nTwo marks each limitation description max 2 from:\nVirtual machines may not be able to emulate the new hardware (1) because this hardware may have been developed since\nthe virtual machine was developed (1)\nUsing virtual machine means execution of extra code // A virtual machine might not be as efficient // resources e.g. memory\nor processor time are shared (1) processing time increased // performance degrades (1)\nUse of a virtual machine increases the maintenance overheads (1) because both host system and the virtual machine must\nbe maintained (1)\n© UCLES 2022 Page 8 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q09",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-31-q09-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-31-q09-p02.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-31-q09-p03.png"
+      ],
+      "source_pages": [
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2127
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2127,
+                  0.8227
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a) LDM #500: Immediate 500 3\nLDD 500: Direct 100\nLDI 500: Indirect 20\n\n9(b) 7\nInstruction\nLabel Opcode Operand\nLDM #20\nSTO Twenty\nLDI Y\nADD Twenty\nSTO Z\nTwenty: #20\nY:\nZ:\nOne mark for LDM #20 seen\nOne mark for storing 20 at any address\nOne mark for labelling that address e.g. Twenty away from the program code\nOne mark for labelling addresses away from the program code as Y and Z\nOne mark for correct use of LDI Y\nOne mark for correct use of STO Z\nOne mark for correct use of ADD with labelled address\n© UCLES 2022 Page 11 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q05",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-32-q05-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0695,
+              0.1459,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2079
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2683,
+                  0.5866
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5866,
+                  0.6277
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6277,
+                  0.7115
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "5 SIMD (1) many/array processors execute the same instruction using different data sets (1) 6\nMISD (1) many processors (using different instructions) use the same data set (1)\nMIMD (1) many processors (using different instructions) using different data sets (1)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q06",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-32-q06-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0695,
+              0.1459,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2079
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2683,
+                  0.5866
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5866,
+                  0.6277
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6277,
+                  0.7115
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) 1 mark per correct output column 2\nINPUT OUTPUT\nA B E F\n0 0 0 0\n0 1 1 0\n1 0 1 0\n1 1 0 1\n\n6(b)(i) Half adder 1\n\n6(b)(ii) Purpose of E: Sum 2\nPurpose of F: Carry\n© UCLES 2022 Page 7 of 9"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q04",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-33-q04-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-mj-31-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5447
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5447,
+                  0.8767
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "4(a) RISC max 2 any two from: 4\n Uses simple instructions\n Uses fixed length instructions\n Instructions only require one clock cycle\n Uses many registers\n Makes use of pipelining\n Hardwired CU\nCISC max 2 any two from:\n Uses many instruction formats\n Uses variable length instructions\n Makes use of different addressing modes\n Uses few registers\n Has a large instruction set\n Requires complex circuits\n Frequently uses cache\n Instructions (converted to sub-instructions that) may require many clock cycles\n Programmable CU\n\n4(b) One mark for each difference max 2 from: 2\n RISC has fewer instructions // CISC has more instructions\n RISC has many registers // CISC has few registers\n RISC’s instructions are simpler // CISC’s instructions are more complex\n RISC has a few instruction formats / CISC has many instruction formats\n RISC usually uses single-cycle instructions// CISC uses multi-cycle instructions\n RISC uses fixed-length instructions // CISC uses variable-length instructions\n RISC has better pipelineability // CISC has poorer pipelineability\n RISC requires less complex circuits// CISC requires more complex circuits\n RISC has fewer addressing modes // CISC has more addressing modes\n RISC makes more use of RAM// CISC makes more use of cache/less use of RAM\n RISC has a hard-wired control unit // CISC has a programmable control unit\n RISC only uses load and store instructions to address memory // CISC has many types of instructions to address\nmemory\n© UCLES 2022 Page 6 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q06",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-33-q06-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-mj-31-q06",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.6535
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "6 Two marks each benefit description max 4 6\nNew system can be tried on different virtual hardware (1)\nwithout need to purchase the hardware (1)\nEasier to recover if software emulating the new computer causes system crash (1) as VM provides protection to other\nsoftware (1)\nEmulate programs for the new computer system that are not compatible with the host computer / operating system (1) by\nusing the guest operating system on the old computer (1)\nMore than one new computer system can be emulated (1) this allows multiple operating systems to coexist on a single\ncomputer(1)\nTwo marks each limitation description max 2 from:\nVirtual machines may not be able to emulate the new hardware (1) because this hardware may have been developed since\nthe virtual machine was developed (1)\nUsing virtual machine means execution of extra code // A virtual machine might not be as efficient // resources e.g. memory\nor processor time are shared (1) processing time increased // performance degrades (1)\nUse of a virtual machine increases the maintenance overheads (1) because both host system and the virtual machine must\nbe maintained (1)\n© UCLES 2022 Page 8 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q09",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-33-q09-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-33-q09-p02.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-mj-33-q09-p03.png"
+      ],
+      "source_pages": [
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-mj-31-q09",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2127
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2127,
+                  0.8227
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "9(a) LDM #500: Immediate 500 3\nLDD 500: Direct 100\nLDI 500: Indirect 20\n\n9(b) 7\nInstruction\nLabel Opcode Operand\nLDM #20\nSTO Twenty\nLDI Y\nADD Twenty\nSTO Z\nTwenty: #20\nY:\nZ:\nOne mark for LDM #20 seen\nOne mark for storing 20 at any address\nOne mark for labelling that address e.g. Twenty away from the program code\nOne mark for labelling addresses away from the program code as Y and Z\nOne mark for correct use of LDI Y\nOne mark for correct use of STO Z\nOne mark for correct use of ADD with labelled address\n© UCLES 2022 Page 11 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q07",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-on-31-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p09.png",
+          "/9618/answer-assets/9618_w22_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4343
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4343,
+                  0.7913
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3594
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.419,
+                  0.5923
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5923,
+                  0.7438
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) Two marks if no errors present 2\nOne mark if one error present\nAB\n00 01 11 10\nCD\n00 0 1 1 1\n01 0 1 1 1\n11 0 0 0 0\n10 0 0 0 0\n\n7(b) One mark for correct loop (Max 2) 2\n© UCLES 2022 Page 9 of 15\n\n7(c) One mark for each point 3\n• Any correct Boolean term\n• Boolean terms and operator correct and no other terms present\n_ _\n(Z =) BC + AC\nOne mark for simplest form\n_\n(Z =) C (A + B)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q10",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-on-31-q10-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p11.png",
+          "/9618/answer-assets/9618_w22_ms_31-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2981
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2981,
+                  0.494
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5544,
+                  0.9065
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3642
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4335,
+                  0.6479
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "10(a) Two marks for all five rows correct 2\nOne mark for four rows correct\nStatement RISC CISC\nuses a smaller instruction set ✓\nuses single-cycle instructions and limited addressing modes ✓\nuses fewer general-purpose registers ✓\nuses both hardwired and micro coded control unit ✓\nuses a system where cache is split between data and\n✓\ninstructions\n© UCLES 2022 Page 11 of 15\n\n10(b) One mark for each correct point (Max 4) 4\n• Instructions are divided into subtasks / 5 stages\n• … Instruction fetch / IF, Instruction decode / ID, operand fetch / OF, opcode/instruction execute IE, result store / write\nback result / WB\n• Each subtask is completed during one clock cycle\n• No two instructions can execute their same stage at the same clock cycle\n• The second instruction begins in the second clock cycle, while the first instruction has moved on to its second subtask.\n• The third instruction begins in the third clock cycle while the first and second instructions move on to their second and\nthird subtasks, respectively, etc.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q05",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-on-32-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.6712
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7317,
+                  0.8598
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "5 One mark for each description (Max 2) 6\n• The emulation of a computer system / hardware and/or software\n• … using a host computer system.\n• Using guest operating system(s) for emulation.\nOne mark for each correct benefit (Max 2)\n• Multiple guest operating systems / VMs can be used on the same computer.\n• Different instruction set architectures can be emulated on a single computer.\n• A virtual machine can crash without affecting the host machine.\n• There are security benefits // Trying a piece of suspicious software and if it is / has a virus, it will only infect the virtual\nmachine.\n• Cost savings due to not needing to purchase extra hardware.\n• Can run legacy applications that are currently incompatible.\nOne mark for each correct drawback (Max 2)\n• A virtual machine is less efficient / has poorer performance than real machines because of extra load on the host\ncomputer\n• Performance of the guest system cannot be adequately measured.\n• A virtual machine may be affected by any weaknesses of the host machine.\n• Costly and/or complex to maintain / implement / manage.\n• Cannot emulate some hardware.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q08",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-on-32-q08-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p10.png",
+          "/9618/answer-assets/9618_w22_ms_32-p11.png",
+          "/9618/answer-assets/9618_w22_ms_32-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.7333
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5794
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5794,
+                  0.6205
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4666
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5262,
+                  0.7438
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10,
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each point (Max 4) 4\n• One correct NAND or NOR gate with two separate inputs and one output\n• Second correct logic gate of same type as first with two separate inputs and one output\n• Correct connections between logic gates\n• Correctly labelled inputs\nExample answers:\nS/Set\nR/Reset\n© UCLES 2022 Page 10 of 16\n\n8(a) Or\nR/Reset\nS/Set\n\n8(b) To store a binary digit / (single) bit. 1\n© UCLES 2022 Page 11 of 16\n\n8(c) One mark for each point (Max 3) 3\n• Correct application of De Morgan’s Law\n• Correct application of Double Negation Law or Distributive Law\n• Correct answer\n(A.B).(A.C).(B.D)\n(A.B) + (A.C) + (B.D) [1]\n_ _ _\n(A.B) + (A.C) + (B.D) [1]\n_ _\nA. (B + C) + B.D [1]\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q07",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-on-33-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-on-31-q07",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p09.png",
+          "/9618/answer-assets/9618_w22_ms_33-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4343
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4343,
+                  0.7913
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3594
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.419,
+                  0.5923
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5923,
+                  0.7438
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) Two marks if no errors present 2\nOne mark if one error present\nAB\n00 01 11 10\nCD\n00 0 1 1 1\n01 0 1 1 1\n11 0 0 0 0\n10 0 0 0 0\n\n7(b) One mark for correct loop (Max 2) 2\n© UCLES 2022 Page 9 of 15\n\n7(c) One mark for each point 3\n• Any correct Boolean term\n• Boolean terms and operator correct and no other terms present\n_ _\n(Z =) BC + AC\nOne mark for simplest form\n_\n(Z =) C (A + B)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q10",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2022-on-33-q10-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-on-31-q10",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p11.png",
+          "/9618/answer-assets/9618_w22_ms_33-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2981
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2981,
+                  0.494
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5544,
+                  0.9065
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3642
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4335,
+                  0.6479
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "10(a) Two marks for all five rows correct 2\nOne mark for four rows correct\nStatement RISC CISC\nuses a smaller instruction set ✓\nuses single-cycle instructions and limited addressing modes ✓\nuses fewer general-purpose registers ✓\nuses both hardwired and micro coded control unit ✓\nuses a system where cache is split between data and\n✓\ninstructions\n© UCLES 2022 Page 11 of 15\n\n10(b) One mark for each correct point (Max 4) 4\n• Instructions are divided into subtasks / 5 stages\n• … Instruction fetch / IF, Instruction decode / ID, operand fetch / OF, opcode/instruction execute IE, result store / write\nback result / WB\n• Each subtask is completed during one clock cycle\n• No two instructions can execute their same stage at the same clock cycle\n• The second instruction begins in the second clock cycle, while the first instruction has moved on to its second subtask.\n• The third instruction begins in the third clock cycle while the first and second instructions move on to their second and\nthird subtasks, respectively, etc.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q07",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-mj-31-q07-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p06.png",
+          "/9618/answer-assets/9618_s23_ms_31-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.3607
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4103,
+                  0.6718
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6718,
+                  0.9185
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.196,
+                  0.2575
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3071,
+                  0.4262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4752,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.8336
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) Two marks if no errors present 2\nOne mark if one error present\n\n7(b) One mark for each correct loop (Max 2) 2\n© UCLES 2023 Page 6 of 10\n\n7(c) One mark for each mark point (Max 2) 2\n Any correct Boolean term\n Boolean terms and operator correct and no other terms present\n(Z =) AC + BC\n\n7(d) One mark for simplest form (Max 1) 1\n(Z =) C (A + B)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q08",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-mj-31-q08-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.196,
+                  0.2575
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3071,
+                  0.4262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4752,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.8336
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "8 One mark per mark point (Max 3) 3\nMP1 A large number of computer processors / separate computers\nconnected together\nMP2 … simultaneously performing a set of coordinated computations //\ncollaborative processing\nMP3 network infrastructure\nMP4 communicate using a message interface / by sending messages.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q08",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-mj-32-q08-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p08.png",
+          "/9618/answer-assets/9618_s23_ms_32-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4473
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4963,
+                  0.661
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.5436
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5932,
+                  0.6547
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6547,
+                  0.8889
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark per mark point (Max 2) 2\nMP1 Pipelining allows several instructions to be processed simultaneously\n/ concurrently.\nMP2 … therefore, increasing the CPU instruction throughput / the number\nof instructions completed per unit of time.\nMP3 Each instruction stage / subtask is completed during one clock cycle\nMP4 No two instructions can execute their same stage of instruction /\nsubtask at the same clock cycle.\nMP5 … e.g., while one instruction is being decoded, the next instruction\ncan be fetched, etc.\n© UCLES 2023 Page 8 of 12\n\n8(b) One mark per mark point (Max 4)\n First stage of first instruction in first clock cycle\n First instruction successfully completed over five clock cycles\n Remaining instructions completed over ten clock cycles …\n … with no extra instruction sections added on any row.\nExample answer 1\nClock cycles\n© UCLES 2023 Page 9 of 12\nsegats\nrossecorP\n1 2 3 4 5 6 7 8 9 10 11 12\nIF 1.1 2.1 3.1 4.1 5.1 6.1\nID 1.2 2.2 3.2 4.2 5.2 6.2\nOF 1.3 2.3 3.3 4.3 5.3 6.3\nIE 1.4 2.4 3.4 4.4 5.4 6.4\nWB 1.5 2.5 3.5 4.5 5.5 6.5\nExample answer 2\nClock cycles\nsegats\nrossecorP\n4\n1 2 3 4 5 6 7 8 9 10 11 12\nIF A B C D E F\nID A B C D E F\nOF A B C D E F\nIE A B C D E F\nWB A B C D E F\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q09",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-mj-32-q09-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-mj-32-q09-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p09.png",
+          "/9618/answer-assets/9618_s23_ms_32-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.5436
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5932,
+                  0.6547
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6547,
+                  0.8889
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.3373
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3373,
+                  0.4302
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4302,
+                  0.4917
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5407,
+                  0.6302
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for every two correct products (Max 3) 3\n(Z =) ABCD + ABCD + ABCD + ABCD + ABCD + ABCD\n\n9(b) Two marks if no errors present 2\nOne mark if one error present\n\n9(c) One mark for each correct loop (Max 2) 2\n\n9(d) One mark for each mark point (Max 2) 2\n Any correct Boolean term\n Boolean terms and operator correct and no other terms present\n(Z =) AB + AC\n\n9(e) One mark for simplest form (Max 1) 1\n(Z =) A (B + C)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q07",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-mj-33-q07-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-mj-31-q07",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p06.png",
+          "/9618/answer-assets/9618_s23_ms_33-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.3607
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4103,
+                  0.6718
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6718,
+                  0.9185
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.196,
+                  0.2575
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3071,
+                  0.4262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4752,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.8336
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) Two marks if no errors present 2\nOne mark if one error present\n\n7(b) One mark for each correct loop (Max 2) 2\n© UCLES 2023 Page 6 of 10\n\n7(c) One mark for each mark point (Max 2) 2\n Any correct Boolean term\n Boolean terms and operator correct and no other terms present\n(Z =) AC + BC\n\n7(d) One mark for simplest form (Max 1) 1\n(Z =) C (A + B)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q08",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-mj-33-q08-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-mj-31-q08",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.196,
+                  0.2575
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3071,
+                  0.4262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4752,
+                  0.5641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5641,
+                  0.8336
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "8 One mark per mark point (Max 3) 3\nMP1 A large number of computer processors / separate computers\nconnected together\nMP2 … simultaneously performing a set of coordinated computations //\ncollaborative processing\nMP3 network infrastructure\nMP4 communicate using a message interface / by sending messages.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q05",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-31-q05-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-31-q05-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p04.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2526
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3016,
+                  0.496
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.496,
+                  0.5849
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6345,
+                  0.8136
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "5 One mark per mark point – SISD (Max 2) 4\nMP1 Single Instruction, Single Data (architecture). // Data is taken from a\nsingle source and a single instruction is performed on the data.\nMP2 Contains one processor, a control unit and a memory unit.\nMP3 …that executes instructions sequentially.\nOne mark per mark point – MIMD (Max 2)\nMP4 Multiple Instruction, Multiple Data (architecture). // At any time, any\nprocessor can execute different instructions on different sets of data.\nMP5 Contains many processors\nMP6 …that operate asynchronously / independently.\n© UCLES 2023 Page 4 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q06",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-31-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-31-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.6414
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6414,
+                  0.8375
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for every shaded block of rows for column Z correct (Max 3) 3\nA B C D Z\n0 0 0 0 1\n0 0 0 1 0\n0 0 1 0 1\n0 0 1 1 0\n0 1 0 0 1\n0 1 0 1 0\n0 1 1 0 1\n0 1 1 1 0\n1 0 0 0 1\n1 0 0 1 0\n1 0 1 0 1\n1 0 1 1 0\n1 1 0 0 1\n1 1 0 1 0\n1 1 1 0 0\n1 1 1 1 0\n\n6(b) One mark for correct working from points (Max 2), for example: 3\n(Y =) A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D\n(Y =) A.D.(B.C + B.C + B.C + B.C)\n(Y =) A.D.(B.(C + C) + B.(C + C))\n(Y =) A.D.(B.(1) + B.(1))\n(Y =) A.D.(B + B)\n(Y =) A.D.(1)\nOne mark for correct answer\n(Y =) A.D\n© UCLES 2023 Page 5 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q07",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-32-q07-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p05.png",
+          "/9618/answer-assets/9618_w23_ms_32-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9243
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.5291
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5291,
+                  0.6482
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6978,
+                  0.8911
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8911,
+                  0.9196
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9243
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.3558
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4054,
+                  0.6881
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7377,
+                  0.9076
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) A B C X 1\n0 0 0 1\n0 0 1 0\n0 1 0 0\n0 1 1 0\n1 0 0 0\n1 0 1 0\n1 1 0 0\n1 1 1 0\n\n7(b) X= A.B.C 1\n© UCLES 2023 Page 5 of 9\n\n7(c) (Max 2) for correct working from points shown 3\n(T =) X.Y.Z + X.Y.Z + X\nDistributive law\n(T=) X.Z.(Y + Y) + X\nComplement law\n(T=) X.Z.(1) + X\nIdentity law\n(T=) X.Z + X\nRedundancy law (to get final answer)\nOne mark for correct answer\n(T=) X + Z\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q10",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-32-q10-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9243
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2976
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3466,
+                  0.4498
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4498,
+                  0.4789
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4789,
+                  0.7087
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "10 One mark per mark point – SIMD (Max 2) 4\nMP1 Single Instruction, Multiple Data (architecture) // Performs the same\noperation on multiple different data streams simultaneously.\nMP2 The instructions can be performed sequentially, taking advantage of\npipelining.\nMP3 Parallel computers with multiple processors.\nOne mark per mark point – MISD (Max 2)\nMP4 Multiple Instruction, Single Data (architecture) // Performs different\noperations on the same data stream.\nMP5 Each processor works on the same data stream independently.\nMP6 Parallel computers with multiple processors.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q05",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-33-q05-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-33-q05-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-on-31-q05",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p04.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2526
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3016,
+                  0.496
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.496,
+                  0.5849
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6345,
+                  0.8136
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "5 One mark per mark point – SISD (Max 2) 4\nMP1 Single Instruction, Single Data (architecture). // Data is taken from a\nsingle source and a single instruction is performed on the data.\nMP2 Contains one processor, a control unit and a memory unit.\nMP3 …that executes instructions sequentially.\nOne mark per mark point – MIMD (Max 2)\nMP4 Multiple Instruction, Multiple Data (architecture). // At any time, any\nprocessor can execute different instructions on different sets of data.\nMP5 Contains many processors\nMP6 …that operate asynchronously / independently.\n© UCLES 2023 Page 4 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q06",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-33-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2023-on-33-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-on-31-q06",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.6414
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6414,
+                  0.8375
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for every shaded block of rows for column Z correct (Max 3) 3\nA B C D Z\n0 0 0 0 1\n0 0 0 1 0\n0 0 1 0 1\n0 0 1 1 0\n0 1 0 0 1\n0 1 0 1 0\n0 1 1 0 1\n0 1 1 1 0\n1 0 0 0 1\n1 0 0 1 0\n1 0 1 0 1\n1 0 1 1 0\n1 1 0 0 1\n1 1 0 1 0\n1 1 1 0 0\n1 1 1 1 0\n\n6(b) One mark for correct working from points (Max 2), for example: 3\n(Y =) A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D\n(Y =) A.D.(B.C + B.C + B.C + B.C)\n(Y =) A.D.(B.(C + C) + B.(C + C))\n(Y =) A.D.(B.(1) + B.(1))\n(Y =) A.D.(B + B)\n(Y =) A.D.(1)\nOne mark for correct answer\n(Y =) A.D\n© UCLES 2023 Page 5 of 9"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q06",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-31-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-31-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p09.png",
+          "/9618/answer-assets/9618_s24_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.6406
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6406,
+                  0.7454
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3312
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3312,
+                  0.5165
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5165,
+                  0.5576
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6172,
+                  0.7438
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7438,
+                  0.8268
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for working, all four columns P, Q, R and S 3\nOne mark for first four rows of column Z\nOne mark for second four rows of column Z\nWorking space\nA B C P Q R S Z\n0 0 0 1 0 0 1 1\n0 0 1 1 0 0 1 1\n0 1 0 0 0 0 0 0\n0 1 1 0 0 0 0 0\n1 0 0 1 0 0 0 0\n1 0 1 1 0 1 0 1\n1 1 0 0 0 0 1 1\n1 1 1 0 1 0 1 1\n\n6(b) Two marks for all five correct terms and no extras 2\nOne mark for any three correct terms\n(Z =) A.B.C + A.B.C + A.B.C + A.B.C + A.B.C\n© Cambridge University Press & Assessment 2024 Page 9 of 14\n\n6(c)(i) Two marks if all correct 2\nOne mark if one error present\nBC\n00 01 11 10\nA\n0 1 1 0 0\n1 1 1 1 1\n\n6(c)(ii) One mark for each correct loop (Max 2) 2\nBC\n00 01 11 10\nA\n0 1 1 0 0\n1 1 1 1 1\n\n6(c)(iii) A + B 1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q11",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 11,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-31-q11-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-31-q11-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p14.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3562
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3562,
+                  0.5036
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5036,
+                  0.6511
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 2) 2\nMP1 Uses hard-wired code/control units\nMP2 Uses relatively few instructions / simple instructions\nMP3 Uses relatively few addressing modes\nMP4 Makes use of a single-cycle for each instruction\nMP5 Makes use of fixed length / fixed format instructions\nMP6 Makes use of general-purpose registers\nMP7 Pipelining is straightforward to apply\nMP8 The design emphasis is on the software\nMP9 Processor chips require few transistors.\n\n11(b) One mark per mark point (Max 3) 3\nMP1 Once the processor detects an interrupt at the start/end of the fetch-execute cycle\nMP2 … the current program is temporarily stopped and the status of each register stored on the stack.\nMP3 After the interrupt has been serviced/the Interrupt Service Routine (ISR) has been executed …\nMP4 … the registers can be restored to its original status before the interrupt was detected // … the data can be\nrestored from the stack.\n\n11(c) One mark per mark point (Max 3) 3\nMP1 Pipelining adds an additional complexity // there could be a number of instructions still in the pipeline when the\ninterrupt is received\nMP2 All the instructions currently in operation are usually discarded except for the last one/the one at write back\nMP3 … the interrupt handler routine is applied to the remaining instruction.\nMP4 Once the interrupt has been serviced the processor can restart with the next instruction in the sequence.\n© Cambridge University Press & Assessment 2024 Page 14 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q06",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-32-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-32-q06-p02.png"
+      ],
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p06.png",
+          "/9618/answer-assets/9618_s24_ms_32-p07.png",
+          "/9618/answer-assets/9618_s24_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4456
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4456,
+                  0.697
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.6406
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6406,
+                  0.7454
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3723
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3723,
+                  0.6221
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6221,
+                  0.6632
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7228,
+                  0.8276
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8276,
+                  0.9114
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6,
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "6 6 15 15 15 15 15 15 30\n5(c) One mark per correct term (Max 3) 3\n(a – c + b)\n* (d + b)\n/c\nComplete correct answer\n(((a – c) + b) * (d + b))/c\nOr\n(a – c + b) * (d + b)/c\n© Cambridge University Press & Assessment 2024 Page 6 of 14\n\n6(a) One mark for working, all five columns P, Q, R, S and T 3\nOne mark for first four rows of column Z\nOne mark for second four rows of column Z\nWorking space\nA B C P Q R S T Z\n0 0 0 1 1 1 1 1 0\n0 0 1 1 1 0 1 0 1\n0 1 0 1 0 1 1 0 1\n0 1 1 1 0 0 1 0 1\n1 0 0 0 1 1 0 0 0\n1 0 1 0 1 0 1 0 1\n1 1 0 0 0 1 1 0 1\n1 1 1 0 0 0 1 0 1\n\n6(b) Two marks for all six correct terms only 2\nOne mark for any three correct terms\n(Z = ) A.B.C + A.B.C + A.B.C + A.B.C + A.B.C + A.B.C\n© Cambridge University Press & Assessment 2024 Page 7 of 14\n\n6(c)(i) Two marks if all correct 2\nOne mark if only one error present\nBC\n00 01 11 10\nA\n0 1 0 1 1\n1 1 0 1 1\n\n6(c)(ii) One mark for each correct loop (Max 2) 2\nBC\n00 01 11 10\nA\n0\n0 1 1 1\n1 1 0 1 1\n\n6(c)(iii) B + C 1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q09",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-32-q09-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5689
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5689,
+                  0.8646
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark per mark point for up to two benefits (Max 2) 4\nMP1 COMPATIBILTY e.g. Applications that aren’t compatible with the host computer can be run on the virtual machine\n// It is possible to emulate old software on a new system by running a compatible guest operating system as a\nvirtual machine // Software can be tried on different OS on the same hardware.\nMP2 PROTECTION e.g. The guest operating system has no effect on anything outside the virtual machine other virtual\nmachines or the host computer//Virtual machines are useful for testing as they will not crash the host computer if\nsomething goes wrong // Easier to recover if software causes a system crash as virtual machine software protects\nthe host system.\nMP3 COST e.g. No need to buy extra computers / hardware as multiple virtual machines can be implemented on the\nsame hardware.\nOne mark per mark point for up to two limitations (Max 2)\nMP4 PERFORMANCE e.g. The performance of the guest operating system will not be as good on a virtual machine as\nit would be on its own compatible machine because of the extra code / using more RAM/memory space // The\nperformance of the VM is dependent on the capabilities of the host computer // Response times cannot be\naccurately measured using a virtual machine.\nMP5 COMPLEXITY e.g. Building an in-house virtual machine can be expensive, time consuming and complex to\nmaintain / set-up.\nMP6 HARDWARE/SOFTWARE ISSUES e.g. Some hardware/software can’t be emulated with a virtual machine //\nSome of the host machine’s hardware can’t be directly accessed by the virtual machine.\n\n9(b) One mark per mark point – host operating system (Max 2) 3\nMP1 The host operating system is the normal operating system for the host computer / machine.\nMP2 It has control of all the resources of the host computer / machine. // It can access the physical resources of the\nhost computer / machine.\nMP3 It provides a user interface to operate the virtual machine software.\nMP4 It also runs the virtual machine software.\nOne mark per mark point – guest operating system (Max 2)\nMP5 The guest operating system runs within the virtual machine.\nMP6 … it controls the virtual hardware/software during the emulation. // It accesses the actual hardware through the\nvirtual machine and host operating system.\nMP7 It provides a virtual user interface for the emulated hardware/software.\nMP8 The guest operating system runs under the control of the host operating system.\n© Cambridge University Press & Assessment 2024 Page 12 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q06",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-33-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-33-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p09.png",
+          "/9618/answer-assets/9618_s24_ms_33-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.6406
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6406,
+                  0.7454
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3312
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3312,
+                  0.5165
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5165,
+                  0.5576
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6172,
+                  0.7438
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7438,
+                  0.8268
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for working, all four columns P, Q, R and S 3\nOne mark for first four rows of column Z\nOne mark for second four rows of column Z\nWorking space\nA B C P Q R S Z\n0 0 0 1 0 0 1 1\n0 0 1 1 0 0 1 1\n0 1 0 0 0 0 0 0\n0 1 1 0 0 0 0 0\n1 0 0 1 0 0 0 0\n1 0 1 1 0 1 0 1\n1 1 0 0 0 0 1 1\n1 1 1 0 1 0 1 1\n\n6(b) Two marks for all five correct terms and no extras 2\nOne mark for any three correct terms\n(Z =) A.B.C + A.B.C + A.B.C + A.B.C + A.B.C\n© Cambridge University Press & Assessment 2024 Page 9 of 14\n\n6(c)(i) Two marks if all correct 2\nOne mark if one error present\nBC\n00 01 11 10\nA\n0 1 1 0 0\n1 1 1 1 1\n\n6(c)(ii) One mark for each correct loop (Max 2) 2\nBC\n00 01 11 10\nA\n0 1 1 0 0\n1 1 1 1 1\n\n6(c)(iii) A + B 1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q11",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 11,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-33-q11-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-mj-33-q11-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p14.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3562
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3562,
+                  0.5036
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5036,
+                  0.6511
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 2) 2\nMP1 Uses hard-wired code/control units\nMP2 Uses relatively few instructions / simple instructions\nMP3 Uses relatively few addressing modes\nMP4 Makes use of a single-cycle for each instruction\nMP5 Makes use of fixed length / fixed format instructions\nMP6 Makes use of general-purpose registers\nMP7 Pipelining is straightforward to apply\nMP8 The design emphasis is on the software\nMP9 Processor chips require few transistors.\n\n11(b) One mark per mark point (Max 3) 3\nMP1 Once the processor detects an interrupt at the start/end of the fetch-execute cycle\nMP2 … the current program is temporarily stopped and the status of each register stored on the stack.\nMP3 After the interrupt has been serviced/the Interrupt Service Routine (ISR) has been executed …\nMP4 … the registers can be restored to its original status before the interrupt was detected // … the data can be\nrestored from the stack.\n\n11(c) One mark per mark point (Max 3) 3\nMP1 Pipelining adds an additional complexity // there could be a number of instructions still in the pipeline when the\ninterrupt is received\nMP2 All the instructions currently in operation are usually discarded except for the last one/the one at write back\nMP3 … the interrupt handler routine is applied to the remaining instruction.\nMP4 Once the interrupt has been serviced the processor can restart with the next instruction in the sequence.\n© Cambridge University Press & Assessment 2024 Page 14 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q02",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3779
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4472,
+                  0.6156
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "2 One mark per mark point (Max 4) 4\nMP1 low number of instruction formats //low number of instruction sets\nMP2 uses single-clock cycle instructions\nMP3 uses fixed length instructions\nMP4 uses many general-purpose registers\nMP5 works well with pipelining\nMP6 hard-wired control unit\nMP7 makes extensive use of RAM\nMP8 uses a low number of addressing modes\nMP9 the design emphasis is on the software.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q07",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-31-q07-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-31-q07-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p08.png",
+          "/9618/answer-assets/9618_w24_ms_31-p09.png",
+          "/9618/answer-assets/9618_w24_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4907
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5608,
+                  0.6503
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4537
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4537,
+                  0.7607
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2796
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2796,
+                  0.3691
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4384,
+                  0.7341
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for every two correct products (Max 3) 3\n(T =) A.B.C.D+A.B.C.D+A.B.C.D+ A.B.C.D+A.B.C.D+A.B.C.D\n© Cambridge University Press & Assessment 2024 Page 8 of 17\n\n7(b) Two marks if no errors present 2\nOne mark if one error present\nAB\nCD 00 01 11 10\n00 0 0 0 0\n01 1 0 1 1\n11 1 0 1 1\n10 0 0 0 0\n\n7(c) One mark for each correct loop (Max 2) 2\nAB\nCD 00 01 11 10\n00 0 0 0 0\n01 1 0 1 1\n11 1 0 1 1\n10 0 0 0 0\n© Cambridge University Press & Assessment 2024 Page 9 of 17\n\n7(d)(i) One mark for each mark point (Max 2) 2\n• Any correct Boolean term\n• Boolean terms and operator correct and no other terms present\n(T =) A.D+B.D // B.D.+ A.D\n\n7(d)(ii) One mark for simplest form (Max 1) 1\n(T =) D.(A.B)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q06",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-32-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-32-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p08.png",
+          "/9618/answer-assets/9618_w24_ms_32-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2562
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2562,
+                  0.585
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.585,
+                  0.8928
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2772
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3473,
+                  0.4521
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4521,
+                  0.5624
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5624,
+                  0.7945
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) Three marks for all eight correct products and no additional products 3\nTwo marks for five, six or seven correct products\nOne mark for three or four correct products\n(X =) A.B.C.D+A.B.C.D+A.B.C.D.+ A.B.C.D+A.B.C.D+A.B.C.D+A.B.C.D+A.B.C.D\n\n6(b) Two marks if no errors present 2\nOne mark if one error present\nAB\nCD 00 01 11 10\n00 0 0 0 0\n01 1 1 1 1\n11 0 0 0 0\n10 1 1 1 1\n\n6(c) One mark for each correct loop (Max 2) 2\nAB\nCD 00 01 11 10\n00 0 0 0 0\n01 1 1 1 1\n11 0 0 0 0\n10 1 1 1 1\n© Cambridge University Press & Assessment 2024 Page 8 of 15\n\n6(d) One mark for each mark point (Max 2) 2\nMP1 Any correct relevant Boolean term\nMP2 Boolean terms with correct operator + and no other terms present\n(X =) C.D+C.D // C.D.+ C.D\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q08",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-32-q08-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4932
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5624,
+                  0.8582
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "8 One mark per mark point (Max 4) 4\nMP1 many instruction formats possible\nMP2 large instruction set\nMP3 many addressing modes available\nMP4 uses variable length/multi-operation instructions\nMP5 multi-clock cycle instructions\nMP6 complex decoding of instructions\nMP7 uses complex circuits\nMP8 makes frequent use of cache memory\nMP9 uses programmable control unit // uses micro-programmed control unit // uses hardwired control unit\nMP10 hardware needs to be able to handle more complex instructions convert into sub-instructions // Design emphasis is\non the hardware.\n© Cambridge University Press & Assessment 2024 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q02",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-33-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2024-on-31-q02",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p05.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3779
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4472,
+                  0.6156
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "2 One mark per mark point (Max 4) 4\nMP1 low number of instruction formats //low number of instruction sets\nMP2 uses single-clock cycle instructions\nMP3 uses fixed length instructions\nMP4 uses many general-purpose registers\nMP5 works well with pipelining\nMP6 hard-wired control unit\nMP7 makes extensive use of RAM\nMP8 uses a low number of addressing modes\nMP9 the design emphasis is on the software.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q07",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-33-q07-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2024-on-33-q07-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2024-on-31-q07",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p08.png",
+          "/9618/answer-assets/9618_w24_ms_33-p09.png",
+          "/9618/answer-assets/9618_w24_ms_33-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4907
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5608,
+                  0.6503
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4537
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4537,
+                  0.7607
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2796
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2796,
+                  0.3691
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4384,
+                  0.7341
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for every two correct products (Max 3) 3\n(T =) A.B.C.D+A.B.C.D+A.B.C.D+ A.B.C.D+A.B.C.D+A.B.C.D\n© Cambridge University Press & Assessment 2024 Page 8 of 17\n\n7(b) Two marks if no errors present 2\nOne mark if one error present\nAB\nCD 00 01 11 10\n00 0 0 0 0\n01 1 0 1 1\n11 1 0 1 1\n10 0 0 0 0\n\n7(c) One mark for each correct loop (Max 2) 2\nAB\nCD 00 01 11 10\n00 0 0 0 0\n01 1 0 1 1\n11 1 0 1 1\n10 0 0 0 0\n© Cambridge University Press & Assessment 2024 Page 9 of 17\n\n7(d)(i) One mark for each mark point (Max 2) 2\n• Any correct Boolean term\n• Boolean terms and operator correct and no other terms present\n(T =) A.D+B.D // B.D.+ A.D\n\n7(d)(ii) One mark for simplest form (Max 1) 1\n(T =) D.(A.B)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q05",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-mj-31-q05-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-mj-31-q05-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p10.png",
+          "/9618/answer-assets/9618_s25_ms_31-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2079
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2079,
+                  0.2716
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3409,
+                  0.4456
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4456,
+                  0.8066
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4859
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4859,
+                  0.614
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6833,
+                  0.8308
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) Two marks for all six correct terms 2\nOne mark for any three correct terms\nZ = A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D\n\n5(b)(i) Two marks if no errors present 2\nOne mark if one error present\nAB\nCD 00 01 11 10\n00 1 0 0 1\n01 0 1 1 0\n11 0 1 1 0\n10 0 0 0 0\n© Cambridge University Press & Assessment 2025 Page 10 of 15\n\n5(b)(ii) One mark for each correct loop 2\nAB\nCD 00 01 11 10\n00 1 0 0 1\n01 0 1 1 0\n11 0 1 1 0\n10 0 0 0 0\n\n5(b)(iii) One mark for each mark point 2\n• One correct Boolean term\n• Boolean terms and operator correct and no other terms present\nZ = B.D + B.C.D // B.C.D + B.D\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q07",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-mj-32-q07-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-mj-32-q07-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p08.png",
+          "/9618/answer-assets/9618_s25_ms_32-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.7007
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7007,
+                  0.7594
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.4213
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4704,
+                  0.6197
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6688,
+                  0.6978
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6978,
+                  0.7269
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7269,
+                  0.8763
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for working, (all four columns P, Q, R and S) 3\nOne mark for first eight rows of column Z (Shaded)\nOne mark for second eight rows of column Z (Unshaded)\nWorking space\nA B C D P Q R S Z\n0 0 0 0 1 0 0 1 0\n0 0 0 1 1 0 0 1 0\n0 0 1 0 0 1 0 1 0\n0 0 1 1 0 1 0 1 0\n0 1 0 0 1 0 0 1 0\n0 1 0 1 1 0 0 1 0\n0 1 1 0 0 0 0 0 1\n0 1 1 1 0 0 1 0 0\n1 0 0 0 1 0 0 1 0\n1 0 0 1 1 0 0 1 0\n1 0 1 0 0 0 0 0 1\n1 0 1 1 0 0 0 0 1\n1 1 0 0 1 0 0 1 0\n1 1 0 1 1 0 0 1 0\n1 1 1 0 0 0 0 0 1\n1 1 1 1 0 0 1 0 0\n\n7(b) One mark for correct answer (terms may be in any order) 1\nZ = A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D\n© Cambridge University Press & Assessment 2025 Page 8 of 12\n\n7(c) One mark for each mark point 4\n• Correct application of De Morgan’s laws\n• Correct application of Idempotent, Distributive or Absorption laws\n• Correct application of Idempotent, Distributive or Absorption laws\n• Correct final answer\n(A+B).(A.B+B.C)\n(A.B).(A+B+B+C) DeMorgan’s laws\n(A.B).(A+B+C) Idempotent laws\n(A.A+A.B+A.C).(B.A+B.B+B.C) Distributive laws\n(A+A.B+A.C).(A.B+B+B.C) Idempotent laws\n(A+A.C).(B+B.C) Absorption laws\nA.B // A + B Absorption laws / Final Answer\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q03",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-mj-33-q03-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-mj-33-q03-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p07.png",
+          "/9618/answer-assets/9618_s25_ms_33-p08.png",
+          "/9618/answer-assets/9618_s25_ms_33-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2933
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2933,
+                  0.6616
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7309,
+                  0.8356
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.4859
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4859,
+                  0.8469
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.253
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3223,
+                  0.7035
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7035,
+                  0.8719
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7,
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "3(a) Two marks for all six correct terms 2\nOne mark for any four correct terms\nZ = A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D + A.B.C.D\n© Cambridge University Press & Assessment 2025 Page 7 of 16\n\n3(b)(i) Two marks if no errors present 2\nOne mark if one error present\nAB\nCD 00 01 11 10\n00 0 1 1 0\n01 0 0 0 0\n11 1 0 0 1\n10 1 0 0 1\n\n3(b)(ii) One mark for each correct loop (Max 2) 2\nAB\nCD 00 01 11 10\n00 0 1 1 0\n01 0 0 0 0\n11 1 0 0 1\n10 1 0 0 1\n© Cambridge University Press & Assessment 2025 Page 8 of 16\n\n3(b)(iii) One mark for each mark point 2\n• One correct Boolean term\n• Boolean terms and operator correct and no other terms present\nZ = B.C + B.C.D // B.C.D + B.C\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q06",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-31-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-31-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p10.png",
+          "/9618/answer-assets/9618_w25_ms_31-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2718
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3419,
+                  0.821
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.3726
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3726,
+                  0.6
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6,
+                  0.7282
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7984,
+                  0.8839
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for working, (all four columns P, Q, R and S) 3\nOne mark for first four rows of column Z\nOne mark for second four rows of column Z\nWorking space\nA B C P Q R S Z\n0 0 0 1 1 1 1 0\n0 0 1 1 0 1 0 0\n0 1 0 1 1 1 1 1\n0 1 1 1 0 1 1 1\n1 0 0 0 1 1 1 0\n1 0 1 0 0 0 1 0\n1 1 0 0 1 1 1 1\n1 1 1 0 0 1 1 1\n© Cambridge University Press & Assessment 2025 Page 10 of 15\n\n6(b)(i) Two marks if no errors present 2\nOne mark if only one error present\nBC\n00 01 11 10\nA\n0 0 0 1 1\n1 0 1 0 1\n\n6(b)(ii) One mark for each correct loop (Max 2) 2\nBC\n00 01 11 10\nA\n0 0 0 1 1\n1 0 1 0 1\n\n6(b)(iii) One mark for each mark point (Max 2) 2\n• One correct Boolean term with a + / OR sign\n• All Boolean terms and operators correct and no other terms present\nA.B + B.C + A.B.C\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q11",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 11,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-31-q11-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-31-q11-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p15.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.7565
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7565,
+                  0.7968
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 6) 6\nMP1 LDM #100 seen\nMP2 Correct use of STO with labelled address (constant or answer)\nMP3 Correct use of LDD 632\nMP4 Correct use of SUB with labelled address (constant)\nOpcode Operand\nLDM #100\nSTO Constant\nLDD 632\nSUB Constant\nSTO Answer\nMP5 Storing 100 at a labelled address away from the code\nMP6 Labelling both addresses away from the code.\nLabel Contents\nConstant: 100\nAnswer:\n\n11(b) –55 1\n© Cambridge University Press & Assessment 2025 Page 15 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q06",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-32-q06-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-32-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p11.png",
+          "/9618/answer-assets/9618_w25_ms_32-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.646
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.646,
+                  0.8935
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.4089
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4089,
+                  0.5371
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) • One mark for working, (all four columns P, Q, R and S) 3\n• One mark for first four rows of column Z\n• One mark for second four rows of column Z\nWorking space\nA B C P Q R S Z\n0 0 0 1 1 0 0 1\n0 0 1 1 1 1 1 1\n0 1 0 0 0 1 0 1\n0 1 1 0 0 0 0 0\n1 0 0 1 0 0 0 1\n1 0 1 1 0 1 0 1\n1 1 0 0 1 1 0 1\n1 1 1 0 1 0 0 0\n\n6(b)(i) Two marks if no errors present 2\nOne mark if only one error present\nBC\n00 01 11 10\nA\n0 0 1 1 0\n1 0 1 0 1\n© Cambridge University Press & Assessment 2025 Page 11 of 17\n\n6(b)(ii) One mark for each correct loop (Max 2) 2\nBC\n00 01 11 10\nA\n0 0 1 1 0\n1 0 1 0 1\n\n6(b)(iii) One mark for each mark point (Max 2) 2\n• One correct Boolean term with a + / OR sign\n• All Boolean terms and operators correct and no other terms present\n_ _ _\nA.C + B.C + A.B.C\n© Cambridge University Press & Assessment 2025 Page 12 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q11",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 11,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-32-q11-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-32-q11-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p16.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.9137
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "11 One mark per mark point (Max 7) 7\nMP1 LDD 300 seen\nMP2 Correct use of STO seen (at least once)\nMP3 Correct use of LDD 420 seen\nMP4 Correct use of LDI B\nMP5 Correct use of ADD A\nOpcode Operand\nLDD 300\nSTO A\nLDD 420\nSTO B\nLDI B\nADD A\nSTO Answer\nMP6 Correct labelling of three addresses A:, B: and Answer:\nMP7 Correct contents in A: and B:\nMP8 Correct value in Answer:\nLabel Contents\nA: 86\nB: 150\nAnswer: 112\n© Cambridge University Press & Assessment 2025 Page 16 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q06",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-33-q06-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p09.png",
+          "/9618/answer-assets/9618_w25_ms_33-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.5468
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5468,
+                  0.6927
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.4831
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5532,
+                  0.6798
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6798,
+                  0.8476
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "6(a)(i) One mark for each correct loop (Max 3) 3\nAB\nCD 00 01 11 10\n00\n0 0 0 0\n01 1 1 1 0\n11 0 1 1 1\n10 0 0 1 1\n\n6(a)(ii) One mark per mark point (Max 2) 2\nMP1 One correct Boolean term with an OR sign\nMP2 All three correct Boolean terms connected by OR signs and no\nother terms present.\nA.C.D + B.D + A.C\n© Cambridge University Press & Assessment 2025 Page 9 of 16\n\n6(b) One mark for correct use of De Morgan’s laws 3\nOne mark for correct use of any other Boolean algebra law\nX = A+B+C + B+C\n(X=) A.B.C + B.C ………………………………….(De Morgan’s)\n(X=) A.B.C + B.C ………………………………….(Double negation)\n(X=) C.(A.B + B) …………………………………..(Distributive)\nOne mark for correct answer\n(X=) C.(A + B) ……………………………………..(Redundancy)\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q13",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 13,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-33-q13-p01.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-33-q13-p02.png",
+        "/9618/9618-topic-15-hardware-and-virtual-machines/assets/9618-2025-on-33-q13-p03.png"
+      ],
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p15.png",
+          "/9618/answer-assets/9618_w25_ms_33-p16.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.6282
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.4347
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          15,
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "13 One mark per mark point (Max 7) 7\nMP1 LDM #250 seen\nMP2 Correct use of LDD 563\nMP3 Correct use of ADD with labelled address X\nMP4 Correct use of SUB with address 899\nMP5 At least one correct use of STO\nOpcode Operand\nLDM #250\nSTO X\nLDD 563\nSTO Y\nADD X\nSUB 899\nSTO Total\n© Cambridge University Press & Assessment 2025 Page 15 of 16\n\n13 MP6 Correct setting up of at least one labelled address and its value\nMP7 Correct setting up of remaining two labelled addresses and their\nvalues\nLabel Contents\nX: 250\nY: 125\nTotal: 312\n© Cambridge University Press & Assessment 2025 Page 16 of 16"
+      }
+    }
+  ]
+}

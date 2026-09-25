@@ -1,0 +1,103 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-mj-42-q01-p01.png",
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-mj-42-q01-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define the radian.",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The rear wheel and the pedals of a bicycle are connected by a chain that passes around two cogs (toothed wheels), as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe small cog has a radius of 0.038 m and is fixed to the rear wheel so that it rotates with it. The large cog has a radius of 0.15 m and is fixed to the pedals so that it rotates with them. The rear wheel has a radius of 0.46 m.\n\nThe bicycle is being pedaled so that it moves in a straight line at a constant speed of 17 m s⁻¹.",
+      "text": "Calculate the angular speed of the rear wheel.",
+      "marks": 2,
+      "kind": "numeric",
+      "answer": {
+        "symbol": "angular speed",
+        "unit": "rad s⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Calculate the period of rotation of the small cog.",
+      "marks": 2,
+      "kind": "numeric",
+      "answer": {
+        "symbol": "period",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Show that the distance moved by point X on the chain during one full rotation of the small cog is 0.24 m.",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Use the information in (b)(iii) to determine the angle through which the large cog rotates during one full rotation of the small cog.",
+      "marks": 2,
+      "kind": "numeric",
+      "answer": {
+        "symbol": "angle",
+        "unit": "rad"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The chain of the bicycle in (b) is moved onto a smaller cog fixed to the rear wheel. The speed of the bicycle does not change.\n\nExplain, without calculation, the effect of this change on the angular speed of the pedals.",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1 (not to scale)",
+      "alt": "A bicycle chain passes around small and large cogs, with the rear wheel, pedals, and point X labelled.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-mj-42-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0223,
+        0.1635,
+        0.9777,
+        0.5296
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

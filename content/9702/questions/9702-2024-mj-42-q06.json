@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-42-q06-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-42-q06-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Two capacitors *X* and *Y* are connected in series to a power supply of voltage *V*, as shown in Fig. 6.1.\n\n[[fig:f1]]\n\nThe capacitance of *X* is *C*ₓ and the capacitance of *Y* is *C*ᵧ.\n\nDerive an expression, in terms of *C*ₓ and *C*ᵧ, for the combined capacitance *C*ₜ of the capacitors in this circuit. Explain your reasoning.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Two capacitors *P* and *Q* are connected in parallel to a power supply of voltage *V*. The capacitance of *P* is 200 μF. The capacitance *C*Q of *Q* can be varied between 0 and 400 μF. When *C*Q = 0, the total energy stored in the capacitors is 2.5 mJ.",
+      "text": "Show that the supply voltage *V* is 5.0 V.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Calculate the total energy, in mJ, stored in the capacitors when *C*Q has its maximum value.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "total energy",
+        "unit": "mJ"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 6.2, sketch the variation of the total energy *E* stored in the capacitors with *C*Q as *C*Q varies from 0 to 400 μF.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "Circuit diagram of two capacitors X and Y connected in series with a power supply.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-42-q06-p01.png",
+      "source_size": [
+        852,
+        1232
+      ],
+      "box": [
+        0.2594,
+        0.0601,
+        0.7418,
+        0.2216
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "Blank graph grid with total energy E in mJ on the vertical axis and capacitance C_Q in μF on the horizontal axis.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-42-q06-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.142,
+        0.2608,
+        0.993,
+        0.6745
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

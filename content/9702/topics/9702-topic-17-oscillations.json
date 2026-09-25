@@ -1,0 +1,2816 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 17,
+    "label": "Oscillations",
+    "slug": "9702-topic-17-oscillations"
+  },
+  "questions": [
+    {
+      "id": "9702-2021-m-42-q04",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-m-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-m-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p11.png",
+          "/9702/answer-assets/9702_m21_ms_42-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5052
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5052,
+                  0.5463
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6156,
+                  0.6567
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6567,
+                  0.8445
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.3118
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3118,
+                  0.5359
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5359,
+                  0.618
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6873,
+                  0.7695
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7695,
+                  0.8993
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a) acceleration and displacement are in opposite directions B1\n\n4(b)(i) F =kx M1\n( ) ( )\n=8.0× 0.060−0.048 or 8.0× 0.060+0.048\nor 8.0×0.012 or 8.0×0.108\n( ) ( )\nΣF = 8.0×0.012 − 8.0×0.108 =0.77 N A1\nor\nΣF =0.864−0.096=0.77 N\n© UCLES 2021 Page 11 of 19\n\n4(b)(ii) F A1\na=\nm\n0.77\n=\n0.25\n=3.1 m s −2\n\n4(b)(iii) a = – ω2x C1\n3.1\nω =\n0.048\nω=8.04\nT = 2 π / ω C1\nT = 2π / 8.04 A1\n= 0.78 s\n\n4(b)(iv) (resultant) force halved and distance halved B1\nsame T B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q03",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-41-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-41-q03-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-41-q03-p03.png"
+      ],
+      "source_pages": [
+        8,
+        9,
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1426,
+                  0.2248
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2248,
+                  0.3505
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3505,
+                  0.3916
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3916,
+                  0.5157
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5761,
+                  0.8235
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "3(a) acceleration (directly) proportional to displacement B1\nacceleration is in opposite direction to displacement B1\n\n3(b) ω2 = 2k / m and ω = 2πf C1\n(2πf)2 = (2 × 130) / 0.84 C1\nf = 2.8 Hz A1\n\n3(c)(i) resonance B1\n\n3(c)(ii) oscillator supplies energy (continuously) B1\nenergy of trolley constant so energy must be dissipated B1\nor\nwithout loss of energy the amplitude would continuously increase\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-mj-42-q03",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-42-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-42-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_42-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1426,
+                  0.2659
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2659,
+                  0.4795
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4795,
+                  0.689
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a) acceleration in opposite direction to displacement shown by – sign B1\ng / L is constant M1\n(so) acceleration is (directly) proportional to displacement A1\n\n3(b) ω2 = g / L C1\nω = 2π / T C1\nor\nω = 2πf and f = 1 / T\n(2π / T)2 = 9.81 / 0.18 A1\nT = 0.85 s\n\n3(c) energy ∝ x 2 C1\n0\n(after 3 cycles,) amplitude = (0.94)3x C1\n0\n= 0.83x\n0\nratio final energy / initial energy = 0.832 A1\n= 0.69\n© UCLES 2021 Page 10 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q03",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-43-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-43-q03-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-mj-43-q03-p03.png"
+      ],
+      "source_pages": [
+        8,
+        9,
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2021-mj-41-q03",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1426,
+                  0.2248
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2248,
+                  0.3505
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3505,
+                  0.3916
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3916,
+                  0.5157
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5761,
+                  0.8235
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "3(a) acceleration (directly) proportional to displacement B1\nacceleration is in opposite direction to displacement B1\n\n3(b) ω2 = 2k / m and ω = 2πf C1\n(2πf)2 = (2 × 130) / 0.84 C1\nf = 2.8 Hz A1\n\n3(c)(i) resonance B1\n\n3(c)(ii) oscillator supplies energy (continuously) B1\nenergy of trolley constant so energy must be dissipated B1\nor\nwithout loss of energy the amplitude would continuously increase\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-on-41-q04",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p03.png"
+      ],
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_41-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1652
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1652,
+                  0.3368
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3368,
+                  0.4641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4641,
+                  0.6624
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6624,
+                  0.7857
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_41.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) 5.0 cm A1\n\n4(a)(ii) ω = 2π / T C1\nor\nω = 2πf and f = 1 / T\nω = 2π / 4.0 A1\n= 1.6 rad s–1\n\n4(a)(iii) v = ωx C1\n0 0\n= 1.57 × 5.0 A1\n= 7.9 cm s–1\n\n4(b) • initial pull was to the right B3\n• distance from X to trolley (at equilibrium) is 20 cm\n• period is 4.0 s\n• initial motion undamped\n• motion becomes damped at/from 12 s\n• damping is light\n• maximum speed at 1s, 3s, etc. / stationary at 2s, 4s, etc.\nAny three points, 1 mark each\n\n4(c) sketch: closed loop encircling (20, 0) B1\nminimum L shown as 15 cm and maximum L shown as 25 cm B1\nminimum v shown as –7.9 cm s–1 and maximum v shown as +7.9 cm s–1 B1\n© UCLES 2021 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2021-on-42-q04",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_42-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2055
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2055,
+                  0.4182
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4182,
+                  0.4585
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4585,
+                  0.4996
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a) straight line through the origin B1\nnegative gradient B1\n\n4(b) a = (–)ω2x and T = 2π / ω C1\ne.g. ω = √(0.80 / 0.12) (any correct pair of values of a and x) C1\n( = 2.58 rad s–1)\nT = 2π / 2.58 A1\n= 2.4 s\n\n4(c)(i) Point labelled P at one end of the line B1\n\n4(c)(ii) Point labelled Q at displacement with magnitude more than half but less than maximum B1\n© UCLES 2021 Page 10 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-on-43-q04",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-43-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-43-q04-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2021-on-43-q04-p03.png"
+      ],
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2021-on-41-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_43-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1652
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1652,
+                  0.3368
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3368,
+                  0.4641
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4641,
+                  0.6624
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6624,
+                  0.7857
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_43.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) 5.0 cm A1\n\n4(a)(ii) ω = 2π / T C1\nor\nω = 2πf and f = 1 / T\nω = 2π / 4.0 A1\n= 1.6 rad s–1\n\n4(a)(iii) v = ωx C1\n0 0\n= 1.57 × 5.0 A1\n= 7.9 cm s–1\n\n4(b) • initial pull was to the right B3\n• distance from X to trolley (at equilibrium) is 20 cm\n• period is 4.0 s\n• initial motion undamped\n• motion becomes damped at/from 12 s\n• damping is light\n• maximum speed at 1s, 3s, etc. / stationary at 2s, 4s, etc.\nAny three points, 1 mark each\n\n4(c) sketch: closed loop encircling (20, 0) B1\nminimum L shown as 15 cm and maximum L shown as 25 cm B1\nminimum v shown as –7.9 cm s–1 and maximum v shown as +7.9 cm s–1 B1\n© UCLES 2021 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-m-42-q03",
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p03.png"
+      ],
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m22_ms_42-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1413,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2764,
+                  0.3167
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3167,
+                  0.3578
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3578,
+                  0.4416
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4416,
+                  0.5834
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5834,
+                  0.6245
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6245,
+                  0.8856
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a) upthrust, weight B1\n\n3(b) upthrust greater than weight so (resultant force is) upwards B1\n\n3(c)(i) A, g and ρ all constant so F ∝ x B1\nminus sign means F and x are in opposite directions B1\n\n3(c)(ii) F Agρx M1\n(a = so) a = (−)\nm m\nAgρ Agρ A1\nso ω2 = hence ω =\nm m\n\n3(d)(i) damping due to viscous forces B1\n\n3(d)(ii) ( E = )1 mω2x 2 C1\n2 0\nω2 = (–) gradient C1\n( E = )1 mω2(x 2 − x 2) A1\n2 1 2\n= 1 ×0.57 ×(2.3 )(0.0202 −0.0162)\n2 0.020\n= 4.7 ×10 −3 J\n© UCLES 2022 Page 8 of 17"
+      }
+    },
+    {
+      "id": "9702-2022-mj-41-q04",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-41-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-41-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_41-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1413,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.4214
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4214,
+                  0.5488
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5488,
+                  0.6761
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_41.pdf?download=true",
+        "mark_scheme_text": "4(a) straight line through origin shows that a is proportional to x B1\nnegative gradient shows that a is in opposite direction to x B1\n\n4(b)(i) a =  2x C1\n0 0\nor\na = – 2x\nor\n2 = – gradient\n = (0.40 / 0.050) A1\n= 2.8 rad s–1\n\n4(b)(ii) k =  2L C1\n= 2.82  1.24\n= 9.7 m s–2 A1\n\n4(c) (increasing L causes)  to decrease M1\nor\nenergy (= ½ m2x 2) = ½ mkx 2 / L (and L increases)\n0 0\nso amplitude increases A1\n© UCLES 2022 Page 10 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-42-q04",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_42-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3336
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3336,
+                  0.4158
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4158,
+                  0.5431
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a) oscillations (of object) at maximum amplitude B1\nwhen driving frequency equals natural frequency (of object) B1\n\n4(b)(i) T = 2 /  C1\n= 2 / 5.0 A1\n= 0.40 s\n\n4(b)(ii) displacement scale labelled –1.0, –0.5, (0), 0.5, 1.0 on the 2 cm tick marks B1\nt scale labelled 0.2, 0.4, 0.6, 0.8, 1.0, 1.2 on the 2 cm tick marks B1\n\n4(b)(iii) ϕ = 2t / T C1\n= 2  0.10 / 0.40 or 2  0.30 / 0.40\n= 1.6 rad or 4.7 rad A1\n© UCLES 2022 Page 10 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-43-q04",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-43-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-43-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2022-mj-41-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_43-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1413,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.4214
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4214,
+                  0.5488
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5488,
+                  0.6761
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_43.pdf?download=true",
+        "mark_scheme_text": "4(a) straight line through origin shows that a is proportional to x B1\nnegative gradient shows that a is in opposite direction to x B1\n\n4(b)(i) a =  2x C1\n0 0\nor\na = – 2x\nor\n2 = – gradient\n = (0.40 / 0.050) A1\n= 2.8 rad s–1\n\n4(b)(ii) k =  2L C1\n= 2.82  1.24\n= 9.7 m s–2 A1\n\n4(c) (increasing L causes)  to decrease M1\nor\nenergy (= ½ m2x 2) = ½ mkx 2 / L (and L increases)\n0 0\nso amplitude increases A1\n© UCLES 2022 Page 10 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-41-q03",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 3,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p03.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p04.png"
+      ],
+      "source_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_41-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0724,
+              0.1437,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2095
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2095,
+                  0.2506
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2506,
+                  0.3779
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3779,
+                  0.672
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.672,
+                  0.7542
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7542,
+                  0.8364
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_41.pdf?download=true",
+        "mark_scheme_text": "3(a) a = –  2x M1\na = acceleration, x = displacement from equilibrium position and  = angular frequency A1\n\n3(b)(i) x = 0.12 m A1\n0\n\n3(b)(ii) v = (x 2 – x2) C1\n0\ntwo (x, v) pairs correctly read from Fig. 3.2 (one may be (x , 0) or value of x from (i))\n0 0\ne.g. 0.20 = (0.122 – 0) leading to  = 1.7 rad s–1 A1\n\n3(b)(iii) E = ½M 2x 2 C1\n0\n0.050 = ½  M  1.672  0.122 A1\nM = 2.5 kg\nor\n(E ) = ½Mv 2 (C1)\nK max 0\n0.050 = ½ M  0.202 (A1)\nM = 2.5 kg\n\n3(c)(i) loss of (total) energy (of system) B1\ndue to resistive forces B1\n\n3(c)(ii) closed loop surrounding the origin with maximum x at ± 0.060 m passing through v = 0 B1\nmaximum velocity shown as ± 0.10 m s–1 passing through x = 0 B1\n© UCLES 2022 Page 8 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q04",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1644
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1644,
+                  0.2498
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2498,
+                  0.3755
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3755,
+                  0.5399
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) x = 8.0 cm A1\n0\n\n4(a)(ii)  = 2 / T C1\n= 2 / 4.0 = 1.6 rad s–1 A1\n\n4(a)(iii) E = ½m 2x 2 C1\n0\n= ½  36  1.62  0.0802 C1\n= 0.29 J A1\n\n4(b) dome-shaped curve, starting and ending at E = 0 B1\nK\nmaximum E shown as 0.29 J B1\nK\nposition of peak shown at h = 10.0 cm B1\nline intercepts h-axis at h = 2.0 cm and at h = 18.0 cm B1\n© UCLES 2022 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-43-q03",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 3,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-43-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-43-q03-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-43-q03-p03.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2022-on-43-q03-p04.png"
+      ],
+      "source_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2022-on-41-q03",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_43-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0724,
+              0.1437,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2095
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2095,
+                  0.2506
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2506,
+                  0.3779
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3779,
+                  0.672
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.672,
+                  0.7542
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7542,
+                  0.8364
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_43.pdf?download=true",
+        "mark_scheme_text": "3(a) a = –  2x M1\na = acceleration, x = displacement from equilibrium position and  = angular frequency A1\n\n3(b)(i) x = 0.12 m A1\n0\n\n3(b)(ii) v = (x 2 – x2) C1\n0\ntwo (x, v) pairs correctly read from Fig. 3.2 (one may be (x , 0) or value of x from (i))\n0 0\ne.g. 0.20 = (0.122 – 0) leading to  = 1.7 rad s–1 A1\n\n3(b)(iii) E = ½M 2x 2 C1\n0\n0.050 = ½  M  1.672  0.122 A1\nM = 2.5 kg\nor\n(E ) = ½Mv 2 (C1)\nK max 0\n0.050 = ½ M  0.202 (A1)\nM = 2.5 kg\n\n3(c)(i) loss of (total) energy (of system) B1\ndue to resistive forces B1\n\n3(c)(ii) closed loop surrounding the origin with maximum x at ± 0.060 m passing through v = 0 B1\nmaximum velocity shown as ± 0.10 m s–1 passing through x = 0 B1\n© UCLES 2022 Page 8 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-m-42-q03",
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p03.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p04.png"
+      ],
+      "source_pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m23_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0707,
+              0.1465,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2079
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2079,
+                  0.4827
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4827,
+                  0.5238
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5238,
+                  0.6503
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6503,
+                  0.7333
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a) P: total energy B2\nQ: potential energy\nR: kinetic energy\n\n3(b) E = ½m2x 2 or E = ½mv 2 and v = x C1\n0 0 0 0\n6.410−3 = 1 0.13020.0152 C1\n2\n(2 = 438)\n( = 20.9)\nT = 2 /  C1\n= 2 / 20.9 A1\n= 0.30 s\n\n3(c)(i) resistive forces B1\n\n3(c)(ii) 0.926 C1\ndecrease in energy = 6.4 – (6.4  0.926) A1\n= 2.5 mJ\n\n3(c)(iii) light damping because the amplitude of oscillations gradually reduces B1\nor\nlight damping because the system still oscillates\n© UCLES 2023 Page 9 of 18"
+      }
+    },
+    {
+      "id": "9702-2023-mj-42-q04",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-mj-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-mj-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2514
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2514,
+                  0.2925
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2925,
+                  0.4198
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4198,
+                  0.5447
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5447,
+                  0.7526
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a)(i)  = 2f C1\nf = 9.7 / 2 A1\n= 1.5 Hz\n\n4(a)(ii) amplitude = √(11.6) = 3.4 cm A1\n\n4(a)(iii) a = 2x C1\n0 0\n= 9.72  3.4  10–2 A1\n= 3.2 m s–2\n\n4(b) sketch: straight line through the origin with negative gradient B1\nline with negative gradient passing through (+3.4, –a ) and (–3.4, +a ) B1\n0 0\nline with ends at x =  3.4 cm and a =  a B1\n0\n\n4(c) sum of potential energy and kinetic energy is constant B1\nat maximum displacement, kinetic energy is zero B1\nor\nat maximum displacement, potential energy is maximum\nat zero displacement, kinetic energy is maximum B1\nor\nat zero displacement, potential energy is minimum\n© UCLES 2023 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-41-q04",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-on-41-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-on-41-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_41-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2699
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2699,
+                  0.3973
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3973,
+                  0.5262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5262,
+                  0.672
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
+        "mark_scheme_text": "4(a) (motion in which) acceleration is (directly) proportional to displacement B1\n(motion in which): B1\nacceleration is (always) in the opposite direction to displacement\nor\nacceleration is (always) directed towards a fixed point\n\n4(b)(i)  = 2 / T C1\n = 2 / 3.0 A1\n= 2.1 rad s–1\n\n4(b)(ii) E = ½m2x 2 C1\n0\n= ½  0.81  2.12  0.0362 A1\n= 2.3  10–3 J\n\n4(c) sketch: line starting at (0, 0.036) and not reaching x =  0.036 m at any other time B1\nsmooth curve, with no sudden changes in gradient, showing continuously decreasing magnitude of x from B1\nmaximum displacement at t = 0 to final displacement of zero where the gradient is also zero\ndisplacement reaches final value of zero between t = 0.75 s and t = 3.0 s at the latest B1\n© UCLES 2023 Page 10 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-42-q04",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-on-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-on-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2103
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2103,
+                  0.2973
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2973,
+                  0.382
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.382,
+                  0.5093
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5093,
+                  0.5939
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5939,
+                  0.7228
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7228,
+                  0.8501
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) amplitude = ½  7.2  10–15 A1\n= 3.6  10–15 m\n\n4(a)(ii)  = 2 / (0.20  10–6) A1\n= 3.1  107 rad s–1\n\n4(a)(iii) v = x C1\n0 0\nv = 3.1  107  3.6  10–15 = 1.1  10–7 m s–1 A1\n0\n\n4(b)(i) I = nAv e C1\n0 0\n= 8.5  1028  4.3  10–4  1.1  10–7  1.60  10–19\n= 0.64 A A1\n\n4(b)(ii) sketch: two cycles of sinusoidal curve of amplitude I and period 0.20 s B1\n0\ncorrect phase, with I = +I at t = 0 B1\n0\n\n4(b)(iii) equation of form I = I cos t M1\n0\nvalue of I used matches answer to (b)(i) and value of  used matches answer to (a)(ii) A1\n0\n[if (a)(ii) and (b)(i) correct then I = 0.64 cos (3.1  107 t)]\n\n4(b)(iv) I = I / √2 A1\nr.m.s. 0\n= 0.64 / √2\n= 0.45 A\n© UCLES 2023 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-43-q04",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-on-43-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2023-on-43-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2023-on-41-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_43-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2699
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2699,
+                  0.3973
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3973,
+                  0.5262
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5262,
+                  0.672
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
+        "mark_scheme_text": "4(a) (motion in which) acceleration is (directly) proportional to displacement B1\n(motion in which): B1\nacceleration is (always) in the opposite direction to displacement\nor\nacceleration is (always) directed towards a fixed point\n\n4(b)(i)  = 2 / T C1\n = 2 / 3.0 A1\n= 2.1 rad s–1\n\n4(b)(ii) E = ½m2x 2 C1\n0\n= ½  0.81  2.12  0.0362 A1\n= 2.3  10–3 J\n\n4(c) sketch: line starting at (0, 0.036) and not reaching x =  0.036 m at any other time B1\nsmooth curve, with no sudden changes in gradient, showing continuously decreasing magnitude of x from B1\nmaximum displacement at t = 0 to final displacement of zero where the gradient is also zero\ndisplacement reaches final value of zero between t = 0.75 s and t = 3.0 s at the latest B1\n© UCLES 2023 Page 10 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-m-42-q03",
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-m-42-q03-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-m-42-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m24_ms_42-p07.png",
+          "/9702/answer-assets/9702_m24_ms_42-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2073
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2073,
+                  0.3137
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3137,
+                  0.4387
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4387,
+                  0.5452
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5452,
+                  0.6685
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7387,
+                  0.8653
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.25
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.25,
+                  0.4185
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4887,
+                  0.5952
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5952,
+                  0.7008
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7008,
+                  0.7419
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7419,
+                  0.8895
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a) E = ½ m2x 2 C1\no\n2.2  10–4 = ½  24  10–3  (14  10–3 / 4)2  2 C1\n = 39 rads–1 A1\n© Cambridge University Press & Assessment 2024 Page 7 of 14\n\n3(b)(i) use of acceleration = 9.81 m s–2 C1\nx = 9.81 / 392\no\n= 6.4  10–3 m A1\n\n3(b)(ii) at top of oscillation B1\nany one point from: B1\nwhere the downward acceleration first exceeds free-fall acceleration\nwhere the greatest downwards acceleration occurs\nwhere the resultant force is the maximum downwards\nwhere the contact force is a minimum\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2024-mj-41-q04",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-41-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-41-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_41-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.2474
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2474,
+                  0.3296
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3296,
+                  0.4134
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4134,
+                  0.4956
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_41.pdf?download=true",
+        "mark_scheme_text": "4(a) oscillation (of object) at maximum amplitude B1\nwhen driving frequency = natural frequency (of system) B1\n\n4(b)(i) light damping B1\n\n4(b)(ii) oscillations (of ball) lose energy B1\n(due to) resistive forces (acting on ball) B1\n\n4(b)(iii) frequency = 1 / 0.25 A1\n= 4.0 Hz\n\n4(c) curve showing a maximum amplitude at a single non-zero frequency B1\nsingle maximum amplitude shown at 4.0 Hz B1\n© Cambridge University Press & Assessment 2024 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-mj-42-q04",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.2925
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2925,
+                  0.4198
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4198,
+                  0.5471
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5471,
+                  0.6745
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a) straight line through the origin shows that a is proportional to x B1\nnegative gradient shows that a and x are (always) in opposite directions B1\n\n4(b)(i) a = –2x A1\n = √(2A / 3Y)\n\n4(b)(ii) v = x C1\n0 0\n= 3Y  √(2A / 3Y) A1\n= √(6AY)\n\n4(b)(iii) E = ½ m2x 2 C1\n0\n= ½ m  (2A / 3Y)  (3Y)2 A1\n= 3mAY\n\n4(c)  = 2 / T C1\n( = 2 / 0.75)\nx = 1.8 sin (8.4 t) A1\n© Cambridge University Press & Assessment 2024 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-mj-43-q04",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-43-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-43-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2024-mj-41-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_43-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.2474
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2474,
+                  0.3296
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3296,
+                  0.4134
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4134,
+                  0.4956
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_43.pdf?download=true",
+        "mark_scheme_text": "4(a) oscillation (of object) at maximum amplitude B1\nwhen driving frequency = natural frequency (of system) B1\n\n4(b)(i) light damping B1\n\n4(b)(ii) oscillations (of ball) lose energy B1\n(due to) resistive forces (acting on ball) B1\n\n4(b)(iii) frequency = 1 / 0.25 A1\n= 4.0 Hz\n\n4(c) curve showing a maximum amplitude at a single non-zero frequency B1\nsingle maximum amplitude shown at 4.0 Hz B1\n© Cambridge University Press & Assessment 2024 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-41-q04",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-on-41-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-on-41-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_41-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2699
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2699,
+                  0.3537
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3537,
+                  0.4367
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4367,
+                  0.5649
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5649,
+                  0.7284
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_41.pdf?download=true",
+        "mark_scheme_text": "4(a) (motion in which) acceleration is (directly) proportional to displacement B1\n(motion in which): B1\nacceleration is (always) in the opposite direction to displacement\nor\nacceleration is (always) directed towards a fixed point\n\n4(b)(i) amplitude = (9.5 – 3.5) / 2 A1\n= 3.0 cm\n\n4(b)(ii)  = v / x C1\n0 0\n= 9.5 / 3.0 = 3.2 rad s–1 A1\n\n4(b)(iii) T = 2 /  C1\n= 2 / 3.2 A1\n= 2.0 s\n\n4(b)(iv) attempted sinusoidal curve starting with a minimum at t = 0 B1\nsinusoidal curve of period 2.0 s from t = 0 to t = 6.0 s B1\nall peaks shown at h = 9.5 cm B1\nall troughs shown at h = 3.5 cm B1\n© Cambridge University Press & Assessment 2024 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-42-q05",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-on-42-q05-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-on-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1652
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1652,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3336
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3336,
+                  0.4625
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4625,
+                  0.5874
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) arrow from sphere, perpendicular to string, pointing left and down B1\n\n5(b)(i) amplitude = 0.016 m A1\n\n5(b)(ii) angular frequency = 2 / T C1\n= 2 / 0.40 A1\n= 16 rad s–1\n\n5(b)(iii) total energy = ½m2x 2 C1\n0\n= ½  0.15  15.72  0.0162 A1\n= 4.7  10–3 J\n\n5(c) dome-shaped curve starting and ending on the x-axis, with peak at x = 0 B1\nmaximum E shown as 4.7  10–3 J B1\nK\nminimum x shown as –0.016 m and maximum x shown as +0.016 m at the ends of the line B1\n© Cambridge University Press & Assessment 2024 Page 9 of 14"
+      }
+    },
+    {
+      "id": "9702-2024-on-43-q04",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-on-43-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2024-on-43-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2024-on-41-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_43-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2699
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2699,
+                  0.3537
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3537,
+                  0.4367
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4367,
+                  0.5649
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5649,
+                  0.7284
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_43.pdf?download=true",
+        "mark_scheme_text": "4(a) (motion in which) acceleration is (directly) proportional to displacement B1\n(motion in which): B1\nacceleration is (always) in the opposite direction to displacement\nor\nacceleration is (always) directed towards a fixed point\n\n4(b)(i) amplitude = (9.5 – 3.5) / 2 A1\n= 3.0 cm\n\n4(b)(ii)  = v / x C1\n0 0\n= 9.5 / 3.0 = 3.2 rad s–1 A1\n\n4(b)(iii) T = 2 /  C1\n= 2 / 3.2 A1\n= 2.0 s\n\n4(b)(iv) attempted sinusoidal curve starting with a minimum at t = 0 B1\nsinusoidal curve of period 2.0 s from t = 0 to t = 6.0 s B1\nall peaks shown at h = 9.5 cm B1\nall troughs shown at h = 3.5 cm B1\n© Cambridge University Press & Assessment 2024 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2025-m-42-q04",
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-m-42-q04-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-m-42-q04-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m25_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2097
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2097,
+                  0.3177
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3177,
+                  0.4444
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4444,
+                  0.5266
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5266,
+                  0.7589
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a)  = 2 / T C1\n= 2 / (0.15  10–6) = 4.2  107 rads–1 A1\n\n4(b) a = 2x C1\n0 0\n= (4.2  107)2  40  10–6 A1\n= 7.1  1010ms–2\n\n4(c) E = ½m2x 2 C1\no\n= ½  2.4  10–4  (4.2  107)2  (40  10–6)2 C1\n= 340J A1\n\n4(d)(i) apply alternating p.d. (to / across crystal) B1\napplying p.d. to / across crystal causes it to distort B1\n\n4(d)(ii) Z = c C1\nZ = 1100  1600 (= 1.76  106)\nm\nZ = 1900  4100 (= 7.79  106)\nb\nintensity reflection co-efficient= [(7.79 – 1.76) / (7.79 + 1.76)]2 C1\n= 0.40 or 40%\npercentage transmitted = 60% A1\n© Cambridge University Press & Assessment 2025 Page 9 of 14"
+      }
+    },
+    {
+      "id": "9702-2025-mj-41-q05",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_41-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.1732
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1732,
+                  0.2176
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2176,
+                  0.4601
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4601,
+                  0.5947
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_41.pdf?download=true",
+        "mark_scheme_text": "5(a)(i) amplitude = 0.60 m A1\n\n5(a)(ii) oscillations are simple harmonic B1\n\n5(b) Any three points from: B3\n• mean / equilibrium position is at h = 1.4 m\n• total energy of oscillations = 9.0 J\n• angular frequency of oscillations = 1.2 rad s–1\nor\nperiod of oscillations = 5.1 s\nor\nfrequency of oscillation = 0.19 Hz\n• maximum speed of block = 0.73 m s–1\n• mass of block = 33 kg\n\n5(c) U-shaped curve resting on h axis (with minimum at E = 0) B1\nP\ncurve from h = 0.8 m to h = 2.0 m, with minimum E shown at h = 1.4 m B1\nP\nboth end-points of curve shown at E = 9.0 J B1\nP\n© Cambridge University Press & Assessment 2025 Page 13 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-mj-42-q05",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-42-q05-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_42-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.2933
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2933,
+                  0.3892
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3892,
+                  0.5512
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5512,
+                  0.5955
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5955,
+                  0.7301
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) (motion in which) acceleration is (directly) proportional to displacement B1\n(motion in which) B1\nacceleration is (always) in the opposite direction to displacement\nor\nacceleration is (always) directed towards a fixed point\n\n5(b)(i) period = 2 / 16 A1\n= 0.39 s\n\n5(b)(ii) v = x or v =  ( x 2 −02) C1\n0 0 0 0\nx = 0.56 / 16 A1\n0\n= 0.035 m\n\n5(b)(iii) v = ±16 √(0.0352 – x2) A1\n\n5(b)(iv) closed loop surrounding the origin B1\nloop crosses v = 0 at maximum values of x at x = ± 3.5 cm B1\nloop crosses x = 0 at maximum values of v at v = ± 0.56 m s–1 B1\n© Cambridge University Press & Assessment 2025 Page 13 of 18"
+      }
+    },
+    {
+      "id": "9702-2025-mj-43-q05",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-43-q05-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-43-q05-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_43-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.1732
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1732,
+                  0.2176
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2176,
+                  0.4601
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4601,
+                  0.5947
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_43.pdf?download=true",
+        "mark_scheme_text": "5(a)(i) amplitude = 0.60 m A1\n\n5(a)(ii) oscillations are simple harmonic B1\n\n5(b) Any three points from: B3\n• mean / equilibrium position is at h = 1.4 m\n• total energy of oscillations = 9.0 J\n• angular frequency of oscillations = 1.2 rad s–1\nor\nperiod of oscillations = 5.1 s\nor\nfrequency of oscillation = 0.19 Hz\n• maximum speed of block = 0.73 m s–1\n• mass of block = 33 kg\n\n5(c) U-shaped curve resting on h axis (with minimum at E = 0) B1\nP\ncurve from h = 0.8 m to h = 2.0 m, with minimum E shown at h = 1.4 m B1\nP\nboth end-points of curve shown at E = 9.0 J B1\nP\n© Cambridge University Press & Assessment 2025 Page 13 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-on-41-q01",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 15,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-41-q01-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-41-q01-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-41-q01-p03.png"
+      ],
+      "source_pages": [
+        4,
+        5,
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_41-p08.png",
+          "/9702/answer-assets/9702_w25_ms_41-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.2177
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2177,
+                  0.2653
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2653,
+                  0.3581
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3581,
+                  0.4048
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4048,
+                  0.4508
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4508,
+                  0.4976
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4976,
+                  0.5435
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5435,
+                  0.6395
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6395,
+                  0.7823
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.2718
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2718,
+                  0.3161
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3839,
+                  0.4734
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4734,
+                  0.6081
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6081,
+                  0.7427
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a) velocity and acceleration both have constant magnitude B1\nvelocity is (always) perpendicular to acceleration B1\n\n1(b)(i) v = R A1\n\n1(b)(ii) a = R2 or a = v2 / R C1\na = v A1\n\n1(c)(i) x = R sin  A1\n\n1(c)(ii)  = t A1\n\n1(c)(iii) clear substitution of  = t into x = R sin  leading to x = R sin t A1\n\n1(c)(iv) equation is of the form x = x sin t (so simple harmonic motion) B1\n0\n\n1(d)(i) amplitude = 0.46 / 2 A1\n= 0.23 m\n\n1(d)(ii)  = 2 / T C1\nperiod = 2 / 1.9 A1\n= 3.3 s\n© Cambridge University Press & Assessment 2025 Page 8 of 17\n\n1(d)(iii) a = 2x C1\n0 0\n= 1.92  0.23 A1\n= 0.83 m s–2\n\n1(e) shadow on screen, labelled A, above left-hand edge of the circular path B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2025-on-42-q05",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-42-q05-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_42-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2073
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2073,
+                  0.421
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.421,
+                  0.5032
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5032,
+                  0.6484
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a)(i) straight line through the origin shows that a is proportional to x B1\nnegative gradient shows that a is always in the opposite direction to x B1\n\n5(a)(ii) a = 2x C1\n0 0\n = 2 / T C1\nT = 2 √(x / a ) A1\n0 0\n= 2 √ (1.2 / 13)\n= 1.9 s\n\n5(b)(i) loss of energy of oscillations B1\ndue to resistive force(s) B1\n\n5(b)(ii) line starting from x = 1.2 cm at t = 0 B1\nline starting from non-zero value of x from t = 0 to t = 2T that is entirely either above or below the t-axis B1\ncurve from t = 0 starting from non-zero x value, with both magnitude of x value and magnitude of gradient continuously B1\ndecreasing\n© Cambridge University Press & Assessment 2025 Page 12 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-43-q01",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 15,
+      "image_paths": [
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-43-q01-p01.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-43-q01-p02.png",
+        "/9702/9702-topic-17-oscillations/assets/9702-2025-on-43-q01-p03.png"
+      ],
+      "source_pages": [
+        4,
+        5,
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2025-on-41-q01",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_43-p08.png",
+          "/9702/answer-assets/9702_w25_ms_43-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.2177
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2177,
+                  0.2653
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2653,
+                  0.3581
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3581,
+                  0.4048
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4048,
+                  0.4508
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4508,
+                  0.4976
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4976,
+                  0.5435
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5435,
+                  0.6395
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6395,
+                  0.7823
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.2718
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2718,
+                  0.3161
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3839,
+                  0.4734
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4734,
+                  0.6081
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6081,
+                  0.7427
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a) velocity and acceleration both have constant magnitude B1\nvelocity is (always) perpendicular to acceleration B1\n\n1(b)(i) v = R A1\n\n1(b)(ii) a = R2 or a = v2 / R C1\na = v A1\n\n1(c)(i) x = R sin  A1\n\n1(c)(ii)  = t A1\n\n1(c)(iii) clear substitution of  = t into x = R sin  leading to x = R sin t A1\n\n1(c)(iv) equation is of the form x = x sin t (so simple harmonic motion) B1\n0\n\n1(d)(i) amplitude = 0.46 / 2 A1\n= 0.23 m\n\n1(d)(ii)  = 2 / T C1\nperiod = 2 / 1.9 A1\n= 3.3 s\n© Cambridge University Press & Assessment 2025 Page 8 of 17\n\n1(d)(iii) a = 2x C1\n0 0\n= 1.92  0.23 A1\n= 0.83 m s–2\n\n1(e) shadow on screen, labelled A, above left-hand edge of the circular path B1\nQuestion Answer Marks"
+      }
+    }
+  ]
+}

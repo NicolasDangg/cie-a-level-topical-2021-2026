@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 
-ROOT = Path("/Users/nicolasdangg/Documents/past paper/cie-a-level-topical-2021-2026")
+ROOT = Path(__file__).resolve().parent.parent
 
 EXPECTED_MOVES = {
     **{qid: 12 for qid in (

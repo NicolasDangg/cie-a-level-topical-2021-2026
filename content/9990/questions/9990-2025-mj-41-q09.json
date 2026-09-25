@@ -1,0 +1,82 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2025-mj-41-q09",
+  "subject": "9990",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2025-mj-41-q09-p01.png"
+  ],
+  "marks_total": 24,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Plan a study using a postal questionnaire to investigate attribution styles in adults with depression.\n\nYour plan must include details about:\n• type(s) of data\n• sampling technique.",
+      "marks": 10,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "For one piece of psychological knowledge on which your plan is based:",
+      "text": "Describe this psychological knowledge.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain how you used two features of this psychological knowledge to plan your study.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Explain one reason for your choice of type(s) of data.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Explain one weakness of the use of a postal questionnaire in your study.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Explain one reason for your choice of sampling technique.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

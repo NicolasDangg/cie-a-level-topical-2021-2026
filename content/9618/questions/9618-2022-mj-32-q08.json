@@ -1,0 +1,73 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2022-mj-32-q08",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-mj-32-q08-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-mj-32-q08-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": "A binary search or a linear search can be used to look for a specific value in an array.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Complete this pseudocode algorithm for a linear search.\n\n```text\nDECLARE MyList : ARRAY[0:9] OF INTEGER\nDECLARE MaxIndex : INTEGER\nDECLARE Index : INTEGER\nDECLARE Found : BOOLEAN\nDECLARE ValueToFind : [[blank]]\n\nINPUT ValueToFind\nFound ← FALSE\nIndex ← 0\nMaxIndex ← [[blank]]\n\nREPEAT\n    IF MyList[Index] = ValueToFind THEN\n        Found ← TRUE\n    ENDIF\n    Index ← [[blank]]\nUNTIL Found OR Index > MaxIndex\n\nIF Found THEN\n    OUTPUT \"Value found at position \", Index\nELSE\n    OUTPUT [[blank]]\nENDIF\n```",
+      "marks": 4,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "State the necessary condition for a binary search.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Describe how to perform a binary search.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Explain how the performance of a binary search varies according to the number of values in the array.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Compare the performance of the algorithms for a binary search and a linear search using Big O notation for order of time complexity.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

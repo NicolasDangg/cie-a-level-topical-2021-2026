@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-42-q06-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-42-q06-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Two flat metal plates are held a small distance apart by means of insulating pads, as shown in Fig. 6.1.\n\n[[fig:f1]]\n\nExplain how the plates could act as a capacitor.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The arrangement in Fig. 6.1 has capacitance *C*.\nThe arrangement is connected into the circuit of Fig. 6.2.\n\n[[fig:f2]]\n\nWhen the two-way switch is moved to position A, the capacitor is charged so that the potential difference across it is *V*. When the switch moves to position B, the capacitor fully discharges through the sensitive ammeter.\n\nThe switch moves repeatedly between A and B so that the capacitor charges and then discharges with frequency *f*.",
+      "text": "Show that the average current *I* in the ammeter is given by\n\n*I* = *CVf*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "For a potential difference *V* of 180 V and a frequency *f* of switching of 50 Hz, the average current *I* in the ammeter is 2.5 μA.\n\nCalculate the capacitance, in pF, of the parallel plates.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "capacitance",
+        "unit": "pF"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A second capacitor is connected into the circuit of Fig. 6.2.\nThe two capacitors are connected in parallel.\n\nState and explain the change, if any, in the average current in the ammeter.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "Two flat metal plates are separated by insulating pads, with the metal plates and insulating pads labelled.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1678,
+        0.0531,
+        0.8333,
+        0.194
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "A two-way switch connects a capacitor to a battery in position A and to a sensitive ammeter in position B.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2195,
+        0.4356,
+        0.7829,
+        0.624
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,2530 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 19,
+    "label": "Computational thinking and problem-solving",
+    "slug": "9618-topic-19-computational-thinking-and-problem-solving"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-mj-31-q08",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-31-q08-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-31-q08-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p08.png",
+          "/9618/answer-assets/9618_s21_ms_31-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4239,
+                  0.453
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.453,
+                  0.5709
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6137,
+                  0.7054
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.5504
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5949,
+                  0.7493
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7493,
+                  0.9043
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correct marking point (Max 2) 2\n• The initial order of the data\n• The number of data items to be sorted\n• The efficiency of the sorting algorithm\n© UCLES 2021 Page 8 of 10\n\n8(b) One mark for each marking point (max 6) 6\nMP1 Use of FOR loop to cycle through the whole year group\nMP2 Temporary storage of the score being ‘inserted’\nMP3 Temporary storage of the corresponding name elements\nMP4 Use of WHILE loop with correct exit clause\nMP5 Moving of all three elements of data to next array elements\nMP6 Correct updating of counter variable\nMP7 Final insertion of all three data elements\nExample algorithm\nYearSize ← 249\nFOR Student ← 2 to YearSize\nTemp1 ← Score[Student]\nTemp2 ← Name[Student,1]\nTemp3 ← Name[Student,2]\nCounter ← Student\nWHILE Counter > 1 AND Score[Counter - 1] < Temp1\nScore[Counter] ← Score[Counter - 1]\nName[Counter,1] ← Name[Counter - 1,1]\nName[Counter,2] ← Name[Counter - 1,2]\nCounter ← Counter – 1\nENDWHILE\nScore[Counter] ← Temp1\nName[Counter,1] ← Temp2\nName[Counter,2] ← Temp3\nNEXT Student\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q08",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-32-q08-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-32-q08-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-mj-31-q08",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p08.png",
+          "/9618/answer-assets/9618_s21_ms_32-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4239,
+                  0.453
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.453,
+                  0.5709
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6137,
+                  0.7054
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.5504
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5949,
+                  0.7493
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7493,
+                  0.9043
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correct marking point (Max 2) 2\n• The initial order of the data\n• The number of data items to be sorted\n• The efficiency of the sorting algorithm\n© UCLES 2021 Page 8 of 10\n\n8(b) One mark for each marking point (max 6) 6\nMP1 Use of FOR loop to cycle through the whole year group\nMP2 Temporary storage of the score being ‘inserted’\nMP3 Temporary storage of the corresponding name elements\nMP4 Use of WHILE loop with correct exit clause\nMP5 Moving of all three elements of data to next array elements\nMP6 Correct updating of counter variable\nMP7 Final insertion of all three data elements\nExample algorithm\nYearSize ← 249\nFOR Student ← 2 to YearSize\nTemp1 ← Score[Student]\nTemp2 ← Name[Student,1]\nTemp3 ← Name[Student,2]\nCounter ← Student\nWHILE Counter > 1 AND Score[Counter - 1] < Temp1\nScore[Counter] ← Score[Counter - 1]\nName[Counter,1] ← Name[Counter - 1,1]\nName[Counter,2] ← Name[Counter - 1,2]\nCounter ← Counter – 1\nENDWHILE\nScore[Counter] ← Temp1\nName[Counter,1] ← Temp2\nName[Counter,2] ← Temp3\nNEXT Student\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q08",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-33-q08-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-33-q08-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2021-mj-31-q08",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p08.png",
+          "/9618/answer-assets/9618_s21_ms_33-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4239
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4239,
+                  0.453
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.453,
+                  0.5709
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6137,
+                  0.7054
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0822,
+              0.1894,
+              0.9154
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.5504
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5949,
+                  0.7493
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7493,
+                  0.9043
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correct marking point (Max 2) 2\n• The initial order of the data\n• The number of data items to be sorted\n• The efficiency of the sorting algorithm\n© UCLES 2021 Page 8 of 10\n\n8(b) One mark for each marking point (max 6) 6\nMP1 Use of FOR loop to cycle through the whole year group\nMP2 Temporary storage of the score being ‘inserted’\nMP3 Temporary storage of the corresponding name elements\nMP4 Use of WHILE loop with correct exit clause\nMP5 Moving of all three elements of data to next array elements\nMP6 Correct updating of counter variable\nMP7 Final insertion of all three data elements\nExample algorithm\nYearSize ← 249\nFOR Student ← 2 to YearSize\nTemp1 ← Score[Student]\nTemp2 ← Name[Student,1]\nTemp3 ← Name[Student,2]\nCounter ← Student\nWHILE Counter > 1 AND Score[Counter - 1] < Temp1\nScore[Counter] ← Score[Counter - 1]\nName[Counter,1] ← Name[Counter - 1,1]\nName[Counter,2] ← Name[Counter - 1,2]\nCounter ← Counter – 1\nENDWHILE\nScore[Counter] ← Temp1\nName[Counter,1] ← Temp2\nName[Counter,2] ← Temp3\nNEXT Student\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q10",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 13,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p03.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p04.png"
+      ],
+      "source_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2256
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2256,
+                  0.3481
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3481,
+                  0.4393
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4393,
+                  0.7704
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark for each correct marking point (Max 3) 3\n• Must have a base case/stopping condition\n• Must have a general case\n• … which calls itself (recursively) // Defined in terms of itself\n• … which changes its state and moves towards the base case\nUnwinding can occur once the base case is reached.\n\n10(b) One mark for each correct marking point (Max 3) 3\n• A stack is a LIFO data structure\n• Each recursive call is pushed onto the stack\n• …. and is then popped as the function ends\n• Enables backtracking/unwinding\n… to maintain the required order.\n\n10(c) One mark for each marking point (Max 2) 2\n• Linked List\n• Queue\nBinary Tree\n\n10(d) One mark for each marking point (Max 5) 5\n• Checking if stack is full / empty using IF … THEN … (ELSE) … ENDIF\n• … correctly using StackFull() function\n• RETURN suitable message if stack is full\n• RETURN message if space available on stack\n• Incrementing TopOfStack pointer if space available\n• Assigning new data using correct NewInteger variable\n• … to correct the array element in ArrayStack[] array.\nExample algorithm\nFUNCTION AddInteger(NewInteger : INTEGER) RETURNS STRING\nIF StackFull() THEN\nRETURN \"The stack is full\"\nELSE\nTopOfStack ← TopOfStack + 1\nArrayStack[TopOfStack] ← NewInteger\nRETURN \"Item added\"\nENDIF\nENDFUNCTION\n© UCLES 2021 Page 10 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q10",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 13,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-32-q10-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-32-q10-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-32-q10-p03.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-32-q10-p04.png"
+      ],
+      "source_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-on-31-q10",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1837,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2256
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2256,
+                  0.3481
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3481,
+                  0.4393
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4393,
+                  0.7704
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark for each correct marking point (Max 3) 3\n• Must have a base case/stopping condition\n• Must have a general case\n• … which calls itself (recursively) // Defined in terms of itself\n• … which changes its state and moves towards the base case\nUnwinding can occur once the base case is reached.\n\n10(b) One mark for each correct marking point (Max 3) 3\n• A stack is a LIFO data structure\n• Each recursive call is pushed onto the stack\n• …. and is then popped as the function ends\n• Enables backtracking/unwinding\n… to maintain the required order.\n\n10(c) One mark for each marking point (Max 2) 2\n• Linked List\n• Queue\nBinary Tree\n\n10(d) One mark for each marking point (Max 5) 5\n• Checking if stack is full / empty using IF … THEN … (ELSE) … ENDIF\n• … correctly using StackFull() function\n• RETURN suitable message if stack is full\n• RETURN message if space available on stack\n• Incrementing TopOfStack pointer if space available\n• Assigning new data using correct NewInteger variable\n• … to correct the array element in ArrayStack[] array.\nExample algorithm\nFUNCTION AddInteger(NewInteger : INTEGER) RETURNS STRING\nIF StackFull() THEN\nRETURN \"The stack is full\"\nELSE\nTopOfStack ← TopOfStack + 1\nArrayStack[TopOfStack] ← NewInteger\nRETURN \"Item added\"\nENDIF\nENDFUNCTION\n© UCLES 2021 Page 10 of 10"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q08",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 13,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-mj-32-q08-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-mj-32-q08-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0695,
+              0.1459,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2716
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2716,
+                  0.3554
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3554,
+                  0.5238
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5834,
+                  0.6914
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6914,
+                  0.7325
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "8(a) INTEGER 4"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q12",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 12,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-31-q12-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-31-q12-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p14.png",
+          "/9618/answer-assets/9618_w22_ms_31-p15.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.8525
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8525,
+                  0.8936
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2538
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          14,
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark for each point (Max 6) 6\n• Initialisation of upper bound\n• Test if upper bound is less than lower bound\n• Re-setting of mid value if current value is lower than the target\n• Re-setting of mid value if current value is higher than the target\n• Finding the value\n• Correct termination of loop\nLower  0\nUpper  99\nMid  0\nExit  FALSE\nOUTPUT \"Enter the name to be found \"\nINPUT Target\nREPEAT\nIF Upper < Lower THEN\nOUTPUT Target, \" does not exist\"\nExit  TRUE\nENDIF\nMid  Lower + (Upper – Lower + 1) DIV 2\nIF Names[Mid] < Target THEN\nLower  Mid + 1\nENDIF\nIF Names[Mid] > Target THEN\nUpper  Mid - 1\nENDIF\nIF Names[Mid] = Target THEN\nOUTPUT Target, \" was found at location \", Mid\nExit  TRUE\nENDIF\nUNTIL Exit // UNTIL Exit = TRUE\n\n12(b)(i) O(n) 1\n© UCLES 2022 Page 14 of 15\n\n12(b)(ii) One mark for each point (Max 2) 2\n• O(log n) is a time complexity that uses logarithmic time.\n• The time taken goes up linearly as the number of items rises exponentially\n• O(log n) is the worst case scenario (time complexity for a binary search).\n© UCLES 2022 Page 15 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q11",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 11,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p03.png"
+      ],
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p15.png",
+          "/9618/answer-assets/9618_w22_ms_32-p16.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.7921
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1442,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5584
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5584,
+                  0.6882
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          15,
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark for each point 3\n• Correct HeadPointer\n• Any three correct NextPointer\n• All six NextPointer correct\nHeadPointer 5\nIndex Flower NextPointer\n1 Rose 0\n2 Marigold\n3 Foxglove 4\n4 Iris 9\n5 Daisy 3\n6 Dahlia\n7 Saxifrage\n8 Lupin 1\n9 Lily 8\n10 Hydrangea\n© UCLES 2022 Page 15 of 16\n\n11(b) One mark for each correct line 5\nPointer  HeadPointer\nFound  0\nOUTPUT \"Enter a flower name \"\nINPUT FlowerName\nWHILE Pointer <> 0\nIF Flower[Pointer] = FlowerName THEN\nFound  Pointer\nPointer  0\nELSE\nPointer  NextPointer[Pointer]\nENDIF\nENDWHILE\nIF Pointer = 0 THEN // IF Found <> 0 THEN\nOUTPUT Flower[Found], \" is found\"\nELSE\nOUTPUT \"The flower you wanted is not in the list\"\nENDIF\n\n11(c) One mark for each point (Max 2) 2\n• Include a free list pointer\n• …to reuse the unused space\n• …as a linked list of free space.\n© UCLES 2022 Page 16 of 16"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q12",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 12,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-33-q12-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-33-q12-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-on-31-q12",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p14.png",
+          "/9618/answer-assets/9618_w22_ms_33-p15.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.8525
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8525,
+                  0.8936
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0735,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2538
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          14,
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark for each point (Max 6) 6\n• Initialisation of upper bound\n• Test if upper bound is less than lower bound\n• Re-setting of mid value if current value is lower than the target\n• Re-setting of mid value if current value is higher than the target\n• Finding the value\n• Correct termination of loop\nLower  0\nUpper  99\nMid  0\nExit  FALSE\nOUTPUT \"Enter the name to be found \"\nINPUT Target\nREPEAT\nIF Upper < Lower THEN\nOUTPUT Target, \" does not exist\"\nExit  TRUE\nENDIF\nMid  Lower + (Upper – Lower + 1) DIV 2\nIF Names[Mid] < Target THEN\nLower  Mid + 1\nENDIF\nIF Names[Mid] > Target THEN\nUpper  Mid - 1\nENDIF\nIF Names[Mid] = Target THEN\nOUTPUT Target, \" was found at location \", Mid\nExit  TRUE\nENDIF\nUNTIL Exit // UNTIL Exit = TRUE\n\n12(b)(i) O(n) 1\n© UCLES 2022 Page 14 of 15\n\n12(b)(ii) One mark for each point (Max 2) 2\n• O(log n) is a time complexity that uses logarithmic time.\n• The time taken goes up linearly as the number of items rises exponentially\n• O(log n) is the worst case scenario (time complexity for a binary search).\n© UCLES 2022 Page 15 of 15"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q11",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 11,
+      "marks": 11,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q11-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p08.png",
+          "/9618/answer-assets/9618_s23_ms_31-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.3396
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3886,
+                  0.6285
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4541
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4541,
+                  0.6034
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6524,
+                  0.7744
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 3) 3\n correctly defined constant\n correctly defined array\n three correctly defined integers\nCONSTANT MaxSize = 60\nDECLARE Queue : ARRAY[1:60] OF STRING // DECLARE Queue :\nARRAY[0:59] OF STRING // DECLARE Queue : ARRAY[1:MaxSize]\nOF STRING // DECLARE Queue : ARRAY[0:MaxSize - 1] OF\nSTRING\nDECLARE FrontPointer : INTEGER\nDECLARE RearPointer : INTEGER\nDECLARE Length : INTEGER\n© UCLES 2023 Page 8 of 10\n\n11(b) One mark for each correctly completed line (Max 4) 4\nFUNCTION Dequeue RETURNS STRING\nDECLARE Item : STRING\nIF Length > 0 THEN\nItem  Queue[FrontPointer]\nFrontPointer  FrontPointer + 1\nLength  Length – 1\nIF Length = 0 THEN\nCALL Initialise // procedure to reset the\npointers\nELSE\nIF FrontPointer > MaxSize THEN\nFrontPointer  1\nENDIF\nENDIF\nELSE\nOUTPUT \"The print queue was empty – error\"\nItem  \"\"\nENDIF\nRETURN Item\nENDFUNCTION\n\n11(c) One mark per mark point (Max 4) 4\nMP1 (Two stacks are required) so that the second stack can reverse the\norder of the first stack.\nMP2 Stack 1 operates as the queue with the newest elements at the bottom.\nStack 2 is empty.\nMP3 To add an element, pop all the elements from stack 1 and push onto\nstack 2.\nMP4 Push the new element onto either stack.\nMP5 Pop all the elements of stack 2 back onto stack 1.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q12",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 12,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q12-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q12-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p09.png",
+          "/9618/answer-assets/9618_s23_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4541
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4541,
+                  0.6034
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6524,
+                  0.7744
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.7077
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark per mark point (Max 2) 2\n A process using a function or procedure defined in terms of itself / calls\nitself.\n A recursive process must have a base case (which is a way to return\nwithout making a recursive call) // terminating solution // concept of\nunwinding described\n There must (also) be a general case where the recursive call takes place.\n© UCLES 2023 Page 9 of 10\n\n12(b) One mark per mark point (Max 5) 5\n Call number column correct\n Function call and Number columns correct\n Result column down to base case (Winding) rows 1–6 correct\n Result column down from base case (Unwinding) rows 7–10 correct\n Return value column correct\nCall Function call Number Result Return\nnumber value\n1 Fib(5) 5 Fib(4) + Fib(3)\n2 Fib(4) 4 Fib(3) + Fib(2)\n3 Fib(3) 3 Fib(2) + Fib(1)\n4 Fib(2) 2 Fib(1) + Fib(0)\n5 Fib(1) 1 1 1\n6 Fib(0) 0 0 0\n(4) Fib(2) 2 1 + 0 1\n(3) Fib(3) 3 1 + 1 2\n(2) Fib(4) 4 2 + 1 3\n(1) Fib(5) 5 3 + 2 5\n© UCLES 2023 Page 10 of 10"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q11",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 11,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-32-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-32-q11-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-32-q11-p03.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-32-q11-p04.png"
+      ],
+      "source_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.2781
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2781,
+                  0.6781
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6781,
+                  0.7994
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "11(a)(i) One mark for every two correct identifiers (Max 2) 2\nIdentifier Data type Description\nQueue STRING An array to store the contents of the queue.\nRearPointer INTEGER Points to the last term of the queue.\nLength INTEGER Indicates the number of items in the queue.\nFrontPointer INTEGER Points to the first term of the queue.\n\n11(a)(ii) One mark for each correctly completed line (Max 5) 5\nCONSTANT MaxLength = 50\nDECLARE FrontPointer : INTEGER\nDECLARE RearPointer : INTEGER\nDECLARE Length : INTEGER\nDECLARE Queue : ARRAY[0:MaxLength – 1] OF STRING\n// Initialisation of queue\nPROCEDURE Initialise\nFrontPointer  -1\nRearPointer  -1\nLength  0\nENDPROCEDURE\n// Adding a new item to the queue\nPROCEDURE Enqueue(NewItem : STRING)\nIF Length < MaxLength THEN // IF Length <= MaxLength -\n1 THEN\nRearPointer  RearPointer + 1\nIF RearPointer > MaxLength – 1 THEN\nRearPointer  0\nENDIF\nQueue[RearPointer]  NewItem\nLength  Length + 1\nENDIF\nENDPROCEDURE\n\n11(b) One mark per mark point (Max 3) 3\n Print jobs are expected to be actioned by the printer in the order they are\nreceived\n … because the printer queue is a queue, the first job to be sent to the\nprinter would be the first job printed.\n If the printer queue was on a stack, the first job the printer received would\nnot be printed until all the other jobs have been printed.\n© UCLES 2023 Page 12 of 12"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q11",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 11,
+      "marks": 11,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-33-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-33-q11-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-mj-31-q11",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p08.png",
+          "/9618/answer-assets/9618_s23_ms_33-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.3396
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3886,
+                  0.6285
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4541
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4541,
+                  0.6034
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6524,
+                  0.7744
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 3) 3\n correctly defined constant\n correctly defined array\n three correctly defined integers\nCONSTANT MaxSize = 60\nDECLARE Queue : ARRAY[1:60] OF STRING // DECLARE Queue :\nARRAY[0:59] OF STRING // DECLARE Queue : ARRAY[1:MaxSize]\nOF STRING // DECLARE Queue : ARRAY[0:MaxSize - 1] OF\nSTRING\nDECLARE FrontPointer : INTEGER\nDECLARE RearPointer : INTEGER\nDECLARE Length : INTEGER\n© UCLES 2023 Page 8 of 10\n\n11(b) One mark for each correctly completed line (Max 4) 4\nFUNCTION Dequeue RETURNS STRING\nDECLARE Item : STRING\nIF Length > 0 THEN\nItem  Queue[FrontPointer]\nFrontPointer  FrontPointer + 1\nLength  Length – 1\nIF Length = 0 THEN\nCALL Initialise // procedure to reset the\npointers\nELSE\nIF FrontPointer > MaxSize THEN\nFrontPointer  1\nENDIF\nENDIF\nELSE\nOUTPUT \"The print queue was empty – error\"\nItem  \"\"\nENDIF\nRETURN Item\nENDFUNCTION\n\n11(c) One mark per mark point (Max 4) 4\nMP1 (Two stacks are required) so that the second stack can reverse the\norder of the first stack.\nMP2 Stack 1 operates as the queue with the newest elements at the bottom.\nStack 2 is empty.\nMP3 To add an element, pop all the elements from stack 1 and push onto\nstack 2.\nMP4 Push the new element onto either stack.\nMP5 Pop all the elements of stack 2 back onto stack 1.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q12",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 12,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-33-q12-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-33-q12-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-mj-31-q12",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p09.png",
+          "/9618/answer-assets/9618_s23_ms_33-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.4541
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4541,
+                  0.6034
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6524,
+                  0.7744
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0709,
+              0.1781,
+              0.9275
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1031,
+                  0.7077
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark per mark point (Max 2) 2\n A process using a function or procedure defined in terms of itself / calls\nitself.\n A recursive process must have a base case (which is a way to return\nwithout making a recursive call) // terminating solution // concept of\nunwinding described\n There must (also) be a general case where the recursive call takes place.\n© UCLES 2023 Page 9 of 10\n\n12(b) One mark per mark point (Max 5) 5\n Call number column correct\n Function call and Number columns correct\n Result column down to base case (Winding) rows 1–6 correct\n Result column down from base case (Unwinding) rows 7–10 correct\n Return value column correct\nCall Function call Number Result Return\nnumber value\n1 Fib(5) 5 Fib(4) + Fib(3)\n2 Fib(4) 4 Fib(3) + Fib(2)\n3 Fib(3) 3 Fib(2) + Fib(1)\n4 Fib(2) 2 Fib(1) + Fib(0)\n5 Fib(1) 1 1 1\n6 Fib(0) 0 0 0\n(4) Fib(2) 2 1 + 0 1\n(3) Fib(3) 3 1 + 1 2\n(2) Fib(4) 4 2 + 1 3\n(1) Fib(5) 5 3 + 2 5\n© UCLES 2023 Page 10 of 10"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q10",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-31-q10-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-31-q10-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2662
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2662,
+                  0.4949
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4949,
+                  0.6591
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7087,
+                  0.797
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.797,
+                  0.8261
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark per mark point (Max 3) 3\nMP1 Correct constant declaration\nMP2 Two correct variable declarations\nMP3 Correct array declaration\nExample answer:\nCONSTANT Capacity = 25\nDECLARE BasePointer : INTEGER\nDECLARE TopPointer : INTEGER\nDECLARE Stack : ARRAY[1:25] OF REAL\n\n10(b) One mark for each correctly completed line (Max 5) 5\n// popping an item from the stack\nFUNCTION Pop() RETURNS REAL\nDECLARE Item : REAL\nItem  0\nIF TopPointer >= BasePointer THEN\nItem  Stack[TopPointer]\nTopPointer  TopPointer – 1\nELSE\nOUTPUT \"The stack is empty – error\"\nENDIF\nRETURN Item\nENDFUNCTION\n\n10(c) One mark per mark point (Max 2) 2\nMP1 A queue is a first in first out / FIFO data structure and a stack is a first\nin last out / FILO / LIFO data structure // Data is removed from a\nqueue in the order it is received and removed from a stack in the\nreverse order to which it is received\nMP2 Both ADTs can vary in size / are of indeterminate length\nMP3 Data is popped and pushed (onto/from a stack) at the same end but\nit is enqueued and dequeued (to/from a queue) at different/opposite\nends // a queue has two accessible ends and a stack has only one\nMP4 A stack has only one moveable pointer whereas a queue has two.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q09",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 13,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-32-q09-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-32-q09-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p06.png",
+          "/9618/answer-assets/9618_w23_ms_32-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9243
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.3558
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4054,
+                  0.6881
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7377,
+                  0.9076
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9243
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.4071
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4071,
+                  0.6015
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6015,
+                  0.736
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) Two marks for all five empty boxes correct 2\nOne mark for any three or four empty boxes correct\nIdentifier Data type Description\nBasePointer INTEGER Points to the bottom of the stack\nTopPointer INTEGER Points to the top of the stack\nStack REAL List of decimal numbers stored in the stack\n© UCLES 2023 Page 6 of 9\n\n9(a)(ii) One mark for each correctly completed line (Max 5) 5\nCONSTANT MaxSize = 40\nDECLARE BasePointer : INTEGER\nDECLARE TopPointer : INTEGER\nDECLARE Stack : ARRAY[1:40] OF REAL\n// initialisation of stack\nPROCEDURE Initialise()\nBasePointer  1\nTopPointer  0\nENDPROCEDURE\n// adding an item to the stack\nPROCEDURE Push(NewItem)\nIF TopPointer < MaxSize THEN\nTopPointer  TopPointer + 1\nStack[TopPointer]  NewItem\nENDIF\nENDPROCEDURE\n\n9(b) One mark for linked list and one mark for array (Max 2) 2\nLinked list\nMP1 A linked list is a dynamic data structure / not restricted in size\nMP2 Has greater freedom to expand or contract by adding or removing\nnodes as necessary\nMP3 Allows more efficient editing using pointers (instead of moving the\ndata).\nArray\nMP4 An array is a static data structure1 generally fixed in size\nMP5 When the array is full, the stack cannot be extended any further.\n\n9(c) One mark per mark point (Max 1) 4\nMP1 The compiler must produce object code to\nOne mark per mark point (Max 3)\nMP2 …push return addresses / values of local variables onto a stack\nMP3 …with each recursive call // … to set up winding\nMP4 …pop return addresses / values of local variables off the stack …\nMP5 …after the base case is reached // … to implement unwinding.\n© UCLES 2023 Page 7 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q10",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 10,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-33-q10-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-33-q10-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-on-31-q10",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2662
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2662,
+                  0.4949
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4949,
+                  0.6591
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7087,
+                  0.797
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.797,
+                  0.8261
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark per mark point (Max 3) 3\nMP1 Correct constant declaration\nMP2 Two correct variable declarations\nMP3 Correct array declaration\nExample answer:\nCONSTANT Capacity = 25\nDECLARE BasePointer : INTEGER\nDECLARE TopPointer : INTEGER\nDECLARE Stack : ARRAY[1:25] OF REAL\n\n10(b) One mark for each correctly completed line (Max 5) 5\n// popping an item from the stack\nFUNCTION Pop() RETURNS REAL\nDECLARE Item : REAL\nItem  0\nIF TopPointer >= BasePointer THEN\nItem  Stack[TopPointer]\nTopPointer  TopPointer – 1\nELSE\nOUTPUT \"The stack is empty – error\"\nENDIF\nRETURN Item\nENDFUNCTION\n\n10(c) One mark per mark point (Max 2) 2\nMP1 A queue is a first in first out / FIFO data structure and a stack is a first\nin last out / FILO / LIFO data structure // Data is removed from a\nqueue in the order it is received and removed from a stack in the\nreverse order to which it is received\nMP2 Both ADTs can vary in size / are of indeterminate length\nMP3 Data is popped and pushed (onto/from a stack) at the same end but\nit is enqueued and dequeued (to/from a queue) at different/opposite\nends // a queue has two accessible ends and a stack has only one\nMP4 A stack has only one moveable pointer whereas a queue has two.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q10",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-mj-31-q10-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-mj-31-q10-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p12.png",
+          "/9618/answer-assets/9618_s24_ms_31-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1869
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1869,
+                  0.884
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.249
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.249,
+                  0.4601
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark 1\nThe elements are sorted according to the compare function / in ascending / descending order.\n\n10(b) One mark for each correctly completed line (Max 5) 5\nDECLARE Names : ARRAY[1:100000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE CurrentItem : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList  1\nEndOfList  100000\nOUTPUT \"Which name do you wish to find? \"\nINPUT ToFind\nFound  FALSE\nNotInList  FALSE\nWHILE Found = FALSE AND NotInList = FALSE\nCurrentItem  (TopOfList + EndOfList) DIV 2\nIF ToFind = Names[CurrentItem]// Names[CurrentItem] = ToFind THEN\nFound  TRUE\nELSE\nIF TopOfList >= EndOfList THEN\nNotInList  TRUE\nELSE\nIF ToFind > Names[CurrentItem] THEN\nTopOfList  CurrentItem + 1\nELSE\nEndOfList  CurrentItem – 1\nENDIF\nENDIF\nENDIF\nENDWHILE\n© Cambridge University Press & Assessment 2024 Page 12 of 14\n\n10(b) IF Found = TRUE THEN\nOUTPUT \"Item found at position \", CurrentItem, \" in array\"\nELSE\nOUTPUT \"Item not in array\"\nENDIF\n\n10(c) One mark from 2\nMP1 Big O for a binary search is O(Log n).\n2\nMP2 Big O notation is used to indicate the time/space complexity of an algorithm.\nOne mark from\nMP3 The time taken to complete the search increases logarithmically as the number of search items increases linearly\nMP4 The time taken to complete the search increases linearly as the number of search items increases exponentially\nMP5 As the search field is repeatedly getting smaller, the number of comparisons made before the item is found, or the\nnumber of items runs out, is relatively small.\n© Cambridge University Press & Assessment 2024 Page 13 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q08",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-mj-32-q08-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p10.png",
+          "/9618/answer-assets/9618_s24_ms_32-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.7808
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5052
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correctly completed line (Max 4) 4\nDECLARE Widgets : ARRAY[1:50000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE Count : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList  1\nEndOfList  50000\nOUTPUT \"Enter the name of the item you wish to find \"\nINPUT ToFind\nFound  FALSE\nNotInList  FALSE\nCount  TopOfList\nWHILE Found = FALSE AND NotInList = FALSE // Count <= EndOfList\nIF ToFind = Widgets[Count] // Widgets[Count] = ToFind THEN\nFound  TRUE\nENDIF\nCount  Count + 1\nIF Found = FALSE AND Count > EndOfList THEN\nNotInList  TRUE\nENDIF\nENDWHILE\nIF Found = TRUE THEN\nOUTPUT \"Item found at position \", Count - 1, \" in array\"\nELSE\nOUTPUT \"Item not in array\"\nENDIF\n© Cambridge University Press & Assessment 2024 Page 10 of 14\n\n8(b) Max 4 4\nOne mark per mark point (Max 3)\nMP1 Linear search sequentially checks each element of the array / list.\nMP2 … until the matching element is found, or the end of the array / list is reached.\nMP3 Binary search finds the mid-point of an array/list and determines which side contains the item to be found\nMP4 … it discards the half of the array/list not containing the search item // … it finds the position of a target value within\nan array / list by repeatedly halving the target search field.\nMP5 The binary search requires the elements to be sorted // The linear search does not require the elements to be\nsorted.\nMP6 The binary search will usually do many fewer comparisons of records/iterations against the target than a linear\nsearch before it finds its target.\nMP7 Linear search starts at the beginning of the array/list and binary search starts in the middle of the array/list.\nOne mark per mark point (Max 2)\nMP8 Big O for binary search is O (Log n)\n2\nMP9 Big O for linear search is O (n)\nMP10 Big O notation is used to indicate the time / space complexity of an algorithm\n© Cambridge University Press & Assessment 2024 Page 11 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q10",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 10,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-mj-33-q10-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-mj-33-q10-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p12.png",
+          "/9618/answer-assets/9618_s24_ms_33-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1869
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1869,
+                  0.884
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.249
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.249,
+                  0.4601
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark 1\nThe elements are sorted according to the compare function / in ascending / descending order.\n\n10(b) One mark for each correctly completed line (Max 5) 5\nDECLARE Names : ARRAY[1:100000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE CurrentItem : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList  1\nEndOfList  100000\nOUTPUT \"Which name do you wish to find? \"\nINPUT ToFind\nFound  FALSE\nNotInList  FALSE\nWHILE Found = FALSE AND NotInList = FALSE\nCurrentItem  (TopOfList + EndOfList) DIV 2\nIF ToFind = Names[CurrentItem]// Names[CurrentItem] = ToFind THEN\nFound  TRUE\nELSE\nIF TopOfList >= EndOfList THEN\nNotInList  TRUE\nELSE\nIF ToFind > Names[CurrentItem] THEN\nTopOfList  CurrentItem + 1\nELSE\nEndOfList  CurrentItem – 1\nENDIF\nENDIF\nENDIF\nENDWHILE\n© Cambridge University Press & Assessment 2024 Page 12 of 14\n\n10(b) IF Found = TRUE THEN\nOUTPUT \"Item found at position \", CurrentItem, \" in array\"\nELSE\nOUTPUT \"Item not in array\"\nENDIF\n\n10(c) One mark from 2\nMP1 Big O for a binary search is O(Log n).\n2\nMP2 Big O notation is used to indicate the time/space complexity of an algorithm.\nOne mark from\nMP3 The time taken to complete the search increases logarithmically as the number of search items increases linearly\nMP4 The time taken to complete the search increases linearly as the number of search items increases exponentially\nMP5 As the search field is repeatedly getting smaller, the number of comparisons made before the item is found, or the\nnumber of items runs out, is relatively small.\n© Cambridge University Press & Assessment 2024 Page 13 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q11",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 11,
+      "marks": 12,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p03.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p04.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p05.png"
+      ],
+      "source_pages": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p15.png",
+          "/9618/answer-assets/9618_w24_ms_31-p16.png",
+          "/9618/answer-assets/9618_w24_ms_31-p17.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.7389
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.7317
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5415
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          15,
+          16,
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 4) 4\nMP1 Four additional nodes with correct data values\nMP2 Correct null pointers in all added nodes (6) with no extra null pointers where the arrow points to the next node\nMP3 Correct arrows to represent pointers joining parent nodes to child nodes\nMP4 All nodes in correct order and no extra data added to pointers.\nRootPtr\nLeftPtr Data RightPtr\nRed\nGreen Yellow -1\n-1 Blue -1 Orange -1\n-1 Indigo -1\n-1 Violet -1\n© Cambridge University Press & Assessment 2024 Page 15 of 17\n\n11(b) One mark per mark point (Max 4) 4\nMP1 Correct Red and Green rows\nMP2 Correct Yellow and Blue rows\nMP3 Correct Orange, Indigo and Violet rows\nMP4 Correct FreePtr with blank row 7\nRootPt RightPt\nIndex LeftPtr Data\nr r\n0 0 1 Red 2\n1 3 Green 4\n2 6 Yellow -1\n3 -1 Blue -1\n4 5 Orange -1\n5 -1 Indigo -1\nFreePt\n6 -1 Violet -1\nr\n7 7\n© Cambridge University Press & Assessment 2024 Page 16 of 17\n\n11(c) One mark for any correct row (Max 4) 4\nFUNCTION SearchTree(Item : STRING) RETURNS INTEGER\nNowPtr  RootPtr\nWHILE NowPtr <> -1\nIF BinTree[NowPtr].Data > Item THEN\nNowPtr  BinTree[NowPtr].LeftPtr\nELSE\nIF BinTree[NowPtr].Data < Item THEN\nNowPtr  BinTree[NowPtr].RightPtr\nELSE\nRETURN NowPtr\nENDIF\nENDIF\nENDWHILE\nRETURN NowPtr\nENDFUNCTION\n© Cambridge University Press & Assessment 2024 Page 17 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q11",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 11,
+      "marks": 12,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-32-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-32-q11-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-32-q11-p03.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-32-q11-p04.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-32-q11-p05.png"
+      ],
+      "source_pages": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p13.png",
+          "/9618/answer-assets/9618_w24_ms_32-p14.png",
+          "/9618/answer-assets/9618_w24_ms_32-p15.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.8235
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.643
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5447
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13,
+          14,
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 4) 4\nMP1 Five additional nodes with correct data values\nMP2 Correct null pointers in all nodes (7) – no extra null pointers where the arrow points to the next node\nMP3 Correct arrows to represent pointers joining parent nodes to child nodes – must come from the correct left or right\npointer not the middle\nMP4 All nodes in correct order and no additional data in left/right pointer boxes.\nRootPtr\nLeftPtr Data RightPtr\n25\n4 -1 36\n-1 1 -1 16 -1 64 -1\n-1 9 -1 -1 49 -1\n© Cambridge University Press & Assessment 2024 Page 13 of 15\n\n11(b) First eight rows of table (Max 3) 4\nThree marks for all eight correct rows\nTwo marks for six or seven correct rows\nOne mark for three, four or five correct rows\nLast row of table and FreePtr (Max 1)\nOne mark for correct FreePtr with last row of table completely blank\nRootPt RightP\nIndex LeftPtr Data\nr tr\n0 0 1 25 2\n1 3 4 4\n2 -1 36 5\n3 -1 1 -1\n4 6 16 -1\n5 7 64 -1\nFreePt\n6 -1 9 -1\nr\n8 7 -1 49 -1\n8\n© Cambridge University Press & Assessment 2024 Page 14 of 15\n\n11(c) One mark for any correct row (Max 4) 4\nFUNCTION SearchList(Item : INTEGER) RETURNS INTEGER\nNullPtr  -1\nNowPtr  RootPtr\nWHILE NowPtr <> NullPtr\nIF LinkList[NowPtr].Data < Item THEN\nNowPtr  LinkList[NowPtr].RightPtr\nELSE\nIF LinkList[NowPtr].Data > Item THEN\nNowPtr  LinkList[NowPtr].LeftPtr\nELSE\nRETURN NowPtr\nENDIF\nENDIF\nENDWHILE\nRETURN NullPtr\nENDFUNCTION\n© Cambridge University Press & Assessment 2024 Page 15 of 15"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q11",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 11,
+      "marks": 12,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-33-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-33-q11-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-33-q11-p03.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-33-q11-p04.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-33-q11-p05.png"
+      ],
+      "source_pages": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2024-on-31-q11",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p15.png",
+          "/9618/answer-assets/9618_w24_ms_33-p16.png",
+          "/9618/answer-assets/9618_w24_ms_33-p17.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.7389
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.7317
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.5415
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          15,
+          16,
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point (Max 4) 4\nMP1 Four additional nodes with correct data values\nMP2 Correct null pointers in all added nodes (6) with no extra null pointers where the arrow points to the next node\nMP3 Correct arrows to represent pointers joining parent nodes to child nodes\nMP4 All nodes in correct order and no extra data added to pointers.\nRootPtr\nLeftPtr Data RightPtr\nRed\nGreen Yellow -1\n-1 Blue -1 Orange -1\n-1 Indigo -1\n-1 Violet -1\n© Cambridge University Press & Assessment 2024 Page 15 of 17\n\n11(b) One mark per mark point (Max 4) 4\nMP1 Correct Red and Green rows\nMP2 Correct Yellow and Blue rows\nMP3 Correct Orange, Indigo and Violet rows\nMP4 Correct FreePtr with blank row 7\nRootPt RightPt\nIndex LeftPtr Data\nr r\n0 0 1 Red 2\n1 3 Green 4\n2 6 Yellow -1\n3 -1 Blue -1\n4 5 Orange -1\n5 -1 Indigo -1\nFreePt\n6 -1 Violet -1\nr\n7 7\n© Cambridge University Press & Assessment 2024 Page 16 of 17\n\n11(c) One mark for any correct row (Max 4) 4\nFUNCTION SearchTree(Item : STRING) RETURNS INTEGER\nNowPtr  RootPtr\nWHILE NowPtr <> -1\nIF BinTree[NowPtr].Data > Item THEN\nNowPtr  BinTree[NowPtr].LeftPtr\nELSE\nIF BinTree[NowPtr].Data < Item THEN\nNowPtr  BinTree[NowPtr].RightPtr\nELSE\nRETURN NowPtr\nENDIF\nENDIF\nENDWHILE\nRETURN NowPtr\nENDFUNCTION\n© Cambridge University Press & Assessment 2024 Page 17 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q04",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-31-q04-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-31-q04-p02.png"
+      ],
+      "source_pages": [
+        5,
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p09.png",
+          "/9618/answer-assets/9618_s25_ms_31-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.8662
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2079
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2079,
+                  0.2716
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3409,
+                  0.4456
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4456,
+                  0.8066
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point 4\nMP1 Any two nodes added correctly with correct data (6, 15, 41, 66) and arrows\nMP2 Remaining two nodes added with correct data (6, 15, 41, 66) and all nodes with connecting arrows starting from\npointer boxes\nMP3 Correct null pointers (-1) added throughout\nMP4 … with no entries in other pointer boxes and all nodes correctly positioned and connected\nRoot pointer\nLeft pointer Data Right pointer\n36\n12 -1 40\n-1 3 -1 15 -1 -1 41\n-1 6 -1 -1 66 -1\n© Cambridge University Press & Assessment 2025 Page 9 of 15\n\n4(b) One mark per mark point 2\nMP1 A technique used to solve problems using a function/procedure/subroutine that calls itself (general case)\nMP2 … until the terminating condition / base case is achieved, when no further recursive calls are made\n\n4(c) One mark 1\n• Stack\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q11",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 11,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-32-q11-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-32-q11-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p10.png",
+          "/9618/answer-assets/9618_s25_ms_32-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.1921
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2417,
+                  0.4208
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4698,
+                  0.8757
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.083,
+              0.1829,
+              0.9162
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1032,
+                  0.2092
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2583,
+                  0.6904
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6904,
+                  0.7195
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7195,
+                  0.7936
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point 4\nMP1 Any two nodes added correctly with correct data (Aa, Mm, Ss, Xx)\nMP2 Remaining two nodes added with correct data (Aa, Mm, Ss, Xx) and\nall nodes with connecting arrows starting from correct pointer boxes\nMP3 Correct null pointers (0) added throughout\nMP4 … with no entries in other pointer boxes and all nodes correctly\npositioned and connected.\nRoot pointer\nPp\nGg 0 Rr\n0 Aa 0 0 Kk 0 Ss\n0 Mm 0 0 Xx 0\n© Cambridge University Press & Assessment 2025 Page 10 of 12\n\n11(b) One mark for feature and one mark for example (Max 2) 2\n• Recursion is beneficial for algorithms when a problem naturally breaks\ndown into smaller versions of itself.\n• … such as calculating a factorial / mathematical series / Fibonacci /\ncompound interest / tree traversal / evaluation of RPN expressions.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q12",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 12,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q12-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q12-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p15.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.278
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.278,
+                  0.7623
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7623,
+                  0.8888
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark for any two correct ADTs (Max 1) 1\n• Binary tree\n• Graph\n• Linked list\n• Queue\n• Stack\n\n12(b) One mark for each marking point (Max 4) 4\nMP1 Temporary assignment of the element being ‘inserted’ before inner loop\nMP2 Appropriate inner loop\nMP3 Check if current DataArray content is > Value\nMP4 Moving data to adjacent element as required\nMP5 Appropriate updating of Position variable\nMP6 Re-insertion of the element outside the inner loop\nExample algorithm\nFOR Index  2 to 1000\nValue  DataArray[Index]\nPosition  Index – 1\nIF DataArray[Position] > Value THEN\nWHILE Position >= 1 AND DataArray[Position] > Value\nDataArray[Position + 1]  DataArray[Position]\nPosition  Position – 1\nENDWHILE\nDataArray[Position + 1]  Value\nENDIF\nNEXT Index\n\n12(c) One mark for each marking point 2\nMP1 The performance of a sorting routine should improve if the data is already partially sorted // The performance of a\nsorting routine is likely to be worse if the data is completely out of order\nMP2 The sort may take longer if the number of items to be sorted is larger // The sort may take less time if the number\nof items to be sorted is fewer.\n© Cambridge University Press & Assessment 2025 Page 15 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q13",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 13,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q13-p01.png"
+      ],
+      "source_pages": [
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p16.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.8082
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "13 One mark for each marking point 4\nMP1 Correct Index and Target columns\nMP2 Correct Numbers[5] column\nMP3 Correct Numbers[6] and Numbers[7] columns\nMP4 Correct Numbers[8] column and no incorrect data added to any other of columns [1, 2, 3, 4, 9, 10]\nNumbers\nIndex Target [1] [2] [3] [4] [5] [6] [7] [8] [9] [10]\n1 15 2 3 7 11 15 17 19 23 0 0\n2\n3\n4\n5 17\n6 19\n7 23\n8 0\n9\n© Cambridge University Press & Assessment 2025 Page 16 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q09",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-31-q09-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-31-q09-p02.png"
+      ],
+      "source_pages": [
+        9,
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p13.png",
+          "/9618/answer-assets/9618_w25_ms_31-p14.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.5315
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6016,
+                  0.9113
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.1653
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1653,
+                  0.2702
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3403,
+                  0.5516
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13,
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) One mark for each correctly completed line (Max 5) 5\nFUNCTION Pop() RETURNS STRING\nDECLARE DataItem : STRING\nDataItem  \"\"\nIF Top > –1 // Top >= Base THEN\nDataItem  StackArray[Top]\nTop  Top – 1\nELSE\nDataItem  \"You cannot remove data; the stack is empty\"\nENDIF\nRETURN DataItem // StackArray[Top + 1]\nENDFUNCTION\n© Cambridge University Press & Assessment 2025 Page 13 of 15\n\n9(a)(ii) OUTPUT \"The data removed from the stack is \", Pop() 1\n\n9(b) One mark per mark point (Max 3) 3\nMP1 A recursive algorithm must call itself / have a general case\nMP2 It must have a base case / have a stopping condition\nMP3 It must change its state and move towards the base case\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q12",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 12,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p01.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p02.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p03.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p04.png",
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p05.png"
+      ],
+      "source_pages": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p17.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.3605
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3605,
+                  0.529
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.529,
+                  0.6556
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "12(a)(i) One mark for each correctly completed line (Max 4) 4\nPROCEDURE Push(NewData : STRING)\nIF Top < Max – 1 THEN\nTop  Top + 1\nStackArray[Top]  NewData\nELSE\nOUTPUT \"Stack full; new data cannot be added\"\nENDIF\nENDPROCEDURE\n\n12(a)(ii) One mark per mark point (Max 2) 2\nMP1 Input with variable, with or without prompt\nMP2 Procedure call for Push with parameter used matching input variable\nExample answer\nINPUT MyData\nCALL Push(MyData)\n\n12(b) One mark per mark point (Max 3) 3\nMP1 Stacks store data in Last In First Out (LIFO) / First In Last Out (FILO) order\nMP2 Each time a recursive algorithm calls itself data is pushed onto the stack\nMP3 When the recursive algorithm reaches its base case / starts to unwind\nMP4 … data is popped from the stack in the reverse order to which it was pushed onto it.\n© Cambridge University Press & Assessment 2025 Page 17 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q10",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-33-q10-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.3581
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3581,
+                  0.5952
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6645,
+                  0.8331
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark per mark point (Max 3) 3\nMP1 Correct declaration of constant Maximum\nMP2 Both correctly declared integers\nMP3 Correct array declaration\nExample answer\nCONSTANT Maximum = 100\nDECLARE Base : INTEGER\nDECLARE Top : INTEGER\nDECLARE StackArray : ARRAY[1:100] OF STRING\n\n10(b) One mark per mark point (Max 3) 3\nMP1 Correct procedure definition structure\nMP2 Base pointer with appropriate value (0 or 1)\nMP3 Top pointer with appropriate value (–1, 0, 1)\nExample answer\nPROCEDURE InitialiseStack()\nBase  0\nTop  0\nENDPROCEDURE\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q11",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 11,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-33-q11-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p13.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.3581
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3581,
+                  0.5952
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6645,
+                  0.8331
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "11 One mark per mark point (Max 3) 3\nMP1 Recursion is beneficial for problems that can be broken down into\nsmaller, repetitive problems\nMP2 … especially for problems that have many possible branches / are\ntoo complex for an iterative approach\nMP3 An example e.g. solving mathematical series, sorting a pile of\ndocuments, etc.\n© Cambridge University Press & Assessment 2025 Page 13 of 16"
+      }
+    }
+  ]
+}

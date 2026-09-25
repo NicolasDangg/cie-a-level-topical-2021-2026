@@ -1,0 +1,103 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2022-on-32-q11",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p02.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p03.png"
+  ],
+  "marks_total": 10,
+  "stem": "A simplified linked list is used to store the names of flowers in alphabetical order. It is implemented using two 1D arrays:\n\n• `Flower` stores the names of the flowers.\n• `NextPointer` stores the pointer to the next flower name in the list.\n\n`HeadPointer` indicates the index of the first flower name in the linked list.\n\n[[fig:f1]]\n\nWhen the end of the linked list is reached, the next pointer has the value of 0.\n\nThe following table shows the initial content of the arrays.\n\n[[fig:f2]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Several flower names have been deleted from the linked list. These are crossed out in the following table.\n\nComplete the table to show the new values of `HeadPointer` and `NextPointer` to keep the remaining flower names in alphabetical order.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Complete the pseudocode algorithm so that it achieves the following when applied to the arrays:\n\n• The flower name is input.\n• The linked list is searched, in order, for the flower name.\n• If the flower name is found, an appropriate message is output to indicate it has been found.\n• If the flower name is not found, an appropriate message is output to indicate it has not been found.\n• The algorithm terminates when the next pointer value is 0.\n\n```\nPointer ← HeadPointer\nFound ← 0\nOUTPUT \"Enter a flower name \"\n[[blank]]\n[[blank]]\n    IF Flower[Pointer] = FlowerName THEN\n        Found ← Pointer\n        Pointer ← 0\n    ELSE\n        [[blank]]\n    ENDIF\nENDWHILE\n\n[[blank]]\n    OUTPUT Flower[Found], \" is found\"\nELSE\n    [[blank]]\nENDIF\n```",
+      "marks": 5,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Explain how you could improve the simplified linked list structure.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "The HeadPointer label beside a box containing the value 6.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.388,
+        0.1345,
+        0.6185,
+        0.1747
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": null,
+      "alt": "A table showing the initial Index, Flower and NextPointer values for ten flowers.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2265,
+        0.2407,
+        0.7746,
+        0.5298
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A blank HeadPointer box above a table of ten flowers, with Marigold, Dahlia, Saxifrage and Hydrangea crossed out and shaded.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2265,
+        0.6393,
+        0.7746,
+        0.97
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

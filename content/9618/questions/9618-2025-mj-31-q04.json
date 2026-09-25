@@ -1,0 +1,86 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2025-mj-31-q04",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-31-q04-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-31-q04-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A linked list of nodes is used to store an ordered list of integers. Each node consists of the data, a left pointer and a right pointer, for example:\n\n[[fig:f1]]\n\nThe linked list will be organised as a binary tree.\n\n−1 is used to represent a null pointer.\n\nComplete the binary tree, including null pointers, to show how the data will be organised after the following integers have been added:\n\n6, 15, 41, 66\n\n[[fig:f2]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Describe what is meant by recursion.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A binary tree is a suitable Abstract Data Type (ADT) that a designer can implement using recursive algorithms.\n\nIdentify one other ADT that a designer can implement using recursive algorithms.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A node divided into left pointer, data and right pointer sections, with 20 in the data section.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-31-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.3357,
+        0.0585,
+        0.6667,
+        0.1234
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": null,
+      "alt": "A binary tree diagram with a root pointer, linked-list nodes containing 36, 12, 40 and 3, a −1 in the left pointer of the node containing 3, and arrows connecting the nodes.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-31-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2054,
+        0.296,
+        0.7969,
+        0.6418
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

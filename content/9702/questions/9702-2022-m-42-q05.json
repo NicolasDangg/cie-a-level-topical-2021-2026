@@ -1,0 +1,103 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p02.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p03.png"
+  ],
+  "marks_total": 10,
+  "stem": "The variation with potential difference *V* of the charge *Q* on one of the plates of a capacitor is shown in Fig. 5.1.\n\n[[fig:f1]]\n\nThe capacitor is connected to an 8.0 V power supply and two resistors *R* and *S* as shown in Fig. 5.2.\n\n[[fig:f2]]\n\nThe resistance of *R* is 25 kΩ and the resistance of *S* is 220 kΩ.\n\nThe switch can be in either position X or position Y.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "The switch is in position X so that the capacitor is fully charged.\n\nCalculate the energy *E* stored in the capacitor.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The switch is now moved to position Y.",
+      "text": "Show that the time constant of the discharge circuit is 3.3 s.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The fully charged capacitor in (a) stores energy *E*.\n\nDetermine the time *t* taken for the stored energy to decrease from *E* to *E*/9.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "t",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A second identical capacitor is connected in parallel with the first capacitor.\n\nState and explain the change, if any, to the time constant of the discharge circuit.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A graph of charge against potential difference, shown as a straight line rising from the origin to 12 V and 1.8 × 10⁻⁴ C.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0845,
+        0.0548,
+        0.9167,
+        0.4525
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "A circuit diagram showing a capacitor and a switch with positions X and Y, a 25 kΩ resistor R, a 220 kΩ resistor S, and an 8.0 V power supply.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3228,
+        0.5572,
+        0.6784,
+        0.8027
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

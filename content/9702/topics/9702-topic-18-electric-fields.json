@@ -1,0 +1,1790 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 18,
+    "label": "Electric fields",
+    "slug": "9702-topic-18-electric-fields"
+  },
+  "questions": [
+    {
+      "id": "9702-2022-m-42-q04",
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-m-42-q04-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-m-42-q04-p02.png"
+      ],
+      "source_pages": [
+        13,
+        14
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m22_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1413,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.4529
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4529,
+                  0.494
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.494,
+                  0.7518
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a) direction of force B1\nforce on a positive charge B1\n\n4(b)(i) Q C1\nV =\n4πε r\no\n4.0×10 −9 −7.2×10 −9\n+ = 0\n4πε x 4πε (0.120 − x)\no o\n( )\n\n4 0.120 − x = 7.2 x\nx = 0.043 m A1\n\n4(b)(ii) fields are in the same direction so no B1\n\n4(b)(iii) straight arrow drawn leftwards from X in direction between extended line joining Q and X and the horizontal B1\n© UCLES 2022 Page 9 of 17"
+      }
+    },
+    {
+      "id": "9702-2022-mj-42-q02",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-mj-42-q02-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-mj-42-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_42-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3731
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3731,
+                  0.502
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.502,
+                  0.7172
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7172,
+                  0.867
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.867,
+                  0.9081
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a) (electric) force is (directly) proportional to product of charges B1\nforce (between point charges) is inversely proportional to the square of their separation B1\n\n2(b)(i) (electric) force is perpendicular to velocity (of particles) B1\nforce (perpendicular to velocity) causes centripetal acceleration B1\nor\nforce does not change the speed of the particles\nor\nforce has constant magnitude\n\n2(b)(ii) F = e2 / 4x2 C1\n0\n= (1.60  10–19)2 / [4  8.85  10–12  (2  1.59  10–10)2] A1\n= 2.28  10–9 N\n\n2(b)(iii) F = mr2 and  = 2 / T C1\nor\nF = mv2 / r and v = 2r / T\nF = 42mr / T2 C1\nT = √ [42  9.11  10–31  1.59  10–10 / (2.28  10–9)]\n= 1.58  10–15 s A1\n\n2(c)(i)  electron and positron interact B2\n positron is anti-particle of electron\n (pair) annihilation occurs\nAny two points, 1 mark each\nmass of the electron and positron converted into photon energy B1\n\n2(c)(ii) PET scanning B1\n© UCLES 2022 Page 8 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-41-q04",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-on-41-q04-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-on-41-q04-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_41-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0724,
+              0.1437,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3296
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3296,
+                  0.4553
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4553,
+                  0.5375
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5375,
+                  0.6608
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_41.pdf?download=true",
+        "mark_scheme_text": "4(a) (field line indicates) direction of force B1\nforce on a positive charge B1\n\n4(b)(i) one straight line perpendicular to plates, starting on one plate and finishing on the other B1\nfive straight lines perpendicular to plates between the plates, uniformly spaced B1\ndownwards arrows on lines B1\n\n4(b)(ii) E = V / d C1\n= 2400 / 0.046 A1\n= 5.2  104 N C–1\n\n4(c)(i) smooth curve in region of field and straight line outside field B1\ndirection of deflection shown as downwards in region of field B1\n\n4(c)(ii) helium nucleus has double the charge but four times the mass B1\nvelocity parallel to plates same and acceleration perpendicular to plates smaller (for helium) B1\nfinal speed is lower (for helium) B1\n© UCLES 2022 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q05",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-on-42-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-on-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2055
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2055,
+                  0.2466
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2466,
+                  0.4617
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4617,
+                  0.5907
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5907,
+                  0.7438
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) work done per unit charge B1\nwork done (on charge) in moving positive charge from infinity (to the point) B1\n\n5(b)(i) radius = 0.060 m A1\n\n5(b)(ii) V = Q / 4x C1\n0\nQ = (–) 850  4  8.85  10–12  0.060\nor\nQ = (–) 850  0.060 / 8.99  109\n(any correct pair of V and x values from curve)\nQ = – 5.7  10–9 C A1\n\n5(c)(i) E = Q2 / 4x C1\nP 0\n= (5.67  10–9)2 / (4  8.85  10–12  0.46)\n= 6.3  10–7 J A1\n\n5(c)(ii) • force is repulsive so spheres move apart B3\n• force in direction of motion so speed increases\n• potential energy converted to kinetic energy so speed increases\n• force decreases with distance so acceleration decreases\n• momentum is conserved (at zero) (and masses are equal) so velocities are always equal and opposite\nAny three points, 1 mark each\n© UCLES 2022 Page 10 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-43-q04",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-on-43-q04-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2022-on-43-q04-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2022-on-41-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_43-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0724,
+              0.1437,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3296
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3296,
+                  0.4553
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4553,
+                  0.5375
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5375,
+                  0.6608
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_43.pdf?download=true",
+        "mark_scheme_text": "4(a) (field line indicates) direction of force B1\nforce on a positive charge B1\n\n4(b)(i) one straight line perpendicular to plates, starting on one plate and finishing on the other B1\nfive straight lines perpendicular to plates between the plates, uniformly spaced B1\ndownwards arrows on lines B1\n\n4(b)(ii) E = V / d C1\n= 2400 / 0.046 A1\n= 5.2  104 N C–1\n\n4(c)(i) smooth curve in region of field and straight line outside field B1\ndirection of deflection shown as downwards in region of field B1\n\n4(c)(ii) helium nucleus has double the charge but four times the mass B1\nvelocity parallel to plates same and acceleration perpendicular to plates smaller (for helium) B1\nfinal speed is lower (for helium) B1\n© UCLES 2022 Page 9 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-m-42-q04",
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p02.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p03.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p04.png"
+      ],
+      "source_pages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m23_ms_42-p10.png",
+          "/9702/answer-assets/9702_m23_ms_42-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0707,
+              0.1465,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.2691
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2691,
+                  0.8074
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0707,
+              0.1465,
+              0.9293
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2425
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2425,
+                  0.2836
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2836,
+                  0.411
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.411,
+                  0.494
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a) (electric) force is (directly) proportional to product of charges B1\nforce (between point charges) is inversely proportional to the square of their separation B1\n\n4(b)(i) arrows showing tension upwards in direction of string, electric force horizontally to the right and weight vertically B1\ndownwards and all three labelled\n\n4(b)(ii) 9610−96410−9 C1\nF =\nE\n48.8510−120.0802\n( = 8.63  10–3 N)\neither angle to vertical = sin–1 0.080 / 1.2 C1\n( = 3.82°)\nweight = F / tan 3.82 = 8.63  10–3 / tan 3.82 C1\nE\n( = 0.129 N)\nmass = 0.129 / 9.81 A1\n= 0.013 kg\nor T sin  = mg and T cos  = F or tan  = mg / F (C1)\nE E\ntan  = 1.2 / 0.080 (C1)\nm = (1.2  8.63  10–3) / (0.080  9.81) (A1)\n= 0.013 kg\n© UCLES 2023 Page 10 of 18\n\n4(b)(iii) QQ 9610−96410−9 A1\nE = 1 2 =\np 4r 48.8510−120.080\no\n= 6.9  10–4 J\n\n4(c)(i) towards the top of the page / towards plate P B1\n\n4(c)(ii) F = QE and E = V / d C1\nF = 1.6  10–19  250 / 0.018 A1\n= 2.2  10–15 N\n\n4(c)(iii) either the force is not (always) perpendicular to the velocity B1\nor the force is always in the same direction\n© UCLES 2023 Page 11 of 18"
+      }
+    },
+    {
+      "id": "9702-2023-mj-41-q01",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-mj-41-q01-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-mj-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_41-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1459,
+                  0.1869
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1869,
+                  0.228
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.228,
+                  0.4649
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4649,
+                  0.5907
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5907,
+                  0.7196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7196,
+                  0.8469
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8469,
+                  0.888
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) force per unit mass B1\n\n1(a)(ii) force per unit positive charge B1\n\n1(a)(iii) similarity: B1\n inversely proportional to distance (from point)\n points of equal potential lie on concentric spheres\n zero at infinite distance\nAny point, 1 mark\ndifference: B1\n gravitational potential is (always) negative\n electric potential can be positive or negative\nAny point, 1 mark\n\n1(b)(i) g = GM / r2 M1\nE = Q / 4r2 M1\n0\nalgebra showing the elimination of r leading to M / Q = (1 / 4G) (g / E) A1\n0\n\n1(b)(ii)  = 1 / (4  6.67  10–11  8.85  10–12) = 1.35  1020 (kg2 C–2) A1\nor\n = (8.99  109) / (6.67  10–11) = 1.35  1020 (kg2 C–2)\n\n1(c)(i) E = gQ / M C1\n= (1.35  1020  9.81  4.80  105) / (5.98  1024)\n= 106 N C–1 or 106 V m–1 A1\n\n1(c)(ii) same (direction) B1\n© UCLES 2023 Page 6 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-mj-43-q01",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-mj-43-q01-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-mj-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2023-mj-41-q01",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_43-p06.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1459,
+                  0.1869
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1869,
+                  0.228
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.228,
+                  0.4649
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4649,
+                  0.5907
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5907,
+                  0.7196
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7196,
+                  0.8469
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.8469,
+                  0.888
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) force per unit mass B1\n\n1(a)(ii) force per unit positive charge B1\n\n1(a)(iii) similarity: B1\n inversely proportional to distance (from point)\n points of equal potential lie on concentric spheres\n zero at infinite distance\nAny point, 1 mark\ndifference: B1\n gravitational potential is (always) negative\n electric potential can be positive or negative\nAny point, 1 mark\n\n1(b)(i) g = GM / r2 M1\nE = Q / 4r2 M1\n0\nalgebra showing the elimination of r leading to M / Q = (1 / 4G) (g / E) A1\n0\n\n1(b)(ii)  = 1 / (4  6.67  10–11  8.85  10–12) = 1.35  1020 (kg2 C–2) A1\nor\n = (8.99  109) / (6.67  10–11) = 1.35  1020 (kg2 C–2)\n\n1(c)(i) E = gQ / M C1\n= (1.35  1020  9.81  4.80  105) / (5.98  1024)\n= 106 N C–1 or 106 V m–1 A1\n\n1(c)(ii) same (direction) B1\n© UCLES 2023 Page 6 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-41-q05",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-on-41-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-on-41-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_41-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.5326
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5326,
+                  0.6978
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
+        "mark_scheme_text": "5(a) work done per unit charge B1\nwork (done on charge) moving positive charge from infinity (to the point) B1\n\n5(b) Any three points from: B3\nUp to 2 points from:\n• radius of sphere X is 2.0 m\n• radius of sphere Y is 4.0 m\n• radius of Y is double the radius of X\nUp to 2 points from:\n• charge on X is negative\n• charge on Y is positive\n• spheres carry opposite charges\nUp to 1 point from:\n• magnitudes of charges on the spheres are equal\n\n5(c) particle is attracted to X or repelled from Y B1\nor\nresultant force on particle is towards X / away from Y / to the left\nparticle accelerates towards X / away from Y / to the left B1\n(magnitude of) acceleration of particle increases B1\n© UCLES 2023 Page 11 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-42-q05",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-on-42-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-on-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_42-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3352
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3352,
+                  0.3763
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3763,
+                  0.4996
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4996,
+                  0.668
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) (electric) force is (directly) proportional to product of charges B1\n(electric) force (between point charges) is inversely proportional to the square of their separation B1\n\n5(b) F = Q2 / 4x2 C1\n0\n6.3  10–17 = Q2 / [4  8.85  10–12  (3.8  10–6)2]\ncharge = 3.2  10–19 C A1\n\n5(c)(i) negative B1\n\n5(c)(ii) four straight lines perpendicular to the plates, starting on one plate and finishing on the other B1\nlines equally spaced B1\narrows indicating direction downwards B1\n\n5(c)(iii) E = V / d C1\nmg = EQ C1\nmass = (1200  3.2  10–19) / (9.81  0.052) A1\n= 7.5  10–16 kg\n© UCLES 2023 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-43-q05",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-on-43-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2023-on-43-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2023-on-41-q05",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_43-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.5326
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5326,
+                  0.6978
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
+        "mark_scheme_text": "5(a) work done per unit charge B1\nwork (done on charge) moving positive charge from infinity (to the point) B1\n\n5(b) Any three points from: B3\nUp to 2 points from:\n• radius of sphere X is 2.0 m\n• radius of sphere Y is 4.0 m\n• radius of Y is double the radius of X\nUp to 2 points from:\n• charge on X is negative\n• charge on Y is positive\n• spheres carry opposite charges\nUp to 1 point from:\n• magnitudes of charges on the spheres are equal\n\n5(c) particle is attracted to X or repelled from Y B1\nor\nresultant force on particle is towards X / away from Y / to the left\nparticle accelerates towards X / away from Y / to the left B1\n(magnitude of) acceleration of particle increases B1\n© UCLES 2023 Page 11 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-mj-42-q05",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-mj-42-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-mj-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_42-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.5544
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5544,
+                  0.7639
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) work done per unit charge B1\nwork (done) moving positive charge from infinity (to the point) B1\n\n5(b) Any three points from: B3\nUp to 2 points from:\n radius of sphere X is 0.30 m\n radius of sphere Y is 0.10 m\n radius of X is treble the radius of Y\nUp to 2 points from:\n charge on X is positive\n charge on Y is positive\n spheres X and Y carry charges of the same sign\nUp to 1 point from:\n (magnitudes of) charges on the spheres are equal\n charges on the spheres have the same magnitude\n\n5(c) proton remains at rest (in the position of release) M1\npotential energy of proton is (already) at its minimum A1\nor\n(electric) forces (from spheres) on proton are equal and opposite\nor\nno resultant (electric) force on proton\nor\nresultant electric field strength (at proton) is zero\n© Cambridge University Press & Assessment 2024 Page 10 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-on-41-q05",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-41-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-41-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_41-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3602
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3602,
+                  0.4448
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4448,
+                  0.4875
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4875,
+                  0.7027
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_41.pdf?download=true",
+        "mark_scheme_text": "5(a) (electric) field equals (electric) potential gradient M1\nreference to minus sign A1\n\n5(b) • for potential to be zero, one potential must be positive and the other potential must be negative B3\n• for potential to be zero, the charges must have opposite sign\n• for field to be zero, the fields (due to X and Y) must be in opposite directions\n• for field to be zero, the charges must have the same sign\n• the signs of the charges cannot (simultaneously) be both the same and opposite (so not possible)\nAny three points, 1 mark each\n\n5(c)(i) V = (–) Q / 4ε x and V = (–) 2Q / 4ε y C1\nX 0 Y 0\n(V + V = 0 so) Q / 4ε x = 2Q / 4ε y leading to y = 2x A1\nX Y 0 0\n\n5(c)(ii) E = Q / 4ε x2 A1\nX 0\n\n5(c)(iii) E = 2Q / 4ε (2x)2 C1\nY 0\n( = Q / 8ε x2)\n0\n(opposite charges so fields in same direction so magnitudes add): A1\nE = (Q / 4ε x2) + (Q / 8ε x2)\n0 0\n= 3Q / 8ε x2\n0\n© Cambridge University Press & Assessment 2024 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-42-q06",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-42-q06-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_42-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3296
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3296,
+                  0.3707
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3707,
+                  0.498
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.498,
+                  0.6285
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) (electric) force is (directly) proportional to product of charges B1\nforce (between point charges) is inversely proportional to the square of their separation B1\n\n6(b) at least four straight, radial lines to/from surface of sphere B1\nat least four straight radial lines drawn, approximately equally spaced B1\narrows pointing away from the surface of the sphere B1\n\n6(c)(i) radius = 3.2 cm A1\n\n6(c)(ii) E = Q / (4x2) C1\n0\nQ = e.g. 2.2  105  4  8.85  10–12  0.0322 C1\n= 2.5  10–8 C A1\n\n6(c)(iii) • the (positive) charge is all the way around the surface B1\n• a charge placed inside the sphere is pulled equally in all directions\n• if the field was not zero, the charges would move (until field is zero)\n• electric field lines go from positive charge to negative charge, and there are no negative charges inside the sphere\nAny point, 1 mark\n© Cambridge University Press & Assessment 2024 Page 10 of 14"
+      }
+    },
+    {
+      "id": "9702-2024-on-43-q05",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-43-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-43-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2024-on-41-q05",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_43-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2063
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2063,
+                  0.3602
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3602,
+                  0.4448
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4448,
+                  0.4875
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4875,
+                  0.7027
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_43.pdf?download=true",
+        "mark_scheme_text": "5(a) (electric) field equals (electric) potential gradient M1\nreference to minus sign A1\n\n5(b) • for potential to be zero, one potential must be positive and the other potential must be negative B3\n• for potential to be zero, the charges must have opposite sign\n• for field to be zero, the fields (due to X and Y) must be in opposite directions\n• for field to be zero, the charges must have the same sign\n• the signs of the charges cannot (simultaneously) be both the same and opposite (so not possible)\nAny three points, 1 mark each\n\n5(c)(i) V = (–) Q / 4ε x and V = (–) 2Q / 4ε y C1\nX 0 Y 0\n(V + V = 0 so) Q / 4ε x = 2Q / 4ε y leading to y = 2x A1\nX Y 0 0\n\n5(c)(ii) E = Q / 4ε x2 A1\nX 0\n\n5(c)(iii) E = 2Q / 4ε (2x)2 C1\nY 0\n( = Q / 8ε x2)\n0\n(opposite charges so fields in same direction so magnitudes add): A1\nE = (Q / 4ε x2) + (Q / 8ε x2)\n0 0\n= 3Q / 8ε x2\n0\n© Cambridge University Press & Assessment 2024 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2025-m-42-q02",
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p02.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p03.png"
+      ],
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m25_ms_42-p07.png",
+          "/9702/answer-assets/9702_m25_ms_42-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.1871
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1871,
+                  0.2694
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2694,
+                  0.3944
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3944,
+                  0.5008
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5008,
+                  0.5411
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6113,
+                  0.7605
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7605,
+                  0.8435
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2073
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2758,
+                  0.3597
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3597,
+                  0.4855
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4855,
+                  0.6137
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6137,
+                  0.7202
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7202,
+                  0.8468
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a) sketch: B1\nline from x = R to x = 4R entirely in the negative  region\ncurve with continuously decreasing magnitude and with gradient of continuously decreasing magnitude, starting at (R, ) B1\nline passing through (2R, ½) and (4R, ¼) B1\n\n2(b) horizontal straight line from t = 0 to t = 24 hours B1\nline starting at (0, –) B1\n© Cambridge University Press & Assessment 2025 Page 7 of 14\n\n2(c) straight line with non-zero gradient from 0 to d B1\nline with negative gradient from (0, V) to (d, 0) B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2025-mj-41-q02",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 2,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-41-q02-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-41-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_41-p09.png",
+          "/9702/answer-assets/9702_s25_ms_41-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.2176
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2176,
+                  0.2627
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2627,
+                  0.3094
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3094,
+                  0.4504
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4504,
+                  0.834
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.2699
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2699,
+                  0.3658
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_41.pdf?download=true",
+        "mark_scheme_text": "2(a) (electric) force is (directly) proportional to product of charges B1\nforce (between point charges) is inversely proportional to the square of their separation B1\n\n2(b)(i) charge = (+)2e A1\n\n2(b)(ii) F = 2 × (1.60 × 10–19)2 / [4 × 8.85 × 10–12 × (170 × 10–12)2] = 1.6 × 10–8 N A1\n\n2(c)(i) F = mv2 / r C1\nv = [ (1.6 × 10–8 × 170 × 10–12) / (9.11 × 10–31) ]½ A1\n= 1.7 × 106 m s–1\n\n2(c)(ii) F = mr2 and  = 2 / T C1\nF = 42mr / T2\nT = [ (42 × 9.11 × 10–31 × 170 × 10–12) / (1.6 × 10–8) ]½ A1\n= 6.2 × 10–16 s\nor\nv = 2r / T (C1)\nT = (2 × 170 × 10–12) / (1.73 × 106) (A1)\n= 6.2 × 10–16 s\n© Cambridge University Press & Assessment 2025 Page 9 of 19\n\n2(d)(i) E  Q / r2 C1\nratio = [1.60 × 10–19 × (170 × 10–12)2] / [3.2 × 10–19 × (340 × 10–12)2] A1\n= 0.13\n\n2(d)(ii) resultant force slightly less (than 1.6 × 10–8 N) so speed lower B1\nor\nresultant force slightly less (than 1.6 × 10–8 N) so period greater\n© Cambridge University Press & Assessment 2025 Page 10 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-mj-42-q06",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-42-q06-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_42-p14.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.1732
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1732,
+                  0.3135
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3135,
+                  0.4545
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4545,
+                  0.6454
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6454,
+                  0.6906
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6906,
+                  0.8026
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) plate X marked as negative and plate Y marked as positive B1\n\n6(b)(i) E = V / x C1\n= (58 × 103) / 0.041 A1\n= 1.4 × 106 N C–1\n\n6(b)(ii) ma = eE C1\na = (1.60 × 10–19 × 1.41 × 106) / (9.11 × 10–31) A1\n= 2.5 × 1017 m s–2\n\n6(c)(i) eV = hc /  C1\nor\neV = hf and f = c / \n(1.60 × 10–19 × 58 × 103) = (6.63 × 10–34 × 3.00 × 108) /  M1\nclear conversion from m to pm leading to  = 21 pm A1\n\n6(c)(ii) X-rays B1\n\n6(c)(iii) Any two points from: B2\n• waves are passed into structure and transmitted waves detected\n• different parts of the structure absorb different fractions of energy\n• difference in detected / transmitted intensities used (to form image)\n© Cambridge University Press & Assessment 2025 Page 14 of 18"
+      }
+    },
+    {
+      "id": "9702-2025-mj-43-q02",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 2,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-43-q02-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-43-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_43-p09.png",
+          "/9702/answer-assets/9702_s25_ms_43-p10.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.2176
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2176,
+                  0.2627
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2627,
+                  0.3094
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3094,
+                  0.4504
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4504,
+                  0.834
+                ],
+                "wide": false
+              }
+            ]
+          },
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.2699
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2699,
+                  0.3658
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_43.pdf?download=true",
+        "mark_scheme_text": "2(a) (electric) force is (directly) proportional to product of charges B1\nforce (between point charges) is inversely proportional to the square of their separation B1\n\n2(b)(i) charge = (+)2e A1\n\n2(b)(ii) F = 2 × (1.60 × 10–19)2 / [4 × 8.85 × 10–12 × (170 × 10–12)2] = 1.6 × 10–8 N A1\n\n2(c)(i) F = mv2 / r C1\nv = [ (1.6 × 10–8 × 170 × 10–12) / (9.11 × 10–31) ]½ A1\n= 1.7 × 106 m s–1\n\n2(c)(ii) F = mr2 and  = 2 / T C1\nF = 42mr / T2\nT = [ (42 × 9.11 × 10–31 × 170 × 10–12) / (1.6 × 10–8) ]½ A1\n= 6.2 × 10–16 s\nor\nv = 2r / T (C1)\nT = (2 × 170 × 10–12) / (1.73 × 106) (A1)\n= 6.2 × 10–16 s\n© Cambridge University Press & Assessment 2025 Page 9 of 19\n\n2(d)(i) E  Q / r2 C1\nratio = [1.60 × 10–19 × (170 × 10–12)2] / [3.2 × 10–19 × (340 × 10–12)2] A1\n= 0.13\n\n2(d)(ii) resultant force slightly less (than 1.6 × 10–8 N) so speed lower B1\nor\nresultant force slightly less (than 1.6 × 10–8 N) so period greater\n© Cambridge University Press & Assessment 2025 Page 10 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-on-41-q05",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-41-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-41-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_41-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.2177
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2177,
+                  0.4129
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4129,
+                  0.5048
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5048,
+                  0.5508
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5508,
+                  0.6839
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
+        "mark_scheme_text": "5(a) work done per unit charge B1\nwork (done) moving positive charge from infinity (to the point) B1\n\n5(b)(i) potential (due to proton) = (1.60  10–19) / (4  8.85  10–12  10  10–12) C1\nor\npotential (due to electron) = (–1.60  10–19) / (4  8.85  10–12  110  10–12)\nV = [(1.60  10–19) / (4  8.85  10–12)]  [(10–1 – 110–1)  1012] = 130 V A1\n\n5(b)(ii) V = [(1.60  10–19) / (4  8.85  10–12)]  [(30–1 – 90–1)  1012] C1\n= (+) 32 V A1\n\n5(b)(iii) cross drawn midway between the electron and the proton B1\n\n5(b)(iv) line from (10, +130) to (110, –130) B1\ncurve getting shallower until x = 60 pm, crossing V = 0 at (60, 0) and then getting steeper after x = 60 pm B1\ncurve passing through (30, ±32) and (90, ±32) B1\n© Cambridge University Press & Assessment 2025 Page 12 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-43-q05",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-43-q05-p01.png",
+        "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-43-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2025-on-41-q05",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_43-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.2177
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2177,
+                  0.4129
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4129,
+                  0.5048
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5048,
+                  0.5508
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5508,
+                  0.6839
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
+        "mark_scheme_text": "5(a) work done per unit charge B1\nwork (done) moving positive charge from infinity (to the point) B1\n\n5(b)(i) potential (due to proton) = (1.60  10–19) / (4  8.85  10–12  10  10–12) C1\nor\npotential (due to electron) = (–1.60  10–19) / (4  8.85  10–12  110  10–12)\nV = [(1.60  10–19) / (4  8.85  10–12)]  [(10–1 – 110–1)  1012] = 130 V A1\n\n5(b)(ii) V = [(1.60  10–19) / (4  8.85  10–12)]  [(30–1 – 90–1)  1012] C1\n= (+) 32 V A1\n\n5(b)(iii) cross drawn midway between the electron and the proton B1\n\n5(b)(iv) line from (10, +130) to (110, –130) B1\ncurve getting shallower until x = 60 pm, crossing V = 0 at (60, 0) and then getting steeper after x = 60 pm B1\ncurve passing through (30, ±32) and (90, ±32) B1\n© Cambridge University Press & Assessment 2025 Page 12 of 17"
+      }
+    }
+  ]
+}

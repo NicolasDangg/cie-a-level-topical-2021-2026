@@ -1,0 +1,125 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2024-on-42-q07-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2024-on-42-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define the capacitance of a parallel-plate capacitor.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An initially uncharged capacitor X, of capacitance *C*, is gradually charged so that the final potential difference (p.d.) between its plates is *V* and the final charge is *Q*.",
+      "text": "On Fig. 7.1, sketch the variation of charge with p.d. for capacitor X as the p.d. increases from 0 to *V*.\n\n[[fig:f1]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine an expression, in terms of *Q* and *V*, for the work *W* done on capacitor X during the charging process. Explain your reasoning.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "W",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Another capacitor Y is initially uncharged. The fully charged capacitor X in (b) is now connected to capacitor Y, as shown in Fig. 7.2.\n\n[[fig:f2]]\n\nThe capacitance of capacitor Y is 3*C*.",
+      "text": "Complete Table 7.1 to show expressions, in terms of *Q* and *V*, for the final p.d.s across, and the final charges on, the two capacitors. Use the space below for any working that you need.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State whether the total energy stored in the two capacitors is less than, the same as, or greater than the energy initially stored in capacitor X.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A charge against p.d. graph with axes marked 0, Q and V, and dashed guides from Q and V.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2024-on-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2277,
+        0.2476,
+        0.7735,
+        0.4663
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A circuit showing capacitors X and Y connected in parallel in a rectangular loop.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2024-on-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.3498,
+        0.0749,
+        0.6514,
+        0.2214
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Table 7.1",
+      "alt": "A blank table with columns X and Y and rows for final p.d. and final charge.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2024-on-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1315,
+        0.5926,
+        0.8697,
+        0.7533
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

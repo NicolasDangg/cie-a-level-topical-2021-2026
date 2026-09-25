@@ -1,0 +1,963 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 15,
+    "label": "Ideal gases",
+    "slug": "9702-topic-15-ideal-gases"
+  },
+  "questions": [
+    {
+      "id": "9702-2021-m-42-q02",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2021-m-42-q02-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2021-m-42-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2885
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2885,
+                  0.7728
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) pV =NkT or pV =nRT and N =nN C1\nA\n2.3×105×3.5×10 −3\nN =\n1.38×10 −23×294\n= 2.0 × 1023 A1\n\n2(a)(ii) 1 C1\npV = Nmc2"
+      }
+    },
+    {
+      "id": "9702-2021-on-42-q03",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2021-on-42-q03-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2021-on-42-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1644
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1644,
+                  0.2957
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2957,
+                  0.3368
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3368,
+                  0.3779
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3779,
+                  0.4609
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4609,
+                  0.5447
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5447,
+                  0.6269
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6269,
+                  0.7123
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a)(i) no loss of kinetic energy B1\n\n3(a)(ii) • molecules have negligible volume (compared with gas/container) B2\n• no forces between molecules (except during collisions)\n• molecules are in random motion\n• collisions are instantaneous\nAny two points, 1 mark each\n\n3(b)(i) 2mu A1\n\n3(b)(ii) 2L / u A1\n\n3(b)(iii) force = change in momentum / time = 2mu / (2L / u) A1\n= mu2 / L\n\n3(b)(iv) pressure = force / area = (mu2 / L) / L2 A1\n= mu2 / L3\n\n3(c) pV = NkT C1\nNkT = ⅓Nm<c2> leading to ½m<c2> = (3/2)kT and ½m<c2> = E A1\nK\n\n3(d) ½ × 3.34 × 10–27 × <c2> = (3/2) × 1.38 × 10–23 × (25 + 273) C1\nr.m.s. speed = 1.9 × 103 m s–1 A1\n© UCLES 2021 Page 9 of 19"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q03",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2022-on-42-q03-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2022-on-42-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2466
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2466,
+                  0.3288
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3288,
+                  0.4956
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4956,
+                  0.5778
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a) p = pressure (of gas), V = volume (of gas) and k = Boltzmann constant B1\nN = number of molecules B1\nT = thermodynamic temperature B1\n\n3(b) (pV = NkT and pV = ⅓Nm<c2> leading to) NkT = ⅓Nm<c2> M1\nalgebra leading to (3/2)kT = ½m<c2> and use of ½m<c2> = E leading to (3/2)kT = E A1\nK K\n\n3(c)(i) T = 296 K C1\n½m<c2> = (3/2)kT C1\n½  5.31  10–26  u2 = (3/2)  1.38  10–23  296\nu = 480 m s–1 A1\n\n3(c)(ii) line passing through (P, u) B1\nhorizontal straight line B1\n© UCLES 2022 Page 8 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-mj-42-q02",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2023-mj-42-q02-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2023-mj-42-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_42-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0701,
+              0.1459,
+              0.9282
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2079
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2079,
+                  0.249
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.249,
+                  0.3747
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3747,
+                  0.4609
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4609,
+                  0.7518
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.7518,
+                  0.834
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) (gas that obeys) pV  T (for all values of p,V and T) M1\nwhere T is thermodynamic temperature A1\n\n2(a)(ii) temperature = –273.15 °C A1\n\n2(b)(i) pV = NkT C1\nN = (1.37  105  0.640) / (1.38  10–23  (227 + 273)) C1\n= 1.27  1025 A1\n\n2(b)(ii) mass = 0.0424 / (1.27  1025) A1\n= 3.34  10–27 kg\n\n2(b)(iii) ½m<c2> = (3 / 2)kT C1\n3.34  10–27  v2 = 3  1.38  10–23  500 C1\nv = 2490 m s–1 A1\nor\npV = ⅓(Nm) <c2> and Nm = mass of gas (C1)\n0.0424  v2 = 3  1.37  105  0.640 (C1)\nv = 2490 m s–1 (A1)\n\n2(c) sketch: line from (0, 0) to (500, v) B1\nline with decreasing positive gradient throughout B1\n© UCLES 2023 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-41-q03",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 3,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2023-on-41-q03-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2023-on-41-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_41-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2474
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2474,
+                  0.3296
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3296,
+                  0.4134
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4134,
+                  0.5415
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5415,
+                  0.6704
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6704,
+                  0.7953
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
+        "mark_scheme_text": "3(a)(i) N: number of molecules (of the gas) B1\nm: mass of one molecule (of the gas) B1\n<c2>: mean square speed (of molecules) B1\n\n3(a)(ii) pV = NkT M1\nNkT = ⅓Nm<c2> and E = ½m<c2> leading to E = (3/2) kT A1\nK K\n\n3(b) ½  3.34  10–27  93002 = (3/2)  1.38  10–23  T C1\nT = 6980 K A1\n\n3(c)(i) L = F  4d2 C1\nL = 2.52  10–8  4  (4.16  1016)2 A1\n= 5.48  1026 W\n\n3(c)(ii) L = 4r2T4 C1\n5.48  1026 = 4  5.67  10–8  r2  69804\nr = 5.69  108 m A1\n\n3(d) (very high pressure so) molecules are (very) close together (not just ‘nearer’) B1\nforces between molecules are not negligible B1\nor\nvolume of molecules not negligible compared with gas volume\n© UCLES 2023 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-43-q03",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 3,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2023-on-43-q03-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2023-on-43-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2023-on-41-q03",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_43-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.2474
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2474,
+                  0.3296
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3296,
+                  0.4134
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4134,
+                  0.5415
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5415,
+                  0.6704
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6704,
+                  0.7953
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
+        "mark_scheme_text": "3(a)(i) N: number of molecules (of the gas) B1\nm: mass of one molecule (of the gas) B1\n<c2>: mean square speed (of molecules) B1\n\n3(a)(ii) pV = NkT M1\nNkT = ⅓Nm<c2> and E = ½m<c2> leading to E = (3/2) kT A1\nK K\n\n3(b) ½  3.34  10–27  93002 = (3/2)  1.38  10–23  T C1\nT = 6980 K A1\n\n3(c)(i) L = F  4d2 C1\nL = 2.52  10–8  4  (4.16  1016)2 A1\n= 5.48  1026 W\n\n3(c)(ii) L = 4r2T4 C1\n5.48  1026 = 4  5.67  10–8  r2  69804\nr = 5.69  108 m A1\n\n3(d) (very high pressure so) molecules are (very) close together (not just ‘nearer’) B1\nforces between molecules are not negligible B1\nor\nvolume of molecules not negligible compared with gas volume\n© UCLES 2023 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-mj-42-q02",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2024-mj-42-q02-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2024-mj-42-q02-p02.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2024-mj-42-q02-p03.png"
+      ],
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_42-p07.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1447,
+              0.9254
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.1652
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1652,
+                  0.332
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.332,
+                  0.5004
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5004,
+                  0.8856
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a) (if in thermal contact) no net transfer of (thermal) energy (between them) B1\n\n2(b)(i) pV = nRT C1\nT = (1.20  105  0.0260) / (0.740  8.31) M1\n( = 507 K)\ntemperature = 507 – 273 = 234 °C A1\n\n2(b)(ii) thermal equilibrium so temperatures (of X and Y) are equal B1\npV = NkT C1\nN = (2.90  105  0.0430) / (1.38  10–23  507) A1\n= 1.78  1024\n\n2(b)(iii)  (molecular) kinetic energy is proportional to temperature B2\nor\nkinetic energy (of molecules) is same in both cylinders\n kinetic energy proportional to mass  mean-square speed\nor\ntemperature proportional to mass  mean-square speed\nor\nr.m.s. speed proportional to √(temperature / mass)\n mean-square speed inversely proportional to mass\nor\nr.m.s. speed inversely proportional to √(mass)\nAny two bulleted points, 1 mark each\nr.m.s. speed (of molecules) in X is half r.m.s. speed (of molecules) in Y B1\n© Cambridge University Press & Assessment 2024 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-on-42-q04",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2024-on-42-q04-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2024-on-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_42-p08.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9259
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1241,
+                  0.278
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.278,
+                  0.4311
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4311,
+                  0.8469
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a) • molecules are in (constant) random motion B3\n• (all) collisions between molecules are (perfectly) elastic\n• no forces between molecules (except during collisions)\n• volume of molecules is negligible (compared with volume of gas)\n• collisions involving molecules are instantaneous\nAny three points, 1 mark each\n\n4(b) • molecules collide with (walls of) container B3\n• momentum of molecule changes during collision (with walls)\n• change in momentum is caused by force on molecule by wall\n• molecule experiences force from wall so molecule exerts force on wall\n• many molecules exerting force across the area of the wall leads to pressure (on the wall)\nAny three points, 1 mark each\n\n4(c) Any three bulleted points from: B3\n• both gases are ideal\nUp to 2 points from:\n• mass of one molecule of gas X is 3.3  10–27 kg\n• mass of one molecule of gas Y is 6.6  10–27 kg\n• mass of one molecule of gas Y is double mass of one molecule of gas X\nUp to 2 points from:\n• sample of X contains 0.27 mol / 1.6  1023 molecules\n• sample of Y contains 0.81 mol / 4.9  1023 molecules\n• sample of Y contains treble the amount of gas / number of molecules as sample of X\nUp to 2 points from:\n• mass of gas X is 5.4  10–4 kg\n• mass of gas Y is 3.2  10–3 kg\n• mass of gas Y is six times mass of gas X\n© Cambridge University Press & Assessment 2024 Page 8 of 14"
+      }
+    },
+    {
+      "id": "9702-2025-mj-42-q04",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-mj-42-q04-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-mj-42-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_42-p12.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.0741,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1281,
+                  0.1732
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1732,
+                  0.2176
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2176,
+                  0.3078
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3078,
+                  0.4529
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4529,
+                  0.5423
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_42.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) thermodynamic temperature B1\n\n4(a)(ii) molar gas constant B1\n\n4(b)(i) m: mass of one molecule (of the gas) B1\n〈c2〉: mean-square speed (of molecules) B1\n\n4(b)(ii) 1 M1\nNBT / A = Nm〈c2〉\n3\n1 A1\nclear use of E = m〈c2〉 leading to E = 3BT / 2A\nK K\n2\n\n4(c) line with positive gradient passing through the origin B1\nsmooth curve with decreasing positive gradient B1\n© Cambridge University Press & Assessment 2025 Page 12 of 18"
+      }
+    },
+    {
+      "id": "9702-2025-on-41-q04",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-41-q04-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-41-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_41-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.1734
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1734,
+                  0.2177
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2177,
+                  0.2637
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2637,
+                  0.4065
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4065,
+                  0.5032
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5032,
+                  0.7379
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) temperature = –273.15 °C A1\n\n4(a)(ii) temperature = 0 K A1\n\n4(b)(i) gas is ideal B1\n\n4(b)(ii) pV = NkT C1\nN = 270 / (8.0  10–21) A1\n= 3.4  1022\n\n4(b)(iii) n = (3.4  1022) / (6.02  1023) A1\n= 0.056 mol\n\n4(c) ½ m<c2> = (3 / 2) kT C1\n½  m  19002 = 1.5  8.0  10–21 C1\n(m = 6.65  10–27 kg)\nm = (6.65  10–27) / (1.66  10–27) C1\n= 4.0 u A1\n© Cambridge University Press & Assessment 2025 Page 11 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-42-q02",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-42-q02-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-42-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_42.pdf?download=true",
+      "duplicate_of": null,
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_42-p09.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.125,
+                  0.2073
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2073,
+                  0.3379
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.3379,
+                  0.4653
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4653,
+                  0.5952
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5952,
+                  0.6798
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.6798,
+                  0.7419
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a) (gravitational) force is (directly) proportional to product of masses B1\nforce (between point masses) is inversely proportional to the square of their separation B1\n\n2(b) Any two points from: B2\n• molecules are in continuous random motion\n• molecules have negligible volume compared with volume of gas\n• collisions (involving molecules) are (perfectly) elastic\n• collisions (of molecules) are instantaneous\n\n2(c)(i) pV = nRT C1\np = (0.0160  8.31  282) / (1.87  10–4) A1\n= 2.01  105 Pa\n\n2(c)(ii) number of molecules = 0.0160  6.02  1023 C1\nseparation = 3√[(1.87  10–4) / (0.0160  6.02  1023)] A1\n= 2.7  10–9 m (allow any answer that is 3  10–9 m to one significant figure)\n\n2(d)(i) F = 6.67  10–11  (3.34  10–27)2 / (2.7  10–9)2 C1\n= 1.0  10–46 N A1\n\n2(d)(ii) numerical comparison between 10–46 N (F) and 10–26 N (the weight of molecule) leading to a conclusion that the assumption B1\nis supported\n© Cambridge University Press & Assessment 2025 Page 9 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-43-q04",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-43-q04-p01.png",
+        "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-43-q04-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2025-on-41-q04",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_43-p11.png"
+        ],
+        "tape": [
+          {
+            "x": [
+              0.073,
+              0.1448,
+              0.9265
+            ],
+            "bands": [
+              {
+                "y": [
+                  0.1282,
+                  0.1734
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.1734,
+                  0.2177
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2177,
+                  0.2637
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.2637,
+                  0.4065
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.4065,
+                  0.5032
+                ],
+                "wide": false
+              },
+              {
+                "y": [
+                  0.5032,
+                  0.7379
+                ],
+                "wide": false
+              }
+            ]
+          }
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) temperature = –273.15 °C A1\n\n4(a)(ii) temperature = 0 K A1\n\n4(b)(i) gas is ideal B1\n\n4(b)(ii) pV = NkT C1\nN = 270 / (8.0  10–21) A1\n= 3.4  1022\n\n4(b)(iii) n = (3.4  1022) / (6.02  1023) A1\n= 0.056 mol\n\n4(c) ½ m<c2> = (3 / 2) kT C1\n½  m  19002 = 1.5  8.0  10–21 C1\n(m = 6.65  10–27 kg)\nm = (6.65  10–27) / (1.66  10–27) C1\n= 4.0 u A1\n© Cambridge University Press & Assessment 2025 Page 11 of 17"
+      }
+    }
+  ]
+}

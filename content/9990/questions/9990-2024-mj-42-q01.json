@@ -1,0 +1,62 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2024-mj-42-q01",
+  "subject": "9990",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2024-mj-42-q01-p01.png"
+  ],
+  "marks_total": 10,
+  "stem": "From the key study by Lovell et al. (2006) on the treatment of obsessive-compulsive disorder:",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Identify two criteria that were necessary for participants to meet to be included in the study.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Outline two reasons why some participants were excluded from the study.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Suggest why Lovell et al. did not include a control group in the study.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Explain two strengths of excluding some participants from studies on obsessive-compulsive disorder (OCD).",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

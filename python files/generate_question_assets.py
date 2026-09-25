@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Build topical question crops and print-ready HTML from downloaded CIE PDFs."""
+"""Build topical question crops and manifest.json from downloaded CIE PDFs."""
 from __future__ import annotations
 
-import html
 import json
 import re
 import sys
@@ -13,7 +12,9 @@ from urllib.parse import quote
 import pdfplumber
 import pypdfium2 as pdfium
 
-ROOT = Path("/Users/nicolasdangg/Documents/past paper/cie-a-level-topical-2021-2026")
+import export_data
+
+ROOT = Path(__file__).resolve().parent.parent
 TODAY = "2026-09-24"
 
 TOPICS = {
@@ -77,6 +78,9 @@ SUBJECTS = {
         "syllabus_url": "https://www.cambridgeinternational.org/Images/634461-2024-2026-syllabus.pdf",
         "expected_questions": {"3": 16, "4": 12},
         "bucket": None,
+        # Options still exist in the papers (classify() needs all four to map
+        # question numbers), but only these are published.
+        "exclude_topics": {3, 4},
     },
 }
 
@@ -111,7 +115,8 @@ PHYSICS_TOPIC_OVERRIDES = {
 }
 
 def topic_defs(subject):
-    defs = [(n, label, f"{subject}-topic-{n:02d}-{slug}") for n, label, slug in TOPICS[subject]]
+    excluded = SUBJECTS[subject].get("exclude_topics", set())
+    defs = [(n, label, f"{subject}-topic-{n:02d}-{slug}") for n, label, slug in TOPICS[subject] if n not in excluded]
     if SUBJECTS[subject]["bucket"]:
         slug, label = SUBJECTS[subject]["bucket"]
         defs.append((None, label, f"{subject}-{slug}"))
@@ -172,6 +177,17 @@ def extract_range(page, top, bottom):
         lines.append(" ".join(line))
     return "\n".join(lines)
 
+def marks_in(text):
+    """Printed marks: a lone "[N]" on a line. Array index labels ("[1] [2] [3]")
+    and subscripts ("Scores[3]") are not marks."""
+    total = 0
+    for line in text.splitlines():
+        found = re.findall(r"(?<![\w\]])\[(\d+)\]", line)
+        if len(found) == 1:
+            total += int(found[0])
+    return total
+
+
 def question_spans(meta, starts):
     spans = []
     with pdfplumber.open(meta["path"]) as doc:
@@ -189,7 +205,7 @@ def question_spans(meta, starts):
                 text = extract_range(page, top, bottom)
                 ranges.append({"page": page_no, "top": top, "bottom": bottom})
                 text_parts.append(text)
-                marks += sum(int(n) for n in re.findall(r"\[(\d+)\]", text))
+                marks += marks_in(text)
             spans.append({
                 "question_number": start["question_number"],
                 "page_ranges": ranges,
@@ -383,127 +399,6 @@ def source_url(meta, kind="qp"):
     slug = SUBJECTS[meta["subject"]]["slug"]
     return "https://pastpapers.co/api/file/caie/A-Level/" + "/".join(quote(x, safe="") for x in [slug, folder, filename]) + "?download=true"
 
-def css():
-    return """<style>
-@page { size: A4; margin: 14mm; }
-* { box-sizing: border-box; }
-body { margin: 0; font: 10.5pt/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #17202a; }
-h1 { font-size: 20pt; margin: 0 0 4mm; } h2 { font-size: 14pt; margin: 0 0 2mm; } h3 { font-size: 11.5pt; margin: 0 0 2mm; }
-header { border-bottom: 1.5pt solid #17202a; padding-bottom: 4mm; margin-bottom: 6mm; }
-.meta { color: #4b5563; font-size: 9pt; } .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(55mm, 1fr)); gap: 3mm; }
-.card { border: .5pt solid #9ca3af; border-radius: 2mm; padding: 3mm; break-inside: avoid; } a { color: inherit; }
-.question { padding-bottom: 2mm; }
-.question + .question { page-break-before: always; break-before: page; }
-.question-start { page-break-inside: avoid; break-inside: avoid; }
-.question-head { display: flex; justify-content: space-between; gap: 4mm; border-bottom: .5pt solid #9ca3af; padding-bottom: 2mm; margin-bottom: 4mm; page-break-after: avoid; break-after: avoid-page; }
-.question-layout { display: block; }
-.answer-pane { display: none; }
-.answer-link { white-space: nowrap; }
-.answer-button { display: inline-block; margin-top: 2mm; padding: 1.5mm 3mm; border: .5pt solid #17202a; border-radius: 1.5mm; text-decoration: none; }
-.crop { margin: 0 0 5mm; page-break-inside: avoid; break-inside: avoid; }
-.crop img { display: block; max-width: 100%; max-height: 232mm; width: auto; height: auto; margin: 0 auto; border: .35pt solid #d1d5db; }
-.note { color: #6b7280; font-size: 8.5pt; }
-@media screen {
-  body { max-width: 190mm; margin: 12mm auto; }
-  body.answer-open { max-width: 380mm; }
-  .question { margin-bottom: 12mm; }
-  .crop img { width: 100%; max-height: none; }
-  .question-layout.has-answer { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6mm; align-items: start; }
-  .question-pane { min-width: 0; }
-  .question-layout.has-answer .answer-pane { display: block; min-width: 0; position: sticky; top: 0; height: calc(100vh - 24mm); border-left: .5pt solid #9ca3af; padding-left: 6mm; }
-  .answer-pane iframe { display: block; width: 100%; height: 100%; border: 0; background: #fff; }
-}
-@media print {
-  .question-layout, .question-pane { display: block !important; }
-  .answer-pane, .answer-link { display: none !important; }
-}
-</style>"""
-
-def split_view_script():
-    return """<script>
-function openAnswerSideBySide(link) {
-  const layout = document.querySelector('.question-layout');
-  const pane = document.getElementById('answer-pane');
-  const frame = pane && pane.querySelector('iframe');
-  if (!layout || !pane || !frame) return true;
-  const questionId = new URL(link.href, document.baseURI).hash.slice(1);
-  if (layout.dataset.answerId === questionId) {
-    frame.removeAttribute('src');
-    layout.classList.remove('has-answer');
-    document.body.classList.remove('answer-open');
-    layout.dataset.answerId = '';
-    link.setAttribute('aria-expanded', 'false');
-    link.textContent = 'View answer side by side';
-    return false;
-  }
-  const activeLink = document.querySelector('.answer-link[aria-expanded="true"]');
-  if (activeLink) {
-    activeLink.setAttribute('aria-expanded', 'false');
-    activeLink.textContent = 'View answer side by side';
-  }
-  frame.src = link.href;
-  layout.classList.add('has-answer');
-  document.body.classList.add('answer-open');
-  layout.dataset.answerId = questionId;
-  link.setAttribute('aria-expanded', 'true');
-  link.textContent = 'Hide answer';
-  const question = document.getElementById(questionId);
-  if (question) question.scrollIntoView({block: 'start'});
-  return false;
-}
-</script>"""
-
-def write_topic_html(subject, defs, grouped):
-    subject_dir = ROOT / subject
-    for _, label, slug in defs:
-        records = grouped.get(slug, [])
-        title = f"{subject} {SUBJECTS[subject]['name']} — {label} — questions"
-        out = ["<!doctype html><html lang='en'><head><meta charset='utf-8'>", f"<title>{html.escape(title)}</title>", css(), split_view_script(), "</head><body>", "<div class='question-layout'><main class='question-pane'>"]
-        out.append(f"<header><h1>{html.escape(label)}</h1><div class='meta'>{subject} {html.escape(SUBJECTS[subject]['name'])} · A2 topical questions · {len(records)} questions</div></header>")
-        if not records:
-            out.append("<p class='note'>No captured questions are currently classified in this topic.</p>")
-        for r in records:
-            marks = f" · {r['marks']} marks" if r.get("marks") else ""
-            out.append(f"<article class='question' id='{html.escape(r['id'], quote=True)}'>")
-            out.append("<div class='question-start'>")
-            out.append(f"<div class='question-head'><h2>{html.escape(r['id'])}</h2><div class='meta'>{html.escape(r['session'])} {r['year']} · Paper {r['variant']} · Question {r['question_number']}{marks} · <a class='answer-link' href='answers.html#{html.escape(r['id'], quote=True)}' aria-controls='answer-pane' aria-expanded='false' onclick='return openAnswerSideBySide(this)'>View answer side by side</a></div></div>")
-            image_paths = r["image_paths"]
-            if image_paths:
-                path = image_paths[0]
-                out.append(f"<figure class='crop'><img src='assets/{html.escape(Path(path).name)}' alt='{html.escape(r['id'])} source crop'></figure>")
-            out.append("</div>")
-            for path in image_paths[1:]:
-                out.append(f"<figure class='crop'><img src='assets/{html.escape(Path(path).name)}' alt='{html.escape(r['id'])} source crop'></figure>")
-            out.append(f"<div class='note'>Source pages: {', '.join(map(str, r['source_pages']))} · <a href='{html.escape(r['source_pdf'])}'>source PDF URL</a></div></article>")
-        out.append("</main><aside class='answer-pane' id='answer-pane' aria-label='Matching answer'><iframe title='Matching answer'></iframe></aside></div></body></html>")
-        (subject_dir / slug / "questions.html").write_text("\n".join(out), encoding="utf-8")
-
-def write_index(subject, defs, grouped, papers, missing):
-    subject_dir = ROOT / subject
-    out = [
-        "<!doctype html><html lang='en'><head><meta charset='utf-8'>",
-        f"<title>{subject} {SUBJECTS[subject]['name']} topical collection</title>",
-        css(),
-        "<script>\n  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n</script>",
-        '<script defer src="/_vercel/insights/script.js"></script>',
-        "</head><body>",
-    ]
-    out.append(f"<header><h1>{subject} {html.escape(SUBJECTS[subject]['name'])}</h1><div class='meta'>2021–2026 · A2 topical question crops · generated {TODAY}</div></header>")
-    out.append("<p>Questions are grouped by official A2 topic. Each entry links to printable question and answer files.</p><div class='grid'>")
-    for _, label, slug in defs:
-        out.append(f"<div class='card'><h2><a href='{slug}/questions.html'>{html.escape(label)}</a></h2><div class='meta'>{len(grouped.get(slug, []))} captured questions · <a href='{slug}/questions.html'>print questions</a></div><a class='answer-button' href='{slug}/answers.html' target='_blank' rel='noopener'>Open answers separately</a></div>")
-    out.append("</div><h2 style='margin-top:8mm'>Paper coverage</h2><div class='grid'>")
-    for p in papers:
-        out.append(f"<div class='card'><h3>{p['year']} {html.escape(p['session'])} · {p['variant']}</h3><div class='meta'>{p['question_count']} questions · <a href='{html.escape(p['source_pdf'])}'>source PDF</a></div></div>")
-    out.append("</div>")
-    if missing:
-        out.append("<h2 style='margin-top:8mm'>Unavailable requested papers</h2><ul>")
-        for m in missing:
-            out.append(f"<li>{m['year']} {html.escape(m['session'])} · {m['variant']}: {html.escape(m['reason'])}</li>")
-        out.append("</ul>")
-    out.append("</body></html>")
-    (subject_dir / "index.html").write_text("\n".join(out), encoding="utf-8")
-
 def build_subject(subject):
     subject_dir, config, defs = ROOT / subject, SUBJECTS[subject], topic_defs(subject)
     subject_dir.mkdir(parents=True, exist_ok=True)
@@ -528,6 +423,8 @@ def build_subject(subject):
         for span in spans:
             qid = f"{subject}-{meta['year']}-{meta['session_code']}-{meta['variant']}-q{span['question_number']:02d}"
             number, label, slug = classify(subject, meta["paper"], span["text"], qid)
+            if number in config.get("exclude_topics", set()):
+                continue
             images = []
             for part, pr in enumerate(span["page_ranges"], 1):
                 filename = f"{qid}-p{part:02d}.png"
@@ -564,8 +461,6 @@ def build_subject(subject):
     for values in grouped.values():
         values.sort(key=lambda r: (r["year"], r["session_code"], r["variant"], r["question_number"]))
     papers.sort(key=lambda p: (p["year"], p["session_code"], p["variant"]))
-    write_topic_html(subject, defs, grouped)
-    write_index(subject, defs, grouped, papers, missing)
     manifest = {
         "schema": "cie-topical-past-papers/v1", "subject": subject, "subject_name": config["name"],
         "syllabus_url": config["syllabus_url"], "generated": TODAY,
@@ -582,3 +477,4 @@ def build_subject(subject):
 if __name__ == "__main__":
     ROOT.mkdir(parents=True, exist_ok=True)
     print(json.dumps([build_subject("9702"), build_subject("9618"), build_subject("9990")], indent=2))
+    export_data.main()

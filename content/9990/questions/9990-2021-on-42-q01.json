@@ -1,0 +1,72 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2021-on-42-q01",
+  "subject": "9990",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2021-on-42-q01-p01.png"
+  ],
+  "marks_total": 15,
+  "stem": "The ABC model of psychological change:\n• Activating event\n• Beliefs about the event\n• Consequences: emotional and behavioural responses.\n\nEllis (1962) used this model in rational emotive behaviour therapy (REBT). The aim of REBT is to treat depression by changing a client’s thinking.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Explain why a depressed client’s thinking needs to be changed in order to treat their depression.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "Outline one irrational belief that clients might have before starting REBT.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Outline how irrational beliefs are changed by REBT.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Suggest one psychological treatment for depression, other than REBT.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Discuss the strengths and weaknesses of psychological treatments for depression. You should include a conclusion in your answer.",
+      "marks": 5,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

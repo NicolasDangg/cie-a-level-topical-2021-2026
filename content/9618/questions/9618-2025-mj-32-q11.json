@@ -1,0 +1,79 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2025-mj-32-q11",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-32-q11-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-32-q11-p02.png"
+  ],
+  "marks_total": 6,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A linked list of nodes is used to store an ordered list of strings. Each node consists of data, a left pointer and a right pointer.\n\n[[fig:f1]]\n\nThe linked list will be organised as a binary tree.\n\n0 is used to represent a null pointer.\n\nComplete the binary tree, including null pointers, to show how the data will be organised after the following strings have been added:\n\nAa, Mm, Ss, Xx\n\n[[fig:f2]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A binary tree can be used to implement recursion.\n\nIdentify one feature of an algorithm that makes it beneficial to use recursion. Give one example of an application that could use a recursive algorithm.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "Feature",
+        "Example"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A node divided into left pointer, data and right pointer fields, with Pp in the data field.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-32-q11-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1,
+        0.0585,
+        0.4261,
+        0.123
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": null,
+      "alt": "A binary tree diagram with a root pointer leading to a Pp node, which points to Gg on the left and Rr on the right; Gg points to Kk, and the Kk node has 0 in its left field.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-32-q11-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1937,
+        0.297,
+        0.8075,
+        0.6146
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

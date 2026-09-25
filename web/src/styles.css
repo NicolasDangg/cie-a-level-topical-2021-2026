@@ -1,0 +1,332 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Design tokens. Tailwind's default palette and fonts are cleared so every
+   colour and face in the UI comes from here. Light values are the defaults;
+   dark mode swaps the same variables below. */
+@theme {
+  --color-*: initial;
+  --color-desk: #f6f5f1; /* page background, warm off-white */
+  --color-paper: #ffffff; /* question sheets, panels */
+  --color-field: #ffffff; /* text inputs */
+  --color-ink: #1c1b19; /* primary text */
+  --color-ink-muted: #6b6862; /* secondary text (5.1:1 on desk) */
+  --color-rule: #e4e1da; /* hairlines, decorative borders */
+  --color-rule-strong: #8c877e; /* input and control borders (>=3:1) */
+  --color-mark: #c2410c; /* "examiner ink": ticks and scores */
+  --color-sheet: #ffffff; /* behind a crop while it loads */
+  --color-tape: #e9dec6; /* masking tape over mark-scheme answers */
+  --color-tape-ink: #5c5344; /* 5.7:1 on the tape */
+  --color-pen: #1d4ed8; /* the student's own drawing, distinct from print */
+  --color-answer: #1d4ed8; /* the student's typed answers in the question text (7:1 on paper) */
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --font-*: initial;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, serif;
+
+  --shadow-sheet: 0 1px 1px rgb(28 27 25 / 0.04), 0 2px 10px rgb(28 27 25 / 0.05);
+}
+
+:root {
+  color-scheme: light;
+  /* One reading column, about as wide as the crops (852px at 120 dpi). */
+  --measure: 54rem;
+  /* The docked mark-scheme panel on wide screens. */
+  --panel-width: min(40rem, 40vw);
+  --crop-filter: none;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-desk: #1a1917;
+  --color-paper: #24231f;
+  --color-field: #201f1c;
+  --color-ink: #edeae3;
+  --color-ink-muted: #a9a49a;
+  --color-rule: #3a3833;
+  --color-rule-strong: #7a766d;
+  --color-mark: #f4895b;
+  --color-sheet: #d9d9d9;
+  --color-tape: #4b4538;
+  --color-tape-ink: #e6ddcb;
+  --color-pen: #2563eb; /* on the (light) crop, even in dark mode */
+  --color-answer: #9db8ff; /* typed answers on the dark page */
+  --shadow-sheet: 0 1px 2px rgb(0 0 0 / 0.35), 0 2px 10px rgb(0 0 0 / 0.25);
+  /* Crops stay paper, just dimmed. */
+  --crop-filter: brightness(0.85);
+}
+
+/* "Dark paper": the student opted to invert the scans too. */
+:root[data-theme="dark"][data-paper="dark"] {
+  --color-sheet: #1e1e1e;
+  --crop-filter: invert(1) hue-rotate(180deg);
+  --color-pen: #7aa2ff;
+}
+
+@layer base {
+  html {
+    background: var(--color-desk);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--color-desk);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-mark) 22%, transparent);
+  }
+}
+
+@layer components {
+  .crop-img {
+    filter: var(--crop-filter);
+  }
+
+  /* Answer lines: a real textarea, ruled like an exam answer space. The rules
+     scroll with the text (background-attachment: local). */
+  .answer-lines {
+    --line: 1.75rem;
+    line-height: var(--line);
+    padding: calc(var(--line) * 0.25) 0.75rem 0;
+    background-color: var(--color-field);
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(var(--line) - 1px),
+      var(--color-rule) calc(var(--line) - 1px),
+      var(--color-rule) var(--line)
+    );
+    background-position: 0 calc(var(--line) * 0.25);
+    background-attachment: local;
+  }
+
+  .question-card {
+    scroll-margin-top: 5rem; /* clear the sticky top bar */
+  }
+
+  /* Panels slide in; reduced motion turns this off with every other animation. */
+  .panel-slide {
+    animation: slide-in-right 180ms ease-out;
+  }
+  .sheet-slide {
+    animation: slide-in-up 180ms ease-out;
+  }
+
+  /* Peel-off tape: an opaque strip with darker ends, over one part's answer. */
+  .tape {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    container-type: size;
+    padding: 0 0.5rem;
+    border: 1px solid var(--color-rule-strong);
+    border-radius: 2px;
+    background:
+      linear-gradient(to right, rgb(0 0 0 / 0.08) 0 6px, transparent 6px calc(100% - 6px), rgb(0 0 0 / 0.08) calc(100% - 6px)),
+      var(--color-tape);
+    box-shadow: 0 1px 2px rgb(28 27 25 / 0.15);
+    color: var(--color-tape-ink);
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition:
+      opacity 180ms ease-out,
+      transform 180ms ease-out;
+  }
+  .tape:hover {
+    transform: translateY(-1px);
+  }
+  .tape[data-state="peeled"] {
+    opacity: 0;
+    transform: translateY(-6px) rotate(-0.6deg);
+    pointer-events: none;
+  }
+  .tape-inline {
+    position: relative;
+    width: 100%;
+    min-height: 2.25rem;
+    container-type: inline-size;
+  }
+  /* Thin strips (one-line parts) show no text, just the tape. */
+  @container (max-height: 1.4rem) {
+    .tape-label {
+      display: none;
+    }
+  }
+
+  /* A gap the student fills in, drawn like the exam's dotted line. */
+  .blank {
+    display: inline-block;
+    min-width: 6em;
+    height: 1em;
+    margin: 0 0.15em;
+    vertical-align: -0.2em;
+    border-bottom: 1.5px dotted var(--color-rule-strong);
+  }
+  .blank-line {
+    min-width: min(24em, 70%);
+  }
+
+  /* A gap as an input while answering, and as the student's answer in results. */
+  .gap-input {
+    width: auto;
+    max-width: 100%;
+    margin: 0 0.15em;
+    padding: 0 0.3em;
+    border: 0;
+    border-bottom: 1.5px dotted var(--color-rule-strong);
+    border-radius: 2px 2px 0 0;
+    background: var(--color-field);
+    color: var(--color-answer);
+    font: inherit;
+    line-height: 1.4;
+  }
+  .gap-input:focus-visible {
+    outline-offset: 1px;
+  }
+  .gap-input-line {
+    min-width: min(24em, 70%);
+  }
+  .gap-answer {
+    display: inline-block;
+    min-width: 3em;
+    margin: 0 0.15em;
+    padding: 0 0.3em;
+    border-bottom: 1.5px solid var(--color-pen);
+    color: var(--color-answer);
+  }
+  .gap-answer.gap-empty {
+    min-width: 6em;
+    height: 1em;
+    border-bottom-style: dotted;
+    border-bottom-color: var(--color-rule-strong);
+    vertical-align: -0.2em;
+  }
+
+  .skeleton {
+    background: var(--color-rule);
+    animation: skeleton-pulse 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes skeleton-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(24px);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print: A4, one question per page, controls hidden, always light paper.
+   Mirrors the classic printed pages. */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+  /* Every theme prints as light paper, dark paper included. */
+  :root,
+  :root[data-theme="dark"],
+  :root[data-theme="dark"][data-paper="dark"] {
+    color-scheme: light;
+    --color-desk: #fff;
+    --color-paper: #fff;
+    --color-ink: #17202a;
+    --color-ink-muted: #4b5563;
+    --color-rule: #9ca3af;
+    --color-sheet: #fff;
+    --crop-filter: none;
+    --shadow-sheet: none;
+  }
+  html,
+  body {
+    background: #fff;
+    font-size: 10.5pt;
+  }
+  [data-print="hide"] {
+    display: none !important;
+  }
+  /* One question per page: break between consecutive cards, never before
+     the first (a leading break prints a blank page). */
+  .question-card + .question-card,
+  [data-print-page] + [data-print-page] {
+    break-before: page;
+  }
+  .question-card {
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+  }
+  .question-card header {
+    break-after: avoid-page;
+    margin-bottom: 3mm !important;
+    padding-bottom: 2mm !important;
+  }
+  /* Match the classic pages' type sizes so the first question shares page 1
+     with the topic title, as it does in the classic print. */
+  main {
+    padding-top: 0 !important;
+  }
+  main h1 {
+    font-size: 20pt !important;
+  }
+  main > div > header {
+    margin-bottom: 5mm !important;
+    padding-bottom: 3mm !important;
+  }
+  .crop-sheet {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 0.35pt solid #d1d5db !important;
+  }
+  .crop-sheet img {
+    width: auto !important;
+    max-width: 100%;
+    max-height: 226mm;
+    margin: 0 auto;
+  }
+}

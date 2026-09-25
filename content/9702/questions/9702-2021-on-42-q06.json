@@ -1,0 +1,55 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2021-on-42-q06-p01.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define electric potential.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "An isolated conducting sphere in a vacuum has radius *r* and is initially uncharged. It is then charged by friction so that it carries a final charge *Q*. This charge can be considered to be acting at the centre of the sphere.\n\nBy considering the electric potential at its surface, show that the capacitance *C* of the sphere is given by\n\n*C* = 4πε₀*r*\n\nwhere ε₀ is the permittivity of free space.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The dome of an electrostatic generator is a spherical conductor of radius 13 cm. It is initially charged so that the electric potential at the surface is 4.5 kV.\n\nA smaller isolated sphere of radius 5.2 cm, initially uncharged, is brought near to the dome. Sparking causes a current between the two spheres until they reach the same potential. Assume that any charge on a sphere may be considered to act as a point charge at its centre.\n\nCalculate the charge that is transferred between the two spheres.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "charge",
+        "unit": "C"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}
