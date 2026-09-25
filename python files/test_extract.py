@@ -137,6 +137,18 @@ def main():
     for expected in ("add up to 12", "[[fig:f9]] has no matching figure", "placed 0 times", "numeric part needs answer"):
         check(expected in found, f"6: schema missed '{expected}' in: {found}")
 
+    # 6b. No lettered parts -> one "main" part with no label; an answer line without "x =" is fine.
+    single = ex.to_question_file("9702", {"id": QID, "image_paths": good["source_images"], "marks": 10},
+                                 {**FIXTURE, "stem": FIXTURE["parts"][1]["text"], "parts": []}, "fixture")
+    check(single["stem"] is None and [p["partId"] for p in single["parts"]] == ["main"] and single["parts"][0]["label"] == "",
+          f"6b: unlettered question not made one part: {single['parts']}")
+    check(not any("label" in p or "no parts" in p for p in single["problems"]), f"6b: single part flagged: {single['problems']}")
+    two = json.loads(json.dumps(good))
+    two["parts"][0]["label"] = ""
+    two["parts"][2]["answer"]["symbol"] = None
+    found = " | ".join(question_schema.problems(two, 10))
+    check("missing label" in found and "numeric part" not in found, f"6b: label/symbol rules wrong: {found}")
+
     # 7. Fitting: an edge through a label moves past it; separate text stays out;
     #    fitting twice changes nothing.
     im = Image.new("L", (400, 300), 255)

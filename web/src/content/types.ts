@@ -84,7 +84,8 @@ export type ExtractedPart = {
   text: string
   marks: number
   kind: PartKind
-  answer: { symbol: string; unit: string | null } | null
+  /** symbol is null when the answer line has no "x =" before it. */
+  answer: { symbol: string | null; unit: string | null } | null
 }
 
 export type ExtractedFigure = {

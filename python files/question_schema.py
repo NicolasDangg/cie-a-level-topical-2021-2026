@@ -24,6 +24,8 @@ SCHEMA = "topicalpaper-question/v1"
 STATUSES = {"draft", "reviewed", "rejected"}
 KINDS = {"numeric", "written", "diagram", "code"}
 PART_ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+# A question with no lettered parts is one part with this id and an empty label.
+SINGLE_PART = "main"
 FIGURE_REF = re.compile(r"\[\[fig:([A-Za-z0-9_-]+)\]\]")
 
 
@@ -76,7 +78,8 @@ def problems(doc, question_marks=None):
         elif pid in seen_ids:
             found.append(f"{where}: duplicate partId")
         seen_ids.add(pid)
-        if not isinstance(part.get("label"), str) or not part["label"].strip():
+        single = pid == SINGLE_PART and len(parts) == 1
+        if not isinstance(part.get("label"), str) or (not part["label"].strip() and not single):
             found.append(f"{where}: missing label")
         found += _text_problems(where, part.get("text"))
         texts.append((where, part.get("text") or ""))
@@ -93,8 +96,10 @@ def problems(doc, question_marks=None):
             found.append(f"{where}: kind {kind!r} is not one of {sorted(KINDS)}")
         answer = part.get("answer")
         if kind == "numeric":
-            if not isinstance(answer, dict) or "unit" not in answer or not isinstance(answer.get("symbol"), str):
-                found.append(f"{where}: numeric part needs answer {{symbol, unit}} (unit may be null)")
+            if not isinstance(answer, dict) or "unit" not in answer or "symbol" not in answer:
+                found.append(f"{where}: numeric part needs answer {{symbol, unit}} (either may be null)")
+            elif answer["symbol"] is not None and not isinstance(answer["symbol"], str):
+                found.append(f"{where}: symbol must be text or null")
             elif answer["unit"] is not None and not isinstance(answer["unit"], str):
                 found.append(f"{where}: unit must be text or null")
         elif answer is not None:

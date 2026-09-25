@@ -67,8 +67,9 @@ Return one JSON object with these keys:
       "kind": "numeric" (answer is a value on an answer line like "v = ........ m s-1"),
               "written" (words or explanation), "diagram" (draw, sketch, complete a table
               or graph on the paper), or "code" (write or complete program code/pseudocode),
-      "answer": for numeric parts {"symbol": what is left of "=" on the answer line,
-                "unit": the unit printed after the dotted line, or null}; otherwise null
+      "answer": for numeric parts {"symbol": what is left of "=" on the answer line, or null
+                if there is no "=", "unit": the unit printed after the dotted line, or null};
+                otherwise null
     }
   ],
   "figures": [
@@ -81,6 +82,9 @@ Return one JSON object with these keys:
   ],
   "notes": ["anything you could not read or were unsure of"]
 }
+
+If the question has no lettered parts, return ONE part with partId "main" and
+label "" holding all of its text, and set "stem" to null.
 
 Text format (nothing else is interpreted):
 - Blank line between paragraphs; single newline for a line break.
@@ -321,6 +325,13 @@ def to_question_file(subject, q, reply, model):
             "source_size": sizes[index],
             "box": box,
         })
+    stem = reply.get("stem") or None
+    if not reply.get("parts") and stem:
+        # No lettered parts: the whole question is one part (question_schema.SINGLE_PART).
+        reply = {**reply, "parts": [{"partId": question_schema.SINGLE_PART, "label": "", "text": stem,
+                                     "marks": q["marks"], "kind": "written", "answer": None}]}
+        stem = None
+        notes.append("No lettered parts: made one part from the question text; check its kind.")
     parts = []
     for part in reply.get("parts") or []:
         if not isinstance(part, dict):
@@ -328,7 +339,7 @@ def to_question_file(subject, q, reply, model):
         kind = part.get("kind")
         parts.append({
             "partId": part.get("partId"),
-            "label": part.get("label"),
+            "label": part.get("label") if part.get("label") is not None else "",
             "lead": part.get("lead") or None,
             "text": part.get("text"),
             "marks": part.get("marks"),
@@ -343,7 +354,7 @@ def to_question_file(subject, q, reply, model):
         "extracted_with": {"model": model, "prompt": PROMPT_VERSION, "date": dt.date.today().isoformat()},
         "source_images": q["image_paths"],
         "marks_total": q["marks"],
-        "stem": reply.get("stem") or None,
+        "stem": stem,
         "parts": parts,
         "figures": figures,
         "notes": notes,
