@@ -8,6 +8,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import question_schema  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 SCHEMA = "topicalpaper-content/v2"
@@ -54,7 +57,8 @@ def check_subject(subject):
 
     # Every JSON file under content/{subject} parses and carries the schema.
     for path in sorted((CONTENT / subject).rglob("*.json")):
-        load(path)
+        if "questions" not in path.relative_to(CONTENT / subject).parts:  # own schema, checked below
+            load(path)
 
     index = load(CONTENT / subject / "index.json")
     if index is None:
@@ -144,9 +148,46 @@ def check_subject(subject):
                 check(bool(a["mark_scheme_text"]) and bool(a["image_paths"]), f"{qid}: available answer is empty")
 
     check(set(seen) == set(source), f"{subject}: {len(set(source) - set(seen))} manifest questions not exported")
+    check_questions(subject, index)
     for slug, total, distinct in duplicate_counts:
         print(f"  {slug}: {total} questions, {distinct} distinct")
     return len(seen)
+
+
+def check_questions(subject, index):
+    """Extracted question files: valid when reviewed, honest about problems when draft."""
+    folder = CONTENT / subject / "questions"
+    if not folder.is_dir():
+        return
+    questions = {}
+    for topic in index["topics"]:
+        for q in json.loads((CONTENT / subject / "topics" / f"{topic['slug']}.json").read_text(encoding="utf-8"))["questions"]:
+            questions[q["id"]] = q
+    statuses = {}
+    for path in sorted(folder.glob("*.json")):
+        rel = path.relative_to(ROOT)
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+        except ValueError as exc:
+            failures.append(f"{rel}: does not parse ({exc})")
+            continue
+        q = questions.get(path.stem)
+        if not check(q is not None, f"{rel}: no question {path.stem} in {subject}"):
+            continue
+        check(doc.get("id") == path.stem, f"{rel}: id {doc.get('id')!r} doesn't match the file name")
+        check(q["duplicate_of"] is None, f"{rel}: {path.stem} repeats {q['duplicate_of']}; extract the original instead")
+        check(doc.get("source_images") == q["image_paths"], f"{rel}: source_images differ from the question's crops")
+        check(doc.get("marks_total") == q["marks"], f"{rel}: marks_total differs from the question")
+        found = question_schema.problems(doc, q["marks"])
+        status = doc.get("status")
+        statuses[status] = statuses.get(status, 0) + 1
+        if status == "reviewed":
+            check(not found, f"{rel}: reviewed but has problems: {found}")
+        else:
+            check(sorted(doc.get("problems", [])) == sorted(found), f"{rel}: stored problems are out of date")
+        for fig in doc.get("figures", []):
+            check(png_exists(fig.get("source_image", "")), f"{rel}: figure {fig.get('id')} source image missing")
+    print(f"  {subject} extracted questions: " + ", ".join(f"{n} {s}" for s, n in sorted(statuses.items(), key=str)))
 
 
 def main():

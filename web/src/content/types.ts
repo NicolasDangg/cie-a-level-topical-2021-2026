@@ -62,3 +62,43 @@ export type TopicFile = {
   topic: { number: number | null; label: string; slug: string }
   questions: Question[]
 }
+
+// Extracted question text (schema "topicalpaper-question/v1"), written by
+// python files/extract_questions.py and checked by question_schema.py.
+
+export type PartKind = 'numeric' | 'written' | 'diagram' | 'code'
+
+export type ExtractedPart = {
+  partId: string
+  label: string
+  lead: string | null
+  text: string
+  marks: number
+  kind: PartKind
+  answer: { symbol: string; unit: string | null } | null
+}
+
+export type ExtractedFigure = {
+  id: string
+  caption: string | null
+  alt: string
+  source_image: string
+  source_size: [number, number]
+  /** Fractions of the source image: [x0, y0, x1, y1]. */
+  box: [number, number, number, number]
+}
+
+export type ExtractedQuestion = {
+  schema: string
+  id: string
+  subject: string
+  status: 'draft' | 'reviewed' | 'rejected'
+  extracted_with: { model: string; prompt: string; date: string }
+  source_images: string[]
+  marks_total: number | null
+  stem: string | null
+  parts: ExtractedPart[]
+  figures: ExtractedFigure[]
+  notes: string[]
+  problems?: string[]
+}

@@ -144,7 +144,7 @@ Build a dev-only route, `/dev/card`, that shows the card in every one of these s
 
 ---
 
-## Phase 2: app shell, duplicates, and the cut-over
+## Phase 2: app shell, duplicates, and the cut-over — done
 
 ### Duplicates (Python)
 
@@ -186,36 +186,39 @@ Build a dev-only route, `/dev/card`, that shows the card in every one of these s
 
 ---
 
-## Phase 3: question extraction (pipeline + review)
+## Phase 3: question extraction (pipeline + review) — built; pilot pending
 
-Turn each question's existing crops into structured, reviewed text. This phase may read the PNG crops and cut figure images out of them; it still never opens a PDF.
+Turn each distinct question's existing crops into structured, reviewed text. Reads the PNG crops only; never opens a PDF, and creates no new image files.
 
 ### Output
 
-One file per question, `content/{subject}/questions/{questionId}.json`, schema `"topicalpaper-question/v1"`:
+One file per **distinct** question (repeats reuse their original), `content/{subject}/questions/{questionId}.json`, schema `"topicalpaper-question/v1"`, defined and checked by `python files/question_schema.py`:
 
-- `id`, `status` (`draft` | `reviewed` | `rejected`), `extracted_with` (model id and date), `source_images` (the crop paths used)
-- `parts`: in order, each with `partId` (`a`, `c-ii`, …), `label` as printed (`(c)(ii)`), `lead` (shared lead-in text, on the first part of a group only, e.g. the (c) stem shared by (c)(i)–(iii)), `text`, `marks`, `kind` (`numeric` | `written` | `diagram` | `code`), and for `numeric` parts `answer: { symbol, unit }` (e.g. `ω`, `rad s⁻¹`).
-- `figures`: `{ id, image, caption, alt, source_image, box }`. `image` is a PNG cut from the existing crop at `box` and saved beside the JSON (`questions/figures/`). Parts reference figures by id.
-- Text format: plain text with Unicode for simple units and symbols, `*…*` for italic variables, and `$…$` TeX for anything else (fractions, powers of expressions), rendered with KaTeX in the app. Nothing else is interpreted.
+- `id`, `status` (`draft` | `reviewed` | `rejected`), `extracted_with` (model, prompt version, date), `source_images`, `marks_total`, `stem` (text before part (a), or null)
+- `parts`: in order, each with `partId` (`a`, `c-ii`), `label` (`(c)(ii)`), `lead` (text shared by a group of sub-parts, on the first of them), `text`, `marks`, `kind` (`numeric` | `written` | `diagram` | `code`), and for numeric parts `answer: { symbol, unit }`.
+- `figures`: `{ id, caption, alt, source_image, source_size, box }`. A figure is a box (fractions of the image) on an existing crop; the app shows it by clipping that image, so there are no figure files and a wrong box is fixed by editing four numbers.
+- `notes` (the model's uncertainties) and `problems` (validator output, recomputed on every save).
+- Text format: paragraphs, `*italic*`, `` `code` ``, `$TeX$` (rendered with KaTeX), fenced code blocks, and `[[fig:ID]]` placing a figure. Nothing else is interpreted.
 - No mark-scheme text, ever. The extractor is only ever shown question crops.
 
-### Extractor
+### Extractor (`python files/extract_questions.py`)
 
-- `python files/extract_questions.py [--subject 9702] [--topic <slug>] [--ids …]`: sends a question's crops to a vision model with a fixed prompt and JSON schema; writes `draft` files; never overwrites a `reviewed` file unless `--force`.
-- Settings come from `python files/llm_config.py` (`OPENROUTER_API_KEY`, `OPENROUTER_MODEL`, optional `OPENROUTER_BASE_URL`); the key is never committed. Calls go to OpenRouter's OpenAI-compatible chat completions API with the crops as image inputs and a JSON response format. Results are cached by crop content hash, so reruns cost nothing.
-- Free models are rate-limited (a small daily request cap unless the account holds credit) and can change or disappear, so the extractor paces itself, resumes where it stopped, and records the exact model id in `extracted_with`. Free endpoints may log prompts; the crops are already public, so that is acceptable here.
-- Pilot first: the 10 Motion in a circle questions plus 9618 s21 paper 31 Q4, Q6, Q9. Report accuracy and cost per question before extracting everything.
+- `--pilot`, `--subject`, `--topic`, `--ids`, `--limit`, `--dry-run` (no key needed), `--redo` (re-extract drafts), `--force` (also reviewed/rejected).
+- OpenRouter chat completions with the crops as images; settings from `llm_config.py`. Falls back when a model rejects JSON mode, repairs one non-JSON reply, paces requests (`--min-interval`, default 4 s), honours `Retry-After`, stops cleanly at the daily free cap so a later run resumes, and caches every reply by model + prompt + crop bytes (`python files/.cache/extract/`, git-ignored).
+- Tested offline against a fake OpenRouter server: `python files/test_extract.py`.
+- Scale: 878 distinct questions (pilot: 11). One request each plus occasional retries.
 
-### Validation (`test_content.py`)
+### Validation
 
-- Part marks sum to the question's marks (where the crop gave a total), labels run in order with no gaps, every figure file exists and is referenced, every `numeric` part has a unit (or an explicit `unit: null`), and every file has the schema field.
+`question_schema.py` checks: part marks sum to the question's marks, part ids and labels, kinds, numeric answers, figure boxes, every figure placed exactly once, balanced TeX and code fences. `test_content.py` requires reviewed files to have no problems and drafts to record their problems honestly; `export_data.py` never touches `questions/`.
 
-### Review tool (dev only)
+### Review tool (dev server only)
 
-- `/app/dev/review/:subject/:topicSlug`: each question's original scan beside its rendered extraction, with keyboard-driven Approve / Reject / Edit. A dev-server-only endpoint writes the status (and edits) back to the JSON file. Nothing in production can write.
+`/app/dev/review/:subject/:topicSlug`: each question's scan beside its rendered extraction, with problems and model notes. Keys: J/K next/previous, A approve, R reject, D back to draft, E edit the JSON. Saves go through a dev-server endpoint that re-runs the validator; a question with problems can't be approved. Browser test: `web/scripts/check-review.mjs`.
 
-**Report:** the pilot's accuracy (how many questions needed edits, and what kind), cost per question and projected total, and screenshots of the review tool.
+### Remaining
+
+Run the pilot with a real key and model: `python3 "python files/extract_questions.py" --pilot`, review the 11 drafts, and report accuracy (what needed editing) before extracting everything.
 
 ---
 

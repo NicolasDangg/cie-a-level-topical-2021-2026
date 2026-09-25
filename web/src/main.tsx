@@ -44,6 +44,13 @@ if (import.meta.env.DEV || __DEV_ROUTES__) {
   })
 }
 
+// The extraction review tool saves through the dev server, so it only exists there.
+if (import.meta.env.DEV) {
+  // oxlint-disable-next-line react/only-export-components -- entry file, never hot-swapped
+  const Review = lazy(() => import('./routes/dev/Review'))
+  routes.push({ path: '/dev/review/:subject?/:topicSlug?', element: page(<Review />) })
+}
+
 const router = createBrowserRouter(routes, { basename: '/app' })
 
 createRoot(document.getElementById('root')!).render(

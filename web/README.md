@@ -10,6 +10,7 @@ npm run build        # typecheck, build to site/app, assemble site/
 npm run serve:site   # serve site/ like Vercel does (http://localhost:4174)
 npm run check:site -- <outDir>           # end-to-end checks of site/ (after build)
 npm run screenshots -- <outDir> [path]   # card checks; needs `npm run dev` running
+npm run check:review -- <outDir>         # review tool checks; needs `npm run dev` running
 ```
 
 ## How content is served
@@ -54,4 +55,8 @@ for review, and left out of production.
   mark-scheme panel). Filters and the open mark scheme live in the URL.
 - `src/lib/view-choice.ts`: the classic/app choice, shared with the classic
   pages under the localStorage key `tp:view`.
-- `src/routes/dev/`: `/dev/card` (dev and preview builds only).
+- `src/components/question-text/`: renders extracted question text (the
+  format in `python files/question_schema.py`), with KaTeX and figure crops.
+- `src/routes/dev/`: `/dev/card` (dev and preview builds) and
+  `/dev/review/:subject/:topic` (dev server only: it saves through
+  `build/review-api.ts`, which re-runs the Python validator).

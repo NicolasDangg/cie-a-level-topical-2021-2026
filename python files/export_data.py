@@ -147,8 +147,10 @@ def export_subject(subject):
     answers_by_id = {a["id"]: a for a in answers["records"]}
 
     out_dir = CONTENT / subject
-    if out_dir.exists():
-        shutil.rmtree(out_dir)  # drop topics that no longer exist
+    # Replace only what the export owns; content/{subject}/questions/ holds
+    # reviewed extractions and must survive every export.
+    if (out_dir / "topics").exists():
+        shutil.rmtree(out_dir / "topics")  # drop topics that no longer exist
 
     duplicates, cross_topic = find_duplicates(subject_dir, manifest["records"])
     by_topic = {topic["slug"]: [] for topic in manifest["topics"]}

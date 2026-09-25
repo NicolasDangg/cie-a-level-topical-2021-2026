@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import { repoContent } from './build/repo-content.ts'
+import { reviewApi } from './build/review-api.ts'
 
 const repoRoot = fileURLToPath(new URL('..', import.meta.url))
 
@@ -17,6 +18,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     tailwindcss(),
     repoContent(repoRoot, ['/content/', '/9618/', '/9702/', '/9990/']),
+    reviewApi(repoRoot),
   ],
   build: {
     // scripts/assemble-site.mjs links the rest of the site around this.
