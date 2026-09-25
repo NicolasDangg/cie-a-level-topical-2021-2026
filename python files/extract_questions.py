@@ -7,7 +7,8 @@ questions are extracted; repeats (duplicate_of) reuse their original.
 Reads the PNG crops only; never opens a PDF.
 
   python3 "python files/extract_questions.py" --pilot --dry-run
-  python3 "python files/extract_questions.py" --pilot
+  python3 "python files/extract_questions.py" --pilot          (first pilot)
+  python3 "python files/extract_questions.py" --pilot 2        (second pilot)
   python3 "python files/extract_questions.py" --subject 9702 --topic 9702-topic-12-motion-in-a-circle
   python3 "python files/extract_questions.py" --ids 9618-2021-mj-31-q04 --redo
   python3 "python files/extract_questions.py" --refit-figures
@@ -43,10 +44,19 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 CACHE = Path(__file__).resolve().parent / ".cache" / "extract"
 SUBJECTS = ("9702", "9618", "9990")
-PROMPT_VERSION = "q-extract-2"
-PILOT = {
-    "9702": {"topics": ["9702-topic-12-motion-in-a-circle"]},
-    "9618": {"ids": ["9618-2021-mj-31-q04", "9618-2021-mj-31-q06", "9618-2021-mj-31-q09"]},
+PROMPT_VERSION = "q-extract-3"
+PILOTS = {
+    "1": {
+        "9702": {"topics": ["9702-topic-12-motion-in-a-circle"]},
+        "9618": {"ids": ["9618-2021-mj-31-q04", "9618-2021-mj-31-q06", "9618-2021-mj-31-q09"]},
+    },
+    # The hard cases: circuits and graphs, pseudocode and trace tables, and a
+    # spread of psychology questions (sample: that many, evenly across the topic).
+    "2": {
+        "9702": {"topics": ["9702-topic-19-capacitance"]},
+        "9618": {"topics": ["9618-topic-19-computational-thinking-and-problem-solving"]},
+        "9990": {"topics": ["9990-topic-01-clinical-psychology"], "sample": 15},
+    },
 }
 
 SYSTEM_PROMPT = """You transcribe Cambridge International A-Level exam questions from scanned page crops into JSON.
@@ -67,6 +77,10 @@ Return one JSON object with these keys:
       "kind": "numeric" (answer is a value on an answer line like "v = ........ m s-1"),
               "written" (words or explanation), "diagram" (draw, sketch, complete a table
               or graph on the paper), or "code" (write or complete program code/pseudocode),
+      "slots": when the printed answer space is split into LABELLED spaces (e.g.
+               "Benefit 1 ......", "Benefit 2 ......", or "Advantage ....." and
+               "Disadvantage ....."), those labels in order; otherwise null. Don't
+               repeat the labels in "text",
       "answer": for numeric parts {"symbol": what is left of "=" on the answer line, or null
                 if there is no "=", "unit": the unit printed after the dotted line, or null};
                 otherwise null
@@ -123,9 +137,10 @@ def select(args):
     for subject in SUBJECTS:
         if args.subject and subject != args.subject:
             continue
-        pilot = PILOT.get(subject, {}) if args.pilot else None
+        pilot = PILOTS[args.pilot].get(subject, {}) if args.pilot else None
         if args.pilot and not pilot:
             continue
+        picked = []
         for slug, questions in load_topics(subject):
             for q in questions:
                 if q["duplicate_of"] is not None or not q["image_paths"]:
@@ -136,7 +151,11 @@ def select(args):
                     continue
                 if pilot and not (slug in pilot.get("topics", []) or q["id"] in pilot.get("ids", [])):
                     continue
-                chosen.append((subject, slug, q))
+                picked.append((subject, slug, q))
+        sample = pilot.get("sample") if pilot else None
+        if sample and len(picked) > sample:
+            picked = [picked[i * len(picked) // sample] for i in range(sample)]
+        chosen += picked
     missing = wanted_ids - {q["id"] for _, _, q in chosen}
     if missing:
         raise SystemExit(f"Not found, or a repeat of another question: {', '.join(sorted(missing))}")
@@ -329,7 +348,8 @@ def to_question_file(subject, q, reply, model):
     if not reply.get("parts") and stem:
         # No lettered parts: the whole question is one part (question_schema.SINGLE_PART).
         reply = {**reply, "parts": [{"partId": question_schema.SINGLE_PART, "label": "", "text": stem,
-                                     "marks": q["marks"], "kind": "written", "answer": None}]}
+                                     "marks": q["marks"], "kind": "written", "slots": reply.get("slots"),
+                                     "answer": None}]}
         stem = None
         notes.append("No lettered parts: made one part from the question text; check its kind.")
     parts = []
@@ -344,6 +364,7 @@ def to_question_file(subject, q, reply, model):
             "text": part.get("text"),
             "marks": part.get("marks"),
             "kind": kind,
+            "slots": _slots(part.get("slots")) if kind in ("written", "code") else None,
             "answer": part.get("answer") if kind == "numeric" else None,
         })
     doc = {
@@ -361,6 +382,14 @@ def to_question_file(subject, q, reply, model):
     }
     doc["problems"] = question_schema.problems(doc, q["marks"])
     return doc
+
+
+def _slots(value):
+    """Labelled answer spaces, or None. A lone label isn't a split."""
+    if not isinstance(value, list):
+        return None
+    labels = [v.strip() for v in value if isinstance(v, str) and v.strip()]
+    return labels if len(labels) >= 2 else None
 
 
 def write_json(path, data):
@@ -401,7 +430,9 @@ def main(argv=None):
     ap.add_argument("--subject", choices=SUBJECTS)
     ap.add_argument("--topic", help="topic slug")
     ap.add_argument("--ids", nargs="+", help="question ids")
-    ap.add_argument("--pilot", action="store_true", help="Motion in a circle + 9618 s21 paper 31 Q4, Q6, Q9")
+    ap.add_argument("--pilot", nargs="?", const="1", choices=sorted(PILOTS),
+                    help="1: motion in a circle + 9618 s21 paper 31 Q4, Q6, Q9; "
+                         "2: 9702 capacitance, 9618 computational thinking, 15 of 9990 clinical")
     ap.add_argument("--limit", type=int, help="at most N questions")
     ap.add_argument("--redo", action="store_true", help="re-extract drafts too (reviewed/rejected need --force)")
     ap.add_argument("--force", action="store_true", help="also overwrite reviewed and rejected files")

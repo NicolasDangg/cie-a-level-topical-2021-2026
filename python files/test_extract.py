@@ -149,6 +149,21 @@ def main():
     found = " | ".join(question_schema.problems(two, 10))
     check("missing label" in found and "numeric part" not in found, f"6b: label/symbol rules wrong: {found}")
 
+    # 6c. Slots: kept for written/code parts with 2+ labels, dropped elsewhere, checked by the schema.
+    slotted = json.loads(json.dumps(FIXTURE))
+    slotted["parts"][0]["kind"] = "written"
+    slotted["parts"][0]["slots"] = ["Benefit 1", " Benefit 2 ", ""]
+    slotted["parts"][2]["slots"] = ["x", "y"]  # numeric: ignored
+    slotted["parts"][1]["slots"] = ["only one"]
+    doc = ex.to_question_file("9702", {"id": QID, "image_paths": good["source_images"], "marks": 10}, slotted, "fixture")
+    got = [p.get("slots") for p in doc["parts"][:3]]
+    check(got == [["Benefit 1", "Benefit 2"], None, None], f"6c: slots normalised wrong: {got}")
+    bad = json.loads(json.dumps(doc))
+    bad["parts"][5]["slots"] = ["A", "A"]  # (d), written
+    bad["parts"][2]["slots"] = ["A", "B"]
+    found = " | ".join(question_schema.problems(bad, 10))
+    check("duplicate slot labels" in found and "only written and code parts have slots" in found, f"6c: slot checks: {found}")
+
     # 7. Fitting: an edge through a label moves past it; separate text stays out;
     #    fitting twice changes nothing.
     im = Image.new("L", (400, 300), 255)

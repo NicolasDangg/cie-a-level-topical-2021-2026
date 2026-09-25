@@ -84,6 +84,8 @@ export type ExtractedPart = {
   text: string
   marks: number
   kind: PartKind
+  /** Labelled answer spaces printed for this part ("Benefit 1", "Drawback 1"), if split. */
+  slots?: string[] | null
   /** symbol is null when the answer line has no "x =" before it. */
   answer: { symbol: string | null; unit: string | null } | null
 }

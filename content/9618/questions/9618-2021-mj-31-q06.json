@@ -21,7 +21,13 @@
       "text": "Give two benefits and two drawbacks of packet switching.",
       "marks": 4,
       "kind": "written",
-      "answer": null
+      "answer": null,
+      "slots": [
+        "Benefit 1",
+        "Benefit 2",
+        "Drawback 1",
+        "Drawback 2"
+      ]
     }
   ],
   "figures": [],

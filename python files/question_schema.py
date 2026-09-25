@@ -94,6 +94,15 @@ def problems(doc, question_marks=None):
         kind = part.get("kind")
         if kind not in KINDS:
             found.append(f"{where}: kind {kind!r} is not one of {sorted(KINDS)}")
+        slots = part.get("slots")  # absent in older files means none
+        if slots is not None:
+            if kind not in ("written", "code"):
+                found.append(f"{where}: only written and code parts have slots")
+            elif (not isinstance(slots, list) or len(slots) < 2
+                  or not all(isinstance(s, str) and s.strip() for s in slots)):
+                found.append(f"{where}: slots must be null or two or more labels")
+            elif len(set(slots)) != len(slots):
+                found.append(f"{where}: duplicate slot labels")
         answer = part.get("answer")
         if kind == "numeric":
             if not isinstance(answer, dict) or "unit" not in answer or "symbol" not in answer:

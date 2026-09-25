@@ -17,6 +17,15 @@ export function QuestionText({ question }: { question: ExtractedQuestion }) {
             {part.label && <span className="pt-0.5 font-mono text-sm font-medium">{part.label}</span>}
             <div className="flex min-w-0 flex-col gap-2">
               <RichText text={part.text} figures={figures} />
+              {part.slots && (
+                <ul aria-label="Answer spaces" className="m-0 flex list-none flex-col gap-1 p-0 font-sans text-sm text-ink-muted">
+                  {part.slots.map((slot) => (
+                    <li key={slot}>
+                      {slot} <span aria-hidden>…………</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
               <p className="m-0 flex flex-wrap items-baseline justify-end gap-x-3 font-sans text-sm text-ink-muted">
                 {part.answer && (
                   <span>
