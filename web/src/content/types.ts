@@ -8,6 +8,15 @@ export type AnswerInfo = {
   source_pages: number[]
   mark_scheme_url: string | null
   mark_scheme_text: string
+  /** Per mark-scheme image: where each part's row sits, for peel-off tape. */
+  tape?: (MarkSchemeTape | null)[]
+}
+
+/** Fractions of the page. x: [table left, answer column left, table right]. */
+export type MarkSchemeTape = {
+  x: [number, number, number]
+  /** One band per part; `wide` also covers the Question column (merged cells). */
+  bands: { y: [number, number]; wide: boolean }[]
 }
 
 export type Question = {

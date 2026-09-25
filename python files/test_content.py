@@ -146,6 +146,16 @@ def check_subject(subject):
                 check(png_exists(url), f"{qid}: missing answer PNG {url}")
             if a["status"] == "available":
                 check(bool(a["mark_scheme_text"]) and bool(a["image_paths"]), f"{qid}: available answer is empty")
+            # Tape positions: one entry per page, bands in order and inside the page.
+            tapes = a.get("tape", [])
+            check(len(tapes) == len(a["image_paths"]), f"{qid}: {len(tapes)} tape entries for {len(a['image_paths'])} mark-scheme pages")
+            for t in tapes:
+                if t is None:
+                    continue
+                left, answer_left, right = t["x"]
+                check(0 <= left < answer_left < right <= 1, f"{qid}: tape columns {t['x']} out of order")
+                ys = [y for band in t["bands"] for y in band["y"]]
+                check(ys == sorted(ys) and all(0 <= y <= 1 for y in ys), f"{qid}: tape bands out of order or off the page")
 
     check(set(seen) == set(source), f"{subject}: {len(set(source) - set(seen))} manifest questions not exported")
     check_questions(subject, index)

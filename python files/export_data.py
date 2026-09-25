@@ -94,6 +94,125 @@ def find_duplicates(subject_dir, records):
     return duplicate_of, cross_topic
 
 
+# ---------- mark-scheme "tape": where each part's row sits on a page ----------
+# Mark-scheme pages are ruled tables (Question | Answer | Marks). A row whose
+# Question cell is empty continues the part above, so rows merge into one
+# band per part. The app covers the Answer and Marks columns of each band
+# with tape the student peels off, leaving the printed part label visible.
+
+RULE_FRACTION = 0.55  # a horizontal rule spans most of the page width
+TAPE_CACHE = Path(__file__).resolve().parent / ".cache" / "tape.json"
+TAPE_VERSION = 3
+_tape_cache = None
+
+
+def _runs(flags, gap=3):
+    """Centres of runs of True values (a rule is a few pixels thick)."""
+    runs = []
+    for i, on in enumerate(flags):
+        if not on:
+            continue
+        if runs and i - runs[-1][1] <= gap:
+            runs[-1][1] = i
+        else:
+            runs.append([i, i])
+    return [(a + b) // 2 for a, b in runs]
+
+
+def _detect_tape(image_path):
+    with Image.open(image_path) as im:
+        gray = im.convert("L")
+    width, height = gray.size
+    ink = gray.point(lambda v: 0 if v < 160 else 255).tobytes()
+    dark = lambda y, x0, x1: ink[y * width + x0:y * width + x1].count(0)  # noqa: E731
+    rules = _runs([dark(y, 0, width) / width > RULE_FRACTION for y in range(height)])
+    if len(rules) < 2:
+        return None
+    # Column rules, read from the header row between the first two rules, where
+    # every column border is drawn.
+    head_top, head_bottom = rules[0] + 3, rules[1] - 2
+    if head_bottom - head_top < 5:
+        return None
+    header = gray.crop((0, head_top, width, head_bottom)).point(lambda v: 0 if v < 160 else 255)
+    h_w, h_h = header.size
+    head = header.tobytes()
+    column_ink = [sum(head[r * h_w + x] == 0 for r in range(h_h)) / h_h for x in range(h_w)]
+    verticals = _runs([f > 0.9 for f in column_ink], gap=2)
+    if len(verticals) < 3:
+        return None
+    q_left, q_right, right = verticals[0], verticals[1], verticals[-1]
+
+    def in_table(y):  # the table's left border is drawn at this height
+        return dark(y, max(0, q_left - 2), q_left + 3) > 0
+
+    def divided(y0, y1):  # a Question | Answer divider runs through this band
+        return all(dark(y, q_right - 2, q_right + 3) for y in range(y0 + 4, max(y0 + 5, y1 - 3), 3))
+
+    # The last table on the page ends where its left border last appears (a table
+    # may run on to the next page without a bottom rule; gaps between tables are
+    # handled per band below).
+    bottom = next((y for y in range(height - 1, rules[1], -1) if in_table(y)), rules[1])
+    edges = sorted({*[r for r in rules if r <= bottom + 3], bottom})
+    bands, skip_next = [], True  # the first band is the header row
+    for y0, y1 in zip(edges, edges[1:]):
+        mid = (y0 + y1) // 2
+        if y1 - y0 < 6:
+            continue
+        if not in_table(mid):
+            skip_next = True  # a gap between two tables; the next band is a repeated header
+            continue
+        if skip_next:
+            skip_next = False
+            continue
+        if not divided(y0, y1):
+            # One cell across Question and Answer (e.g. program code): cover it all.
+            if bands and not bands[-1][2]:
+                bands[-1][1] = y1
+            else:
+                bands.append([y0, y1, True])
+            continue
+        labelled = any(dark(y, q_left + 4, q_right - 3) for y in range(y0 + 4, max(y0 + 5, y1 - 3)))
+        if labelled or not bands or bands[-1][2]:
+            bands.append([y0, y1, False])
+        else:
+            bands[-1][1] = y1  # continuation row: same part
+    if not bands:
+        return None
+    return {
+        # Tape runs from the Question column's right rule to the table's right edge;
+        # "wide" bands also cover the Question column.
+        "x": [round(q_left / width, 4), round(q_right / width, 4), round(right / width, 4)],
+        "bands": [{"y": [round(a / height, 4), round(b / height, 4)], "wide": wide} for a, b, wide in bands],
+    }
+
+
+def mark_scheme_tape(image_path):
+    """{"x": [table left, answer left, table right], "bands": [{"y": [y0, y1], "wide": bool}]}
+    as fractions of the page, or None when no table is found.
+
+    Cached on disk by path, size and modification time, so re-exports are fast.
+    """
+    global _tape_cache
+    if _tape_cache is None:
+        try:
+            _tape_cache = json.loads(TAPE_CACHE.read_text(encoding="utf-8"))
+            if _tape_cache.get("version") != TAPE_VERSION:
+                _tape_cache = {"version": TAPE_VERSION}
+        except (OSError, ValueError):
+            _tape_cache = {"version": TAPE_VERSION}
+    stat = image_path.stat()
+    key = f"{image_path.relative_to(ROOT)}:{stat.st_size}:{int(stat.st_mtime)}"
+    if key not in _tape_cache:
+        _tape_cache[key] = _detect_tape(image_path)
+    return _tape_cache[key]
+
+
+def save_tape_cache():
+    if _tape_cache is not None:
+        TAPE_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        TAPE_CACHE.write_text(json.dumps(_tape_cache), encoding="utf-8")
+
+
 def site_path(subject, path, base=""):
     """Turn a manifest path (relative to the subject dir, or to `base` within it) into a site-root URL."""
     joined = posixpath.normpath(posixpath.join(subject, base, path))
@@ -102,7 +221,7 @@ def site_path(subject, path, base=""):
     return "/" + joined
 
 
-def answer_info(subject, answer):
+def answer_info(subject, answer, subject_dir=None):
     if answer is None:
         return {"status": "missing", "reason": "No entry in answers-manifest.json", "image_paths": [],
                 "source_pages": [], "mark_scheme_url": None, "mark_scheme_text": ""}
@@ -111,6 +230,11 @@ def answer_info(subject, answer):
         "reason": answer.get("reason"),
         # Answer image paths are stored relative to the old topic HTML page.
         "image_paths": [site_path(subject, p, answer["topic_slug"]) for p in answer.get("image_paths", [])],
+        # Per image: where to lay tape over each part (null when no table was found).
+        "tape": [
+            mark_scheme_tape(ROOT / site_path(subject, p, answer["topic_slug"]).lstrip("/"))
+            for p in answer.get("image_paths", [])
+        ],
         "source_pages": answer.get("source_pages", []),
         "mark_scheme_url": answer.get("source_pdf_url"),
         "mark_scheme_text": answer.get("text", ""),
@@ -202,6 +326,7 @@ def export_subject(subject):
 
 def main():
     results = [export_subject(subject) for subject in SUBJECTS]
+    save_tape_cache()
     print(json.dumps(results, indent=2))
     return results
 

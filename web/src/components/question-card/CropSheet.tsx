@@ -1,5 +1,5 @@
 import { ImageOff, RotateCw } from 'lucide-react'
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 
 type LoadState = 'loading' | 'loaded' | 'error'
 
@@ -8,13 +8,15 @@ type Props = {
   alt: string
   sourcePdfUrl: string
   sourcePage?: number
+  /** Laid over the image once it has loaded, in the image's own coordinates. */
+  overlay?: ReactNode
   /** Fixtures only: pin the sheet in a state without a real network failure. */
   forceState?: 'loading' | 'error'
 }
 
 // One crop, shown as a sheet of paper on the desk. The PNGs are ~852px wide;
 // they scale down to the column and never overflow.
-export function CropSheet({ src, alt, sourcePdfUrl, sourcePage, forceState }: Props) {
+export function CropSheet({ src, alt, sourcePdfUrl, sourcePage, overlay, forceState }: Props) {
   const [state, setState] = useState<LoadState>('loading')
   const [attempt, setAttempt] = useState(0)
   const shown = forceState ?? state
@@ -58,6 +60,7 @@ export function CropSheet({ src, alt, sourcePdfUrl, sourcePage, forceState }: Pr
               className={`crop-img relative block h-auto w-full ${shown === 'loading' ? 'min-h-72 opacity-0' : ''}`}
             />
           )}
+          {shown === 'loaded' && overlay && <div className="absolute inset-0">{overlay}</div>}
           {forceState === 'loading' && <div className="min-h-72" />}
           {shown === 'loading' && <span className="sr-only">Loading question image</span>}
         </>

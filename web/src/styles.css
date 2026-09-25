@@ -16,6 +16,8 @@
   --color-rule-strong: #8c877e; /* input and control borders (>=3:1) */
   --color-mark: #c2410c; /* "examiner ink": ticks and scores */
   --color-sheet: #ffffff; /* behind a crop while it loads */
+  --color-tape: #e9dec6; /* masking tape over mark-scheme answers */
+  --color-tape-ink: #5c5344; /* 5.7:1 on the tape */
   --color-transparent: transparent;
   --color-current: currentColor;
 
@@ -47,6 +49,8 @@
   --color-rule-strong: #7a766d;
   --color-mark: #f4895b;
   --color-sheet: #d9d9d9;
+  --color-tape: #4b4538;
+  --color-tape-ink: #e6ddcb;
   --shadow-sheet: 0 1px 2px rgb(0 0 0 / 0.35), 0 2px 10px rgb(0 0 0 / 0.25);
   /* Crops stay paper, just dimmed. */
   --crop-filter: brightness(0.85);
@@ -115,6 +119,48 @@
   }
   .sheet-slide {
     animation: slide-in-up 180ms ease-out;
+  }
+
+  /* Peel-off tape: an opaque strip with darker ends, over one part's answer. */
+  .tape {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    container-type: size;
+    padding: 0 0.5rem;
+    border: 1px solid var(--color-rule-strong);
+    border-radius: 2px;
+    background:
+      linear-gradient(to right, rgb(0 0 0 / 0.08) 0 6px, transparent 6px calc(100% - 6px), rgb(0 0 0 / 0.08) calc(100% - 6px)),
+      var(--color-tape);
+    box-shadow: 0 1px 2px rgb(28 27 25 / 0.15);
+    color: var(--color-tape-ink);
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition:
+      opacity 180ms ease-out,
+      transform 180ms ease-out;
+  }
+  .tape:hover {
+    transform: translateY(-1px);
+  }
+  .tape[data-state="peeled"] {
+    opacity: 0;
+    transform: translateY(-6px) rotate(-0.6deg);
+    pointer-events: none;
+  }
+  .tape-inline {
+    position: relative;
+    width: 100%;
+    min-height: 2.25rem;
+    container-type: inline-size;
+  }
+  /* Thin strips (one-line parts) show no text, just the tape. */
+  @container (max-height: 1.4rem) {
+    .tape-label {
+      display: none;
+    }
   }
 
   .skeleton {

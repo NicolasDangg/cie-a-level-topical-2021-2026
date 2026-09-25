@@ -167,6 +167,36 @@ async function fullShot(page, file) {
   await context.close()
 }
 
+// 4b. Tape over the mark scheme: one strip per part, peel one, keyboard, reveal/cover all, off.
+{
+  const { context, page } = await newPage('tape')
+  await page.goto(`${BASE}/app/9702/9702-topic-12-motion-in-a-circle?answers=9702-2023-on-42-q01`)
+  await page.waitForSelector('#answer-panel [data-tape]')
+  const strips = page.locator('#answer-panel .crop-sheet [data-tape]')
+  const count = await strips.count()
+  if (count !== 6) fail(`tape: ${count} strips for 9702-2023-on-42-q01, expected 6 (one per part)`)
+  await axe(page, 'tape')
+  await page.screenshot({ path: path.join(outDir, 'tape-covered.png') })
+  await strips.nth(2).click() // 1(c)(i)
+  await page.waitForTimeout(300)
+  const states = await strips.evaluateAll((els) => els.map((e) => e.dataset.state))
+  if (states.join() !== 'on,on,peeled,on,on,on') fail(`tape: peeling part 3 gave ${states.join()}`)
+  const focused = await page.evaluate(() => document.activeElement?.getAttribute('aria-label'))
+  if (focused !== 'Reveal answer 4 of 6') fail(`tape: focus went to "${focused}", expected the next strip`)
+  await page.screenshot({ path: path.join(outDir, 'tape-one-peeled.png') })
+  await page.click('button:has-text("Reveal all")')
+  if ((await page.locator('#answer-panel .crop-sheet [data-state="on"]').count()) !== 0) fail('tape: Reveal all left strips on')
+  await page.click('button:has-text("Cover all")')
+  if ((await page.locator('#answer-panel .crop-sheet [data-state="on"]').count()) !== 6) fail('tape: Cover all did not re-tape')
+  await page.click('label:has-text("Tape over answers")')
+  if ((await strips.count()) !== 0) fail('tape: turning tape off left strips')
+  await page.reload()
+  await page.waitForSelector('#answer-panel .crop-sheet img')
+  await page.waitForTimeout(500)
+  if ((await page.locator('#answer-panel [data-tape]').count()) !== 0) fail('tape: off setting not remembered')
+  await context.close()
+}
+
 // 5. Screenshots, axe and overflow for each page type.
 const TOPIC = '/app/9702/9702-topic-12-motion-in-a-circle'
 const shots = [
