@@ -25,6 +25,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -56,6 +57,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -85,6 +87,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -116,6 +119,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2021-mj-41-q01",
       "answer": {
         "status": "available",
         "reason": null,
@@ -147,6 +151,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -178,6 +183,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -209,6 +215,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2021-on-41-q02",
       "answer": {
         "status": "available",
         "reason": null,
@@ -242,6 +249,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -275,6 +283,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -306,6 +315,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -337,6 +347,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2022-mj-41-q01",
       "answer": {
         "status": "available",
         "reason": null,
@@ -368,6 +379,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -401,6 +413,7 @@
         6
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -432,6 +445,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2022-on-41-q01",
       "answer": {
         "status": "available",
         "reason": null,
@@ -467,6 +481,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -500,6 +515,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -531,6 +547,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -564,6 +581,7 @@
         8
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -595,6 +613,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2023-on-41-q01",
       "answer": {
         "status": "available",
         "reason": null,
@@ -626,6 +645,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -657,6 +677,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -688,6 +709,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2024-mj-41-q01",
       "answer": {
         "status": "available",
         "reason": null,
@@ -719,6 +741,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -750,6 +773,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2024-on-41-q01",
       "answer": {
         "status": "available",
         "reason": null,
@@ -781,6 +805,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -812,6 +837,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -843,6 +869,7 @@
         9
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -874,6 +901,7 @@
         9
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "duplicate_of": "9702-2025-on-41-q03",
       "answer": {
         "status": "available",
         "reason": null,

@@ -69,6 +69,7 @@ def check_subject(subject):
     check(topic_files == {t["slug"] for t in index["topics"]}, f"{subject}: stray or missing topic files")
 
     seen = {}
+    duplicate_counts = []
     for topic in index["topics"]:
         slug = topic["slug"]
         data = load(CONTENT / subject / "topics" / f"{slug}.json")
@@ -81,6 +82,27 @@ def check_subject(subject):
         check([q["id"] for q in questions] == sorted(expected_ids, key=lambda i: (
                   source[i]["year"], source[i]["session_code"], source[i]["variant"], source[i]["question_number"])),
               f"{slug}: question order differs from the questions.html order")
+
+        # duplicate_of: an earlier question in this topic, same sitting and
+        # question number, same marks, never itself a duplicate.
+        position = {q["id"]: i for i, q in enumerate(questions)}
+        by_id = {q["id"]: q for q in questions}
+        dups = 0
+        for i, q in enumerate(questions):
+            target = q.get("duplicate_of", "missing")
+            if not check(target != "missing", f"{q['id']}: no duplicate_of field"):
+                continue
+            if target is None:
+                continue
+            dups += 1
+            t = by_id.get(target)
+            if not check(t is not None and position[target] < i, f"{q['id']}: duplicate_of {target} is not an earlier question in {slug}"):
+                continue
+            check(t["duplicate_of"] is None, f"{q['id']}: duplicate_of {target}, which is itself a duplicate")
+            check(all(t[k] == q[k] for k in ("year", "session_code", "paper", "question_number", "marks")) and t["variant"] != q["variant"],
+                  f"{q['id']}: duplicate_of {target} is a different sitting, question or mark total")
+        check(topic.get("distinct_count") == len(questions) - dups, f"{slug}: distinct_count {topic.get('distinct_count')} != {len(questions) - dups}")
+        duplicate_counts.append((slug, len(questions), len(questions) - dups))
 
         # While the old pages still exist, confirm order against them directly.
         old_html = ROOT / subject / slug / "questions.html"
@@ -122,6 +144,8 @@ def check_subject(subject):
                 check(bool(a["mark_scheme_text"]) and bool(a["image_paths"]), f"{qid}: available answer is empty")
 
     check(set(seen) == set(source), f"{subject}: {len(set(source) - set(seen))} manifest questions not exported")
+    for slug, total, distinct in duplicate_counts:
+        print(f"  {slug}: {total} questions, {distinct} distinct")
     return len(seen)
 
 

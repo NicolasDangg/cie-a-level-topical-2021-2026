@@ -23,6 +23,7 @@
         10
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -52,6 +53,7 @@
         10
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "duplicate_of": "9618-2021-on-31-q08",
       "answer": {
         "status": "available",
         "reason": null,
@@ -83,6 +85,7 @@
         13
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -112,6 +115,7 @@
         10
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -143,6 +147,7 @@
         13
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-mj-31-q08",
       "answer": {
         "status": "available",
         "reason": null,
@@ -174,6 +179,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -203,6 +209,7 @@
         6
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -236,6 +243,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2022-on-31-q06",
       "answer": {
         "status": "available",
         "reason": null,
@@ -265,6 +273,7 @@
         9
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -294,6 +303,7 @@
         6
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -323,6 +333,7 @@
         9
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "duplicate_of": "9618-2023-mj-31-q09",
       "answer": {
         "status": "available",
         "reason": null,
@@ -352,6 +363,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -381,6 +393,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -410,6 +423,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -439,6 +453,7 @@
         10
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -468,6 +483,7 @@
         9
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -497,6 +513,7 @@
         8
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -526,6 +543,7 @@
         5
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -557,6 +575,7 @@
         7
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,
@@ -586,6 +605,7 @@
         8
       ],
       "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "duplicate_of": null,
       "answer": {
         "status": "available",
         "reason": null,

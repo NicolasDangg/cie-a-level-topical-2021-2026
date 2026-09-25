@@ -9,55 +9,64 @@
       "number": 13,
       "label": "Data representation",
       "slug": "9618-topic-13-data-representation",
-      "question_count": 67
+      "question_count": 67,
+      "distinct_count": 48
     },
     {
       "number": 14,
       "label": "Communication and internet technologies",
       "slug": "9618-topic-14-communication-and-internet-technologies",
-      "question_count": 35
+      "question_count": 35,
+      "distinct_count": 26
     },
     {
       "number": 15,
       "label": "Hardware and virtual machines",
       "slug": "9618-topic-15-hardware-and-virtual-machines",
-      "question_count": 52
+      "question_count": 52,
+      "distinct_count": 38
     },
     {
       "number": 16,
       "label": "System software",
       "slug": "9618-topic-16-system-software",
-      "question_count": 52
+      "question_count": 52,
+      "distinct_count": 38
     },
     {
       "number": 17,
       "label": "Security",
       "slug": "9618-topic-17-security",
-      "question_count": 20
+      "question_count": 20,
+      "distinct_count": 16
     },
     {
       "number": 18,
       "label": "Artificial intelligence (AI)",
       "slug": "9618-topic-18-artificial-intelligence",
-      "question_count": 23
+      "question_count": 23,
+      "distinct_count": 17
     },
     {
       "number": 19,
       "label": "Computational thinking and problem-solving",
       "slug": "9618-topic-19-computational-thinking-and-problem-solving",
-      "question_count": 31
+      "question_count": 31,
+      "distinct_count": 23
     },
     {
       "number": 20,
       "label": "Further programming",
       "slug": "9618-topic-20-further-programming",
-      "question_count": 40
+      "question_count": 40,
+      "distinct_count": 30
     },
     {
       "number": null,
       "label": "Practical programming",
       "slug": "9618-practical-programming",
-      "question_count": 87
+      "question_count": 87,
+      "distinct_count": 62
     }
   ],
   "papers": [

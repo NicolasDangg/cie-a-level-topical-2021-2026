@@ -9,91 +9,106 @@
       "number": 12,
       "label": "Motion in a circle",
       "slug": "9702-topic-12-motion-in-a-circle",
-      "question_count": 10
+      "question_count": 10,
+      "distinct_count": 8
     },
     {
       "number": 13,
       "label": "Gravitational fields",
       "slug": "9702-topic-13-gravitational-fields",
-      "question_count": 28
+      "question_count": 28,
+      "distinct_count": 20
     },
     {
       "number": 14,
       "label": "Temperature",
       "slug": "9702-topic-14-temperature",
-      "question_count": 16
+      "question_count": 16,
+      "distinct_count": 10
     },
     {
       "number": 15,
       "label": "Ideal gases",
       "slug": "9702-topic-15-ideal-gases",
-      "question_count": 12
+      "question_count": 12,
+      "distinct_count": 10
     },
     {
       "number": 16,
       "label": "Thermodynamics",
       "slug": "9702-topic-16-thermodynamics",
-      "question_count": 30
+      "question_count": 30,
+      "distinct_count": 21
     },
     {
       "number": 17,
       "label": "Oscillations",
       "slug": "9702-topic-17-oscillations",
-      "question_count": 33
+      "question_count": 33,
+      "distinct_count": 25
     },
     {
       "number": 18,
       "label": "Electric fields",
       "slug": "9702-topic-18-electric-fields",
-      "question_count": 21
+      "question_count": 21,
+      "distinct_count": 16
     },
     {
       "number": 19,
       "label": "Capacitance",
       "slug": "9702-topic-19-capacitance",
-      "question_count": 24
+      "question_count": 24,
+      "distinct_count": 19
     },
     {
       "number": 20,
       "label": "Magnetic fields",
       "slug": "9702-topic-20-magnetic-fields",
-      "question_count": 45
+      "question_count": 45,
+      "distinct_count": 32
     },
     {
       "number": 21,
       "label": "Alternating currents",
       "slug": "9702-topic-21-alternating-currents",
-      "question_count": 34
+      "question_count": 34,
+      "distinct_count": 25
     },
     {
       "number": 22,
       "label": "Quantum physics",
       "slug": "9702-topic-22-quantum-physics",
-      "question_count": 27
+      "question_count": 27,
+      "distinct_count": 20
     },
     {
       "number": 23,
       "label": "Nuclear physics",
       "slug": "9702-topic-23-nuclear-physics",
-      "question_count": 30
+      "question_count": 30,
+      "distinct_count": 22
     },
     {
       "number": 24,
       "label": "Medical physics",
       "slug": "9702-topic-24-medical-physics",
-      "question_count": 31
+      "question_count": 31,
+      "distinct_count": 22
     },
     {
       "number": 25,
       "label": "Astronomy and cosmology",
       "slug": "9702-topic-25-astronomy-and-cosmology",
-      "question_count": 25
+      "question_count": 25,
+      "distinct_count": 19
     },
     {
       "number": null,
       "label": "Practical skills",
       "slug": "9702-practical-skills",
-      "question_count": 70
+      "question_count": 70,
+      "distinct_count": 51
     }
   ],
   "papers": [

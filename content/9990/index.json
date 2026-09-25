@@ -9,13 +9,15 @@
       "number": 1,
       "label": "Clinical Psychology",
       "slug": "9990-topic-01-clinical-psychology",
-      "question_count": 188
+      "question_count": 188,
+      "distinct_count": 130
     },
     {
       "number": 2,
       "label": "Consumer Psychology",
       "slug": "9990-topic-02-consumer-psychology",
-      "question_count": 188
+      "question_count": 188,
+      "distinct_count": 130
     }
   ],
   "papers": [
