@@ -1,0 +1,86 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2022-on-32-q11",
+  "subject": "9618",
+  "status": "rejected",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p02.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p03.png"
+  ],
+  "marks_total": 10,
+  "stem": "A simplified linked list is used to store the names of flowers in alphabetical order. It is implemented using two 1D arrays:\n\n• `Flower` stores the names of the flowers.\n• `NextPointer` stores the pointer to the next flower name in the list.\n\n`HeadPointer` indicates the index of the first flower name in the linked list.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Several flower names have been deleted from the linked list. These are crossed out in the following table.\n\nComplete the table to show the new values of `HeadPointer` and `NextPointer` to keep the remaining flower names in alphabetical order.\n\n[[fig:f2]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Complete the pseudocode algorithm so that it achieves the following when applied to the arrays:\n\n• The flower name is input.\n• The linked list is searched, in order, for the flower name.\n• If the flower name is found, an appropriate message is output to indicate it has been found.\n• If the flower name is not found, an appropriate message is output to indicate it has not been found.\n• The algorithm terminates when the next pointer value is 0.\n\n```\nPointer ← HeadPointer\nFound ← 0\nOUTPUT \"Enter a flower name \"\nIF Flower[Pointer] = FlowerName THEN\n    Found ← Pointer\n    Pointer ← 0\nELSE\nENDIF\nENDWHILE\nOUTPUT Flower[Found], \" is found\"\nELSE\nENDIF\n```",
+      "marks": 5,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Explain how you could improve the simplified linked list structure.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A table of array indices, flower names and NextPointer values from index 1 to 10.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0434,
+        0.1291,
+        0.9662,
+        0.5355
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": null,
+      "alt": "A table of flower names from index 1 to 10, with Marigold, Dahlia, Saxifrage and Hydrangea crossed out.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-32-q11-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2265,
+        0.6365,
+        0.7738,
+        0.9734
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2025-mj-31-q03",
+  "subject": "9990",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2025-mj-31-q03-p01.png"
+  ],
+  "marks_total": 6,
+  "stem": "Emi was unfairly dismissed from her job at a factory which she was very upset about. Afterwards, she started a fire at the factory, which made her feel better. Later she felt very anxious and purchased matches to relieve this anxiety. As she watched each match burn, she felt better. Although Emi has a new job in a shop, she is distracted by thoughts of starting a fire there. These thoughts make her feel very excited.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Using the diagnostic criteria (ICD-11) for pyromania:",
+      "text": "Suggest one reason why Emi may be diagnosed with pyromania.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Suggest one reason why Emi may not be diagnosed with pyromania.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "In relation to pyromania, Emi meets some of the diagnostic criteria and not others.\n\nExplain one other problem a doctor could have when making their diagnosis of Emi.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

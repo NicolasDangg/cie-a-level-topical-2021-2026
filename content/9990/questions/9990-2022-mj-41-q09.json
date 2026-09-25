@@ -1,0 +1,31 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2022-mj-41-q09",
+  "subject": "9990",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2022-mj-41-q09-p01.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "‘Psychometric measures used to assess obsessive-compulsive disorder (OCD) provide therapists with no useful information.’\n\nTo what extent do you agree with this statement? Use examples of research you have studied to support your answer.",
+      "marks": 12,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

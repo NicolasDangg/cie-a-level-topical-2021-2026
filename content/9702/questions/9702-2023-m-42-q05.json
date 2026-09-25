@@ -1,0 +1,101 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-m-42-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2023-m-42-q05-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2023-m-42-q05-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "A capacitor, a battery of electromotive force (e.m.f.) 12 V, a resistor *R* and a two-way switch are connected in the circuit shown in Fig. 5.1.\n\n[[fig:f1]]\n\nThe switch is initially in position S. When the capacitor is fully charged, the switch is moved to position T so that the capacitor discharges. At time *t* after the switch is moved the charge on the capacitor is *Q*.\n\nThe variation with *t* of ln (*Q*/μC) is shown in Fig. 5.2.\n\n[[fig:f2]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Show that the capacitance of the capacitor is 1.5 μF.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Determine the resistance of *R*.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "resistance",
+        "unit": "Ω"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Calculate the energy stored in the capacitor at time *t* = 0.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "A second identical resistor is now connected in parallel with *R*.\n\nThe switch is initially in position S. When the capacitor is fully charged, the switch is moved to position T so that the capacitor discharges. At time *t* after the switch is moved the charge on the capacitor is *Q*.\n\nOn Fig. 5.2, sketch a line to show the variation of ln (*Q*/μC) with *t* between time *t* = 0 and time *t* = 5.0 s.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A capacitor, resistor and two-way switch are connected with a 12 V battery.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2023-m-42-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3545,
+        0.0523,
+        0.6467,
+        0.2907
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "A graph of ln (Q/μC) against t/s has a straight line sloping downwards.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2023-m-42-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1279,
+        0.4477,
+        0.8744,
+        0.7206
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

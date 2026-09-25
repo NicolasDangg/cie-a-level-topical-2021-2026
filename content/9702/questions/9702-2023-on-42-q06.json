@@ -1,0 +1,130 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2023-on-42-q06-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2023-on-42-q06-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": "A capacitor *C* is charged so that the potential difference (p.d.) *V* across its terminals is 8.0 V. The capacitor is connected into the circuit of Fig. 6.1.\n\n[[fig:f1]]\n\nThe switch is initially open. The switch is closed at time *t* = 0.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Fig. 6.2 shows the variation of *V* with the charge *Q* on the plates of capacitor *C* as the capacitor discharges.\n\n[[fig:f2]]",
+      "text": "Show that the energy stored in capacitor *C* at time *t* = 0 is 1.8 mJ.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Determine the capacitance of capacitor *C*. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "capacitance",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 6.3 shows the variation with *t* of −ln($\\frac{V}{8.0\\ \\mathrm{V}}$).\n\n[[fig:f3]]",
+      "text": "Show that, when *t* is equal to one time constant, the value of −ln($\\frac{V}{8.0\\ \\mathrm{V}}$) is equal to 1.0.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the time constant *τ* of the circuit in Fig. 6.1.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "τ",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the resistance of resistor *R*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "resistance",
+        "unit": "Ω"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A circuit diagram showing a capacitor C, a switch and a resistor R connected in a loop, with 8.0 V marked across the capacitor.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2023-on-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3533,
+        0.0539,
+        0.6479,
+        0.1981
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "A graph of voltage V against charge Q, with a straight line rising from the origin to approximately 8 V.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2023-on-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2793,
+        0.3333,
+        0.723,
+        0.5338
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 6.3",
+      "alt": "A graph of −ln(V/8.0 V) against time t, with a straight line rising from the origin.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2023-on-42-q06-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0974,
+        0.0236,
+        0.7923,
+        0.2656
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

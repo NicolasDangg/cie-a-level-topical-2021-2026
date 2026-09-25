@@ -1,0 +1,59 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2023-mj-31-q12",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q12-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q12-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Describe what is meant by recursion.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A Fibonacci sequence is a series of numbers formed by adding together the two preceding numbers, for example:\n\n0, 1, 1, 2, ...\n\nThis function calculates and returns values in the Fibonacci sequence and uses recursion.\n\n```text\nFUNCTION Fib(Number : INTEGER) RETURNS INTEGER\n    IF Number <= 1 THEN\n        Result ← Number\n    ELSE\n        Result ← Fib(Number - 1) + Fib(Number - 2)\n    ENDIF\n    RETURN Result\nENDFUNCTION\n```\n\nComplete the trace table for the function when it is called as `Fib(5)`.\n\n[[fig:f1]]",
+      "marks": 5,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A trace table with columns Call number, Function call, Number, Result and Return value, with 5 entered in the first row under Number.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q12-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0423,
+        0.331,
+        0.9589,
+        0.8054
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

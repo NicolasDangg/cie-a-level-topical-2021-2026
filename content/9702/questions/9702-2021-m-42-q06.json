@@ -1,0 +1,88 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-m-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2021-m-42-q06-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2021-m-42-q06-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State a similarity between the gravitational field lines around a point mass and the electric field lines around a point charge.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "(b) The variation with radius *r* of the electric field strength *E* due to an isolated charged sphere in a vacuum is shown in Fig. 6.1.\n\n[[fig:f1]]\n\nUse data from Fig. 6.1 to:",
+      "text": "state the radius of the sphere",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "radius",
+        "unit": "cm"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "calculate the charge on the sphere.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "charge",
+        "unit": "C"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Using the formula for the electric potential due to an isolated point charge, determine the capacitance of the sphere in (b).",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "capacitance",
+        "unit": "F"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A graph of electric field strength against radius, with a curve that decreases as radius increases.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2021-m-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0681,
+        0.1876,
+        0.9249,
+        0.7311
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

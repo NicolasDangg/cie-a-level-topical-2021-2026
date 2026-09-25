@@ -1,0 +1,66 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2025-mj-33-q13",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q13-p01.png"
+  ],
+  "marks_total": 114,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "The recursive procedure `Delete()` is defined as follows:\n\n```text\nPROCEDURE Delete(Index, Target)\n    IF Numbers[Index] > 0 THEN\n        IF Numbers[Index] >= Target THEN\n            Numbers[Index] ← Numbers[Index + 1]\n        ENDIF\n        Index ← Index + 1\n        CALL Delete(Index, Target)\n    ENDIF\nENDPROCEDURE\n```\n\nAn array `Numbers` is used to store a sorted data set of non-zero positive integers. Unused cells contain zero.\n\nThe contents of the array at the start of the algorithm are:\n\n[[fig:f1]]\n\nComplete the trace table for the algorithm for the procedure call:\n\n`CALL Delete(1, 15)`\n\n[[fig:f2]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A table showing the contents of the array Numbers in cells [1] to [10].",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q13-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0516,
+        0.3021,
+        0.8451,
+        0.3926
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": null,
+      "alt": "A blank trace table with columns for Index, Target and Numbers cells [1] to [10], with the initial array values shown.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q13-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.007,
+        0.4696,
+        0.9894,
+        0.8213
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "part marks add up to 4, but the question is worth 114"
+  ]
+}

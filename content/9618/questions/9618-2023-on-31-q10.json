@@ -1,0 +1,69 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2023-on-31-q10",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-31-q10-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-31-q10-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "A stack is to be set up using the information in the table.\n\n[[fig:f1]]\n\nA constant, with identifier `Capacity`, limits the size of the stack to 25 items.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Write the pseudocode for the required declarations.",
+      "marks": 3,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Complete the pseudocode function `Pop()` to pop an item from `Stack`.\n\n```\n//  popping an item from the stack\n\nFUNCTION Pop()\n    DECLARE Item : REAL\n    Item ← 0\n\n    BasePointer THEN\n        Item ←\n        TopPointer ←\n    ELSE\n        OUTPUT \"The stack is empty - error\"\n    ENDIF\n\nENDFUNCTION\n```",
+      "marks": 5,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Compare and contrast the queue and stack Abstract Data Types (ADT).",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A three-column table lists the identifiers BasePointer, TopPointer and Stack, their data types INTEGER, INTEGER and REAL, and their descriptions.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-31-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1538,
+        0.037,
+        0.892,
+        0.1699
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

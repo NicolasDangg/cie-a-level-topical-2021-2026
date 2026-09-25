@@ -1,0 +1,52 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2022-on-31-q12",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-31-q12-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2022-on-31-q12-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "The array `Names[0:99]` is in alphabetical order.\n\nComplete this pseudocode binary search algorithm\n\n```\nLower ← 0\n...\nMid ← 0\nExit ← FALSE\nOUTPUT \"Enter the name to be found \"\nINPUT Target\nREPEAT\n    ... THEN\n        OUTPUT Target, \" does not exist\"\n        Exit ← TRUE\n    ENDIF\n    Mid ← Lower + (Upper – Lower + 1) DIV 2\n    IF Names[Mid] < Target THEN\n        Lower ← ...\n    ENDIF\n    IF Names[Mid] > Target THEN\n     ...\n    ENDIF\n\n    ... THEN\n        OUTPUT Target, \" was found at location \", Mid\n        Exit ← TRUE\n    ENDIF\n...\n```",
+      "marks": 6,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Big O notation is used to classify efficiency of algorithms.\n\nThe Big O notation for time complexity in a binary search is O(log *n*).",
+      "text": "State the Big O notation for time complexity of a linear search.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Describe the meaning of O(log *n*) as it applies to a binary search algorithm.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

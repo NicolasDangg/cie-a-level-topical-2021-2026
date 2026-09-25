@@ -1,0 +1,59 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2021-mj-31-q08",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-31-q08-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-31-q08-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State two factors that may affect the performance of a sorting algorithm.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The given algorithm is a simple bubble sort that arranges a set of scores stored in a one-dimensional array into descending order, and orders the corresponding students’ names stored in a two-dimensional array in the same order as the scores. All the arrays are indexed from 1.\n\nThe contents of both arrays after sorting are shown.\n\n[[fig:f1]]\n\n```text\nYearSize ← 249\nFlag ← TRUE\nWHILE Flag = TRUE\n    Flag ← FALSE\n    FOR Student ← 1 TO YearSize - 1\n        IF Score[Student] < Score[Student + 1] THEN\n            Temp1 ← Score[Student]\n            Temp2 ← Name[Student,1]\n            Temp3 ← Name[Student,2]\n            Score[Student] ← Score[Student + 1]\n            Name[Student,1] ← Name[Student + 1,1]\n            Name[Student,2] ← Name[Student + 1,2]\n            Score[Student + 1] ← Temp1\n            Name[Student + 1,1] ← Temp2\n            Name[Student + 1,2] ← Temp3\n            Flag ← TRUE\n        ENDIF\n    NEXT Student\nENDWHILE\n```\n\nWrite an algorithm, using pseudocode, that will perform the same task using an insertion sort.",
+      "marks": 6,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "Two indexed arrays show sorted scores and the corresponding student names, with entries 1, 2, 248 and 249 visible.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-mj-31-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.108,
+        0.2987,
+        0.8545,
+        0.5354
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2024-mj-31-q03",
+  "subject": "9990",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2024-mj-31-q03-p01.png"
+  ],
+  "marks_total": 6,
+  "stem": "Olivia has a bipolar disorder and is receiving cognitive restructuring as therapy. In her first session she said:\n\n‘My life used to be 100% perfect! I had an amazing job and friends. I stayed up one night to research an expensive holiday. Recently everything has changed. I am not working and have no energy. No one likes me, not even my family, as I am no fun to be with. I have cancelled the holiday. Why does this keep happening to me? I feel amazing for a while and then it all changes and I am depressed again.’",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Suggest how cognitive restructuring can help Olivia with both her depressive and manic episodes.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Explain one strength of using cognitive restructuring therapy with Olivia.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

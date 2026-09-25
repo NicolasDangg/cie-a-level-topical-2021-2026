@@ -1,0 +1,130 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2025-mj-42-q07-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2025-mj-42-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "Fig. 7.1 shows a circuit containing a capacitor of capacitance *C* and a resistor of resistance *R*.\n\n[[fig:f1]]\n\nInitially, the switch is open and the potential difference (p.d.) across the capacitor is 12 V.\n\nThe switch is closed at time *t* = 0 and the capacitor discharges through the resistor.\n\nFig. 7.2 shows the variation of the charge *Q* on the capacitor with the p.d. *V*<sub>C</sub> across the capacitor as the capacitor discharges. Fig. 7.3 shows the variation of the current *I* in the resistor with the p.d. *V*<sub>R</sub> across the resistor as the capacitor discharges.\n\n[[fig:f2]]\n\n[[fig:f3]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the relationship between *V*<sub>C</sub> and *V*<sub>R</sub>.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Determine:",
+      "text": "the capacitance *C*, in μF",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "C",
+        "unit": "μF"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the resistance *R*, in kΩ",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "R",
+        "unit": "kΩ"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "the time constant *τ* of the circuit.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "τ",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Use Fig. 7.2, Fig. 7.3 and your answer in (a) to explain why the variation of *Q* with *t* is exponential in nature.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A circuit contains a capacitor labelled C and a resistor labelled R, with an open switch.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2025-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2887,
+        0.0409,
+        0.7124,
+        0.1891
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A graph shows charge Q in mC increasing linearly with capacitor potential difference V_C in V.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2025-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0188,
+        0.3942,
+        0.4671,
+        0.5978
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A graph shows current I in mA increasing linearly with resistor potential difference V_R in V.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2025-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.5434,
+        0.3942,
+        0.9836,
+        0.5978
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

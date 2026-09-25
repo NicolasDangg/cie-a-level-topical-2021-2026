@@ -1,0 +1,71 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2021-on-31-q10",
+  "subject": "9618",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p02.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p03.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2021-on-31-q10-p04.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State three essential features of recursion.",
+      "marks": 3,
+      "kind": "written",
+      "slots": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Explain the reasons why a stack is a suitable Abstract Data Type (ADT) to implement recursion.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Identify two ADTs other than a stack.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "1",
+        "2"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The function `StackFull()` checks whether a stack is full.\n\nThe function uses the variable `TopOfStack` to represent the pointer to the most recent position used on the stack, and the variable `Max` to represent the maximum size of the stack. Assume `TopOfStack` and `Max` are global variables.\n\n```text\nFUNCTION StackFull() RETURNS BOOLEAN\n    IF TopOfStack = Max THEN\n        RETURN TRUE\n    ELSE\n        RETURN FALSE\n    ENDIF\nENDFUNCTION\n```\n\nAn algorithm `AddInteger` is required to add a new integer data element to a stack.\n\nThe stack is implemented as an array `ArrayStack`.\n\nThe function `AddInteger()` calls `StackFull()` and returns an appropriate message.\n\nComplete the pseudocode for the function `AddInteger()`.\n\n```text\nFUNCTION AddInteger(NewInteger : INTEGER) RETURNS STRING\n\nENDFUNCTION\n```",
+      "marks": 5,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

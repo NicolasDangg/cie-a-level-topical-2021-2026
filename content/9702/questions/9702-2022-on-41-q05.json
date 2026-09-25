@@ -1,0 +1,140 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-41-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-19-capacitance/assets/9702-2022-on-41-q05-p01.png",
+    "/9702/9702-topic-19-capacitance/assets/9702-2022-on-41-q05-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "A capacitor of capacitance 470 μF is connected to a battery of electromotive force (e.m.f.) 24 V in the circuit of Fig. 5.1.\n\n[[fig:f1]]\n\nThe two-way switch S is initially at position X.\n\nP and Q are identical long straight wires, each with a resistance of 5.6 kΩ. These wires are placed near to, and parallel to, each other. Wire Q is connected to a voltmeter.\n\nAt time *t* = 0, switch S is moved to position Y so that the capacitor discharges through wire P.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Calculate the charge *Q*₀ on the capacitor at time *t* = 0.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*Q*₀",
+        "unit": "C"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Calculate the current *I*₀ in wire P at time *t* = 0.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*I*₀",
+        "unit": "A"
+      }
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "Calculate the time constant *τ* of the discharge circuit.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*τ*",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "a-iv",
+      "label": "(a)(iv)",
+      "lead": null,
+      "text": "On Fig. 5.2, sketch a line to show the variation with *t* of the current *I* in wire P as the capacitor discharges.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "Explain why there is an induced e.m.f. across wire Q during the discharge of the capacitor.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 5.3, sketch a line to suggest the variation with *t* of the voltmeter reading *V*.\n\n[[fig:f3]]",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A circuit diagram shows a capacitor and battery connected through a two-way switch, with wire P and wire Q drawn parallel and a voltmeter connected across Q.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-on-41-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1127,
+        0.058,
+        0.8862,
+        0.401
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "Blank current-versus-time axes, with current I on the vertical axis, time t on the horizontal axis, and I₀ marked on the vertical axis.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-on-41-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.266,
+        0.2484,
+        0.7428,
+        0.4325
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 5.3",
+      "alt": "Blank voltmeter-reading-versus-time axes, with V on the vertical axis and t on the horizontal axis.",
+      "source_image": "/9702/9702-topic-19-capacitance/assets/9702-2022-on-41-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2946,
+        0.7226,
+        0.7523,
+        0.9039
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

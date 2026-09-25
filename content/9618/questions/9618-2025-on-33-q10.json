@@ -1,0 +1,41 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2025-on-33-q10",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-33-q10-p01.png"
+  ],
+  "marks_total": 6,
+  "stem": "A stack, `StackArray`, is to be implemented using pseudocode, to store a maximum of 100 string items in an appropriate array. Declarations are required so that the stack has a beginning, an end and a maximum size. An array is also required to store the data.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Write pseudocode to declare the variables, constant and array required to implement the stack.",
+      "marks": 3,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Write pseudocode for a procedure to initialise the top and bottom pointers of the stack to appropriate values.",
+      "marks": 3,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

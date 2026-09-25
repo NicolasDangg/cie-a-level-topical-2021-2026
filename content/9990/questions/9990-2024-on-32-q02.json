@@ -1,0 +1,41 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2024-on-32-q02",
+  "subject": "9990",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2024-on-32-q02-p01.png"
+  ],
+  "marks_total": 4,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Outline the idiographic versus nomothetic debate.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Explain one strength of using an idiographic approach to diagnosing schizophrenia.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

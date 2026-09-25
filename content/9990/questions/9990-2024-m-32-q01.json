@@ -1,0 +1,31 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9990-2024-m-32-q01",
+  "subject": "9990",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9990/9990-topic-01-clinical-psychology/assets/9990-2024-m-32-q01-p01.png"
+  ],
+  "marks_total": 4,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Prisha is hearing voices that seem real to her but no one else in her family can hear them. She tells her doctor about the voices and that her identical twin sister was diagnosed with schizophrenia three years ago. Prisha’s doctor diagnoses her with schizophrenia.\n\nOutline two explanations for Prisha’s diagnosis, based on what she told her doctor.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": []
+}

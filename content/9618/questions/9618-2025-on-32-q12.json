@@ -1,0 +1,72 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2025-on-32-q12",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-3",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p01.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p02.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p03.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p04.png",
+    "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p05.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "A stack has been implemented using pseudocode to store a maximum of 100 string items using the global variables in the following table:\n\n[[fig:f1]]\n\nThe value of `Top` is incremented each time a data item is added to the stack and decremented each time a data item is removed. If the stack is full, an appropriate error message is output.",
+      "text": "Complete the pseudocode for the procedure to add a data item onto the stack.\n\n```text\nPROCEDURE Push ()\n    IF Top < Max - 1 THEN\n\n        Top ←\n        ← NewData\n    ELSE\n\n        OUTPUT\n    ENDIF\nENDPROCEDURE\n```",
+      "marks": 4,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Write pseudocode to input a new data item and add it to the stack using Push().",
+      "marks": 2,
+      "kind": "code",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Explain the reasons why a stack is used when a recursive algorithm is executed.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A table listing the identifiers Base, Top, StackArray and Max, their data types, descriptions and initialisation values.",
+      "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-on-32-q12-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0634,
+        0.0593,
+        0.939,
+        0.2147
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}
