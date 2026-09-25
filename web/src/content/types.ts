@@ -113,4 +113,6 @@ export type ExtractedQuestion = {
   figures: ExtractedFigure[]
   notes: string[]
   problems?: string[]
+  /** Worth a look but never block approval (question_schema.warnings). */
+  warnings?: string[]
 }

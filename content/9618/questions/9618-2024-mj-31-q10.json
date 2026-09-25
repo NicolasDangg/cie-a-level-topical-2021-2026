@@ -48,5 +48,8 @@
   ],
   "figures": [],
   "notes": [],
-  "problems": []
+  "problems": [],
+  "warnings": [
+    "part b: code to complete has no [[blank]]. If the student fills in gaps, mark each one; if they write whole lines, this is fine"
+  ]
 }

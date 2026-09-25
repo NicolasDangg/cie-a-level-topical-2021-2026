@@ -100,6 +100,16 @@ def find_duplicates(subject_dir, records):
 # band per part. The app covers the Answer and Marks columns of each band
 # with tape the student peels off, leaving the printed part label visible.
 
+# The crop pipeline summed every "[N]" in a question's text as marks, so array
+# index labels ("[1] [2] … [10]") were counted too. These are the printed
+# totals, checked against each paper's 75 marks. generate_question_assets.py
+# now skips such labels; this fixes the existing manifests without a PDF run.
+MARKS_CORRECTIONS = {
+    "9618-2025-mj-33-q13": 4,   # two tables indexed [1]..[10]: counted 114
+    "9618-2021-on-41-q03": 28,  # arrays indexed [0]..[2]: counted 34
+    "9618-2021-on-42-q03": 28,
+}
+
 RULE_FRACTION = 0.55  # a horizontal rule spans most of the page width
 TAPE_CACHE = Path(__file__).resolve().parent / ".cache" / "tape.json"
 TAPE_VERSION = 3
@@ -250,7 +260,7 @@ def question_entry(subject, record, answer, duplicate_of=None):
         "paper": record["paper"],
         "variant": record["variant"],
         "question_number": record["question_number"],
-        "marks": record["marks"],
+        "marks": MARKS_CORRECTIONS.get(record["id"], record["marks"]),
         "image_paths": [site_path(subject, p) for p in record["image_paths"]],
         "source_pages": record["source_pages"],
         "source_pdf_url": record["source_pdf"],

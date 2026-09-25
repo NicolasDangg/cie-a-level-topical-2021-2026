@@ -19,7 +19,7 @@
       "partId": "a",
       "label": "(a)",
       "lead": null,
-      "text": "Complete this pseudocode algorithm for a linear search.\n\n```text\nDECLARE MyList : ARRAY[0:9] OF INTEGER\nDECLARE MaxIndex : INTEGER\nDECLARE Index : INTEGER\nDECLARE Found : BOOLEAN\nDECLARE ValueToFind : ...\n\nINPUT ValueToFind\nFound ← FALSE\nIndex ← 0\nMaxIndex ← ...\n\nREPEAT\n    IF MyList[Index] = ValueToFind THEN\n        Found ← TRUE\n    ENDIF\n    Index ← ...\nUNTIL Found OR Index > MaxIndex\n\nIF Found THEN\n    OUTPUT \"Value found at position \", Index\nELSE\n    OUTPUT ...\nENDIF\n```",
+      "text": "Complete this pseudocode algorithm for a linear search.\n\n```text\nDECLARE MyList : ARRAY[0:9] OF INTEGER\nDECLARE MaxIndex : INTEGER\nDECLARE Index : INTEGER\nDECLARE Found : BOOLEAN\nDECLARE ValueToFind : [[blank]]\n\nINPUT ValueToFind\nFound ← FALSE\nIndex ← 0\nMaxIndex ← [[blank]]\n\nREPEAT\n    IF MyList[Index] = ValueToFind THEN\n        Found ← TRUE\n    ENDIF\n    Index ← [[blank]]\nUNTIL Found OR Index > MaxIndex\n\nIF Found THEN\n    OUTPUT \"Value found at position \", Index\nELSE\n    OUTPUT [[blank]]\nENDIF\n```",
       "marks": 4,
       "kind": "code",
       "slots": null,
@@ -68,5 +68,6 @@
   ],
   "figures": [],
   "notes": [],
-  "problems": []
+  "problems": [],
+  "warnings": []
 }

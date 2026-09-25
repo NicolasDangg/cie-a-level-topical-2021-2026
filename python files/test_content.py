@@ -10,6 +10,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import question_schema  # noqa: E402
+from export_data import MARKS_CORRECTIONS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -17,6 +18,10 @@ SCHEMA = "topicalpaper-content/v2"
 SUBJECTS = ("9702", "9618", "9990")
 # Pinned totals (carried over from test_answer_links.py, 9990 added).
 EXPECTED_COUNTS = {"9702": 436, "9618": 407, "9990": 376}
+# Printed paper totals, by paper number. A question's marks are summed from its
+# text, so a total that doesn't match means marks were misread. 9990 isn't
+# checked: its papers print questions for options a student doesn't answer.
+PAPER_TOTALS = {"9702": {4: 100, 5: 30}, "9618": {3: 75, 4: 75}}
 ID_RE = re.compile(r"^(9702|9618|9990)-20\d\d-(m|mj|on)-\d\d-q\d\d$")
 
 failures = []
@@ -48,6 +53,7 @@ def check_subject(subject):
     manifest = json.loads((ROOT / subject / "manifest.json").read_text(encoding="utf-8"))
     answers = json.loads((ROOT / subject / "answers-manifest.json").read_text(encoding="utf-8"))
     source = {r["id"]: r for r in manifest["records"]}
+    paper_marks = {}  # (year, session, variant, paper) -> {question number: marks}
     source_answers = {a["id"]: a for a in answers["records"]}
 
     check(len(source) == len(manifest["records"]), f"{subject}: duplicate ids in manifest.json")
@@ -116,6 +122,7 @@ def check_subject(subject):
 
         for q in questions:
             qid = q["id"]
+            paper_marks.setdefault((q["year"], q["session_code"], q["variant"], q["paper"]), {})[q["question_number"]] = q["marks"] or 0
             check(qid not in seen, f"{qid}: appears in {seen.get(qid)} and {slug}")
             seen[qid] = slug
             check(bool(ID_RE.match(qid)), f"{qid}: malformed id")
@@ -124,7 +131,8 @@ def check_subject(subject):
             if not check(r is not None, f"{qid}: not in manifest.json"):
                 continue
             for key in ("year", "session", "session_code", "paper", "variant", "question_number", "marks", "source_pages"):
-                check(q[key] == r[key], f"{qid}: {key} {q[key]!r} != manifest {r[key]!r}")
+                expected = MARKS_CORRECTIONS.get(qid, r[key]) if key == "marks" else r[key]
+                check(q[key] == expected, f"{qid}: {key} {q[key]!r} != manifest {expected!r}")
             check(q["source_pdf_url"] == r["source_pdf"], f"{qid}: source PDF URL differs")
             # Same PNG files as before, just rooted at the site root.
             check(q["image_paths"] == [f"/{subject}/{p}" for p in r["image_paths"]], f"{qid}: image paths differ")
@@ -158,6 +166,10 @@ def check_subject(subject):
                 check(ys == sorted(ys) and all(0 <= y <= 1 for y in ys), f"{qid}: tape bands out of order or off the page")
 
     check(set(seen) == set(source), f"{subject}: {len(set(source) - set(seen))} manifest questions not exported")
+    for (year, session, variant, paper), marks in sorted(paper_marks.items()):
+        want = PAPER_TOTALS.get(subject, {}).get(paper)
+        check(want is None or sum(marks.values()) == want,
+              f"{subject} {year} {session} {variant}: questions add up to {sum(marks.values())} marks, the paper has {want}")
     check_questions(subject, index)
     for slug, total, distinct in duplicate_counts:
         print(f"  {slug}: {total} questions, {distinct} distinct")

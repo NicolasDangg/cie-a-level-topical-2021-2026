@@ -12,6 +12,7 @@ Text fields use a small format, and nothing else is interpreted:
   - $...$ for TeX (fractions, powers of expressions)
   - ``` fenced blocks ``` for pseudocode and program code, indentation kept
   - [[fig:ID]] on its own paragraph places a figure
+  - [[blank]] is a gap the student fills in, inside a sentence or code line
   - Unicode for units and symbols (m s⁻², ω, π)
 """
 from __future__ import annotations
@@ -29,10 +30,16 @@ SINGLE_PART = "main"
 FIGURE_REF = re.compile(r"\[\[fig:([A-Za-z0-9_-]+)\]\]")
 
 
+DOTS = re.compile(r"(?:\.\s?){5,}|(?:…\s?){2,}")
+BLANK = "[[blank]]"
+
+
 def _text_problems(where, text):
     problems = []
     if not isinstance(text, str) or not text.strip():
         return [f"{where}: empty text"]
+    if DOTS.search(text):
+        problems.append(f"{where}: answer dots left in the text; use [[blank]] for a gap")
     outside_code = re.sub(r"```.*?```", "", text, flags=re.S)
     if outside_code.count("```"):
         problems.append(f"{where}: unclosed ``` code block")
@@ -161,8 +168,27 @@ def problems(doc, question_marks=None):
     return found
 
 
+def warnings(doc):
+    """Things a reviewer should look at that may be fine. Unlike problems, these
+    never block approval."""
+    found = []
+    for i, part in enumerate(doc.get("parts") or []):
+        if not isinstance(part, dict):
+            continue
+        where = f"part {part.get('partId') or i + 1}"
+        text = part.get("text") or ""
+        if (part.get("kind") == "code" and "```" in text and BLANK not in text
+                and re.search(r"\bcomplete\b", text, re.I)):
+            found.append(f"{where}: code to complete has no [[blank]]. If the student fills in gaps, "
+                         "mark each one; if they write whole lines, this is fine")
+    return found
+
+
 def main(argv):
-    """Print the problems of each file as JSON: {path: [problems]}. Exit 1 if any."""
+    """Print the problems of each file as JSON: {path: [problems]}. Exit 1 if any.
+    With --with-warnings first: {path: {"problems": [...], "warnings": [...]}}."""
+    with_warnings = bool(argv) and argv[0] == "--with-warnings"
+    argv = argv[1:] if with_warnings else argv
     report = {}
     for path in argv:
         try:
@@ -171,9 +197,11 @@ def main(argv):
         except (OSError, ValueError) as exc:
             report[path] = [f"unreadable: {exc}"]
             continue
-        report[path] = problems(doc, doc.get("marks_total"))
+        found = problems(doc, doc.get("marks_total"))
+        report[path] = {"problems": found, "warnings": warnings(doc)} if with_warnings else found
     print(json.dumps(report, ensure_ascii=False))
-    return 1 if any(report.values()) else 0
+    failed = any(r["problems"] if with_warnings else r for r in report.values())
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":

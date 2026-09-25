@@ -163,6 +163,19 @@
     }
   }
 
+  /* A gap the student fills in, drawn like the exam's dotted line. */
+  .blank {
+    display: inline-block;
+    min-width: 6em;
+    height: 1em;
+    margin: 0 0.15em;
+    vertical-align: -0.2em;
+    border-bottom: 1.5px dotted var(--color-rule-strong);
+  }
+  .blank-line {
+    min-width: min(24em, 70%);
+  }
+
   .skeleton {
     background: var(--color-rule);
     animation: skeleton-pulse 1.4s ease-in-out infinite;

@@ -19,7 +19,7 @@
       "partId": "a",
       "label": "(a)",
       "lead": null,
-      "text": "The array `Names[0:99]` is in alphabetical order.\n\nComplete this pseudocode binary search algorithm\n\n```\nLower ← 0\n...\nMid ← 0\nExit ← FALSE\nOUTPUT \"Enter the name to be found \"\nINPUT Target\nREPEAT\n    ... THEN\n        OUTPUT Target, \" does not exist\"\n        Exit ← TRUE\n    ENDIF\n    Mid ← Lower + (Upper – Lower + 1) DIV 2\n    IF Names[Mid] < Target THEN\n        Lower ← ...\n    ENDIF\n    IF Names[Mid] > Target THEN\n     ...\n    ENDIF\n\n    ... THEN\n        OUTPUT Target, \" was found at location \", Mid\n        Exit ← TRUE\n    ENDIF\n...\n```",
+      "text": "The array `Names[0:99]` is in alphabetical order.\n\nComplete this pseudocode binary search algorithm\n\n```\nLower ← 0\n[[blank]]\nMid ← 0\nExit ← FALSE\nOUTPUT \"Enter the name to be found \"\nINPUT Target\nREPEAT\n    [[blank]] THEN\n        OUTPUT Target, \" does not exist\"\n        Exit ← TRUE\n    ENDIF\n    Mid ← Lower + (Upper – Lower + 1) DIV 2\n    IF Names[Mid] < Target THEN\n        Lower ← [[blank]]\n    ENDIF\n    IF Names[Mid] > Target THEN\n     [[blank]]\n    ENDIF\n\n    [[blank]] THEN\n        OUTPUT Target, \" was found at location \", Mid\n        Exit ← TRUE\n    ENDIF\n[[blank]]\n```",
       "marks": 6,
       "kind": "code",
       "slots": null,
@@ -48,5 +48,6 @@
   ],
   "figures": [],
   "notes": [],
-  "problems": []
+  "problems": [],
+  "warnings": []
 }

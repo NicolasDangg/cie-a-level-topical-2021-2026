@@ -177,6 +177,17 @@ def extract_range(page, top, bottom):
         lines.append(" ".join(line))
     return "\n".join(lines)
 
+def marks_in(text):
+    """Printed marks: a lone "[N]" on a line. Array index labels ("[1] [2] [3]")
+    and subscripts ("Scores[3]") are not marks."""
+    total = 0
+    for line in text.splitlines():
+        found = re.findall(r"(?<![\w\]])\[(\d+)\]", line)
+        if len(found) == 1:
+            total += int(found[0])
+    return total
+
+
 def question_spans(meta, starts):
     spans = []
     with pdfplumber.open(meta["path"]) as doc:
@@ -194,7 +205,7 @@ def question_spans(meta, starts):
                 text = extract_range(page, top, bottom)
                 ranges.append({"page": page_no, "top": top, "bottom": bottom})
                 text_parts.append(text)
-                marks += sum(int(n) for n in re.findall(r"\[(\d+)\]", text))
+                marks += marks_in(text)
             spans.append({
                 "question_number": start["question_number"],
                 "page_ranges": ranges,

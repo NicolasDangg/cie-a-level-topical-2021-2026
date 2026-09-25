@@ -11,7 +11,7 @@
   "source_images": [
     "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q13-p01.png"
   ],
-  "marks_total": 114,
+  "marks_total": 4,
   "stem": null,
   "parts": [
     {
@@ -60,7 +60,6 @@
     }
   ],
   "notes": [],
-  "problems": [
-    "part marks add up to 4, but the question is worth 114"
-  ]
+  "problems": [],
+  "warnings": []
 }

@@ -164,6 +164,22 @@ def main():
     found = " | ".join(question_schema.problems(bad, 10))
     check("duplicate slot labels" in found and "only written and code parts have slots" in found, f"6c: slot checks: {found}")
 
+    # 6d. Blanks: copied dots become [[blank]]; bare "..." only inside code; the
+    #     "code to complete" check is a warning, never a problem.
+    check(ex._mark_blanks("IF ............ THEN") == "IF [[blank]] THEN", "6d: dot run not marked")
+    code = "Complete it.\n\n```\nIndex ← ...\n    ...\nFOR i ← 1 TO 10\n```\nThen ... more."
+    marked = ex._mark_blanks(code)
+    check(marked.count("[[blank]]") == 2 and marked.endswith("Then ... more."), f"6d: code gaps wrong: {marked!r}")
+    fill = json.loads(json.dumps(good))
+    fill["parts"][5]["kind"] = "code"
+    fill["parts"][5]["text"] = "Complete the pseudocode.\n\n```\nIF X > 0 THEN\nENDIF\n```"
+    check(not question_schema.problems(fill, 10) and question_schema.warnings(fill),
+          f"6d: gap-less code should warn, not block: {question_schema.problems(fill, 10)}")
+    fill["parts"][5]["text"] = fill["parts"][5]["text"].replace("X > 0", "[[blank]]")
+    check(not question_schema.warnings(fill), "6d: warning despite a blank")
+    fill["parts"][5]["text"] += "\n\nAnswer ..........."
+    check(any("answer dots" in p for p in question_schema.problems(fill, 10)), "6d: leftover dots not caught")
+
     # 7. Fitting: an edge through a label moves past it; separate text stays out;
     #    fitting twice changes nothing.
     im = Image.new("L", (400, 300), 255)
@@ -177,24 +193,36 @@ def main():
     check(box[2] >= 300 and box[3] >= 228, f"7: label or value still cut off: {box}")
     check(box[1] > 18, f"7: box swallowed the text above: {box}")
     check(figure_fit.fit_box_px(mask, box) == box, "7: fitting is not idempotent")
+    roomy = (60, 40, 340, 260)  # answer space around the figure: must not be trimmed
+    check(figure_fit.fit_box_px(mask, roomy) == roomy, f"7: blank space trimmed: {figure_fit.fit_box_px(mask, roomy)}")
 
-    # 8. --refit-figures fixes boxes in written files and keeps their status.
+    # 8. --refit fixes draft boxes in written files and keeps their status.
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         (tmp / "9702" / "questions").mkdir(parents=True)
         doc = json.loads(json.dumps(good))
-        doc["status"] = "reviewed"
+        doc["status"] = "draft"
         doc["figures"][0]["box"] = [0.3, 0.3, 0.5, 0.4]  # cuts through the figure
         path = tmp / "9702" / "questions" / f"{QID}.json"
         path.write_text(json.dumps(doc), encoding="utf-8")
         real_content, ex.CONTENT = ex.CONTENT, tmp
         try:
-            ex.main(["--refit-figures"])
+            ex.main(["--refit-figures"])  # the old name still works
         finally:
             ex.CONTENT = real_content
         after = json.loads(path.read_text(encoding="utf-8"))
         b = after["figures"][0]["box"]
-        check(after["status"] == "reviewed" and b != [0.3, 0.3, 0.5, 0.4] and b[0] < 0.3 and b[2] > 0.5, f"8: refit gave {b}, {after['status']}")
+        check(after["status"] == "draft" and b != [0.3, 0.3, 0.5, 0.4] and b[0] < 0.3 and b[2] > 0.5, f"8: refit gave {b}, {after['status']}")
+        # A reviewed file's boxes are the reviewer's: refit leaves them.
+        after["status"] = "reviewed"
+        after["figures"][0]["box"] = [0.3, 0.3, 0.5, 0.4]
+        path.write_text(json.dumps(after), encoding="utf-8")
+        real_content, ex.CONTENT = ex.CONTENT, tmp
+        try:
+            ex.main(["--refit"])
+        finally:
+            ex.CONTENT = real_content
+        check(json.loads(path.read_text(encoding="utf-8"))["figures"][0]["box"] == [0.3, 0.3, 0.5, 0.4], "8: refit moved a reviewed box")
 
     if failures:
         print("\n".join(f"FAIL {f}" for f in failures))

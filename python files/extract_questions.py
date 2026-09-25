@@ -11,11 +11,12 @@ Reads the PNG crops only; never opens a PDF.
   python3 "python files/extract_questions.py" --pilot 2        (second pilot)
   python3 "python files/extract_questions.py" --subject 9702 --topic 9702-topic-12-motion-in-a-circle
   python3 "python files/extract_questions.py" --ids 9618-2021-mj-31-q04 --redo
-  python3 "python files/extract_questions.py" --refit-figures
+  python3 "python files/extract_questions.py" --refit
 
 Figure boxes are fitted to the pixels after the model answers (figure_fit.py),
-so an edge never cuts through a label. --refit-figures applies that to files
-already written, without calling a model, and keeps their status.
+so an edge never cuts through a label, and copied answer dots become [[blank]].
+--refit applies both to files already written, without calling a model, and
+keeps their status.
 
 Settings come from llm_config.py (OPENROUTER_API_KEY, OPENROUTER_MODEL).
 Model replies are cached in python files/.cache/extract/ (git-ignored), keyed
@@ -44,7 +45,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 CACHE = Path(__file__).resolve().parent / ".cache" / "extract"
 SUBJECTS = ("9702", "9618", "9990")
-PROMPT_VERSION = "q-extract-3"
+PROMPT_VERSION = "q-extract-4"
 PILOTS = {
     "1": {
         "9702": {"topics": ["9702-topic-12-motion-in-a-circle"]},
@@ -108,9 +109,14 @@ Text format (nothing else is interpreted):
 - $...$ TeX only when Unicode can't show it (fractions, powers of expressions).
 - Unicode for units and symbols: m s⁻², rad s⁻¹, ω, π, Ω, °, ×10⁻³.
 - Put [[fig:f1]] on its own paragraph exactly where the figure appears.
+- [[blank]] marks each gap the student fills in INSIDE a sentence or a line of code,
+  e.g. `IF [[blank]] THEN` or `Item ← [[blank]]`; a whole line left for the student
+  inside code is [[blank]] alone on that line. Keep every printed character around it.
+  Never drop a gap, and never copy its dots.
 - Diagrams, graphs, circuits and tables are figures, not text.
 
-Leave out: dotted answer lines, "[Total: N]", page numbers, "© UCLES", paper codes,
+Leave out: dotted answer lines BELOW a question for a written answer (gaps inside
+code or sentences are [[blank]], see above), "[Total: N]", page numbers, "© UCLES", paper codes,
 "[Turn over", "BLANK PAGE", and the question number itself."""
 
 
@@ -360,8 +366,8 @@ def to_question_file(subject, q, reply, model):
         parts.append({
             "partId": part.get("partId"),
             "label": part.get("label") if part.get("label") is not None else "",
-            "lead": part.get("lead") or None,
-            "text": part.get("text"),
+            "lead": _mark_blanks(part.get("lead")) or None,
+            "text": _mark_blanks(part.get("text")),
             "marks": part.get("marks"),
             "kind": kind,
             "slots": _slots(part.get("slots")) if kind in ("written", "code") else None,
@@ -381,7 +387,23 @@ def to_question_file(subject, q, reply, model):
         "notes": notes,
     }
     doc["problems"] = question_schema.problems(doc, q["marks"])
+    doc["warnings"] = question_schema.warnings(doc)
     return doc
+
+
+DOT_RUN = re.compile(r"(?:\.\s?){5,}|(?:…\s?){2,}")
+CODE_FENCE = re.compile(r"```.*?```", re.S)
+# Pseudocode never uses a bare "..." or "…", so in code it is always a gap.
+CODE_GAP = re.compile(r"(?<![\w.])(?:\.\.\.|…)(?![\w.])")
+
+
+def _mark_blanks(text):
+    """Gaps the model copied as dots become [[blank]]: 5+ dots or 2+ ellipses
+    anywhere, and a bare "..." or "…" inside code."""
+    if not isinstance(text, str):
+        return text
+    text = DOT_RUN.sub(lambda m: "[[blank]]" + (" " if m.group(0).endswith(" ") else ""), text)
+    return CODE_FENCE.sub(lambda m: CODE_GAP.sub("[[blank]]", m.group(0)), text)
 
 
 def _slots(value):
@@ -397,16 +419,33 @@ def write_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def refit_figures(args):
-    """Re-fit the boxes in files already written. Keeps status and everything else."""
+def refit(args):
+    """Apply today's clean-ups to files already written, without a model: fit figure
+    boxes (drafts only), turn copied dots into [[blank]], and re-check problems.
+    Keeps status."""
     changed = 0
     paths = sorted(CONTENT.glob(f"{args.subject or '*'}/questions/*.json"))
     if args.ids:
         paths = [p for p in paths if p.stem in set(args.ids)]
+    # Marks come from the exported topics, which may have been corrected since.
+    marks = {q["id"]: q["marks"] for subject in SUBJECTS if (CONTENT / subject / "index.json").is_file()
+             for _, questions in load_topics(subject) for q in questions}
     for path in paths:
         doc = json.loads(path.read_text(encoding="utf-8"))
+        before = json.dumps(doc, ensure_ascii=False)
+        doc["marks_total"] = marks.get(doc.get("id"), doc.get("marks_total"))
         moved = []
-        for fig in doc.get("figures") or []:
+        blanks = 0
+        if doc.get("stem"):
+            doc["stem"] = _mark_blanks(doc["stem"])
+        for part in doc.get("parts") or []:
+            for key in ("lead", "text"):
+                if isinstance(part.get(key), str):
+                    new_text = _mark_blanks(part[key])
+                    blanks += new_text.count("[[blank]]") - part[key].count("[[blank]]")
+                    part[key] = new_text
+        # A reviewer has checked (maybe dragged) the boxes of reviewed files: leave them.
+        for fig in (doc.get("figures") or []) if doc.get("status") == "draft" else []:
             box = fig.get("box")
             if not (isinstance(box, list) and len(box) == 4 and fig.get("source_image")):
                 continue
@@ -414,12 +453,17 @@ def refit_figures(args):
             if new != box:
                 fig["box"] = new
                 moved.append(fig.get("id"))
-        if moved:
-            doc["problems"] = question_schema.problems(doc, doc.get("marks_total"))
+        doc["problems"] = question_schema.problems(doc, doc.get("marks_total"))
+        doc["warnings"] = question_schema.warnings(doc)
+        if json.dumps(doc, ensure_ascii=False) != before:
             write_json(path, doc)
             changed += 1
-            print(f"  {doc['id']}: refitted {', '.join(map(str, moved))}")
-    print(f"Refitted figures in {changed} of {len(paths)} question file(s).")
+            what = [f"refitted {', '.join(map(str, moved))}"] if moved else []
+            what += [f"{blanks} blank(s) marked"] if blanks else []
+            what += [f"{len(doc['problems'])} problem(s) now"] if doc["problems"] else []
+            what += [f"{len(doc['warnings'])} warning(s)"] if doc["warnings"] else []
+            print(f"  {doc['id']}: {'; '.join(what) or 'problems re-checked'}")
+    print(f"Updated {changed} of {len(paths)} question file(s).")
     return 0
 
 
@@ -438,12 +482,13 @@ def main(argv=None):
     ap.add_argument("--force", action="store_true", help="also overwrite reviewed and rejected files")
     ap.add_argument("--dry-run", action="store_true", help="list what would be extracted; no key needed")
     ap.add_argument("--min-interval", type=float, default=4.0, help="seconds between requests (default 4)")
-    ap.add_argument("--refit-figures", action="store_true",
-                    help="fit figure boxes in existing question files to their labels; no model calls")
+    ap.add_argument("--refit", "--refit-figures", dest="refit", action="store_true",
+                    help="clean up existing question files (fit figure boxes, mark [[blank]]s, "
+                         "re-check problems); no model calls")
     ap.add_argument("--fake-responses", type=Path, help="read {id}.response.json from this folder instead of calling a model")
     args = ap.parse_args(argv)
-    if args.refit_figures:
-        return refit_figures(args)
+    if args.refit:
+        return refit(args)
 
     chosen = select(args)
     todo, skipped = [], []
@@ -499,6 +544,15 @@ def main(argv=None):
           f"{len(failed)} failed, {requests} model request(s).")
     for qid, err in failed:
         print(f"  failed {qid}: {err}")
+    touched = {}
+    for subject, slug, q in todo:
+        if output_path(subject, q["id"]).is_file():
+            touched.setdefault((subject, slug), 0)
+            touched[(subject, slug)] += 1
+    if touched:
+        print("\nTo review (npm run dev --prefix web, then open these; /app/dev/review lists them too):")
+        for (subject, slug), n in touched.items():
+            print(f"  {n:>3}  http://localhost:5173/app/dev/review/{subject}/{slug}")
     return 1 if failed else 0
 
 

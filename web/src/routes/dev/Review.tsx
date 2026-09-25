@@ -23,6 +23,7 @@ async function fetchExtracted(subject: string, id: string): Promise<ExtractedQue
 async function save(subject: string, doc: ExtractedQuestion): Promise<{ ok: boolean; doc?: ExtractedQuestion; error?: string }> {
   const body = { ...doc }
   delete body.problems
+  delete body.warnings
   const res = await fetch(`/__dev/questions/${subject}/${doc.id}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -57,19 +58,66 @@ function Frame({ title, children }: { title: string; children: ReactNode }) {
   )
 }
 
+type TopicState = { subject: string; slug: string; label: string; draft: number; problems: number; reviewed: number; rejected: number; none: number }
+
+function useReviewSummary() {
+  const [topics, setTopics] = useState<TopicState[] | null>(null)
+  useEffect(() => {
+    let live = true
+    fetch('/__dev/review-summary', { cache: 'no-store' })
+      .then((res) => res.json() as Promise<{ topics: TopicState[] }>)
+      .then((data) => live && setTopics(data.topics))
+      .catch(() => live && setTopics([]))
+    return () => {
+      live = false
+    }
+  }, [])
+  return topics
+}
+
 function ReviewIndex() {
+  const summary = useReviewSummary()
+  const toReview = summary?.filter((t) => t.draft > 0) ?? []
+  const bySlug = new Map(summary?.map((t) => [t.slug, t]))
   return (
     <Frame title="Pick a topic">
-      <main id="main" className="mx-auto grid max-w-5xl gap-8 px-5 py-8 sm:grid-cols-3">
-        {SUBJECTS.map((s) => (
-          <SubjectTopics key={s.code} code={s.code} name={s.name} />
-        ))}
+      <main id="main" className="mx-auto max-w-5xl px-5 py-8">
+        <section aria-labelledby="to-review" className="mb-8 rounded-md border border-rule-strong bg-paper px-5 py-4">
+          <h2 id="to-review" className="m-0 mb-2 font-serif text-lg font-semibold">
+            To review
+          </h2>
+          {summary === null ? (
+            <p className="m-0 text-sm text-ink-muted">Loading…</p>
+          ) : toReview.length === 0 ? (
+            <p className="m-0 text-sm text-ink-muted">Nothing waiting. Extract more questions to review them here.</p>
+          ) : (
+            <ul className="m-0 list-none space-y-1.5 p-0 text-sm">
+              {toReview.map((t) => (
+                <li key={t.slug} className="flex flex-wrap items-baseline gap-x-2">
+                  <Link to={`/dev/review/${t.subject}/${t.slug}`} className="font-medium text-ink underline decoration-rule-strong underline-offset-2">
+                    <span className="font-mono text-ink-muted">{t.subject}</span> {t.label}
+                  </Link>
+                  <span className="text-ink-muted">
+                    {t.draft} draft{t.draft === 1 ? '' : 's'}
+                    {t.problems > 0 && ` (${t.problems} with problems)`}
+                    {t.reviewed > 0 && ` · ${t.reviewed} reviewed`}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+        <div className="grid gap-8 sm:grid-cols-3">
+          {SUBJECTS.map((s) => (
+            <SubjectTopics key={s.code} code={s.code} name={s.name} states={bySlug} />
+          ))}
+        </div>
       </main>
     </Frame>
   )
 }
 
-function SubjectTopics({ code, name }: { code: string; name: string }) {
+function SubjectTopics({ code, name, states }: { code: string; name: string; states: Map<string, TopicState> }) {
   const index = useResource(`subject:${code}`, () => loadSubject(code))
   return (
     <section>
@@ -83,13 +131,20 @@ function SubjectTopics({ code, name }: { code: string; name: string }) {
               <Link to={`/dev/review/${code}/${t.slug}`} className="text-ink underline decoration-rule-strong underline-offset-2">
                 {t.label}
               </Link>{' '}
-              <span className="text-ink-muted">({t.distinct_count})</span>
+              <span className="text-ink-muted">({t.distinct_count})</span> <TopicProgress state={states.get(t.slug)} />
             </li>
           ))}
         </ul>
       )}
     </section>
   )
+}
+
+/** "3 to review · 5 ✓" after a topic in the subject lists. */
+function TopicProgress({ state }: { state?: TopicState }) {
+  const parts = [state?.draft && `${state.draft} to review`, state?.reviewed && `${state.reviewed} reviewed`].filter(Boolean)
+  if (!state || parts.length === 0) return null
+  return <span className={`text-xs ${state.draft > 0 ? 'font-medium text-mark' : 'text-ink-muted'}`}>· {parts.join(' · ')}</span>
 }
 
 function ReviewTopic({ subject, slug }: { subject: string; slug: string }) {
@@ -263,6 +318,7 @@ function QuestionReview({
     if (!shown) return
     const copy = { ...shown }
     delete copy.problems
+    delete copy.warnings
     setDraft(JSON.stringify(copy, null, 2))
     setMoved({}) // the JSON carries any moved boxes now
     setEditing(true)
@@ -351,6 +407,16 @@ function QuestionReview({
             <ul className="m-0 pl-5 text-ink-muted">
               {problems.map((p) => (
                 <li key={p}>{p}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {doc && (doc.warnings?.length ?? 0) > 0 && (
+          <div className="mb-4 rounded-md border border-mark px-4 py-3 text-sm">
+            <p className="m-0 mb-1 font-medium">Check before approving</p>
+            <ul className="m-0 pl-5 text-ink-muted">
+              {doc.warnings!.map((w) => (
+                <li key={w}>{w}</li>
               ))}
             </ul>
           </div>
