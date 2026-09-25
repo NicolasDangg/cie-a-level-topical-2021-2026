@@ -10,6 +10,11 @@ Reads the PNG crops only; never opens a PDF.
   python3 "python files/extract_questions.py" --pilot
   python3 "python files/extract_questions.py" --subject 9702 --topic 9702-topic-12-motion-in-a-circle
   python3 "python files/extract_questions.py" --ids 9618-2021-mj-31-q04 --redo
+  python3 "python files/extract_questions.py" --refit-figures
+
+Figure boxes are fitted to the pixels after the model answers (figure_fit.py),
+so an edge never cuts through a label. --refit-figures applies that to files
+already written, without calling a model, and keeps their status.
 
 Settings come from llm_config.py (OPENROUTER_API_KEY, OPENROUTER_MODEL).
 Model replies are cached in python files/.cache/extract/ (git-ignored), keyed
@@ -32,12 +37,13 @@ from pathlib import Path
 from PIL import Image
 
 import question_schema
+from figure_fit import fit_box
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 CACHE = Path(__file__).resolve().parent / ".cache" / "extract"
 SUBJECTS = ("9702", "9618", "9990")
-PROMPT_VERSION = "q-extract-1"
+PROMPT_VERSION = "q-extract-2"
 PILOT = {
     "9702": {"topics": ["9702-topic-12-motion-in-a-circle"]},
     "9618": {"ids": ["9618-2021-mj-31-q04", "9618-2021-mj-31-q06", "9618-2021-mj-31-q09"]},
@@ -68,7 +74,9 @@ Return one JSON object with these keys:
   "figures": [
     {"id": "f1", "image": index of the crop it is in (0 for the first image),
      "box": [x0, y0, x1, y1] as FRACTIONS (0 to 1) of that image's width and height,
-            tight around the figure, NOT including its caption line (give that as "caption"),
+            around the whole figure INCLUDING every label, value, angle, arrow and axis
+            number that belongs to it (when unsure, make the box larger), but NOT its
+            caption line (give that as "caption"),
      "caption": e.g. "Fig. 1.1", "alt": one sentence describing what it shows}
   ],
   "notes": ["anything you could not read or were unsure of"]
@@ -304,7 +312,7 @@ def to_question_file(subject, q, reply, model):
                 scale = (w, h, w, h) if fits else (1000,) * 4
                 box = [min(1, max(0, n / s)) for n, s in zip(box, scale)]
                 notes.append(f"Figure {fig.get('id')}: box was not given as fractions; check its crop.")
-            box = [round(n, 4) for n in box]
+            box = fit_box(files[index], box)
         figures.append({
             "id": str(fig.get("id") or f"f{len(figures) + 1}"),
             "caption": fig.get("caption") or None,
@@ -349,6 +357,32 @@ def write_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def refit_figures(args):
+    """Re-fit the boxes in files already written. Keeps status and everything else."""
+    changed = 0
+    paths = sorted(CONTENT.glob(f"{args.subject or '*'}/questions/*.json"))
+    if args.ids:
+        paths = [p for p in paths if p.stem in set(args.ids)]
+    for path in paths:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        moved = []
+        for fig in doc.get("figures") or []:
+            box = fig.get("box")
+            if not (isinstance(box, list) and len(box) == 4 and fig.get("source_image")):
+                continue
+            new = fit_box(ROOT / fig["source_image"].lstrip("/"), box)
+            if new != box:
+                fig["box"] = new
+                moved.append(fig.get("id"))
+        if moved:
+            doc["problems"] = question_schema.problems(doc, doc.get("marks_total"))
+            write_json(path, doc)
+            changed += 1
+            print(f"  {doc['id']}: refitted {', '.join(map(str, moved))}")
+    print(f"Refitted figures in {changed} of {len(paths)} question file(s).")
+    return 0
+
+
 # ---------- main ----------------------------------------------------------------
 
 def main(argv=None):
@@ -362,8 +396,12 @@ def main(argv=None):
     ap.add_argument("--force", action="store_true", help="also overwrite reviewed and rejected files")
     ap.add_argument("--dry-run", action="store_true", help="list what would be extracted; no key needed")
     ap.add_argument("--min-interval", type=float, default=4.0, help="seconds between requests (default 4)")
+    ap.add_argument("--refit-figures", action="store_true",
+                    help="fit figure boxes in existing question files to their labels; no model calls")
     ap.add_argument("--fake-responses", type=Path, help="read {id}.response.json from this folder instead of calling a model")
     args = ap.parse_args(argv)
+    if args.refit_figures:
+        return refit_figures(args)
 
     chosen = select(args)
     todo, skipped = [], []

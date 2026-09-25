@@ -3,6 +3,7 @@
 // Uses content/9702/questions/9702-2023-on-42-q01.json and always restores it.
 // Checks: renders text, figure and units; approve with A; an edit that breaks
 // the marks is saved as a draft with the problem shown and Approve disabled;
+// figure boxes drag, nudge with arrows (without changing question) and save;
 // no console errors; no axe violations.
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { createRequire } from 'node:module'
@@ -37,6 +38,34 @@ try {
   const { violations } = await page.evaluate(() => window.axe.run(document))
   for (const v of violations) problems.push(`axe ${v.id}: ${v.help} (${v.nodes.map((n) => n.target.join(' ')).slice(0, 2).join(' | ')})`)
   await page.screenshot({ path: path.join(outDir, 'review-draft.png'), fullPage: true })
+
+  // Figure box editor: drag the right edge out, nudge with the keyboard, save.
+  const before = JSON.parse(readFileSync(file, 'utf8')).figures[0].box
+  const box = page.locator('[data-figure-box="f1"]')
+  const b = await box.boundingBox()
+  const scan = await page.locator('section[aria-label="Original scan"] figure').first().boundingBox()
+  await page.mouse.move(b.x + b.width, b.y + b.height / 2)
+  await page.mouse.down()
+  await page.mouse.move(b.x + b.width - 40, b.y + b.height / 2, { steps: 4 })
+  await page.mouse.up()
+  await box.focus()
+  await page.keyboard.press('ArrowDown')
+  if (!(await page.url()).includes(ID)) problems.push('arrow key on a figure box changed question')
+  const previewAspect = await page.$eval('article figure > div', (el) => el.style.aspectRatio)
+  await page.locator('button:has-text("Save boxes")').click()
+  await page.waitForSelector('button:has-text("Save boxes")', { state: 'detached' })
+  const after = JSON.parse(readFileSync(file, 'utf8')).figures[0].box
+  const expectedRight = before[2] - 40 / scan.width
+  if (Math.abs(after[2] - expectedRight) > 0.01) problems.push(`drag not saved: right edge ${after[2]}, expected ~${expectedRight.toFixed(3)}`)
+  if (Math.abs(after[1] - before[1] - 0.004) > 1e-6) problems.push(`arrow nudge not saved: top ${before[1]} -> ${after[1]}`)
+  if (!previewAspect || previewAspect === 'auto') problems.push('preview figure missing')
+  if (JSON.parse(readFileSync(file, 'utf8')).status !== JSON.parse(original).status) problems.push('saving boxes changed the status')
+  const axe2 = await page.evaluate(() => window.axe.run(document))
+  for (const v of axe2.violations) problems.push(`axe (boxes) ${v.id}: ${v.help}`)
+  await page.screenshot({ path: path.join(outDir, 'review-boxes.png') })
+  writeFileSync(file, original.replace('"status": "reviewed"', '"status": "draft"'))
+  await page.reload({ waitUntil: 'networkidle' })
+  await page.waitForSelector('article section[aria-label="Part (b)"]')
 
   await page.keyboard.press('a')
   await page.waitForURL((u) => !u.search.includes(ID))

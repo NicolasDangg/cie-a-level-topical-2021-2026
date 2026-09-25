@@ -6,6 +6,7 @@ import { CropSheet } from '../../components/question-card/CropSheet'
 import { QuestionText } from '../../components/question-text/QuestionText'
 import { SUBJECTS, isSubject, loadSubject, loadTopic, useResource } from '../../content/api'
 import type { ExtractedQuestion, Question } from '../../content/types'
+import { FigureBoxes, type Box } from './FigureBoxes'
 
 // Dev-only review of extracted questions: the scan beside its extraction.
 // Saving goes through the dev server's /__dev/questions endpoint.
@@ -217,6 +218,13 @@ function QuestionReview({
   const [draft, setDraft] = useState('')
   const [message, setMessage] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
+  // Figure boxes moved on the scan but not saved yet, by figure id.
+  const [moved, setMoved] = useState<Record<string, Box>>({})
+  const boxesDirty = Object.keys(moved).length > 0
+  const shown = useMemo(
+    () => (doc && boxesDirty ? { ...doc, figures: doc.figures.map((f) => (moved[f.id] ? { ...f, box: moved[f.id] } : f)) } : doc),
+    [doc, moved, boxesDirty],
+  )
 
   const submit = useCallback(
     async (next: ExtractedQuestion) => {
@@ -230,27 +238,35 @@ function QuestionReview({
         return result.ok
       }
       setMessage(`Not saved: ${result.error}`)
-      return false
+      return null // null: nothing was written
     },
     [subject, onSaved],
   )
 
+  const saveBoxes = useCallback(async () => {
+    if (!shown) return
+    if ((await submit(shown)) !== null) setMoved({})
+  }, [shown, submit])
+
   const setStatus = useCallback(
     async (status: ExtractedQuestion['status']) => {
-      if (!doc) return
-      const ok = await submit({ ...doc, status })
+      if (!shown) return
+      // Approving or rejecting also keeps any box changes.
+      const ok = await submit({ ...shown, status })
+      if (ok !== null) setMoved({})
       if (ok && status !== 'draft') onNext()
     },
-    [doc, submit, onNext],
+    [shown, submit, onNext],
   )
 
   const startEdit = useCallback(() => {
-    if (!doc) return
-    const copy = { ...doc }
+    if (!shown) return
+    const copy = { ...shown }
     delete copy.problems
     setDraft(JSON.stringify(copy, null, 2))
+    setMoved({}) // the JSON carries any moved boxes now
     setEditing(true)
-  }, [doc])
+  }, [shown])
 
   const saveEdit = useCallback(async () => {
     let parsed: ExtractedQuestion
@@ -267,6 +283,7 @@ function QuestionReview({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement
+      if (e.defaultPrevented || target.closest('[data-figure-box]')) return
       if (target.closest('textarea, input, [contenteditable]')) {
         if (editing && e.key === 'Enter' && (e.metaKey || e.ctrlKey)) {
           e.preventDefault()
@@ -352,10 +369,39 @@ function QuestionReview({
 
       <div className="grid grid-cols-2 items-start gap-6">
         <section aria-label="Original scan" className="flex flex-col gap-3">
-          <h2 className="m-0 text-xs font-medium uppercase tracking-wide text-ink-muted">Original scan</h2>
-          {q.image_paths.map((src, i) => (
-            <CropSheet key={src} src={src} alt={`${q.id} scan, page ${i + 1}`} sourcePdfUrl={q.source_pdf_url} sourcePage={q.source_pages[i]} />
-          ))}
+          <div className="flex min-h-9 flex-wrap items-center gap-x-3 gap-y-2">
+            <h2 className="m-0 text-xs font-medium uppercase tracking-wide text-ink-muted">Original scan</h2>
+            {shown && shown.figures.length > 0 && (
+              <span className="text-xs text-ink-muted">Drag a figure box or its edges to fix the crop.</span>
+            )}
+            {boxesDirty && (
+              <span className="ml-auto flex gap-2">
+                <ActionButton onClick={() => void saveBoxes()} disabled={busy} primary icon={<Check size={15} aria-hidden />}>
+                  Save boxes
+                </ActionButton>
+                <ActionButton onClick={() => setMoved({})} disabled={busy} icon={<RotateCcw size={15} aria-hidden />}>
+                  Undo
+                </ActionButton>
+              </span>
+            )}
+          </div>
+          {q.image_paths.map((src, i) => {
+            const figures = shown && !editing ? shown.figures.filter((f) => f.source_image === src) : []
+            return (
+              <CropSheet
+                key={src}
+                src={src}
+                alt={`${q.id} scan, page ${i + 1}`}
+                sourcePdfUrl={q.source_pdf_url}
+                sourcePage={q.source_pages[i]}
+                overlay={
+                  figures.length > 0 ? (
+                    <FigureBoxes figures={figures} onChange={(id, box) => setMoved((m) => ({ ...m, [id]: box }))} />
+                  ) : undefined
+                }
+              />
+            )
+          })}
         </section>
         <section aria-label="Extraction" className="flex flex-col gap-3">
           <h2 className="m-0 text-xs font-medium uppercase tracking-wide text-ink-muted">
@@ -397,7 +443,7 @@ function QuestionReview({
           )}
           {doc && !editing && (
             <article className="rounded-[2px] border border-rule bg-paper px-6 py-5 shadow-sheet">
-              <QuestionText question={doc} />
+              <QuestionText question={shown ?? doc} />
             </article>
           )}
         </section>

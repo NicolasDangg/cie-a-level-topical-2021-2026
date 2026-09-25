@@ -196,7 +196,7 @@ One file per **distinct** question (repeats reuse their original), `content/{sub
 
 - `id`, `status` (`draft` | `reviewed` | `rejected`), `extracted_with` (model, prompt version, date), `source_images`, `marks_total`, `stem` (text before part (a), or null)
 - `parts`: in order, each with `partId` (`a`, `c-ii`), `label` (`(c)(ii)`), `lead` (text shared by a group of sub-parts, on the first of them), `text`, `marks`, `kind` (`numeric` | `written` | `diagram` | `code`), and for numeric parts `answer: { symbol, unit }`.
-- `figures`: `{ id, caption, alt, source_image, source_size, box }`. A figure is a box (fractions of the image) on an existing crop; the app shows it by clipping that image, so there are no figure files and a wrong box is fixed by editing four numbers.
+- `figures`: `{ id, caption, alt, source_image, source_size, box }`. A figure is a box (fractions of the image) on an existing crop; the app shows it by clipping that image, so there are no figure files and a wrong box is fixed by editing four numbers. Model boxes are then fitted to the pixels (`python files/figure_fit.py`): an edge that cuts through ink moves out until it clears the label, and blank margins are trimmed to a small pad. `extract_questions.py --refit-figures` re-applies this to written files without model calls, and `/dev/review` lets a reviewer drag a box or its edges on the scan.
 - `notes` (the model's uncertainties) and `problems` (validator output, recomputed on every save).
 - Text format: paragraphs, `*italic*`, `` `code` ``, `$TeX$` (rendered with KaTeX), fenced code blocks, and `[[fig:ID]]` placing a figure. Nothing else is interpreted.
 - No mark-scheme text, ever. The extractor is only ever shown question crops.

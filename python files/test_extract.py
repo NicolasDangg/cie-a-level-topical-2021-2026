@@ -3,7 +3,8 @@
 
 Covers: JSON-mode fallback, rate-limit retry, the daily cap stopping a run,
 repairing a non-JSON reply, fenced replies, caching, never overwriting a
-reviewed file, box normalisation, and the question_schema checks.
+reviewed file, box normalisation, fitting boxes to labels, --refit-figures,
+and the question_schema checks.
 Uses the real crops of 9702-2023-on-42-q01; never calls a real model.
 """
 import json
@@ -14,8 +15,11 @@ import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 
+from PIL import Image, ImageDraw
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract_questions as ex  # noqa: E402
+import figure_fit  # noqa: E402
 import question_schema  # noqa: E402
 
 QID = "9702-2023-on-42-q01"
@@ -108,7 +112,8 @@ def main():
         code, reqs, left = run(tmp, [reply("Sorry, the answer is below"), reply(json.dumps(pixel))], "--force")
         doc = json.loads(out.read_text(encoding="utf-8"))
         check(code == 0 and len(reqs) == 2 and not left, f"4: repair flow exit {code}, requests {len(reqs)}")
-        check(abs(doc["figures"][0]["box"][0] - 80 / 852) < 1e-3 and any("fractions" in n for n in doc["notes"]), "4: pixel box not normalised/flagged")
+        expected = figure_fit.fit_box(ex.ROOT / doc["figures"][0]["source_image"].lstrip("/"), [80 / 852, 222 / 1242, 760 / 852, 590 / 1242])
+        check(doc["figures"][0]["box"] == expected and any("fractions" in n for n in doc["notes"]), "4: pixel box not normalised/flagged")
 
         # 5. The daily cap stops the run cleanly without writing.
         ex.CACHE = tmp / "cache3"
@@ -131,6 +136,38 @@ def main():
     found = " | ".join(question_schema.problems(bad, 10))
     for expected in ("add up to 12", "[[fig:f9]] has no matching figure", "placed 0 times", "numeric part needs answer"):
         check(expected in found, f"6: schema missed '{expected}' in: {found}")
+
+    # 7. Fitting: an edge through a label moves past it; separate text stays out;
+    #    fitting twice changes nothing.
+    im = Image.new("L", (400, 300), 255)
+    d = ImageDraw.Draw(im)
+    d.rectangle((20, 10, 380, 18), fill=0)       # a line of question text above
+    d.ellipse((100, 60, 260, 220), outline=0)    # the figure
+    d.rectangle((262, 130, 300, 140), fill=0)    # its label "52.2°", sticking out right
+    d.rectangle((140, 222, 200, 228), fill=0)    # a value just under the figure
+    mask = figure_fit.ink_mask(im)
+    box = figure_fit.fit_box_px(mask, (98, 58, 280, 222))
+    check(box[2] >= 300 and box[3] >= 228, f"7: label or value still cut off: {box}")
+    check(box[1] > 18, f"7: box swallowed the text above: {box}")
+    check(figure_fit.fit_box_px(mask, box) == box, "7: fitting is not idempotent")
+
+    # 8. --refit-figures fixes boxes in written files and keeps their status.
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+        (tmp / "9702" / "questions").mkdir(parents=True)
+        doc = json.loads(json.dumps(good))
+        doc["status"] = "reviewed"
+        doc["figures"][0]["box"] = [0.3, 0.3, 0.5, 0.4]  # cuts through the figure
+        path = tmp / "9702" / "questions" / f"{QID}.json"
+        path.write_text(json.dumps(doc), encoding="utf-8")
+        real_content, ex.CONTENT = ex.CONTENT, tmp
+        try:
+            ex.main(["--refit-figures"])
+        finally:
+            ex.CONTENT = real_content
+        after = json.loads(path.read_text(encoding="utf-8"))
+        b = after["figures"][0]["box"]
+        check(after["status"] == "reviewed" and b != [0.3, 0.3, 0.5, 0.4] and b[0] < 0.3 and b[2] > 0.5, f"8: refit gave {b}, {after['status']}")
 
     if failures:
         print("\n".join(f"FAIL {f}" for f in failures))
