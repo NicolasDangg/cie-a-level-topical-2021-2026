@@ -1,0 +1,509 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 14,
+    "label": "Temperature",
+    "slug": "9702-topic-14-temperature"
+  },
+  "questions": [
+    {
+      "id": "9702-2021-m-42-q03",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2021-m-42-q03-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2021-m-42-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p10.png",
+          "/9702/answer-assets/9702_m21_ms_42-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a) Any 2 from: B2\n• particles / atoms / molecules / ions (very) close together / touching\n• regular, repeating pattern\n• vibrate about a fixed point\n\n3(b) (much) greater increase in spacing of molecules (for vaporisation compared with fusion) B1\n\n3(c)(i) –100 °C B1\n© UCLES 2021 Page 10 of 19\n\n3(c)(ii) time = 8.5 – 3.0 C1\n= 5.5 min\nPt = mL C1\nenergy = power × time = 150 × 5.5 × 60\n= 49 500 J\nE\nL =\nm\n49 500\n=\n0.045\n=1100 kJ kg −1 A1\n\n3(c)(iii) gas has a higher specific heat capacity (than liquid) B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q08",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 8,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2021-mj-41-q08-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2021-mj-41-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "8(a) V+ = 3.0 × 3.0 / (2.5 + 3.0) C1\n= 1.6 V A1\n\n8(b) V – is +2.0 V B1\nor\nV – > V +\noutput is negative so (LED) does not emit light B1\n\n8(c) at 0 °C, V – = 1.7 V B1\nor\nfor all temperatures above 0 °C, resistance of thermistor < 4.2 kΩ\nV – always greater than V + (so no switching) B1\n\n8(d) (at 20 °C,) R = 1.8 kΩ C1\nT\n2.5 / 3.0 = 1.8 / R C1\nor\n[R / (R + 1.8)] × 3.0 = 1.6\nR = 2.2 kΩ A1\n© UCLES 2021 Page 14 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-42-q07",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2021-mj-42-q07-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2021-mj-42-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_42-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a)(i) no current enters/leaves the input B1\n\n7(a)(ii) gain is the same for all frequencies B1\n\n7(b)(i) V = 1.5 × 400 / (400 + 1100) = 0.40 V A1\nIN\nor\nV = 1.5 – (1.5 × 1100 / 1500) = 0.40 V\nIN\nor\n(1.5 – V ) / 1100 = V / 400 so V = 0.40 V\nIN IN IN\n\n7(b)(ii) gain = (–) R /R C1\nf i\nV /0.40 = (360 + 100) / 96 C1\nOUT\nV = 1.9 V A1\nOUT\n\n7(b)(iii) resistance of thermistor decreases B1\n(magnitude of) gain decreases so reading decreases B1\n\n7(b)(iv) (at gain 12.5) V is 5.0 V, so (above gain 12.5) output becomes saturated B1\nOUT\n© UCLES 2021 Page 14 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q08",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 8,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2021-mj-43-q08-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2021-mj-43-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "8(a) V+ = 3.0 × 3.0 / (2.5 + 3.0) C1\n= 1.6 V A1\n\n8(b) V – is +2.0 V B1\nor\nV – > V +\noutput is negative so (LED) does not emit light B1\n\n8(c) at 0 °C, V – = 1.7 V B1\nor\nfor all temperatures above 0 °C, resistance of thermistor < 4.2 kΩ\nV – always greater than V + (so no switching) B1\n\n8(d) (at 20 °C,) R = 1.8 kΩ C1\nT\n2.5 / 3.0 = 1.8 / R C1\nor\n[R / (R + 1.8)] × 3.0 = 1.6\nR = 2.2 kΩ A1\n© UCLES 2021 Page 14 of 18"
+      }
+    },
+    {
+      "id": "9702-2022-on-41-q02",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 2,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2022-on-41-q02-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2022-on-41-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_41-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_41.pdf?download=true",
+        "mark_scheme_text": "2(a) • resistance of a metal B2\n• volume of a gas at constant pressure\n• e.m.f. of a thermocouple\nAny two points, 1 mark each\n\n2(b)(i) Q = mcT C1\nevidence of realisation that Q lost by water = Q gained by mercury C1\n18.7  4.18  (37.4 – T) = 6.94  0.140  (T – 23.0) C1\nT = 37.2 °C A1\n\n2(b)(ii) use a liquid with a lower (specific) heat capacity (than mercury) B1\nor\nuse a smaller mass of mercury\n\n2(c)(i) depends on properties of a real substance B1\n0 °C is not absolute zero B1\n\n2(c)(ii) ideal gas B1\n© UCLES 2022 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-on-43-q02",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 2,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2022-on-43-q02-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2022-on-43-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_43-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_43.pdf?download=true",
+        "mark_scheme_text": "2(a) • resistance of a metal B2\n• volume of a gas at constant pressure\n• e.m.f. of a thermocouple\nAny two points, 1 mark each\n\n2(b)(i) Q = mcT C1\nevidence of realisation that Q lost by water = Q gained by mercury C1\n18.7  4.18  (37.4 – T) = 6.94  0.140  (T – 23.0) C1\nT = 37.2 °C A1\n\n2(b)(ii) use a liquid with a lower (specific) heat capacity (than mercury) B1\nor\nuse a smaller mass of mercury\n\n2(c)(i) depends on properties of a real substance B1\n0 °C is not absolute zero B1\n\n2(c)(ii) ideal gas B1\n© UCLES 2022 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-mj-41-q03",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 3,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2023-mj-41-q03-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2023-mj-41-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_41-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_41.pdf?download=true",
+        "mark_scheme_text": "3(a) no net thermal energy is transferred (between them) B1\n\n3(b)(i) variation (of density with temperature) is linear B1\nor\neach temperature has a unique value of density\n\n3(b)(ii)  variation (of density with temperature) is not linear B2\n region where the density does not vary with temperature\n different temperatures have the same density\nAny two points, 1 mark each\n\n3(c)(i) boiling point = 80 °C A1\n\n3(c)(ii) Q = Pt and t = 21 s C1\n(thermal energy supplied = 810  21 = 17000 J)\nc = Q / m C1\nthermal energy absorbed by beaker = 42  0.84  (80 – 25) C1\n( = 1940 J)\ns.h.c. of liquid = [(810  21) – (42  0.84  (80 – 25))] / [120  (80 – 25)] A1\n= 2.3 J g–1 K–1\n\n3(d) sketch: straight diagonal line from 25 °C to 100 °C and then horizontal at 100 °C B1\nstraight diagonal line starting at 25 °C with gradient approximately half that of the original line B1\n© UCLES 2023 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-mj-43-q03",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 3,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2023-mj-43-q03-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2023-mj-43-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_43-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_43.pdf?download=true",
+        "mark_scheme_text": "3(a) no net thermal energy is transferred (between them) B1\n\n3(b)(i) variation (of density with temperature) is linear B1\nor\neach temperature has a unique value of density\n\n3(b)(ii)  variation (of density with temperature) is not linear B2\n region where the density does not vary with temperature\n different temperatures have the same density\nAny two points, 1 mark each\n\n3(c)(i) boiling point = 80 °C A1\n\n3(c)(ii) Q = Pt and t = 21 s C1\n(thermal energy supplied = 810  21 = 17000 J)\nc = Q / m C1\nthermal energy absorbed by beaker = 42  0.84  (80 – 25) C1\n( = 1940 J)\ns.h.c. of liquid = [(810  21) – (42  0.84  (80 – 25))] / [120  (80 – 25)] A1\n= 2.3 J g–1 K–1\n\n3(d) sketch: straight diagonal line from 25 °C to 100 °C and then horizontal at 100 °C B1\nstraight diagonal line starting at 25 °C with gradient approximately half that of the original line B1\n© UCLES 2023 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-mj-41-q02",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 2,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2024-mj-41-q02-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2024-mj-41-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_41-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_41.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) 0 K B1\n\n2(a)(ii) (measurement) depends on properties of the liquid B1\n\n2(b)(i)  resistivity varies with temperature B2\n variation with temperature is linear\n unique value of resistivity for each (different value of) temperature\nAny two points, 1 mark each\n\n2(b)(ii) thermometer has high heat capacity/specific heat capacity B1\nor\nenergy transfer needed for thermometer to reach correct temperature\nor\nthermometer takes time to reach the correct temperature\n\n2(b)(iii) thermocouple B1\n\n2(c) (variation is) inverse B1\nor\n(variation is) non-linear\n© Cambridge University Press & Assessment 2024 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-mj-43-q02",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 2,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2024-mj-43-q02-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2024-mj-43-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_43-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_43.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) 0 K B1\n\n2(a)(ii) (measurement) depends on properties of the liquid B1\n\n2(b)(i)  resistivity varies with temperature B2\n variation with temperature is linear\n unique value of resistivity for each (different value of) temperature\nAny two points, 1 mark each\n\n2(b)(ii) thermometer has high heat capacity/specific heat capacity B1\nor\nenergy transfer needed for thermometer to reach correct temperature\nor\nthermometer takes time to reach the correct temperature\n\n2(b)(iii) thermocouple B1\n\n2(c) (variation is) inverse B1\nor\n(variation is) non-linear\n© Cambridge University Press & Assessment 2024 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-41-q02",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 2,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2024-on-41-q02-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2024-on-41-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_41-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_41.pdf?download=true",
+        "mark_scheme_text": "2(a) (thermal) energy per unit mass (to change temperature) B1\n(thermal) energy per unit change in temperature B1\n\n2(b)(i) Any three bulleted points from: B3\n• the blocks end up in thermal equilibrium\n• heat capacity of Y is larger than heat capacity of X\n• no heat loss to the surroundings\nUp to 2 points from these six:\n• initial temperature of X = 85 °C\n• initial temperature of Y = 25 °C\n• the temperature change of X = 45 °C\n• the temperature change of Y = 15 °C\n• the temperature change in X is three times that in Y\n• final temperature of both = 40 °C\n\n2(b)(ii)  = 45 °C for X and 15 °C for Y C1\nmc  45 = 1.3  m  901  15 C1\nc = 390 J kg K–1 A1\n© Cambridge University Press & Assessment 2024 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-43-q02",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 2,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2024-on-43-q02-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2024-on-43-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_43-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_43.pdf?download=true",
+        "mark_scheme_text": "2(a) (thermal) energy per unit mass (to change temperature) B1\n(thermal) energy per unit change in temperature B1\n\n2(b)(i) Any three bulleted points from: B3\n• the blocks end up in thermal equilibrium\n• heat capacity of Y is larger than heat capacity of X\n• no heat loss to the surroundings\nUp to 2 points from these six:\n• initial temperature of X = 85 °C\n• initial temperature of Y = 25 °C\n• the temperature change of X = 45 °C\n• the temperature change of Y = 15 °C\n• the temperature change in X is three times that in Y\n• final temperature of both = 40 °C\n\n2(b)(ii)  = 45 °C for X and 15 °C for Y C1\nmc  45 = 1.3  m  901  15 C1\nc = 390 J kg K–1 A1\n© Cambridge University Press & Assessment 2024 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2025-m-42-q03",
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p02.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p03.png"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m25_ms_42-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a)(i) (P and Q are at the) same temperature B1\nno net transfer of thermal energy (between P and Q) B1\n\n3(a)(ii) Q = mcT C1\n24 103 = (0.54  390  T) + (0.37  910  T) C1\nT = 44K A1\n\n3(b)(i) work done = pV C1\n= (1.6  105)  (0.18 – 0.32) C1\n= –2.2  104J A1\n\n3(b)(ii) pV = NkT C1\nN = (1.6  105  0.18) / (1.38  10–23  273) A1\n= 7.6  1024\n\n3(b)(iii) ½m<c2> = (3 / 2)kT C1\nr.m.s. speed = √[(3  1.38  10–23  (210 + 273) / (4.7  10–26)] A1\n= 650ms–1\n© Cambridge University Press & Assessment 2025 Page 8 of 14"
+      }
+    },
+    {
+      "id": "9702-2025-mj-41-q03",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2025-mj-41-q03-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_41-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_41.pdf?download=true",
+        "mark_scheme_text": "3(a) (thermal) energy per unit mass (to cause state change) B1\n(thermal) energy to change state at constant temperature B1\n\n3(b) (for vaporisation): B1\ninvolves greater change in volume (of substance)\nor\ninvolves greater increase in separation of molecules\nmore work has to be done by molecules (to separate) M1\nor\ngreater increase in potential energy of molecules\nkinetic energy of molecules unchanged, so more thermal energy needed A1\n\n3(c) Q = mc and Q = mL C1\n for the water = 26.4 – 10.3 C1\n(37.0 × L) + (37.0 × 4.18 × 10.3) = (208 × 4.18 × 16.1) C1\nL = 335 J g–1 A1\n© Cambridge University Press & Assessment 2025 Page 11 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-mj-43-q03",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2025-mj-43-q03-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_43-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_43.pdf?download=true",
+        "mark_scheme_text": "3(a) (thermal) energy per unit mass (to cause state change) B1\n(thermal) energy to change state at constant temperature B1\n\n3(b) (for vaporisation): B1\ninvolves greater change in volume (of substance)\nor\ninvolves greater increase in separation of molecules\nmore work has to be done by molecules (to separate) M1\nor\ngreater increase in potential energy of molecules\nkinetic energy of molecules unchanged, so more thermal energy needed A1\n\n3(c) Q = mc and Q = mL C1\n for the water = 26.4 – 10.3 C1\n(37.0 × L) + (37.0 × 4.18 × 10.3) = (208 × 4.18 × 16.1) C1\nL = 335 J g–1 A1\n© Cambridge University Press & Assessment 2025 Page 11 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-on-42-q03",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-14-temperature/assets/9702-2025-on-42-q03-p01.png",
+        "/9702/9702-topic-14-temperature/assets/9702-2025-on-42-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_42-p10.png",
+          "/9702/answer-assets/9702_w25_ms_42-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_42.pdf?download=true",
+        "mark_scheme_text": "3(a) same temperature B1\nno net transfer of thermal energy (between them) B1\n\n3(b)(i) density B1\n\n3(b)(ii) Any two points from: B2\n• large response time / large time to reach equilibrium\nor\ncannot measure rapidly changing temperatures\n• reaching equilibrium requires (significant) transfer of energy\nor\nchanges temperature of environment being measured\nor\ncannot measure temperature of small objects\n• bulky / difficult to set up\nor\ndifficult to take readings / scale not calibrated to read temperature\nor\ncannot measure temperature of solid objects\n\n3(b)(iii) substance with large mass B1\nor\ntemperature that is constant (over time)\nor\nto calibrate other thermometers (in a laboratory)\n© Cambridge University Press & Assessment 2025 Page 10 of 17\n\n3(b)(iv) 0 °C = 273 K C1\nT = 273  (7.83 – 2.31) / (8.69 – 2.31) C1\n( = 236 K)\n = 236 – 273 A1\n= – 37 °C\nQuestion Answer Marks"
+      }
+    }
+  ]
+}

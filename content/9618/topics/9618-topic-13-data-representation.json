@@ -1,0 +1,2006 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 13,
+    "label": "Data representation",
+    "slug": "9618-topic-13-data-representation"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-mj-31-q01",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 14,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-31-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-31-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p03.png",
+          "/9618/answer-assets/9618_s21_ms_31-p04.png"
+        ],
+        "source_pages": [
+          3,
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) Working: one mark for calculation of the mantissa and one mark for 3\ncalculation or use of the exponent\nExponent: one from:\n= 0.11101 × 23 // 0.11101 × 211 // 0.11101 × 103 // 0.11101 × 1011\n= 1.00011 × 23 // 1.00011 × 211 // 1.00011 × 103 // 1.00011 × 1011\n= appropriate shifting of binary point for +7.25\nMantissa: one from:\n= 111.01 (conversion to binary +7.25 – 10 bits)\n= 0111010000 (mantissa 10 bits for +7.25\n= 1000101111(one’s complement mantissa for –7.25)\n= 1000110000 (two’s complement mantissa for –7.25)\nCorrect Answer (Max 1)\nMantissa Exponent\n\n1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1\n\n1(b) One mark for working out the exponent 3\nOne mark for working out the mantissa\nOne mark for the correct answer\nExample answers\n• =1.011000111 × 27 (exponent is 7)\n• =10110001.11 // –128 + 32 + 16 + 1 + 0.5 + 0.25 // convert to positive\n01001110.01 (and add a minus sign to the answer)\n• –78.25\n\n1(c) One mark for working 3\nOne mark for correct mantissa\nOne mark for correct exponent\nExample answers\nNumber of places added to exponent for normalisation −6 for number to\nretain its value // mantissa moved 6 places left\nMantissa\n0 1 1 1 0 0 0 0 0 0\nExponent\n\n1 0 0 0 0 1\n\n1(d)(i) One mark for each correct marking point (Max 3) 3\n• Requires 11 bits / more than 10 bits to store (accurately) / reference to\nmaximum (positive) number that can be stored = 511\n• Denary 513 in binary is 1000000001 // Normalised: 0.1000000001\n• Results in overflow\n© UCLES 2021 Page 3 of 10\n\n1(d)(ii) One mark for each correct marking point (Max 2) 2\n• The number of bits for the mantissa must be increased\n• 11/12 bits mantissa and 5/4 bits exponent\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-31-q02",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-31-q02-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for each correct marking point (Max 2) 2\n• To create a new data type (from existing data types)\n• To allow data types not available in a programming language to be\nconstructed // To extend the flexibility of the programming language\n\n2(b)(i) TYPE SchoolDay = (Monday, Tuesday, Wednesday, Thursday, 1\nFriday)\n\n2(b)(ii) TYPE WeekEnd = (Saturday, Sunday) 1\n\n2(c) One mark for each marking point (Max 4) 4\n• TYPE ClubMeet and ENDTYPE correct\n• DECLARE FirstName and DECLARE LastName included with correct\ndata types\n• DECLARE Schoolday included with correct data types from part 2(b)(i)\n• DECLARE Weekend included with correct data types from part 2(b)(ii)\nExample answer\nTYPE ClubMeet\nDECLARE FirstName : STRING\nDECLARE LastName : STRING\nDECLARE Schoolday : SchoolDay\nDECLARE Weekend : WeekEnd\nENDTYPE\n© UCLES 2021 Page 4 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q01",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 14,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-32-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-32-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p03.png",
+          "/9618/answer-assets/9618_s21_ms_32-p04.png"
+        ],
+        "source_pages": [
+          3,
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) Working: one mark for calculation of the mantissa and one mark for 3\ncalculation or use of the exponent\nExponent: one from:\n= 0.11101 × 23 // 0.11101 × 211 // 0.11101 × 103 // 0.11101 × 1011\n= 1.00011 × 23 // 1.00011 × 211 // 1.00011 × 103 // 1.00011 × 1011\n= appropriate shifting of binary point for +7.25\nMantissa: one from:\n= 111.01 (conversion to binary +7.25 – 10 bits)\n= 0111010000 (mantissa 10 bits for +7.25\n= 1000101111(one’s complement mantissa for –7.25)\n= 1000110000 (two’s complement mantissa for –7.25)\nCorrect Answer (Max 1)\nMantissa Exponent\n\n1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1\n\n1(b) One mark for working out the exponent 3\nOne mark for working out the mantissa\nOne mark for the correct answer\nExample answers\n• =1.011000111 × 27 (exponent is 7)\n• =10110001.11 // –128 + 32 + 16 + 1 + 0.5 + 0.25 // convert to positive\n01001110.01 (and add a minus sign to the answer)\n• –78.25\n\n1(c) One mark for working 3\nOne mark for correct mantissa\nOne mark for correct exponent\nExample answers\nNumber of places added to exponent for normalisation −6 for number to\nretain its value // mantissa moved 6 places left\nMantissa\n0 1 1 1 0 0 0 0 0 0\nExponent\n\n1 0 0 0 0 1\n\n1(d)(i) One mark for each correct marking point (Max 3) 3\n• Requires 11 bits / more than 10 bits to store (accurately) / reference to\nmaximum (positive) number that can be stored = 511\n• Denary 513 in binary is 1000000001 // Normalised: 0.1000000001\n• Results in overflow\n© UCLES 2021 Page 3 of 10\n\n1(d)(ii) One mark for each correct marking point (Max 2) 2\n• The number of bits for the mantissa must be increased\n• 11/12 bits mantissa and 5/4 bits exponent\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q02",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-32-q02-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for each correct marking point (Max 2) 2\n• To create a new data type (from existing data types)\n• To allow data types not available in a programming language to be\nconstructed // To extend the flexibility of the programming language\n\n2(b)(i) TYPE SchoolDay = (Monday, Tuesday, Wednesday, Thursday, 1\nFriday)\n\n2(b)(ii) TYPE WeekEnd = (Saturday, Sunday) 1\n\n2(c) One mark for each marking point (Max 4) 4\n• TYPE ClubMeet and ENDTYPE correct\n• DECLARE FirstName and DECLARE LastName included with correct\ndata types\n• DECLARE Schoolday included with correct data types from part 2(b)(i)\n• DECLARE Weekend included with correct data types from part 2(b)(ii)\nExample answer\nTYPE ClubMeet\nDECLARE FirstName : STRING\nDECLARE LastName : STRING\nDECLARE Schoolday : SchoolDay\nDECLARE Weekend : WeekEnd\nENDTYPE\n© UCLES 2021 Page 4 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q01",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 14,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-33-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-33-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p03.png",
+          "/9618/answer-assets/9618_s21_ms_33-p04.png"
+        ],
+        "source_pages": [
+          3,
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) Working: one mark for calculation of the mantissa and one mark for 3\ncalculation or use of the exponent\nExponent: one from:\n= 0.11101 × 23 // 0.11101 × 211 // 0.11101 × 103 // 0.11101 × 1011\n= 1.00011 × 23 // 1.00011 × 211 // 1.00011 × 103 // 1.00011 × 1011\n= appropriate shifting of binary point for +7.25\nMantissa: one from:\n= 111.01 (conversion to binary +7.25 – 10 bits)\n= 0111010000 (mantissa 10 bits for +7.25\n= 1000101111(one’s complement mantissa for –7.25)\n= 1000110000 (two’s complement mantissa for –7.25)\nCorrect Answer (Max 1)\nMantissa Exponent\n\n1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1\n\n1(b) One mark for working out the exponent 3\nOne mark for working out the mantissa\nOne mark for the correct answer\nExample answers\n• =1.011000111 × 27 (exponent is 7)\n• =10110001.11 // –128 + 32 + 16 + 1 + 0.5 + 0.25 // convert to positive\n01001110.01 (and add a minus sign to the answer)\n• –78.25\n\n1(c) One mark for working 3\nOne mark for correct mantissa\nOne mark for correct exponent\nExample answers\nNumber of places added to exponent for normalisation −6 for number to\nretain its value // mantissa moved 6 places left\nMantissa\n0 1 1 1 0 0 0 0 0 0\nExponent\n\n1 0 0 0 0 1\n\n1(d)(i) One mark for each correct marking point (Max 3) 3\n• Requires 11 bits / more than 10 bits to store (accurately) / reference to\nmaximum (positive) number that can be stored = 511\n• Denary 513 in binary is 1000000001 // Normalised: 0.1000000001\n• Results in overflow\n© UCLES 2021 Page 3 of 10\n\n1(d)(ii) One mark for each correct marking point (Max 2) 2\n• The number of bits for the mantissa must be increased\n• 11/12 bits mantissa and 5/4 bits exponent\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q02",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-mj-33-q02-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for each correct marking point (Max 2) 2\n• To create a new data type (from existing data types)\n• To allow data types not available in a programming language to be\nconstructed // To extend the flexibility of the programming language\n\n2(b)(i) TYPE SchoolDay = (Monday, Tuesday, Wednesday, Thursday, 1\nFriday)\n\n2(b)(ii) TYPE WeekEnd = (Saturday, Sunday) 1\n\n2(c) One mark for each marking point (Max 4) 4\n• TYPE ClubMeet and ENDTYPE correct\n• DECLARE FirstName and DECLARE LastName included with correct\ndata types\n• DECLARE Schoolday included with correct data types from part 2(b)(i)\n• DECLARE Weekend included with correct data types from part 2(b)(ii)\nExample answer\nTYPE ClubMeet\nDECLARE FirstName : STRING\nDECLARE LastName : STRING\nDECLARE Schoolday : SchoolDay\nDECLARE Weekend : WeekEnd\nENDTYPE\n© UCLES 2021 Page 4 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q01",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-on-31-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) One mark for each correct marking point (Max 2) 2\n• 010111000110 (correct mantissa)\n• 0111 (correct exponent)\n\n1(a)(ii) One mark for each correct consequence 2\nOne mark for each correct justification\nConsequence\n• The precision/accuracy of the number would be reduced\nJustification\n• … because the least significant bits of the original number have been\ntruncated/lost // the original number had 13 bits / 14 bits with sign but the\nmantissa can only store 12 bits\n\n1(b) One mark for each correct marking point (Max 3) 3\n• To store the maximum range of numbers in the minimum number of bytes\n/ bits\n• Normalisation minimises the number of leading zeros/ones represented\n• Maximising the number of significant bits // maximising the (potential)\nprecision / accuracy of the number for the given number of bits\n• … enables very large / small numbers to be stored with accuracy.\n• Avoids the possibility of many numbers having multiple representations.\n© UCLES 2021 Page 3 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q03",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-on-31-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark for each marking point (Max 2) 2\n• TYPE Parts =\n• (Monitor, CPU, SSD, HDD, LaserPrinter, Keyboard,\nMouse)\nComplete answer\nTYPE Parts = (Monitor, CPU, SSD, HDD, LaserPrinter,\nKeyboard, Mouse)\n\n3(b) One mark for each marking point (Max 2) 2\n• TYPE SelectParts = ^\n• correct data type chosen Parts\nComplete answer\nTYPE SelectParts = ^Parts\n© UCLES 2021 Page 4 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q05",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-on-31-q05-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark for each correct marking point (Max 4) 4\n• In both serial and sequential files records are stored one after the other …\n• … and need to be accessed one after the other\n• Serial files are stored in chronological order\n• Sequential files are stored with ordered records\n• … and stored in the order of the key field\n• In serial files, new records are added in the next available space / records\nare appended to the file\n• In sequential files, new records are inserted in the correct position.\n\n5(b) Direct (access) 1\n\n5(c) Sequential (access) 1\n© UCLES 2021 Page 5 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q01",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-on-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) One mark for each correct marking point (Max 2) 2\n• 010111000110 (correct mantissa)\n• 0111 (correct exponent)\n\n1(a)(ii) One mark for each correct consequence 2\nOne mark for each correct justification\nConsequence\n• The precision/accuracy of the number would be reduced\nJustification\n• … because the least significant bits of the original number have been\ntruncated/lost // the original number had 13 bits / 14 bits with sign but the\nmantissa can only store 12 bits\n\n1(b) One mark for each correct marking point (Max 3) 3\n• To store the maximum range of numbers in the minimum number of bytes\n/ bits\n• Normalisation minimises the number of leading zeros/ones represented\n• Maximising the number of significant bits // maximising the (potential)\nprecision / accuracy of the number for the given number of bits\n• … enables very large / small numbers to be stored with accuracy.\n• Avoids the possibility of many numbers having multiple representations.\n© UCLES 2021 Page 3 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q03",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-on-32-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark for each marking point (Max 2) 2\n• TYPE Parts =\n• (Monitor, CPU, SSD, HDD, LaserPrinter, Keyboard,\nMouse)\nComplete answer\nTYPE Parts = (Monitor, CPU, SSD, HDD, LaserPrinter,\nKeyboard, Mouse)\n\n3(b) One mark for each marking point (Max 2) 2\n• TYPE SelectParts = ^\n• correct data type chosen Parts\nComplete answer\nTYPE SelectParts = ^Parts\n© UCLES 2021 Page 4 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q05",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2021-on-32-q05-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark for each correct marking point (Max 4) 4\n• In both serial and sequential files records are stored one after the other …\n• … and need to be accessed one after the other\n• Serial files are stored in chronological order\n• Sequential files are stored with ordered records\n• … and stored in the order of the key field\n• In serial files, new records are added in the next available space / records\nare appended to the file\n• In sequential files, new records are inserted in the correct position.\n\n5(b) Direct (access) 1\n\n5(c) Sequential (access) 1\n© UCLES 2021 Page 5 of 10"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q01",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-mj-31-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-mj-31-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) LibraryBook.Title  \"A Level Computer Science\" 2\nLibraryBook.Fiction  FALSE\n\n1(b)(i) DECLARE NumberOfCopies : 1 .. 10 1\n\n1(b)(ii) DECLARE AccessionNumber : ARRAY[1:NumberOfCopies] OF INTEGER 2\n\n1(c) Any two from 3\n A data type constructed by a programmer // not a primitive data type\n A data type that references at least one other data type…\n … the data types can be primitive, or user defined\nOne mark for an example\n Class / object / set\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q01",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-mj-33-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-mj-33-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) LibraryBook.Title  \"A Level Computer Science\" 2\nLibraryBook.Fiction  FALSE\n\n1(b)(i) DECLARE NumberOfCopies : 1 .. 10 1\n\n1(b)(ii) DECLARE AccessionNumber : ARRAY[1:NumberOfCopies] OF INTEGER 2\n\n1(c) Any two from 3\n A data type constructed by a programmer // not a primitive data type\n A data type that references at least one other data type…\n … the data types can be primitive, or user defined\nOne mark for an example\n Class / object / set\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q01",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-31-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-31-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) Two marks for working 3\nOne mark for correct answer\nWorking:\nConversion to binary + 202 = 11001010 // repeated division by 2 // 128 + 64 + 8 + 2\nAppropriate shifting of binary point for + 202 = 0.1100101  28 // exponent = 8\nAnswer:\n= 01100101 00001000 (stored as mantissa and exponent)\n\n1(b) Two marks for working 3\nOne mark for correct answer\nWorking:\n• Appropriate method of conversion e.g.\n= 10011010 (one’s complement of 8-bit mantissa)\n= 10011011 (two’s complement of 8-bit mantissa)\n–256 + 32 + 16 + 4 +2\n• Realisation that the exponent doesn’t change // value of exponent = 8 // appropriate shifting of binary point\nAnswer:\n= 10011011 00001000 (stored as mantissa and exponent)\n\n1(c)(i) The mantissa does not begin with 01/10 (as its most significant bits) 1\n// the mantissa begins with 00 // first two digits are the same.\n\n1(c)(ii) One mark for each point: 2\n• Correct mantissa\n• Correct exponent\nMantissa Exponent\n0 1 1 1 1 0 0 0 0 0 0 1 0 1 1 0\n© UCLES 2022 Page 4 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q03",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-31-q03-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-31-q03-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p05.png",
+          "/9618/answer-assets/9618_w22_ms_31-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) A (user-defined non-composite) data type with an ordered list of possible values. 1\n\n3(b) A user-defined non-composite data type used to reference a memory location. 1\n\n3(c) Marks as shown in the square brackets: 2\nTYPE Quarter1 = (January, February, March)\nTYPE Quarter1 = [1]\n(January, February, March) [1]\n\n3(d)(i) DECLARE Pet1 : Pet 1\n© UCLES 2022 Page 5 of 15\n\n3(d)(ii) One mark for each point: 3\n• Correct assignment of all string data values\n• Correct assignment of char data value\n• Correct assignment of integer data value\nExample answer:\nPet1.PetName  \"Tibbles\"\nPet1.AnimalType  \"Cat\"\nPet1.PetAge  8\nPet1.PetGender  'M'\nPet1.OwnerName  \"Jasmine Smith\"\n© UCLES 2022 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q01",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) Mantissa Exponent 1\n0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1\n\n1(b) Two marks for working 3\n• correct calculation of exponent seen\n• correct application of exponent to mantissa seen\nOne mark for correct answer\nWorking:\n= 1.0110010011  29 //exponent = 9\n= 1011001001.1 (moving bp 9 places to right) // evaluate two’s complement\nFor example: –512 + 128 + 64 + 8 + 1 + 0.5\nAnswer:\n–310.5 // –3101/"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q04",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-32-q04-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-32-q04-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p06.png",
+          "/9618/answer-assets/9618_w22_ms_32-p07.png"
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "4(a) Marks as shown in the square brackets: 2\nTYPE Aircraft = (C300, C350, D242, E757, X380)\nTYPE Aircraft = [1]\n(C300, C350, D242, E757, X380) [1]\n\n4(b) One mark for each point (Max 4) 4\n• TYPE Flight and ENDTYPE correct\n• DECLARE FlightNumber and DECLARE Destination as STRING\n• DECLARE DepartureDate as DATE\n• DECLARE AircraftType as Aircraft (correct data type from part 4(a))\nExample answer:\nTYPE Flight\nDECLARE FlightNumber : STRING\nDECLARE Destination : STRING\nDECLARE DepartureDate : DATE\nDECLARE AircraftType : Aircraft\nENDTYPE\n\n4(c)(i) Example answer: 1\nDECLARE Flight1 : Flight\n© UCLES 2022 Page 6 of 16\n\n4(c)(ii) One mark for each point (Max 3) 3\n• Correct assignments of both string data values\n• Correct assignments of date data value\n• Correct assignments of enumerated data value\nExample answer:\nFlight1.FlightNumber  \"XA782\"\nFlight1.Destination  \"Cambridge\"\nFlight1.DepartureDate  12/12/2022\nFlight1.AircraftType  C350\n© UCLES 2022 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q01",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-33-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-33-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) Two marks for working 3\nOne mark for correct answer\nWorking:\nConversion to binary + 202 = 11001010 // repeated division by 2 // 128 + 64 + 8 + 2\nAppropriate shifting of binary point for + 202 = 0.1100101  28 // exponent = 8\nAnswer:\n= 01100101 00001000 (stored as mantissa and exponent)\n\n1(b) Two marks for working 3\nOne mark for correct answer\nWorking:\n• Appropriate method of conversion e.g.\n= 10011010 (one’s complement of 8-bit mantissa)\n= 10011011 (two’s complement of 8-bit mantissa)\n–256 + 32 + 16 + 4 +2\n• Realisation that the exponent doesn’t change // value of exponent = 8 // appropriate shifting of binary point\nAnswer:\n= 10011011 00001000 (stored as mantissa and exponent)\n\n1(c)(i) The mantissa does not begin with 01/10 (as its most significant bits) 1\n// the mantissa begins with 00 // first two digits are the same.\n\n1(c)(ii) One mark for each point: 2\n• Correct mantissa\n• Correct exponent\nMantissa Exponent\n0 1 1 1 1 0 0 0 0 0 0 1 0 1 1 0\n© UCLES 2022 Page 4 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q03",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-33-q03-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2022-on-33-q03-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p05.png",
+          "/9618/answer-assets/9618_w22_ms_33-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "3(a) A (user-defined non-composite) data type with an ordered list of possible values. 1\n\n3(b) A user-defined non-composite data type used to reference a memory location. 1\n\n3(c) Marks as shown in the square brackets: 2\nTYPE Quarter1 = (January, February, March)\nTYPE Quarter1 = [1]\n(January, February, March) [1]\n\n3(d)(i) DECLARE Pet1 : Pet 1\n© UCLES 2022 Page 5 of 15\n\n3(d)(ii) One mark for each point: 3\n• Correct assignment of all string data values\n• Correct assignment of char data value\n• Correct assignment of integer data value\nExample answer:\nPet1.PetName  \"Tibbles\"\nPet1.AnimalType  \"Cat\"\nPet1.PetAge  8\nPet1.PetGender  'M'\nPet1.OwnerName  \"Jasmine Smith\"\n© UCLES 2022 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q01",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-31-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-31-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 4) 4\n conversion of 113.75 to binary seen 1110001.11\n exponent for normalisation 7 converted to binary 111 // evidence of binary\npoint moved 7 places // evidence of finding exponent = 7\n system 1 answer\n system 2 answer showing correct version from system 1\nSystem 1 Mantissa Exponent\n0 1 1 1 0 0 0 1 1 1 0 0 0 1 1 1\nSystem 2 Mantissa Exponent\n0 1 1 1 0 0 0 1 0 0 0 0 0 1 1 1\n\n1(b) One mark per mark point (Max 2) 2\n the mantissa in system 2 does not have enough bits to store the whole\nbinary number // 10 bits required and only 8 bits available\n so precision is lost / the number is truncated\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q03",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-31-q03-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark for each correct hash value (Max 2) 2\nRecord key Hash value\n1030 1\n1050 0\n1025 2\n\n3(b) One mark per mark point (Max 4) 4\nMP1 A collision occurs when the record key doesn’t match the stored record\nkey\nMP2 … this means the determined storage location has already been used\nfor another record.\nIf the record is to be stored\nMP3 Search the file linearly\nMP4 … to find the next available storage space (closed hash)\nMP5 Search the overflow area linearly\nMP6 … to find next available storage space (open hash)\nIf the record is to be found\nMP7 … search the overflow area linearly (open hash) until the matching\nrecord key is found\nMP8 … search linearly from where you are (closed hash) until the matching\nrecord key is found\nMP9 If not found record is not in file\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q04",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-31-q04-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point (Max 2) 2\n TYPE Prime\n = (2, 3, 5, 7, 11, 13, 17, 19)\nExample answer\nTYPE Prime = (2, 3, 5, 7, 11, 13, 17, 19)\n\n4(b) One mark per mark point (Max 2) 2\n TYPE TDayPointer\n = ^STRING //^DayOfWeek\nExample answer\nTYPE TDayPointer = ^STRING // ^DayOfWeek\n© UCLES 2023 Page 4 of 10"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q01",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point 2\n correct mantissa\n correct exponent with associated working\nAnswer\nMantissa Exponent\n0 1 0 1 0 1 0 1 1 1 0 0 0 1 1 0\nWorking\nexponent = 6 (movement of 6 bicimal places seen to find what exponent should\nbe)\ncalculation of denary 6 to binary (000)110\n\n1(b) One mark per mark point (Max 3) 3\nMP1 the mantissa of the number would need to be 0.101011111001 / 13\nbits / digits\nMP2 … it can only store 10 bits / digits\nMP3 The 3 least significant digits would be truncated\nMP4 …causing a loss of precision\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q02",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-32-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark per mark point (Max 3) 3\nMP1 records are stored in a particular order\nMP2 the order is determined based on the value in a key field\nMP3 records are accessed one after the other\nMP4 records can be found by searching from the beginning of the file,\nrecord by record,\nMP5 … until the required record is found or key field value is exceeded.\n\n2(b) One mark for each correct hash value (Max 2) 2\nRecord key Hash value\n3003 3\n1029 4\n7630 0\n© UCLES 2023 Page 4 of 12"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q01",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-33-q01-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-33-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 4) 4\n conversion of 113.75 to binary seen 1110001.11\n exponent for normalisation 7 converted to binary 111 // evidence of binary\npoint moved 7 places // evidence of finding exponent = 7\n system 1 answer\n system 2 answer showing correct version from system 1\nSystem 1 Mantissa Exponent\n0 1 1 1 0 0 0 1 1 1 0 0 0 1 1 1\nSystem 2 Mantissa Exponent\n0 1 1 1 0 0 0 1 0 0 0 0 0 1 1 1\n\n1(b) One mark per mark point (Max 2) 2\n the mantissa in system 2 does not have enough bits to store the whole\nbinary number // 10 bits required and only 8 bits available\n so precision is lost / the number is truncated\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q03",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-33-q03-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark for each correct hash value (Max 2) 2\nRecord key Hash value\n1030 1\n1050 0\n1025 2\n\n3(b) One mark per mark point (Max 4) 4\nMP1 A collision occurs when the record key doesn’t match the stored record\nkey\nMP2 … this means the determined storage location has already been used\nfor another record.\nIf the record is to be stored\nMP3 Search the file linearly\nMP4 … to find the next available storage space (closed hash)\nMP5 Search the overflow area linearly\nMP6 … to find next available storage space (open hash)\nIf the record is to be found\nMP7 … search the overflow area linearly (open hash) until the matching\nrecord key is found\nMP8 … search linearly from where you are (closed hash) until the matching\nrecord key is found\nMP9 If not found record is not in file\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q04",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-mj-33-q04-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point (Max 2) 2\n TYPE Prime\n = (2, 3, 5, 7, 11, 13, 17, 19)\nExample answer\nTYPE Prime = (2, 3, 5, 7, 11, 13, 17, 19)\n\n4(b) One mark per mark point (Max 2) 2\n TYPE TDayPointer\n = ^STRING //^DayOfWeek\nExample answer\nTYPE TDayPointer = ^STRING // ^DayOfWeek\n© UCLES 2023 Page 4 of 10"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q01",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-31-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark for working (Max 1) 3\n• conversion of 65.25 to binary seen e.g. 1000001.01 = 65.25 //\n64 + 1 + 0.25 / ¼\nOne mark per mark point (Max 2)\n• correct mantissa\n• correct exponent\nMantissa Exponent\n0 1 0 0 0 0 0 1 0 1 0 0 0 1 1 1\n\n1(b) One mark per mark point (Max 2) 2\nMP1 the decimal fraction 0.20 cannot be represented exactly (the closest\nis 0.25 / 0.1875)\nMP2 therefore, there will be a loss of precision due to a rounding\nerror/truncation\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q03",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-31-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "3 One mark per mark point – enumerated type (Max 2) 4\nMP1 A user-defined non-composite (data type) (only award once)\nMP2 …with a list of all possible values\nMP3 …that is ordered.\nOne mark per mark point – pointer type (Max 2)\nMP4 A user-defined non-composite (data type) (only award once)\nMP5 …that stores addresses/memory locations only\nMP6 …and indicates the type of data stored in the memory location.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q04",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-31-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point – sequential (Max 2) 4\nMP1 Records (in the file) are ordered\nMP2 …based on the key field\nMP3 A new version (of the file) has to be created to update the file\nOne mark per mark point – random (Max 2)\nMP4 Records are stored in no particular order within the file // There is no\nsequencing in the placement of the records\nMP5 There is a relationship between the key of the record and its location\nwithin the file // a hashing algorithm is used to find the location of the\nrecord\nMP6 Updates to the file can be carried out directly.\n\n4(b) One mark per mark point (Max 2) 2\nMP1 Start at the beginning of the file\nMP2 …check records linearly\nMP3 …until the desired record is found // … processing / updating records\nas required //… EOF found.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q01",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 1) 3\n• conversion of −96.75 to binary e.g., positive 96.75, flip the bits + 1 to give\n10011111.01\n// –128 + 16 + 8 + 4 + 2 + 1 + 0.25 / ¼ seen\nOne mark per mark point (Max 2)\n• correct mantissa\n• correct exponent\nMantissa Exponent\n\n1 0 0 1 1 1 1 1 0 1 0 0 0 1 1 1\n\n1(b) One mark per mark point (Max 3) 3\nMP1 Real numbers (can) have a fractional part (such as 1/3 and ½) / (such\nas 0.4 and 0.25)\nMP2 The fixed length of the storage means that you can’t store very large /\nvery small numbers\nMP3 Binary numbers represent numbers based on powers of 2, with limited\nfractional representations such as 1/2, 1/4, 1/8, 1/16, etc.\nMP4 It isn’t possible to store all fractions with the level of precision provided\nby this system\nMP5 …the fractional part of the number is as close as possible within these\nconstraints.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q02",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-32-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "2 One mark per mark point – composite (Max 2) 4\nMP1 A (user defined) data type that is a collection of data that can consist\nof multiple elements\nMP2 …of different or the same data types\nMP3 …grouped under a single identifier.\nOne mark per mark point – non-composite (Max 2)\nMP4 It can be defined without referencing another data type.\nMP5 It can be a primitive type available in a programming language, or a\nuser- defined type.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q03",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-32-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p03.png",
+          "/9618/answer-assets/9618_w23_ms_32-p04.png"
+        ],
+        "source_pages": [
+          3,
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 2) 2\nMP1 A collision is when the two values / data items in the key field for two\nrecords (pass through a hashing algorithm and) result in the same\nhash value\nMP2 …so the location identified (by the hashing algorithm) may already be\nin use // two records cannot occupy the same address.\n© UCLES 2023 Page 3 of 9\n\n3(b) One mark per mark point (Max 3) 3\nMP1 A process of collision resolution is used\nMP2 Start at the original hashed storage space\nMP3 …go through the following spaces in a linear fashion\nMP4 …and store the data item in the first available slot.\nOR\nMP5 Search the overflow area\nMP6 …go through the following spaces in a linear fashion\nMP7 …and store the data item in the first available slot.\nOR\nMP8 Each storage space holds a reference to a collection / chain of items\nMP9 …which can be searched individually.\nMP10 The data item is stored in the first available space in this chain.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q01",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-33-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p03.png"
+        ],
+        "source_pages": [
+          3
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark for working (Max 1) 3\n• conversion of 65.25 to binary seen e.g. 1000001.01 = 65.25 //\n64 + 1 + 0.25 / ¼\nOne mark per mark point (Max 2)\n• correct mantissa\n• correct exponent\nMantissa Exponent\n0 1 0 0 0 0 0 1 0 1 0 0 0 1 1 1\n\n1(b) One mark per mark point (Max 2) 2\nMP1 the decimal fraction 0.20 cannot be represented exactly (the closest\nis 0.25 / 0.1875)\nMP2 therefore, there will be a loss of precision due to a rounding\nerror/truncation\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q03",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-33-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "3 One mark per mark point – enumerated type (Max 2) 4\nMP1 A user-defined non-composite (data type) (only award once)\nMP2 …with a list of all possible values\nMP3 …that is ordered.\nOne mark per mark point – pointer type (Max 2)\nMP4 A user-defined non-composite (data type) (only award once)\nMP5 …that stores addresses/memory locations only\nMP6 …and indicates the type of data stored in the memory location.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q04",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2023-on-33-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point – sequential (Max 2) 4\nMP1 Records (in the file) are ordered\nMP2 …based on the key field\nMP3 A new version (of the file) has to be created to update the file\nOne mark per mark point – random (Max 2)\nMP4 Records are stored in no particular order within the file // There is no\nsequencing in the placement of the records\nMP5 There is a relationship between the key of the record and its location\nwithin the file // a hashing algorithm is used to find the location of the\nrecord\nMP6 Updates to the file can be carried out directly.\n\n4(b) One mark per mark point (Max 2) 2\nMP1 Start at the beginning of the file\nMP2 …check records linearly\nMP3 …until the desired record is found // … processing / updating records\nas required //… EOF found.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q01",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-31-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 3) 3\nMP1 conversion of exponent 001001 to 9\nMP2 application of exponent to mantissa to go from 0.100111100 to 100111100 // 256 + 32 + 16 + 8 + 4 seen // 64/128\n+ 8/128 + 4/128 + 2/128 + 1/128 = 79/128 // 1/2 + 1/16 + 1/32 + 1/64 + 1/128 = 79/128\nMP3 correct answer = 316\n\n1(b) One mark per mark point (Max 3) 3\nMP1 number converted to binary 10011001.01 // number converted to positive 102.75, reversed bits and 1 added.\n(0)1100110.11  10011001.00  10011001.01 // -128 + 16 + 8 + 1 + 0.25 = –102.75\nMP2 exponent = 7 // Moving binary point the correct number of places\nMP3 correct answer\nMantissa Exponent\n\n1 0 0 1 1 0 0 1 0 1 0 0 0 1 1 1\n© Cambridge University Press & Assessment 2024 Page 4 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q03",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-31-q03-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-31-q03-p02.png"
+      ],
+      "source_pages": [
+        3,
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 2) 3\nnon-composite data types\nMP1 Non-composite data types can both be user-defined or primitive\nMP2 Non-composite data types do not refer to other data types in their definition / contain one data type in their\ndefinition\nMP3 Non-composite data types can be primitive/enumerated/pointer\nOne mark per mark point (Max 2)\ncomposite data types\nMP4 Composite data types can be user-defined or primitive\nMP5 Composite data types refer to other data types in their definition/contain more than one data type in their\ndefinition\nMP6 Composite data types can be record/set/class\n\n3(b) One mark for TYPE FootballClub and ENDTYPE correct 4\nOne mark for every two correct declarations\nExample answer\nTYPE FootballClub\nDECLARE TeamName : STRING\nDECLARE DateOfJoining : DATE\nDECLARE MainTelephone : STRING\nDECLARE ManagerName : STRING\nDECLARE NumberOfMembers : INTEGER\nDECLARE LeaguePosition : INTEGER\nENDTYPE\n© Cambridge University Press & Assessment 2024 Page 6 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q04",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-31-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point (Max 2) 2\nMP1 Sequential access method searches for records one after the other\nMP2 … from the physical start of the file until the record is found/the end of file.\n\n4(b) One mark per mark point (Max 3) 3\nMP1 For serial files, records are stored in chronological order\nMP2 … every record needs to be checked until the record is found, or all records have been checked.\nMP3 For sequential files, records are stored in order of a key field/index, and it is the key field/index that is compared.\nMP4 … every record is checked until the record is found, or the key field of the current record is greater than the key\nfield of the target record.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q01",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 2) 2\nMP1 When the number of bits in the mantissa is raised, the precision / accuracy of the number represented increases //\nwhen the number of bits in the mantissa is lowered, the precision / accuracy of the number represented reduces.\nMP2 When the number of bits in the exponent is reduced, the range of numbers that can be represented is reduced //\nwhen the number of bits in the exponent is increased, the range of possible numbers that can be represented\nincreases.\nMP3 When the range increases the accuracy decreases // When the range decreases the accuracy increases.\n\n1(b) One mark per mark point (Max 3) 3\n number converted to binary e.g. 54.8125 = 00110110.1101 // Fractions method 1/2 + 1/4 + 1/16 + 1/32 + 1/128 + 1/256\n+ 1/1024 = 877/1024 // 32 + 16 + 4 + 2 + 0.5 + 0.25 + 0.0625 / (1/2 + 1/4 + 1/16)\n exponent = 6 // Moving binary point the correct number of places\n correct answer\nMantissa Exponent\n0 1 1 0 1 1 0 1 1 0 1 0 0 1 1 0\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q03",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-32-q03-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 3) 3\nMP1 A data type that is defined without referencing another data type.\nMP2 It can be a primitive data type found in a programming language or a user-defined data type.\nMP3 Example – enumerated data type / pointer data type / allow a correct example of an enumerated or pointer data\ntype declaration.\n\n3(b) One mark per mark point (Max 4) 4\nMP1 Type statement fully correct\nMP2 DEFINE EvenNumbers\nMP3 Correct list of values in brackets\nMP4 : <set identifier> from Type statement used\nExample answer\nTYPE Numbers = SET OF INTEGER\nDEFINE EvenNumbers (2, 4, 6, 8, 10, 12): Numbers\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q07",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-32-q07-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p08.png",
+          "/9618/answer-assets/9618_s24_ms_32-p09.png"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per mark point (Max 2) 2\nMP1 Direct access allows a record to be found in a file without other records being read.\nMP2 Records are found by using the key field of the target record // the location of the record is found using a\nhashing algorithm.\n\n7(b)(i) One mark per mark point (Max 2) 2\nMP1 In sequential files, an index of all key fields is kept\nMP2 The index is searched for the address of the file location where the target record is stored.\n© Cambridge University Press & Assessment 2024 Page 8 of 14\n\n7(b)(ii) One mark per mark point (Max 2) 2\nMP1 A hashing algorithm is used on the key field of the record\nMP2 … to calculate the address of the memory location where the target record is expected to be stored.\nMP3 Method to find a record if it is not at the expected location e.g. linear probing, search overflow area etc.\n© Cambridge University Press & Assessment 2024 Page 9 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q01",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-33-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 3) 3\nMP1 conversion of exponent 001001 to 9\nMP2 application of exponent to mantissa to go from 0.100111100 to 100111100 // 256 + 32 + 16 + 8 + 4 seen // 64/128\n+ 8/128 + 4/128 + 2/128 + 1/128 = 79/128 // 1/2 + 1/16 + 1/32 + 1/64 + 1/128 = 79/128\nMP3 correct answer = 316\n\n1(b) One mark per mark point (Max 3) 3\nMP1 number converted to binary 10011001.01 // number converted to positive 102.75, reversed bits and 1 added.\n(0)1100110.11  10011001.00  10011001.01 // -128 + 16 + 8 + 1 + 0.25 = –102.75\nMP2 exponent = 7 // Moving binary point the correct number of places\nMP3 correct answer\nMantissa Exponent\n\n1 0 0 1 1 0 0 1 0 1 0 0 0 1 1 1\n© Cambridge University Press & Assessment 2024 Page 4 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q03",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-33-q03-p01.png",
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-33-q03-p02.png"
+      ],
+      "source_pages": [
+        3,
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 2) 3\nnon-composite data types\nMP1 Non-composite data types can both be user-defined or primitive\nMP2 Non-composite data types do not refer to other data types in their definition / contain one data type in their\ndefinition\nMP3 Non-composite data types can be primitive/enumerated/pointer\nOne mark per mark point (Max 2)\ncomposite data types\nMP4 Composite data types can be user-defined or primitive\nMP5 Composite data types refer to other data types in their definition/contain more than one data type in their\ndefinition\nMP6 Composite data types can be record/set/class\n\n3(b) One mark for TYPE FootballClub and ENDTYPE correct 4\nOne mark for every two correct declarations\nExample answer\nTYPE FootballClub\nDECLARE TeamName : STRING\nDECLARE DateOfJoining : DATE\nDECLARE MainTelephone : STRING\nDECLARE ManagerName : STRING\nDECLARE NumberOfMembers : INTEGER\nDECLARE LeaguePosition : INTEGER\nENDTYPE\n© Cambridge University Press & Assessment 2024 Page 6 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q04",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-mj-33-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per mark point (Max 2) 2\nMP1 Sequential access method searches for records one after the other\nMP2 … from the physical start of the file until the record is found/the end of file.\n\n4(b) One mark per mark point (Max 3) 3\nMP1 For serial files, records are stored in chronological order\nMP2 … every record needs to be checked until the record is found, or all records have been checked.\nMP3 For sequential files, records are stored in order of a key field/index, and it is the key field/index that is compared.\nMP4 … every record is checked until the record is found, or the key field of the current record is greater than the key\nfield of the target record.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q01",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-31-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 1) 3\n• correct answer\n• statement regarding number losing precision/rounding error\nOne mark per mark point for working (Max 2)\n• number converted to binary 201.125 = 11001001.001\n// 128 + 64 + 8 + 1 + 0.125 / 1/ seen\n8\n• use of the exponent e.g. moving the binary point 8 places /  28.\nMantissa Exponent\n0 1 1 0 0 1 0 0 1 0 0 0 1 0 0 0\n\n1(b) One mark per mark point (Max 2) 3\n• application of exponent to go from 1.010110011 to 101011.0011 // x 25 // movement of binary point 5 places seen\n• –32 + 8 + 2 + 1 + .125 + .0625 // –32 + 8 + 2 + 1 + 1/ + 1/ seen\n8 16\n// –1 + ¼ + 1/ + 1/ + 1/ + 1/ // –1 + 179/ // –333/\n16 32 256 512 512 512\nOne mark for correct answer (Max 1)\n• –20.8125 //\n–2013/\n16\n© Cambridge University Press & Assessment 2024 Page 4 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q05",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-31-q05-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per mark point (Max 3) 3\nMP1 A hashing algorithm is used in direct access methods on random and sequential files\nMP2 It is a mathematical formula\nMP3 … used to perform a calculation applied to the key field of the record being searched / stored\nMP4 The result of the calculation gives the address where the record should be found / stored.\n\n5(b) One mark per mark point (Max 2) 2\nMP1 The record is stored in the next free memory space after the one identified by the hashing algorithm // Use\nlinear progression\nMP2 An overflow area is set up and the record is stored in the next free memory space in the overflow area.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q06",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-31-q06-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p07.png",
+          "/9618/answer-assets/9618_w24_ms_31-p08.png"
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark per mark point (Max 3) 3\nMP1 A set user-defined data type is a composite data type\nMP2 … which includes a list of unordered elements\nMP3 Set theory operations, such as intersection and union, can be applied to these elements\nMP4 A set data type includes the type of data/data type it uses as part of its definition\nMP5 All the elements are of the same data type.\n© Cambridge University Press & Assessment 2024 Page 7 of 17\n\n6(b) One mark for each mark point (Max 4) 4\nMP1 TYPE SymbolSet/Operators =\nMP2 SET OF CHAR\nMP3 DEFINE Operators/SymbolSet\nMP4 ('+', '–', '*', '/', '^')\nMP5 : SymbolSet/Operators\nExample answers\nTYPE SymbolSet = SET OF CHAR\nDEFINE Operators ('+', '–', '*', '/', '^') : SymbolSet\nTYPE Operators = SET OF CHAR\nDEFINE SymbolSet ('+', '–', '*', '/', '^') : Operators\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q02",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-32-q02-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark per mark point (Max 2) 2\nMP1 Records are stored one after the other as they are collected // records are stored in chronological order\nMP2 New records are appended to the end of the file.\n\n2(b) One mark for a use (Max 1) 1\nMP1 Creating unsorted / temporary transaction files\nMP2 Creating data logging files\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q03",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-32-q03-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per mark point (Max 3) 3\nMP1 A user-defined record data type is a composite data type\nMP2 It uses other data types in its definition to form a single new data type\nMP3 The data types referenced may be primitive data types from a programming language or they may be other user-\ndefined data types.\nMP4 Includes related items\nMP5 Includes a fixed number of items.\n\n3(b) One mark for TYPE Order and ENDTYPE correct 4\nOne mark for correct use of DECLARE in all declarations seen\nOne mark for the two shaded declarations\nOne mark for the two unshaded declarations\nExample answer\nTYPE Order\nDECLARE AccountNumber : INTEGER\nDECLARE OrderNumber : INTEGER\nDECLARE OrderPrice : REAL\nDECLARE OrderDate : DATE\nENDTYPE\n© Cambridge University Press & Assessment 2024 Page 5 of 15"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q04",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-32-q04-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark for working 2\n• application of exponent to mantissa to go from 0.10001110111 to 01000111.0111 //\nmoving the binary point 7 places //\nmultiplying by 27/128 in the fractions method //\n64 + 4 + 2 +1 + .25+ .125 + .0625 seen\nOne mark for correct answer\n• 71.4375\n// 717/\n16\n\n4(b) One mark per mark point (Max 2) 4\n• correct mantissa – exact answer only\n• correct exponent – exact answer only\nMantissa Exponent\n1 0 0 1 1 1 0 1 1 0 1 0 0 1 1 0\nOne mark per mark point for working (Max 2)\n• number converted to binary e.g., positive binary version of 49.1875 = 0110001.0011 //\ntwo’s complement version bits flipped and 1 added = 1001110.1101 //\n–64 + 8 + 4 + 2 + .5 + .25 + .0625 //\n–64 + 14.8125\n• use of the exponent e.g. moving the binary point 6 places /  26.\n© Cambridge University Press & Assessment 2024 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q01",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-33-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point (Max 1) 3\n• correct answer\n• statement regarding number losing precision/rounding error\nOne mark per mark point for working (Max 2)\n• number converted to binary 201.125 = 11001001.001\n// 128 + 64 + 8 + 1 + 0.125 / 1/ seen\n8\n• use of the exponent e.g. moving the binary point 8 places /  28.\nMantissa Exponent\n0 1 1 0 0 1 0 0 1 0 0 0 1 0 0 0\n\n1(b) One mark per mark point (Max 2) 3\n• application of exponent to go from 1.010110011 to 101011.0011 // x 25 // movement of binary point 5 places seen\n• –32 + 8 + 2 + 1 + .125 + .0625 // –32 + 8 + 2 + 1 + 1/ + 1/ seen\n8 16\n// –1 + ¼ + 1/ + 1/ + 1/ + 1/ // –1 + 179/ // –333/\n16 32 256 512 512 512\nOne mark for correct answer (Max 1)\n• –20.8125 //\n–2013/\n16\n© Cambridge University Press & Assessment 2024 Page 4 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q05",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-33-q05-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per mark point (Max 3) 3\nMP1 A hashing algorithm is used in direct access methods on random and sequential files\nMP2 It is a mathematical formula\nMP3 … used to perform a calculation applied to the key field of the record being searched / stored\nMP4 The result of the calculation gives the address where the record should be found / stored.\n\n5(b) One mark per mark point (Max 2) 2\nMP1 The record is stored in the next free memory space after the one identified by the hashing algorithm // Use\nlinear progression\nMP2 An overflow area is set up and the record is stored in the next free memory space in the overflow area.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q06",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2024-on-33-q06-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p07.png",
+          "/9618/answer-assets/9618_w24_ms_33-p08.png"
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark per mark point (Max 3) 3\nMP1 A set user-defined data type is a composite data type\nMP2 … which includes a list of unordered elements\nMP3 Set theory operations, such as intersection and union, can be applied to these elements\nMP4 A set data type includes the type of data/data type it uses as part of its definition\nMP5 All the elements are of the same data type.\n© Cambridge University Press & Assessment 2024 Page 7 of 17\n\n6(b) One mark for each mark point (Max 4) 4\nMP1 TYPE SymbolSet/Operators =\nMP2 SET OF CHAR\nMP3 DEFINE Operators/SymbolSet\nMP4 ('+', '–', '*', '/', '^')\nMP5 : SymbolSet/Operators\nExample answers\nTYPE SymbolSet = SET OF CHAR\nDEFINE Operators ('+', '–', '*', '/', '^') : SymbolSet\nTYPE Operators = SET OF CHAR\nDEFINE SymbolSet ('+', '–', '*', '/', '^') : Operators\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q01",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-mj-31-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point 2\nMP1 TYPE Vehicle =\nMP2 (M100, M230, T101, T102, T120, T150)\nExample answer:\nTYPE Vehicle = (M100, M230, T101, T102, T120, T150)\n\n1(b) One mark per mark point 4\nMP1 TYPE Booking and ENDTYPE correct\nMP2 Declare used correctly for every field in the response\nMP3 Any four fields correct\nMP4 Remaining fields correct\nExample answer:\nTYPE Booking\nDECLARE BookingNumber : STRING\nDECLARE Destination : STRING\nDECLARE ClientName : STRING\nDECLARE ClientTelephone : STRING\nDECLARE DateOfDeparture : DATE\nDECLARE PickupAddress : STRING\nDECLARE TaxiUsed : Vehicle\nENDTYPE\n© Cambridge University Press & Assessment 2025 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q02",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-mj-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark per mark point 2\nMP1 Correct mantissa\nMP2 Correct exponent\nMantissa Exponent\n0 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0\n\n2(b) One mark per mark point for working (Max 2) 4\n• number converted to binary e.g., positive binary version of 25.3125 = (0)11001.0101\n• two’s complement version\nbits flipped and 1 added = 100110.1011\n• -32 + 4 + 2 + 0.5 + 0.125 + 0.0625 // -32 + 4 + 2 + 1/2 + 1/8 + 1/16\n• movement of binary point seen (5 places)\nOne mark per mark point\n• correct mantissa\n• correct exponent\nMantissa Exponent\n1 0 0 1 1 0 1 0 1 1 0 0 0 1 0 1\n© Cambridge University Press & Assessment 2025 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q01",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-mj-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark for each mark point 3\nMP1 Use of correct Flight1 variable with given field names\nMP2 Correct assignments of four string data values\nMP3 Correct assignment of date data value\nExample answer\nFlight1.FlightNumber  \"SB2789\"\nFlight1.Destination  \"Dublin\"\nFlight1.FlightDate  30/07/2025\nFlight1.Gate  \"N03\"\nFlight1.Airline  \"Cambridge Airways\"\n\n1(b)(i) One mark per mark point 2\nMP1 TYPE GateID =\nMP2 (N01, N02, N03, W01, W02, W03, W04)\nExample answer\nTYPE GateID = (N01, N02, N03, W01, W02, W03, W04)\n\n1(b)(ii) DECLARE Gate : GateID 1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q02",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-mj-32-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p04.png",
+          "/9618/answer-assets/9618_s25_ms_32-p05.png"
+        ],
+        "source_pages": [
+          4,
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "2(a) Two marks for working 3\n• number converted to binary (0)1111100.0111\n• use of exponent = 7 // Moving binary point the correct number (7) of\nplaces\nOne mark for correct answer\nMantissa Exponent\n0 1 1 1 1 1 0 0 0 1 1 1 0 1 1 1\n© Cambridge University Press & Assessment 2025 Page 4 of 12\n\n2(b) Two marks for working 3\n• correct use of exponent seen\n• correct conversion method from binary to denary\nOne mark for correct answer\nWorking:\n1010001.01011 // moving bp 6 places to right\nEvaluation of two’s complement −64 +16 + 1 + 0.25 + 0.0625 + 0.03125 //\n−64 + 16 + 1 + 1/4 + 1/16 + 1/32 // Converting two’s complement back and\nevaluating positive binary number 32 + 8 + 4 + 2 + 0.5 + 0.125 + 0.03125 // 32\n+ 8 + 4 + 2 + 1/2 + 1/8 + 1/32\nFractions methods - award both working marks for either\n(– 2048 + 512 + 32 + 8 + 2 + 1) / 2048 x 26 = -1493 / 32\nOR\n– 1 + 1/4 + 1/64 + 1/ 256 + 1/1024 + 1/2048 x 26 = -1493 / 32\nAnswer:\n−46.65625 // −4621/\n32\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q01",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-mj-33-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a) One mark per mark point 4\nMP1 TYPE VideoLibrary and ENDTYPE correct\nMP2 Declare used correctly for every field in the response\nMP3 All Three STRING fields correct (shaded)\nMP4 Remaining Three fields correct (unshaded)\nExample answer\nTYPE VideoLibrary\nDECLARE VideoID : STRING\nDECLARE Title : STRING\nDECLARE ReleaseYear : INTEGER\nDECLARE PurchaseDate : DATE\nDECLARE VideoFormat : STRING\nDECLARE RunningTime : INTEGER\nENDTYPE\n\n1(b) One mark for identification of field and one mark for reason 2\nVideoFormat\nThis field can have a fixed range of possible values\n© Cambridge University Press & Assessment 2025 Page 6 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q02",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-mj-33-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for two’s complement version and one mark for denary version 2\nMantissa Exponent\n0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1\n127  2120 // 0.9921875 x 2127 // 127/128 x 2127\n\n2(b) One mark per mark point for working (Max 2) 4\n• number converted to binary e.g., positive binary version of 3.59375 = (0)11.10011\n• negative two’s complement version -\nbits flipped and 1 added = 100.01101\n• -4 + 1/4 + 1/8 + 1/32 // -4 + 025 +0.125 + 0.03125 // -(64 + 32 + 16 + 2 + 1)/32\n• -22 + 2-2 + 2-3 + 2-5\n• 22 (- 20 + 2-4 + 2-5 + 2-7)\nOne mark per mark point\n• correct mantissa\n• correct exponent, with working seen.\nMantissa Exponent\n1 0 0 0 1 1 0 1 0 0 0 0 0 0 1 0\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q01",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-on-31-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) DECLARE Member1 : ClubMember 1\n\n1(a)(ii) One mark for each correct answer 2\nExample answer\nMember1.Code  984632\nMember1.FeesPaid  TRUE\n\n1(b)(i) One mark per mark point (Max 2) 2\nMP1 TYPE Activity=\nMP2 (Badminton, Football, Golf, Snooker, Swimming, Tennis)\nExample answer\nTYPE Activity = (Badminton, Football, Golf, Snooker, Swimming,\nTennis)\n\n1(b)(ii) DECLARE Choice : Activity 1\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q02",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-on-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p06.png",
+          "/9618/answer-assets/9618_w25_ms_31-p07.png"
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark per mark point (Max 2) 2\nMP1 Correct mantissa\nMP2 Correct exponent\nMantissa Exponent\n0 1 1 1 0 1 0 1 1 0 1 0 1 0 0 1\n© Cambridge University Press & Assessment 2025 Page 6 of 15\n\n2(b) One mark per mark point (Max 4) 4\nMP1 correct method to find the binary number\nMP2 additional working towards binary number\nMP3 correct use of exponent\nMP4 correct answer in the space provided\nTwo from:\ne.g.\n76.1875 = 64+8+4+0.125+0.0625\n(0)1001100.0011\n–76.1875 = –128+32+16+2+1+0.5+0.25+0.0625\n10110011.11 01\nOne mark\nmovement of binary point by 7 places // 1.011001111 01 x 27\nOne mark\nMantissa Exponent\n1 0 1 1 0 0 1 1 1 1 0 1 0 1 1 1\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q01",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-on-32-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) DECLARE Car1 : Car 1\n\n1(a)(ii) One mark for each correct answer 2\nExample answer\nCar1.Colour  \"Blue\"\nCar1.IntoStock  21/10/2025\n\n1(b)(i) One mark per mark point (Max 2) 2\nMP1 TYPE Body =\nMP2 (Convertible, Hatchback, Saloon, SUV)\nExample answer\nTYPE Body = (Convertible, Hatchback, Saloon, SUV)\n\n1(b)(ii) DECLARE BodyStyle : Body 1\n© Cambridge University Press & Assessment 2025 Page 6 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q02",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-on-32-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "2(a) Two marks for working 3\n• correct calculation/application of exponent seen\n• correct method to find the final answer\nWorking:\nExponent = 8 + 2 + 1 = 11\n// =0.111100101 x 211\n// =11110010100.0 (moving bp 11 places to right)\nMethod to find the answer\n// 1024 + 512 + 256 + 128 + 16 + 4\nOne mark for correct answer\nDenary value: 1940\nExample of solution using fractions:\n\n2(b) One mark per mark point (Max 3) 3\nMP1 correct method to find the binary number\nMP2 correct use of exponent\nMP3 correct answer in the space provided\nWorking:\n26.6875 converted to binary (0)11010.1011 // 16+8+2+0.5+0.125+0.0625 movement of binary point by 5 places\nMantissa Exponent\n0 1 1 0 1 0 1 0 1 1 0 0 0 1 0 1\n© Cambridge University Press & Assessment 2025 Page 7 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q01",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 1,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-on-33-q01-p01.png"
+      ],
+      "source_pages": [
+        2
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) One mark per mark point (Max 2) 2\nMP1 TYPE Spectrum =\nMP2 (Red, Orange, Yellow, Green, Blue, Indigo, Violet)\nExample answer\nTYPE Spectrum = (Red, Orange, Yellow, Green, Blue,\nIndigo, Violet)\n\n1(a)(ii) One mark per mark point (Max 2) 2\nMP1 the list is ordered/ordinal\nMP2 the list contains all possible values\nMP3 no duplicate values in list\nMP4 all values are the same data type\n\n1(b) One mark for TYPE ColourData and ENDTYPE correct 4\nOne mark for correct use of DECLARE in all declarations\nOne mark for correct use of Spectrum in declaration\nOne mark for remaining four declarations correct (STRING, INTEGER,\nREAL, BOOLEAN)\nExample answer\nTYPE ColourData\nDECLARE ColourCode : STRING\nDECLARE Colour : Spectrum\nDECLARE Wavelength : INTEGER\nDECLARE Frequency : REAL\nDECLARE PrimaryColour : BOOLEAN\nENDTYPE\n© Cambridge University Press & Assessment 2025 Page 6 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q02",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-13-data-representation/assets/9618-2025-on-33-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark per mark point (Max 3) 3\nMP1 the precision of the number stored in the mantissa will be reduced\nMP2 the number of bits available for the exponent will increase to 6\nMP3 … this will increase the range of numbers that can be stored.\n\n2(b) One mark per mark point (Max 3) 3\nMP1 a process involving a calculation / the multiplication of two large\nnumbers could take place\nMP2 the result might be outside of the range of values possible to store\nin the given system\nMP3 … leading to the most significant bits of the mantissa/exponent\nbeing lost (which is an overflow).\nQuestion Answer Marks Guidance"
+      }
+    }
+  ]
+}

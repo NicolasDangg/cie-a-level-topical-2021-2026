@@ -1,0 +1,891 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 13,
+    "label": "Gravitational fields",
+    "slug": "9702-topic-13-gravitational-fields"
+  },
+  "questions": [
+    {
+      "id": "9702-2021-m-42-q01",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-m-42-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-m-42-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a) (gravitational) force is (directly) proportional to product of masses B1\nforce (between point masses) is inversely proportional to the square of their separation B1\n\n1(b) correct read offs from the graph with correct power of ten for R3 C1\n4×π2×1.2×1034 C1\nM =\n6.67×10 −11×2.4×( 365×24×3600 )2\n= 3.0×1030 kg A1\n\n1(c)(i) potential energy is zero at infinity B1\n(gravitational) forces are attractive B1\nwork must be done on the rock to move it to infinity B1\n\n1(c)(ii) GMm mv2 GM GM M1\n= O R v2 = O R v =\nr2 r r r\nGMm A1\nuse of ½ mv2 (e.g. multiplication by ½ m) leading to\n2r\n\n1(c)(iii) −GM −GMm C1\nEp = φ m and φ = or E =\nr p r\nTotal energy = E + E\nk p\nGMm −GMm −GMm A1\nTotal energy= + =\n2r r 2r\n© UCLES 2021 Page 8 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q01",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-41-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a) force per unit mass B1\n\n1(b) GMm / r 2 = mrω 2 and ω = 2π/T C1\nor\nGMm / r 2 = mv2 / r and v = 2πr / T\n6.67 × 10–11 × 6.0 × 1024 = r3 × [2π / (94 × 60)]2 C1\nr = 6.9 × 106 m A1\n\n1(c)(i) r3ω2 = constant or r3 / T2 = constant C1\nr3 / (6.9 × 106)3 = (150 / 94)2 so r = 9.4 × 106 m A1\nor\nGMT2/4π2 = r3 and clear that M is 6.0 × 1024 (C1)\n6.67 × 10–11 × 6.0 × 1024 = r3 × [2π / (150 × 60)]2 (A1)\nso r = 9.4 × 106 m\n\n1(c)(ii) separation increases so (potential energy) increases B1\nor\nmovement is against gravitational force so (potential energy) increases\n\n1(c)(iii) potential energy = (–)GMm / r C1\nΔE = 6.67 × 10–11 × 6.0 × 1024 × 1200 × [(6.9 × 106)–1 – (9.4 × 106)–1] C1\nP\n= 1.9 × 1010 J A1\n© UCLES 2021 Page 8 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-42-q01",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 6,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-42-q01-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_42-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a) (gravitational) force per unit mass B1\n\n1(b)(i) g = GM / r2 C1\n= (6.67 × 10–11 × 6.42 × 1023) / (3.39 × 106)2 A1\n= 3.73 N kg–1\n\n1(b)(ii) a = rω2 and ω = 2π / T C1\nor\na = v2 / r and v = 2πr / T\na = 3.39 × 106 × (2π / (24.6 × 3600))2 A1\n= 0.0171 m s–2\n\n1(b)(iii) force per unit mass = 3.73 – 0.0171 A1\n= 3.71 N kg–1\n© UCLES 2021 Page 8 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q01",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-43-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a) force per unit mass B1\n\n1(b) GMm / r 2 = mrω 2 and ω = 2π/T C1\nor\nGMm / r 2 = mv2 / r and v = 2πr / T\n6.67 × 10–11 × 6.0 × 1024 = r3 × [2π / (94 × 60)]2 C1\nr = 6.9 × 106 m A1\n\n1(c)(i) r3ω2 = constant or r3 / T2 = constant C1\nr3 / (6.9 × 106)3 = (150 / 94)2 so r = 9.4 × 106 m A1\nor\nGMT2/4π2 = r3 and clear that M is 6.0 × 1024 (C1)\n6.67 × 10–11 × 6.0 × 1024 = r3 × [2π / (150 × 60)]2 (A1)\nso r = 9.4 × 106 m\n\n1(c)(ii) separation increases so (potential energy) increases B1\nor\nmovement is against gravitational force so (potential energy) increases\n\n1(c)(iii) potential energy = (–)GMm / r C1\nΔE = 6.67 × 10–11 × 6.0 × 1024 × 1200 × [(6.9 × 106)–1 – (9.4 × 106)–1] C1\nP\n= 1.9 × 1010 J A1\n© UCLES 2021 Page 8 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-on-41-q02",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 2,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-41-q02-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-41-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_41-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_41.pdf?download=true",
+        "mark_scheme_text": "2(a) work done per unit mass B1\n(work done in) moving mass from infinity B1\n\n2(b)(i) (gravitational) fields from the Earth and Moon are in opposite directions B1\n(resultant is zero where gravitational) fields are equal (in magnitude) B1\n\n2(b)(ii) g ∝ M / r2 C1\n5.98 × 1024 / x2 = 7.35 × 1022 / (3.84 × 108 – x)2 A1\nleading to x = 3.5 × 108 (m)\n\n2(b)(iii) φ (Earth) = (–)6.67 × 10–11 × (5.98 × 1024 / 3.5 × 108) C1\nand\nφ (Moon) = (–)6.67 × 10–11 × (7.35 × 1022 / 0.38 × 108)\nφ = (–)6.67 × 10–11 × [(5.98 × 1024 / 3.5 × 108) + (7.35 × 1022 / 0.38 × 108)] C1\n= – 1.3 × 106 J kg–1 A1\n© UCLES 2021 Page 8 of 15"
+      }
+    },
+    {
+      "id": "9702-2021-on-42-q02",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-42-q02-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-42-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_42-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a) (gravitational) field strength equals (gravitational) potential gradient M1\nreference to minus sign A1\n\n2(b)(i) potential is zero at infinity B1\n(gravitational) force is attractive B1\n(test) mass getting closer (from infinity) loses potential energy B1\n\n2(b)(ii) • potential at (surface of) planet is smaller than at (surface of) moon B2\n• potential gradient at (surface of) planet is smaller than at (surface of) moon\n• magnitude of potential varies inversely with distance from centre near the spheres\n• (point of) maximum potential is nearer to moon than planet\nAny two points, 1 mark each\n\n2(b)(iii) sketch: one curve, starting with gradient of decreasing magnitude at 2R and finishing with gradient of increasing magnitude B1\nat D – R\nfield strength shown as zero (only) near the point of maximum potential B1\nnegative field strength near one sphere and positive field strength near the other B1\n© UCLES 2021 Page 8 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-on-43-q02",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 2,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-43-q02-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-43-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_43-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_43.pdf?download=true",
+        "mark_scheme_text": "2(a) work done per unit mass B1\n(work done in) moving mass from infinity B1\n\n2(b)(i) (gravitational) fields from the Earth and Moon are in opposite directions B1\n(resultant is zero where gravitational) fields are equal (in magnitude) B1\n\n2(b)(ii) g ∝ M / r2 C1\n5.98 × 1024 / x2 = 7.35 × 1022 / (3.84 × 108 – x)2 A1\nleading to x = 3.5 × 108 (m)\n\n2(b)(iii) φ (Earth) = (–)6.67 × 10–11 × (5.98 × 1024 / 3.5 × 108) C1\nand\nφ (Moon) = (–)6.67 × 10–11 × (7.35 × 1022 / 0.38 × 108)\nφ = (–)6.67 × 10–11 × [(5.98 × 1024 / 3.5 × 108) + (7.35 × 1022 / 0.38 × 108)] C1\n= – 1.3 × 106 J kg–1 A1\n© UCLES 2021 Page 8 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-m-42-q01",
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-m-42-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-m-42-q01-p02.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-m-42-q01-p03.png"
+      ],
+      "source_pages": [
+        5,
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m22_ms_42-p06.png",
+          "/9702/answer-assets/9702_m22_ms_42-p07.png"
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a) at least 4 straight radial lines to P B1\nall arrows pointing along the lines towards P B1\n\n1(b) Any 2 from: B2\ngravitational force provides the centripetal force\n(centripetal or gravitational) force has constant magnitude\n(centripetal or gravitational) force is perpendicular to velocity (of moon) / direction of motion (of moon)\n\n1(c)(i) GMm M1\n= mrω2\nr2\nr3ω2 gradient A1\nM= and gradient = r3ω2 hence M=\nG G\nor\ngradient\nr3 = GM × 1/ω2 so gradient = GM hence M=\nG\n\n1(c)(ii) M = 4.1 × 1023 / (6.0 × 107 × 6.67 × 10–11) = 1.0 × 1026 kg B1\n© UCLES 2022 Page 6 of 17\n\n1(c)(iii) GMm mv2 C1\n=\nr2 r\nGM\n= v2\nr\n6.67×10 −11×1.0×1026 C1\nv2=\n1.2×108\nv2 =5.6×107m s −1\nv =7500 m s −1 A1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2022-mj-41-q01",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-41-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_41-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) (gravitational) force is (directly) proportional to product of masses B1\nforce (between point masses) is inversely proportional to the square of their separation B1\n\n1(a)(ii) g = F / m C1\nF = GMm / r2 A1\nand so\ng = [GMm / r2] / m = GM / r2\n\n1(b)(i) g = (6.67  10–11  7.35  1022) / (1.74  106)2 = 1.62 N kg–1 A1\n\n1(b)(ii) fields (due to Earth and the Moon) have equal magnitudes B1\nfields (due to Earth and the Moon) are in opposite directions B1\n\n1(b)(iii) distance of X from Earth = (3.84  108 – x) C1\n(G ) 7.35  1022 / x2 = (G ) 5.98  1024 / (3.84  108 – x)2 C1\nx = 3.8  107 m A1\n© UCLES 2022 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-42-q01",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-42-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-42-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_42-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) work (done) per unit mass B1\nwork (done on mass) in moving mass from infinity (to the point) B1\n\n1(a)(ii) E = ϕm B1\nP\nE = (– GM / r)  m = – GMm / r\nP\nor\nϕ = – GM / r and E = ϕm = – GMm / r\nP\n\n1(b)(i) E = 6.67  10–11  1.99  1030  2.20  1014  [1 / (6.38  1010) – 1 / (8.44  1011)] C1\nP\n= 4.23  1023 J A1\n\n1(b)(ii) (gravitational) force is attractive so decrease B1\nor\n(gravitational) force does work so decrease\n\n1(b)(iii) E = ½m(v 2 – v 2) C1\nP 2 1\n4.23  1023 = ½  2.20  1014  (v2 – 341002) C1\nv (= 70800 m s–1) = 70.8 km s–1 A1\n\n1(c) both PE and KE equations include m, so path is unchanged B1\n© UCLES 2022 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-43-q01",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-43-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_43-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) (gravitational) force is (directly) proportional to product of masses B1\nforce (between point masses) is inversely proportional to the square of their separation B1\n\n1(a)(ii) g = F / m C1\nF = GMm / r2 A1\nand so\ng = [GMm / r2] / m = GM / r2\n\n1(b)(i) g = (6.67  10–11  7.35  1022) / (1.74  106)2 = 1.62 N kg–1 A1\n\n1(b)(ii) fields (due to Earth and the Moon) have equal magnitudes B1\nfields (due to Earth and the Moon) are in opposite directions B1\n\n1(b)(iii) distance of X from Earth = (3.84  108 – x) C1\n(G ) 7.35  1022 / x2 = (G ) 5.98  1024 / (3.84  108 – x)2 C1\nx = 3.8  107 m A1\n© UCLES 2022 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-41-q01",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-41-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_41-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a) F = (Gm m ) / r 2 M1\n\n1 2\nwhere G is the gravitational constant A1\n\n1(b) gravitational force provides the centripetal force B1\nmR 2 = GMm / R 2 and  = 2 / T M1\nor\nmv 2 / R = GMm / R 2 and v = 2R / T\nor\n42mR / T 2 = GMm / R 2\ncorrect completion of algebra to get T2 = (42 / GM) R3, with identification of (42 / GM) as k A1\n\n1(c)(i) (24  3600)2 = (42  R3) / (6.67  10–11  6.0  1024) C1\nR = 4.2  107 m A1\n\n1(c)(ii) (orbit) must be above the Equator B1\n(direction) must be from west to east B1\n© UCLES 2022 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q01",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-42-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-42-q01-p02.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-42-q01-p03.png"
+      ],
+      "source_pages": [
+        4,
+        5,
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a) force per unit mass B1\n\n1(b)(i) lines drawn are radial from the surface B1\narrows show pointing towards planet B1\n\n1(b)(ii) field lines show force (on satellite) is towards centre of planet B1\nor\nvelocity of satellite is perpendicular to field lines\n(gravitational) force perpendicular to velocity causes centripetal acceleration B1\n\n1(c)(i) T = 24 hours C1\na = r 2 and  = 2 / T C1\nor\na = v2 / r and v = 2r /T\nor\na = 42r / T 2\na = (42  6.4  106) / (24  60  60)2 A1\n= 0.034 m s–2\n\n1(c)(ii) identification of the two forces acting on the object as gravitational force and (normal) contact force M1\ngravitational force and normal contact force are in opposite directions, and their resultant causes the (centripetal) A1\nacceleration\n© UCLES 2022 Page 6 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-43-q01",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-43-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_43-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a) F = (Gm m ) / r 2 M1\n\n1 2\nwhere G is the gravitational constant A1\n\n1(b) gravitational force provides the centripetal force B1\nmR 2 = GMm / R 2 and  = 2 / T M1\nor\nmv 2 / R = GMm / R 2 and v = 2R / T\nor\n42mR / T 2 = GMm / R 2\ncorrect completion of algebra to get T2 = (42 / GM) R3, with identification of (42 / GM) as k A1\n\n1(c)(i) (24  3600)2 = (42  R3) / (6.67  10–11  6.0  1024) C1\nR = 4.2  107 m A1\n\n1(c)(ii) (orbit) must be above the Equator B1\n(direction) must be from west to east B1\n© UCLES 2022 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-m-42-q01",
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p02.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p03.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p04.png"
+      ],
+      "source_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m23_ms_42-p06.png",
+          "/9702/answer-assets/9702_m23_ms_42-p07.png"
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a) work done per unit mass B1\nwork (done on mass) moving mass from infinity (to the point) B1\n\n1(b)(i) –3.55  107 J kg–1 B1\n\n1(b)(ii) GM B1\n =−\nr\n−3.55 1 07  4 800 000\nM = –\n6.6710−11\n= 2.55  1024 kg\n\n1(b)(iii) GM  C1\ng = or g =−\nr2 r\n6.67 1 0−11  2.55 1 024 3.55 1 07 A1\n= or =\n48000002 4800000\n= 7.4 N kg–1\n\n1(b)(iv) r in range 2.60  107 to 2.65  107m C1\nmv2 GMm 2r GMm 2 C1\n= and v = or mr 2 = and  =\nr r2 T r2 T\n42r 3 42  ( 2.65 1 07)3 C1\nT2 = = = 4.20  109\nGM 6.67 1 0−11 2.55 1 024\nT = 64 800s A1\n= 18 hours\n© UCLES 2023 Page 6 of 18\n\n1(c) similarity – any one point from B1\n• inversely proportional to distance (from point)\n• points of equal potential lie on concentric spheres\n• zero at infinite distance\ndifference – any one point from B1\n• gravitational potential is (always) negative\n• electric potential can be positive or negative\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2023-mj-42-q01",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-mj-42-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-mj-42-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_42-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a) (gravitational) force is (directly) proportional to product of masses B1\nforce (between point masses) is inversely proportional to the square of their separation B1\n\n1(b) GMm / R2 = mR2 M1\n = 2 / T and algebra leading to 42R3 = GMT2 A1\nor\nGMm / R2 = mv2 / R (M1)\nv = 2R / T and algebra leading to 42R3 = GMT2 (A1)\n\n1(c) 42  R3 = 6.67  10–11  5.98  1024  (24  60  60)2 C1\n(R = 4.22  107 m)\nh = R – (6.37  106) C1\nh = (4.22  107) – (6.37  106) A1\n= 3.6  107 m\n\n1(d)(i)  = 2 / T C1\n= 2 / (24  60  60) A1\n= 7.3  10–5 rad s–1\n\n1(d)(ii) orbit is from east to west B1\norbit is not equatorial / orbit is polar B1\n© UCLES 2023 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-41-q01",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-41-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_41-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) direction of the force acting on a (test) mass placed at the point B1\n\n1(a)(ii) change in height negligible compared with radius (of Earth) B1\n(so) field lines are (effectively) parallel B1\n\n1(b)(i) Y = GM / R2 M1\nG is the gravitational constant A1\n\n1(b)(ii) gravitational force is (always) attractive B1\nor\ngravitational force (always) acts towards the centre of the sphere\nforce is in opposite direction to displacement B1\nor\nat a point to the right of the centre, force acts to the left\nor\nat a point to the left of the centre, force acts to the right\n\n1(b)(iii) sketch: smooth curve with decreasing positive gradient, starting at (R, –Y) and reaching 3R with g still negative B1\nor\nsmooth curve with increasing positive gradient, ending at (–R, Y) and reaching –3R with g still positive\nboth of the above curves, in correct quadrants B1\ncurve passing through (2R, 0.25Y) and (3R, 0.11Y) B1\n© UCLES 2023 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-42-q02",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-42-q02-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-42-q02-p02.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-42-q02-p03.png"
+      ],
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_42-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) work done per unit mass B1\nwork (done) moving mass from infinity (to the point) B1\n\n2(a)(ii)  = –GM / r C1\n= – (6.67  10–11  7.3  1022) / (1.7  106)\n= – 2.9  106 J kg–1 A1\n\n2(b)(i) E = m B1\nP\n\n2(b)(ii) ½mv2 + m = 0 M1\ncorrect algebra leading to v = √(–2) A1\n\n2(c) speed = √(2  2.9  106) A1\n= 2400 m s–1\n\n2(d) ½m<c2> = (3/2)kT C1\n3.34  10–27  <c2> = 3  1.38  10–23  400 C1\nc = 2200 m s–1 A1\nr.m.s.\n\n2(e) r.m.s. speed is an average so many molecules have speeds greater than the escape speed B1\nor\nthere is a distribution of molecular speeds (around the r.m.s. value) so many molecules have speeds greater than the\nescape speed\n© UCLES 2023 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-43-q01",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-43-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_43-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) direction of the force acting on a (test) mass placed at the point B1\n\n1(a)(ii) change in height negligible compared with radius (of Earth) B1\n(so) field lines are (effectively) parallel B1\n\n1(b)(i) Y = GM / R2 M1\nG is the gravitational constant A1\n\n1(b)(ii) gravitational force is (always) attractive B1\nor\ngravitational force (always) acts towards the centre of the sphere\nforce is in opposite direction to displacement B1\nor\nat a point to the right of the centre, force acts to the left\nor\nat a point to the left of the centre, force acts to the right\n\n1(b)(iii) sketch: smooth curve with decreasing positive gradient, starting at (R, –Y) and reaching 3R with g still negative B1\nor\nsmooth curve with increasing positive gradient, ending at (–R, Y) and reaching –3R with g still positive\nboth of the above curves, in correct quadrants B1\ncurve passing through (2R, 0.25Y) and (3R, 0.11Y) B1\n© UCLES 2023 Page 7 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-m-42-q01",
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-m-42-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-m-42-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m24_ms_42-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a) (gravitational) potential is zero at infinity B1\n(gravitational force between two masses is attractive so)\neither work is done on a mass to move it away from another mass B1\nor work is done on a mass to move it to infinity\n\n1(b)(i) M = (–) gradient / G C1\ne.g. M = (1.76  108) / (3.0  10–8  6.67  10–11) = 8.8  1025 kg A1\n\n1(b)(ii) either GMm / r2 = mr2 and  = 2 / T C1\nor GMm / r2 = mv2 / r and v = 2r / T\nor GMm / r2 = 42mr / T2\nR3 = 6.67  10–11  8.8  1025  (0.72  24  60  60)2 / 42 C1\nR = 8.3  107 m A1\n\n1(b)(iii) E = (GMm / r) – ½mv2 C1\nkinetic energy = (½  1200  84002)\npotential energy = (–)[(6.67  10–11  8.8  1025  1200) / (8.3  107)] C1\nE = [(6.67  10–11  8.8  1025  1200) / (8.3  107)] A1\n– (½  1200  84002)\n= 4.3  1010 J\n© Cambridge University Press & Assessment 2024 Page 6 of 14"
+      }
+    },
+    {
+      "id": "9702-2024-mj-41-q01",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-mj-41-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-mj-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_41-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a) work done per unit mass B1\nwork done moving mass from infinity (to the point) B1\n\n1(b)(i) potential is zero at infinity B1\nwork is done by (two) masses in moving them closer together B1\nor\nwork is done on (two) masses in moving them apart\n\n1(b)(ii) magnitude of potential shown as 4 B1\npotential negative and shown as a multiple of – [potential = –4 if fully correct] B1\n\n1(b)(iii) field strength at X:  / 4R A1\nfield strength at Y: 4 / R A1\npotential energy at X: –M A1\npotential energy at Y: –8M A1\n© Cambridge University Press & Assessment 2024 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-mj-43-q01",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-mj-43-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-mj-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_43-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a) work done per unit mass B1\nwork done moving mass from infinity (to the point) B1\n\n1(b)(i) potential is zero at infinity B1\nwork is done by (two) masses in moving them closer together B1\nor\nwork is done on (two) masses in moving them apart\n\n1(b)(ii) magnitude of potential shown as 4 B1\npotential negative and shown as a multiple of – [potential = –4 if fully correct] B1\n\n1(b)(iii) field strength at X:  / 4R A1\nfield strength at Y: 4 / R A1\npotential energy at X: –M A1\npotential energy at Y: –8M A1\n© Cambridge University Press & Assessment 2024 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-41-q01",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-on-41-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-on-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_41-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a) (gravitational) force is (directly) proportional to product of masses B1\nforce (between point masses) is inversely proportional to the square of their separation B1\n\n1(b)(i) (gravitational) force acts perpendicular to direction of motion B1\ngravitational force provides centripetal acceleration B1\n\n1(b)(ii) (F =) GMm / x2 = mx2 and  = 2 / T M1\nor\nGMm / x2 = 42mx / T2\ncompletion of algebra leading to x3 = GMT2 / 42 A1\nclear indication that B = radius of planet and that A = mass (of planet) B1\n\n1(b)(iii) gradient = 3√(42 / GA) C1\ne.g. (1280 – 360) / (12  106) = 3√(42 / [6.67  10–11  A]) C1\nA = 1.3  1024 kg A1\nintercept = gradient  B C1\ne.g. 360 = ((1280 – 360)  B) / (12  106) A1\nB = 4.7  106 m\n© Cambridge University Press & Assessment 2024 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-43-q01",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-on-43-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-on-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_43-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a) (gravitational) force is (directly) proportional to product of masses B1\nforce (between point masses) is inversely proportional to the square of their separation B1\n\n1(b)(i) (gravitational) force acts perpendicular to direction of motion B1\ngravitational force provides centripetal acceleration B1\n\n1(b)(ii) (F =) GMm / x2 = mx2 and  = 2 / T M1\nor\nGMm / x2 = 42mx / T2\ncompletion of algebra leading to x3 = GMT2 / 42 A1\nclear indication that B = radius of planet and that A = mass (of planet) B1\n\n1(b)(iii) gradient = 3√(42 / GA) C1\ne.g. (1280 – 360) / (12  106) = 3√(42 / [6.67  10–11  A]) C1\nA = 1.3  1024 kg A1\nintercept = gradient  B C1\ne.g. 360 = ((1280 – 360)  B) / (12  106) A1\nB = 4.7  106 m\n© Cambridge University Press & Assessment 2024 Page 6 of 15"
+      }
+    },
+    {
+      "id": "9702-2025-mj-41-q01",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 1,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-mj-41-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-mj-41-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_41-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_41.pdf?download=true",
+        "mark_scheme_text": "1(a) work done per unit mass B1\nwork (done in) moving mass from infinity (to the point) B1\n\n1(b)(i) evidence of addition of 3.4 × 106 to 1.7 × 106 or 6.8 × 106 C1\nGM × 122 / (5.1 × 106) or GM × 122 / (10.2 × 106) C1\n6.67 × 10–11 × M × 122 × [(5.1 × 106)–1 – (10.2 × 106)–1] = 5.1 × 108 A1\nleading to M = 6.4 × 1023 kg\n\n1(b)(ii)  = (–) (6.67 × 10–11 × 6.4 × 1023) / (3.4 × 106) C1\n= –1.3 × 107 J kg–1 A1\n\n1(c)(i) Mars takes (just under) 25 hours to rotate once on its axis B1\n\n1(c)(ii) orbit is equatorial B1\nor\norbit is in same direction as direction of rotation of Mars\n© Cambridge University Press & Assessment 2025 Page 8 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-mj-43-q01",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 1,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-mj-43-q01-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-mj-43-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_43-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_43.pdf?download=true",
+        "mark_scheme_text": "1(a) work done per unit mass B1\nwork (done in) moving mass from infinity (to the point) B1\n\n1(b)(i) evidence of addition of 3.4 × 106 to 1.7 × 106 or 6.8 × 106 C1\nGM × 122 / (5.1 × 106) or GM × 122 / (10.2 × 106) C1\n6.67 × 10–11 × M × 122 × [(5.1 × 106)–1 – (10.2 × 106)–1] = 5.1 × 108 A1\nleading to M = 6.4 × 1023 kg\n\n1(b)(ii)  = (–) (6.67 × 10–11 × 6.4 × 1023) / (3.4 × 106) C1\n= –1.3 × 107 J kg–1 A1\n\n1(c)(i) Mars takes (just under) 25 hours to rotate once on its axis B1\n\n1(c)(ii) orbit is equatorial B1\nor\norbit is in same direction as direction of rotation of Mars\n© Cambridge University Press & Assessment 2025 Page 8 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-on-41-q03",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_41-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
+        "mark_scheme_text": "3(a) force per unit mass B1\n\n3(b)(i) F = GMm / x2 C1\ng = F / m A1\ng = [GMm / x2] / m = GM / x2 and G = gravitational constant\n\n3(b)(ii) arrow drawn at P pointing directly towards the point mass B1\n\n3(b)(iii) fields are in opposite directions B1\nfield strength at Q is four times the field strength at P B1\n\n3(c) line starting at (R, –g ) and ending at (L – R, +g ) B1\n0 0\nline passing through (L / 2, 0) B1\ncurve becoming shallower from R to (L / 2) and then steeper from (L / 2) to (L – R) B1\n© Cambridge University Press & Assessment 2025 Page 10 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-43-q03",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-43-q03-p01.png",
+        "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-43-q03-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_43-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
+        "mark_scheme_text": "3(a) force per unit mass B1\n\n3(b)(i) F = GMm / x2 C1\ng = F / m A1\ng = [GMm / x2] / m = GM / x2 and G = gravitational constant\n\n3(b)(ii) arrow drawn at P pointing directly towards the point mass B1\n\n3(b)(iii) fields are in opposite directions B1\nfield strength at Q is four times the field strength at P B1\n\n3(c) line starting at (R, –g ) and ending at (L – R, +g ) B1\n0 0\nline passing through (L / 2, 0) B1\ncurve becoming shallower from R to (L / 2) and then steeper from (L / 2) to (L – R) B1\n© Cambridge University Press & Assessment 2025 Page 10 of 17"
+      }
+    }
+  ]
+}

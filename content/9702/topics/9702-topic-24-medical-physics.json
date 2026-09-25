@@ -1,0 +1,980 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 24,
+    "label": "Medical physics",
+    "slug": "9702-topic-24-medical-physics"
+  },
+  "questions": [
+    {
+      "id": "9702-2021-m-42-q08",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-m-42-q08-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-m-42-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p15.png",
+          "/9702/answer-assets/9702_m21_ms_42-p16.png"
+        ],
+        "source_pages": [
+          15,
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "8(a)(i) at least one anticlockwise arrow and no clockwise arrows B1\n\n8(a)(ii) (force is to the) left B1\n\n8(a)(iii) force is the same B1\nNewton’s third law (of motion) B1\nor force depends on the product of the two currents\n© UCLES 2021 Page 15 of 19\n\n8(b)(i) frequency of radio waves is equal to natural frequency of protons B1\nresonance of protons occurs / protons absorb energy B1\n\n8(b)(ii) in between pulses / when pulse stops B1\nAny 1 from: B1\n• protons de-excite\n• protons emit r.f. pulses\n• emitted (r.f.) pulse (from proton) detected\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-m-42-q11",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 11,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-m-42-q11-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-m-42-q11-p02.png"
+      ],
+      "source_pages": [
+        25,
+        26
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p18.png",
+          "/9702/answer-assets/9702_m21_ms_42-p19.png"
+        ],
+        "source_pages": [
+          18,
+          19
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "11(a)(i) electrons decelerate (on hitting target) so X-ray photons produced B1\nrange of decelerations B1\nphoton energy depends on (magnitude of) deceleration B1\n\n11(a)(ii) hc C1\neV =\nλ\n6.63×10 −34 ×3.0×108 C1\nλ=\n1.6×10 −19 ×15000\n=8.3×10 −11m A1\nor (C1)\nE = hf and c = fλ and electron energy = eV\nor\nE = hc / λ and electron energy = eV\nelectron energy = 1.6 × 10–19 × 15000\n= 2.4 × 10–15\n6.63×10 −34 ×3.0×108 (C1)\nλ=\n2.4×10 −15\nλ=8.3×10 −11m (A1)\n\n11(b)(i) μ = – gradient or ln (I / I ) = −μx C1\no\n(e.g. 2.08 / 10.0) = 0.21 cm–1 A1\n© UCLES 2021 Page 18 of 19\n\n11(b)(ii) ln 0.05 =−μx C1\nln0.05 A1\nx =\n−μ\ne.g. x =14 cm\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q04",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 4,
+      "marks": 5,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q04-p01.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "4 (ultrasound) pulse B1\nreflected at boundaries B1\ngel is used to minimise reflection at skin B1\nor\ngenerated and detected by quartz crystal\ntime delay between generation and detection gives information about depth B1\nintensity (of reflected wave) gives information about nature of boundary B1\n© UCLES 2021 Page 10 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q11",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 11,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p02.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p03.png"
+      ],
+      "source_pages": [
+        24,
+        25,
+        26
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p17.png"
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "11(a) intensity: vary filament current/p.d. across filament B1\nhardness: vary accelerating potential difference B1\n\n11(b)(i) I = I e –μx C1\n0\nI = I exp(–0.92 × 9.0) A1\nS 0\n= 2.5 × 10–4 I\n0\n\n11(b)(ii) I = [exp(–0.92 × 6.0) × exp(–2.9 × 3.0)] I C1\nC 0\n= 6.7 × 10–7 I A1\n0\n\n11(c) conclusion consistent with values in (b)(i) and (b)(ii) B1\ne.g. I ≫ I so good contrast\nS C\n© UCLES 2021 Page 17 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-42-q11",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 11,
+      "marks": 6,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-42-q11-p01.png"
+      ],
+      "source_pages": [
+        25
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_42-p18.png"
+        ],
+        "source_pages": [
+          18
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_42.pdf?download=true",
+        "mark_scheme_text": "11(a) to produce a 3-dimensional image of structure/body B1\n\n11(b) X-rays (are used) B1\nscanning in sections B1\nscanning from many angles B1\nimage of each section is 2-dimensional B1\nscanning repeated for many sections B1\nor\nimages of many sections combined together\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q04",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 4,
+      "marks": 5,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-43-q04-p01.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "4 (ultrasound) pulse B1\nreflected at boundaries B1\ngel is used to minimise reflection at skin B1\nor\ngenerated and detected by quartz crystal\ntime delay between generation and detection gives information about depth B1\nintensity (of reflected wave) gives information about nature of boundary B1\n© UCLES 2021 Page 10 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q11",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 11,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-43-q11-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-43-q11-p02.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-43-q11-p03.png"
+      ],
+      "source_pages": [
+        24,
+        25,
+        26
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p17.png"
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "11(a) intensity: vary filament current/p.d. across filament B1\nhardness: vary accelerating potential difference B1\n\n11(b)(i) I = I e –μx C1\n0\nI = I exp(–0.92 × 9.0) A1\nS 0\n= 2.5 × 10–4 I\n0\n\n11(b)(ii) I = [exp(–0.92 × 6.0) × exp(–2.9 × 3.0)] I C1\nC 0\n= 6.7 × 10–7 I A1\n0\n\n11(c) conclusion consistent with values in (b)(i) and (b)(ii) B1\ne.g. I ≫ I so good contrast\nS C\n© UCLES 2021 Page 17 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-on-41-q11",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 11,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-on-41-q11-p01.png"
+      ],
+      "source_pages": [
+        25
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_41-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_41.pdf?download=true",
+        "mark_scheme_text": "11(a)(i) ease with which edges can be distinguished B1\n\n11(a)(ii) difference in degrees of blackening B1\n\n11(b) I = I exp (–μx) C1\n0\n0.12 = exp (–μ × 2.3) C1\nln 0.12 = –2.3 × μ\nμ = 0.92 cm–1 A1\n\n11(c) advantage: produces 3-dimensional image B1\ndisadvantage: (much) greater exposure to radiation B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-on-42-q11",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 11,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-on-42-q11-p01.png"
+      ],
+      "source_pages": [
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_42-p17.png"
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_42.pdf?download=true",
+        "mark_scheme_text": "11(a) generates ultrasound B1\ndetects reflected ultrasound B1\napplied p.d. causes crystal to vibrate B1\nor\nvibrations cause crystal to generate an e.m.f.\n\n11(b)(i) product of density and speed M1\nspeed of ultrasound in medium A1\n\n11(b)(ii) difference between (the specific acoustic impedances) C1\n• if similar/same then reflection coefficient is zero/very low A1\n• if very different then reflection coefficient is (nearly) 1\n• the lower the difference means lower the reflection coefficient\n(any one point)\n© UCLES 2021 Page 17 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-on-43-q11",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 11,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2021-on-43-q11-p01.png"
+      ],
+      "source_pages": [
+        25
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_43-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_43.pdf?download=true",
+        "mark_scheme_text": "11(a)(i) ease with which edges can be distinguished B1\n\n11(a)(ii) difference in degrees of blackening B1\n\n11(b) I = I exp (–μx) C1\n0\n0.12 = exp (–μ × 2.3) C1\nln 0.12 = –2.3 × μ\nμ = 0.92 cm–1 A1\n\n11(c) advantage: produces 3-dimensional image B1\ndisadvantage: (much) greater exposure to radiation B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2022-m-42-q10",
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 10,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-m-42-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-m-42-q10-p02.png"
+      ],
+      "source_pages": [
+        26,
+        27
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m22_ms_42-p14.png",
+          "/9702/answer-assets/9702_m22_ms_42-p15.png"
+        ],
+        "source_pages": [
+          14,
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
+        "mark_scheme_text": "10(a) energy = mcΔT C1\nenergy = ItV C1\n0.40×0.020×75 000 ×0.95\n(ΔT =)\n0.015×130\n=290 K A1\n\n10(b) I = I e −μt C1\no\n0.20 = e\n−0.22t\nt = 7.3 cm A1\n© UCLES 2022 Page 14 of 17\n\n10(c) either M1\n(linear) attenuation coefficients / μ very different for bone and muscle\n(very) different amounts (of X-rays) absorbed so good contrast A1\nor (very) different intensities transmitted so good contrast\nor (M1)\n(linear) attenuation coefficients / μ similar for blood and muscle\nsimilar amounts (of X-rays) absorbed so poor contrast (A1)\nor similar intensities transmitted so poor contrast\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2022-m-42-q11",
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 11,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-m-42-q11-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-m-42-q11-p02.png"
+      ],
+      "source_pages": [
+        28,
+        29
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m22_ms_42-p15.png",
+          "/9702/answer-assets/9702_m22_ms_42-p16.png"
+        ],
+        "source_pages": [
+          15,
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
+        "mark_scheme_text": "11(a) substance containing radioactive nuclei that is introduced into the body or B1\nsubstance containing radioactive nuclei that is absorbed by the tissue being studied\n\n11(b)(i) a particle interacting with its antiparticle so that mass is converted into energy B1\n\n11(b)(ii) electron(s) and positron(s) B1\n\n11(c)(i) E = 2mc2 A1\n= 2×9.11×10 −31×3.00×10 −82\n= 1.64×10 −13J\n© UCLES 2022 Page 15 of 17\n\n11(c)(ii) 2hc C1\nλ =\nE\n2×6.63×10 −34 ×3.00×108\n=\n1.64×10 −13\n= 2.43 × 10 −12 m A1\n\n11(d) Any 3 from: B3\n• the two gamma photons travel in opposite directions\n• gamma photons detected (outside body / by detectors)\n• gamma photons arrive (at detector) at different times\n• determine location of production (of gamma)\n• image of tracer concentration in tissue produced\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2022-mj-41-q09",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-mj-41-q09-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-mj-41-q09-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_41-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_41.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) electrons are accelerated (by an applied p.d.) B1\nelectrons hit target B1\nX-rays produced when electrons decelerate B1\n\n9(a)(ii) images of the multiple sections are combined to create a 3-D image B1\n\n9(b)(i) I = I exp (– μx) C1\n0\n= I exp (– 0.89  5.6) A1\n0\n= 0.0068 I\n0\n\n9(b)(ii) I = I exp (– 2.4  3.4)  exp (– 0.89  3.2) C1\n0\n= 1.7  10–5 I A1\n0\n\n9(c) comparison of intensities or values in (b) leading to conclusion consistent with these values B1\n© UCLES 2022 Page 15 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-43-q09",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-mj-43-q09-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-mj-43-q09-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_43-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_43.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) electrons are accelerated (by an applied p.d.) B1\nelectrons hit target B1\nX-rays produced when electrons decelerate B1\n\n9(a)(ii) images of the multiple sections are combined to create a 3-D image B1\n\n9(b)(i) I = I exp (– μx) C1\n0\n= I exp (– 0.89  5.6) A1\n0\n= 0.0068 I\n0\n\n9(b)(ii) I = I exp (– 2.4  3.4)  exp (– 0.89  3.2) C1\n0\n= 1.7  10–5 I A1\n0\n\n9(c) comparison of intensities or values in (b) leading to conclusion consistent with these values B1\n© UCLES 2022 Page 15 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q10",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-on-42-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2022-on-42-q10-p02.png"
+      ],
+      "source_pages": [
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p16.png"
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "10(a)(i) introduction of tracer (into the body) M1\ncontaining a + emitter A1\n\n10(a)(ii) positron interacts with electron B1\n(pair) annihilation occurs B1\nmass of particles converted into gamma photons B1\n\n10(b) (annihilation of electron and positron) produces two photons B1\nE = ()mc2 B1\nE = hf and f = c /  B1\nor\nE = hc / \n = {[2] 6.63  10–34  3.00  108} / {[2] 9.11  10–31  (3.00  108)2} B1\n= 2.4(3)  10–12 m or 2.4(3) pm (full substitution and answer with unit needed)\n© UCLES 2022 Page 16 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-m-42-q09",
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-m-42-q09-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-m-42-q09-p02.png"
+      ],
+      "source_pages": [
+        26,
+        27
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m23_ms_42-p17.png"
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
+        "mark_scheme_text": "9(a) piezo-electric crystal B1\n(ultrasound) wave causes shape change / vibrations (of crystal) B1\nshape change / vibrations causes e.m.f. (which is detected) B1\n\n9(b)(i) 93V A1\n\n9(b)(ii) 2.7  107rads–1 A1\n\n9(c)(i) kgm–2s–1 B1\n\n9(c)(ii)  = Z / c = 1.7  106 / 1600 A1\n= 1100 kg m–3\n\n9(c)(iii) intensity reflection coefficient ≈ 1 or Z and Z are very different B1\n1 2\nalmost no / no ultrasound transmitted (into air filled cavity) B1\n© UCLES 2023 Page 17 of 18"
+      }
+    },
+    {
+      "id": "9702-2023-mj-41-q08",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-41-q08-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-41-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_41-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_41.pdf?download=true",
+        "mark_scheme_text": "8(a)(i) specific acoustic impedance = 1200  1400 = 1.68  106 kg m–2 s–1 A1\n\n8(a)(ii) density of air shown in table as 1.29 A1\nspeed of sound in tissue shown in table as 1540 A1\n\n8(b)(i) intensity reflection coefficient = (Z – Z )2 / (Z + Z )2 C1\n1 2 1 2\n= (1680000 – 440)2 / (1680000 + 440)2\n= 0.999 A1\n\n8(b)(ii) intensity reflection coefficient = (Z – Z )2 / (Z + Z )2 A1\n1 2 1 2\n= (1680000 – 1680000)2 / (1680000 + 1680000)2\n= 0\n\n8(c) without gel, (almost) all of the (incident) ultrasound is reflected (from skin) B1\nwith gel, (almost) all of the (incident) ultrasound is transmitted (into the body) B1\n© UCLES 2023 Page 14 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-mj-42-q10",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-42-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-42-q10-p02.png"
+      ],
+      "source_pages": [
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_42-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_42.pdf?download=true",
+        "mark_scheme_text": "10(a)(i) electrons B1\n\n10(a)(ii) electrons are decelerated / stopped on impact with the target B1\n(kinetic) energy lost by electrons emitted as (X-ray) photons B1\n\n10(a)(iii) eV = hc /  C1\n = (6.63  10–34  3.00  108) / (1.60  10–19  5800) C1\n= 2.14  10–10 m A1\n\n10(b) I = I exp (–x) C1\n0\nI / I = exp (–(1.4  2.8)) C1\nT 0\n= 0.020\n% absorbed = (1.000 – 0.0198)  100 A1\n= 98%\n© UCLES 2023 Page 15 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-mj-43-q08",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-43-q08-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-43-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_43-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_43.pdf?download=true",
+        "mark_scheme_text": "8(a)(i) specific acoustic impedance = 1200  1400 = 1.68  106 kg m–2 s–1 A1\n\n8(a)(ii) density of air shown in table as 1.29 A1\nspeed of sound in tissue shown in table as 1540 A1\n\n8(b)(i) intensity reflection coefficient = (Z – Z )2 / (Z + Z )2 C1\n1 2 1 2\n= (1680000 – 440)2 / (1680000 + 440)2\n= 0.999 A1\n\n8(b)(ii) intensity reflection coefficient = (Z – Z )2 / (Z + Z )2 A1\n1 2 1 2\n= (1680000 – 1680000)2 / (1680000 + 1680000)2\n= 0\n\n8(c) without gel, (almost) all of the (incident) ultrasound is reflected (from skin) B1\nwith gel, (almost) all of the (incident) ultrasound is transmitted (into the body) B1\n© UCLES 2023 Page 14 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-41-q10",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 10,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-41-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-41-q10-p02.png"
+      ],
+      "source_pages": [
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_41-p16.png"
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
+        "mark_scheme_text": "10(a) ultrasound production: vibrating quartz crystal B1\nX-ray production: electrons hitting metal target B1\nultrasound detected wave: reflected B1\nX-ray detected wave: transmitted B1\n\n10(b)(i) I = I exp (–x) C1\n0\nln (0.72) = –6.2 A1\n = 0.053 cm–1\n\n10(b)(ii) I / I = exp (–9.3  0.053) C1\n0\n( = 0.61)\npercentage attenuated = 100  (1.00 – 0.61) A1\n= 39%\n© UCLES 2023 Page 16 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-42-q09",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 9,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-42-q09-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-42-q09-p02.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-42-q09-p03.png"
+      ],
+      "source_pages": [
+        20,
+        21,
+        22
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_42-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_42.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) material introduced into the body B1\nand\n(position in body) can be detected or absorbed by the tissue (being studied)\n\n9(a)(ii) X = + or e+ and P = 1 B1\nQ = 0 and R = 18 B1\n\n9(b)(i) positrons (emitted in the decay) and electrons annihilate B1\nmass of particles becomes energy of gamma photons B1\n\n9(b)(ii) arrival times of photons are processed B1\nimage built up of tracer concentration in the tissue B1\n\n9(c)(i) A = N and  = ln 2 / T C1\nN = n  N C1\nA\n2 photons produced from each decay, so R = 2    n  N A1\n0 A\nR = (2 ln 2) nN / T (allow 0.693 for ln 2)\n0 A\n\n9(c)(ii) sketch: exponential decay curve from t = 0 to t = 2T, starting at (0, R ) and with a negative gradient of continuously B1\n0\ndecreasing magnitude\nline with negative gradient passing through (T, R / 2) and (2T, R / 4) B1\n0 0\n© UCLES 2023 Page 14 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-43-q10",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 10,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-43-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-43-q10-p02.png"
+      ],
+      "source_pages": [
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_43-p16.png"
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
+        "mark_scheme_text": "10(a) ultrasound production: vibrating quartz crystal B1\nX-ray production: electrons hitting metal target B1\nultrasound detected wave: reflected B1\nX-ray detected wave: transmitted B1\n\n10(b)(i) I = I exp (–x) C1\n0\nln (0.72) = –6.2 A1\n = 0.053 cm–1\n\n10(b)(ii) I / I = exp (–9.3  0.053) C1\n0\n( = 0.61)\npercentage attenuated = 100  (1.00 – 0.61) A1\n= 39%\n© UCLES 2023 Page 16 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-m-42-q09",
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 9,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p02.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p03.png"
+      ],
+      "source_pages": [
+        22,
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m24_ms_42-p12.png",
+          "/9702/answer-assets/9702_m24_ms_42-p13.png"
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_ms_42.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) eV = hc /  C1\n = (6.63  10–34  3.00  108) / (84  103  1.60  10–19) A1\n= 1.5  10–11 m\n\n9(a)(ii) either (some) kinetic energy (of electrons) is converted to thermal energy at target B1\nor some X-rays are absorbed by the target so its temperature increases\n(tungsten) has higher melting point so does not melt quickly / easily B1\n© Cambridge University Press & Assessment 2024 Page 12 of 14\n\n9(b) I = I exp (–t) C1\n0\n0.13 = [exp (–3.0x)]  [exp (–0.22x)] C1\n= exp (–3.22x)\nx = 0.63 cm A1\n\n9(c)(i) product of density and speed M1\nspeed of ultrasound in medium A1\n\n9(c)(ii) I / I = (7.8 – 1.7)2 / (7.8 + 1.7)2 C1\nR 0\n= 0.41\nfraction transmitted = 1.00 – 0.41 = 0.59\npercentage transmitted = 59% A1\n\n9(c)(iii) more than one boundary so more reflections B1\nsome ultrasound is attenuated in matter B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2024-mj-41-q08",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 8,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-41-q08-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-41-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_41-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_41.pdf?download=true",
+        "mark_scheme_text": "8(a) packet / quantum of energy M1\nof electromagnetic radiation A1\n\n8(b)(i) electron(s) B1\n\n8(b)(ii) X labelled – and Y labelled + B1\n\n8(c)(i) 0.032 MeV A1\n\n8(c)(ii) momentum = E / c C1\nmomentum = (0.032 × 1.60  10–13) / (3.00  108) A1\n= 1.7  10–23 N s\n\n8(c)(iii) E = hf and  = c / f C1\n = hc / E C1\n= (6.63  10–34 × 3.00  108) / (0.032  1.60 × 10–13)\n = 3.9  10–11 m A1\n\n8(d) discussion of bone and soft tissue B1\ndiscussion of different attenuation (coefficients) B1\nor\ndiscussion differences in penetration / transmission / absorption\ntransmitted intensities (by bone and tissue) are very different (leading to good contrast images) B1\n© Cambridge University Press & Assessment 2024 Page 13 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-mj-42-q10",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 10,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-42-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-42-q10-p02.png"
+      ],
+      "source_pages": [
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_42-p16.png"
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_42.pdf?download=true",
+        "mark_scheme_text": "10(a) time gives information about depth (of boundary) B1\nintensity gives information about nature of boundary B1\n\n10(b)(i) product of density and speed M1\nspeed of ultrasound in medium (and density of medium) A1\n\n10(b)(ii) Z = 1000  1420 (= 1.42  106 kg m–2 s–1) C1\nwater\nand\nZ = 2500  4560 (= 11.4  106 kg m–2 s–1)\nglass\nintensity reflection coefficient = (11.4 – 1.42)2 / (11.4 + 1.42)2 C1\n= 0.61 A1\n© Cambridge University Press & Assessment 2024 Page 16 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-mj-43-q08",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 8,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-43-q08-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-43-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_43-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_43.pdf?download=true",
+        "mark_scheme_text": "8(a) packet / quantum of energy M1\nof electromagnetic radiation A1\n\n8(b)(i) electron(s) B1\n\n8(b)(ii) X labelled – and Y labelled + B1\n\n8(c)(i) 0.032 MeV A1\n\n8(c)(ii) momentum = E / c C1\nmomentum = (0.032 × 1.60  10–13) / (3.00  108) A1\n= 1.7  10–23 N s\n\n8(c)(iii) E = hf and  = c / f C1\n = hc / E C1\n= (6.63  10–34 × 3.00  108) / (0.032  1.60 × 10–13)\n = 3.9  10–11 m A1\n\n8(d) discussion of bone and soft tissue B1\ndiscussion of different attenuation (coefficients) B1\nor\ndiscussion differences in penetration / transmission / absorption\ntransmitted intensities (by bone and tissue) are very different (leading to good contrast images) B1\n© Cambridge University Press & Assessment 2024 Page 13 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-41-q09",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-on-41-q09-p01.png"
+      ],
+      "source_pages": [
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_41-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_41.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) positron B1\n\n9(a)(ii)  = ln 2 / (110  60) = 1.05  10–4 s–1 A1\n\n9(a)(iii) N = M / (18 u) or (M in grams  N / 18) C1\nA\nN = (2.1  10–12) / (18  1.66  10–27) or (2.1  10–9  6.02  1023) / 18\n( = 7.0  1013)\nA = N C1\n= 1.05  10–4  7.0  1013 A1\n= 7.4  109 Bq\n\n9(b)(i) • (pair) annihilation occurs B3\n• the mass of the two particles is converted into energy\n• two gamma photons are formed and travel in opposite directions\nor\ntwo gamma photons are formed and leave the body\n• difference in arrival times of photons (at detector) is processed\nAny three points, 1 mark each\n\n9(b)(ii) with a shorter half-life: sample would (almost) fully decay before the test is complete B1\na longer half-life: exposes patient to harmful/ionising radiation unnecessarily B1\nor\nwith a longer half-life: a larger dose (of tracer) needed to produce detectable activity\n© Cambridge University Press & Assessment 2024 Page 14 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-43-q09",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2024-on-43-q09-p01.png"
+      ],
+      "source_pages": [
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_43-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_43.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) positron B1\n\n9(a)(ii)  = ln 2 / (110  60) = 1.05  10–4 s–1 A1\n\n9(a)(iii) N = M / (18 u) or (M in grams  N / 18) C1\nA\nN = (2.1  10–12) / (18  1.66  10–27) or (2.1  10–9  6.02  1023) / 18\n( = 7.0  1013)\nA = N C1\n= 1.05  10–4  7.0  1013 A1\n= 7.4  109 Bq\n\n9(b)(i) • (pair) annihilation occurs B3\n• the mass of the two particles is converted into energy\n• two gamma photons are formed and travel in opposite directions\nor\ntwo gamma photons are formed and leave the body\n• difference in arrival times of photons (at detector) is processed\nAny three points, 1 mark each\n\n9(b)(ii) with a shorter half-life: sample would (almost) fully decay before the test is complete B1\na longer half-life: exposes patient to harmful/ionising radiation unnecessarily B1\nor\nwith a longer half-life: a larger dose (of tracer) needed to produce detectable activity\n© Cambridge University Press & Assessment 2024 Page 14 of 15"
+      }
+    },
+    {
+      "id": "9702-2025-on-41-q10",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 10,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-41-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-41-q10-p02.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-41-q10-p03.png"
+      ],
+      "source_pages": [
+        22,
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_41-p17.png"
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
+        "mark_scheme_text": "10(a) product of density and speed M1\nspeed of sound in medium (and density of the medium) A1\n\n10(b) ultrasound waves cause crystal to vibrate B1\nvibrations (of crystal) cause induced e.m.f. (across crystal) B1\n\n10(c)(i) intensity reflection coefficient= (40.4 – 1.48)2 / (40.4 + 1.48)2 C1\n= 0.86 A1\n\n10(c)(ii) Z values are very similar B1\n(almost) all the ultrasound will be transmitted B1\nor\n(almost) none of the ultrasound will be reflected\n© Cambridge University Press & Assessment 2025 Page 17 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-42-q10",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-42-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-42-q10-p02.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-42-q10-p03.png"
+      ],
+      "source_pages": [
+        22,
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_42-p17.png"
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_42.pdf?download=true",
+        "mark_scheme_text": "10(a) difference in degrees of blackening B1\n\n10(b)(i) I = I exp (–x) A1\n0\n= I exp (– 5.8  0.35) = 0.13 I\n0 0\n\n10(b)(ii) use of exp {–(0.35  3.7)} factor C1\n0.053I = I exp {–[(0.35  3.7) + 2.1]} C1\n0 0\n = 0.78 cm–1 A1\n\n10(b)(iii) factor of only 2.5 between the (detected) intensities (so not good contrast) B1\n\n10(c) (structure) scanned in (thin) sections B1\n(many) scans (of each section) taken from different angles B1\nscanning repeated for all sections and (data) compiled (to form 3D image) B1\n© Cambridge University Press & Assessment 2025 Page 17 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-43-q10",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 10,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-43-q10-p01.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-43-q10-p02.png",
+        "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-43-q10-p03.png"
+      ],
+      "source_pages": [
+        22,
+        23,
+        24
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_43-p17.png"
+        ],
+        "source_pages": [
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
+        "mark_scheme_text": "10(a) product of density and speed M1\nspeed of sound in medium (and density of the medium) A1\n\n10(b) ultrasound waves cause crystal to vibrate B1\nvibrations (of crystal) cause induced e.m.f. (across crystal) B1\n\n10(c)(i) intensity reflection coefficient= (40.4 – 1.48)2 / (40.4 + 1.48)2 C1\n= 0.86 A1\n\n10(c)(ii) Z values are very similar B1\n(almost) all the ultrasound will be transmitted B1\nor\n(almost) none of the ultrasound will be reflected\n© Cambridge University Press & Assessment 2025 Page 17 of 17"
+      }
+    }
+  ]
+}

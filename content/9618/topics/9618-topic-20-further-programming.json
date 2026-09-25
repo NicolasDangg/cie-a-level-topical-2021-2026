@@ -1,0 +1,1245 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 20,
+    "label": "Further programming",
+    "slug": "9618-topic-20-further-programming"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-mj-31-q09",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2021-mj-31-q09-p01.png"
+      ],
+      "source_pages": [
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p09.png",
+          "/9618/answer-assets/9618_s21_ms_31-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for each correct marking point (Max 2) 2\n• Imperative languages use variables\n• … which are changed using (assignment) statements\n• … they rely on a method of repetition / iteration.\n• The statements provide a sequence of commands for the computer to\nperform\n• … in the order written / given\n• … each line of code changes something in the program run.\n\n9(b) One mark for each correct marking point (Max 2) 2\n• Instructs a program on what needs to be done instead of how to do it\n• ... using facts and rules\n• … using queries to satisfy goals.\n• Can be logical or functional\n• Logical - states a program as a set of logical relations\n• Functional – constructed by applying functions to arguments / uses a\nmathematical style\n© UCLES 2021 Page 9 of 10\n\n9(c) One mark for each correct programming paradigm (Max 4) 4\nProgram code example Programming paradigm\nmale(john).\nfemale(ethel). Declarative\nparent(john, ethel).\nFOR Counter = 1 TO 20\nX = X * Counter Procedural / imperative\nNEXT Counter\nStart: LDD Counter\nINC ACC Low-level / assembly\nSTO Counter\npublic class Vehicle\n{\nprivate speed;\npublic Vehicle()\nObject oriented / (OOP)\n{\nspeed = 0;\n}\n}\n© UCLES 2021 Page 10 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q09",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2021-mj-32-q09-p01.png"
+      ],
+      "source_pages": [
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p09.png",
+          "/9618/answer-assets/9618_s21_ms_32-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for each correct marking point (Max 2) 2\n• Imperative languages use variables\n• … which are changed using (assignment) statements\n• … they rely on a method of repetition / iteration.\n• The statements provide a sequence of commands for the computer to\nperform\n• … in the order written / given\n• … each line of code changes something in the program run.\n\n9(b) One mark for each correct marking point (Max 2) 2\n• Instructs a program on what needs to be done instead of how to do it\n• ... using facts and rules\n• … using queries to satisfy goals.\n• Can be logical or functional\n• Logical - states a program as a set of logical relations\n• Functional – constructed by applying functions to arguments / uses a\nmathematical style\n© UCLES 2021 Page 9 of 10\n\n9(c) One mark for each correct programming paradigm (Max 4) 4\nProgram code example Programming paradigm\nmale(john).\nfemale(ethel). Declarative\nparent(john, ethel).\nFOR Counter = 1 TO 20\nX = X * Counter Procedural / imperative\nNEXT Counter\nStart: LDD Counter\nINC ACC Low-level / assembly\nSTO Counter\npublic class Vehicle\n{\nprivate speed;\npublic Vehicle()\nObject oriented / (OOP)\n{\nspeed = 0;\n}\n}\n© UCLES 2021 Page 10 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q09",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2021-mj-33-q09-p01.png"
+      ],
+      "source_pages": [
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p09.png",
+          "/9618/answer-assets/9618_s21_ms_33-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for each correct marking point (Max 2) 2\n• Imperative languages use variables\n• … which are changed using (assignment) statements\n• … they rely on a method of repetition / iteration.\n• The statements provide a sequence of commands for the computer to\nperform\n• … in the order written / given\n• … each line of code changes something in the program run.\n\n9(b) One mark for each correct marking point (Max 2) 2\n• Instructs a program on what needs to be done instead of how to do it\n• ... using facts and rules\n• … using queries to satisfy goals.\n• Can be logical or functional\n• Logical - states a program as a set of logical relations\n• Functional – constructed by applying functions to arguments / uses a\nmathematical style\n© UCLES 2021 Page 9 of 10\n\n9(c) One mark for each correct programming paradigm (Max 4) 4\nProgram code example Programming paradigm\nmale(john).\nfemale(ethel). Declarative\nparent(john, ethel).\nFOR Counter = 1 TO 20\nX = X * Counter Procedural / imperative\nNEXT Counter\nStart: LDD Counter\nINC ACC Low-level / assembly\nSTO Counter\npublic class Vehicle\n{\nprivate speed;\npublic Vehicle()\nObject oriented / (OOP)\n{\nspeed = 0;\n}\n}\n© UCLES 2021 Page 10 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q02",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2021-on-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "2 One mark for each single correct line from Programming Paradigm to 4\nDescription\nProgramming Paradigm Description\nPrograms using the instruction set of a\nprocessor\nDeclarative\nPrograms based on events such as\nuser actions or sensor outputs\nImperative\nPrograms using the concepts of class,\ninheritance, encapsulation and\nLow-level polymorphism\nPrograms with an explicit sequence of\ncommands that update the program\nObject oriented state, with or without procedure calls\nPrograms that specify the desired\nresult rather than how to get to it\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q02",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2021-on-32-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "2 One mark for each single correct line from Programming Paradigm to 4\nDescription\nProgramming Paradigm Description\nPrograms using the instruction set of a\nprocessor\nDeclarative\nPrograms based on events such as\nuser actions or sensor outputs\nImperative\nPrograms using the concepts of class,\ninheritance, encapsulation and\nLow-level polymorphism\nPrograms with an explicit sequence of\ncommands that update the program\nObject oriented state, with or without procedure calls\nPrograms that specify the desired\nresult rather than how to get to it\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q02",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-31-q02-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-31-q02-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "2(a) type(caracal, wild). 2\nhair(caracal, short).\n\n2(b) persian 1\n\n2(c)(i) type(Pet, domestic). 1\n\n2(c)(ii) spots(WildSpotty, yes) 2\n,type(WildSpotty, wild).\n© UCLES 2022 Page 4 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q07",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 11,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-31-q07-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-31-q07-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p09.png",
+          "/9618/answer-assets/9618_s22_ms_31-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) 1 mark per point 5\nAcrylic has attribute Soft of type BOOLEAN\nWool has attribute WoolType with suitable data type\nAcrylic and Wool have method YarnInfo()\nAcrylic, Wool and Mix at least one inherit (one arrow correct) from Yarn …\n… Acrylic, Wool and Mix all inherit (all arrows correct) from Yarn\nYarn\nName: STRING\nColour: STRING\nBatchCode: STRING\nWeight: INTEGER\nNumberBalls: INTEGER\nType: STRING\nConstructor()\nEditNumberBalls()\nYarnInfo()\nAcrylic Wool Mix\nWoolType: STRING Percentage: INTEGER\nSoft: BOOLEAN\nConstructor() Constructor()\nConstructor() YarnInfo() YarnInfo()\nYarnInfo()\n© UCLES 2022 Page 9 of 11\n\n7(b) Properties max 2: 6\n the data items / attributes\n the data types // characteristics\n defined in a class\nMethods max 2:\n the procedures/ functions / programmed instructions in a\nclass / super class / base class\n … implementing the behaviours\n … that act on the properties / attributes\nInheritance max 2:\n Methods and properties / attributes contained in one class/ super class / base class\n Are made available to / reused by another class/ derived class\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q01",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 1,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-32-q01-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-32-q01-p02.png"
+      ],
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "1(a) BuildingRegister.BuildingID  1067 2\nBuildingRegister.BuildingGroup  \"house\"\n\n1(b)(i) One mark: TYPE BuildingType = 2\nOne mark: (house, bungalow, apartment, farm)\nTYPE BuildingType = (house, bungalow, apartment, farm)\n\n1(b)(ii) DECLARE BuildingGroup : BuildingType 1\n\n1(b)(iii) BuildingRegister.BuildingGroup  house 1\n\n1(c)(i) PRIVATE OwnerName : STRING 1\n\n1(c)(ii) To ensure that attributes can only be accessed by the class’s own methods 2\nTo enforce encapsulation // ensure they are hidden\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q02",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-32-q02-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-32-q02-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "2(a) studies(sam, history). 2\ntutors(nina, sam).\n\n2(b) freya, hua // hua, freya 1\n\n2(c) one mark for correct use of X 4\none mark for two other variables in correct positions\none mark for three correct clauses in any order\none mark for correct syntax\nteaches(R, S),\nstudies(X, S),\ntutors(R, X).\n© UCLES 2022 Page 4 of 9"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q09",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-32-q09-p01.png"
+      ],
+      "source_pages": [
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p08.png",
+          "/9618/answer-assets/9618_s22_ms_32-p09.png"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "9 // LENGTH(MyList) - 1\nIndex + 1\n\"Value not found\" (or any similar phrase)\n8(b)(i) The list to be searched must be ordered/sorted 1\n© UCLES 2022 Page 8 of 9\n\n9 To trap (some) runtime errors 4\nTo prevent a program halting unexpectedly\nTo produce meaningful error messages for these errors\nExample divide by zero // end of file // file not found\n© UCLES 2022 Page 9 of 9"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q02",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-33-q02-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-33-q02-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "2(a) type(caracal, wild). 2\nhair(caracal, short).\n\n2(b) persian 1\n\n2(c)(i) type(Pet, domestic). 1\n\n2(c)(ii) spots(WildSpotty, yes) 2\n,type(WildSpotty, wild).\n© UCLES 2022 Page 4 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q07",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 11,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-33-q07-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-mj-33-q07-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p09.png",
+          "/9618/answer-assets/9618_s22_ms_33-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) 1 mark per point 5\nAcrylic has attribute Soft of type BOOLEAN\nWool has attribute WoolType with suitable data type\nAcrylic and Wool have method YarnInfo()\nAcrylic, Wool and Mix at least one inherit (one arrow correct) from Yarn …\n… Acrylic, Wool and Mix all inherit (all arrows correct) from Yarn\nYarn\nName: STRING\nColour: STRING\nBatchCode: STRING\nWeight: INTEGER\nNumberBalls: INTEGER\nType: STRING\nConstructor()\nEditNumberBalls()\nYarnInfo()\nAcrylic Wool Mix\nWoolType: STRING Percentage: INTEGER\nSoft: BOOLEAN\nConstructor() Constructor()\nConstructor() YarnInfo() YarnInfo()\nYarnInfo()\n© UCLES 2022 Page 9 of 11\n\n7(b) Properties max 2: 6\n the data items / attributes\n the data types // characteristics\n defined in a class\nMethods max 2:\n the procedures/ functions / programmed instructions in a\nclass / super class / base class\n … implementing the behaviours\n … that act on the properties / attributes\nInheritance max 2:\n Methods and properties / attributes contained in one class/ super class / base class\n Are made available to / reused by another class/ derived class\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q11",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 11,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-on-31-q11-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p12.png",
+          "/9618/answer-assets/9618_w22_ms_31-p13.png"
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark for each correct OOP term definition: 3\n• Instance – an occurrence of an object // a specific object based on the class // an instantiation of a class.\n• Inheritance – the capability of defining a new class of objects that has all the attributes and methods from a parent\nclass.\n• Polymorphism – allows the same method to take on different behaviours depending on which class is instantiated //\nmethods can be redefined for derived classes.\n© UCLES 2022 Page 12 of 15\n\n11(b) One mark for each point: 5\n• Car and ENDCLASS\n• Four declarations – must use the identifiers used in the assignments\n• Constructor header – must use CarBodyType\n• Two assignments – must use CarMake\n• Constructor identifier for the car model and the identifier in the Model assignment statement match\nCLASS Car\nPRIVATE Make : STRING\nPRIVATE Model : STRING\nPRIVATE BodyType : STRING\nPRIVATE Fuel : STRING\nPRIVATE NumberBuilt : INTEGER\nPUBLIC PROCEDURE NEW (CarMake : STRING,\nCarModel : STRING, CarBodyType : STRING)\nMake  CarMake\nModel  CarModel\nBodyType  CarBodyType\nFuel  \"\"\nNumberBuilt  0\nENDPROCEDURE\ngetFuel()\ngetNumberBuilt()\nENDCLASS\n© UCLES 2022 Page 13 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q10",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-on-32-q10-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p13.png",
+          "/9618/answer-assets/9618_w22_ms_32-p14.png"
+        ],
+        "source_pages": [
+          13,
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark for each correct OOP term definition 3\n• Encapsulation – putting properties and methods inside a class // ensures sensitive data is hidden from users by hiding\nvalues of a structured data object inside a class.\n• Getter – method that is used to return the value of a property.\n• Setter – method that is used to update the value of a property.\n© UCLES 2022 Page 13 of 16\n\n10(b) One mark for each point 3\n• properties correct\n• setters correct\n• getters correct\nSubstituteTeacher\nSubName : STRING\nTelephone : STRING\nInSchool : BOOLEAN\nSetSubName(StaffName : STRING)\nSetTelephone(Tel : STRING)\nSetInSchool(Present : BOOLEAN)\nGetSubName()\nGetTelephone()\nGetInSchool()\n© UCLES 2022 Page 14 of 16"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q11",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 11,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2022-on-33-q11-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p12.png",
+          "/9618/answer-assets/9618_w22_ms_33-p13.png"
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark for each correct OOP term definition: 3\n• Instance – an occurrence of an object // a specific object based on the class // an instantiation of a class.\n• Inheritance – the capability of defining a new class of objects that has all the attributes and methods from a parent\nclass.\n• Polymorphism – allows the same method to take on different behaviours depending on which class is instantiated //\nmethods can be redefined for derived classes.\n© UCLES 2022 Page 12 of 15\n\n11(b) One mark for each point: 5\n• Car and ENDCLASS\n• Four declarations – must use the identifiers used in the assignments\n• Constructor header – must use CarBodyType\n• Two assignments – must use CarMake\n• Constructor identifier for the car model and the identifier in the Model assignment statement match\nCLASS Car\nPRIVATE Make : STRING\nPRIVATE Model : STRING\nPRIVATE BodyType : STRING\nPRIVATE Fuel : STRING\nPRIVATE NumberBuilt : INTEGER\nPUBLIC PROCEDURE NEW (CarMake : STRING,\nCarModel : STRING, CarBodyType : STRING)\nMake  CarMake\nModel  CarModel\nBodyType  CarBodyType\nFuel  \"\"\nNumberBuilt  0\nENDPROCEDURE\ngetFuel()\ngetNumberBuilt()\nENDCLASS\n© UCLES 2022 Page 13 of 15"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q10",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-mj-31-q10-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "10 One mark for each correctly completed line (Max 5) 5\nDECLARE Account : STRING\nOPENFILE \"ActiveFile.txt\" FOR READ\nOPENFILE \"ArchiveFile.txt\" FOR WRITE\nWHILE NOT EOF(\"ActiveFile.txt\")\nREADFILE \"ActiveFile.txt\", Account\nIF Account = \"\" THEN\nWRITEFILE \"ArchiveFile.txt\", \"Account not present\"\nELSE\nWRITEFILE \"ArchiveFile.txt\", Account\nENDIF\nENDWHILE\nCLOSEFILE \"ActiveFile.txt\"\nCLOSEFILE \"ArchiveFile.txt\"\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q04",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-mj-32-q04-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "4 One mark for each correct line connecting an OOP term to its description 4\n(Max 4).\nOOP term Description\nmethods used to return the value of a\nproperty\nEncapsulation\nthe process of putting data and\nmethods together as a single unit\nGetters\nmethods used to update the value of\na property\nPolymorphism\nallows methods to be redefined for\nderived classes\nSetters\nenables the defining of a new class\nthat inherits from a parent class\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q06",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-mj-32-q06-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for TYPE TAppointments and ENDTYPE correct 4\nOne mark for every two correct declarations (Max 3)\nExample answer\nTYPE TAppointments\nDECLARE Name : STRING\nDECLARE DateOfBirth : DATE\nDECLARE Telephone : STRING\nDECLARE LastAppointment : DATE\nDECLARE NextAppointment : DATE\nDECLARE TreatmentsComplete : BOOLEAN\nENDTYPE\n\n6(b) One mark for each correctly completed line (Max 5) 5\nDECLARE DentalRecord : ARRAY[1:250] OF TAppointments\nDECLARE DentalFile : STRING\nDECLARE Count : INTEGER\nDentalFile  \"DentalFile.dat\"\nOUTPUT \"The file \", DentalFile, \" contains these records:\"\nOPENFILE DentalFile FOR RANDOM\nCount  1\nREPEAT\nSEEK DentalFile, Count\nGETRECORD DentalFile, DentalRecord[Count]\nOUTPUT DentalRecord[Count]\nCount  Count + 1\nUNTIL EOF(DentalFile)\nCLOSEFILE DentalFile\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q10",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 10,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-mj-33-q10-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "10 One mark for each correctly completed line (Max 5) 5\nDECLARE Account : STRING\nOPENFILE \"ActiveFile.txt\" FOR READ\nOPENFILE \"ArchiveFile.txt\" FOR WRITE\nWHILE NOT EOF(\"ActiveFile.txt\")\nREADFILE \"ActiveFile.txt\", Account\nIF Account = \"\" THEN\nWRITEFILE \"ArchiveFile.txt\", \"Account not present\"\nELSE\nWRITEFILE \"ArchiveFile.txt\", Account\nENDIF\nENDWHILE\nCLOSEFILE \"ActiveFile.txt\"\nCLOSEFILE \"ArchiveFile.txt\"\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q08",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-31-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correctly completed line (Max 5) 5\nDECLARE Customer : TAccount\nDECLARE Location : INTEGER\nDECLARE AccountFile : STRING\nAccountFile  \"AccountRecords.dat\"\nOPENFILE AccountFile FOR RANDOM\nOUTPUT \"Please enter an account number\"\nINPUT Customer.AccountNumber\nLocation  Hash(Customer.AccountNumber)\nSEEK AccountFile, Location\nGETRECORD AccountFile, Customer\nOUTPUT Customer\nCLOSEFILE AccountFile\n\n8(b) One mark for correct definition 1\n(Exception handling is the process of) responding to an unexpected event\nwhen the program is running so it does not halt unexpectedly\n\n8(c) One mark per mark point (Max 2), for example: 2\n• Programming errors\n• User errors\n• Hardware failure\n• Runtime errors\n© UCLES 2023 Page 6 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q11",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 11,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-31-q11-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-31-q11-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p08.png",
+          "/9618/answer-assets/9618_w23_ms_31-p09.png"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark for each correctly completed clause (Max 3) 3\n(22) student(anthony).\n(23) choice1(anthony, history).\n(24) choice2(anthony, geography).\n\n11(b) X = tomaz, pietre, nico 1\n© UCLES 2023 Page 8 of 9\n\n11(c) One mark per mark point (Max 4) 4\n• student(N)\n• subject(S)\n• choice1(N, S)\n• all logical operators correct with no additional code (see example\nanswers)\nExample answers:\nmay_choose_subject(N, S)\nIF student(N) AND subject(S) AND NOT choice1(N, S)\nmay_choose_subject(N, S)\nIF NOT choice1(N, S), student(N), subject(S)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q11",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 11,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q11-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q11-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark for each correctly completed clause (Max 4) 4\n20 person(carlos).\n21 hobby(cycling).\n22 enjoys(carlos, cycling).\n23 dislikes(carlos, music).\n\n11(b) P = toby, nina 1\n\n11(c) One mark per mark point (Max 4) 4\n• person(N)\n• hobby(H)\n• dislikes(N, H)\n• all logical operators correct with no additional code (see example\nanswers)\nExample answers:\nmight_enjoy(N, H)\nIF person(N) AND hobby(H) AND NOT dislikes(N, H)\nmight_enjoy(N, H)\nIF NOT dislikes(N, H), person(N), hobby(H)\n© UCLES 2023 Page 8 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q12",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 12,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q12-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q12-p02.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q12-p03.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q12-p04.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q12-p05.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-32-q12-p06.png"
+      ],
+      "source_pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark for description, for example: 2\nAn exception is an event that occurs during the execution of a program that\ndisrupts the normal flow of instructions / causes the program to halt execution\nOne mark for example:\n• Hardware failure // hard disk crash\n• Programming error // trying to access out-of-bounds array element // divide\nby zero error // runtime error\n• User error // typing incorrect filename / data type\n\n12(b) One mark for each correctly completed blank (Max 7) 7\nDECLARE Customer : TAccount\nDECLARE Location : INTEGER\nDECLARE MaxSize : INTEGER\nDECLARE: FoundFlag : BOOLEAN\nDECLARE SearchCustomer : STRING\nMaxSize  1000\nOPENFILE \"AccountRecord.dat\" FOR RANDOM\nLocation  1\nFoundFlag  FALSE\nOUTPUT \"Enter the customer’s name\"\nINPUT SearchCustomer\nWHILE NOT FoundFlag AND Location <= MaxSize\nSEEK \"AccountRecord.dat\", Location\nGETRECORD \"AccountRecord.dat\", Customer\nIF SearchCustomer = Customer.Name THEN\nOUTPUT \"Customer found: \"\nOUTPUT Customer\nFoundFlag  TRUE\nENDIF\nLocation  Location + 1\nENDWHILE\nIF NOT FoundFlag THEN\nOUTPUT \"Customer does not exist.\"\nENDIF\n© UCLES 2023 Page 9 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q08",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-33-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correctly completed line (Max 5) 5\nDECLARE Customer : TAccount\nDECLARE Location : INTEGER\nDECLARE AccountFile : STRING\nAccountFile  \"AccountRecords.dat\"\nOPENFILE AccountFile FOR RANDOM\nOUTPUT \"Please enter an account number\"\nINPUT Customer.AccountNumber\nLocation  Hash(Customer.AccountNumber)\nSEEK AccountFile, Location\nGETRECORD AccountFile, Customer\nOUTPUT Customer\nCLOSEFILE AccountFile\n\n8(b) One mark for correct definition 1\n(Exception handling is the process of) responding to an unexpected event\nwhen the program is running so it does not halt unexpectedly\n\n8(c) One mark per mark point (Max 2), for example: 2\n• Programming errors\n• User errors\n• Hardware failure\n• Runtime errors\n© UCLES 2023 Page 6 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q11",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 11,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-33-q11-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2023-on-33-q11-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p08.png",
+          "/9618/answer-assets/9618_w23_ms_33-p09.png"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark for each correctly completed clause (Max 3) 3\n(22) student(anthony).\n(23) choice1(anthony, history).\n(24) choice2(anthony, geography).\n\n11(b) X = tomaz, pietre, nico 1\n© UCLES 2023 Page 8 of 9\n\n11(c) One mark per mark point (Max 4) 4\n• student(N)\n• subject(S)\n• choice1(N, S)\n• all logical operators correct with no additional code (see example\nanswers)\nExample answers:\nmay_choose_subject(N, S)\nIF student(N) AND subject(S) AND NOT choice1(N, S)\nmay_choose_subject(N, S)\nIF NOT choice1(N, S), student(N), subject(S)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q08",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-mj-31-q08-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-mj-31-q08-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correctly completed clause (Max 3) 3\n(23) feature(sliding_doors).\n(24) available(sliding_doors, minivan).\n(25) unavailable(sliding_doors, hatchback).\n\n8(b) (Options =) sunroof, reversing_camera 1\n\n8(c) One mark per mark point (Max 4) 4\nMP1 feature(F)\nMP2 bodystyle(B)\nMP3 unavailable(F, B)\nMP4 all correct Boolean operators and punctuation (allow , for AND) and no additional lines of code\nExample answers\nmay_choose_option(F, B)\nIF\nfeature(F) AND bodystyle(B) AND NOT unavailable(F, B).\nfeature(F), bodystyle(B), NOT unavailable(F, B).\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q10",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-mj-32-q10-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-mj-32-q10-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark for each correctly completed clause (Max 4) 4\nExample answer\n(25) client(jane).\n(26) activity(surfing).\n(27) choice(jane, surfing).\n(28) done(jane, sailing).\n\n10(b) (List =) frankie, erik, henry 1\n\n10(c) One mark per mark point (Max 4) 4\nMP1 client(C)\nMP2 activity(A)\nMP3 done(C, A)\nMP4 all correct Boolean operators and punctuation (allow , for AND). There must be the correct number of terms and\nno additional lines of code\nExample answers\nmay_choose_activity(C, A)\nIF\nclient(C) AND activity(A) AND NOT done(C, A).\nclient(C), activity(A), NOT (done(C, A)).\n© Cambridge University Press & Assessment 2024 Page 13 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q08",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-mj-33-q08-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-mj-33-q08-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correctly completed clause (Max 3) 3\n(23) feature(sliding_doors).\n(24) available(sliding_doors, minivan).\n(25) unavailable(sliding_doors, hatchback).\n\n8(b) (Options =) sunroof, reversing_camera 1\n\n8(c) One mark per mark point (Max 4) 4\nMP1 feature(F)\nMP2 bodystyle(B)\nMP3 unavailable(F, B)\nMP4 all correct Boolean operators and punctuation (allow , for AND) and no additional lines of code\nExample answers\nmay_choose_option(F, B)\nIF\nfeature(F) AND bodystyle(B) AND NOT unavailable(F, B).\nfeature(F), bodystyle(B), NOT unavailable(F, B).\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q09",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-on-31-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a) To ensure that the attributes are only accessible using the class’s own methods/within the class. 1\n\n9(b) One mark per mark point (Max 5) 5\nMP1 Two correct attributes with sensible names and correct data types.\nMP2 Constructor present.\nMP3 Two correct setters with exact names and appropriate parameters and data types.\nMP4 Two correct getters with appropriate names.\nMP5 Name assigned to pet name getter matches the attribute.\nPet\nPetID : STRING\nPetType : STRING\nOwnerTelephone : STRING\nDateRegistered : DATE\nPetName : STRING\nOwnerName : STRING\nConstructor()\nSetPetID(APetID : STRING)\nSetDateRegistered(RegDate : DATE)\nGetPetName()\nGetOwnerTelephone()\n© Cambridge University Press & Assessment 2024 Page 12 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q10",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-on-32-q10-p01.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p11.png",
+          "/9618/answer-assets/9618_w24_ms_32-p12.png"
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark per mark point (Max 3) 3\nMP1 Attributes/properties …\nMP2 … with their data types // … are variables bound to the class\nMP3 Methods …\nMP4 … that are subroutines / functions / procedures that act upon the attributes\nMP5 Getters/setters …\nMP6 … are methods that can fetch / update the contents of attributes\nMP7 A constructor …\nMP8 … that is used to create instances / objects of this class.\n© Cambridge University Press & Assessment 2024 Page 11 of 15\n\n10(b) One mark per mark point (Max 3) 3\nMP1 A class is only defined once but many objects can be created from that class // A class is a template / blueprint from\nwhich objects are created // An object is an instance of a class\nMP2 No memory is allocated when a class is defined, but objects are allocated memory space whenever they are created\nMP3 A class cannot be manipulated as it is not available in the memory, but objects can be manipulated\nMP4 A class is defined but an object is declared / created / instantiated.\nMP5 A class can use inheritance. An object cannot.\n© Cambridge University Press & Assessment 2024 Page 12 of 15"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q09",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2024-on-33-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "9(a) To ensure that the attributes are only accessible using the class’s own methods/within the class. 1\n\n9(b) One mark per mark point (Max 5) 5\nMP1 Two correct attributes with sensible names and correct data types.\nMP2 Constructor present.\nMP3 Two correct setters with exact names and appropriate parameters and data types.\nMP4 Two correct getters with appropriate names.\nMP5 Name assigned to pet name getter matches the attribute.\nPet\nPetID : STRING\nPetType : STRING\nOwnerTelephone : STRING\nDateRegistered : DATE\nPetName : STRING\nOwnerName : STRING\nConstructor()\nSetPetID(APetID : STRING)\nSetDateRegistered(RegDate : DATE)\nGetPetName()\nGetOwnerTelephone()\n© Cambridge University Press & Assessment 2024 Page 12 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q11",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 11,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-31-q11-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-31-q11-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "11(a) One mark per mark point 5\nMP1 Two correct attributes (PatientID : INTEGER and Doctor : STRING)\nMP2 SetTreatments(…) and SetMedications(…) seen\nMP3 … and appropriate parameters, with string data types\nMP4 GetPatientID() and GetDoctor() seen\nMP5 SetDateSeen(…) and GetDateSeen fully correct with appropriate parameter and correct data type in setter.\nAppointment\nDateSeen : DATE\nPatientID : INTEGER\nDoctor : STRING\nTreatments : STRING\nMedications : STRING\nSetDateSeen(NewDate : DATE)\nSetPatientID(PatientNumber : INTEGER)\nSetDoctor(DoctorID : STRING)\nSetTreatments(NewTreatments : STRING)\nSetMedications(NewMedications : STRING)\nGetDateSeen()\nGetPatientID()\nGetDoctor()\nGetTreatments()\nGetMedications()\n\n11(b)(i) Encapsulation 1\n\n11(b)(ii) One mark for each mark point (Max 2) 2\nMP1 Inheritance is where a derived class takes properties / behaviours attributes / methods\nMP2 … of a parent / super class / base class\nMP3 The attributes / methods / properties taken from the parent / super class / base class can also be extended /\ncopied / used / changed / overwritten / overridden in the subclass.\n© Cambridge University Press & Assessment 2025 Page 14 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q12",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 12,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-31-q12-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-31-q12-p02.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-31-q12-p03.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-31-q12-p04.png"
+      ],
+      "source_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "12 One mark for each correctly completed line (Max 5) 5\nDECLARE Location : INTEGER\nDECLARE Item : STRING\nDECLARE Continue : BOOLEAN\nDECLARE Answer : CHAR\nContinue  TRUE\nOPENFILE \"StockList.dat\" FOR RANDOM\nWHILE Continue\nOUTPUT \"Enter a location between 1 and 500: \"\nINPUT Location\nSEEK \"StockList.dat\", Location\nGETRECORD \"StockList.dat\", Item\nIF Item = \"\" THEN\nOUTPUT \"This record is missing\"\nELSE\nOUTPUT \"The item in stock is \", Item\nENDIF\nOUTPUT \"Another location (Y or N)?\"\nINPUT Answer\nIF Answer <> 'Y' THEN\nContinue  FALSE\nENDIF\nENDWHILE\nCLOSEFILE \"StockList.dat\"\nOUTPUT \"End of program\"\n© Cambridge University Press & Assessment 2025 Page 15 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q12",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 12,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-32-q12-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-32-q12-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark per mark point 5\nMP1 Two correct attributes (DateOfBirth : Date) and priority with a\nsensible name and integer data type\nMP2 SetPatientID(…) and SetDoctorID(…) seen\nMP3 … and appropriate parameters, with string data types\nMP4 GetPatientID() and GetDateOfBirth() seen\nMP5 Priority setter and getter fully correct with name matching Priority\nattribute, with appropriate parameter and correct data type.\nPatient\nPatientID : STRING\nName : STRING\nDateOfBirth : DATE\nPriority : INTEGER\nDoctorID : STRING\nSetPatientID(PatientNumber : STRING)\nSetName(FullName : STRING)\nSetDateOfBirth(DOB : DATE)\nSetPriority(Urgency : INTEGER)\nSetDoctorID(DocID : STRING)\nGetPatientID()\nGetName()\nGetDateOfBirth()\nGetPriority()\nGetDoctorID()\n\n12(b)(i) Instance // instantiation 1\n\n12(b)(ii) One mark for each mark point 2\nMP1 Polymorphism is when methods with the same name are redefined /\nbehave differently …\nMP2 … in derived / inherited classes / subclasses\n© Cambridge University Press & Assessment 2025 Page 11 of 12"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q13",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 13,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-32-q13-p01.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-32-q13-p02.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-32-q13-p03.png",
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-32-q13-p04.png"
+      ],
+      "source_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "13 One mark for each correctly completed line 5\nDECLARE Grade : StudentResult\nDECLARE Position : INTEGER\nOPENFILE \"CurrentResults.dat\" FOR RANDOM\nOPENFILE \"StoredResults.dat\" FOR RANDOM\nFOR Position  1 TO 50\nSEEK \"CurrentResults.dat\", Position\nGETRECORD \"CurrentResults.dat\", Grade\nIF Grade.ExamGrade = \"\" THEN\nGrade.ExamGrade  \"Missing grade\"\nENDIF\nSEEK \"StoredResults.dat\", Position\nPUTRECORD \"StoredResults.dat\", Grade\nNEXT Position\nCLOSEFILE \"CurrentResults.dat\"\nCLOSEFILE \"StoredResults.dat\"\n© Cambridge University Press & Assessment 2025 Page 12 of 12"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q05",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-33-q05-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "5 One mark per correct answer (Max 4) 4\nOOP Term Purpose\nGetter A method that accesses the value of a property\nSetter A method that changes the value of a property\nObject An instantiation / instance of a class\nMethod A programmed function / procedure / subroutine\n/ subprogram defined as part of a class\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q11",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 11,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-mj-33-q11-p01.png"
+      ],
+      "source_pages": [
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "11 One mark for each correctly completed line 5\nDECLARE Location : INTEGER\nDECLARE NewStock : STRING\nDECLARE CurrentStock : STRING\nDECLARE Stored : BOOLEAN\nDECLARE Max : INTEGER\nMax  100000\nStored  FALSE\nLocation  1\nOPENFILE \"StockList.dat\" FOR RANDOM\nOUTPUT \"Enter the new item you wish to store\"\nINPUT NewStock\nWHILE NOT Stored AND Location <= Max\nSEEK \"StockList.dat\", Location\nGETRECORD \"StockList.dat\", CurrentStock\nIF CurrentStock = \"\" THEN\nPUTRECORD \"StockList.dat\", NewStock\nStored  TRUE\nELSE\nLocation  Location + 1\nENDIF\nENDWHILE\nIF Stored = FALSE THEN\nOUTPUT \"The new stock item has not been stored as the file was full\"\nENDIF\nCLOSEFILE \"StockList.dat\"\n© Cambridge University Press & Assessment 2025 Page 14 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q10",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-on-31-q10-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "10 One mark per mark point (Max 2) 3\nMP1 Exception handling is a process that responds to unwanted / unexpected\nevents when a program runs\nMP2 … to prevent the program / computer from stopping unexpectedly\nOne mark for example (Max 1)\nMP3 Programming errors\nMP4 User errors\nMP5 Hardware failure // losing connection to a device such as a printer\n© Cambridge University Press & Assessment 2025 Page 14 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q10",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-on-32-q10-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark per mark point (Max 2) 2\nMP1 Use an exception handling routine (to respond to unwanted / unexpected events when the program is running)\nMP2 Use of try … except / catch // Generate some form of error message\n\n10(b) One mark per mark point (Max 2) 2\nMP1 Coding errors\nMP2 User errors\nMP3 Hardware failure // Losing connection to a device e.g. a printer\n© Cambridge University Press & Assessment 2025 Page 15 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q12",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 12,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-20-further-programming/assets/9618-2025-on-33-q12-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "12(a) One mark per mark point (Max 3) 3\nMP1 An exception is an unplanned / unexpected event that occurs\nwhen a program is running\nMP2 … due to an error in programming/logic that wasn’t detected during\nprogram construction/compilation\nMP3 The effect of an exception can be that the program halts\nunexpectedly.\n\n12(b) One mark per mark point (Max 2) 2\nMP1 One mark for an example of an exception (see list in guidance)\nMP2 One mark for the reason for the given exception\nExample answer\nDivision by zero\nThe processor will not be able to evaluate this answer because a number\ndivided by zero is infinity, so the program will crash.\n© Cambridge University Press & Assessment 2025 Page 14 of 16"
+      }
+    }
+  ]
+}

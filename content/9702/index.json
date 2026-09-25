@@ -1,0 +1,998 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "subject_name": "Physics",
+  "syllabus_url": "https://www.cambridgeinternational.org/Images/664565-2025-2027-syllabus.pdf",
+  "topics": [
+    {
+      "number": 12,
+      "label": "Motion in a circle",
+      "slug": "9702-topic-12-motion-in-a-circle",
+      "question_count": 10
+    },
+    {
+      "number": 13,
+      "label": "Gravitational fields",
+      "slug": "9702-topic-13-gravitational-fields",
+      "question_count": 28
+    },
+    {
+      "number": 14,
+      "label": "Temperature",
+      "slug": "9702-topic-14-temperature",
+      "question_count": 16
+    },
+    {
+      "number": 15,
+      "label": "Ideal gases",
+      "slug": "9702-topic-15-ideal-gases",
+      "question_count": 12
+    },
+    {
+      "number": 16,
+      "label": "Thermodynamics",
+      "slug": "9702-topic-16-thermodynamics",
+      "question_count": 30
+    },
+    {
+      "number": 17,
+      "label": "Oscillations",
+      "slug": "9702-topic-17-oscillations",
+      "question_count": 33
+    },
+    {
+      "number": 18,
+      "label": "Electric fields",
+      "slug": "9702-topic-18-electric-fields",
+      "question_count": 21
+    },
+    {
+      "number": 19,
+      "label": "Capacitance",
+      "slug": "9702-topic-19-capacitance",
+      "question_count": 24
+    },
+    {
+      "number": 20,
+      "label": "Magnetic fields",
+      "slug": "9702-topic-20-magnetic-fields",
+      "question_count": 45
+    },
+    {
+      "number": 21,
+      "label": "Alternating currents",
+      "slug": "9702-topic-21-alternating-currents",
+      "question_count": 34
+    },
+    {
+      "number": 22,
+      "label": "Quantum physics",
+      "slug": "9702-topic-22-quantum-physics",
+      "question_count": 27
+    },
+    {
+      "number": 23,
+      "label": "Nuclear physics",
+      "slug": "9702-topic-23-nuclear-physics",
+      "question_count": 30
+    },
+    {
+      "number": 24,
+      "label": "Medical physics",
+      "slug": "9702-topic-24-medical-physics",
+      "question_count": 31
+    },
+    {
+      "number": 25,
+      "label": "Astronomy and cosmology",
+      "slug": "9702-topic-25-astronomy-and-cosmology",
+      "question_count": 25
+    },
+    {
+      "number": null,
+      "label": "Practical skills",
+      "slug": "9702-practical-skills",
+      "question_count": 70
+    }
+  ],
+  "papers": [
+    {
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 12,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_53.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_42.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_count": 10,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "51",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_51.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "52",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_52.pdf?download=true"
+    },
+    {
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 5,
+      "variant": "53",
+      "question_count": 2,
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_53.pdf?download=true"
+    }
+  ],
+  "missing_papers": [
+    {
+      "year": 2021,
+      "session": "March",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_41.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2021,
+      "session": "March",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_43.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2021,
+      "session": "March",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_51.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2021,
+      "session": "March",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_53.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2022,
+      "session": "March",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_41.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2022,
+      "session": "March",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_43.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2022,
+      "session": "March",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_51.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2022,
+      "session": "March",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_53.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2023,
+      "session": "March",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_41.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2023,
+      "session": "March",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_43.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2023,
+      "session": "March",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_51.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2023,
+      "session": "March",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_53.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_41.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_43.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_51.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2024,
+      "session": "March",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_53.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_41.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_43.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_51.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2025,
+      "session": "March",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_53.pdf?download=true",
+      "reason": "not available from the local downloader/source search"
+    },
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-March/9702_m26_qp_41.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "42",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-March/9702_m26_qp_42.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-March/9702_m26_qp_43.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-March/9702_m26_qp_51.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "52",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-March/9702_m26_qp_52.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "March",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-March/9702_m26_qp_53.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-May-June/9702_s26_qp_41.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "42",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-May-June/9702_s26_qp_42.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-May-June/9702_s26_qp_43.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-May-June/9702_s26_qp_51.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "52",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-May-June/9702_s26_qp_52.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "May/June",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-May-June/9702_s26_qp_53.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "Oct/Nov",
+      "variant": "41",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-Oct-Nov/9702_w26_qp_41.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "Oct/Nov",
+      "variant": "42",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-Oct-Nov/9702_w26_qp_42.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "Oct/Nov",
+      "variant": "43",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-Oct-Nov/9702_w26_qp_43.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "Oct/Nov",
+      "variant": "51",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-Oct-Nov/9702_w26_qp_51.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "Oct/Nov",
+      "variant": "52",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-Oct-Nov/9702_w26_qp_52.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    },
+    {
+      "year": 2026,
+      "session": "Oct/Nov",
+      "variant": "53",
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2026-Oct-Nov/9702_w26_qp_53.pdf?download=true",
+      "reason": "unpublished as of 2026-08-14"
+    }
+  ]
+}

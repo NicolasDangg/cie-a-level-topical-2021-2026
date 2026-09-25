@@ -1,0 +1,1593 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 16,
+    "label": "System software",
+    "slug": "9618-topic-16-system-software"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-mj-31-q03",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-mj-31-q03-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark for each correct line from Operating System Term to Description 5\nManaging the execution of many programs\nthat appear to run at the same time\n\n3(b) One mark for each correct statement (Max 4) 4\n• An interpreter examines source code one statement at a time\n• Check each statement for errors\n• …If no error is found the statement is executed\n• …If an error is found this is reported and the interpreter halts\n• Interpretation is repeated for every iteration in repeated sections of\ncode/in loops\n• Interpretation has to be repeated every time the program is run\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-31-q04",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-mj-31-q04-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p05.png",
+          "/9618/answer-assets/9618_s21_ms_31-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) One mark for each correct marking point (Max 2) 2\n• Reverse Polish Notation provides an unambiguous method of\nrepresenting an expression\n• … reading from left to right\n• …without the need to use brackets\n• …with no need for rules of precedence / BODMAS\n© UCLES 2021 Page 5 of 10\n\n4(a)(ii) One mark for identification of the data structure, 2\nOne mark for a sensible reason\nEither:\nStructure: stack\nThe operands are popped from the stack in the reverse order to how they\nwere pushed\nOr:\nStructure: Binary tree\nA (binary) tree allows both infix and postfix to be evaluated (tree traversal)\n\n4(b) a b - a c + * 7 / 1\n\n4(c) a / b * 4 – (a + b) 1\n\n4(d) 1 mark for correct structure 2\n1 mark for correct substitution\n(a + b) / (c / d)\n(17 + 3) / (48 / 12)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q03",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-mj-32-q03-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark for each correct line from Operating System Term to Description 5\nManaging the execution of many programs\nthat appear to run at the same time\n\n3(b) One mark for each correct statement (Max 4) 4\n• An interpreter examines source code one statement at a time\n• Check each statement for errors\n• …If no error is found the statement is executed\n• …If an error is found this is reported and the interpreter halts\n• Interpretation is repeated for every iteration in repeated sections of\ncode/in loops\n• Interpretation has to be repeated every time the program is run\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q04",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-mj-32-q04-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p05.png",
+          "/9618/answer-assets/9618_s21_ms_32-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) One mark for each correct marking point (Max 2) 2\n• Reverse Polish Notation provides an unambiguous method of\nrepresenting an expression\n• … reading from left to right\n• …without the need to use brackets\n• …with no need for rules of precedence / BODMAS\n© UCLES 2021 Page 5 of 10\n\n4(a)(ii) One mark for identification of the data structure, 2\nOne mark for a sensible reason\nEither:\nStructure: stack\nThe operands are popped from the stack in the reverse order to how they\nwere pushed\nOr:\nStructure: Binary tree\nA (binary) tree allows both infix and postfix to be evaluated (tree traversal)\n\n4(b) a b - a c + * 7 / 1\n\n4(c) a / b * 4 – (a + b) 1\n\n4(d) 1 mark for correct structure 2\n1 mark for correct substitution\n(a + b) / (c / d)\n(17 + 3) / (48 / 12)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q03",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-mj-33-q03-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark for each correct line from Operating System Term to Description 5\nManaging the execution of many programs\nthat appear to run at the same time\n\n3(b) One mark for each correct statement (Max 4) 4\n• An interpreter examines source code one statement at a time\n• Check each statement for errors\n• …If no error is found the statement is executed\n• …If an error is found this is reported and the interpreter halts\n• Interpretation is repeated for every iteration in repeated sections of\ncode/in loops\n• Interpretation has to be repeated every time the program is run\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q04",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-mj-33-q04-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p05.png",
+          "/9618/answer-assets/9618_s21_ms_33-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "4(a)(i) One mark for each correct marking point (Max 2) 2\n• Reverse Polish Notation provides an unambiguous method of\nrepresenting an expression\n• … reading from left to right\n• …without the need to use brackets\n• …with no need for rules of precedence / BODMAS\n© UCLES 2021 Page 5 of 10\n\n4(a)(ii) One mark for identification of the data structure, 2\nOne mark for a sensible reason\nEither:\nStructure: stack\nThe operands are popped from the stack in the reverse order to how they\nwere pushed\nOr:\nStructure: Binary tree\nA (binary) tree allows both infix and postfix to be evaluated (tree traversal)\n\n4(b) a b - a c + * 7 / 1\n\n4(c) a / b * 4 – (a + b) 1\n\n4(d) 1 mark for correct structure 2\n1 mark for correct substitution\n(a + b) / (c / d)\n(17 + 3) / (48 / 12)\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q04",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-on-31-q04-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2021-on-31-q04-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark for each marking point (Max 2) 2\n• <character>::=\n• $|%|&|*|#\nComplete answer\n<character>::= $|%|&|*|#\n\n4(b)(i) For example: $A9E3 1\n\n4(b)(ii) One mark for each marking point (Max 4) 4\n• <password>::=<character> …\n• … <code>\n• <code>::= …\n• … <digit>|<capital_letter>\n• … |<digit><code>|<capital_letter><code>\nComplete answer\n<password>::=<character><code>\n<code>::=<digit>|<capital_letter>|<digit><code>|<capital_\nletter><code>\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q04",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2021-on-32-q04-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2021-on-32-q04-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark for each marking point (Max 2) 2\n• <character>::=\n• $|%|&|*|#\nComplete answer\n<character>::= $|%|&|*|#\n\n4(b)(i) For example: $A9E3 1\n\n4(b)(ii) One mark for each marking point (Max 4) 4\n• <password>::=<character> …\n• … <code>\n• <code>::= …\n• … <digit>|<capital_letter>\n• … |<digit><code>|<capital_letter><code>\nComplete answer\n<password>::=<character><code>\n<code>::=<digit>|<capital_letter>|<digit><code>|<capital_\nletter><code>\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-mj-31-q05",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 12,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-mj-31-q05-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2022-mj-31-q05-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_31-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark for each in order jk+jk-/ 2\njk+\njk-/\n\n5(b)(i) 1 mark per ring 4\nDo not allow operators in stacks\n2\n3 3 6\n10 10 10 10 4\n10 10 10 10 10 10 40\n\n5(b)(ii) Any four from Max 4 4\nMax 3 generic answer only\n Working from left to right in the expression\n PUSH 10/m onto the stack\n PUSH the following numbers (10/m, 3/j, 2/k) onto the stack\n When the first operator ,*, is reached\n … POP the top two numbers, 2/k and 3/j\n … apply the operation\n PUSH result back onto stack\n Continue to the end of the expression\n\n5(c) Any two from 2\n recursion\n implementation of ADTs e.g. linked lists\n procedure calls\n interrupt handling (storing contents of registers etc)\n© UCLES 2022 Page 7 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-mj-32-q04",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 4,
+      "marks": 13,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-mj-32-q04-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2022-mj-32-q04-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_32-p05.png",
+          "/9618/answer-assets/9618_s22_ms_32-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_32.pdf?download=true",
+        "mark_scheme_text": "4(a)  An unsigned integer,12, is used instead of the last variable 2\n// 12 is not a valid variable\n The variable Z is not a valid variable / missing an unsigned integer after the Z\n\n4(b) One mark per bullet point 5\n <variable> ::= <letter><unsigned_integer>\n <unsigned_integer> ::= <digit>|<digit><digit>\n <digit> ::= 1 | 2 | 3\nand <operator> ::= + | - | *\n <assignment_statement> ::= <variable> =\n <variable><operator><variable>\n© UCLES 2022 Page 5 of 9\n\n4(c)(i) 3\nOne mark adding both boxes… unsigned integer unsigned integer\nOne mark for correct position(s) and connector(s) …\nOne mark … rest correct\n(assignment statement)\nunsigned integer unsigned integer\nvariable = variable operator variable\n\n4(c)(ii) Max three 3\nOne mark for\n<assignment_statement>::=<variable>=\nOne mark two or three correct options or two marks if all four options correct\n<variable><operator><variable>\n|<variable><operator><unsigned_integer>\n|<unsigned_integer><operator><variable>\n|<unsigned_integer><operator><unsigned_integer>\n<assignment_statement>::=<variable>= <variable><operator><variable>|<variable><operator>\n<unsigned_integer>|<unsigned_integer><operator><variable>\n|<unsigned_integer><operator><unsigned_integer>\nor\nOne mark for each section\n<operand>::=<variable>|<unsigned_integer>\n<assignment_statement>::=<variable>=\n<operand><operator><operand>\n<operand>::=<variable>|<unsigned_integer>\n<assignment_statement>::=<variable>=<operand><operator><operand>\n© UCLES 2022 Page 6 of 9"
+      }
+    },
+    {
+      "id": "9618-2022-mj-33-q05",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 12,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-mj-33-q05-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2022-mj-33-q05-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s22_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-May-June/9618_s22_ms_33.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark for each in order jk+jk-/ 2\njk+\njk-/\n\n5(b)(i) 1 mark per ring 4\nDo not allow operators in stacks\n2\n3 3 6\n10 10 10 10 4\n10 10 10 10 10 10 40\n\n5(b)(ii) Any four from Max 4 4\nMax 3 generic answer only\n Working from left to right in the expression\n PUSH 10/m onto the stack\n PUSH the following numbers (10/m, 3/j, 2/k) onto the stack\n When the first operator ,*, is reached\n … POP the top two numbers, 2/k and 3/j\n … apply the operation\n PUSH result back onto stack\n Continue to the end of the expression\n\n5(c) Any two from 2\n recursion\n implementation of ADTs e.g. linked lists\n procedure calls\n interrupt handling (storing contents of registers etc)\n© UCLES 2022 Page 7 of 11"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q04",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-31-q04-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "4 One mark for each correct line connecting one stage of compilation to a description 4\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q05",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-31-q05-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) a b * b + d - 15 + 1\n\n5(b)(i) (a - b) * (c + d) / a 1\n\n5(b)(ii) –39 1\n© UCLES 2022 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q08",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-31-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correct point (Max 3) 3\n• Disk / secondary storage is used to extend the RAM / memory available\n• … so the CPU appears to be able to access more memory space than the available RAM\n• Only the data in use needs to be in main memory so data can be swapped between RAM and virtual memory as\nnecessary\n• Virtual memory is created temporarily.\n\n8(b) One mark for a correct statement about the difference between paging and segmentation e.g. 1\n• Paging allows the memory to be divided into fixed size blocks and\nSegmentation divides the memory into variable sized blocks.\n• The operating system divides the memory into pages, the compiler is responsible for calculating the segment size.\n• Access times for paging is faster than for segmentation.\n© UCLES 2022 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q02",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 2,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-32-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p04.png",
+          "/9618/answer-assets/9618_w22_ms_32-p05.png"
+        ],
+        "source_pages": [
+          4,
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "2\n1(c) One mark per point 2\n• Following an arithmetic/logical operation\n• … the result is too small to be precisely represented in the available system // When the number of bits is not enough /\ntoo small for the computer’s allocated word size / to represent the binary number\nQuestion Answer Marks\n\n2(a) One mark per point 2\n• Code generation\n• Optimisation\n© UCLES 2022 Page 4 of 16\n\n2(b) One mark per point (Max 2) 2\n• It checks that the code matches the grammar of the language // It checks that the tokens conform with the rules of the\nprogramming language\n• Syntax errors are reported\n• A parse tree is produced.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q09",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-32-q09-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p12.png",
+          "/9618/answer-assets/9618_w22_ms_32-p13.png"
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for each point (Max 3) 3\n• Process scheduling allows more than one program/task to appear to be executed at the same time / enables multi-\ntasking / multiprogramming.\n• To allow high priority jobs to be completed first.\n• To keep the CPU busy all the time\n• … to ensure that all processes execute efficiently\n• … and to have reduced wait times for all processes / to ensure all processes have fair access to the CPU / prevent\nstarvation of some processes.\n© UCLES 2022 Page 12 of 16\n\n9(b) One mark for each point (Max 2) for Shortest job first: 6\n• Process are executed in ascending order of the amount of CPU time required // Short processes are executed first and\nfollowed by longer processes.\n• …which leads to an increased throughput (because more processes can be executed in a smaller amount of time).\nOne mark for each point (Max 2) for Round robin:\n• Each process is served by the CPU for a fixed time/time slice (so all processes are given the same priority).\n• Starvation doesn’t occur (because for each round robin cycle, every process is given a fixed time/time slice to execute).\nOne mark for each point (Max 2) for First come first served:\n• No complex logic, each process request is queued as it is received and executed one by one.\n• Starvation doesn’t occur (because every process will eventually get a chance to run) // less processor overhead.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q04",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 4,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-33-q04-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "4 One mark for each correct line connecting one stage of compilation to a description 4\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q05",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-33-q05-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "5(a) a b * b + d - 15 + 1\n\n5(b)(i) (a - b) * (c + d) / a 1\n\n5(b)(ii) –39 1\n© UCLES 2022 Page 7 of 15"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q08",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2022-on-33-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each correct point (Max 3) 3\n• Disk / secondary storage is used to extend the RAM / memory available\n• … so the CPU appears to be able to access more memory space than the available RAM\n• Only the data in use needs to be in main memory so data can be swapped between RAM and virtual memory as\nnecessary\n• Virtual memory is created temporarily.\n\n8(b) One mark for a correct statement about the difference between paging and segmentation e.g. 1\n• Paging allows the memory to be divided into fixed size blocks and\nSegmentation divides the memory into variable sized blocks.\n• The operating system divides the memory into pages, the compiler is responsible for calculating the segment size.\n• Access times for paging is faster than for segmentation.\n© UCLES 2022 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q06",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-mj-31-q06-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2023-mj-31-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p05.png",
+          "/9618/answer-assets/9618_s23_ms_31-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark per correct valid/invalid and reason combination (Max 3) 3\nDPAD99$ – Valid\nReason – 4/multiple letters followed by 2/multiple digits followed by a symbol.\nDAD#95 – Invalid\nReason – The symbol comes before the digits – it should be after.\nADY123? – Invalid\nReason – The ? is not a valid symbol.\n\n6(b) <symbol> ::= $ | % | & | @ | # 1\n<letter> ::= A | D | P | R | Y\n© UCLES 2023 Page 5 of 10\n\n6(c) One mark per mark point (Max 4) 4\n begins with a letter\n letter can repeat and digit present\n digit can repeat or can be bypassed\n correct structure – name, boxes and arrows (in and out).\nExample answers:\nidentifier\nletter digit\nidentifier\nletter letter digit\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q03",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 3,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-mj-32-q03-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2023-mj-32-q03-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "3(a) One mark per correct valid/invalid and reason combination (Max 2) 2\n9SW – Invalid\nReason - This begins with a digit and a variable must begin with a letter\nUWY – Valid\nReason – This begins with a letter and is followed by two other letters.\n\n3(b) One mark per mark point (Max 3) 3\n <word> ::= <letter>|\n …<word><letter>\n <variable> ::= <word>|<word><digit>\nExample answers\n<word> ::= <letter>|<word><letter>\n<word> ::= <letter><word>|<letter>\n<variable> ::= <word>|<word><digit>\n<variable> ::= <word><digit>|<word>\n\n3(c)(i) Answer must be two letters followed by one, two or three digits using the letters 1\nand digits on the syntax diagram.\nExample answer\nAC768\n\n3(c)(ii) One mark per mark point (Max 3) 3\n always has only two letters\n one, two or three digits possible\n correct arrows, boxes and name of syntax diagram\nExample answer\nVehicle registration\nletter letter digit digit digit\n© UCLES 2023 Page 5 of 12"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q06",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-mj-33-q06-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2023-mj-33-q06-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p05.png",
+          "/9618/answer-assets/9618_s23_ms_33-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark per correct valid/invalid and reason combination (Max 3) 3\nDPAD99$ – Valid\nReason – 4/multiple letters followed by 2/multiple digits followed by a symbol.\nDAD#95 – Invalid\nReason – The symbol comes before the digits – it should be after.\nADY123? – Invalid\nReason – The ? is not a valid symbol.\n\n6(b) <symbol> ::= $ | % | & | @ | # 1\n<letter> ::= A | D | P | R | Y\n© UCLES 2023 Page 5 of 10\n\n6(c) One mark per mark point (Max 4) 4\n begins with a letter\n letter can repeat and digit present\n digit can repeat or can be bypassed\n correct structure – name, boxes and arrows (in and out).\nExample answers:\nidentifier\nletter digit\nidentifier\nletter letter digit\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q07",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-on-31-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for a benefit (Max 1) e.g. 2\nMP1 The user interface hides the complexities of the computer\nhardware/operating system from the user\nMP2 It provides appropriate access systems for users with differing needs\nMP3 Complex commands involving memory locations/buses/computer\nhardware/ are avoided\nOne mark for a valid example (Max 1) e.g.\nClicking on icon rather than writing code\nUsing a graphical user interface / icons for navigation\n\n7(b) Blocked (state) 1\n\n7(c) One mark per mark point (Max 2) 2\nMP1 When the time slice of the running process expires (round robin).\nMP2 …and there is a process with a higher priority in the ready queue, the\nrunning process is pre-empted\nMP3 When an interrupt arrives at the CPU, (the process running on the\nCPU gets pre-empted).\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q09",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-on-31-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) One mark per mark point (Max 2) 2\n• (5 – 2)\n• * (5 + 4) / 9\nFinal correct expression\n(5 – 2) * (5 + 4) / 9\n\n9(a)(ii) One mark per ring (Max 4) 4\n4\n2 5 5 9 9\n5 5 3 3 3 3 27 27 3\nOR\n5 2 3 5 4 9 27 9 3\n5 3 5 3 27\n3\n\n9(b) One mark per mark point (Max 3) 3\nMP1 Evaluate the RPN expression from left to right\nMP2 Push each element of the RPN expression onto the stack in order\nuntil an operator is reached\nMP3 Pop the last two elements from the stack and apply the operator\nMP4 Push the result of the operation onto the stack\nMP5 Repeat the process until the whole expression is evaluated.\n© UCLES 2023 Page 7 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q05",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-on-32-q05-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p04.png"
+        ],
+        "source_pages": [
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per mark point (Max 2) 2\nMP1 Virtual memory is used when RAM is running low\nMP2 …such as when a computer is running many processes at once.\nMP3 Virtual memory may be used for efficient use of RAM / the processor\nMP4 …such as if data / programs are not immediately needed, they can be\nmoved from RAM to virtual memory\n\n5(b) One mark per mark point (Max 3) 3\nMP1 Disk thrashing is a problem that may occur when frequent transfers\nbetween main memory and secondary memory take place // Disk\nthrashing is a problem that may occur when virtual memory is being\nused\nMP2 As main memory fills up, more pages need to be swapped in and out\nof secondary/virtual memory\nMP3 This swapping leads to a very high rate of hard disk head movements\nMP4 Eventually, more time is spent swapping the pages/data than\nprocessing the data.\n© UCLES 2023 Page 4 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q06",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-on-32-q06-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark per ring (Max 4). 4\n5\n3 2 10 10 2\n20 20 60 60 30 30 30 30 60\nOR\n20 3 60 2 30 10 5 2 60\n20 60 30 10 30\n30\n\n6(b) One mark per mark point (Max 3) 3\nMP1 The (RPN) expression is read from left to right, one item at a time\nMP2 Each element is checked to see if it as operator or a value\nMP3 Values are pushed onto a stack until an operator is found\nMP4 The operator is applied to the last two values on the stack and the\nresult is pushed back onto the stack\nMP5 This repeats until a single value remains, which is the solution.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q07",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-on-33-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for a benefit (Max 1) e.g. 2\nMP1 The user interface hides the complexities of the computer\nhardware/operating system from the user\nMP2 It provides appropriate access systems for users with differing needs\nMP3 Complex commands involving memory locations/buses/computer\nhardware/ are avoided\nOne mark for a valid example (Max 1) e.g.\nClicking on icon rather than writing code\nUsing a graphical user interface / icons for navigation\n\n7(b) Blocked (state) 1\n\n7(c) One mark per mark point (Max 2) 2\nMP1 When the time slice of the running process expires (round robin).\nMP2 …and there is a process with a higher priority in the ready queue, the\nrunning process is pre-empted\nMP3 When an interrupt arrives at the CPU, (the process running on the\nCPU gets pre-empted).\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q09",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2023-on-33-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) One mark per mark point (Max 2) 2\n• (5 – 2)\n• * (5 + 4) / 9\nFinal correct expression\n(5 – 2) * (5 + 4) / 9\n\n9(a)(ii) One mark per ring (Max 4) 4\n4\n2 5 5 9 9\n5 5 3 3 3 3 27 27 3\nOR\n5 2 3 5 4 9 27 9 3\n5 3 5 3 27\n3\n\n9(b) One mark per mark point (Max 3) 3\nMP1 Evaluate the RPN expression from left to right\nMP2 Push each element of the RPN expression onto the stack in order\nuntil an operator is reached\nMP3 Pop the last two elements from the stack and apply the operator\nMP4 Push the result of the operation onto the stack\nMP5 Repeat the process until the whole expression is evaluated.\n© UCLES 2023 Page 7 of 9"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q05",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-mj-31-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p07.png",
+          "/9618/answer-assets/9618_s24_ms_31-p08.png"
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per correct term (Max 3) 3\n(5 + 2)\n/ (9 – 3)\n* 3\nComplete correct answer\n((5 + 2) / (9 - 3)) * 3\n\n5(b) One mark 7 3 + 2\nOne mark 2 8 * - 6 /\nComplete answer\n7 3 + 2 8 * - 6 /\n© Cambridge University Press & Assessment 2024 Page 7 of 14\n\n5(c) One mark per ring (Max 4) 4\n3\n\n5 7 7 10 10\n17 17 12 12 12 12 120 120 12\n© Cambridge University Press & Assessment 2024 Page 8 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q05",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-mj-32-q05-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p05.png",
+          "/9618/answer-assets/9618_s24_ms_32-p06.png"
+        ],
+        "source_pages": [
+          5,
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark 7 2 – 8 + 2\nOne mark 9 5 - /\nComplete answer\n7 2 – 8 + 9 5 - /\n© Cambridge University Press & Assessment 2024 Page 5 of 14\n\n5(b) One mark per ring (Max 4) 4\n3 7\n9 6 6 9 9 2"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q05",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-mj-33-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p07.png",
+          "/9618/answer-assets/9618_s24_ms_33-p08.png"
+        ],
+        "source_pages": [
+          7,
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per correct term (Max 3) 3\n(5 + 2)\n/ (9 – 3)\n* 3\nComplete correct answer\n((5 + 2) / (9 - 3)) * 3\n\n5(b) One mark 7 3 + 2\nOne mark 2 8 * - 6 /\nComplete answer\n7 3 + 2 8 * - 6 /\n© Cambridge University Press & Assessment 2024 Page 7 of 14\n\n5(c) One mark per ring (Max 4) 4\n3\n\n5 7 7 10 10\n17 17 12 12 12 12 120 120 12\n© Cambridge University Press & Assessment 2024 Page 8 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q08",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-31-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p10.png",
+          "/9618/answer-assets/9618_w24_ms_31-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark per mark point (Max 4) 4\nMP1 In segmented memory, the logical / virtual address space is broken into varying sized blocks called segments /\nsections.\nMP2 Each segment has a name and size.\nMP3 During execution segments from logical / virtual memory are loaded into physical memory.\nMP4 The address is specified by the user\nMP5 … it contains the segment name and offset value.\nMP6 Segments are numbered\nMP7 … and this number is used as an index in the segment map table.\nMP8 The offset value determines the size of the segment.\nMP9 A segment map table maps logical / virtual addresses to physical addresses / contains the segment number and\noffset.\n© Cambridge University Press & Assessment 2024 Page 10 of 17\n\n8(b) One mark per mark point (Max 3) 3\nMP1 Disk thrashing is a problem that may occur when virtual memory is being used.\nMP2 As the main memory fills up, more and more pages need to be swapped in and out of virtual memory.\nMP3 This swapping leads to a very high rate of hard disk access / excessive disk head movements.\nMP4 Moving a hard disk read/write head takes a relatively long time / long latency time.\nMP5 Eventually, more time is spent swapping pages than processing data thrash point, which can cause the program to\nfreeze or not run.\n© Cambridge University Press & Assessment 2024 Page 11 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-31-q10",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-31-q10-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-31-q10-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_31-p13.png",
+          "/9618/answer-assets/9618_w24_ms_31-p14.png"
+        ],
+        "source_pages": [
+          13,
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_31.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark per mark point (Max 4) 4\n• <operator> ::= + | – | * | /\n• <label> ::= <letter><digit>|<letter><digit><digit>\n• <equation> ::= <label> =\n• <label><operator><label>\n\n10(b)(i) One mark per mark point (Max 3) 3\nMP1 begin with either a letter or a symbol\nMP2 end with either one or two symbols\nMP3 digit and all other connections and label correct.\npassword\nletter digit symbol symbol\nsymbol\n© Cambridge University Press & Assessment 2024 Page 13 of 17\n\n10(b)(ii) One mark per mark point (Max 2) 2\n• <password> ::= <letter><digit><symbol>|\n• <letter><digit><symbol><symbol>|<symbol><digit><symbol>|\n<symbol><digit><symbol><symbol>\n<password> ::= <letter><digit><symbol>|\n<letter><digit><symbol><symbol>|<symbol><digit><symbol>|\n<symbol><digit><symbol><symbol>\nAlternative Answer\nOne mark per mark point (Max 2)\n• All three lines correct\n• Any two lines correct\n<first> ::= <letter>|<symbol>\n<last> ::= <symbol>|<symbol><symbol>\n<password> ::= <first><digit><last>\n© Cambridge University Press & Assessment 2024 Page 14 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q07",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-32-q07-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-32-q07-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p09.png",
+          "/9618/answer-assets/9618_w24_ms_32-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per mark point (Max 2) 2\nMP1 21 - a number must begin with an odd digit, 2 is even\nMP2 123 - a number can only be one or two digits in length not three\n\n7(b) One mark per mark point (Max 2) 2\nMP1 <symbol> ::= % | £ | # | @ | $\nMP2 <number> ::= <odd>|<odd><even>|<odd><odd>\n\n7(c)(i) One mark per mark point (Max 3) 3\nMP1 letter, number and symbol all included in correct order: letter first, followed by number, finishing with symbol\nMP2 provision for one or two numbers including relevant connectors\nMP3 all other connections and label correct and no additional data\nExample answer\ncode\nletter number number symbol\n© Cambridge University Press & Assessment 2024 Page 9 of 15\n\n7(c)(ii) One mark per correct line (Max 2) 2\n<code> ::= <letter><number><symbol>|\n<letter><number><number><symbol>\nOR\n<code> ::= <letter><number><number><symbol>|\n<letter><number><symbol>\nAlternative Answer\nOne mark per correct line (Max 2)\n<digits> ::= <number>|<number><number>\n<code> ::= <letter><digits><symbol>\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-32-q09",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-32-q09-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_32-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark per mark point (Max 2) 2\nMP1 the kernel receives a signal when an interrupt is generated\nMP2 the kernel checks the priority and reviews the status/priority of the current interrupts\nMP3 system enters kernel mode if the type of interrupt is of higher priority than the current process\nMP4 the kernel consults the interrupt dispatch table / IDT\nMP5 … and saves the state of the interrupted process / contents of the registers on the kernel stack\nMP6 the kernel restores the process state e.g. contents of registers once the interrupt is serviced\n\n9(b)(i) One mark per mark point (Max 1) 1\nMP1 multi-tasking allows computers to carry out / seem to carry out more than one process at a time\n\n9(b)(ii) One mark per mark point (Max 2) 2\nMP1 processor time/common hardware and resources is/are shared between tasks\nMP2 scheduling is used to decide on the processes to be carried out to ensure multi-tasking operates correctly / efficiently\n/ without clashes\nMP3 one task of a higher priority can interrupt another task that is currently running\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q08",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-33-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p10.png",
+          "/9618/answer-assets/9618_w24_ms_33-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark per mark point (Max 4) 4\nMP1 In segmented memory, the logical / virtual address space is broken into varying sized blocks called segments /\nsections.\nMP2 Each segment has a name and size.\nMP3 During execution segments from logical / virtual memory are loaded into physical memory.\nMP4 The address is specified by the user\nMP5 … it contains the segment name and offset value.\nMP6 Segments are numbered\nMP7 … and this number is used as an index in the segment map table.\nMP8 The offset value determines the size of the segment.\nMP9 A segment map table maps logical / virtual addresses to physical addresses / contains the segment number and\noffset.\n© Cambridge University Press & Assessment 2024 Page 10 of 17\n\n8(b) One mark per mark point (Max 3) 3\nMP1 Disk thrashing is a problem that may occur when virtual memory is being used.\nMP2 As the main memory fills up, more and more pages need to be swapped in and out of virtual memory.\nMP3 This swapping leads to a very high rate of hard disk access / excessive disk head movements.\nMP4 Moving a hard disk read/write head takes a relatively long time / long latency time.\nMP5 Eventually, more time is spent swapping pages than processing data thrash point, which can cause the program to\nfreeze or not run.\n© Cambridge University Press & Assessment 2024 Page 11 of 17"
+      }
+    },
+    {
+      "id": "9618-2024-on-33-q10",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-33-q10-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2024-on-33-q10-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w24_ms_33-p13.png",
+          "/9618/answer-assets/9618_w24_ms_33-p14.png"
+        ],
+        "source_pages": [
+          13,
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-Oct-Nov/9618_w24_ms_33.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark per mark point (Max 4) 4\n• <operator> ::= + | – | * | /\n• <label> ::= <letter><digit>|<letter><digit><digit>\n• <equation> ::= <label> =\n• <label><operator><label>\n\n10(b)(i) One mark per mark point (Max 3) 3\nMP1 begin with either a letter or a symbol\nMP2 end with either one or two symbols\nMP3 digit and all other connections and label correct.\npassword\nletter digit symbol symbol\nsymbol\n© Cambridge University Press & Assessment 2024 Page 13 of 17\n\n10(b)(ii) One mark per mark point (Max 2) 2\n• <password> ::= <letter><digit><symbol>|\n• <letter><digit><symbol><symbol>|<symbol><digit><symbol>|\n<symbol><digit><symbol><symbol>\n<password> ::= <letter><digit><symbol>|\n<letter><digit><symbol><symbol>|<symbol><digit><symbol>|\n<symbol><digit><symbol><symbol>\nAlternative Answer\nOne mark per mark point (Max 2)\n• All three lines correct\n• Any two lines correct\n<first> ::= <letter>|<symbol>\n<last> ::= <symbol>|<symbol><symbol>\n<password> ::= <first><digit><last>\n© Cambridge University Press & Assessment 2024 Page 14 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q06",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 6,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-31-q06-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "6 One mark for each mark point (Max 4) 4\nMP1 The interpreter translates the source code one line at a time\nMP2 If the line is syntax error free it is executed\nMP3 It is not stored in executable format\nMP4 If an error is found, the program halts with an error message\nMP5 Each line must be translated every time it is run, including lines running multiple times for example in loops\n© Cambridge University Press & Assessment 2025 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q07",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-31-q07-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-31-q07-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark for each correct answer 2\n#Jd7 – must begin with a member of the group uppercase // cannot begin with a symbol\nC%6A – the fourth character cannot be a member of the group uppercase // the fourth character must be either a symbol,\ndigit or lowercase\n\n7(b) One mark per mark point 4\n<uppercase> ::= A | C | E | G | J\n<passcode> ::= <uppercase><code>\n<code> ::= <lowercase>|<symbol>|<digit>\n|<lowercase><code>|<symbol><code>|<digit><code>\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q08",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-31-q08-p01.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark for each mark point 2\nMP1 Running multiple processes concurrently\nMP2 … which benefits process management by allowing more tasks to complete than would be the case if they had to\nrun one task after another.\n\n8(b) One mark for each mark point (Max 3) 4\nMP1 The processes are queued as they arrive\nMP2 Processes with the shortest burst time are executed first\nMP3 It is a pre-emptive scheduling function // When a process with a shorter burst time arrives the existing process is\nreplaced by the shorter process.\nMP4 The scheduler will continue to choose shorter processes over longer processes if they continue to be added to the\nqueue can cause starvation for longer jobs\nOne mark for benefit (Max 1) e.g.\nMP5 Processes with a short burst time are processed very quickly\nMP6 Waiting time is minimised\n© Cambridge University Press & Assessment 2025 Page 12 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q05",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 7,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-32-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per point 3\n• Running state\n• Ready state\n• Blocked state\n\n5(b) One mark per mark point (Max 3) 4\nMP1 The processes are queued as they arrive\nMP2 The process with the shortest time to complete/burst time is selected\nfirst and executed\nMP3 The process will continue until complete or put in a waiting state once\nexecution has begun // it is non-pre-emptive\nMP4 The scheduler will continue to choose shorter processes over longer\nprocesses if they continue to be added to the queue can cause starvation for\nlonger jobs\nOne mark for a benefit (Max 1)\nMP5 Shorter jobs don’t have to wait for longer jobs to complete before\nprocessing // Significantly reduces the average overall waiting time for\nprocesses // Ensures starvation doesn’t occur for process with shorter burst\ntimes\nMP6 Higher throughput of processes\n© Cambridge University Press & Assessment 2025 Page 6 of 12"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q08",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-32-q08-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "8 One mark per mark point (Max 4) 4\nMP1 It is the first stage of compilation\nMP2 White space and comments are removed\nMP3 It takes modified source code and breaks it into a series of tokens\nMP4 Each token is categorised and assigned types\nMP5 Identifiers are stored in a symbol table\nMP6 If the lexical analyser finds invalid tokens, it generates an error\nMP7 Acceptable data from the lexical analyser passes to the syntax\nanalyser\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q09",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-32-q09-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-32-q09-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p09.png",
+          "/9618/answer-assets/9618_s25_ms_32-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a) Variables must begin with a letter / not a digit 1\n\n9(b) <operator> ::= + | - | * | / | ^ 1\n\n9(c) One mark per mark point 3\nMP1 Two variable boxes added to diagram\nMP2 One operator box added to diagram and all boxes in correct order\nMP3 Connections, arrows and return loop correctly added and no\nadditional boxes or connections\nexpression\nvariable = variable operator variable\n© Cambridge University Press & Assessment 2025 Page 9 of 12\n\n9(d) Answer must begin with a valid letter. It can then be followed by any number 1\nof valid digits and/or letters, as long as it is at least four characters in length.\nExample answer\nAC768\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q06",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 6,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-33-q06-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p10.png",
+          "/9618/answer-assets/9618_s25_ms_33-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark for each mark point (Max 2) 2\n• Process scheduling is required to ensure that all processes are executed in a timely manner\n• … and enables multitasking/multiprogramming/multiprocessing\n• … to minimise CPU idle time\n• … to ensure that no process is starved of resources. // … to ensure fair access to resources.\n• … ensures jobs/processes are completed in order of priority.\n© Cambridge University Press & Assessment 2025 Page 10 of 16\n\n6(b) One mark for each mark point (Max 3) 4\nMP1 Processes are queued as they arrive.\nMP2 It is a pre-emptive scheduling routine.\nMP3 A fixed time quantum is given to each process. // Each process has an equal time slice.\nMP4 When a time slice ends, the status of the process is saved/queued so it can continue from where it left off in its\nnext time slice.\nMP5 and the next process is executed for its time slice; its previous state is reinstated/restored, if applicable.\nMP6 If a process completes within its time slice, the next process is executed for its time slice.\nOne mark for benefit (Max 1)\nMP7 Reduces average response time by limiting each process to a fixed amount of time.\nMP8 No issue with starvation of resources.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q08",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-33-q08-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-33-q08-p02.png"
+      ],
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "8 One mark per mark point (Max 4) 4\nMP1 It is the second stage of compilation // It’s the compilation stage after lexical analysis.\nMP2 It takes input from the lexical analyser in the form of token streams.\nMP3 The source code is analysed / parsed against the rules of the language to detect any errors in the code.\nMP4 The output from this phase is a parse tree.\nMP5 Syntax errors are reported.\n© Cambridge University Press & Assessment 2025 Page 11 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q09",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-33-q09-p01.png",
+        "/9618/9618-topic-16-system-software/assets/9618-2025-mj-33-q09-p02.png"
+      ],
+      "source_pages": [
+        10,
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "9(a) The second character must come from either lower or digit. It can’t be upper. 1\n\n9(b) Max 3 3\nOne mark\nMP1 <upper> ::= J | K | L | V | X | Z\nEither: fully written out answer\nMP2 Any two correct options for <passcode>\nMP3 Remaining two options correct for <passcode>\nExample answer\n<passcode> ::=\n<upper><lower><lower><digit>|\n<upper><lower><digit><digit>|\n<upper><digit><digit><digit>|\n<upper><digit><lower><digit>\nOr: answer with interim expression\nMP4 <passcode> ::= <upper><middle><middle><digit>\nMP5 <middle> ::= <lower>|<digit>\n\n9(c) One mark per mark point 2\nMP1 Box for upper in correct place with correct connections\nMP2 Correct repetition arrow for final digit\nlower lower\npasscode\nupper digit digit digit\nupper\n© Cambridge University Press & Assessment 2025 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q04",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 4,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-on-31-q04-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p08.png",
+          "/9618/answer-assets/9618_w25_ms_31-p09.png"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "4(a) One mark per scheduling routine (Max 2) from: 2\n• Round robin\n• Shortest job first\n• First come first served\n• Shortest remaining time\n© Cambridge University Press & Assessment 2025 Page 8 of 15\n\n4(b) One mark for identification and one mark for a description (Max 4) 4\nTwo from:\nProvision of a User Interface // Provision of a Graphical User Interface [1]\nAllows the user to interact with the computer in a more intuitive way // Icons and menus\nare used to control devices by simply ‘pointing and clicking’ [1]\nUse of device drivers [1]\nMakes it easier to control peripherals such as printers within the operating system of the\ncomputer rather than on the separate device itself [1]\nDevice mapping [1]\nDifferent devices (physical and virtual) are easy to identify on the network, check their\nstatus, or use [1]\nThe user interacts only with the Application / top layer (of the TCP/IP protocol suite) [1]\nleaving the lower layers and their complexities hidden from the user [1]\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q08",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-on-31-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p12.png",
+          "/9618/answer-assets/9618_w25_ms_31-p13.png"
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "8(a) One mark per mark point (Max 2) 2\nMP1 To convert the high-level source code / program into a sequence of tokens\nMP2 … that can be sent to the parser for syntax analysis\nMP3 To create a symbol table\nMP4 To remove the unnecessary white space and comments from the code\n\n8(b) One mark 2 6 – 2\nOne mark 13 7 + * 5 /\nComplete answer\n2 6 – 13 7 + * 5 /\n© Cambridge University Press & Assessment 2025 Page 12 of 15\n\n8(c) One mark per ring (Max 4) 4\n12 6\n6 6 18 15 15 9\n5 5 5 5 90 90 90 90 10\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q05",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-on-32-q05-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) One mark per mark point (Max 2) 2\nMP1 The low-level scheduler manages the handling of interrupts based on priority\nMP2 … ensuring that critical events are handled without delay\nMP3 It uses an Interrupt Vector Table (IVT) / Interrupt Descriptor/Despatch Table (IDT) / Interrupt Service Routine (ISR)\nlookup\nMP4 … to map the interrupt to the specific handling routine / ISR.\n\n5(b) One mark per correct answer (Max 3) 3\nProcess state Reason\nrunning CPU time has been allocated and the process is being executed.\nThe process is waiting (in the ready queue) for a slice of CPU time. It could run. // It has been displaced\nready\nby a higher priority process and could otherwise still run.\nblocked The process is waiting for an I/O operation / some event to take place / be completed.\n© Cambridge University Press & Assessment 2025 Page 10 of 17"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q08",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-on-32-q08-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p13.png",
+          "/9618/answer-assets/9618_w25_ms_32-p14.png"
+        ],
+        "source_pages": [
+          13,
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "8(a) To improve the code by making it use minimum resources (CPU, memory/storage, time) // Answer by example: To improve 1\nthe code by\n• minimising program storage\n• minimising CPU time\n• minimising memory use\n• minimising program execution time (includes peripheral use as well as CPU)\n\n8(b) One mark (a – b + c) 3\nOne mark * (c - a)\nOne mark / d\nComplete answer\n(a – b + c) * (c - a) / d\n© Cambridge University Press & Assessment 2025 Page 13 of 17\n\n8(c) One mark per ring (Max 4) 4\n6\n3 16 16 10 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q05",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-on-33-q05-p01.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "5(a) To enable multiple programs/processes to be executed at the same time 1\n\n5(b) One mark per mark point (Max 3) 3\nMP1 the operating system monitors the state of each task/process\nMP2 using scheduling to ensure hardware resources are used efficiently\nMP3 … and making sure that tasks/processes do not clash.\n© Cambridge University Press & Assessment 2025 Page 8 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q07",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 7,
+      "marks": 9,
+      "image_paths": [
+        "/9618/9618-topic-16-system-software/assets/9618-2025-on-33-q07-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p10.png",
+          "/9618/answer-assets/9618_w25_ms_33-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "7(a) One mark per mark point (Max 2) 2\nMP1 To identify and remove redundant code / To simplify expressions /\nTo reorder the code\nMP2 … so that storage size/memory use/power consumption/program\nexecution time/CPU time is minimized.\n\n7(b) One mark per mark point (Max 2) 3\nMP1 6 12 +\nMP2 16 10 – /\nMP3 18 *\nFinal correct expression\n6 12 + 16 10 – / 18 *\n© Cambridge University Press & Assessment 2025 Page 10 of 16\n\n7(c) One mark per ring (Max 3) 4\nOne mark for the interim total (360) and the final total (10).\n6 24\n4 12 12 18 12 12 36\n24 24 20 20 20 20 360 360 360 360 10\n© Cambridge University Press & Assessment 2025 Page 11 of 16"
+      }
+    }
+  ]
+}

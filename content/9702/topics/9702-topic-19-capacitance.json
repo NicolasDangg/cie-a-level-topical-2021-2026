@@ -1,0 +1,761 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 19,
+    "label": "Capacitance",
+    "slug": "9702-topic-19-capacitance"
+  },
+  "questions": [
+    {
+      "id": "9702-2021-m-42-q06",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-m-42-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-m-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p13.png",
+          "/9702/answer-assets/9702_m21_ms_42-p14.png"
+        ],
+        "source_pages": [
+          13,
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) (both have) radial field lines B1\n\n6(b)(i) 2.1 cm B1\n\n6(b)(ii) Q C1\nE =\n4πεr2\no\ne.g. r = 2.1 cm, E = 1.30 × 105 V m–1\nQ =4πεr2E\no\n=4×π×8.85×10 −12×0.0212×1.30×105\n=6.4×10 −9C A1\n© UCLES 2021 Page 13 of 19\n\n6(c) Q C1\nC =\nV\neither\nQ\nV = leading to C = 4πεr\n4πεr o\no\nC =4×π×8.85×10 −12×0.021 C1\n( C = ) 2.3×10 −12F A1\nor (C1)\nQ\nV =\n4πεr\no\n6.4×10 −9\n=\n4×π×8.85×10 −12×0.021\n=2740V\n6.4×10 −9\nC =\n2740\n=2.3×10 −12F (A1)\n© UCLES 2021 Page 14 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q07",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 7,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-41-q07-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-41-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "7(a) charge / potential M1\ncharge is on one plate, potential is p.d. between the plates A1\n\n7(b)(i) I = Q / t M1\ncharge = CV and time = 1 / f leading to I = fCV A1\n\n7(b)(ii) 4.8 × 10–6 = 150 × 60 × C C1\nC = 530 pF A1\n\n7(c) (total) capacitance is halved B1\ncharge (for each cycle/discharge) is halved B1\nor\nsince f and V are constant, current is proportional to capacitance\ncurrent = 2.4 μA B1\n© UCLES 2021 Page 13 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-42-q06",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-42-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_42-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) potential difference applied between the plates M1\ncauses charge separation (between the plates) A1\nor\ncauses energy to be stored (between the plates)\n\n6(b)(i) I = Q / t M1\nclear substitution of Q = CV and f = 1 / t, leading to I = fCV A1\n\n6(b)(ii) 2.5 × 10–6 = 50 × C × 180 C1\nC = 280 pF A1\n\n6(c) (total) capacitance increases B1\ngreater charge (for each cycle/discharge) so greater (average) current B1\nor\nV and f are constant so (average) current increases\nor\nI is (directly) proportional to C so (average) current increases\n© UCLES 2021 Page 13 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q07",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 7,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-43-q07-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-mj-43-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "7(a) charge / potential M1\ncharge is on one plate, potential is p.d. between the plates A1\n\n7(b)(i) I = Q / t M1\ncharge = CV and time = 1 / f leading to I = fCV A1\n\n7(b)(ii) 4.8 × 10–6 = 150 × 60 × C C1\nC = 530 pF A1\n\n7(c) (total) capacitance is halved B1\ncharge (for each cycle/discharge) is halved B1\nor\nsince f and V are constant, current is proportional to capacitance\ncurrent = 2.4 μA B1\n© UCLES 2021 Page 13 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-on-41-q06",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 6,
+      "marks": 5,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-on-41-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-on-41-q06-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_41-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_41.pdf?download=true",
+        "mark_scheme_text": "6(a) Q = CV and E = ½CV2 B1\n\n6(b)(i) C = CL / (L – D) B1\nN\n\n6(b)(ii) (charge is unchanged by moving the plates so) Q = CV B1\nN\n\n6(b)(iii) V = Q / C B1\nN N N\n= (CV) / [CL / (L – D)]\n= V(L – D) / L\n\n6(c) oppositely charged plates attract, so energy stored decreases B1\n© UCLES 2021 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2021-on-42-q06",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-on-42-q06-p01.png"
+      ],
+      "source_pages": [
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_42-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) work done per unit charge B1\n(work done in) moving positive charge from infinity B1\n\n6(b) C = Q / V C1\nV = Q / (4πεr) and so C = Q / [Q / (4πεr)] = 4πεr A1\n0 0 0\n\n6(c) Q = 4πεrV = 4π × 8.85 × 10–12 × 0.13 × 4500 C1\n0\n( = 6.5 × 10–8 C)\n(Q – q) / 13 = q / 5.2 C1\n5.2Q – 5.2q = 13q, so q = (5.2 / 18.2)Q A1\nq = (5.2 / 18.2) × 6.5 × 10–8\n= 1.9 × 10–8 C\nor\nV = Q / C (C1)\nT T T\n= 6.5 × 10–8 / [4π × 8.85 × 10–12 × (0.13 + 0.052)]\n( = 3210 V)\nq = 4π × 8.85 × 10–12 × 0.052 × 3210 (A1)\n= 1.9 × 10–8 C\n© UCLES 2021 Page 12 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-on-43-q06",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 6,
+      "marks": 5,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-on-43-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2021-on-43-q06-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_43-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_43.pdf?download=true",
+        "mark_scheme_text": "6(a) Q = CV and E = ½CV2 B1\n\n6(b)(i) C = CL / (L – D) B1\nN\n\n6(b)(ii) (charge is unchanged by moving the plates so) Q = CV B1\nN\n\n6(b)(iii) V = Q / C B1\nN N N\n= (CV) / [CL / (L – D)]\n= V(L – D) / L\n\n6(c) oppositely charged plates attract, so energy stored decreases B1\n© UCLES 2021 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-m-42-q05",
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p02.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-m-42-q05-p03.png"
+      ],
+      "source_pages": [
+        15,
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m22_ms_42-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) (energy stored =) area under line or ½ QV C1\n= ½ × 8.0 × 1.2 × 10-4\n= 4.8 × 10–4 J A1\n\n5(b)(i) (τ=) RC C1\n(τ=) 220 × 103 × (1.2 × 10-4/8.0) = 3.3 s A1\n\n5(b)(ii) E ∝ V2 C1\n(so time to) V / 3 C1\no\n−t\nV = V e RC\no\nV −t C1\no = V e 3.3\n3 o\n1 −t\n= e 3.3\n3\nt = 3.6 s A1\n\n5(c) (total) capacitance is doubled M1\ntime constant is doubled A1\n© UCLES 2022 Page 10 of 17"
+      }
+    },
+    {
+      "id": "9702-2022-mj-42-q05",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-mj-42-q05-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-mj-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_42-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) charge / potential (difference) M1\ncharge is charge on one plate, and potential is p.d. across the plates A1\n\n5(b) p.d. across both capacitors = E B1\nQ = Q + Q B1\nT 1 2\nC E = C E + C E hence C = C + C B1\nT 1 2 T 1 2\n\n5(c)(i) [(1 / 22) + (1 / 47)]–1 = 15 F A1\n\n5(c)(ii) energy = ½CV 2 C1\n= ½  15  10–6  122 A1\n= 1.1  10–3 J\n\n5(c)(iii) initial p.d. (across 22 F) = 12  (15 / 22) C1\n= 8.2 V\nor\nfinal p.d. across both capacitors = 6.0  (22 / 15)\n= 8.8 V\nV = V exp [– t / (2.7  106  15  10–6)] C1\n0\n6.0 = 8.2 exp [– t / (2.7  106  15  10–6)] A1\nor\n8.8 = 12 exp [– t / (2.7  106  15  10–6)]\nt = 13 s\n© UCLES 2022 Page 11 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-41-q05",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 5,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-on-41-q05-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-on-41-q05-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_41-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_41.pdf?download=true",
+        "mark_scheme_text": "5(a)(i) Q = CV C1\nQ = 24  470  10–6 A1\n0\n= 0.011 C\n\n5(a)(ii) I = 24 / 5600 A1\n0\n= 4.3  10–3 A\n\n5(a)(iii)  = RC C1\n= 5600  470  10–6 A1\n= 2.6 s\n\n5(a)(iv) line with negative gradient throughout passing through (0, I ) B1\n0\nexponential decay curve asymptotic to t-axis B1\n\n5(b)(i) current in wire P gives rise to a magnetic field B1\nas current (in P) changes, wire Q cuts (magnetic) flux (of wire P) B1\ncutting magnetic flux causes induced e.m.f. (across Q) B1\n\n5(b)(ii) sketch shows line with a negative gradient throughout B1\n© UCLES 2022 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q06",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-on-42-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-on-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p11.png",
+          "/9702/answer-assets/9702_w22_ms_42-p12.png"
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) • p.d. across resistor = p.d. across capacitor B2\n• current (in resistor) proportional to p.d. across it\n• current causes capacitor to lose charge\n• charge (on capacitor) proportional to p.d. so p.d. decreases\nAny two points, 1 mark each\nrate of change of p.d. decreases as p.d. decreases B1\n\n6(b) Q = 0.90 mC and at t = one time constant, Q = Q exp (–1) B1\n0 0\nat t = one time constant, Q = 0.90 exp (–1) = 0.33 mC M1\nevidence of graph reading: when Q = 0.33 mC, t = 5.5 s A1\nor\nevidence of two correct sets of readings for Q and t from the graph (B1)\ncorrect substitution of Q and t values into Q = Q exp [(t – t ) / ] (M1)\n2 1 1 2\ncalculation to give  = 5.5 s (A1)\nor\nread-off of half-life as 3.75 s (B1)\nuse of Q = Q exp (–t / ) to show that  = half-life / ln 2 (M1)\n0\n = 3.75 / ln 2 = 5.4 s (A1)\n© UCLES 2022 Page 11 of 16\n\n6(b) or\ntangent drawn on Q–t graph and value of Q at exact same time as tangent read from graph (M1)\ngradient of tangent correctly calculated (A1)\n = Q / gradient used to correctly calculate a value for  as 5.5 s (A1)\n\n6(c)(i) C = Q / V C1\n= [(0.90  10–3) / 7.5] = 1.2  10–4 C A1\n= 120 F\n\n6(c)(ii) R = τ / C C1\n= 5.5 / (1.2  10–4) (= 45 800 ) A1\n= 46 k\n© UCLES 2022 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-43-q05",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 5,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-on-43-q05-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2022-on-43-q05-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_43-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_43.pdf?download=true",
+        "mark_scheme_text": "5(a)(i) Q = CV C1\nQ = 24  470  10–6 A1\n0\n= 0.011 C\n\n5(a)(ii) I = 24 / 5600 A1\n0\n= 4.3  10–3 A\n\n5(a)(iii)  = RC C1\n= 5600  470  10–6 A1\n= 2.6 s\n\n5(a)(iv) line with negative gradient throughout passing through (0, I ) B1\n0\nexponential decay curve asymptotic to t-axis B1\n\n5(b)(i) current in wire P gives rise to a magnetic field B1\nas current (in P) changes, wire Q cuts (magnetic) flux (of wire P) B1\ncutting magnetic flux causes induced e.m.f. (across Q) B1\n\n5(b)(ii) sketch shows line with a negative gradient throughout B1\n© UCLES 2022 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-m-42-q05",
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2023-m-42-q05-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2023-m-42-q05-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m23_ms_42-p12.png",
+          "/9702/answer-assets/9702_m23_ms_42-p13.png"
+        ],
+        "source_pages": [
+          12,
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) from graph ln Q = 2.9 B1\n(so Q = 18.2 C)\nC = Q / V C1\n= 18.2 / 12 = 1.5 F A1\n\n5(b) gradient = –0.25 C1\ngradient = –1 / RC C1\nR = 1 / (0.25  1.5  10–6) A1\n= 2.7  106 \nQ −t −t (C1)\nor = e CR or ln Q – ln Q =\n0\nQ CR\n0\n−5.2 (C1)\n4.95 ( 1.5 10−6R )\ne.g. = e or 1.6 – 2.9 = 5.2 / (1.5 ×10–6R)\n18.2\nR = 2.7  106 (A1)\n© UCLES 2023 Page 12 of 18\n\n5(c) W = ½ QV C1\n= ½  18.2  10–6  12 A1\n= 1.1  10–4 J\nor W = ½ CV2 (C1)\n= ½  1.5  10–6  122 (A1)\n= 1.1  10–4 J\nor W = ½ Q2 / C (C1)\n= ½  (18.2  10–6)2 / 1.5  10–6 (A1)\n= 1.1  10–4 J\n\n5(d) straight line with different negative gradient starting from (0, 2.9) M1\nstraight line between t = 0 and at least t = 5.0s with twice the gradient of the original line A1\n© UCLES 2023 Page 13 of 18"
+      }
+    },
+    {
+      "id": "9702-2023-mj-42-q05",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2023-mj-42-q05-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2023-mj-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_42-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a)(i) Q = CV A1\nA\n\n5(a)(ii) E = ½CV2 A1\nA\n\n5(b)(i) some of the charge transfers to (the plates of) capacitor B B1\ntransfer is because the p.d.s across the capacitors are not equal B1\nor\ntransfer stops when the p.d.s across the capacitors become equal\n\n5(b)(ii) V = V M1\nA B\ncharge on A + charge on B = CV M1\nCV + 3CV = CV leading to V = V / 4 A1\nB B B\nor\nC = 4C (M1)\nT\nQ = CV (M1)\nT\nV = CV / 4C = V / 4 (A1)\nB\n\n5(b)(iii) E = ½CV2 – nCV2, where n is a multiple that is less than ½ C1\nor\ntotal final energy = ½  4C  (V / 4)2\n= ⅛CV2\nE = ½CV2 – ⅛CV2 A1\n= ⅜CV2\n© UCLES 2023 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-42-q06",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2023-on-42-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2023-on-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_42-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a)(i) energy stored = area under graph C1\n= ½  450  10–6  8.0 = 1.8  10–3 J or 1.8 mJ A1\n\n6(a)(ii) C = Q / V or E = ½CV2 C1\nC = (450  10–6) / 8.0 or (2  1.8  10–3) / 8.02 A1\n= 5.6  10–5 F\n\n6(b)(i) V = V exp (– t / RC) and  = RC C1\n0\nV = V exp (– t / ) A1\n0\nV = 8.0 V, and at one time constant, t = \n0\nV / 8.0 = exp (– / ), so ln (V / 8.0) = –1.0 or –ln (V / 8.0) = 1.0\n\n6(b)(ii) [t read from graph at –ln (V / 8.0) = 1.0]:  = 3.2 s A1\n\n6(b)(iii)  = RC C1\nR = 3.2 / (5.6  10–5) A1\n= 5.7  104 \n© UCLES 2023 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-mj-41-q06",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-41-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-41-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_41-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_41.pdf?download=true",
+        "mark_scheme_text": "6(a)  p.d. across capacitor proportional to charge on capacitor B2\n p.d. across capacitor = p.d. across resistor\n current in resistor proportional to p.d. across resistor\n current in resistor = rate of decrease of charge on capacitor\nAny two points, 1 mark each\ncharge proportional to current so rate of decrease of current decreases as current decreases (therefore exponential shape) B1\n\n6(b)(i) R = V / I C1\n= 12 / (0.13  10–3)\n= 9.2  104  A1\n\n6(b)(ii) correct read-off of at least one pair of values for I and t C1\nattempted read-off of t when I = 0.048 mA C1\nor\nsubstitution of a correct pair of values of I and t into I = 0.13 exp (– t / )\n = 4.3 s A1\n\n6(c)  = RC C1\nC =  / R = 4.3 / (9.2  104) A1\n= 4.7  10–5 F\n© Cambridge University Press & Assessment 2024 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-mj-42-q06",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-42-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_42-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) equal charge on both capacitors B1\nV + V = V M1\nX Y\n(Q / C ) + (Q / C ) = (Q / C ) leading to (1 / C ) + (1 / C ) = (1 / C ) A1\nX Y T X Y T\nor\n(V / Q) + (V / Q) = (V / Q) leading to (1 / C ) + (1 / C ) = (1 / C )\nX Y X Y T\n\n6(b)(i) E = ½CV 2 C1\nV = √[(2  2.5  10–3) / (200  10–6)] = 5.0 V A1\n\n6(b)(ii) total capacitance = 600 F C1\nE = ½  600  10–6  5.02 C1\n( = 7.5  10–3 J)\n= 7.5 mJ A1\n\n6(b)(iii) line with positive gradient starting at (0, 2.5) B1\nstraight line passing through (400, 7.5) B1\n© Cambridge University Press & Assessment 2024 Page 11 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-mj-43-q06",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-43-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-mj-43-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_43-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_43.pdf?download=true",
+        "mark_scheme_text": "6(a)  p.d. across capacitor proportional to charge on capacitor B2\n p.d. across capacitor = p.d. across resistor\n current in resistor proportional to p.d. across resistor\n current in resistor = rate of decrease of charge on capacitor\nAny two points, 1 mark each\ncharge proportional to current so rate of decrease of current decreases as current decreases (therefore exponential shape) B1\n\n6(b)(i) R = V / I C1\n= 12 / (0.13  10–3)\n= 9.2  104  A1\n\n6(b)(ii) correct read-off of at least one pair of values for I and t C1\nattempted read-off of t when I = 0.048 mA C1\nor\nsubstitution of a correct pair of values of I and t into I = 0.13 exp (– t / )\n = 4.3 s A1\n\n6(c)  = RC C1\nC =  / R = 4.3 / (9.2  104) A1\n= 4.7  10–5 F\n© Cambridge University Press & Assessment 2024 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-42-q07",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-on-42-q07-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2024-on-42-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_42-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a) charge / potential (difference) M1\ncharge is charge on one plate, and potential is p.d. between the plates A1\n\n7(b)(i) straight line starting at the origin B1\nline with positive gradient ending at (V, Q) B1\n\n7(b)(ii) work done is the area under the graph B1\nW = ½QV A1\n\n7(c)(i) final p.d. shown as V / 4 for both capacitors B1\nfinal charges add together to give Q B1\ncharge on Y = 3  charge on X (and both charges shown as a multiple of Q) B1\nFully correct answer:\nX Y\nfinal p.d. V / 4 V / 4\nfinal charge Q / 4 3Q / 4\n\n7(c)(ii) less than B1\n© Cambridge University Press & Assessment 2024 Page 11 of 14"
+      }
+    },
+    {
+      "id": "9702-2025-m-42-q05",
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-m-42-q05-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-m-42-q05-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m25_ms_42-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) Q = Q = Q and V = V + V M1\n1 2 1 2\nV = Q / C so: A1\nQ / C = Q / C + Q / C leading to 1 / C = 1 / C + 1 / C\n1 2 1 2\n\n5(b) total capacitance = C + ½C = (3 / 2)C C1\ntotal capacitance = gradient C1\n= 400  10–6 / 6.0\neither: C = (2  400  10–6) / (3  6.0) = 4.4  10–5F = 44F A1\nor: C = (2  400) / (3  6.0) = 44F\n\n5(c)(i) τ = RC C1\n= 54  103  (3/2)  44  10–6 A1\n= 3.6s\n\n5(c)(ii) 0.15 = exp(–t / 3.6) C1\nt = 6.8s A1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2025-mj-42-q07",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-mj-42-q07-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-mj-42-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_42-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a) V = V B1\nC R\n\n7(b)(i) C = Q / V C1\n= (7.2 × 10–3) / 12 (= 6.0 × 10–4 F) A1\n= 600 F\n\n7(b)(ii) R = V / I C1\n= 12 / (1.5 × 10–3) (= 8000 ) A1\n= 8.0 k\n\n7(b)(iii)  = RC C1\n= 8000 × 6.0 × 10–4 A1\n= 4.8 s\n\n7(c) Any two points from: B2\n• charge and current are both (directly) proportional to voltage\n• charge is (directly) proportional to current\n• current is the rate of change of charge\nQ is proportional to the rate of change of Q (so exponential variation) B1\n© Cambridge University Press & Assessment 2025 Page 15 of 18"
+      }
+    },
+    {
+      "id": "9702-2025-on-41-q06",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-on-41-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-on-41-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_41-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
+        "mark_scheme_text": "6(a) series charges: Q = Q = Q B1\nS 1 2\nseries p.d.s: V = V + V B1\nS 1 2\nparallel charges: Q = Q + Q B1\nS 1 2\nparallel p.d.s: V = V = V B1\nS 1 2\n\n6(b)(i) E = ½ CV2 C1\np.d. = [(2  19  10–3) / (470  10–6)]½ A1\n= 9.0 V\n\n6(b)(ii) E = Q2 / 2C or C = Q / V C1\nQ = (19 × 10–3 × 2 × 470 × 10–6)½ A1\nor\nQ = 470 × 10–6 × 9.0\nQ = 4.2  10–3 C\n\n6(b)(iii) total charge unchanged C1\ntotal capacitance = (470 + 180)  10–6 (F) C1\nE = Q2 / 2C = (4.23  10–3)2 / (2  650  10–6) (= 0.014 J) A1\nE = 14 mJ\n© Cambridge University Press & Assessment 2025 Page 13 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-42-q06",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-on-42-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-on-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_42-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) force per unit positive charge B1\n\n6(b)(i) radial lines B1\narrows pointing away from the sphere B1\n\n6(b)(ii) C = Q / V C1\nV = 83 / 69 A1\n= (+)1.2 V\n\n6(b)(iii) V = Q / 4ε r C1\n0\nr = (83  10–12) / (4  8.85  10–12  1.2)\n= 0.62 m A1\n\n6(b)(iv) E = Q / 4ε r2 C1\n0\n= (83  10–12) / (4  8.85  10–12  0.622) A1\n= 1.9 N C–1\n\n6(c) 26 = 83 exp [– t / (120  106  69  10–12)] C1\nt = 9.6  10–3 s A1\n© Cambridge University Press & Assessment 2025 Page 13 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-43-q06",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-on-43-q06-p01.png",
+        "/9702/9702-topic-19-capacitance/assets/9702-2025-on-43-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_43-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
+        "mark_scheme_text": "6(a) series charges: Q = Q = Q B1\nS 1 2\nseries p.d.s: V = V + V B1\nS 1 2\nparallel charges: Q = Q + Q B1\nS 1 2\nparallel p.d.s: V = V = V B1\nS 1 2\n\n6(b)(i) E = ½ CV2 C1\np.d. = [(2  19  10–3) / (470  10–6)]½ A1\n= 9.0 V\n\n6(b)(ii) E = Q2 / 2C or C = Q / V C1\nQ = (19 × 10–3 × 2 × 470 × 10–6)½ A1\nor\nQ = 470 × 10–6 × 9.0\nQ = 4.2  10–3 C\n\n6(b)(iii) total charge unchanged C1\ntotal capacitance = (470 + 180)  10–6 (F) C1\nE = Q2 / 2C = (4.23  10–3)2 / (2  650  10–6) (= 0.014 J) A1\nE = 14 mJ\n© Cambridge University Press & Assessment 2025 Page 13 of 17"
+      }
+    }
+  ]
+}

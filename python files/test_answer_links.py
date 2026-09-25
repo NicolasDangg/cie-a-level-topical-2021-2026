@@ -6,7 +6,7 @@ from urllib.parse import unquote, urlsplit
 import sys
 
 
-ROOT = Path("/Users/nicolasdangg/Documents/past paper/cie-a-level-topical-2021-2026")
+ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "python files"))
 
 from generate_answers import extract_sections

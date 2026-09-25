@@ -1,0 +1,1420 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9702",
+  "topic": {
+    "number": 20,
+    "label": "Magnetic fields",
+    "slug": "9702-topic-20-magnetic-fields"
+  },
+  "questions": [
+    {
+      "id": "9702-2021-m-42-q09",
+      "year": 2021,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-m-42-q09-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-m-42-q09-p02.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-m-42-q09-p03.png"
+      ],
+      "source_pages": [
+        20,
+        21,
+        22
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m21_ms_42-p16.png",
+          "/9702/answer-assets/9702_m21_ms_42-p17.png"
+        ],
+        "source_pages": [
+          16,
+          17
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_ms_42.pdf?download=true",
+        "mark_scheme_text": "9(a) (magnetic) flux density × area × number of turns M1\narea is perpendicular to (magnetic) field A1\n\n9(b) use of t = 1.2 s C1\nΔBAN C1\nε=\nΔt\n0.250×π×0.0302×540\n=\n1.2\n=0.32V A1\n\n9(c)(i) light damping B1\n© UCLES 2021 Page 16 of 19\n\n9(c)(ii) sheet cuts (magnetic) flux and causes induced emf B1\n(induced) emf causes (eddy) currents (in sheet) B1\neither currents (in sheet) cause resistive force B1\nor currents (in sheet) dissipate energy\nsmaller currents in Y or larger currents in X, so dashed line is X B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q09",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-41-q09-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-41-q09-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "9(a) region where there is a force exerted on M1\na current-carrying conductor A1\nor\na moving charge\nor\na magnetic material/magnetic pole\n\n9(b)(i) face PSWV shaded B1\n\n9(b)(ii) accumulating electrons cause an electric field (between the faces) B1\nforce due to electric field opposes force due to magnetic field B1\naccumulation stops when magnetic force equals electric force B1\n\n9(c)(i) number density of charge carriers B1\n\n9(c)(ii) PV or QT or SW B1\n\n9(d) (for semiconductor,) n is (much) smaller so V (much) larger B1\nH\n© UCLES 2021 Page 15 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-41-q10",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-41-q10-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-41-q10-p02.png"
+      ],
+      "source_pages": [
+        22,
+        23
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_41-p16.png"
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_41.pdf?download=true",
+        "mark_scheme_text": "10(a) direction of (induced) e.m.f. M1\nis such as to oppose the change causing it A1\n\n10(b) ring cuts (magnetic) flux and causes induced e.m.f. in ring B1\n(induced) e.m.f. causes (eddy/induced) currents (in ring) B1\ncurrents (in ring) cause magnetic field (around ring) M1\ntwo fields interact to cause resistive/opposing force A1\nor\ncurrent (in ring) is in a magnetic field (M1)\nwhich causes resistive force (A1)\nor\ncurrents (in ring) dissipate thermal energy (M1)\n(thermal) energy comes from energy of oscillations (A1)\n\n10(c) current cannot pass all the way around the ring B1\n(induced) currents smaller B1\nsmaller resistive force (so more oscillations) B1\nor\nsmaller rate of dissipation of energy (so more oscillations)\n© UCLES 2021 Page 16 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-42-q08",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 8,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-42-q08-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-42-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_42-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_42.pdf?download=true",
+        "mark_scheme_text": "8(a) • force per unit length B2\n• force per unit current\n• length/current perpendicular to field\n1 mark for any two points, 2 marks for all three points\n\n8(b) change in potential energy = change in kinetic energy B1\nor\nqV = ½mv2\nv = √(2qV / m) A1\n\n8(c)(i) magnetic force = centripetal force M1\nor\nBqv = mv2 / r\nclear substitution of expression for v and correct algebra leading to q / m = 2V / B2r2 A1\n\n8(c)(ii) q / m = (2 × 230) / [(0.38 × 10–3)2 × 0.142] C1\n= 1.6 × 1011 C kg–1 A1\n\n8(c)(iii) (for α-particle,) q / m is (much) smaller B1\nr would be much larger B1\n© UCLES 2021 Page 15 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-42-q09",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-42-q09-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-42-q09-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_42-p16.png"
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_42.pdf?download=true",
+        "mark_scheme_text": "9(a) (particle is) stationary/not moving B1\n(particle is) moving parallel to the (magnetic) field B1\n\n9(b) magnetic field around each coil is circular B1\nor\neach coil is normal to magnetic field due to adjacent coils\ncurrent in coil interacts with (magnetic) field to exert force (on coil) B1\nforce is normal to both coil and magnetic field B1\nor\nforce parallel to axis (of coil)\nforces between coils are attractive so spring contracts B1\n\n9(c) (oscillating) coils cut magnetic flux B1\nor\nas separation of coils changes, magnetic flux changes\ncutting flux causes induced e.m.f. in coils B1\nchanging (induced) e.m.f. causes changing current (in coil) B1\n© UCLES 2021 Page 16 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q09",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-43-q09-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-43-q09-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "9(a) region where there is a force exerted on M1\na current-carrying conductor A1\nor\na moving charge\nor\na magnetic material/magnetic pole\n\n9(b)(i) face PSWV shaded B1\n\n9(b)(ii) accumulating electrons cause an electric field (between the faces) B1\nforce due to electric field opposes force due to magnetic field B1\naccumulation stops when magnetic force equals electric force B1\n\n9(c)(i) number density of charge carriers B1\n\n9(c)(ii) PV or QT or SW B1\n\n9(d) (for semiconductor,) n is (much) smaller so V (much) larger B1\nH\n© UCLES 2021 Page 15 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-mj-43-q10",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 10,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-43-q10-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-43-q10-p02.png"
+      ],
+      "source_pages": [
+        22,
+        23
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s21_ms_43-p16.png"
+        ],
+        "source_pages": [
+          16
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-May-June/9702_s21_ms_43.pdf?download=true",
+        "mark_scheme_text": "10(a) direction of (induced) e.m.f. M1\nis such as to oppose the change causing it A1\n\n10(b) ring cuts (magnetic) flux and causes induced e.m.f. in ring B1\n(induced) e.m.f. causes (eddy/induced) currents (in ring) B1\ncurrents (in ring) cause magnetic field (around ring) M1\ntwo fields interact to cause resistive/opposing force A1\nor\ncurrent (in ring) is in a magnetic field (M1)\nwhich causes resistive force (A1)\nor\ncurrents (in ring) dissipate thermal energy (M1)\n(thermal) energy comes from energy of oscillations (A1)\n\n10(c) current cannot pass all the way around the ring B1\n(induced) currents smaller B1\nsmaller resistive force (so more oscillations) B1\nor\nsmaller rate of dissipation of energy (so more oscillations)\n© UCLES 2021 Page 16 of 18"
+      }
+    },
+    {
+      "id": "9702-2021-on-41-q08",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 8,
+      "marks": 6,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q08-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q08-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_41-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_41.pdf?download=true",
+        "mark_scheme_text": "8(a) newton per ampere per metre M1\nwhere current/wire is perpendicular to magnetic field A1\n\n8(b)(i) F = BILsinθ C1\nB = 1.0 / (5.0 × 0.060 × sin 50°) A1\n= 4.4 mT\n\n8(b)(ii) (from Fleming’s left-hand rule) force on wire is upwards, so reading decreases B1\n\n8(b)(iii) frame will rotate (so that PQ becomes perpendicular to the field) B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-on-41-q09",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q09-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q09-p02.png"
+      ],
+      "source_pages": [
+        22,
+        23
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_41-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_41.pdf?download=true",
+        "mark_scheme_text": "9(a) constant voltage M1\nthat produces/dissipates same power as (the mean power of) the alternating voltage A1\n\n9(b)(i) (maximum) rate of cutting of (magnetic) flux doubles B1\n(peak and hence) r.m.s. induced e.m.f. doubles B1\n\n9(b)(ii) sketch: (sinusoidal) wave of period 10 ms B1\npeak E shown as ± 34V B2\n(1 mark out of 2 awarded if peak E shown as ± 17V or ± 24V)\n\n9(c) current in the coil results in forces that oppose its rotation B1\nor\ncurrent in the resistor dissipates the energy of rotation\ncoil stops rotating B1\n© UCLES 2021 Page 13 of 15"
+      }
+    },
+    {
+      "id": "9702-2021-on-42-q08",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 8,
+      "marks": 5,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-42-q08-p01.png"
+      ],
+      "source_pages": [
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_42-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_42.pdf?download=true",
+        "mark_scheme_text": "8(a)(i) arrow from Q pointing downwards, labelled B B1\n\n8(a)(ii) arrow from Q pointing towards P, labelled F B1\n\n8(b)(i) force is proportional to product of both currents (I and 2I) B1\nor\nNewton’s third law\nforces are equal B1\n\n8(b)(ii) opposite B1\n© UCLES 2021 Page 14 of 19"
+      }
+    },
+    {
+      "id": "9702-2021-on-43-q08",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 8,
+      "marks": 6,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-43-q08-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-43-q08-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_43-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_43.pdf?download=true",
+        "mark_scheme_text": "8(a) newton per ampere per metre M1\nwhere current/wire is perpendicular to magnetic field A1\n\n8(b)(i) F = BILsinθ C1\nB = 1.0 / (5.0 × 0.060 × sin 50°) A1\n= 4.4 mT\n\n8(b)(ii) (from Fleming’s left-hand rule) force on wire is upwards, so reading decreases B1\n\n8(b)(iii) frame will rotate (so that PQ becomes perpendicular to the field) B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2021-on-43-q09",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 9,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-43-q09-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-43-q09-p02.png"
+      ],
+      "source_pages": [
+        22,
+        23
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w21_ms_43-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-Oct-Nov/9702_w21_ms_43.pdf?download=true",
+        "mark_scheme_text": "9(a) constant voltage M1\nthat produces/dissipates same power as (the mean power of) the alternating voltage A1\n\n9(b)(i) (maximum) rate of cutting of (magnetic) flux doubles B1\n(peak and hence) r.m.s. induced e.m.f. doubles B1\n\n9(b)(ii) sketch: (sinusoidal) wave of period 10 ms B1\npeak E shown as ± 34V B2\n(1 mark out of 2 awarded if peak E shown as ± 17V or ± 24V)\n\n9(c) current in the coil results in forces that oppose its rotation B1\nor\ncurrent in the resistor dissipates the energy of rotation\ncoil stops rotating B1\n© UCLES 2021 Page 13 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-m-42-q06",
+      "year": 2022,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 7,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-m-42-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-m-42-q06-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m22_ms_42-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Feb-March/9702_m22_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) less in smaller solenoid B1\n\n6(b) greater in smaller solenoid B1\n\n6(c)(i) direction of (induced) e.m.f. M1\nsuch as to (produce effects that) oppose the change that caused it A1\n\n6(c)(ii) change of flux (linkage) in smaller solenoid induces e.m.f. in smaller solenoid B1\n(induced) current in smaller solenoid causes field around it B1\nthe two fields (interact to) create an attractive force B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2022-mj-41-q02",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 2,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q02-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_41-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_41.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) (vertically) downwards B1\n\n2(a)(ii) magnetic force (on sphere) is perpendicular to its velocity B1\nmagnetic force perpendicular to velocity is the centripetal force B1\nor\nmagnetic force perpendicular to velocity causes centripetal acceleration\nor\nacceleration perpendicular to velocity is centripetal (acceleration)\nor\nmagnetic force does not change the speed of the sphere\nor\nmagnetic force has constant magnitude\n\n2(b) mg = Eq C1\nE = (1.6  10–10  9.81) / (0.27  10–9) A1\n= 5.8 N C–1\n\n2(c) centripetal force = magnetic force B1\nor\nBqv = mv2 / r\nB = mv / qr C1\n= (1.6  10–10  0.78) / (0.27  10–9  3.4) = 0.14 T A1\n© UCLES 2022 Page 8 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-41-q06",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_41-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_41.pdf?download=true",
+        "mark_scheme_text": "6(a) product of (magnetic) flux density and area M1\nwhere area is perpendicular to the (magnetic) field A1\n\n6(b)(i) N = BAN C1\n= 400  10–3  0.122  8 C1\n= 0.046 Wb A1\n\n6(b)(ii) (line is a) straight line B1\n\n6(b)(iii) (induced) e.m.f. = rate of change of flux linkage C1\ne.m.f. = N / t A1\n= 0.046 / 0.60\n= 0.077 V\n\n6(c) (induced e.m.f. causes) current flow (in the coil) B1\neither\ncurrent (in magnetic field) causes forces to act on the coil B1\n(opposite sides of) coil forced inwards B1\nor\ncurrent causes dissipation of energy in the resistance of the coil (B1)\ntemperature of the coil rises (B1)\n© UCLES 2022 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-42-q06",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_42-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) there must be a current (in the wire) B1\n(wire) must be at a non-zero angle to the magnetic field B1\n\n6(b)(i) arrow from X pointing horizontally to the left B1\narrow from Y pointing diagonally upwards and to the left at about 45° B1\narrow from Z pointing horizontally to the right B1\n\n6(b)(ii) (flux densities at W and X are approximately) equal B1\n(flux density at) Y greater than (flux density at) Z B1\n\n6(c) current in wire creates magnetic field around wire B1\n(each) wire sits in the magnetic field created by the other B1\n(for each wire,) current / wire is perpendicular to magnetic field (due to other wire), (so) experiences a (magnetic) force B1\n© UCLES 2022 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-42-q07",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_42-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a) induced e.m.f. is (directly) proportional to rate M1\nof change of (magnetic) flux (linkage) A1\n\n7(b) V stepped, all at non-zero values, between t = 0 and t = 0.40 s B1\n2\nV shown with same non-zero magnitude up to t = 0.15 s and after t = 0.25 s but with a different magnitude between these B1\n2\ntimes\nV shown with a magnitude between t = 0.15 s and t = 0.25 s that is three times the magnitude before t = 0.15 s and after B1\n2\nt = 0.25 s\nV shown with same sign up to t = 0.15 s and after t = 0.25 s, and opposite sign in between B1\n2\n\n7(c)(i) changing current in coil causes changing (magnetic) field B1\nor\nchanging (magnetic) flux causes induced e.m.f. in ring\ninduced e.m.f. in ring causes current in ring B1\n(magnetic) field due to (induced) current in ring interacts with (coil’s) field to cause upwards force (on ring) B1\nor\n(induced) current in ring perpendicular to (coil’s magnetic) field causes upwards force (on ring)\n\n7(c)(ii) both magnetic fields reverse direction so ring still jumps up B1\nor\ncurrent (in ring) and (coil’s) field both reverse so ring still jumps up\n© UCLES 2022 Page 13 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-43-q02",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 2,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-43-q02-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-43-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_43-p08.png"
+        ],
+        "source_pages": [
+          8
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_43.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) (vertically) downwards B1\n\n2(a)(ii) magnetic force (on sphere) is perpendicular to its velocity B1\nmagnetic force perpendicular to velocity is the centripetal force B1\nor\nmagnetic force perpendicular to velocity causes centripetal acceleration\nor\nacceleration perpendicular to velocity is centripetal (acceleration)\nor\nmagnetic force does not change the speed of the sphere\nor\nmagnetic force has constant magnitude\n\n2(b) mg = Eq C1\nE = (1.6  10–10  9.81) / (0.27  10–9) A1\n= 5.8 N C–1\n\n2(c) centripetal force = magnetic force B1\nor\nBqv = mv2 / r\nB = mv / qr C1\n= (1.6  10–10  0.78) / (0.27  10–9  3.4) = 0.14 T A1\n© UCLES 2022 Page 8 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-mj-43-q06",
+      "year": 2022,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-43-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-43-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s22_ms_43-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-May-June/9702_s22_ms_43.pdf?download=true",
+        "mark_scheme_text": "6(a) product of (magnetic) flux density and area M1\nwhere area is perpendicular to the (magnetic) field A1\n\n6(b)(i) N = BAN C1\n= 400  10–3  0.122  8 C1\n= 0.046 Wb A1\n\n6(b)(ii) (line is a) straight line B1\n\n6(b)(iii) (induced) e.m.f. = rate of change of flux linkage C1\ne.m.f. = N / t A1\n= 0.046 / 0.60\n= 0.077 V\n\n6(c) (induced e.m.f. causes) current flow (in the coil) B1\neither\ncurrent (in magnetic field) causes forces to act on the coil B1\n(opposite sides of) coil forced inwards B1\nor\ncurrent causes dissipation of energy in the resistance of the coil (B1)\ntemperature of the coil rises (B1)\n© UCLES 2022 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-41-q06",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 6,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-41-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-41-q06-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_41-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_41.pdf?download=true",
+        "mark_scheme_text": "6(a)(i) PQRS and WXYZ B1\n\n6(a)(ii) force on charge carriers is perpendicular to both (magnetic) field and current B1\nas charge carriers are deflected to one side, an electric field is set up B1\n(steady V when) electric and magnetic forces on charge carriers are equal (and opposite) B1\nH\n\n6(b)(i) n: number density of charge carriers B1\nt: distance PW (or SZ or QX or RY) B1\nq: charge on each charge carrier B1\n\n6(b)(ii) V inversely proportional to t B1\nH\n(so t needs to be small for) V to be large enough to measure B1\nH\n© UCLES 2022 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q07",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a) force per unit current M1\nforce per unit length M1\ncurrent / wire is perpendicular to (magnetic) field (lines) A1\n\n7(b)(i) current (in coil) is perpendicular to magnetic field (so force on wire) B1\nforce (on wire) is perpendicular to current and field (so is vertical) B1\nor\ncurrent and field are both horizontal (so force is vertical)\n\n7(b)(ii) NBIL = mg C1\nB = (2.16  10–3  9.81) / (40  3.94  0.0300) C1\n= 4.48  10–3 T A1\n\n7(b)(iii) (magnetic) forces (on balance and newton meter) are (equal and) opposite B1\nreading = 0.563 – (2.16  10–3  9.81) A1\n= 0.542 N\n© UCLES 2022 Page 13 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-42-q08",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 8,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q08-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q08-p02.png"
+      ],
+      "source_pages": [
+        18,
+        19
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_42-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_42.pdf?download=true",
+        "mark_scheme_text": "8(a) direction of induced e.m.f. M1\nsuch as to (produce effects that) oppose the change that caused it A1\n\n8(b)(i) X = 0.85 A A1\nY = 2 / 0.040 C1\n= 160 rad s–1 A1\n\n8(b)(ii) two cycles of a sinusoidal curve with a period of 0.040 s B1\ncorrect phase (i.e. V max / min at t = 0, 0.02, 0.04, 0.06 and 0.08 s, and V zero at t = 0.01, 0.03, 0.05, 0.07 s) B1\n2 2\nmaximum / minimum V shown (consistently) at ± 6.5 V B1\n2\n\n8(b)(iii) (magnitude of) V is proportional to rate of change of (magnetic) flux B1\n2\n• V is proportional to gradient of I –t curve B2\n2 1\n• V has maximum magnitude when I –t curve is steepest\n2 1\n• V is zero when I –t curve is horizontal / a maximum or minimum\n2 1\n• V changes sign when sign of gradient of I –t curve changes\n2 1\nAny two points, 1 mark each\n© UCLES 2022 Page 14 of 16"
+      }
+    },
+    {
+      "id": "9702-2022-on-43-q06",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 6,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-43-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-43-q06-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w22_ms_43-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2022-Oct-Nov/9702_w22_ms_43.pdf?download=true",
+        "mark_scheme_text": "6(a)(i) PQRS and WXYZ B1\n\n6(a)(ii) force on charge carriers is perpendicular to both (magnetic) field and current B1\nas charge carriers are deflected to one side, an electric field is set up B1\n(steady V when) electric and magnetic forces on charge carriers are equal (and opposite) B1\nH\n\n6(b)(i) n: number density of charge carriers B1\nt: distance PW (or SZ or QX or RY) B1\nq: charge on each charge carrier B1\n\n6(b)(ii) V inversely proportional to t B1\nH\n(so t needs to be small for) V to be large enough to measure B1\nH\n© UCLES 2022 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-m-42-q06",
+      "year": 2023,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 8,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-m-42-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-m-42-q06-p02.png"
+      ],
+      "source_pages": [
+        20,
+        21
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m23_ms_42-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-March/9702_m23_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) it is zero when (plane of) probe is parallel to the (magnetic) field (lines) B1\nit is maximum when (plane of) probe is perpendicular to (magnetic) field (lines) B1\n\n6(b)(i) number density of charge carriers B1\n\n6(b)(ii) smaller value of n so greater Hall voltage / V B1\nH\n\n6(c) (36mV corresponds to) 48 mT C1\nuse of 1.4 s or (8.6 – 7.2) s C1\nE = BAN / t C1\n4810−30.0182780 A1\n=\n1.4\n= 0.027V\n© UCLES 2023 Page 14 of 18"
+      }
+    },
+    {
+      "id": "9702-2023-mj-41-q06",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-41-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-41-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_41-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_41.pdf?download=true",
+        "mark_scheme_text": "6(a) a region where a force acts on M1\na current-carrying conductor A1\nor\na moving charge\nor\na magnetic material / magnetic pole\n\n6(b) concentric circles around the wire B1\nspacing between circles increases with distance from wire B1\narrows showing direction of field is clockwise B1\n\n6(c)(i) F = BIL C1\nforce per unit length = BI A1\n= 2.6  10–3  5.0\n= 0.013 N m–1\n\n6(c)(ii) to the right B1\n\n6(c)(iii) force (per unit length) has the same magnitude due to Newton’s 3rd law B1\n0.013 = 1.5  10–3  I A1\ncurrent = 8.7 A\n© UCLES 2023 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-mj-42-q06",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-42-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-42-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_42-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a)(i) product of (magnetic) flux density and area M1\narea perpendicular to the (magnetic) field A1\n\n6(a)(ii) flux = B  r2 C1\n= 0.17    0.362\n= 6.9  10–2 Wb A1\n\n6(b) time for one revolution = 1 / 25 s C1\ne.m.f. = rate of cutting flux or  / t C1\n= 0.069  25 A1\n= 1.7 V\n\n6(c) current (in disc) is perpendicular to magnetic field B1\nor\ncurrent causes force to act on disc\nforce opposes rotation of disc B1\nleft-hand rule indicates current is from rim to axle B1\n© UCLES 2023 Page 11 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-mj-43-q06",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 6,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-43-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-43-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s23_ms_43-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-May-June/9702_s23_ms_43.pdf?download=true",
+        "mark_scheme_text": "6(a) a region where a force acts on M1\na current-carrying conductor A1\nor\na moving charge\nor\na magnetic material / magnetic pole\n\n6(b) concentric circles around the wire B1\nspacing between circles increases with distance from wire B1\narrows showing direction of field is clockwise B1\n\n6(c)(i) F = BIL C1\nforce per unit length = BI A1\n= 2.6  10–3  5.0\n= 0.013 N m–1\n\n6(c)(ii) to the right B1\n\n6(c)(iii) force (per unit length) has the same magnitude due to Newton’s 3rd law B1\n0.013 = 1.5  10–3  I A1\ncurrent = 8.7 A\n© UCLES 2023 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-41-q06",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 6,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-41-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-41-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_41-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_41.pdf?download=true",
+        "mark_scheme_text": "6(a) • force per unit length B2\n• force per unit current\n• length / current perpendicular to field\n1 mark for any two points, 2 marks for all three points\n\n6(b)(i) into the page B1\n\n6(b)(ii) F = Bqv C1\n= 4.8  10–3  1.6  10–19  1.7  107 = 1.3  10–14 N A1\n\n6(b)(iii) arrow at point X pointing down the page B1\n\n6(b)(iv) F = mv2 / r C1\n1.3  10–14 = (9.11  10–31)  (1.7  107)2 / r C1\n(r = 0.020 m) A1\nd = 2r\nd = 0.040 m\n\n6(c) path shows upwards deflection such that the curvature is always anticlockwise within the field B1\ncircular path with larger radius B1\nline enters field at X and leaves field at distance 2d vertically from X B1\n© UCLES 2023 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2023-on-42-q07",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_42-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a)(i) V = BI / ntq A1\nH\n= (4.0  10–6  5.4) / (1.5  1016  1.8  10–3  1.60  10–19) = 5.0 V\n\n7(a)(ii) sketch: straight diagonal line from (0, 0) to t = 0.020 s B1\nand\nstraight diagonal line between two non-zero V values of same sign from t = 0.040 to 0.050 s\nH\nhorizontal straight line at V = 5.0 V from t = 0.020 to 0.040 s B1\nH\nhorizontal straight line at V = 2.5 V from t = 0.050 to 0.080 s B1\nH\n\n7(b)(i) e.m.f. = rate of change of (magnetic) flux (linkage) C1\nE = NA ΔB / Δt or E = NA  gradient (at t = 0.010 s) C1\nE = 3000  3.4  10–4  (4.0  10–6) / (0.020) = 2.0  10–4 V A1\n\n7(b)(ii) sketch: line showing non-zero E from t = 0 to t = 0.020 s and from t = 0.040 s to t = 0.050 s, and E = 0 at all other times B1\n‘top hats’ showing constant non-zero E from t = 0 to t = 0.020 s and from t = 0.040 s to t = 0.050 s B1\nmagnitude of E shown as 2.0  10–4 V in both non-zero sections B1\nsign of E in the t = 0 to t = 0.020 s region opposite to the sign of E in the t = 0.040 s to t = 0.050 s region B1\n© UCLES 2023 Page 12 of 15"
+      }
+    },
+    {
+      "id": "9702-2023-on-43-q06",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 6,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-43-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-43-q06-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w23_ms_43-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2023-Oct-Nov/9702_w23_ms_43.pdf?download=true",
+        "mark_scheme_text": "6(a) • force per unit length B2\n• force per unit current\n• length / current perpendicular to field\n1 mark for any two points, 2 marks for all three points\n\n6(b)(i) into the page B1\n\n6(b)(ii) F = Bqv C1\n= 4.8  10–3  1.6  10–19  1.7  107 = 1.3  10–14 N A1\n\n6(b)(iii) arrow at point X pointing down the page B1\n\n6(b)(iv) F = mv2 / r C1\n1.3  10–14 = (9.11  10–31)  (1.7  107)2 / r C1\n(r = 0.020 m) A1\nd = 2r\nd = 0.040 m\n\n6(c) path shows upwards deflection such that the curvature is always anticlockwise within the field B1\ncircular path with larger radius B1\nline enters field at X and leaves field at distance 2d vertically from X B1\n© UCLES 2023 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-m-42-q05",
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 5,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q05-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m24_ms_42-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_ms_42.pdf?download=true",
+        "mark_scheme_text": "5(a) any 2 points from: B2\n• (angular) displacement\n• velocity\n• momentum\n• (centripetal) acceleration\n• (resultant) force\n\n5(b)(i) Bqv = mv2 / r M1\nv = 2r / T M1\ncompletion of algebra leading to B = 2m / qT A1\n\n5(b)(ii) B = (2  4  1.66  10–27) / (2  1.60  10–19  2.5  10–6) C1\n= 0.052 T A1\n\n5(b)(iii) either the same because T is independent of r B1\nor the same because B, q and m are unchanged\nor the same because both radius and speed have doubled\n\n5(b)(iv) qE = Bqv C1\nE = Bv = 0.052  1.1  106 A1\n= 5.7  104 N C–1\n© Cambridge University Press & Assessment 2024 Page 9 of 14"
+      }
+    },
+    {
+      "id": "9702-2024-m-42-q06",
+      "year": 2024,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p02.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p03.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p04.png"
+      ],
+      "source_pages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m24_ms_42-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-March/9702_m24_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a)(i) non-zero horizontal straight line from X to Y B1\n\n6(a)(ii) constant flux density (inside coil) B1\neither (magnetic) flux linkage proportional to flux density B1\nor  = BAN and B, A and N are all constant\n\n6(a)(iii)  = BAN C1\n= 0.080  0.71  10–4  64 A1\n= 3.6  10–4 Wb\n\n6(a)(iv) sketch showing: B1\nE is zero from time 0 to time t and non-zero after time t\nE has constant non-zero magnitude between time t and time 4t B1\nE has non-zero value of one sign between time t and time 2t, and non-zero value of the opposite sign between time 2t and B1\ntime 4t\n\n6(b) current in spring creates a magnetic field around the spring B1\neither (magnetic) fields around adjacent turns interact to cause a force to be exerted (between the turns) B1\nor current in one turn interacts with (magnetic) field due to adjacent turns to cause force to be exerted (between the\nturns)\n(magnetic force) is attractive so distance (between turns) decreases B1\n© Cambridge University Press & Assessment 2024 Page 10 of 14"
+      }
+    },
+    {
+      "id": "9702-2024-mj-41-q05",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 5,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-41-q05-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-41-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_41-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_41.pdf?download=true",
+        "mark_scheme_text": "5(a) force per unit charge B1\nforce on positive charge B1\n\n5(b)(i) four straight vertical parallel lines, approximately evenly spaced B1\narrows downwards B1\n\n5(b)(ii) E = V / d C1\nE = 430 / 0.067 A1\n= 6.4  103 N C–1\n\n5(b)(iii) smooth curve within plates and straight lines outside plates B1\ndirection of deflection shown as upwards B1\n\n5(c)(i) into the page B1\n\n5(c)(ii) forces are in opposite directions B1\n(undeviated) when (magnitudes of) forces are equal B1\n\n5(c)(iii) Eq = Bqv C1\nB = E / v = (6.4  103) / (2.6  107) A1\n= 2.5  10–4 T\n© Cambridge University Press & Assessment 2024 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-mj-42-q07",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 14,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-42-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-42-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_42-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a) (induced) e.m.f. is (directly) proportional to rate M1\nof change of (magnetic) flux (linkage) A1\n\n7(b)(i)  = BA C1\n= 7.2  10–3  3.2  10–4 A1\n= 2.3  10–6 Wb\n\n7(b)(ii) tangent drawn at steepest point on Fig. 7.2 C1\nevidence of multiplication by 340 C1\nmaximum rate of change of flux = 0.82 Wb s–1 A1\n\n7(b)(iii) V = 0.82 V A1\n0\nor\nV given as identical numerical answer to the answer in (b)(ii)\n0\n\n7(b)(iv) sinusoidal curve of period 2.0 ms from t = 0 to t = 6.0 ms B1\nall peaks at +V and all troughs at –V B1\n0 0\nline showing V = 0 at (and only at) t = 0, 1.0, 2.0, 3.0, 4.0, 5.0 and 6.0 ms B1\n\n7(b)(v) A = 0.82 V A1\nor\nA has same numerical value as answer in (b)(iii), with unit V\nB = 2 / (2.0  10–3) C1\n= 3100 rad s–1 A1\n© Cambridge University Press & Assessment 2024 Page 12 of 16"
+      }
+    },
+    {
+      "id": "9702-2024-mj-43-q05",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 5,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-43-q05-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-43-q05-p02.png"
+      ],
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s24_ms_43-p10.png"
+        ],
+        "source_pages": [
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-May-June/9702_s24_ms_43.pdf?download=true",
+        "mark_scheme_text": "5(a) force per unit charge B1\nforce on positive charge B1\n\n5(b)(i) four straight vertical parallel lines, approximately evenly spaced B1\narrows downwards B1\n\n5(b)(ii) E = V / d C1\nE = 430 / 0.067 A1\n= 6.4  103 N C–1\n\n5(b)(iii) smooth curve within plates and straight lines outside plates B1\ndirection of deflection shown as upwards B1\n\n5(c)(i) into the page B1\n\n5(c)(ii) forces are in opposite directions B1\n(undeviated) when (magnitudes of) forces are equal B1\n\n5(c)(iii) Eq = Bqv C1\nB = E / v = (6.4  103) / (2.6  107) A1\n= 2.5  10–4 T\n© Cambridge University Press & Assessment 2024 Page 10 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-41-q07",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 7,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-41-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-41-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_41-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_41.pdf?download=true",
+        "mark_scheme_text": "7(a) • force per unit length B2\n• force per unit current\n• length / current perpendicular to field\n1 mark for any two points, 2 marks for all three points\n\n7(b) concentric circles around the wire (at least two circles needed) B1\nspacing between circles increases with distance from wire (at least four circles needed) B1\narrows showing direction of field is clockwise B1\n\n7(c)(i) (each) wire sits in the (magnetic) field created by the other B1\ncurrent (in one wire) is perpendicular to (magnetic) field (due to other wire) so (magnetic) force acts (on wire) B1\n\n7(c)(ii) arrow drawn, starting from X and pointing towards Y, labelled F B1\n\n7(c)(iii) (forces have) equal magnitudes B1\n(forces are in) opposite directions B1\n\n7(c)(iv) no change (in the direction of the force) since both the current in X and the field due to Y have reversed B1\n© Cambridge University Press & Assessment 2024 Page 12 of 15"
+      }
+    },
+    {
+      "id": "9702-2024-on-42-q01",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 1,
+      "marks": 13,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-42-q01-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-42-q01-p02.png"
+      ],
+      "source_pages": [
+        4,
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_42-p05.png"
+        ],
+        "source_pages": [
+          5
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_42.pdf?download=true",
+        "mark_scheme_text": "1(a)(i) v = r C1\n= 0.85  140 A1\n= 120 m s–1\n\n1(a)(ii) a = r2 or a = v2 / r C1\na = 0.85  1402 or 1202 / 0.85 A1\n= 1.7  104 m s–2\n\n1(b)(i) direction of (induced) e.m.f. M1\nis such as to (produce effects that) oppose the change that caused it A1\n\n1(b)(ii) T = 2 /  A1\n= 2 / 140 = 0.045 s = 45 ms\n\n1(b)(iii)  = BA C1\n= 0.18    0.852 C1\n= 0.41 Wb A1\n\n1(b)(iv) E =  / t C1\n= 0.41 / 0.045 A1\n= 9.1 V\n\n1(b)(v) force (on spoke) must be anticlockwise, so current is from A to X (by Fleming’s left hand rule), so X is at the higher potential B1\n© Cambridge University Press & Assessment 2024 Page 5 of 14"
+      }
+    },
+    {
+      "id": "9702-2024-on-43-q07",
+      "year": 2024,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 7,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-43-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-43-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w24_ms_43-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2024-Oct-Nov/9702_w24_ms_43.pdf?download=true",
+        "mark_scheme_text": "7(a) • force per unit length B2\n• force per unit current\n• length / current perpendicular to field\n1 mark for any two points, 2 marks for all three points\n\n7(b) concentric circles around the wire (at least two circles needed) B1\nspacing between circles increases with distance from wire (at least four circles needed) B1\narrows showing direction of field is clockwise B1\n\n7(c)(i) (each) wire sits in the (magnetic) field created by the other B1\ncurrent (in one wire) is perpendicular to (magnetic) field (due to other wire) so (magnetic) force acts (on wire) B1\n\n7(c)(ii) arrow drawn, starting from X and pointing towards Y, labelled F B1\n\n7(c)(iii) (forces have) equal magnitudes B1\n(forces are in) opposite directions B1\n\n7(c)(iv) no change (in the direction of the force) since both the current in X and the field due to Y have reversed B1\n© Cambridge University Press & Assessment 2024 Page 12 of 15"
+      }
+    },
+    {
+      "id": "9702-2025-m-42-q06",
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 6,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q06-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q06-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m25_ms_42-p10.png",
+          "/9702/answer-assets/9702_m25_ms_42-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_ms_42.pdf?download=true",
+        "mark_scheme_text": "6(a) F = F B1\nB E\neither: Bqu = qE and E = V / d leading to u = V / Bd B1\nor: Bqu = qV / d leading to u = V / Bd\n© Cambridge University Press & Assessment 2025 Page 10 of 14\n\n6(b) E = ½mu2 C1\nK\nu = √[(2  4.1  10–17) / (3.2  10–27)] C1\n= 1.6  105ms–1\nB = 980 / (3.6  10–2  1.6  105) A1\n= 0.17T\n\n6(c) expression is independent of mass and charge A1\n\n6(d) either: electric force is downwards so magnetic force is upwards B1\nor: no resultant force so magnetic force is upwards\n(positive ions so) current is from left to right B1\nfrom (Fleming’s) left-hand rule, magnetic field is into the page B1\n\n6(e) curved path inside plates with consistent direction of curvature and with no discontinuity at entry or in curvature B1\ndirection of deflection is upwards B1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2025-m-42-q07",
+      "year": 2025,
+      "session": "March",
+      "session_code": "m",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 7,
+      "marks": 9,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p02.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p03.png"
+      ],
+      "source_pages": [
+        18,
+        19,
+        20
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_m25_ms_42-p11.png",
+          "/9702/answer-assets/9702_m25_ms_42-p12.png"
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-March/9702_m25_ms_42.pdf?download=true",
+        "mark_scheme_text": "7(a) (induced) e.m.f. is (directly) proportional to rate M1\nof change of (magnetic) flux (linkage) A1\n\n7(b)(i) (uniform acceleration so) velocity is (directly) proportional to time M1\n(Fig. 7.2 shows) e.m.f. is (directly) proportional to time so E is proportional to v. A1\n© Cambridge University Press & Assessment 2025 Page 11 of 14\n\n7(b)(ii) (v = at so) distance moved in time t = att C1\n = BA C1\nE = ( / t) = B  L  (att) / t = BLat A1\n\n7(b)(iii) B = (0.30  10–3) / (0.45  7.8  2.0) C1\n= 4.3  10–5T A1\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2025-mj-41-q07",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-41-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-41-q07-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_41-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_41.pdf?download=true",
+        "mark_scheme_text": "7(a) • force per unit length B2\n• force per unit current\n• length / current perpendicular to field\n1 mark for any two points, 2 marks for all three points.\n\n7(b)(i) F = BQv B1\n\n7(b)(ii) arrow at Y pointing vertically upwards B1\n\n7(b)(iii) upwards deflection showing circular path B1\n\n7(c)(i) electric field applied vertically downwards (may be shown on a labelled diagram) B1\nelectric force on particle in opposite direction to magnetic force (may be shown on a labelled diagram) B1\nparticle undeflected when magnitudes of electric and magnetic forces are equal B1\n\n7(c)(ii) EQ = BQv B1\nv = E / B A1\n© Cambridge University Press & Assessment 2025 Page 15 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-mj-42-q02",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "42",
+      "question_number": 2,
+      "marks": 12,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-42-q02-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-42-q02-p02.png"
+      ],
+      "source_pages": [
+        6,
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_42.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_42-p09.png",
+          "/9702/answer-assets/9702_s25_ms_42-p10.png"
+        ],
+        "source_pages": [
+          9,
+          10
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_42.pdf?download=true",
+        "mark_scheme_text": "2(a)(i) direction of force B1\nforce acting on a (test) mass B1\n\n2(a)(ii) at least four radial lines from the Earth’s surface, equally spaced around the surface B1\narrows indicating direction towards Earth B1\n\n2(b)(i) top pole labelled S and bottom pole labelled N B1\n\n2(b)(ii) solenoid field pattern at the poles: B1\nat least two field lines either side of both poles, close to the poles, clustered closely together, leaving the surface\napproximately perpendicularly to the surface and curving away from the axis of the poles as their distance from the surface\nincreases\nsolenoid field pattern above the equator: B1\nat least one field line either side of the Earth connecting two points on the surface that are on the same side of the poles,\none north of the equator and one south of it, passing above the surface near the magnetic equator approximately parallel to\nthe surface\n\n2(c)(i) (around the surface) lines are evenly spaced B1\nall lines perpendicular to surface B1\nor\npointing down towards surface (at all points around the surface)\n© Cambridge University Press & Assessment 2025 Page 9 of 18\n\n2(c)(ii) Any three bulleted points from: B3\n• strongest at the poles\n• weakest near the Equator\nUp to two points from:\n• perpendicular to surface at the poles\n• parallel to the surface near the Equator\n• angle to surface increases from Equator to poles\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9702-2025-mj-43-q07",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 7,
+      "marks": 10,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-43-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-43-q07-p02.png"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_s25_ms_43-p15.png"
+        ],
+        "source_pages": [
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-May-June/9702_s25_ms_43.pdf?download=true",
+        "mark_scheme_text": "7(a) • force per unit length B2\n• force per unit current\n• length / current perpendicular to field\n1 mark for any two points, 2 marks for all three points.\n\n7(b)(i) F = BQv B1\n\n7(b)(ii) arrow at Y pointing vertically upwards B1\n\n7(b)(iii) upwards deflection showing circular path B1\n\n7(c)(i) electric field applied vertically downwards (may be shown on a labelled diagram) B1\nelectric force on particle in opposite direction to magnetic force (may be shown on a labelled diagram) B1\nparticle undeflected when magnitudes of electric and magnetic forces are equal B1\n\n7(c)(ii) EQ = BQv B1\nv = E / B A1\n© Cambridge University Press & Assessment 2025 Page 15 of 19"
+      }
+    },
+    {
+      "id": "9702-2025-on-41-q07",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "41",
+      "question_number": 7,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-on-41-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-on-41-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_41.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_41-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_41.pdf?download=true",
+        "mark_scheme_text": "7(a) (induced) e.m.f. is (directly) proportional to rate M1\nof change of (magnetic) flux (linkage) A1\n\n7(b)(i) flux = e.m.f.  time C1\nflux = 0.54  15 A1\n= 8.1 Wb\n\n7(b)(ii)  = BA C1\narea = 8.1 / (38  10–6) A1\n= 2.1  105 m2\n\n7(b)(iii) area = speed  time  width C1\nv = (2.1  105) / (15  68) A1\n= 210 m s–1\n\n7(b)(iv) opposing force (due to current in wings) must be backwards B1\nfrom Fleming’s left-hand rule, current (in wings) must be from Q to P B1\ncurrent is from – to + inside an e.m.f. source so P is at higher potential B1\n© Cambridge University Press & Assessment 2025 Page 14 of 17"
+      }
+    },
+    {
+      "id": "9702-2025-on-43-q07",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 4,
+      "variant": "43",
+      "question_number": 7,
+      "marks": 11,
+      "image_paths": [
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-on-43-q07-p01.png",
+        "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-on-43-q07-p02.png"
+      ],
+      "source_pages": [
+        16,
+        17
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_qp_43.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9702/answer-assets/9702_w25_ms_43-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2025-Oct-Nov/9702_w25_ms_43.pdf?download=true",
+        "mark_scheme_text": "7(a) (induced) e.m.f. is (directly) proportional to rate M1\nof change of (magnetic) flux (linkage) A1\n\n7(b)(i) flux = e.m.f.  time C1\nflux = 0.54  15 A1\n= 8.1 Wb\n\n7(b)(ii)  = BA C1\narea = 8.1 / (38  10–6) A1\n= 2.1  105 m2\n\n7(b)(iii) area = speed  time  width C1\nv = (2.1  105) / (15  68) A1\n= 210 m s–1\n\n7(b)(iv) opposing force (due to current in wings) must be backwards B1\nfrom Fleming’s left-hand rule, current (in wings) must be from Q to P B1\ncurrent is from – to + inside an e.m.f. source so P is at higher potential B1\n© Cambridge University Press & Assessment 2025 Page 14 of 17"
+      }
+    }
+  ]
+}

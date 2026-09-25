@@ -1,0 +1,718 @@
+{
+  "schema": "topicalpaper-content/v2",
+  "subject": "9618",
+  "topic": {
+    "number": 18,
+    "label": "Artificial intelligence (AI)",
+    "slug": "9618-topic-18-artificial-intelligence"
+  },
+  "questions": [
+    {
+      "id": "9618-2021-mj-31-q05",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-mj-31-q05-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-mj-31-q05-p02.png"
+      ],
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_31-p06.png",
+          "/9618/answer-assets/9618_s21_ms_31-p07.png"
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_31.pdf?download=true",
+        "mark_scheme_text": "5(a) Working (Max 3) 5\nMay be seen on diagram\n• Initialisation: setting Base to 0\n• … and the rest of the towns to ∞\n• Evidence to show values at nodes being updated\n• Evidence to show ‘visited node(s)’\nMay be seen in working section of paper\n• Evidence to show calculation of at least one route\n• Evidence to show more than one route has been calculated for at least\none town\nCorrect Answer (Max 2)\nOne mark for four correct values…\n… One mark for all values correct\nTown 1 Town 2 Town 3 Town 4 Town 5 Town 6\n3 5 2 9 3 8\n© UCLES 2021 Page 6 of 10\n\n5(b) One mark for each correct marking point (Max 3) 3\n• Artificial Neural Networks can be represented using graphs\n• Graphs provide structures for relationships // graphs provide\nrelationships between nodes\n• AI problems can be defined/solved as finding a path in a graph\n• Graphs may be analysed/ingested by a range of algorithms\n• …e.g. A* / Dijksta’s algorithm\n• …used in machine learning.\n• Example of method e.g. Back propagation of errors / regression\nmethods\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-32-q05",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-mj-32-q05-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-mj-32-q05-p02.png"
+      ],
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_32-p06.png",
+          "/9618/answer-assets/9618_s21_ms_32-p07.png"
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_32.pdf?download=true",
+        "mark_scheme_text": "5(a) Working (Max 3) 5\nMay be seen on diagram\n• Initialisation: setting Base to 0\n• … and the rest of the towns to ∞\n• Evidence to show values at nodes being updated\n• Evidence to show ‘visited node(s)’\nMay be seen in working section of paper\n• Evidence to show calculation of at least one route\n• Evidence to show more than one route has been calculated for at least\none town\nCorrect Answer (Max 2)\nOne mark for four correct values…\n… One mark for all values correct\nTown 1 Town 2 Town 3 Town 4 Town 5 Town 6\n3 5 2 9 3 8\n© UCLES 2021 Page 6 of 10\n\n5(b) One mark for each correct marking point (Max 3) 3\n• Artificial Neural Networks can be represented using graphs\n• Graphs provide structures for relationships // graphs provide\nrelationships between nodes\n• AI problems can be defined/solved as finding a path in a graph\n• Graphs may be analysed/ingested by a range of algorithms\n• …e.g. A* / Dijksta’s algorithm\n• …used in machine learning.\n• Example of method e.g. Back propagation of errors / regression\nmethods\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-mj-33-q05",
+      "year": 2021,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 5,
+      "marks": 8,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-mj-33-q05-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-mj-33-q05-p02.png"
+      ],
+      "source_pages": [
+        7,
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s21_ms_33-p06.png",
+          "/9618/answer-assets/9618_s21_ms_33-p07.png"
+        ],
+        "source_pages": [
+          6,
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-May-June/9618_s21_ms_33.pdf?download=true",
+        "mark_scheme_text": "5(a) Working (Max 3) 5\nMay be seen on diagram\n• Initialisation: setting Base to 0\n• … and the rest of the towns to ∞\n• Evidence to show values at nodes being updated\n• Evidence to show ‘visited node(s)’\nMay be seen in working section of paper\n• Evidence to show calculation of at least one route\n• Evidence to show more than one route has been calculated for at least\none town\nCorrect Answer (Max 2)\nOne mark for four correct values…\n… One mark for all values correct\nTown 1 Town 2 Town 3 Town 4 Town 5 Town 6\n3 5 2 9 3 8\n© UCLES 2021 Page 6 of 10\n\n5(b) One mark for each correct marking point (Max 3) 3\n• Artificial Neural Networks can be represented using graphs\n• Graphs provide structures for relationships // graphs provide\nrelationships between nodes\n• AI problems can be defined/solved as finding a path in a graph\n• Graphs may be analysed/ingested by a range of algorithms\n• …e.g. A* / Dijksta’s algorithm\n• …used in machine learning.\n• Example of method e.g. Back propagation of errors / regression\nmethods\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2021-on-31-q09",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-on-31-q09-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-on-31-q09-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_31-p08.png",
+          "/9618/answer-assets/9618_w21_ms_31-p09.png"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) One mark for correct statement (Max 1) 1\n• Enables deep learning to take place\n• Where the problem you are trying to solve has a higher level of\ncomplexity it requires more layers to solve\n• To enable the neural network to learn and make decisions on its own\n• To improve the accuracy of the result.\n\n9(a)(ii) One mark for each correct marking point (Max 4) 4\n• Artificial neural networks are intended to replicate the way human brains\nwork\n• Weights / values are assigned for each connection between nodes\n• The data are input at the input layer and are passed into the system\n• They are analysed at each subsequent (hidden) layer where\ncharacteristics are extracted / outputs are calculated\n• … this process of training / learning is repeated many times to achieve\noptimum outputs // reinforcement learning takes place\n• Decisions can be made without being specifically programmed\n• The deep learning net will have created complex feature detectors\n• The output layer provides the results\n• Back propagation (of errors) will be used to correct any errors that have\nbeen made.\n© UCLES 2021 Page 8 of 10\n\n9(b) One mark for each correct calculation as follows (Max 4) 5\n• Node B (from Home) (Line 3 in table)\n• Node C (from Home) (Line 4 in table)\n• Node B and Node E (from A) (Lines 5 and 6 in table)\n• Node F and Node School (from E) (Lines 7 and 8 in table)\n• Node School (from F) (Line 9 in table)\nOne mark for correct path (Max 1):\n• Home  A  E  F  School\nNode Cost from Home Heuristic Total\nNode (g) (h) (f = g + h)\n1 Home 0 14 14\n2 A 1 10 11\n3 B 5 7 12\n4 C 4 9 13\n5 B 1 + 3 = 4 7 11\n6 E 1 + 6 = 7 3 10\n7 F 7 + 1 = 8 3 11\n8 School 7 + 5 = 12 0 12\n\n9 School 8 + 3 = 11 0 11\nFinal Path Home  A  E  F  School\n© UCLES 2021 Page 9 of 10"
+      }
+    },
+    {
+      "id": "9618-2021-on-32-q09",
+      "year": 2021,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 10,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-on-32-q09-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2021-on-32-q09-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w21_ms_32-p08.png",
+          "/9618/answer-assets/9618_w21_ms_32-p09.png"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2021-Oct-Nov/9618_w21_ms_32.pdf?download=true",
+        "mark_scheme_text": "9(a)(i) One mark for correct statement (Max 1) 1\n• Enables deep learning to take place\n• Where the problem you are trying to solve has a higher level of\ncomplexity it requires more layers to solve\n• To enable the neural network to learn and make decisions on its own\n• To improve the accuracy of the result.\n\n9(a)(ii) One mark for each correct marking point (Max 4) 4\n• Artificial neural networks are intended to replicate the way human brains\nwork\n• Weights / values are assigned for each connection between nodes\n• The data are input at the input layer and are passed into the system\n• They are analysed at each subsequent (hidden) layer where\ncharacteristics are extracted / outputs are calculated\n• … this process of training / learning is repeated many times to achieve\noptimum outputs // reinforcement learning takes place\n• Decisions can be made without being specifically programmed\n• The deep learning net will have created complex feature detectors\n• The output layer provides the results\n• Back propagation (of errors) will be used to correct any errors that have\nbeen made.\n© UCLES 2021 Page 8 of 10\n\n9(b) One mark for each correct calculation as follows (Max 4) 5\n• Node B (from Home) (Line 3 in table)\n• Node C (from Home) (Line 4 in table)\n• Node B and Node E (from A) (Lines 5 and 6 in table)\n• Node F and Node School (from E) (Lines 7 and 8 in table)\n• Node School (from F) (Line 9 in table)\nOne mark for correct path (Max 1):\n• Home  A  E  F  School\nNode Cost from Home Heuristic Total\nNode (g) (h) (f = g + h)\n1 Home 0 14 14\n2 A 1 10 11\n3 B 5 7 12\n4 C 4 9 13\n5 B 1 + 3 = 4 7 11\n6 E 1 + 6 = 7 3 10\n7 F 7 + 1 = 8 3 11\n8 School 7 + 5 = 12 0 12\n\n9 School 8 + 3 = 11 0 11\nFinal Path Home  A  E  F  School\n© UCLES 2021 Page 9 of 10"
+      }
+    },
+    {
+      "id": "9618-2022-on-31-q09",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2022-on-31-q09-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_31-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_31.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for each correct point (Max 2) 2\n• Uses artificial neural network(s)\n• … that contain(s) a high number of hidden layers\n• … modelled on the human brain.\n• Deep learning uses many layers to progressively extract higher level features from the (raw) input.\n• Deep learning is a specialised form of machine learning.\n\n9(b) One mark for each correct point (Max 2) 2\n• Deep learning makes good use of unstructured data.\n• Deep learning outperforms other methods if the data size is large.\n• Deep learning systems enable machines to process data with a nonlinear approach.\n• Deep learning is effective at identifying (hidden) patterns / patterns that humans might not be able to see / patterns that\nare too complex / time consuming for humans to carry out.\n• It can provide a more accurate outcome with higher numbers of hidden layers.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2022-on-32-q07",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 7,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2022-on-32-q07-p01.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_32-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_32.pdf?download=true",
+        "mark_scheme_text": "7 One mark for each point 4\nSupervised learning (Max 3 of 4)\n• Supervised learning allows data to be collected, or a data output produced, from the previous experience.\n• In supervised learning, known input and associated outputs are given // uses sample data with known outputs (in\ntraining) // uses labelled input data.\n• Able to predict future outcomes based on past data.\nUnsupervised learning (Max 3 of 4)\n• Unsupervised machine learning helps all kinds of unknown patterns in data to be found.\n• Unsupervised learning only requires input data to be given.\n• Uses any data // not trained on the right output // uses unlabelled input data.\n© UCLES 2022 Page 9 of 16"
+      }
+    },
+    {
+      "id": "9618-2022-on-33-q09",
+      "year": 2022,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2022-on-33-q09-p01.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w22_ms_33-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2022-Oct-Nov/9618_w22_ms_33.pdf?download=true",
+        "mark_scheme_text": "9(a) One mark for each correct point (Max 2) 2\n• Uses artificial neural network(s)\n• … that contain(s) a high number of hidden layers\n• … modelled on the human brain.\n• Deep learning uses many layers to progressively extract higher level features from the (raw) input.\n• Deep learning is a specialised form of machine learning.\n\n9(b) One mark for each correct point (Max 2) 2\n• Deep learning makes good use of unstructured data.\n• Deep learning outperforms other methods if the data size is large.\n• Deep learning systems enable machines to process data with a nonlinear approach.\n• Deep learning is effective at identifying (hidden) patterns / patterns that humans might not be able to see / patterns that\nare too complex / time consuming for humans to carry out.\n• It can provide a more accurate outcome with higher numbers of hidden layers.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-31-q02",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-mj-31-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_31-p03.png",
+          "/9618/answer-assets/9618_s23_ms_31-p04.png"
+        ],
+        "source_pages": [
+          3,
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_31.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for each correct line connecting a machine learning technique to its 4\nmost appropriate description (Max 4).\nMachine learning category Description\nsimulates the data processing\ncapabilities of the human brain to\nmake decisions\nSupervised\nlearning\nenables learning by mapping an input\nto an output based on example input-\nReinforcement output pairs\nlearning\nenables information related to errors\nproduced by the neural network to be\ntransmitted\nDeep learning\nenables learning in an interactive\nenvironment by trial and error using\nits own experiences\nUnsupervised\nlearning\nenables learning by allowing the\nprocess to discover patterns on its\nown that were previously undetected\n© UCLES 2023 Page 3 of 10\n\n2(b) One mark per mark point (Max 2) 2\n to find the optimal / shortest / most cost-effective route\n … between two nodes in a\n … based on distance / cost / time.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-mj-32-q10",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-mj-32-q10-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-mj-32-q10-p02.png"
+      ],
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_32-p10.png",
+          "/9618/answer-assets/9618_s23_ms_32-p11.png"
+        ],
+        "source_pages": [
+          10,
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_32.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark from: 1\nSupervised (learning)\nUnsupervised (learning)\nReinforcement (learning)\nDeep (learning)\n© UCLES 2023 Page 10 of 12\n\n10(b) One mark for each correct calculation as follows (Max 2): 5\n Node B (from Begin) (Line 3 in table)\n Node C (from Begin) (Line 4 in table)\n Node D (from Begin) (Line 5 in table)\nOne mark for each correct calculation as follows (Max 2):\n Node G (from C) (Line 6 in table)\n Node F and Node End (from G) (Lines 7 and 8 in table)\n Node End (from F) (Line 9 in table)\nOne mark for correct path (Max 1):\n Begin  C  G  F  End\nCost from\nStart Destination Heuristic Total\nstart node\nnode node (h) (f = g + h)\n(g)\nBegin Begin 0 12 12\nBegin A 5 8 13\nBegin B 6 7 13\nBegin C 5 7 12\nBegin D 4 11 15\nC G 5 + 2 = 7 5 12\nG F 5 + 2 + 4 = 11 1 12\nG End 5 + 2 + 7 = 14 0 14\n5 + 2 + 4 + 1 =\nF End 0 12\n12\nFinal Path Begin  C  G  F  End\n© UCLES 2023 Page 11 of 12"
+      }
+    },
+    {
+      "id": "9618-2023-mj-33-q02",
+      "year": 2023,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 2,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-mj-33-q02-p01.png"
+      ],
+      "source_pages": [
+        3
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s23_ms_33-p03.png",
+          "/9618/answer-assets/9618_s23_ms_33-p04.png"
+        ],
+        "source_pages": [
+          3,
+          4
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-May-June/9618_s23_ms_33.pdf?download=true",
+        "mark_scheme_text": "2(a) One mark for each correct line connecting a machine learning technique to its 4\nmost appropriate description (Max 4).\nMachine learning category Description\nsimulates the data processing\ncapabilities of the human brain to\nmake decisions\nSupervised\nlearning\nenables learning by mapping an input\nto an output based on example input-\nReinforcement output pairs\nlearning\nenables information related to errors\nproduced by the neural network to be\ntransmitted\nDeep learning\nenables learning in an interactive\nenvironment by trial and error using\nits own experiences\nUnsupervised\nlearning\nenables learning by allowing the\nprocess to discover patterns on its\nown that were previously undetected\n© UCLES 2023 Page 3 of 10\n\n2(b) One mark per mark point (Max 2) 2\n to find the optimal / shortest / most cost-effective route\n … between two nodes in a\n … based on distance / cost / time.\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-31-q12",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 12,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-on-31-q12-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-on-31-q12-p02.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-on-31-q12-p03.png"
+      ],
+      "source_pages": [
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_31-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_31.pdf?download=true",
+        "mark_scheme_text": "12 One mark per mark point (Max 4) 4\nMP1 An artificial neural network is the component of artificial intelligence\nthat is meant to simulate the functioning of a biological brain.\nMP2 Artificial neural networks are a key component of machine learning.\nMP3 They can solve problems that would prove impossible or difficult for\nhumans // Artificial neural networks have self-learning capabilities\nthat enable them to produce better results as more data becomes\navailable\nMP4 Artificial neural networks can be layered (input, hidden and output\nlayers) // Artificial neural networks have many interconnected layers,\nsome / many of which are hidden\nMP5 Weights are assigned between nodes\nMP6 Weights are adjusted through training to give a more accurate result\nMP7 More complex learning capabilities / more accurate results are\navailable with larger numbers of hidden layers\n© UCLES 2023 Page 9 of 9"
+      }
+    },
+    {
+      "id": "9618-2023-on-32-q08",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 8,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-on-32-q08-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_32-p06.png"
+        ],
+        "source_pages": [
+          6
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_32.pdf?download=true",
+        "mark_scheme_text": "8 One mark per mark point - working (Max 3) 5\nMay be seen on diagram or in working section\nMP1 Initialisation – setting Start to 0\nMP2 …and the rest of the towns to\nMP3 Evidence to show values at nodes being updated\nMP4 Evidence to show ‘visited node(s)’\nMP5 Evidence to show a correct calculation of at least one route\nMP6 Evidence to show more than one route has been calculated for at\nleast one town\nCorrect Answers (Max 2)\nTwo marks for all six correct values\nOne mark for four or five correct values.\nA B C D E F\n\n8 12 19 14 16 10\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2023-on-33-q12",
+      "year": 2023,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 12,
+      "marks": 4,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-on-33-q12-p01.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-on-33-q12-p02.png",
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2023-on-33-q12-p03.png"
+      ],
+      "source_pages": [
+        14,
+        15,
+        16
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w23_ms_33-p09.png"
+        ],
+        "source_pages": [
+          9
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2023-Oct-Nov/9618_w23_ms_33.pdf?download=true",
+        "mark_scheme_text": "12 One mark per mark point (Max 4) 4\nMP1 An artificial neural network is the component of artificial intelligence\nthat is meant to simulate the functioning of a biological brain.\nMP2 Artificial neural networks are a key component of machine learning.\nMP3 They can solve problems that would prove impossible or difficult for\nhumans // Artificial neural networks have self-learning capabilities\nthat enable them to produce better results as more data becomes\navailable\nMP4 Artificial neural networks can be layered (input, hidden and output\nlayers) // Artificial neural networks have many interconnected layers,\nsome / many of which are hidden\nMP5 Weights are assigned between nodes\nMP6 Weights are adjusted through training to give a more accurate result\nMP7 More complex learning capabilities / more accurate results are\navailable with larger numbers of hidden layers\n© UCLES 2023 Page 9 of 9"
+      }
+    },
+    {
+      "id": "9618-2024-mj-31-q09",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 9,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2024-mj-31-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_31-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_31.pdf?download=true",
+        "mark_scheme_text": "9 One mark per mark point (Max 3) 3\nMP1 Deep learning learns by finding hidden patterns that are undetectable to humans.\nMP2 It structures algorithms in layers: input layer, hidden layers and output layer.\nMP3 … to create an artificial neural network to learn and make intelligent decisions on its own.\nMP4 It is trained using large quantities of unlabelled data.\nMP5 Deep learning requires/uses a large number of hidden layers.\nMP6 … the larger the number of layers, the higher the level of success.\n© Cambridge University Press & Assessment 2024 Page 11 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-32-q11",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 11,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2024-mj-32-q11-p01.png"
+      ],
+      "source_pages": [
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_32-p14.png"
+        ],
+        "source_pages": [
+          14
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_32.pdf?download=true",
+        "mark_scheme_text": "11 One mark per mark point (Max 3) 3\nMP1 Reinforcement learning is a machine learning technique based on feedback / rewards / punishment.\nMP2 … in which an agent learns to behave in an environment by performing the actions and seeing the results of the\nactions.\nMP3 … for each good action, the agent gets positive feedback / reward and each bad action receives negative feedback\n/ punishment.\nMP4 The agent learns automatically using feedback without any labelled data / specific instructions.\nMP5 Adjust node weightings to achieve the correct outcome. // Using feedback to improve its performance at\naccomplishing similar tasks.\n© Cambridge University Press & Assessment 2024 Page 14 of 14"
+      }
+    },
+    {
+      "id": "9618-2024-mj-33-q09",
+      "year": 2024,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 9,
+      "marks": 3,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2024-mj-33-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s24_ms_33-p11.png"
+        ],
+        "source_pages": [
+          11
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2024-May-June/9618_s24_ms_33.pdf?download=true",
+        "mark_scheme_text": "9 One mark per mark point (Max 3) 3\nMP1 Deep learning learns by finding hidden patterns that are undetectable to humans.\nMP2 It structures algorithms in layers: input layer, hidden layers and output layer.\nMP3 … to create an artificial neural network to learn and make intelligent decisions on its own.\nMP4 It is trained using large quantities of unlabelled data.\nMP5 Deep learning requires/uses a large number of hidden layers.\nMP6 … the larger the number of layers, the higher the level of success.\n© Cambridge University Press & Assessment 2024 Page 11 of 14"
+      }
+    },
+    {
+      "id": "9618-2025-mj-31-q10",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2025-mj-31-q10-p01.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_31-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_31.pdf?download=true",
+        "mark_scheme_text": "10(a) One mark for each mark point (Max 2) 2\nMP1 A graph is used in AI to record relationships between entities\nMP2 … using vertices / nodes and edges\nMP3 for example, to represent places on a map and the distances between them, in order to find the shortest route.\n\n10(b) One mark for each mark point (Max 4) 4\nMP1 Artificial neural networks are designed to work in the same way as the human brain\nMP2 ANNs provide the architecture and algorithms for learning from the data\nMP3 They have a large number of connected processing units / nodes\nMP4 … that are arranged in layers / interconnected and work together to process data\nMP5 Deep learning models learn from data by adjusting the weights/biases of the connections between neurons\nMP6 They use multiple hidden layers to extract complex features and to make predictions\n© Cambridge University Press & Assessment 2025 Page 13 of 15"
+      }
+    },
+    {
+      "id": "9618-2025-mj-32-q06",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 6,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2025-mj-32-q06-p01.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_32-p07.png"
+        ],
+        "source_pages": [
+          7
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_32.pdf?download=true",
+        "mark_scheme_text": "6(a) One mark per point (Max 2) 2\nMP1 A graph uses vertices/nodes to identify/represent entities such as\ndestinations, people, etc\nMP2 Edges are used to connect nodes and can represent possible paths\nbetween them // a path is the list of nodes connected by edges between two\ngiven nodes\nMP3 Nodes/edges can be labelled/weighted, and this is a weighting that\ncan be applied and used in the context of the application\nMP4 A cycle is a list of nodes that return to the same node.\n\n6(b) One mark per mark point (Max 4) 4\nMP1 Supervised learning uses labelled data // Unsupervised learning\nmakes use of unlabelled data.\nMP2 Labelled data means that known outcomes are applied to specific\ninputs to help the AI predict outcomes.\nMP3 Supervised learning requires initial human input/training //\nUnsupervised learning does not require human input/training.\nMP4 With unlabelled data in unsupervised learning, outcomes are not\nknown\nMP5 … the AI has to search for hidden patterns/structures/clusters\nMP6 … within the data in order to predict outcomes.\n© Cambridge University Press & Assessment 2025 Page 7 of 12"
+      }
+    },
+    {
+      "id": "9618-2025-mj-33-q10",
+      "year": 2025,
+      "session": "May/June",
+      "session_code": "mj",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 10,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2025-mj-33-q10-p01.png"
+      ],
+      "source_pages": [
+        12
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_s25_ms_33-p13.png"
+        ],
+        "source_pages": [
+          13
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-May-June/9618_s25_ms_33.pdf?download=true",
+        "mark_scheme_text": "10(a) To find the path between two points on a graph using the algorithm. 1\n\n10(b) One mark per point (Max 2) 2\nMP1 A* tries to find a better path (between two points) by using a heuristic function // A* finds the adjacent route with the\nshortest path and continues this until the destination is reached\nMP2 … Dijkstra’s just explores all possible routes.\nMP3 The heuristic function on the A* algorithm gives priority to nodes that are supposed to be better than others / less\ncostly than others.\nMP4 Dijkstra’s algorithm cannot work with negative values/weights //A* algorithm can work with negative\nvalues/weights.\n\n10(c) One mark for each mark point (Max 3) 3\nMP1 Unsupervised learning uses algorithms to analyse / cluster\nMP2 … unlabelled data sets\nMP3 They discover hidden patterns / data groupings / clusters without the need for human intervention.\nMP4 It is able to discover similarities and differences in data / information.\n© Cambridge University Press & Assessment 2025 Page 13 of 16"
+      }
+    },
+    {
+      "id": "9618-2025-on-31-q07",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "31",
+      "question_number": 7,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2025-on-31-q07-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_31.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_31-p11.png",
+          "/9618/answer-assets/9618_w25_ms_31-p12.png"
+        ],
+        "source_pages": [
+          11,
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_31.pdf?download=true",
+        "mark_scheme_text": "7(a) One from: 1\n• A* algorithm\n• Dijkstra’s algorithm\n© Cambridge University Press & Assessment 2025 Page 11 of 15\n\n7(b) One mark for each mark point (Max 5) 5\nMP1 Deep learning is a branch of machine learning\nMP2 It makes use of artificial neural networks\nMP3 … to work in a similar manner to the human/biological brain // … neural\nnetworks can be trained to process data\nMP4 It is a structure consisting of many interconnected layers\nMP5 … input, hidden and output // the input layer feeds the first hidden layer, the last\nhidden layer feeds the output\nMP6 … gradually breaking down and analysing the data to find (hidden) patterns\nMP7 Deep leaning’s feature extraction/learning involves how to detect\nfeatures/categories from data\nMP8 … and can involve different types of supervision\nMP9 It works well with large data sets\nMP10 Deep learning uses back propagation of errors to adjust parameters/weightings\nto refine its results / improve its accuracy.\nQuestion Answer Marks Guidance"
+      }
+    },
+    {
+      "id": "9618-2025-on-32-q09",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "32",
+      "question_number": 9,
+      "marks": 6,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2025-on-32-q09-p01.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_32.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_32-p14.png",
+          "/9618/answer-assets/9618_w25_ms_32-p15.png"
+        ],
+        "source_pages": [
+          14,
+          15
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_32.pdf?download=true",
+        "mark_scheme_text": "9 9 3 3 3 3 30 30 46\nQuestion Answer Marks\n\n9(a)(i) One from: 1\ne.g.\n• Virtual assistants // AI Agents\n• Chatbots\n• Composing music\n• Self-driving cars\n• Natural language processing\n• Fraud detection\n• Image colouring // photograph enhancement\n• Visual/Image recognition/facial recognition\n• Text mining\n• Computer assisted translation\n• Large language models (LLMs)\n• Playing chess\n• Grading student exams\n• Weather forecasting\n\n9(a)(ii) Use / introduce more hidden layers 1\n© Cambridge University Press & Assessment 2025 Page 14 of 17\n\n9(b) One mark per mark point (Max 4) 4\nMP1 Initial outputs are compared to expected outputs\nMP2 … weightings are adjusted to minimise the difference between actual and expected outputs\nMP3 Calculus is used to find the error gradient in the obtained outputs\nMP4 … the results are fed back into the neural network\nMP5 … weightings of each neuron / node are adjusted as a result of the feedback\nMP6 … the process repeats until results are more accurate\nQuestion Answer Marks"
+      }
+    },
+    {
+      "id": "9618-2025-on-33-q08",
+      "year": 2025,
+      "session": "Oct/Nov",
+      "session_code": "on",
+      "paper": 3,
+      "variant": "33",
+      "question_number": 8,
+      "marks": 5,
+      "image_paths": [
+        "/9618/9618-topic-18-artificial-intelligence/assets/9618-2025-on-33-q08-p01.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "source_pdf_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_qp_33.pdf?download=true",
+      "answer": {
+        "status": "available",
+        "reason": null,
+        "image_paths": [
+          "/9618/answer-assets/9618_w25_ms_33-p12.png"
+        ],
+        "source_pages": [
+          12
+        ],
+        "mark_scheme_url": "https://pastpapers.co/api/file/caie/A-Level/Computer%20Science%20%28for%20first%20examination%20in%202021%29%20%289618%29/2025-Oct-Nov/9618_w25_ms_33.pdf?download=true",
+        "mark_scheme_text": "8 One mark per mark point - working (Max 3) 5\nMay be seen on diagram or in working section\nMP1 Initialisation – setting Start to 0\nMP2 … and the rest of the towns to \nMP3 Evidence to show values at nodes being updated\nMP4 Evidence to show ‘visited node(s)’\nMP5 Evidence to show a correct calculation of at least one route\nMP6 Evidence to show more than one route has been calculated for at\nleast one town\nCorrect Answers (Max 2)\nTwo marks for all six correct values\nOne mark for four or five correct values.\nT V W X Y Z\n6 10 13 18 21 28\nQuestion Answer Marks Guidance"
+      }
+    }
+  ]
+}
