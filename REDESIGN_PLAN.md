@@ -222,7 +222,14 @@ Run the pilot with a real key and model: `python3 "python files/extract_question
 
 ---
 
-## Phase 4: practice sets (no grading yet)
+## Phase 4: practice sets (no grading yet) — built
+
+Built in `web/src/practice/`: `/app/practice` (picker), `/app/practice/set` (answering), `/app/practice/results` (self-marking). Which questions a set may use comes from `content/{subject}/practice.json`, generated from the question files (live in dev, at build for deploys), so approving questions in the review tool is all it takes to add them. Tested by `npm run check:practice`. Notes from building it:
+
+- Gaps are inputs in the question itself; slots, numeric answer lines and working get their own fields; the symbol bar inserts at the caret of the last field used.
+- A diagram part draws on its figure (by caption reference, else the last figure placed in its text: for "the array is … complete the trace table", the trace table). Tools: pen, straight line, smooth curve, eraser, undo/redo, clear. Other parts' marks on the same figure show faintly.
+- Results stack the mark scheme under the answers at full width: side by side it was too small to read. Self-marks give the score and "Where the marks went" by part kind.
+- Trace tables are drawn on for now; typed cells (grid found from the scan's pixels) are the next improvement.
 
 Build the three screens from the approved mockups: set picker, answering screen (desktop split view and phone tabs), results.
 

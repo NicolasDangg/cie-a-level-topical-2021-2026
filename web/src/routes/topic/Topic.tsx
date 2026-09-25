@@ -1,12 +1,14 @@
-import { SlidersHorizontal } from 'lucide-react'
+import { ListChecks, SlidersHorizontal } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { useParams, useSearchParams } from 'react-router'
+import { Link, useParams, useSearchParams } from 'react-router'
 import { AppShell, PageError, PageLoading } from '../../components/AppShell'
 import { QuestionCard } from '../../components/question-card/QuestionCard'
 import { QuestionCardSkeleton } from '../../components/question-card/QuestionCardSkeleton'
 import { SUBJECTS, isSubject, loadTopic, useResource } from '../../content/api'
 import type { TopicFile } from '../../content/types'
+import { FEATURES } from '../../lib/features'
 import { useMediaQuery } from '../../lib/media'
+import { loadPractice } from '../../practice/data'
 import { readStorage, writeStorage } from '../../lib/storage'
 import { classicHref } from '../../lib/view-choice'
 import NotFound from '../NotFound'
@@ -18,6 +20,21 @@ export default function Topic() {
   const { subject = '', topicSlug = '' } = useParams()
   if (!isSubject(subject)) return <NotFound />
   return <TopicPage key={`${subject}/${topicSlug}`} subject={subject} slug={topicSlug} />
+}
+
+/** "Practice this topic", once some of its questions are checked for practice sets. */
+function PracticeLink({ subject, slug }: { subject: string; slug: string }) {
+  const practice = useResource(`practice:${subject}`, () => loadPractice(subject))
+  const count = practice.status === 'ready' ? (practice.data.topics[slug]?.length ?? 0) : 0
+  if (!count) return null
+  return (
+    <Link
+      to={`/practice?subject=${subject}&topic=${encodeURIComponent(slug)}`}
+      className="order-last ml-auto inline-flex h-9 items-center gap-2 rounded-md bg-ink px-3 text-sm font-medium text-desk no-underline hover:opacity-90"
+    >
+      <ListChecks size={15} aria-hidden /> Practice this topic
+    </Link>
+  )
 }
 
 function TopicPage({ subject, slug }: { subject: string; slug: string }) {
@@ -161,6 +178,7 @@ function TopicBody({
                 </span>
               )}
             </button>
+            {FEATURES.practiceSets && <PracticeLink subject={subject} slug={data.topic.slug} />}
             {activeFilters > 0 && (
               <button type="button" onClick={clearFilters} className="text-sm text-ink-muted underline decoration-rule-strong underline-offset-2 hover:text-ink">
                 Clear

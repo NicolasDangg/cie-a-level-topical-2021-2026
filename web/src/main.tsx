@@ -20,11 +20,21 @@ import { ThemeProvider } from './theme/theme'
 const Subject = lazy(() => import('./routes/Subject'))
 // oxlint-disable-next-line react/only-export-components -- entry file, never hot-swapped
 const Topic = lazy(() => import('./routes/topic/Topic'))
+// oxlint-disable-next-line react/only-export-components -- entry file, never hot-swapped
+const Picker = lazy(() => import('./practice/Picker'))
+// oxlint-disable-next-line react/only-export-components -- entry file, never hot-swapped
+const SetPage = lazy(() => import('./practice/SetPage'))
+// oxlint-disable-next-line react/only-export-components -- entry file, never hot-swapped
+const Results = lazy(() => import('./practice/Results'))
 
 const page = (element: ReactNode) => <Suspense fallback={null}>{element}</Suspense>
 
 const routes: RouteObject[] = [
   { path: '/', element: <Home /> },
+  // Practice sets come before /:subject so "practice" isn't read as a subject.
+  { path: '/practice', element: page(<Picker />) },
+  { path: '/practice/set', element: page(<SetPage />) },
+  { path: '/practice/results', element: page(<Results />) },
   { path: '/:subject', element: page(<Subject />) },
   { path: '/:subject/:topicSlug', element: page(<Topic />) },
   { path: '*', element: <NotFound /> },

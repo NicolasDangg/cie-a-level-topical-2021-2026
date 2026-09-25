@@ -2,6 +2,7 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
+import { practiceIndexServer } from './build/practice-server.ts'
 import { repoContent } from './build/repo-content.ts'
 import { reviewApi } from './build/review-api.ts'
 
@@ -17,6 +18,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     tailwindcss(),
+    practiceIndexServer(repoRoot),
     repoContent(repoRoot, ['/content/', '/9618/', '/9702/', '/9990/']),
     reviewApi(repoRoot),
   ],

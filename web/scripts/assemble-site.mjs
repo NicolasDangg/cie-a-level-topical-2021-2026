@@ -3,9 +3,10 @@
 // at its current path, so classic pages, PNG crops and content/ JSON keep
 // their URLs. Hard links cost no disk and almost no time; if the filesystem
 // refuses (e.g. across devices) it falls back to copying.
-import { copyFileSync, linkSync, mkdirSync, readdirSync, rmSync, statSync } from 'node:fs'
+import { copyFileSync, linkSync, mkdirSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { PRACTICE_SUBJECTS, practiceIndex } from '../build/practice-index.mjs'
 
 const repo = fileURLToPath(new URL('../..', import.meta.url))
 const site = fileURLToPath(new URL('../site', import.meta.url))
@@ -50,5 +51,10 @@ function walk(rel) {
 }
 
 walk('')
+// Generated, not linked: which reviewed questions practice sets may use.
+for (const subject of PRACTICE_SUBJECTS) {
+  const file = path.join(site, 'content', subject, 'practice.json')
+  writeFileSync(file, JSON.stringify(practiceIndex(repo, subject)))
+}
 const ms = Math.round(performance.now() - started)
 console.log(`assembled site/: ${linked} linked, ${copied} copied, ${(bytes / 2 ** 20).toFixed(0)} MB in ${ms} ms`)

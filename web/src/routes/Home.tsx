@@ -1,7 +1,8 @@
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, ListChecks } from 'lucide-react'
 import { Link } from 'react-router'
 import { AppShell } from '../components/AppShell'
 import { SUBJECTS, loadSubject, useResource } from '../content/api'
+import { FEATURES } from '../lib/features'
 import { classicHref } from '../lib/view-choice'
 
 export default function Home() {
@@ -34,6 +35,21 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        {FEATURES.practiceSets && (
+          <Link
+            to="/practice"
+            className="mt-6 flex items-center gap-4 rounded-md border border-ink bg-paper p-5 text-ink no-underline shadow-sheet hover:bg-desk"
+          >
+            <ListChecks size={22} aria-hidden className="shrink-0" />
+            <span className="min-w-0 flex-1">
+              <span className="block font-serif text-xl font-semibold">Practice sets</span>
+              <span className="block text-sm text-ink-muted">
+                Random questions from a topic, typed out to answer on screen, then marked against the official mark scheme.
+              </span>
+            </span>
+            <ArrowRight size={18} aria-hidden className="shrink-0" />
+          </Link>
+        )}
         <p className="mt-8 text-sm text-ink-muted">
           2026 sessions are listed as unavailable where they were unpublished at collection time.
         </p>

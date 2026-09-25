@@ -23,20 +23,27 @@ export function Blank({ line = false }: { line?: boolean }) {
   )
 }
 
+/** How to show the n-th gap (counted through the whole text, in order). */
+export type BlankRenderer = (index: number, where: { code: boolean; line: boolean }) => ReactNode
+
+const drawnBlank: BlankRenderer = (_i, { line }) => <Blank line={line} />
+
 /** Code with its gaps drawn; everything else stays verbatim. */
-function codeWithBlanks(code: string): ReactNode[] {
+function codeWithBlanks(code: string, blank: BlankRenderer, next: () => number): ReactNode[] {
   return code.split('\n').flatMap((line, i) => {
     const out: ReactNode[] = i > 0 ? ['\n'] : []
-    if (line.trim() === BLANK) return [...out, line.slice(0, line.indexOf(BLANK)), <Blank key={i} line />]
+    if (line.trim() === BLANK) {
+      return [...out, line.slice(0, line.indexOf(BLANK)), <Fragment key={i}>{blank(next(), { code: true, line: true })}</Fragment>]
+    }
     line.split(BLANK).forEach((piece, j) => {
-      if (j > 0) out.push(<Blank key={`${i}-${j}`} />)
+      if (j > 0) out.push(<Fragment key={`${i}-${j}`}>{blank(next(), { code: true, line: false })}</Fragment>)
       out.push(piece)
     })
     return out
   })
 }
 
-function inline(text: string, keyPrefix: string): ReactNode[] {
+function inline(text: string, keyPrefix: string, blank: BlankRenderer = drawnBlank, next: () => number = () => 0): ReactNode[] {
   const out: ReactNode[] = []
   text.split('\n').forEach((line, li) => {
     if (li > 0) out.push(<br key={`${keyPrefix}-br${li}`} />)
@@ -44,7 +51,7 @@ function inline(text: string, keyPrefix: string): ReactNode[] {
       const key = `${keyPrefix}-${li}-${ti}`
       if (!token) return
       if (token === BLANK) {
-        out.push(<Blank key={key} />)
+        out.push(<Fragment key={key}>{blank(next(), { code: false, line: false })}</Fragment>)
       } else if (token.length > 2 && token.startsWith('$') && token.endsWith('$')) {
         const html = katex.renderToString(token.slice(1, -1), { throwOnError: false, output: 'htmlAndMathml' })
         out.push(<span key={key} dangerouslySetInnerHTML={{ __html: html }} />)
@@ -64,10 +71,21 @@ function inline(text: string, keyPrefix: string): ReactNode[] {
   return out
 }
 
-export function RichText({ text, figures = [] }: { text: string; figures?: ExtractedFigure[] }) {
+type Props = {
+  text: string
+  figures?: ExtractedFigure[]
+  /** Replace the drawn gaps, e.g. with inputs. */
+  blank?: BlankRenderer
+  /** Replace how a placed figure shows, e.g. with a drawing layer. */
+  figure?: (figure: ExtractedFigure) => ReactNode
+}
+
+export function RichText({ text, figures = [], blank = drawnBlank, figure: renderFigure }: Props) {
   const blocks: ReactNode[] = []
   let last = 0
   let n = 0
+  let gaps = 0
+  const nextGap = () => gaps++
   const paragraphs = (chunk: string) => {
     for (const para of chunk.split(/\n{2,}/)) {
       const trimmed = para.trim()
@@ -78,7 +96,7 @@ export function RichText({ text, figures = [] }: { text: string; figures?: Extra
         const figure = figures.find((f) => f.id === fig[1])
         blocks.push(
           figure ? (
-            <FigureCrop key={key} figure={figure} />
+            <Fragment key={key}>{renderFigure ? renderFigure(figure) : <FigureCrop figure={figure} />}</Fragment>
           ) : (
             <p key={key} className="m-0 text-sm text-ink-muted">
               [missing figure {fig[1]}]
@@ -88,7 +106,7 @@ export function RichText({ text, figures = [] }: { text: string; figures?: Extra
       } else {
         blocks.push(
           <p key={key} className="m-0">
-            {inline(trimmed, key)}
+            {inline(trimmed, key, blank, nextGap)}
           </p>,
         )
       }
@@ -98,7 +116,7 @@ export function RichText({ text, figures = [] }: { text: string; figures?: Extra
     paragraphs(text.slice(last, match.index))
     blocks.push(
       <pre key={`c${n++}`} className="m-0 overflow-x-auto rounded-sm bg-desk px-3 py-2 font-mono text-[0.85em] leading-relaxed">
-        {codeWithBlanks(match[1].replace(/\n$/, ''))}
+        {codeWithBlanks(match[1].replace(/\n$/, ''), blank, nextGap)}
       </pre>,
     )
     last = (match.index ?? 0) + match[0].length
