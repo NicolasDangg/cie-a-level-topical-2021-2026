@@ -7,7 +7,9 @@ other URL (see `REDESIGN_PLAN.md`).
 npm install
 npm run dev          # http://localhost:5173/app/  (dev card: /app/dev/card)
 npm run build        # typecheck, build to site/app, assemble site/
-npm run screenshots -- <outDir> [path]   # needs `npm run dev` running
+npm run serve:site   # serve site/ like Vercel does (http://localhost:4174)
+npm run check:site -- <outDir>           # end-to-end checks of site/ (after build)
+npm run screenshots -- <outDir> [path]   # card checks; needs `npm run dev` running
 ```
 
 ## How content is served
@@ -29,10 +31,13 @@ Nothing is copied into git or the JS bundle.
   write the full 885 MB on every build. Vercel only uploads files whose
   content hash changed, so unchanged PNGs aren't re-uploaded.
 
-Until the phase 2 cut-over points Vercel's output directory at `web/site`,
-production keeps serving the repo root exactly as before. This is also why
-the source folder is `web/` and not `app/`: an `app/` source folder would be
-served at `/app/`.
+Vercel builds this way too (`vercel.json` at the repo root): it runs
+`npm run build` in `web/`, serves `web/site/`, and sends any `/app/...` path
+that isn't a real file to the app. The source folder is `web/`, not `app/`,
+so it can never shadow the built app at `/app/`.
+
+`/dev/card` is built into Vercel **preview** deployments (`VERCEL_ENV=preview`)
+for review, and left out of production.
 
 ## Layout
 
@@ -45,4 +50,8 @@ served at `/app/`.
 - `src/components/question-card/`: the question card and its practice,
   grading and error states. `types.ts` holds the view types the Phase 3
   grader adapter will map into.
-- `src/routes/dev/`: `/dev/card`, dev-only (left out of production builds).
+- `src/routes/`: home, subject index, topic page (`topic/`: filters, the
+  mark-scheme panel). Filters and the open mark scheme live in the URL.
+- `src/lib/view-choice.ts`: the classic/app choice, shared with the classic
+  pages under the localStorage key `tp:view`.
+- `src/routes/dev/`: `/dev/card` (dev and preview builds only).

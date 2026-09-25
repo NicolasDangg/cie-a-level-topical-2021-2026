@@ -18,6 +18,8 @@ type Props = {
   /** Practice mode hides the mark scheme until a part has been checked. */
   answerLocked?: boolean
   onToggleAnswer?: () => void
+  /** Id of the answer panel the Answer button opens, when one is on the page. */
+  answerControls?: string
   /** DOM id for the card; defaults to the question id (the page anchor). */
   anchorId?: string
   /** Fixtures only. */
@@ -36,6 +38,7 @@ export function QuestionCard({
   answerOpen = false,
   answerLocked = false,
   onToggleAnswer,
+  answerControls,
   anchorId = q.id,
   forceImageState,
 }: Props) {
@@ -63,6 +66,7 @@ export function QuestionCard({
               locked={answerLocked}
               open={answerOpen}
               onToggle={onToggleAnswer}
+              controls={answerControls}
               questionId={q.id}
             />
           </span>
@@ -127,12 +131,14 @@ function AnswerControl({
   locked,
   open,
   onToggle,
+  controls,
   questionId,
 }: {
   available: boolean
   locked: boolean
   open: boolean
   onToggle?: () => void
+  controls?: string
   questionId: string
 }) {
   const base = 'inline-flex h-8 items-center gap-1.5 rounded-md border px-2.5 text-sm'
@@ -162,6 +168,7 @@ function AnswerControl({
       type="button"
       onClick={onToggle}
       aria-expanded={open}
+      aria-controls={open ? controls : undefined}
       data-question={questionId}
       className={`${base} ${open ? 'border-ink bg-ink text-desk' : 'border-rule-strong text-ink hover:bg-desk'}`}
     >

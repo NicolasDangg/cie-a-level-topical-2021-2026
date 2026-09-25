@@ -19,6 +19,17 @@
         document.documentElement.dataset.paper = dark && paper ? 'dark' : 'light'
       })()
     </script>
+    <script>
+      // Vercel Web Analytics, as on the classic pages. Skipped locally, where the
+      // script doesn't exist; added from JS so the dev server doesn't rebase its path.
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments) }
+      if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
+        var va = document.createElement('script')
+        va.defer = true
+        va.src = '/_vercel/insights/script.js'
+        document.head.appendChild(va)
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

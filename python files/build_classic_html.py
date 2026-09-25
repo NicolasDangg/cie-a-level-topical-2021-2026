@@ -16,6 +16,24 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 SUBJECTS = ("9702", "9618", "9990")
 
+# Hand edits made to the live pages after they were generated. Kept exactly
+# (typo included) until the site owner decides whether they stay.
+OVERRIDES = {
+    "index_topic_labels": {"9702-topic-14-temperature": "Temperature (+ Electric stuff))"},
+    "index_answers_link": {"9990"},
+}
+
+# Remembers "classic" when a student arrives from the app's "Classic view" link
+# (?view=classic). The key is shared with the app and the root index.html.
+REMEMBER_SCRIPT = ("<script>try{if(new URLSearchParams(location.search).get('view')==='classic')"
+                   "localStorage.setItem('tp:view','classic')}catch(e){}</script>")
+SWITCH_CSS = """<style>
+.view-switch { margin: 0 0 3mm; text-align: right; font-size: 9pt; }
+.view-switch a { color: #4b5563; }
+.framed .view-switch { display: none; }
+@media print { .view-switch { display: none !important; } }
+</style>"""
+
 
 def question_css():
     return """<style>
@@ -112,10 +130,16 @@ def filename(url):
     return url.rsplit("/", 1)[-1]
 
 
-def questions_page(subject, subject_name, topic, questions):
+def switch_link(app_href, extra_script=""):
+    return f"<p class='view-switch'><a href='{html.escape(app_href, quote=True)}'>Try the new view &#8594;</a></p>{extra_script}"
+
+
+def questions_page(subject, subject_name, topic, questions, switch=True):
     label = topic["label"]
     title = f"{subject} {subject_name} — {label} — questions"
-    out = ["<!doctype html><html lang='en'><head><meta charset='utf-8'>", f"<title>{html.escape(title)}</title>", question_css(), split_view_script(), "</head><body>", "<div class='question-layout'><main class='question-pane'>"]
+    head = [REMEMBER_SCRIPT, SWITCH_CSS] if switch else []
+    body = [switch_link(f"/app/{subject}/{topic['slug']}")] if switch else []
+    out = ["<!doctype html><html lang='en'><head><meta charset='utf-8'>", f"<title>{html.escape(title)}</title>", question_css(), split_view_script(), *head, "</head><body>", "<div class='question-layout'><main class='question-pane'>", *body]
     out.append(f"<header><h1>{html.escape(label)}</h1><div class='meta'>{subject} {html.escape(subject_name)} · A2 topical questions · {len(questions)} questions</div></header>")
     if not questions:
         out.append("<p class='note'>No captured questions are currently classified in this topic.</p>")
@@ -136,12 +160,19 @@ def questions_page(subject, subject_name, topic, questions):
     return "\n".join(out)
 
 
-def answers_page(subject, subject_name, topic, questions):
+def answers_page(subject, subject_name, topic, questions, switch=True):
     label = topic["label"]
+    # Inside the questions page's side-by-side iframe the link is hidden; on its
+    # own it opens the app with this question's mark scheme.
+    framed = ("<script>if(window.self!==window.top)document.documentElement.className+=' framed';"
+              "(function(){var a=document.querySelector('.view-switch a');"
+              "if(a&&location.hash)a.href+='?answers='+location.hash.slice(1)})()</script>")
+    head = [REMEMBER_SCRIPT, SWITCH_CSS] if switch else []
+    body = [switch_link(f"/app/{subject}/{topic['slug']}", framed)] if switch else []
     out = [
         "<!doctype html><html lang='en'><head><meta charset='utf-8'>",
         f"<title>{subject} {html.escape(label)} — answers</title>",
-        answer_css(), "</head><body>",
+        answer_css(), *head, "</head><body>", *body,
         f"<header><h1>{html.escape(label)}</h1><div class='meta'>{subject} {html.escape(subject_name)} · official mark-scheme answers · {len(questions)} questions</div></header>",
     ]
     if not questions:
@@ -166,7 +197,7 @@ def answers_page(subject, subject_name, topic, questions):
     return "\n".join(out)
 
 
-def index_page(subject, index):
+def index_page(subject, index, switch=True):
     name = index["subject_name"]
     out = [
         "<!doctype html><html lang='en'><head><meta charset='utf-8'>",
@@ -174,13 +205,17 @@ def index_page(subject, index):
         question_css(),
         "<script>\n  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n</script>",
         '<script defer src="/_vercel/insights/script.js"></script>',
+        *([REMEMBER_SCRIPT, SWITCH_CSS] if switch else []),
         "</head><body>",
+        *([switch_link(f"/app/{subject}")] if switch else []),
     ]
     out.append(f"<header><h1>{subject} {html.escape(name)}</h1><div class='meta'>2021–2026 · A2 topical question crops · generated {index['generated']}</div></header>")
     out.append("<p>Questions are grouped by official A2 topic. Each entry links to printable question and answer files.</p><div class='grid'>")
     for t in index["topics"]:
         slug = t["slug"]
-        out.append(f"<div class='card'><h2><a href='{slug}/questions.html'>{html.escape(t['label'])}</a></h2><div class='meta'>{t['question_count']} captured questions · <a href='{slug}/questions.html'>print questions</a></div><a class='answer-button' href='{slug}/answers.html' target='_blank' rel='noopener'>Open answers separately</a></div>")
+        label = OVERRIDES["index_topic_labels"].get(slug, t["label"])
+        answers = f" · <a href='{slug}/answers.html'>answers</a>" if subject in OVERRIDES["index_answers_link"] else ""
+        out.append(f"<div class='card'><h2><a href='{slug}/questions.html'>{html.escape(label)}</a></h2><div class='meta'>{t['question_count']} captured questions · <a href='{slug}/questions.html'>print questions</a>{answers}</div><a class='answer-button' href='{slug}/answers.html' target='_blank' rel='noopener'>Open answers separately</a></div>")
     out.append("</div><h2 style='margin-top:8mm'>Paper coverage</h2><div class='grid'>")
     for p in index["papers"]:
         out.append(f"<div class='card'><h3>{p['year']} {html.escape(p['session'])} · {p['variant']}</h3><div class='meta'>{p['question_count']} questions · <a href='{html.escape(p['source_pdf_url'])}'>source PDF</a></div></div>")
@@ -194,7 +229,7 @@ def index_page(subject, index):
     return "\n".join(out)
 
 
-def build_subject(subject, out_root=ROOT):
+def build_subject(subject, out_root=ROOT, switch=True):
     index = json.loads((CONTENT / subject / "index.json").read_text(encoding="utf-8"))
     name = index["subject_name"]
     subject_dir = out_root / subject
@@ -202,15 +237,15 @@ def build_subject(subject, out_root=ROOT):
         data = json.loads((CONTENT / subject / "topics" / f"{topic['slug']}.json").read_text(encoding="utf-8"))
         topic_dir = subject_dir / topic["slug"]
         topic_dir.mkdir(parents=True, exist_ok=True)
-        (topic_dir / "questions.html").write_text(questions_page(subject, name, topic, data["questions"]), encoding="utf-8")
-        (topic_dir / "answers.html").write_text(answers_page(subject, name, topic, data["questions"]), encoding="utf-8")
+        (topic_dir / "questions.html").write_text(questions_page(subject, name, topic, data["questions"], switch), encoding="utf-8")
+        (topic_dir / "answers.html").write_text(answers_page(subject, name, topic, data["questions"], switch), encoding="utf-8")
     subject_dir.mkdir(parents=True, exist_ok=True)
-    (subject_dir / "index.html").write_text(index_page(subject, index), encoding="utf-8")
+    (subject_dir / "index.html").write_text(index_page(subject, index, switch), encoding="utf-8")
     return {"subject": subject, "topics": len(index["topics"])}
 
 
-def main(out_root=ROOT):
-    results = [build_subject(subject, Path(out_root)) for subject in SUBJECTS]
+def main(out_root=ROOT, switch=True):
+    results = [build_subject(subject, Path(out_root), switch) for subject in SUBJECTS]
     print(json.dumps(results, indent=2))
     return results
 

@@ -31,6 +31,8 @@
   color-scheme: light;
   /* One reading column, about as wide as the crops (852px at 120 dpi). */
   --measure: 54rem;
+  /* The docked mark-scheme panel on wide screens. */
+  --panel-width: min(40rem, 40vw);
   --crop-filter: none;
 }
 
@@ -103,6 +105,18 @@
     background-attachment: local;
   }
 
+  .question-card {
+    scroll-margin-top: 5rem; /* clear the sticky top bar */
+  }
+
+  /* Panels slide in; reduced motion turns this off with every other animation. */
+  .panel-slide {
+    animation: slide-in-right 180ms ease-out;
+  }
+  .sheet-slide {
+    animation: slide-in-up 180ms ease-out;
+  }
+
   .skeleton {
     background: var(--color-rule);
     animation: skeleton-pulse 1.4s ease-in-out infinite;
@@ -112,6 +126,20 @@
 @keyframes skeleton-pulse {
   50% {
     opacity: 0.55;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(24px);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
   }
 }
 
@@ -175,6 +203,20 @@
   }
   .question-card header {
     break-after: avoid-page;
+    margin-bottom: 3mm !important;
+    padding-bottom: 2mm !important;
+  }
+  /* Match the classic pages' type sizes so the first question shares page 1
+     with the topic title, as it does in the classic print. */
+  main {
+    padding-top: 0 !important;
+  }
+  main h1 {
+    font-size: 20pt !important;
+  }
+  main > div > header {
+    margin-bottom: 5mm !important;
+    padding-bottom: 3mm !important;
   }
   .crop-sheet {
     break-inside: avoid;
@@ -184,7 +226,7 @@
   .crop-sheet img {
     width: auto !important;
     max-width: 100%;
-    max-height: 232mm;
+    max-height: 226mm;
     margin: 0 auto;
   }
 }

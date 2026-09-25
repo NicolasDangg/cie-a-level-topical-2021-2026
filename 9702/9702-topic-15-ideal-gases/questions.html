@@ -66,8 +66,16 @@ function openAnswerSideBySide(link) {
   return false;
 }
 </script>
+<script>try{if(new URLSearchParams(location.search).get('view')==='classic')localStorage.setItem('tp:view','classic')}catch(e){}</script>
+<style>
+.view-switch { margin: 0 0 3mm; text-align: right; font-size: 9pt; }
+.view-switch a { color: #4b5563; }
+.framed .view-switch { display: none; }
+@media print { .view-switch { display: none !important; } }
+</style>
 </head><body>
 <div class='question-layout'><main class='question-pane'>
+<p class='view-switch'><a href='/app/9702/9702-topic-15-ideal-gases'>Try the new view &#8594;</a></p>
 <header><h1>Ideal gases</h1><div class='meta'>9702 Physics · A2 topical questions · 12 questions</div></header>
 <article class='question' id='9702-2021-m-42-q02'>
 <div class='question-start'>

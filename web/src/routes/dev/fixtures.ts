@@ -29,6 +29,7 @@ export const rpn: Question = {
   image_paths: ['/9618/9618-topic-16-system-software/assets/9618-2021-mj-31-q04-p01.png'],
   source_pages: [6],
   source_pdf_url: CS_31,
+  duplicate_of: null,
   answer: available(['/9618/answer-assets/9618_s21_ms_31-p05.png', '/9618/answer-assets/9618_s21_ms_31-p06.png'], [5, 6], CS_31_MS),
 }
 
@@ -44,6 +45,7 @@ export const packetSwitching: Question = {
   image_paths: ['/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2021-mj-31-q06-p01.png'],
   source_pages: [8],
   source_pdf_url: CS_31,
+  duplicate_of: null,
   answer: available(['/9618/answer-assets/9618_s21_ms_31-p07.png'], [7], CS_31_MS),
 }
 
@@ -62,6 +64,7 @@ export const gravitation: Question = {
   ],
   source_pages: [4, 5],
   source_pdf_url: 'https://pastpapers.co/api/file/caie/A-Level/Physics-9702/2021-March/9702_m21_qp_42.pdf?download=true',
+  duplicate_of: null,
   answer: available(
     ['/9702/answer-assets/9702_m21_ms_42-p08.png'],
     [8],
@@ -81,6 +84,7 @@ export const consumer: Question = {
   image_paths: ['/9990/9990-topic-02-consumer-psychology/assets/9990-2021-mj-31-q03-p01.png'],
   source_pages: [2],
   source_pdf_url: 'https://pastpapers.co/api/file/caie/A-Level/Psychology-9990/2021-May-June/9990_s21_qp_31.pdf?download=true',
+  duplicate_of: null,
   answer: available(
     ['/9990/answer-assets/9990_s21_ms_31-p10.png', '/9990/answer-assets/9990_s21_ms_31-p11.png'],
     [10, 11],

@@ -1,14 +1,26 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>CIE A-Level topical past papers 2021–2026</title>
+<html lang="en"><head><meta charset="utf-8">
+<script>
+  // Students who chose the new view (key shared with /app/) go straight there.
+  // Fails safe: no storage or no JavaScript means this page stays.
+  (function () {
+    try {
+      if (new URLSearchParams(location.search).get('view') === 'classic') { localStorage.setItem('tp:view', 'classic'); return; }
+      if (localStorage.getItem('tp:view') === 'app') location.replace('/app/');
+    } catch (e) {}
+  })();
+</script>
+<title>CIE A-Level topical past papers 2021–2026</title>
 <style>
 @page { size: A4; margin: 14mm; } body { max-width: 180mm; margin: 16mm auto; font: 11pt/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:#17202a; }
-.masthead { display:flex; justify-content:space-between; align-items:flex-start; gap:8mm; border-bottom: 1.5pt solid #17202a; padding-bottom: 5mm; } h1 { margin:0; font-size: 22pt; } .byline { flex:0 0 auto; text-align:right; color:#4b5563; font-size:9pt; line-height:1.35; } .byline strong, .byline span { display:block; } article { border: .5pt solid #9ca3af; padding: 5mm; margin: 5mm 0; break-inside: avoid; } a { color: inherit; } @media (max-width: 620px) { .masthead { display:block; } .byline { margin-top:3mm; text-align:left; } }
+.masthead { display:flex; justify-content:space-between; align-items:flex-start; gap:8mm; border-bottom: 1.5pt solid #17202a; padding-bottom: 5mm; } h1 { margin:0; font-size: 22pt; } .byline { flex:0 0 auto; text-align:right; color:#4b5563; font-size:9pt; line-height:1.35; } .byline strong, .byline span { display:block; } .view-switch { margin: 3mm 0 0; font-size: 10pt; } @media print { .view-switch { display:none; } } article { border: .5pt solid #9ca3af; padding: 5mm; margin: 5mm 0; break-inside: avoid; } a { color: inherit; } @media (max-width: 620px) { .masthead { display:block; } .byline { margin-top:3mm; text-align:left; } }
 </style>
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head><body><div class="masthead"><h1>CIE A-Level topical past-paper collection</h1><div class="byline"><strong>Phuc Nguyen (Nicolas) Dangg</strong><span>A-Level student</span><span>All credits to <a href="https://pastpapers.co">pastpaper.co</a></span></div></div>
+<p class="view-switch"><a href="/app/">Try the new view &#8594;</a> Filters, repeats hidden, mark schemes beside each question.</p>
 <p>2021–2026 coverage, A2 topics only. 2026 sessions are listed as unavailable where unpublished at collection time.</p>
 <article><h2>9702 Physics</h2>
 <p>70 available papers · 436 questions · 436 official answer entries</p>
