@@ -107,6 +107,7 @@ def export_subject(subject):
         "subject": subject,
         "subject_name": manifest["subject_name"],
         "syllabus_url": manifest["syllabus_url"],
+        "generated": manifest["generated"],
         "topics": topics,
         "papers": [
             {k: p[k] for k in ("year", "session", "session_code", "paper", "variant", "question_count")}

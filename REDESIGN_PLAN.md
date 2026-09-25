@@ -6,11 +6,17 @@ Read this whole file before starting. Work on ONE phase per session. At the end 
 
 topicalpaper.me is a static site on Vercel serving CIE A-Level topical past-paper questions (9618 Computer Science, 9702 Physics, 9990 Psychology). Right now, Python scripts in `python files/` generate PNG question crops, `manifest.json`, `answers-manifest.json`, AND the HTML pages, with CSS and JS inlined into every page. Any UI change therefore means regenerating everything.
 
-We're splitting the site into three layers:
+We're splitting the site into layers:
 
-1. **Content pipeline (Python).** Runs only when new papers are added. PDFs in, PNGs + JSON out. Writes no HTML.
+1. **Content pipeline (Python).** Runs only when new papers are added. PDFs in, PNGs + JSON out.
 2. **Content (static files).** PNG crops and JSON. Permanent; rarely changes.
-3. **App (React + Vite + TypeScript).** Renders everything from the JSON.
+3. **Two views of the same content, both built from the JSON:**
+   - **Classic** (`python files/build_classic_html.py`): the original static, no-JavaScript pages at their existing URLs (`/`, `/{subject}/index.html`, `/{subject}/{slug}/questions.html`, `answers.html`). For students who just want the cropped questions. Kept permanently, not replaced.
+   - **App** (React + Vite + TypeScript, in `app/`): the redesign, served under `/app/`.
+
+Students switch between the two with a link in each view's header. The choice is remembered on the device, so the home page opens in their preferred view.
+
+**Subjects:** 9990 Psychology publishes only Clinical and Consumer Psychology (options 1 and 2). Health and Organisational were removed.
 
 Question ids like `9618-2021-mj-31-q06` are the stable key everywhere. They start with digits, so never use a raw `querySelector('#...')` on them; use `getElementById` or `CSS.escape()`.
 
@@ -20,7 +26,7 @@ Question ids like `9618-2021-mj-31-q06` are the stable key everywhere. They star
 
 - Never open PDFs or re-render images unless a phase explicitly says so. The existing PNGs are the content.
 - Don't move, rename, or duplicate the existing PNG files in git (the repo is already large). Existing image URLs must keep working.
-- Existing public URLs must keep working (see phase 2).
+- Existing public URLs must keep working. They stay the classic pages; the app never takes them over.
 - The public parts data for Practice mode must never contain mark-scheme text.
 - Accessibility is required, not optional: keyboard operable, visible focus rings, WCAG AA contrast, `prefers-reduced-motion` respected.
 - No console errors or warnings at the end of any phase.
@@ -41,7 +47,8 @@ Question ids like `9618-2021-mj-31-q06` are the stable key everywhere. They star
    - every question has an answer entry
    - question counts match the source manifests.
 4. Remove all HTML writing from both generators. Keep their PNG and manifest generation working, and have `generate_question_assets.py` call the export at the end.
-5. Don't delete the existing generated HTML files yet (that happens in phase 2).
+5. Don't delete the existing generated HTML files. They become Classic mode.
+6. (Added) `python files/build_classic_html.py` regenerates the classic pages from `content/`, byte-identical to the old generators' output. `generate_answers.py` calls it after the export.
 
 **Report:** a diff summary, the `test_content.py` output, and the size of the largest topic JSON file.
 
@@ -62,7 +69,7 @@ Build the app scaffold and ONE component, the question card, to a finished stand
 
 ### Serving content
 
-Decide how the app serves the existing subject folders' PNGs and the new `content/` JSON at their current URL paths without importing them into the JS bundle and without duplicating them in git. Explain the approach you chose and its build-time cost before implementing it.
+The app lives in `app/` and is served under `/app/`. It must not change what the classic URLs serve. Decide how the app serves the existing subject folders' PNGs and the new `content/` JSON at their current URL paths without importing them into the JS bundle and without duplicating them in git. Explain the approach you chose and its build-time cost before implementing it.
 
 ### Design direction: "paper on a desk"
 
@@ -125,12 +132,12 @@ Build a dev-only route, `/dev/card`, that shows the card in every one of these s
 
 ## Phase 2: full app with parity
 
-### Routes
+### Routes (all under `/app`)
 
-- `/`: home
-- `/:subject`: subject index
-- `/:subject/:topicSlug`: topic page
-- `/:subject/:topicSlug?answers=<questionId>`: topic page with that question's answer panel open
+- `/app/`: home
+- `/app/:subject`: subject index
+- `/app/:subject/:topicSlug`: topic page
+- `/app/:subject/:topicSlug?answers=<questionId>`: topic page with that question's answer panel open
 
 ### Layout
 
@@ -141,28 +148,23 @@ Build a dev-only route, `/dev/card`, that shows the card in every one of these s
 - **Home:** subject cards, with the author credit and the "All credits to pastpapers.co" credit kept.
 - Keep the Vercel analytics snippet from the current pages.
 
-### URLs and cut-over
+### Classic ↔ App switching
 
-Add `vercel.json` rewrites:
-
-| Old URL | New route |
-|---|---|
-| `/:subject/:slug/questions.html` | `/:subject/:slug` |
-| `/:subject/:slug/answers.html` | `/:subject/:slug?answers=` (panel open) |
-| `/:subject/index.html` | `/:subject` |
-| `/index.html` | `/` |
-
-Vercel serves real files before applying rewrites. So the old generated HTML files must be deleted in the same change that adds the rewrites.
+- The classic pages keep every existing URL. Nothing is deleted or rewritten.
+- `vercel.json` adds only an SPA fallback: `/app/(.*)` → `/app/index.html`.
+- Each view links to the equivalent page in the other: classic `questions.html` ↔ `/app/:subject/:slug`, classic `answers.html#id` ↔ `?answers=id`, classic `index.html` ↔ `/app/:subject`, `/` ↔ `/app/`.
+- The chosen view is saved in localStorage under one shared key. The classic home page (`/`) runs a tiny inline script that sends students who chose the app to `/app/`. It must fail safe: with no storage or no JS, the student stays on classic. Following a "Classic view" link always lands on classic and saves that choice, so nobody gets stuck in a redirect loop.
+- `build_classic_html.py` owns the classic markup, so the switch link is added there, not by hand.
 
 ### Done when
 
-- Every old page has a working equivalent showing the same questions in the same order.
-- Every old URL resolves.
+- Every classic page has an app equivalent showing the same questions in the same order.
+- Every classic URL still serves the classic page, unchanged apart from the switch link.
 - Printing a topic looks like today's printed version.
 - `test_content.py` passes.
 - There are no console errors.
 
-**Report:** screenshots of one topic page (desktop, mobile, print preview) and a list of the rewrites verified.
+**Report:** screenshots of one topic page (desktop, mobile, print preview) and the classic↔app switching verified, including the remembered choice.
 
 ---
 

@@ -11,6 +11,7 @@ from pathlib import Path
 
 import pdfplumber
 
+import build_classic_html
 import export_data
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -173,3 +174,4 @@ def build_subject(subject):
 if __name__ == "__main__":
     print(json.dumps([build_subject("9702"), build_subject("9618"), build_subject("9990")], indent=2))
     export_data.main()
+    build_classic_html.main()
