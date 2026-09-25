@@ -26,7 +26,8 @@ const started = performance.now()
 
 function walk(rel) {
   for (const entry of readdirSync(path.join(repo, rel), { withFileTypes: true })) {
-    if (SKIP.has(entry.name)) continue
+    // Secrets never ship, even when building from a machine that has a .env.
+    if (SKIP.has(entry.name) || entry.name === '.env' || entry.name.startsWith('.env.')) continue
     const relPath = path.join(rel, entry.name)
     if (rel === '' && entry.name === 'app') throw new Error('repo has an app/ folder; it would collide with the built app')
     if (entry.isDirectory()) {

@@ -139,6 +139,8 @@ Build a dev-only route, `/dev/card`, that shows the card in every one of these s
 - **Test mode grades on submit**, all parts in parallel with visible progress. Not graded silently while typing (answers still change, so that would pay for grading twice).
 - **Results split marks by part kind** (calculations vs definitions and explanations), which the extraction tags.
 - **Progress stays on the device** (localStorage) for now. Accounts and sync are later.
+- **Extraction uses free vision models on OpenRouter**, configured by `OPENROUTER_API_KEY` and `OPENROUTER_MODEL` (see `.env.example`, read by `python files/llm_config.py`). The key lives where the pipeline runs (a git-ignored `.env`, or the Claude Code environment's secrets), not in Vercel: extraction never runs on Vercel. A Vercel env var is only needed later if grading runs as a Vercel function, and then server-side only (never `VITE_`-prefixed).
+- **`_source-pdfs/` and `python files/` stay publicly served**, as today.
 
 ---
 
@@ -201,7 +203,8 @@ One file per question, `content/{subject}/questions/{questionId}.json`, schema `
 ### Extractor
 
 - `python files/extract_questions.py [--subject 9702] [--topic <slug>] [--ids …]`: sends a question's crops to a vision model with a fixed prompt and JSON schema; writes `draft` files; never overwrites a `reviewed` file unless `--force`.
-- The API key comes from the environment (`ANTHROPIC_API_KEY`) and is never committed. Results are cached by crop content hash, so reruns cost nothing.
+- Settings come from `python files/llm_config.py` (`OPENROUTER_API_KEY`, `OPENROUTER_MODEL`, optional `OPENROUTER_BASE_URL`); the key is never committed. Calls go to OpenRouter's OpenAI-compatible chat completions API with the crops as image inputs and a JSON response format. Results are cached by crop content hash, so reruns cost nothing.
+- Free models are rate-limited (a small daily request cap unless the account holds credit) and can change or disappear, so the extractor paces itself, resumes where it stopped, and records the exact model id in `extracted_with`. Free endpoints may log prompts; the crops are already public, so that is acceptable here.
 - Pilot first: the 10 Motion in a circle questions plus 9618 s21 paper 31 Q4, Q6, Q9. Report accuracy and cost per question before extracting everything.
 
 ### Validation (`test_content.py`)
