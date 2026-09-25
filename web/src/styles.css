@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Design tokens. Tailwind's default palette and fonts are cleared so every
+   colour and face in the UI comes from here. Light values are the defaults;
+   dark mode swaps the same variables below. */
+@theme {
+  --color-*: initial;
+  --color-desk: #f6f5f1; /* page background, warm off-white */
+  --color-paper: #ffffff; /* question sheets, panels */
+  --color-field: #ffffff; /* text inputs */
+  --color-ink: #1c1b19; /* primary text */
+  --color-ink-muted: #6b6862; /* secondary text (5.1:1 on desk) */
+  --color-rule: #e4e1da; /* hairlines, decorative borders */
+  --color-rule-strong: #8c877e; /* input and control borders (>=3:1) */
+  --color-mark: #c2410c; /* "examiner ink": ticks and scores */
+  --color-sheet: #ffffff; /* behind a crop while it loads */
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  --font-*: initial;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, serif;
+
+  --shadow-sheet: 0 1px 1px rgb(28 27 25 / 0.04), 0 2px 10px rgb(28 27 25 / 0.05);
+}
+
+:root {
+  color-scheme: light;
+  /* One reading column, about as wide as the crops (852px at 120 dpi). */
+  --measure: 54rem;
+  --crop-filter: none;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-desk: #1a1917;
+  --color-paper: #24231f;
+  --color-field: #201f1c;
+  --color-ink: #edeae3;
+  --color-ink-muted: #a9a49a;
+  --color-rule: #3a3833;
+  --color-rule-strong: #7a766d;
+  --color-mark: #f4895b;
+  --color-sheet: #d9d9d9;
+  --shadow-sheet: 0 1px 2px rgb(0 0 0 / 0.35), 0 2px 10px rgb(0 0 0 / 0.25);
+  /* Crops stay paper, just dimmed. */
+  --crop-filter: brightness(0.85);
+}
+
+/* "Dark paper": the student opted to invert the scans too. */
+:root[data-theme="dark"][data-paper="dark"] {
+  --color-sheet: #1e1e1e;
+  --crop-filter: invert(1) hue-rotate(180deg);
+}
+
+@layer base {
+  html {
+    background: var(--color-desk);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--color-desk);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-mark) 22%, transparent);
+  }
+}
+
+@layer components {
+  .crop-img {
+    filter: var(--crop-filter);
+  }
+
+  /* Answer lines: a real textarea, ruled like an exam answer space. The rules
+     scroll with the text (background-attachment: local). */
+  .answer-lines {
+    --line: 1.75rem;
+    line-height: var(--line);
+    padding: calc(var(--line) * 0.25) 0.75rem 0;
+    background-color: var(--color-field);
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(var(--line) - 1px),
+      var(--color-rule) calc(var(--line) - 1px),
+      var(--color-rule) var(--line)
+    );
+    background-position: 0 calc(var(--line) * 0.25);
+    background-attachment: local;
+  }
+
+  .skeleton {
+    background: var(--color-rule);
+    animation: skeleton-pulse 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes skeleton-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print: A4, one question per page, controls hidden, always light paper.
+   Mirrors the classic printed pages. */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+  /* Every theme prints as light paper, dark paper included. */
+  :root,
+  :root[data-theme="dark"],
+  :root[data-theme="dark"][data-paper="dark"] {
+    color-scheme: light;
+    --color-desk: #fff;
+    --color-paper: #fff;
+    --color-ink: #17202a;
+    --color-ink-muted: #4b5563;
+    --color-rule: #9ca3af;
+    --color-sheet: #fff;
+    --crop-filter: none;
+    --shadow-sheet: none;
+  }
+  html,
+  body {
+    background: #fff;
+    font-size: 10.5pt;
+  }
+  [data-print="hide"] {
+    display: none !important;
+  }
+  /* One question per page: break between consecutive cards, never before
+     the first (a leading break prints a blank page). */
+  .question-card + .question-card,
+  [data-print-page] + [data-print-page] {
+    break-before: page;
+  }
+  .question-card {
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+  }
+  .question-card header {
+    break-after: avoid-page;
+  }
+  .crop-sheet {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 0.35pt solid #d1d5db !important;
+  }
+  .crop-sheet img {
+    width: auto !important;
+    max-width: 100%;
+    max-height: 232mm;
+    margin: 0 auto;
+  }
+}
