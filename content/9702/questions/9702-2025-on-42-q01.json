@@ -1,0 +1,122 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-on-42-q01-p01.png",
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-on-42-q01-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": "The Earth may be considered as a uniform sphere of radius 6.37 × 10⁶ m.\n\nCambridge is at a point on the Earth’s surface that has a latitude of 52.2° north of the Equator, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nAs the Earth spins on its axis, Cambridge moves in a circle that is parallel to the Equator but with a smaller radius.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Show that the radius of the circle around which Cambridge moves is 3.90 × 10⁶ m.",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Calculate the speed at which Cambridge moves around the circle.",
+      "marks": 3,
+      "kind": "numeric",
+      "answer": {
+        "symbol": "speed",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A student of mass 58.6 kg stands on horizontal ground in Cambridge.",
+      "text": "Determine the magnitude of the resultant force that acts to cause the circular motion of the student.",
+      "marks": 2,
+      "kind": "numeric",
+      "answer": {
+        "symbol": "resultant force",
+        "unit": "N"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 1.2, draw an arrow to show the direction of the resultant force that acts on the student.\n\n[[fig:f2]]",
+      "marks": 1,
+      "kind": "diagram",
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 1.3, draw labelled arrows from the student to show the directions of the forces that act on the student to cause the resultant force in (b)(ii).\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A diagram of the Earth showing the Equator, axis, North and South Poles, and Cambridge at 52.2° north latitude.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-on-42-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.193,
+        0.103,
+        0.796,
+        0.402
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 1.2 (not to scale)",
+      "alt": "A student stands on the curved surface of the Earth, with a dashed line extending diagonally inward from the student.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-on-42-q01-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.278,
+        0.344,
+        0.728,
+        0.475
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 1.3 (not to scale)",
+      "alt": "A student stands on a curved Earth surface, with a dashed line extending diagonally inward from the student.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2025-on-42-q01-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.404,
+        0.592,
+        0.597,
+        0.743
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

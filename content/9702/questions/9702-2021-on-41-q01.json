@@ -1,0 +1,85 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2021-on-41-q01-p01.png",
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2021-on-41-q01-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "With reference to velocity and acceleration, describe uniform circular motion.",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Two cars are moving around a horizontal circular track. One car follows path X and the other follows path Y, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe radius of path X is 318 m. Path Y is parallel to, and 27 m outside, path X. Both cars have mass 790 kg. The maximum possible lateral (sideways) friction force *F* that the cars can experience without sliding is the same for both cars.",
+      "text": "The maximum speed at which the car on path X can move around the track without sliding is 94 m s⁻¹.\n\nCalculate *F*.",
+      "marks": 2,
+      "kind": "numeric",
+      "answer": {
+        "symbol": "F",
+        "unit": "N"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Both cars move around the track. Each car has the maximum speed at which it can move without sliding.\n\nComplete Table 1.1, by placing one tick in each row, to indicate how the quantities indicated for the car on path Y compare with the car on path X.\n\n[[fig:f2]]",
+      "marks": 3,
+      "kind": "diagram",
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A horizontal circular track diagram showing concentric paths X and Y, a start and finish line, and the radii marked 318 m and 27 m.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2021-on-41-q01-p01.png",
+      "source_size": [
+        852,
+        1198
+      ],
+      "box": [
+        0.174,
+        0.217,
+        0.83,
+        0.542
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 1.1",
+      "alt": "A blank table with columns for Y less than X, Y same as X and Y greater than X, and rows for centripetal acceleration, maximum speed and time taken for one lap of the track.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2021-on-41-q01-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.148,
+        0.159,
+        0.918,
+        0.345
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

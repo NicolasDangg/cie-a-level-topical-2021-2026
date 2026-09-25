@@ -1,0 +1,65 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2021-mj-31-q09",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-20-further-programming/assets/9618-2021-mj-31-q09-p01.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Describe what is meant by an imperative (procedural) programming language.",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Describe what is meant by a declarative programming language.",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Identify the programming paradigm for each of these program code examples.\n\n[[fig:f1]]",
+      "marks": 4,
+      "kind": "diagram",
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": null,
+      "alt": "A table with columns headed “Program code example” and “Programming paradigm”; it contains four program code examples and blank cells for the paradigms.",
+      "source_image": "/9618/9618-topic-20-further-programming/assets/9618-2021-mj-31-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.059,
+        0.391,
+        0.942,
+        0.752
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

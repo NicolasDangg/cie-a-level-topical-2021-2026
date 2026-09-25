@@ -2,7 +2,7 @@
   "schema": "topicalpaper-question/v1",
   "id": "9702-2023-on-42-q01",
   "subject": "9702",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "fixture:hand-transcribed",
     "prompt": "q-extract-1",
@@ -39,7 +39,7 @@
     {
       "partId": "c-i",
       "label": "(c)(i)",
-      "lead": "During a time interval of 1400 s, the centre of gravity of the piece of modelling clay in Fig. 1.1 moves through a total distance of 0.44 m.",
+      "lead": "(c) During a time interval of 1400 s, the centre of gravity of the piece of modelling clay in Fig. 1.1 moves through a total distance of 0.44 m.",
       "text": "Calculate the angle through which the minute hand moves in this time interval.",
       "marks": 1,
       "kind": "numeric",

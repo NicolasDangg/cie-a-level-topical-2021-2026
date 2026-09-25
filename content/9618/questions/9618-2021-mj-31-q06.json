@@ -1,0 +1,22 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2021-mj-31-q06",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-14-communication-and-internet-technologies/assets/9618-2021-mj-31-q06-p01.png"
+  ],
+  "marks_total": 4,
+  "stem": "Give two benefits and two drawbacks of packet switching.",
+  "parts": [],
+  "figures": [],
+  "notes": [],
+  "problems": [
+    "no parts"
+  ]
+}

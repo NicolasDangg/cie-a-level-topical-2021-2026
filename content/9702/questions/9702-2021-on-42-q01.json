@@ -1,0 +1,84 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2021-on-42-q01-p01.png",
+    "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2021-on-42-q01-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by centripetal acceleration.",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "(b) An unpowered toy car moves freely along a smooth track that is initially horizontal. The track contains a vertical circular loop around which the car travels, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe mass of the car is 30 g and the diameter of the loop is 62 cm. Assume that the resistive forces acting on the car are negligible.",
+      "text": "State what happens to the magnitude of the centripetal acceleration of the car as it moves around the loop from X to Y.",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain, if the car remains in contact with the track, why the centripetal acceleration of the car at point Y must be greater than 9.8 m s⁻².",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The initial speed at which the car in (b) moves along the track is 3.8 m s⁻¹.\n\nDetermine whether the car is in contact with the track at point Y. Show your working.",
+      "marks": 3,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Suggest, with a reason but without calculation, whether your conclusion in (c) would be different for a car of mass 460 g moving with the same initial speed.",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A toy car on a horizontal track beside a vertical circular loop, with X at the bottom and Y at the top, arrows showing motion around the loop and a 62 cm diameter measurement.",
+      "source_image": "/9702/9702-topic-12-motion-in-a-circle/assets/9702-2021-on-42-q01-p01.png",
+      "source_size": [
+        852,
+        1177
+      ],
+      "box": [
+        0.114,
+        0.212,
+        0.887,
+        0.454
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": []
+}

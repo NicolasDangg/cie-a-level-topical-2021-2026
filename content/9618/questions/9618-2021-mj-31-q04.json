@@ -1,0 +1,71 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9618-2021-mj-31-q04",
+  "subject": "9618",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-1",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9618/9618-topic-16-system-software/assets/9618-2021-mj-31-q04-p01.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Explain why Reverse Polish Notation (RPN) is used to carry out the evaluation of expressions.",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Identify, with reasons, a data structure that could be used to evaluate an expression in RPN.",
+      "marks": 2,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Write the infix expression in RPN.\n\n`(a − b) × (a + c) / 7`",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Write the RPN expression as an infix expression.\n\n`a b / 4 * a b + −`",
+      "marks": 1,
+      "kind": "written",
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Evaluate the RPN expression:\n\n`a b + c d /`\n\nwhere `a = 17`, `b = 3`, `c = 48` and `d = 12`.\n\nShow your working.",
+      "marks": 2,
+      "kind": "numeric",
+      "answer": {
+        "symbol": null,
+        "unit": null
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [
+    "part d: numeric part needs answer {symbol, unit} (unit may be null)"
+  ]
+}
