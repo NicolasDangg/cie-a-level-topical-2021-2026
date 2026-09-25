@@ -78,6 +78,9 @@ SUBJECTS = {
         "syllabus_url": "https://www.cambridgeinternational.org/Images/634461-2024-2026-syllabus.pdf",
         "expected_questions": {"3": 16, "4": 12},
         "bucket": None,
+        # Options still exist in the papers (classify() needs all four to map
+        # question numbers), but only these are published.
+        "exclude_topics": {3, 4},
     },
 }
 
@@ -112,7 +115,8 @@ PHYSICS_TOPIC_OVERRIDES = {
 }
 
 def topic_defs(subject):
-    defs = [(n, label, f"{subject}-topic-{n:02d}-{slug}") for n, label, slug in TOPICS[subject]]
+    excluded = SUBJECTS[subject].get("exclude_topics", set())
+    defs = [(n, label, f"{subject}-topic-{n:02d}-{slug}") for n, label, slug in TOPICS[subject] if n not in excluded]
     if SUBJECTS[subject]["bucket"]:
         slug, label = SUBJECTS[subject]["bucket"]
         defs.append((None, label, f"{subject}-{slug}"))
@@ -408,6 +412,8 @@ def build_subject(subject):
         for span in spans:
             qid = f"{subject}-{meta['year']}-{meta['session_code']}-{meta['variant']}-q{span['question_number']:02d}"
             number, label, slug = classify(subject, meta["paper"], span["text"], qid)
+            if number in config.get("exclude_topics", set()):
+                continue
             images = []
             for part, pr in enumerate(span["page_ranges"], 1):
                 filename = f"{qid}-p{part:02d}.png"

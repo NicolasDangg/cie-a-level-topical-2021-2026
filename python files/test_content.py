@@ -13,7 +13,7 @@ CONTENT = ROOT / "content"
 SCHEMA = "topicalpaper-content/v2"
 SUBJECTS = ("9702", "9618", "9990")
 # Pinned totals (carried over from test_answer_links.py, 9990 added).
-EXPECTED_COUNTS = {"9702": 436, "9618": 407, "9990": 752}
+EXPECTED_COUNTS = {"9702": 436, "9618": 407, "9990": 376}
 ID_RE = re.compile(r"^(9702|9618|9990)-20\d\d-(m|mj|on)-\d\d-q\d\d$")
 
 failures = []
