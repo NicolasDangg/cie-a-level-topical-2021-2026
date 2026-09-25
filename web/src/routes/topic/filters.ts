@@ -62,14 +62,14 @@ export function filterOptions(questions: Question[]) {
 
 /** Questions to show, in order. `keep` is always included (an answer panel's question). */
 export function applyFilters(questions: Question[], filters: Filters, keep?: string | null) {
-  const shown = questions.filter(
-    (q) =>
-      q.id === keep ||
-      ((filters.showRepeats || q.duplicate_of === null) &&
-        (!filters.years.size || filters.years.has(String(q.year))) &&
-        (!filters.sessions.size || filters.sessions.has(q.session_code)) &&
-        (!filters.papers.size || filters.papers.has(q.variant))),
-  )
-  const hiddenRepeats = filters.showRepeats ? 0 : questions.filter((q) => q.duplicate_of !== null && q.id !== keep).length
+  const matches = (q: Question) =>
+    (!filters.years.size || filters.years.has(String(q.year))) &&
+    (!filters.sessions.size || filters.sessions.has(q.session_code)) &&
+    (!filters.papers.size || filters.papers.has(q.variant))
+  const shown = questions.filter((q) => q.id === keep || ((filters.showRepeats || q.duplicate_of === null) && matches(q)))
+  // Repeats that match the filters but are hidden, so the count describes this view.
+  const hiddenRepeats = filters.showRepeats
+    ? 0
+    : questions.filter((q) => q.duplicate_of !== null && q.id !== keep && matches(q)).length
   return { shown, hiddenRepeats }
 }

@@ -16,11 +16,13 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 SUBJECTS = ("9702", "9618", "9990")
 
-# Hand edits made to the live pages after they were generated. Kept exactly
-# (typo included) until the site owner decides whether they stay.
-OVERRIDES = {
-    "index_topic_labels": {"9702-topic-14-temperature": "Temperature (+ Electric stuff))"},
-    "index_answers_link": {"9990"},
+# Subject index adjustments chosen by the site owner.
+INDEX_OPTIONS = {
+    # Card label differs from the syllabus name: this topic also holds
+    # electricity questions the classifier couldn't place.
+    "topic_labels": {"9702-topic-14-temperature": "Temperature (+ Electric stuff)"},
+    # Subjects whose topic cards also link straight to the answers page.
+    "answers_link": {"9990"},
 }
 
 # Remembers "classic" when a student arrives from the app's "Classic view" link
@@ -213,8 +215,8 @@ def index_page(subject, index, switch=True):
     out.append("<p>Questions are grouped by official A2 topic. Each entry links to printable question and answer files.</p><div class='grid'>")
     for t in index["topics"]:
         slug = t["slug"]
-        label = OVERRIDES["index_topic_labels"].get(slug, t["label"])
-        answers = f" · <a href='{slug}/answers.html'>answers</a>" if subject in OVERRIDES["index_answers_link"] else ""
+        label = INDEX_OPTIONS["topic_labels"].get(slug, t["label"])
+        answers = f" · <a href='{slug}/answers.html'>answers</a>" if subject in INDEX_OPTIONS["answers_link"] else ""
         out.append(f"<div class='card'><h2><a href='{slug}/questions.html'>{html.escape(label)}</a></h2><div class='meta'>{t['question_count']} captured questions · <a href='{slug}/questions.html'>print questions</a>{answers}</div><a class='answer-button' href='{slug}/answers.html' target='_blank' rel='noopener'>Open answers separately</a></div>")
     out.append("</div><h2 style='margin-top:8mm'>Paper coverage</h2><div class='grid'>")
     for p in index["papers"]:

@@ -1,6 +1,5 @@
-import * as Dialog from '@radix-ui/react-dialog'
-import { SlidersHorizontal, X } from 'lucide-react'
-import { useEffect, useMemo, useRef, type ComponentProps } from 'react'
+import { SlidersHorizontal } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, useSearchParams } from 'react-router'
 import { AppShell, PageError, PageLoading } from '../../components/AppShell'
 import { QuestionCard } from '../../components/question-card/QuestionCard'
@@ -8,6 +7,7 @@ import { QuestionCardSkeleton } from '../../components/question-card/QuestionCar
 import { SUBJECTS, isSubject, loadTopic, useResource } from '../../content/api'
 import type { TopicFile } from '../../content/types'
 import { useMediaQuery } from '../../lib/media'
+import { readStorage, writeStorage } from '../../lib/storage'
 import { classicHref } from '../../lib/view-choice'
 import NotFound from '../NotFound'
 import { ANSWER_PANEL_ID, AnswerPanel } from './AnswerPanel'
@@ -64,6 +64,15 @@ function TopicBody({
   setParams: ReturnType<typeof useSearchParams>[1]
 }) {
   const docked = useMediaQuery('(min-width: 80rem)')
+  const wide = useMediaQuery('(min-width: 64rem)')
+  // The filter menu is collapsed by default; each student's choice is remembered.
+  const [filtersOpen, setFiltersOpen] = useState(() => readStorage(FILTERS_OPEN_KEY) === '1')
+  const toggleFilters = () => {
+    setFiltersOpen((open) => {
+      writeStorage(FILTERS_OPEN_KEY, open ? null : '1')
+      return !open
+    })
+  }
   const answerId = params.get('answers')
   const filters = readFilters(params)
   // Option counts describe what the list can show: repeats count only when shown.
@@ -103,16 +112,27 @@ function TopicBody({
   }, [])
 
   const count = `${shown.length} question${shown.length === 1 ? '' : 's'}`
+  const activeFilters = filters.years.size + filters.sessions.size + filters.papers.size
+  const controls = <FilterControls options={options} filters={filters} repeatCount={repeatCount} onChange={setFilters} />
 
   return (
     <div
-      className="mx-auto max-w-[100rem] px-4 sm:px-6 lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-10"
-      style={docked && answerQuestion ? { paddingRight: 'calc(var(--panel-width) + 1.5rem)' } : undefined}
+      className="mx-auto max-w-[100rem] px-4 sm:px-6 lg:grid lg:transition-[grid-template-columns,column-gap] lg:duration-200 lg:ease-out"
+      style={{
+        gridTemplateColumns: `${filtersOpen ? '13rem' : '0rem'} minmax(0, 1fr)`,
+        columnGap: filtersOpen ? '2.5rem' : '0rem',
+        ...(docked && answerQuestion ? { paddingRight: 'calc(var(--panel-width) + 1.5rem)' } : {}),
+      }}
     >
-      <aside aria-label="Filters" className="hidden lg:block" data-print="hide">
-        <div className="sticky top-20 pb-10 pt-10">
-          <FilterControls options={options} filters={filters} repeatCount={repeatCount} onChange={setFilters} />
-        </div>
+      {/* Wide screens: a left menu that fades in and out, no panel around it. */}
+      <aside
+        id="topic-filters"
+        aria-label="Filters"
+        inert={!filtersOpen}
+        className={`hidden overflow-hidden transition-opacity duration-200 lg:block ${filtersOpen ? 'opacity-100' : 'opacity-0'}`}
+        data-print="hide"
+      >
+        <div className="sticky top-20 w-[13rem] pb-10 pt-10">{controls}</div>
       </aside>
 
       <main id="main" className="min-w-0 pb-16 pt-8 lg:pt-10">
@@ -125,8 +145,42 @@ function TopicBody({
             </p>
           </header>
 
-          <div className="mb-5 flex items-center gap-3 lg:hidden" data-print="hide">
-            <FiltersSheet options={options} filters={filters} repeatCount={repeatCount} onChange={setFilters} active={isFiltered(filters)} />
+          <div className="mb-5 flex items-center gap-3" data-print="hide">
+            <button
+              type="button"
+              onClick={toggleFilters}
+              aria-expanded={filtersOpen}
+              aria-controls={wide ? 'topic-filters' : 'topic-filters-inline'}
+              className="inline-flex h-9 items-center gap-2 rounded-md border border-rule-strong bg-paper px-3 text-sm text-ink hover:bg-desk"
+            >
+              <SlidersHorizontal size={15} aria-hidden /> Filters
+              {activeFilters > 0 && (
+                <span className="rounded-sm bg-ink px-1.5 font-mono text-xs text-desk">
+                  {activeFilters}
+                  <span className="sr-only"> active</span>
+                </span>
+              )}
+            </button>
+            {activeFilters > 0 && (
+              <button type="button" onClick={clearFilters} className="text-sm text-ink-muted underline decoration-rule-strong underline-offset-2 hover:text-ink">
+                Clear
+              </button>
+            )}
+          </div>
+
+          {/* Narrow screens: the same menu fades in above the questions. */}
+          <div
+            id="topic-filters-inline"
+            role="group"
+            aria-label="Filters"
+            inert={!filtersOpen}
+            className={`grid transition-[grid-template-rows,opacity] duration-200 ease-out lg:hidden ${filtersOpen ? 'opacity-100' : 'opacity-0'}`}
+            style={{ gridTemplateRows: filtersOpen ? '1fr' : '0fr' }}
+            data-print="hide"
+          >
+            <div className="min-h-0 overflow-hidden">
+              <div className="pb-7">{controls}</div>
+            </div>
           </div>
 
           {shown.length === 0 ? (
@@ -169,33 +223,4 @@ function TopicBody({
   )
 }
 
-function FiltersSheet(props: ComponentProps<typeof FilterControls> & { active: boolean }) {
-  const { active, ...controls } = props
-  return (
-    <Dialog.Root>
-      <Dialog.Trigger className="inline-flex h-9 items-center gap-2 rounded-md border border-rule-strong bg-paper px-3 text-sm text-ink">
-        <SlidersHorizontal size={15} aria-hidden /> Filters
-        {active && <span className="rounded-sm bg-ink px-1.5 text-xs text-desk">on</span>}
-      </Dialog.Trigger>
-      <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-40 bg-ink/30" />
-        <Dialog.Content
-          aria-describedby={undefined}
-          className="sheet-slide fixed inset-x-0 bottom-0 z-50 max-h-[85dvh] overflow-y-auto rounded-t-xl border-t border-rule bg-paper px-5 pb-8 pt-4 text-ink"
-        >
-          <div className="mb-5 flex items-center justify-between">
-            <Dialog.Title className="m-0 font-serif text-xl font-semibold">Filters</Dialog.Title>
-            <Dialog.Close
-              aria-label="Close filters"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-rule text-ink"
-            >
-              <X size={16} aria-hidden />
-            </Dialog.Close>
-          </div>
-          <FilterControls {...controls} />
-          <Dialog.Close className="mt-8 h-11 w-full rounded-md bg-ink text-sm font-medium text-desk">Show questions</Dialog.Close>
-        </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
-  )
-}
+const FILTERS_OPEN_KEY = 'tp:filters-open'

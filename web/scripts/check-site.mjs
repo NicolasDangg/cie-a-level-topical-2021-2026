@@ -192,15 +192,27 @@ for (const s of shots) {
   else await fullShot(page, `${s.name}.png`)
   await context.close()
 }
-// Filter sheet on a phone.
-{
-  const { context, page } = await newPage('filter-sheet', { width: 375 })
+// Filter menu: collapsed by default, fades in beside (wide) or above (phone)
+// the questions, remembered, and unreachable by keyboard while closed.
+for (const width of [1440, 375]) {
+  const name = `filters-${width}`
+  const { context, page } = await newPage(name, { width })
   await page.goto(BASE + TOPIC)
   await settle(page)
-  await page.click('button:has-text("Filters")')
-  await page.waitForSelector('[role="dialog"]')
-  await axe(page, 'filter-sheet')
-  await page.screenshot({ path: path.join(outDir, 'topic-mobile-filters.png') })
+  const region = width >= 1024 ? '#topic-filters' : '#topic-filters-inline'
+  const button = page.locator('button[aria-controls]', { hasText: 'Filters' })
+  if ((await button.getAttribute('aria-expanded')) !== 'false') fail(`${name}: filters not collapsed by default`)
+  if (!(await page.locator(region).evaluate((el) => el.inert))) fail(`${name}: closed filters are not inert`)
+  await button.click()
+  await page.waitForTimeout(400)
+  if ((await page.locator(region).evaluate((el) => getComputedStyle(el).opacity)) !== '1') fail(`${name}: filters did not fade in`)
+  await page.locator(`${region} label:has-text("2023")`).click()
+  await page.waitForURL(/year=2023/)
+  await axe(page, name)
+  await page.screenshot({ path: path.join(outDir, `topic-${width < 600 ? 'mobile' : 'desktop'}-filters.png`) })
+  await page.reload()
+  await page.waitForSelector('article.question-card')
+  if ((await button.getAttribute('aria-expanded')) !== 'true') fail(`${name}: open state not remembered`)
   await context.close()
 }
 // Print: A4, like the classic printed pages.
