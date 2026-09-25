@@ -180,6 +180,19 @@ def main():
     fill["parts"][5]["text"] += "\n\nAnswer ..........."
     check(any("answer dots" in p for p in question_schema.problems(fill, 10)), "6d: leftover dots not caught")
 
+    # 6e. Blank pages ("BLANK PAGE" crops) are not sent, and figure numbers map back.
+    stack = "9618-2025-on-32-q12"  # page 1 is the question, pages 2-5 are blank
+    base = "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets"
+    sq = {"id": stack, "marks": 9, "image_paths": [f"{base}/{stack}-p0{n}.png" for n in range(1, 6)]}
+    check(ex.sent_crops(sq) == [0], f"6e: sent crops {ex.sent_crops(sq)}")
+    fixture_q = {"image_paths": good["source_images"]}
+    check(ex.sent_crops(fixture_q) == [0, 1], "6e: a real page was dropped")
+    stack_reply = {"stem": None, "parts": [{"partId": "a", "label": "(a)", "text": "[[fig:f1]]\n\nx", "marks": 9, "kind": "written"}],
+             "figures": [{"id": "f1", "image": 0, "box": [0.06, 0.06, 0.94, 0.21], "alt": "table"}]}
+    doc = ex.to_question_file("9618", sq, stack_reply, "fixture")
+    check(doc["figures"][0]["source_image"].endswith("-p01.png") and doc["source_images"] == sq["image_paths"],
+          "6e: figure not mapped to the real page")
+
     # 7. Fitting: an edge through a label moves past it; separate text stays out;
     #    fitting twice changes nothing.
     im = Image.new("L", (400, 300), 255)

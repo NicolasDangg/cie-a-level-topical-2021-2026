@@ -174,6 +174,26 @@ def output_path(subject, qid):
 
 # ---------- talking to the model ------------------------------------------------
 
+def is_blank_page(path):
+    """A crop with no ink between its header ("BLANK PAGE", page number) and the
+    bottom quarter (where the last page prints its copyright notice): the paper's
+    trailing blank pages, which the crop pipeline attached to the last question.
+    Across all 1,700 crops the split is clean: 146 blank pages have no ink there,
+    the emptiest real page about 0.14%."""
+    with Image.open(path) as im:
+        gray = im.convert("L")
+        w, h = gray.size
+        middle = gray.crop((0, int(h * 0.08), w, int(h * 0.75)))
+        return middle.point(lambda v: 255 if v < 200 else 0).getbbox() is None
+
+
+def sent_crops(q):
+    """Indexes of the crops worth sending: all but blank pages (never none)."""
+    files = crop_files(q)
+    kept = [i for i, f in enumerate(files) if not is_blank_page(f)]
+    return kept or list(range(len(files)))
+
+
 def crop_files(q):
     return [ROOT / p.lstrip("/") for p in q["image_paths"]]
 
@@ -321,6 +341,7 @@ def ask_model(client, q, files):
 
 def to_question_file(subject, q, reply, model):
     files = crop_files(q)
+    sent = sent_crops(q)  # the model numbered only these
     sizes = []
     for f in files:
         with Image.open(f) as im:
@@ -330,7 +351,7 @@ def to_question_file(subject, q, reply, model):
         if not isinstance(fig, dict):
             continue
         index = fig.get("image", 0)
-        index = index if isinstance(index, int) and 0 <= index < len(files) else 0
+        index = sent[index] if isinstance(index, int) and 0 <= index < len(sent) else sent[0]
         box = fig.get("box")
         if isinstance(box, list) and len(box) == 4 and all(isinstance(n, (int, float)) for n in box):
             if max(box) > 1:
@@ -523,7 +544,8 @@ def main(argv=None):
             if args.fake_responses:
                 reply, from_cache = json.loads((args.fake_responses / f"{q['id']}.response.json").read_text(encoding="utf-8")), False
             else:
-                reply, from_cache = ask_model(client, q, crop_files(q))
+                files = crop_files(q)
+                reply, from_cache = ask_model(client, q, [files[i] for i in sent_crops(q)])
         except StopRun as stop:
             print(f"Stopped: {stop}")
             break
