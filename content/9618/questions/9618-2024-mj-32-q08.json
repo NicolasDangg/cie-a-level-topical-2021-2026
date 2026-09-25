@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2024-mj-32-q08",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -18,7 +18,7 @@
       "partId": "a",
       "label": "(a)",
       "lead": null,
-      "text": "Complete the pseudocode to find an item in a 1D array `Widgets` of type `STRING`, using a linear search.\n\n```text\nDECLARE Widgets : ARRAY[1:5000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE Count : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList ← 1\nEndOfList ← 5000\nOUTPUT \"Enter the name of the item you wish to find \"\nINPUT ToFind\n\n[[blank]]NotInList ← FALSE\nCount ← TopOfList\n\nWHILE [[blank]] AND [[blank]]\n    IF [[blank]] THEN\n        Found ← TRUE\n    ENDIF\n    Count ← Count + 1\n\n    IF [[blank]] THEN\n        NotInList ← TRUE\n    ENDIF\nENDWHILE\nIF Found = TRUE THEN\n    OUTPUT \"Item found at position \", Count - 1, \" in array\"\nELSE\n    OUTPUT \"Item not in array\"\nENDIF\n```",
+      "text": "Complete the pseudocode to find an item in a 1D array `Widgets` of type `STRING`, using a linear search.\n\n```text\nDECLARE Widgets : ARRAY[1:5000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE Count : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList ← 1\nEndOfList ← 5000\nOUTPUT \"Enter the name of the item you wish to find \"\nINPUT ToFind\n\n[[blank]]\nNotInList ← FALSE\nCount ← TopOfList\n\nWHILE [[blank]] AND [[blank]]\n    IF [[blank]] THEN\n        Found ← TRUE\n    ENDIF\n    Count ← Count + 1\n\n    IF [[blank]] THEN\n        NotInList ← TRUE\n    ENDIF\nENDWHILE\nIF Found = TRUE THEN\n    OUTPUT \"Item found at position \", Count - 1, \" in array\"\nELSE\n    OUTPUT \"Item not in array\"\nENDIF\n```",
       "marks": 4,
       "kind": "code",
       "slots": null,

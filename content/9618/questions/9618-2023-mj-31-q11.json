@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2023-mj-31-q11",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -13,7 +13,7 @@
     "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q11-p02.png"
   ],
   "marks_total": 11,
-  "stem": "Pseudocode is to be written to implement a queue Abstract Data Type (ADT) with items of the string data type. This will be implemented using the information in the table.\n\n[[fig:f1]]\n\nA constant, with identifier `MaxSize`, limits the size of the queue to 60 items.",
+  "stem": "Pseudocode is to be written to implement a queue abstract Data Type (ADT) with items of the string data type. This will be implemented using the information in the table.\n\n[[fig:f1]]\n\nA constant, with identifier `MaxSize`, limits the size of the queue to 60 items.",
   "parts": [
     {
       "partId": "a",
@@ -29,7 +29,7 @@
       "partId": "b",
       "label": "(b)",
       "lead": null,
-      "text": "Complete the following pseudocode for the function `Dequeue` to remove the front item from the queue.\n\n```text\nFUNCTION Dequeue RETURNS STRING\n    DECLARE Item : STRING\n    IF  > 0 THEN\n        Item ←\n        IF Length = 0 THEN\n            CALL Initialise // reset the pointers\n        ELSE\n            IF FrontPointer > MaxSize THEN\n                ← 1\n            ENDIF\n        ENDIF\n    ELSE\n        OUTPUT \"The print queue was empty - error!\"\n        Item ← \"\"\n    ENDIF\n    RETURN Item\nENDFUNCTION\n```",
+      "text": "Complete the following pseudocode for the function `Dequeue` to remove the front item from the queue.\n\n```text\nFUNCTION Dequeue RETURNS STRING\n    DECLARE Item : STRING\n\n    IF [[blank]] > 0 THEN\n        Item ← [[blank]]\n        [[blank]]\n        IF Length = 0 THEN\n            CALL Initialise // reset the pointers\n        ELSE\n            IF FrontPointer > MaxSize THEN\n                [[blank]] ← 1\n            ENDIF\n        ENDIF\n    ELSE\n        OUTPUT \"The print queue was empty – error!\"\n        Item ← \"\"\n    ENDIF\n    RETURN Item\nENDFUNCTION\n```",
       "marks": 4,
       "kind": "code",
       "slots": null,
@@ -50,7 +50,7 @@
     {
       "id": "f1",
       "caption": null,
-      "alt": "A table with columns Identifier, Data type and Description, listing FrontPointer, RearPointer, Length and Queue and their data types and descriptions.",
+      "alt": "A table with columns Identifier, Data type and Description: FrontPointer, INTEGER, points to the start of the queue; RearPointer, INTEGER, points to the end of the queue; Length, INTEGER, the current size of the queue; Queue, STRING, 1D array to implement the queue.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q11-p01.png",
       "source_size": [
         852,
@@ -66,7 +66,5 @@
   ],
   "notes": [],
   "problems": [],
-  "warnings": [
-    "part b: code to complete has no [[blank]]. If the student fills in gaps, mark each one; if they write whole lines, this is fine"
-  ]
+  "warnings": []
 }

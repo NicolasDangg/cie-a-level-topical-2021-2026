@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2025-on-32-q12",
   "subject": "9618",
-  "status": "draft",
+  "status": "rejected",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -22,7 +22,7 @@
       "partId": "a-i",
       "label": "(a)(i)",
       "lead": "A stack has been implemented using pseudocode to store a maximum of 100 string items using the global variables in the following table:\n\n[[fig:f1]]\n\nThe value of `Top` is incremented each time a data item is added to the stack and decremented each time a data item is removed. If the stack is full, an appropriate error message is output.",
-      "text": "Complete the pseudocode for the procedure to add a data item onto the stack.\n\n```text\nPROCEDURE Push ()\n    IF Top < Max - 1 THEN\n\n        Top ←\n        ← NewData\n    ELSE\n\n        OUTPUT\n    ENDIF\nENDPROCEDURE\n```",
+      "text": "Complete the pseudocode for the procedure to add a data item onto the stack.",
       "marks": 4,
       "kind": "code",
       "slots": null,
@@ -32,7 +32,7 @@
       "partId": "a-ii",
       "label": "(a)(ii)",
       "lead": null,
-      "text": "Write pseudocode to input a new data item and add it to the stack using Push().",
+      "text": "Write pseudocode to input a new data item and add it to the stack using `Push()`.",
       "marks": 2,
       "kind": "code",
       "slots": null,
@@ -69,7 +69,5 @@
   ],
   "notes": [],
   "problems": [],
-  "warnings": [
-    "part a-i: code to complete has no [[blank]]. If the student fills in gaps, mark each one; if they write whole lines, this is fine"
-  ]
+  "warnings": []
 }

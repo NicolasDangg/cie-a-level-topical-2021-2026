@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2025-mj-33-q12",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -32,7 +32,7 @@
       "partId": "b",
       "label": "(b)",
       "lead": null,
-      "text": "A 1D array `DataArray` holds up to 1000 elements of type integer and needs to be sorted in ascending order.\n\nWrite the pseudocode for an insertion sort to sort the array into ascending order.\n\nUse the identifiers from the table in your algorithm.\n\nYou do not need to declare any arrays or variables for this algorithm. You may assume this has already been done.\n\n[[fig:f1]]\n\nThe first line has been written for you.\n\n```text\nFOR Index ← 2 to 1000\n```",
+      "text": "A 1D array `DataArray` holds up to 1000 elements of type integer and needs to be sorted in ascending order.\n\nWrite the pseudocode for an insertion sort to sort the array into ascending order.\n\nUse the identifiers from the table in your algorithm.\n\n[[fig:f1]]\n\nYou do not need to declare any arrays or variables for this algorithm. You may assume this has already been done.\n\nThe first line has been written for you.\n\n```text\nFOR Index ← 2 to 1000\n[[blank]]\n[[blank]]\n[[blank]]\n[[blank]]\n[[blank]]\n[[blank]]\n[[blank]]\n[[blank]]\n[[blank]]\n[[blank]]\n```",
       "marks": 4,
       "kind": "code",
       "slots": null,
@@ -56,7 +56,7 @@
     {
       "id": "f1",
       "caption": null,
-      "alt": "A table listing the identifiers Index, Position, DataArray and Value, their data types as INTEGER, and their descriptions.",
+      "alt": "A table with columns Identifier, Data type and Description, listing Index, Position, DataArray and Value.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2025-mj-33-q12-p01.png",
       "source_size": [
         852,

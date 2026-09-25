@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2023-mj-31-q12",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -40,7 +40,7 @@
     {
       "id": "f1",
       "caption": null,
-      "alt": "A trace table with columns Call number, Function call, Number, Result and Return value, with 5 entered in the first row under Number.",
+      "alt": "A blank trace table with columns labelled Call number, Function call, Number, Result and Return value; the first Number cell contains 5.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-31-q12-p02.png",
       "source_size": [
         852,

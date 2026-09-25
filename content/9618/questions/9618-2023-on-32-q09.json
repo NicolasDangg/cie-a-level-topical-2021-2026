@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2023-on-32-q09",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -29,7 +29,7 @@
       "partId": "a-ii",
       "label": "(a)(ii)",
       "lead": null,
-      "text": "Complete the pseudocode.\n\n```text\nCONSTANT MaxSize = 40\nDECLARE BasePointer : INTEGER\nDECLARE TopPointer : INTEGER\nDECLARE Stack : ARRAY[1:40] OF REAL\n\n// initialisation of stack\nPROCEDURE Initialise()\n\n    ← 1\n\n    ← 0\nENDPROCEDURE\n\n// push an item onto the stack\nPROCEDURE Push(NewItem : REAL)\n\n    MaxSize THEN\n\n    Stack[TopPointer] ←\nENDIF\nENDPROCEDURE\n```",
+      "text": "Complete the pseudocode.\n\n```text\nCONSTANT MaxSize = 40\nDECLARE BasePointer : INTEGER\nDECLARE TopPointer : INTEGER\nDECLARE Stack : ARRAY[1:40] OF REAL\n\n// initialisation of stack\nPROCEDURE Initialise()\n\n[[blank]] ← 1\n\n[[blank]] ← 0\nENDPROCEDURE\n\n// push an item onto the stack\nPROCEDURE Push(NewItem : REAL)\n\n[[blank]] MaxSize THEN\n[[blank]]\nStack[TopPointer] ← [[blank]]\nENDIF\nENDPROCEDURE\n```",
       "marks": 5,
       "kind": "code",
       "slots": null,
@@ -60,7 +60,7 @@
     {
       "id": "f1",
       "caption": null,
-      "alt": "A table with columns Identifier, Data type and Description, containing rows for BasePointer, TopPointer and Stack.",
+      "alt": "A table with columns Identifier, Data type and Description, and rows for BasePointer, TopPointer and Stack; Stack has data type REAL.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-32-q09-p01.png",
       "source_size": [
         852,
@@ -69,14 +69,12 @@
       "box": [
         0.1408,
         0.1361,
-        1.0,
+        1,
         0.2987
       ]
     }
   ],
   "notes": [],
   "problems": [],
-  "warnings": [
-    "part a-ii: code to complete has no [[blank]]. If the student fills in gaps, mark each one; if they write whole lines, this is fine"
-  ]
+  "warnings": []
 }

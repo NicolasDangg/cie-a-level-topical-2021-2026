@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2023-mj-32-q11",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -20,7 +20,7 @@
     {
       "partId": "a-i",
       "label": "(a)(i)",
-      "lead": "The pseudocode shown represents a queue Abstract Data Type (ADT) with procedures for initialisation and to add new items. It is incomplete.\n\n```text\nCONSTANT MaxLength = 50\nDECLARE FrontPointer : INTEGER\nDECLARE RearPointer : INTEGER\nDECLARE Length : INTEGER\nDECLARE Queue : ARRAY[0 : MaxLength - 1] OF STRING\n\n// initialisation of queue\nPROCEDURE Initialise\n    FrontPointer ← -1\n\n\n\nENDPROCEDURE\n\n// adding a new item to the queue\nPROCEDURE Enqueue(NewItem : STRING)\n    IF\n\n        RearPointer ←\n        IF RearPointer > MaxLength - 1 THEN\n            RearPointer ← 0\n        ENDIF\n\n        Length ← Length + 1\n    ENDIF\nENDPROCEDURE\n```",
+      "lead": "The pseudocode shown represents a queue Abstract Data Type (ADT) with procedures for initialisation and to add new items. It is incomplete.\n\n```text\nCONSTANT MaxLength = 50\nDECLARE FrontPointer : INTEGER\nDECLARE RearPointer : INTEGER\nDECLARE Length : INTEGER\nDECLARE Queue : ARRAY[0 : MaxLength - 1] OF STRING\n\n// initialisation of queue\nPROCEDURE Initialise\n    FrontPointer ← -1\n\n    [[blank]]\n    [[blank]] ← 0\nENDPROCEDURE\n\n// adding a new item to the queue\nPROCEDURE Enqueue(NewItem : STRING)\n\n    IF [[blank]] THEN\n\n        RearPointer ← [[blank]]\n        IF RearPointer > MaxLength - 1 THEN\n            RearPointer ← 0\n        ENDIF\n\n        [[blank]]\n        Length ← Length + 1\n    ENDIF\nENDPROCEDURE\n```",
       "text": "Study the pseudocode and insert the identifiers to complete this table.\n\n[[fig:f1]]",
       "marks": 2,
       "kind": "diagram",
@@ -52,7 +52,7 @@
     {
       "id": "f1",
       "caption": null,
-      "alt": "A table with columns Identifier, Data type and Description, containing four blank identifier cells and descriptions of the queue array, rear pointer, length and front pointer.",
+      "alt": "A table with columns Identifier, Data type and Description, containing four rows describing the queue array and pointers.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-mj-32-q11-p01.png",
       "source_size": [
         852,

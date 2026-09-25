@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2024-mj-33-q10",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -29,7 +29,7 @@
       "partId": "b",
       "label": "(b)",
       "lead": null,
-      "text": "Complete the given pseudocode to find an item in a 1D array `Names` of type `STRING` using a binary search.\n\n```text\nDECLARE Names : ARRAY[1:10000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE CurrentItem : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList ← 1\nEndOfList ← 10000\n\nOUTPUT \"Which name do you wish to find? \"\nINPUT ToFind\n\n\nNotInList ← FALSE\nWHILE  AND\n    CurrentItem ← (TopOfList + EndOfList) DIV 2\n\n    IF  THEN\n        Found ← TRUE\n    ELSE\n        IF TopOfList >= EndOfList THEN\n\n        ELSE\n            IF ToFind > Names[CurrentItem] THEN\n\n            ELSE\n                EndOfList ← CurrentItem - 1\n            ENDIF\n        ENDIF\n    ENDIF\nENDWHILE\nIF Found = TRUE THEN\n    OUTPUT \"Item found at position \", CurrentItem, \" in array\"\nELSE\n    OUTPUT \"Item not in array\"\nENDIF\n```",
+      "text": "Complete the given pseudocode to find an item in a 1D array Names of type STRING using a binary search.\n\n```text\nDECLARE Names : ARRAY[1:10000] OF STRING\nDECLARE TopOfList : INTEGER\nDECLARE EndOfList : INTEGER\nDECLARE CurrentItem : INTEGER\nDECLARE ToFind : STRING\nDECLARE Found : BOOLEAN\nDECLARE NotInList : BOOLEAN\nTopOfList ← 1\nEndOfList ← 10000\n\nOUTPUT \"Which name do you wish to find? \"\nINPUT ToFind\n[[blank]]\nNotInList ← FALSE\n\nWHILE [[blank]] AND [[blank]]\n    CurrentItem ← (TopOfList + EndOfList) DIV 2\n\n    IF [[blank]] THEN\n        Found ← TRUE\n    ELSE\n        IF TopOfList >= EndOfList THEN\n            [[blank]]\n        ELSE\n            IF ToFind > Names[CurrentItem] THEN\n                [[blank]]\n            ELSE\n                EndOfList ← CurrentItem - 1\n            ENDIF\n        ENDIF\n    ENDIF\nENDWHILE\nIF Found = TRUE THEN\n    OUTPUT \"Item found at position \", CurrentItem, \" in array\"\nELSE\n    OUTPUT \"Item not in array\"\nENDIF\n```",
       "marks": 5,
       "kind": "code",
       "slots": null,
@@ -49,7 +49,5 @@
   "figures": [],
   "notes": [],
   "problems": [],
-  "warnings": [
-    "part b: code to complete has no [[blank]]. If the student fills in gaps, mark each one; if they write whole lines, this is fine"
-  ]
+  "warnings": []
 }

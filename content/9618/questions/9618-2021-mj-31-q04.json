@@ -2,7 +2,7 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2021-mj-31-q04",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
     "prompt": "q-extract-1",
@@ -54,7 +54,7 @@
       "partId": "d",
       "label": "(d)",
       "lead": null,
-      "text": "Evaluate the RPN expression:\n\n`a b + c d /`\n\nwhere `a = 17`, `b = 3`, `c = 48` and `d = 12`.\n\nShow your working.",
+      "text": "Evaluate the RPN expression:\n\n`a b + c d / /`\n\nwhere `a = 17`, `b = 3`, `c = 48` and `d = 12`.\n\nShow your working.",
       "marks": 2,
       "kind": "numeric",
       "answer": {

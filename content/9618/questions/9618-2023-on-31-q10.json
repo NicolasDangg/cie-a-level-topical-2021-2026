@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2023-on-31-q10",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -29,7 +29,7 @@
       "partId": "b",
       "label": "(b)",
       "lead": null,
-      "text": "Complete the pseudocode function `Pop()` to pop an item from `Stack`.\n\n```\n//  popping an item from the stack\n\nFUNCTION Pop()\n    DECLARE Item : REAL\n    Item ← 0\n\n    BasePointer THEN\n        Item ←\n        TopPointer ←\n    ELSE\n        OUTPUT \"The stack is empty - error\"\n    ENDIF\n\nENDFUNCTION\n```",
+      "text": "Complete the pseudocode function `Pop()` to pop an item from `Stack`.\n\n```text\n// popping an item from the stack\nFUNCTION Pop() [[blank]]\n    DECLARE Item : REAL\n    Item ← 0\n\n    [[blank]] BasePointer THEN\n        Item ← [[blank]]\n        TopPointer ← [[blank]]\n    ELSE\n        OUTPUT \"The stack is empty - error\"\n    ENDIF\n\n    [[blank]]\nENDFUNCTION\n```",
       "marks": 5,
       "kind": "code",
       "slots": null,
@@ -50,7 +50,7 @@
     {
       "id": "f1",
       "caption": null,
-      "alt": "A three-column table lists the identifiers BasePointer, TopPointer and Stack, their data types INTEGER, INTEGER and REAL, and their descriptions.",
+      "alt": "A table with columns Identifier, Data type and Description, listing BasePointer, TopPointer and Stack.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2023-on-31-q10-p01.png",
       "source_size": [
         852,
@@ -66,7 +66,5 @@
   ],
   "notes": [],
   "problems": [],
-  "warnings": [
-    "part b: code to complete has no [[blank]]. If the student fills in gaps, mark each one; if they write whole lines, this is fine"
-  ]
+  "warnings": []
 }

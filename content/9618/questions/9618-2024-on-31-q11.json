@@ -2,10 +2,10 @@
   "schema": "topicalpaper-question/v1",
   "id": "9618-2024-on-31-q11",
   "subject": "9618",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
-    "prompt": "q-extract-3",
+    "prompt": "q-extract-4",
     "date": "2026-09-25"
   },
   "source_images": [
@@ -42,7 +42,7 @@
       "partId": "c",
       "label": "(c)",
       "lead": null,
-      "text": "The linked list in part (a) is implemented using a 1D array of records. Each record contains a left pointer, data and a right pointer.\n\nThe following pseudocode represents a function that searches for an element in the array of records `BinTree`. It returns the index of the record if the element is found, or it returns a null pointer if the element is not found.\n\nComplete the pseudocode for the function.\n\n```text\nFUNCTION SearchTree(Item : STRING)\n    NowPtr ←\nWHILE NowPtr <> -1\n    IF THEN\n        NowPtr ← BinTree[NowPtr].LeftPtr\n    ELSE\n        IF BinTree[NowPtr].Data < Item THEN\n\n        ELSE\n            RETURN NowPtr\n        ENDIF\n    ENDIF\nENDWHILE\nRETURN NowPtr\nENDFUNCTION\n```",
+      "text": "The linked list in part (a) is implemented using a 1D array of records. Each record contains a left pointer, data and a right pointer.\n\nThe following pseudocode represents a function that searches for an element in the array of records `BinTree`. It returns the index of the record if the element is found, or it returns a null pointer if the element is not found.\n\nComplete the pseudocode for the function.\n\n```\nFUNCTION SearchTree(Item : STRING) [[blank]]\n\n    NowPtr ← [[blank]]\n    WHILE NowPtr <> −1\n        IF [[blank]] THEN\n            NowPtr ← BinTree[NowPtr].LeftPtr\n        ELSE\n            IF BinTree[NowPtr].Data < Item THEN\n[[blank]]\n            ELSE\n                RETURN NowPtr\n            ENDIF\n        ENDIF\n    ENDWHILE\n    RETURN NowPtr\nENDFUNCTION\n```",
       "marks": 4,
       "kind": "code",
       "slots": null,
@@ -53,7 +53,7 @@
     {
       "id": "f1",
       "caption": null,
-      "alt": "An ordered binary tree with Red at the root, Green and Yellow as its children, and Blue, Orange, Indigo and Violet below.",
+      "alt": "An ordered binary tree with Red at the root, Green and Yellow as its children, and Blue, Orange, Indigo and Violet below them.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p01.png",
       "source_size": [
         852,
@@ -69,7 +69,7 @@
     {
       "id": "f2",
       "caption": null,
-      "alt": "A linked-list diagram with a RootPtr box pointing to a Red node, a Green node linked below it, and a Blue node linked below Green.",
+      "alt": "A linked-list representation diagram with a RootPtr box, a Red node and a Green node connected by arrows, and a Blue node with −1 pointer values.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p01.png",
       "source_size": [
         852,
@@ -85,7 +85,7 @@
     {
       "id": "f3",
       "caption": null,
-      "alt": "A record-array table with indices 0 to 7 and Data entries Red, Green, Yellow, Blue, Orange, Indigo and Violet, alongside RootPtr and FreePtr boxes.",
+      "alt": "A record-array diagram with a RootPtr box, a table of records indexed 0 to 7 with Data values, and a TreePtr box.",
       "source_image": "/9618/9618-topic-19-computational-thinking-and-problem-solving/assets/9618-2024-on-31-q11-p02.png",
       "source_size": [
         852,
@@ -94,14 +94,12 @@
       "box": [
         0.0962,
         0.0875,
-        0.9941,
-        0.7526
+        0.9193,
+        0.3659
       ]
     }
   ],
   "notes": [],
   "problems": [],
-  "warnings": [
-    "part c: code to complete has no [[blank]]. If the student fills in gaps, mark each one; if they write whole lines, this is fine"
-  ]
+  "warnings": []
 }
