@@ -480,7 +480,14 @@ def write_topic_html(subject, defs, grouped):
 
 def write_index(subject, defs, grouped, papers, missing):
     subject_dir = ROOT / subject
-    out = ["<!doctype html><html lang='en'><head><meta charset='utf-8'>", f"<title>{subject} {SUBJECTS[subject]['name']} topical collection</title>", css(), "</head><body>"]
+    out = [
+        "<!doctype html><html lang='en'><head><meta charset='utf-8'>",
+        f"<title>{subject} {SUBJECTS[subject]['name']} topical collection</title>",
+        css(),
+        "<script>\n  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n</script>",
+        '<script defer src="/_vercel/insights/script.js"></script>',
+        "</head><body>",
+    ]
     out.append(f"<header><h1>{subject} {html.escape(SUBJECTS[subject]['name'])}</h1><div class='meta'>2021–2026 · A2 topical question crops · generated {TODAY}</div></header>")
     out.append("<p>Questions are grouped by official A2 topic. Each entry links to printable question and answer files.</p><div class='grid'>")
     for _, label, slug in defs:
