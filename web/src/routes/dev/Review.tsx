@@ -45,7 +45,7 @@ function Frame({ title, children }: { title: string; children: ReactNode }) {
   return (
     <div className="min-h-dvh bg-desk text-ink">
       <header className="flex h-14 items-center gap-3 border-b border-rule px-5">
-        <Link to="/dev/review" className="font-serif text-lg font-semibold text-ink no-underline">
+        <Link to="/dev/review" className="text-lg font-semibold text-ink no-underline">
           Review extractions
         </Link>
         <span className="truncate text-sm text-ink-muted">{title}</span>
@@ -83,7 +83,7 @@ function ReviewIndex() {
     <Frame title="Pick a topic">
       <main id="main" className="mx-auto max-w-5xl px-5 py-8">
         <section aria-labelledby="to-review" className="mb-8 rounded-md border border-rule-strong bg-paper px-5 py-4">
-          <h2 id="to-review" className="m-0 mb-2 font-serif text-lg font-semibold">
+          <h2 id="to-review" className="m-0 mb-2 text-lg font-semibold">
             To review
           </h2>
           {summary === null ? (

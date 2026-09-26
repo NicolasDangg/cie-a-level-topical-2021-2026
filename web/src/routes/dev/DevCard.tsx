@@ -26,7 +26,7 @@ export default function DevCard() {
         className="flex flex-wrap items-center gap-3 border-b border-rule px-4 py-3 sm:px-6"
         data-print="hide"
       >
-        <h1 className="m-0 font-serif text-xl font-semibold text-ink">Question card</h1>
+        <h1 className="m-0 text-xl font-semibold text-ink">Question card</h1>
         <span className="font-mono text-xs text-ink-muted">/dev/card</span>
         <span className="ml-auto">
           <ThemeMenu />

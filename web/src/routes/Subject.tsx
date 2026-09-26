@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router'
 import { AppShell, PageError, PageLoading } from '../components/AppShell'
 import { SUBJECTS, isSubject, loadSubject, useResource } from '../content/api'
+import { FEATURES } from '../lib/features'
 import { classicHref } from '../lib/view-choice'
 import NotFound from './NotFound'
 
@@ -21,34 +22,42 @@ function SubjectPage({ subject }: { subject: string }) {
         <PageError title={`${name} didn't load`} detail="Check your connection and try again." onRetry={index.retry} />
       )}
       {index.status === 'ready' && (
-        <main id="main" className="mx-auto max-w-[var(--measure)] px-4 pb-16 pt-10">
-          <h1 className="m-0 font-serif text-3xl font-semibold tracking-tight">
+        <main id="main" className="mx-auto max-w-[68rem] px-4 pb-16 pt-10 sm:px-8">
+          <h1 className="m-0 text-3xl font-semibold tracking-tight">
             <span className="mr-3 font-mono text-lg font-normal text-ink-muted">{subject}</span>
             {name}
           </h1>
           <p className="mt-2 text-ink-muted">2021–2026 · A2 topical questions, grouped by syllabus topic.</p>
 
-          <ul className="m-0 mt-8 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2">
+          <ul className="m-0 mt-8 list-none border-b border-rule p-0">
             {index.data.topics.map((t) => (
-              <li key={t.slug}>
-                <Link
-                  to={`/${subject}/${t.slug}`}
-                  className="flex h-full flex-col gap-1 rounded-md border border-rule bg-paper px-4 py-3.5 text-ink no-underline hover:border-rule-strong"
-                >
-                  <span className="flex items-baseline gap-2">
-                    {t.number !== null && <span className="font-mono text-xs text-ink-muted">{t.number}</span>}
-                    <span className="font-medium">{t.label}</span>
-                  </span>
-                  <span className="text-sm text-ink-muted">
-                    {t.question_count} questions
-                    {t.distinct_count < t.question_count && ` · ${t.distinct_count} after repeats`}
-                  </span>
+              <li
+                key={t.slug}
+                className="grid grid-cols-[2rem_minmax(0,1fr)_auto] items-center gap-x-4 gap-y-1 border-t border-rule py-3 sm:grid-cols-[2rem_minmax(0,1fr)_12rem_auto]"
+              >
+                <span className="font-mono text-xs text-ink-muted">{t.number ?? ''}</span>
+                <Link to={`/${subject}/${t.slug}`} className="font-medium text-ink no-underline hover:text-accent">
+                  {t.label}
                 </Link>
+                <span className="font-mono text-[13px] text-ink-muted max-sm:col-start-2 max-sm:row-start-2">
+                  {t.question_count} questions
+                  {t.distinct_count < t.question_count && <span className="text-ink-faint"> · {t.distinct_count} distinct</span>}
+                </span>
+                <span className="flex gap-3.5 text-sm max-sm:col-start-3 max-sm:row-start-1">
+                  <Link to={`/${subject}/${t.slug}`} className="text-ink-muted underline-offset-2 hover:text-ink">
+                    Browse
+                  </Link>
+                  {FEATURES.practiceSets && (
+                    <Link to={`/practice?subject=${subject}&topic=${t.slug}`} className="text-accent underline-offset-2">
+                      Practise
+                    </Link>
+                  )}
+                </span>
               </li>
             ))}
           </ul>
 
-          <details className="mt-10 rounded-md border border-rule bg-paper">
+          <details className="mt-10 rounded-lg bg-surface">
             <summary className="cursor-pointer px-4 py-3 text-sm font-medium">
               Paper coverage <span className="font-normal text-ink-muted">· {index.data.papers.length} papers</span>
             </summary>

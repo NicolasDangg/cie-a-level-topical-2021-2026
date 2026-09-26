@@ -7,7 +7,7 @@ import { RichText } from './RichText'
 export function QuestionText({ question }: { question: ExtractedQuestion }) {
   const { figures } = question
   return (
-    <div className="flex flex-col gap-5 font-serif text-[17px] leading-relaxed text-ink">
+    <div className="flex flex-col gap-5 text-[17px] leading-relaxed text-ink">
       {question.stem && <RichText text={question.stem} figures={figures} />}
       {question.parts.map((part) => (
         // A question without lettered parts has one part with no label.
@@ -31,7 +31,7 @@ export function QuestionText({ question }: { question: ExtractedQuestion }) {
                   <span>
                     {part.answer.symbol && (
                       <>
-                        <i className="font-serif">{part.answer.symbol}</i> ={' '}
+                        <i className="">{part.answer.symbol}</i> ={' '}
                       </>
                     )}
                     <span aria-hidden>…………</span>

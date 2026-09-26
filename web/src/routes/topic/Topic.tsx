@@ -155,7 +155,7 @@ function TopicBody({
       <main id="main" className="min-w-0 pb-16 pt-8 lg:pt-10">
         <div className="mx-auto max-w-[var(--measure)]">
           <header className="mb-6 border-b border-rule pb-4 print:border-[#17202a]">
-            <h1 className="m-0 font-serif text-3xl font-semibold tracking-tight">{data.topic.label}</h1>
+            <h1 className="m-0 text-3xl font-semibold tracking-tight">{data.topic.label}</h1>
             <p className="m-0 mt-1.5 text-sm text-ink-muted">
               <span className="font-mono">{subject}</span> {subjectName} · A2 topical questions · {count}
               {hiddenRepeats > 0 && <span data-print="hide"> · {hiddenRepeats} repeats hidden</span>}

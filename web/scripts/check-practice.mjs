@@ -14,7 +14,7 @@ const require = createRequire(import.meta.url)
 const axeSource = readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8')
 const outDir = path.resolve(process.argv[2] ?? 'screenshots/practice')
 mkdirSync(outDir, { recursive: true })
-const BASE = 'http://localhost:5173/app'
+const BASE = `${process.env.APP_URL ?? 'http://localhost:5173'}/app`
 const CS = '9618-topic-19-computational-thinking-and-problem-solving'
 // A fill-in-the-gaps question and a trace table (a diagram part).
 const SET = `${BASE}/practice/set?s=9618&t=${CS}&q=9618-2022-on-31-q12,9618-2025-mj-33-q13&mode=test`
@@ -81,9 +81,13 @@ try {
   await gaps.nth(1).fill('IF Lower > Upper')
   await p.locator('[role=toolbar][aria-label="Insert a symbol"] button:has-text("π")').click()
   if ((await gaps.nth(1).inputValue()) !== 'IF Lower > Upperπ') problems.push('answering: symbol not inserted at the caret')
+  if (!(await p.textContent('main')).includes('2/6')) problems.push('answering: gap progress not shown')
+  // Answers are written in the document: open (b)(i), type, and it collapses to a preview.
+  await p.click('main button:has-text("Answer (b)(i)")')
   await p.locator('textarea[aria-label^="(b)(i)"]').fill('O(n)')
-  if (!(await p.textContent('#answer-a-title >> xpath=../..')).includes('2/6')) problems.push('answering: gap progress not shown')
-  await p.click('button:has-text("Flag for review")')
+  await p.locator('main button:has-text("Done")').click()
+  if (!(await p.isVisible('main button[aria-label^="Edit your answer to (b)(i)"]'))) problems.push('answering: answered part not shown as a preview')
+  await p.click('main header button[aria-pressed]')
   await settle(p)
   await axe(p, 'answering')
   await p.screenshot({ path: path.join(outDir, 'answering-desktop.png') })
@@ -93,7 +97,7 @@ try {
   if (!(await p.isVisible('button[aria-pressed="true"]:has-text("Flagged")'))) problems.push('answering: flag lost on reload')
 
   // 3. Drawing on the trace table (the second figure, after the instruction).
-  await p.click('footer button:has-text("Next question")')
+  await p.locator('main button:has-text("Next question")').last().click()
   await p.waitForSelector('svg[role=application]')
   const caption = await p.locator('svg[role=application]').getAttribute('aria-label')
   if (!/Fig|figure/.test(caption) || (await p.locator('svg[role=application]').count()) !== 1) problems.push(`drawing: unexpected layer ${caption}`)
@@ -118,7 +122,7 @@ try {
   await p.screenshot({ path: path.join(outDir, 'drawing-desktop.png') })
 
   // 4. Submit and self-mark.
-  await p.click('header button:has-text("Submit set")')
+  await p.click('aside button:has-text("Submit set")')
   await p.waitForSelector('[role=dialog]')
   if (!(await p.textContent('[role=dialog]')).includes('not answered')) problems.push('submit: unanswered parts not mentioned')
   await p.click('[role=dialog] button:has-text("Submit")')
@@ -149,11 +153,13 @@ try {
     await phone.waitForSelector('text=Build a practice set')
     await phone.screenshot({ path: path.join(outDir, `picker-phone-${theme}.png`), fullPage: true })
     await phone.goto(SET, { waitUntil: 'networkidle' })
-    await phone.waitForSelector('[role=tablist]')
+    await phone.waitForSelector('article .gap-input')
     await settle(phone)
     await axe(phone, `answering phone ${theme}`)
-    await phone.screenshot({ path: path.join(outDir, `question-phone-${theme}.png`) })
-    await phone.click('[role=tab]:has-text("Answer")')
+    await phone.screenshot({ path: path.join(outDir, `answering-phone-${theme}.png`) })
+    // The symbol bar lives in the open answer box on a phone.
+    await phone.click('main button:has-text("Answer (b)(i)")')
+    if (!(await phone.isVisible('main [role=toolbar][aria-label="Insert a symbol"]'))) problems.push(`phone ${theme}: no symbol bar in the answer box`)
     await phone.screenshot({ path: path.join(outDir, `answer-phone-${theme}.png`) })
     const overflow = await phone.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)
     if (overflow) problems.push(`phone ${theme}: page scrolls sideways`)

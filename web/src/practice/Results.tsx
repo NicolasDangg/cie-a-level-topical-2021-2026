@@ -80,7 +80,7 @@ function ResultsView({ spec, topic, questions }: { spec: SetSpec; topic: TopicFi
                 {topic.topic.label} · {subjectName} {spec.subject} · {spec.mode === 'test' ? 'Test' : 'Practice'} · {questions.length} question
                 {questions.length === 1 ? '' : 's'}
               </p>
-              <h1 className="m-0 mt-1 font-serif text-3xl font-semibold tracking-tight">Set complete</h1>
+              <h1 className="m-0 mt-1 text-3xl font-semibold tracking-tight">Set complete</h1>
             </div>
             <div className="text-right">
               <p className="m-0 font-mono text-mark" aria-label={`${awarded} out of ${total} marks so far`}>
@@ -254,7 +254,7 @@ function PartAnswerView({ question: q, index, answer }: { question: ExtractedQue
   return (
     <div className="flex flex-col gap-2">
       {part.text.includes('[[blank]]') && (answer?.blanks ?? []).some((b) => b?.trim()) && (
-        <div className="font-serif text-[15px]">
+        <div className="text-[15px]">
           <RichText
             text={part.text}
             figures={[]}
@@ -274,7 +274,7 @@ function PartAnswerView({ question: q, index, answer }: { question: ExtractedQue
       {answer?.text?.trim() && <p className={`m-0 whitespace-pre-wrap ${part.kind === 'code' ? 'font-mono text-sm' : ''} ${pen}`}>{answer.text}</p>}
       {answer?.final?.trim() && (
         <p className="m-0 text-[15px]">
-          {part.answer?.symbol && <i className="font-serif">{part.answer.symbol} = </i>}
+          {part.answer?.symbol && <i className="">{part.answer.symbol} = </i>}
           <span className={`font-mono ${pen}`}>{answer.final}</span> {part.answer?.unit}
         </p>
       )}
