@@ -1,9 +1,12 @@
-import { ArrowRight, ListChecks } from 'lucide-react'
+import { ArrowRight, FolderGit2, ListChecks, Terminal } from 'lucide-react'
 import { Link } from 'react-router'
 import { AppShell } from '../components/AppShell'
 import { SUBJECTS, loadSubject, useResource } from '../content/api'
 import { FEATURES } from '../lib/features'
 import { classicHref } from '../lib/view-choice'
+
+const REPO_URL = 'https://github.com/NicolasDangg/cie-a-level-topical-2021-2026'
+const CLI_URL = 'https://github.com/NicolasDangg/pastpaper-retrieve-aslevel'
 
 export default function Home() {
   return (
@@ -20,9 +23,25 @@ export default function Home() {
             <span className="block font-medium text-ink">Phuc Nguyen (Nicolas) Dangg</span>
             <span className="block">A-Level student</span>
             <span className="block">
-              All credits to{' '}
+              Past papers retrieved from{' '}
               <a href="https://pastpapers.co" className="text-ink underline decoration-rule-strong underline-offset-2">
                 pastpapers.co
+              </a>
+            </span>
+            <span className="mt-3 flex flex-wrap gap-2 sm:justify-end">
+              <a
+                href={REPO_URL}
+                className="inline-flex items-center gap-1.5 rounded-md border border-rule px-2.5 py-1.5 text-ink no-underline hover:bg-desk"
+              >
+                <FolderGit2 size={15} aria-hidden />
+                Source on GitHub
+              </a>
+              <a
+                href={CLI_URL}
+                className="inline-flex items-center gap-1.5 rounded-md border border-rule px-2.5 py-1.5 text-ink no-underline hover:bg-desk"
+              >
+                <Terminal size={15} aria-hidden />
+                Past paper retrieval CLI
               </a>
             </span>
           </p>

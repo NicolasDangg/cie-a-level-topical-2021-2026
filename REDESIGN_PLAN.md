@@ -163,7 +163,7 @@ Build a dev-only route, `/dev/card`, that shows the card in every one of these s
 - **Top bar:** site name, then subject, then a topic breadcrumb. On the right: a "Practice sets" link, a theme menu (light / dark / system, plus the dark-paper toggle), and the "Classic view" link.
 - **Topic page (Browse):** a narrow left rail of filters (year, paper, session, "Hide duplicate variants", on by default), a centre reading column of question cards, and the answer view as a right-hand panel that slides in. It's a component, not an iframe. On mobile the rail becomes a filter sheet and the answer panel becomes full-screen. Each topic page also offers "Practice this topic", which opens the set picker with the topic chosen.
 - **Subject index:** topic cards showing the question count (and progress once sets exist).
-- **Home:** subject cards, with the author credit and the "All credits to pastpapers.co" credit kept.
+- **Home:** subject cards, with the author credit and the "Past papers retrieved from pastpapers.co" credit and GitHub links (site repo and the retrieval CLI) kept.
 - Keep the Vercel analytics snippet from the current pages.
 
 ### Classic ↔ App switching
