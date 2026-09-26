@@ -1,0 +1,106 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-42-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-42-q02-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-42-q02-p02.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-42-q02-p03.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Define gravitational potential at a point.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "The Moon may be considered to be an isolated uniform sphere of mass 7.3 × 10²² kg and radius 1.7 × 10⁶ m.\n\nCalculate the gravitational potential at the surface of the Moon. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gravitational potential",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An isolated uniform spherical planet has gravitational potential *ϕ* at its surface.\n\nA particle of mass *m* is projected vertically upwards from the surface. The particle is given just enough kinetic energy to travel to an infinite distance away from the planet, escaping from the gravitational pull of the planet, without any additional work being done on it.",
+      "text": "Determine an expression, in terms of *m* and *ϕ*, for the gravitational potential energy *E*ₚ of the particle at the surface of the planet.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "Eₚ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the speed *v* at which the particle is projected upwards from the surface of the planet is given by\n\n*v* = √(−2*ϕ*).",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A particle is moving upwards at the surface of the Moon.\n\nUse your answer in (a)(ii) and the expression in (b)(ii) to determine the minimum speed of this particle that will result in it escaping from the gravitational pull of the Moon.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "speed",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Hydrogen may be assumed to be an ideal gas.\nThe mass of a hydrogen molecule is 3.34 × 10⁻²⁷ kg.\n\nCalculate the root-mean-square (r.m.s.) speed of a hydrogen molecule in hydrogen gas that is at a temperature of 400 K.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. speed",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The surface of the Moon reaches temperatures of approximately 400 K when in direct sunlight.\n\nUse your answers in (c) and (d) to suggest a reason why the Moon does not have an atmosphere consisting of hydrogen.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

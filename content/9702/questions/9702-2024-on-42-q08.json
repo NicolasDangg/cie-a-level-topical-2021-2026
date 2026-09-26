@@ -1,0 +1,93 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-42-q08-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-42-q08-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the frequency of an alternating current.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An alternating current *I* in a resistor of resistance 680 Ω varies with time *t* according to\n\n*I* = 3.5 sin (40π*t*)\n\nwhere *I* is in A and *t* is in s.",
+      "text": "Show that the period of the alternating current is 50 ms.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 8.1, sketch the variation of *I* with *t* between *t* = 0 and *t* = 100 ms.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Determine the root-mean-square (r.m.s.) current in the resistor.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. current",
+        "unit": "A"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Use data from (b), including your answer in (b)(ii), to show by calculation that the mean power in the 680 Ω resistor is half of the peak power.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "A blank grid graph with vertical axis *I* / A marked from −4 to 4 and horizontal axis *t* / ms marked from 0 to 100.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-42-q08-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2242,
+        0.427,
+        0.7758,
+        0.748
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

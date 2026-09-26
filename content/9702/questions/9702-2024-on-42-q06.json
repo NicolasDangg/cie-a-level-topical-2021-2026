@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-42-q06-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-42-q06-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Coulomb’s law.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Fig. 6.1 shows an isolated hollow conducting sphere that is positively charged.\n\n[[fig:f1]]\n\nOn Fig. 6.1, draw field lines to represent the electric field outside the sphere.",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Fig. 6.2 shows the variation of the electric field strength *E* with distance *x* from the centre of the sphere in (b).\n\n[[fig:f2]]",
+      "text": "Determine the radius, in cm, of the sphere.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "radius",
+        "unit": "cm"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Calculate the charge on the sphere.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "charge",
+        "unit": "C"
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Suggest an explanation for the fact that the electric field inside the sphere is zero.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A hollow circular sphere with positive charge symbols distributed around its inside edge.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-42-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2858,
+        0.1794,
+        0.7178,
+        0.4818
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "A gridded graph of electric field strength against distance, with a decreasing curve and labelled axes.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-42-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.198,
+        0.6258,
+        0.8075,
+        0.897
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

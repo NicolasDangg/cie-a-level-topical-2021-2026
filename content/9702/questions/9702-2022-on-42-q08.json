@@ -1,0 +1,115 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-42-q08",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q08-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q08-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Lenz’s law of electromagnetic induction.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Two coils of insulated wire are wound on an iron bar, as shown in Fig. 8.1.\n\n[[fig:f1]]\n\nThere is a current *I*₁ in coil 1 that varies with time *t* as shown in Fig. 8.2.\n\n[[fig:f2]]",
+      "text": "The variation with *t* of *I*₁ can be represented by the equation\n\n*I*₁ = *X* sin *Yt*\n\nwhere *X* and *Y* are constants.\n\nUse Fig. 8.2 to determine the values of *X* and *Y*. Give units with your answers.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "X and Y",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The current in coil 1 gives rise to a magnetic field in the iron bar. Assume that the flux density of this magnetic field is proportional to *I*₁.\n\nAn alternating electromotive force (e.m.f.) is induced across coil 2. The p.d. across coil 2 is measured using the voltmeter and has a root-mean-square (r.m.s) value of 4.6 V.\n\nOn Fig. 8.3, sketch a line to show the variation with *t* of *V*₂ between *t* = 0 and *t* = 0.08 s.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use the laws of electromagnetic induction to explain the shape of your line in (b)(ii).",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "Diagram of two coils wound on an iron bar, with a current source in coil 1 and a voltmeter across coil 2.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1502,
+        0.1804,
+        0.8498,
+        0.3752
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 8.2",
+      "alt": "Graph of current I₁ in amperes against time t in seconds, showing a sinusoidal variation.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.224,
+        0.473,
+        0.7829,
+        0.7987
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 8.3",
+      "alt": "Blank graph grid of V₂ in volts against time t in seconds.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-on-42-q08-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.221,
+        0.4019,
+        0.7817,
+        0.7226
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,115 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-on-42-q05-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-on-42-q05-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "A steel ball on the end of a thin string oscillates with small oscillations, as shown in Fig. 5.1.\n\n[[fig:f1]]\n\nThe displacement of the centre of the ball from its equilibrium position is *x*.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Fig. 5.2 shows the variation with *x* of the acceleration *a* of the ball.\n\n[[fig:f2]]",
+      "text": "Explain how Fig. 5.2 shows that the oscillations of the ball are simple harmonic.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Determine the period *T* of the oscillations.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "T",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "At time *t* = 0, when the displacement of the ball has its maximum value, the ball is immersed in a trough containing thick oil so that the ball is just below the surface of the oil. This results in the subsequent motion of the ball being heavily damped.",
+      "text": "State what is meant by damping.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 5.3, sketch a possible variation of the displacement *x* of the ball with *t* between *t* = 0 and *t* = 2*T*.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1 (not to scale)",
+      "alt": "A steel ball suspended from a thin string is shown displaced from its dashed equilibrium position, with the oscillations indicated.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-on-42-q05-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.17,
+        0.0409,
+        0.811,
+        0.325
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "A graph of acceleration a against displacement x with a straight line sloping downwards through the origin.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-on-42-q05-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.267,
+        0.4383,
+        0.7394,
+        0.6867
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 5.3",
+      "alt": "A blank graph with displacement x on the vertical axis and time t on the horizontal axis, marked from 0 to 2T.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-on-42-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.21,
+        0.4862,
+        0.7847,
+        0.7355
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

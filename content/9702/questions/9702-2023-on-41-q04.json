@@ -1,0 +1,102 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-on-41-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-on-41-q04-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": "A heavy metal sphere of mass 0.81 kg is suspended from a string. The sphere is undergoing small oscillations from side to side, as shown in Fig. 4.1.\n\n[[fig:f1]]\n\nThe oscillations of the sphere may be considered to be simple harmonic with amplitude 0.036 m and period 3.0 s.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by simple harmonic motion.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Calculate:",
+      "text": "the angular frequency of the oscillations",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "angular frequency",
+        "unit": "rad s⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the total energy of the oscillations.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "total energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The suspended sphere is now lowered into water. The sphere is given a sideways displacement of +0.036 m from its equilibrium position and is then released at time *t* = 0. The water causes the motion of the sphere to be critically damped.\n\nOn Fig. 4.2, sketch the variation of the displacement *x* of the sphere from its equilibrium position with *t* from *t* = 0 to *t* = 6.0 s.\n\n[[fig:f2]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A heavy sphere hangs from a string attached to a support, with dashed positions showing its oscillation about the vertical equilibrium position.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-on-41-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.294,
+        0.0717,
+        0.7031,
+        0.349
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A blank grid for sketching displacement x in metres against time t in seconds, with time marked from 0 to 6 s and displacement from −0.04 m to 0.04 m.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-on-41-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.11,
+        0.3682,
+        0.8799,
+        0.6947
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

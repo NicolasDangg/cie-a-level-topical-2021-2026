@@ -1,0 +1,184 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-51-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2024-on-51-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2024-on-51-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2024-on-51-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2024-on-51-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates an electrical circuit. A power supply of electromotive force (e.m.f.) *E*ₛ and negligible internal resistance is connected in series to three resistors, each of resistance *Z*.\n\nA cell, an ammeter and a resistor of resistance *R* are connected in parallel across one of these resistors, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nThe current *I* is measured by the ammeter for different values of *R*.\n\nIt is suggested that *I* and *R* are related by the equation\n\n3*E* − *E*ₛ = *I*(3*R* + 2*Z)\n\nwhere *E* is the e.m.f. of the cell.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of 1/*I* on the y-axis against *R* on the x-axis.\n\nDetermine expressions for the gradient and y-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": [
+        "gradient",
+        "y-intercept"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *R* and *I* are given in Table 2.1.\n\n[[fig:f2]]\n\nCalculate and record values of 1/*I* / A⁻¹ in Table 2.1. Include the absolute uncertainties in 1/*I*.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of 1/*I* / A⁻¹ against *R* / kΩ. Include error bars for 1/*I*.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *E* and *Z*. Include appropriate units.\n\nData: *E*ₛ = (2.20 ± 0.05) V",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Determine the absolute uncertainty in *E*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "absolute uncertainty in E",
+        "unit": null
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The experiment is repeated. Determine the resistance *R* that gives a value of *I* of 250 µA.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "R",
+        "unit": "Ω"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "Circuit diagram showing a power supply and three series resistors, with a cell, ammeter and resistor connected in parallel across one of the resistors.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2024-on-51-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2688,
+        0.1162,
+        0.7359,
+        0.3502
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "A table with columns for resistance R in kΩ, current I in µA, and 1/I in A⁻¹; six rows give values of R and I.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2024-on-51-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.162,
+        0.0922,
+        0.8404,
+        0.4342
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A blank graph grid with 1/I in A⁻¹ on the vertical axis and R in kΩ on the horizontal axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2024-on-51-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0,
+        0.0,
+        0.9718,
+        0.901
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "figure f3: placed 0 times in the text, expected once"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,138 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-41-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define gravitational field at a point.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 3.1 shows an isolated point mass of mass *M*.\n\n[[fig:f1]]\n\nPoint P is at distance *x* from the point mass.",
+      "text": "By considering the force exerted by the point mass on a test mass of mass *m* placed at P, derive an equation for the gravitational field strength *g* at P, in terms of *M* and *x*. Identify any other symbols you use.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 3.1, draw an arrow to indicate the direction of the gravitational field at P.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Point Q is at distance $\\frac{x}{2}$ from the point mass on the opposite side of the mass from P, as shown in Fig. 3.2.\n\n[[fig:f2]]\n\nCompare the gravitational field at Q with that at P.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Two identical isolated uniform spheres X and Y each have radius *R*. The centres of the spheres are separated by distance *L*, as shown in Fig. 3.3.\n\n[[fig:f3]]\n\nPoint P lies on the line joining the centres of X and Y, and is at a variable displacement *x* from the centre of sphere X.\nThe gravitational field strength at the surface of each sphere is *g*₀.\n\nOn Fig. 3.4, sketch the variation with *x* of the gravitational field *g* at point P between *x* = *R* and *x* = *L* − *R*.\n\n[[fig:f4]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A point mass of mass M and point P are separated by distance x.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.33,
+        0.1458,
+        0.6761,
+        0.21
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 3.2",
+      "alt": "Point Q lies x/2 to the left of mass M and point P lies x to its right.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.27,
+        0.66,
+        0.73,
+        0.72
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 3.3",
+      "alt": "Spheres X and Y are separated by distance L, with point P at distance x from the centre of X.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2523,
+        0.0749,
+        0.7488,
+        0.18
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 3.4",
+      "alt": "A gridded graph for gravitational field g against displacement x, with marked values from −g₀ to g₀ and positions R, L/2 and L−R.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2025-on-41-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2231,
+        0.3377,
+        0.7696,
+        0.676
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

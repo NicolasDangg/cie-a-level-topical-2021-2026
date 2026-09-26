@@ -1,0 +1,86 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-42-q06-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-42-q06-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "A heavy aluminium disc has a radius of 0.36 m. The disc rotates with the wheels of a vehicle and forms part of an electromagnetic braking system on the vehicle.\n\nIn order to activate the braking system, a uniform magnetic field of flux density 0.17 T is switched on. This magnetic field is perpendicular to the plane of rotation of the disc, as shown in Fig. 6.1.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Define magnetic flux.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Calculate the magnetic flux through the disc. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "magnetic flux",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The disc is rotating at a rate of 25 revolutions per second.\n\nCalculate the magnitude of the electromotive force (e.m.f.) induced between the axle and the rim of the disc.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "e.m.f.",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The axle and the rim are connected into an external circuit that enables the energy of the rotation of the disc to be stored for future use. The direction of rotation is shown in Fig. 6.1.\n\nUse Lenz’s law of electromagnetic induction to determine whether the current in the disc is from the rim to the axle or from the axle to the rim. Explain your reasoning.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A rotating aluminium disc with a central axle and outer rim is shown in a uniform magnetic field directed horizontally through the disc.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-mj-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0939,
+        0.126,
+        0.899,
+        0.411
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

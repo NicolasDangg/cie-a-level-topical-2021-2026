@@ -1,0 +1,96 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-41-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-on-41-q08-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-on-41-q08-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by a photon.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A stationary nucleus of uranium-238 (²³⁸₉₂U) undergoes alpha decay to produce a nucleus of thorium-234 (²³⁴₉₀Th). The kinetic energy of the emitted alpha particle is 4.200 MeV. A gamma-ray photon is also emitted during the decay.\n\nAssume that the recoil kinetic energy of the thorium nucleus is negligible.\n\nTable 8.1 shows the masses of the nuclides involved in the decay reaction. The mass of the uranium-238 nuclide is missing.\n\n[[fig:f1]]\n\nThe total energy released in the decay of the nucleus of uranium-238 is 4.274 MeV.",
+      "text": "Calculate the mass, in u, of the uranium-238 nuclide. Give your answer to five decimal places.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mass",
+        "unit": "u"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine a value for the wavelength of the gamma radiation emitted during the decay of the uranium-238 nucleus.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "In practice, the rebound kinetic energy of the thorium nucleus is not negligible.\n\nExplain, without further calculation, how your answer in (b)(ii) compares with the true wavelength of gamma radiation emitted during the decay of the uranium-238 nucleus.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Gamma radiation emitted during the decay of a sample of uranium-238 has a single wavelength.\n\nNuclei of cobalt-60 (⁶⁰₂₇Co) decay by beta emission, and also emit gamma radiation in the process.\n\nSuggest why there is not a single wavelength for the gamma radiation emitted during the decay of a sample of cobalt-60.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 8.1",
+      "alt": "A two-column table gives nuclide masses for alpha, thorium-234, and uranium-238; the uranium-238 mass is blank.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-on-41-q08-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2758,
+        0.3397,
+        0.7254,
+        0.5144
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

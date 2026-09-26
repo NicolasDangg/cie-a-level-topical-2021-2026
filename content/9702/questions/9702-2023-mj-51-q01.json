@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-51-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2023-mj-51-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-51-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-51-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "A wooden cube of mass *A* is placed on an inclined plane. The cube is attached to a cylinder of mass *B* using string that passes over a pulley, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe angle between the plane and the horizontal surface is *θ*. Initially the cylinder is held at rest. The cylinder is released. The time for the cylinder to fall a distance *d* is *t*.\n\nIt is suggested that *t* is related to *θ* by the relationship\n\n$\\frac{2d}{t^2} = -\\frac{AH \\sin\\theta}{(A + B)} - \\frac{KA}{(A + B)}$\n\nwhere *H* and *K* are constants.\n\nPlan a laboratory experiment to test the relationship between *t* and *θ*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for *H* and *K*.\n\nIn your plan you should include:\n\n• the procedure to be followed\n\n• the measurements to be taken\n\n• the control of variables\n\n• the analysis of the data\n\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1 (not to scale)",
+      "alt": "A wooden cube on an inclined plane is connected by a string over a pulley to a hanging cylinder, with the angle θ shown between the plane and a horizontal surface.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-51-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1068,
+        0.0548,
+        0.8944,
+        0.263
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-mj-42-q10-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-mj-42-q10-p02.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-mj-42-q10-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Radioactive decay is a spontaneous process.\n\nState the meaning, in this context, of the term spontaneous.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Two radioactive isotopes *X* and *Y* each decay to form a stable isotope.\nA sample initially contains only atoms of isotope *X*. At this time, its activity is 4*A*.\nAnother sample initially contains only atoms of *Y*. At this time, its activity is *A*.\n\nFig. 10.1 shows the variation of the activity of each sample with time *t* between *t* = 0 and *t* = 6*T*.\n\n[[fig:f1]]",
+      "text": "Complete Table 10.1 to give expressions, in terms of either or both of *A* and *T*, for the quantities indicated for each of the samples.\n\n[[fig:f2]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine, in terms of *T*, the time at which the two samples will have equal activities.\n\ntime = [[blank]] *T*",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "time",
+        "unit": "T"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A radiation detector is placed near to one of the samples in (b).\n\nExplain why the count rate measured by the detector is less than the activity of the sample.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 10.1",
+      "alt": "A graph of activity against time from 0 to 6T, showing decreasing curves for samples X and Y.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-mj-42-q10-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.099,
+        0.269,
+        0.9073,
+        0.619
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 10.1",
+      "alt": "A table with columns for sample, half-life, decay constant, initial activity and initial number of nuclei, and rows for samples X and Y.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-mj-42-q10-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0516,
+        0.7588,
+        0.9495,
+        0.9062
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

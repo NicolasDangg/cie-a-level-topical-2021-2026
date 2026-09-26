@@ -1,0 +1,184 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-51-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2022-on-51-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2022-on-51-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2022-on-51-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2022-on-51-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates a circuit containing resistors and a metal wire as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nResistors *Y* and *Z* have resistances *Y* and *Z* respectively.\n\nThe student connects a resistor of resistance *R* between P and Q.\n\nThe student then adjusts the length of the wire between the crocodile clips until the voltmeter reads zero. The student measures the length *L* of wire between the crocodile clips.\n\nThe student repeats the experiment with different values of *R*.\n\nIt is suggested that *L* and *R* are related by the equation\n\n$\\dfrac{Z}{R}=\\dfrac{4\\rho L}{\\pi Yd^2}$\n\nwhere *d* is the diameter of the wire and *ρ* is the resistivity of the metal.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of *L* on the y-axis against $\\dfrac{1}{R}$ on the x-axis.\n\nDetermine an expression for the gradient.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *R* and *L* are given in Table 2.1. Each resistance value *R* has a percentage uncertainty of ±5%.\n\n[[fig:f2]]\n\nCalculate and record values of $\\dfrac{1}{R}$ / 10⁻³ Ω⁻¹ in Table 2.1. Include the absolute uncertainties in $\\dfrac{1}{R}$.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of *L* / cm against $\\dfrac{1}{R}$ / 10⁻³ Ω⁻¹.\n\nInclude error bars for $\\dfrac{1}{R}$.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The student measures the diameter of the wire. The student’s values are:\n\n0.263 mm     0.262 mm     0.263 mm     0.257 mm     0.262 mm     0.259 mm.\n\nDetermine the average diameter *d*. Include the absolute uncertainty in *d*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "d",
+        "unit": "mm"
+      }
+    },
+    {
+      "partId": "e-i",
+      "label": "(e)(i)",
+      "lead": null,
+      "text": "Resistors *Y* and *Z* each have a resistance of 22 Ω ± 5%.\n\nUsing your answers to (a), (c)(iii) and (d), determine the value of *ρ*. Include an appropriate unit.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ρ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "e-ii",
+      "label": "(e)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in *ρ*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty in ρ",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "f",
+      "label": "(f)",
+      "lead": null,
+      "text": "Determine the resistance *R* that would give a value of *L* of 95.0 cm. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "R",
+        "unit": "Ω"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A circuit with resistors Y and Z, a battery, a voltmeter, and a metal wire connected by crocodile clips with the length L marked.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-on-51-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.189,
+        0.0386,
+        0.83,
+        0.31
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "A table with columns for R / Ω, 1/R / 10⁻³ Ω⁻¹, and L / cm, with values in the first and third columns and blank cells in the middle column.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-on-51-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1843,
+        0.1127,
+        0.8169,
+        0.5146
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A blank graph grid with L / cm on the vertical axis and 1/R / 10⁻³ Ω⁻¹ on the horizontal axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-on-51-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0399,
+        0.0323,
+        0.9378,
+        0.922
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "figure f3: placed 0 times in the text, expected once"
+  ],
+  "warnings": []
+}

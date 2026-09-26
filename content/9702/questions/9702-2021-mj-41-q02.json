@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-41-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2021-mj-41-q02-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2021-mj-41-q02-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "An ideal gas is contained in a cylinder by means of a movable frictionless piston, as illustrated in Fig. 2.1.\n\n[[fig:f1]]\n\nInitially, the gas has a volume of 1.8 × 10⁻³ m³ at a pressure of 3.3 × 10⁵ Pa and a temperature of 310 K.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Show that the number of gas molecules in the cylinder is 1.4 × 10²³.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Use kinetic theory to explain why, when the piston is moved so that the gas expands, this causes a decrease in the temperature of the gas.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The gas expands so that its volume increases to 2.4 × 10⁻³ m³ at a pressure of 2.3 × 10⁵ Pa and a temperature of 288 K, as shown in Fig. 2.2.\n\n[[fig:f2]]",
+      "text": "The average translational kinetic energy *E*ₖ of a molecule of an ideal gas is given by\n\n*E*ₖ = ³⁄₂ *kT*\n\nwhere *k* is the Boltzmann constant and *T* is the thermodynamic temperature.\n\nCalculate the increase in internal energy Δ*U* of the gas during the expansion.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ΔU",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "The work done by the gas during the expansion is 76 J.\n\nUse your answer in (i) to explain whether thermal energy is transferred to or from the gas during the expansion.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A cylinder contains gas to the right of a movable piston, with an arrow indicating the piston moves left and a gas molecule shown inside.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2021-mj-41-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1041,
+        0.058,
+        0.8897,
+        0.2607
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 2.2",
+      "alt": "Two boxes show the gas volume, pressure and temperature before and after expansion, connected by a right-pointing arrow.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2021-mj-41-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.243,
+        0.0693,
+        0.7594,
+        0.171
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

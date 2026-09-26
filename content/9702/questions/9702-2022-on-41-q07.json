@@ -1,0 +1,90 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-41-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2022-on-41-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2022-on-41-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "A sinusoidal alternating voltage has a root-mean-square (r.m.s.) potential difference (p.d.) of 4.2V and a frequency of 50 kHz.",
+      "text": "The alternating voltage is applied across a resistor of resistance 760 Ω.\n\nBy considering the peak voltage, show that the maximum power dissipated by the resistor is 46mW.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "On Fig. 7.1, draw a smooth curve to show how the power *P* dissipated in the resistor varies with time *t* between *t* = 0 and *t* = 40 μs. Assume that *P* = 0 when *t* = 0.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "Use your line in (a)(ii) to explain why the mean power dissipated in the resistor is 23mW.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The alternating voltage in (a) is now applied to a piezoelectric crystal in air.",
+      "text": "Explain what happens to the air surrounding the crystal.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "A second piezoelectric crystal is placed in the air near to the first crystal.\n\nExplain the effect of the surrounding air in (b)(i) on the second crystal.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A blank graph grid with power P in mW on the vertical axis and time t in μs on the horizontal axis.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2022-on-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1995,
+        0.3551,
+        0.777,
+        0.5564
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

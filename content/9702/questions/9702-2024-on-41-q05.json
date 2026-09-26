@@ -1,0 +1,96 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-41-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-41-q05-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-41-q05-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the relationship between electric field and electric potential.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Two charged isolated insulating spheres X and Y are near to each other, as shown in Fig. 5.1.\n\n[[fig:f1]]\n\nP is a point on the line joining the centres of the spheres.\n\nExplain why it is not possible for the total electric potential and the resultant electric field to simultaneously be zero at point P.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The magnitudes of the charges on spheres X and Y in Fig. 5.1 are *Q* and 2*Q* respectively. The spheres may be considered as point charges at their centres.\n\nPoint P is a distance *x* from the centre of sphere X.\n\nThe electric potential at point P is zero.",
+      "text": "Show that the distance *y* of point P from the centre of sphere Y is equal to 2*x*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State an expression, in terms of *Q*, *x* and the permittivity of free space *ε*₀, for the electric field strength *E*ₓ at P due to sphere X.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*E*ₓ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine an expression, in terms of *Q*, *x* and *ε*₀, for the resultant electric field strength *E* at point P due to the two spheres.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*E*",
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "Two spheres labelled X and Y lie on a horizontal dashed line, with point P between their centres.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2024-on-41-q05-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.142,
+        0.184,
+        0.8592,
+        0.2716
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

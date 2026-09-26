@@ -1,0 +1,129 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q05",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2022-mj-41-q05-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2022-mj-41-q05-p02.png"
+  ],
+  "marks_total": 12,
+  "stem": "Fig. 5.1 shows four diodes and a load resistor of resistance 1.2 kΩ, connected in a circuit that is used to produce rectification of an alternating voltage.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by rectification.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State the type of rectification produced by the circuit in Fig. 5.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A sinusoidal alternating voltage *V*ᵢₙ is applied across the input terminals X and Y. The variation with time *t* of *V*ᵢₙ is given by the equation\n\n*V*ᵢₙ = 6.0 sin 25π*t*\n\nwhere *V*ᵢₙ is in volts and *t* is in seconds.",
+      "text": "On Fig. 5.1, label the output terminals P and Q with the appropriate symbols to indicate the polarity of the output voltage *V*ₒᵤₜ.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The magnitude of the output voltage *V*ₒᵤₜ varies with *t* as shown in Fig. 5.2.\n\n[[fig:f2]]\n\nOn Fig. 5.2, label both of the axes with the correct scales. Use the space below for any working that you need.",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The output voltage in (b) is smoothed by adding a capacitor to the circuit in Fig. 5.1.\nThe difference between the maximum and minimum values of the smoothed output voltage is 10% of the peak voltage.",
+      "text": "On Fig. 5.1, draw the circuit symbol for a capacitor showing the capacitor correctly connected into the circuit.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "On Fig. 5.2, sketch the variation with *t* of the smoothed output voltage.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Calculate the capacitance *C* of the capacitor.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "C",
+        "unit": "F"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A four-diode bridge rectifier circuit connected to an alternating voltage source and a load resistor, with output terminals P and Q.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2022-mj-41-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.073,
+        0.0725,
+        0.93,
+        0.2681
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "A graph of output voltage against time showing three positive half-sine-wave pulses above the time axis.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2022-mj-41-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1092,
+        0.0583,
+        0.993,
+        0.423
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

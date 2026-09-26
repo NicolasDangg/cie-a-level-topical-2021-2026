@@ -1,0 +1,106 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-42-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-42-q01-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Define gravitational potential at a point.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Starting from the equation for the gravitational potential due to a point mass, show that the gravitational potential energy *E*ₚ of a point mass *m* at a distance *r* from another point mass *M* is given by\n\n*E*ₚ = $-\\frac{GMm}{r}$\n\nwhere *G* is the gravitational constant.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 1.1 shows the path of a comet of mass 2.20 × 10¹⁴ kg as it passes around a star of mass 1.99 × 10³⁰ kg.\n\n[[fig:f1]]\n\nAt point X, the comet is 8.44 × 10¹¹ m from the centre of the star and is moving at a speed of 34.1 km s⁻¹.\n\nAt point Y, the comet passes its point of closest approach to the star. At this point, the comet is a distance of 6.38 × 10¹⁰ m from the centre of the star.\n\nBoth the comet and the star can be considered as point masses at the centres.",
+      "text": "Calculate the magnitude of the change in gravitational potential energy Δ*E*ₚ of the comet as it moves from position X to position Y.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ΔEₚ",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State, with a reason, whether the change in gravitational potential energy in (b)(i) is an increase or a decrease.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use your answer in (b)(i) to determine the speed, in km s⁻¹, of the comet at point Y.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "speed",
+        "unit": "km s⁻¹"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A second comet passes point X with the same speed as the comet in (b) and travelling in the same direction. This comet is gradually losing mass. The mass of this comet when it passes point X is the same as the mass of the comet in (b).\n\nSuggest, with a reason, how the path of the second comet compares with the path shown in Fig. 1.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A curved comet path passes around a star, with positions X and Y marked and the comet's speed and the masses of the comet and star labelled.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-42-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.103,
+        0.529,
+        0.8991,
+        0.7858
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2021-on-41-q03-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2021-on-41-q03-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define *specific heat capacity*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A sealed container of fixed volume *V* contains *N* molecules, each of mass *m*, of an ideal gas at pressure *p*.",
+      "text": "State an expression, in terms of *V*, *N*, *p* and the Boltzmann constant *k*, for the thermodynamic temperature *T* of the gas.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the mean translational kinetic energy *E*ₖ of a molecule of the gas is given by\n\n$E_\\mathrm{K} = \\frac{3}{2}kT$.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Explain why the internal energy of the gas is equal to the total kinetic energy of the molecules.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The gas in (b) is supplied with thermal energy *Q*.",
+      "text": "Explain, with reference to the first law of thermodynamics, why the increase in internal energy of the gas is *Q*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Use the expression in (b)(ii) and the information in (c)(i) to show that the specific heat capacity *c* of the gas is given by\n\n$c = \\frac{3k}{2m}$.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The container in (b) is now replaced with one that does not have a fixed volume. Instead, the gas is able to expand, so that the pressure of the gas remains constant as thermal energy is supplied.\n\nSuggest, with a reason, how the specific heat capacity of the gas would now compare with the value in (c)(ii).",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

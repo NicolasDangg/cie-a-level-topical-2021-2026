@@ -1,0 +1,136 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-42-q09-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-42-q09-p02.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-42-q09-p03.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the binding energy of a nucleus.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Table 9.1 shows the masses of two sub-atomic particles and a polonium-212 (²¹²₈₄Po) nucleus.\n\n[[fig:f1]]\n\nFor the polonium-212 nucleus, determine:",
+      "text": "the mass defect *Δm*, in kg",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "Δm",
+        "unit": "kg"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the binding energy",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "binding energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "the binding energy per nucleon.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "binding energy per nucleon",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "On Fig. 9.1, sketch the variation with nucleon number *A* of binding energy per nucleon for values of *A* from 1 to 250.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "On your line in Fig. 9.1, draw an X to show the approximate position of polonium-212.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Polonium-212 is radioactive and undergoes alpha-decay.\n\nSuggest and explain, with reference to Fig. 9.1, why the alpha-decay of polonium-212 results in a release of energy.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 9.1",
+      "alt": "A table of masses in u: proton 1.007 276, neutron 1.008 665, and polonium-212 nucleus 211.942 749.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-42-q09-p01.png",
+      "source_size": [
+        852,
+        1232
+      ],
+      "box": [
+        0.2394,
+        0.2183,
+        0.7617,
+        0.3563
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 9.1",
+      "alt": "Blank graph axes for binding energy per nucleon against nucleon number A, with binding energy per nucleon on the vertical axis, A on the horizontal axis, and horizontal-axis marks at 1 and 250.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-42-q09-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2218,
+        0.0859,
+        0.7805,
+        0.292
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

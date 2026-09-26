@@ -1,0 +1,97 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2023-mj-42-q09-p01.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2023-mj-42-q09-p02.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2023-mj-42-q09-p03.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define mass defect.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Table 9.1 shows the mass defects of three nuclei.\n\n[[fig:f1]]\n\nThe nuclear fusion process in a particular star is described by\n\n²₁H + ³₁H → ⁴₂He + X\n\nwhere X is a particle that has no mass defect.",
+      "text": "State the name of particle X.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the energy released when one nucleus of ⁴₂He is formed in this fusion reaction is 2.8 × 10⁻¹² J.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The star in (b) has a radius of 2.3 × 10⁹ m and a luminosity of 1.4 × 10²⁸ W. All the energy released from the formation of ⁴₂He is radiated away from the star. All the energy that is radiated from the star has been released in the formation of ⁴₂He.\n\nDetermine:",
+      "text": "the mass of ⁴₂He produced per unit time by the fusion process",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mass per unit time",
+        "unit": "kg s⁻¹"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "the surface temperature of the star.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "temperature",
+        "unit": "K"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 9.1",
+      "alt": "A table gives the mass defects of ²₁H, ³₁H and ⁴₂He in u.",
+      "source_image": "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2023-mj-42-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2758,
+        0.2061,
+        0.7254,
+        0.3744
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

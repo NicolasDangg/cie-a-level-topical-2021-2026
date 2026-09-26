@@ -1,0 +1,76 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2022-m-42-q10-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2022-m-42-q10-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": "In an X-ray tube, electrons are accelerated through a potential difference of 75 kV. The electrons then strike a tungsten target of effective mass 15 g.\n\nThe electron energy is converted into the energy of X-ray photons with an efficiency of 5.0%. The rest of the energy is converted into thermal energy.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "The X-ray tube produces an image using a current of 0.40 A for a time of 20 ms.\n\nThe specific heat capacity of tungsten is 130 J kg⁻¹ K⁻¹.\n\nDetermine the temperature rise Δ*T* of the tungsten target.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ΔT",
+        "unit": "K"
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The linear attenuation coefficient of the X-ray photons in muscle is 0.22 cm⁻¹.\n\nCalculate the thickness *t* of muscle that will absorb 80% of the incident X-ray intensity.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "t",
+        "unit": "cm"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Table 10.1 shows the linear attenuation coefficient *μ* for the X-ray photons in different tissues.\n\n[[fig:f1]]\n\nTwo X-ray images are taken, one of equal thicknesses of bone and muscle and another of equal thicknesses of blood and muscle.\n\nExplain why one of these images has good contrast, but the other does not.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 10.1",
+      "alt": "A table giving the linear attenuation coefficients for bone, blood and muscle: 3.0, 0.23 and 0.22 cm⁻¹, respectively.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2022-m-42-q10-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2711,
+        0.0867,
+        0.73,
+        0.2104
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

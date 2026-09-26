@@ -1,0 +1,118 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-42-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-42-q04-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": "A block of mass *m* oscillates vertically on a spring, as shown in Fig. 4.1.\n\n[[fig:f1]]\n\nThe acceleration *a* of the block varies with displacement *x* from its equilibrium position, as shown in Fig. 4.2.\n\n[[fig:f2]]\n\nThe amplitude of the oscillations is 3Y and the maximum acceleration is 2A.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Explain how Fig. 4.2 shows that the oscillations of the block are simple harmonic.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Deduce expressions, in terms of some or all of *m*, *A* and *Y*, for:",
+      "text": "the angular frequency *ω* of the oscillations",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ω",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the maximum speed *v₀* of the oscillations",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "v₀",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "the energy *E* of the oscillations.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The period of the oscillations is 0.75 s and the value of 3Y is 1.8 cm.\n\nDetermine an expression for *x* in terms of time *t*, where *x* is in cm and *t* is in seconds.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "x",
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A block hangs from a vertical spring, with an arrow showing oscillations about its equilibrium position.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-42-q04-p01.png",
+      "source_size": [
+        852,
+        1232
+      ],
+      "box": [
+        0.1843,
+        0.0406,
+        0.8157,
+        0.2719
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A straight-line graph of acceleration a against displacement x slopes downward from 2A at −3Y to −2A at 3Y, crossing the origin.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2024-mj-42-q04-p01.png",
+      "source_size": [
+        852,
+        1232
+      ],
+      "box": [
+        0.1444,
+        0.3344,
+        0.8592,
+        0.6615
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

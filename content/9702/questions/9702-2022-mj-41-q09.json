@@ -1,0 +1,96 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2022-mj-41-q09-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2022-mj-41-q09-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Explain how X-rays are produced for use in medical diagnosis.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State why X-ray images are taken of multiple sections of the body during computed tomography (CT) scan.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An X-ray image is taken of the structure shown in Fig. 9.1.\n\n[[fig:f1]]\n\nThe linear attenuation coefficient of bone is 3.4 cm⁻¹.\nThe linear attenuation coefficient of soft tissue is 0.89 cm⁻¹.\n\nThe incident X-rays are parallel and have a uniform intensity *I*₀ across the structure.\n\nDetermine, in terms of *I*₀, the intensity of the detected X-rays from:",
+      "text": "point P",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "detected intensity",
+        "unit": "*I*₀"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "point Q.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "detected intensity",
+        "unit": "*I*₀"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Explain, with reference to your answers in (b), whether the X-ray image of the structure in Fig. 9.1 has good contrast.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "A rectangular soft-tissue structure contains a vertical bone section, with parallel incident and detected X-rays passing through it and points P and Q marked at different heights.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2022-mj-41-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.093,
+        0.342,
+        0.8967,
+        0.605
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

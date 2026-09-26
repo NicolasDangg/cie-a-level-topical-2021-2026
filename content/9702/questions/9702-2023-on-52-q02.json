@@ -1,0 +1,183 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2023-on-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2023-on-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2023-on-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2023-on-52-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates the discharge of capacitors in the circuit shown in Fig. 2.1.\n\n[[fig:f1]]\n\nThe capacitors have capacitances *C*ₐ and *C*ᵦ.\n\nThe student closes the switch to charge the capacitors.\n\nThe switch is opened and a stop-watch is started. The capacitors discharge through the resistor of resistance *R*. At a fixed time *t* the voltmeter reading *V* is recorded.\n\nThe experiment is repeated for different values of *C*ₐ and *C*ᵦ.\n\nFor each combination of *C*ₐ and *C*ᵦ, the combined capacitance *C* is calculated.\n\nIt is suggested that *C* and *V* are related by the equation\n\n*V* = *I*₀*R* $e^{-\frac{t}{CR}}$\n\nwhere *I*₀ is the initial current in the resistor.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of ln *V* on the *y*-axis against $\\frac{1}{C}$ on the *x*-axis.\n\nDetermine expressions for the gradient and *y*-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": [
+        "gradient",
+        "y-intercept"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *C*ₐ, *C*ᵦ and *V* are given in Table 2.1.\n\n[[fig:f2]]\n\nThe relationship between *C*, *C*ₐ and *C*ᵦ is\n\n$\\frac{1}{C} = \\frac{C_A + C_B}{C_A C_B}$.\n\nCalculate and record values of $\\frac{1}{C} / 10^4\\,\\mathrm{F}^{-1}$ and ln (*V* / V) in Table 2.1.\n\nInclude the absolute uncertainties in ln (*V* / V).",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of ln (*V* / V) against $\\frac{1}{C} / 10^4\\,\\mathrm{F}^{-1}$.\n\nInclude error bars for ln (*V* / V).\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the *y*-intercept of the line of best fit. Do not include the absolute uncertainty.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *R* and *I*₀. Include appropriate units.\n\nData: *t* = (30 ± 1) s",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in R̄.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty in R̄",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The experiment is repeated with the same value of *t*. Determine the combined capacitance *C* that gives a value of *V* of 1.20V.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "C",
+        "unit": "F"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "Circuit with a switch, two capacitors Cₐ and Cᵦ in series, a voltmeter across them, and a resistor in a parallel branch.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-on-52-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3521,
+        0.0386,
+        0.6491,
+        0.295
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "Table with columns for Cₐ, Cᵦ, 1/C, V/V and ln (V/V), containing six rows of capacitor values and voltage readings.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-on-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0528,
+        0.0867,
+        0.993,
+        0.802
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "Blank graph grid with ln (V/V) on the vertical axis and 1/C / 10⁴ F⁻¹ on the horizontal axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-on-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0211,
+        0.0323,
+        0.9531,
+        0.9259
+      ]
+    }
+  ],
+  "notes": [
+    "The line introducing the capacitors appears to read “The capacitors have capacitances Cₐ and Cᵦ.”"
+  ],
+  "problems": [
+    "part d-i: numeric part needs answer {symbol, unit} (either may be null)"
+  ],
+  "warnings": []
+}

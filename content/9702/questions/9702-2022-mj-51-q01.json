@@ -1,0 +1,54 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-51-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2022-mj-51-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-51-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-51-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Two parallel metal plates, each of area *A*, are separated by a small distance *d*, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe plates are initially charged using a power supply.\n\nThe plates are then connected to an uncharged capacitor. The potential difference *V* across the capacitor is measured.\n\nIt is suggested that *V* is related to *d* by the relationship\n\n$\\frac{W}{V} = 1 + \\frac{Cd}{KA}$\n\nwhere *C* is the capacitance of the capacitor, and *K* and *W* are constants.\n\nPlan a laboratory experiment to test the relationship between *V* and *d*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for *K* and *W*.\n\nIn your plan you should include:\n\n• the procedure to be followed\n\n• the measurements to be taken\n\n• the control of variables\n\n• the analysis of the data\n\n• any safety precautions to be taken.",
+      "marks": null,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1 (not to scale)",
+      "alt": "Two parallel rectangular metal plates are shown separated by a small distance d, with the area A labelled on the upper plate.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-mj-51-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.27,
+        0.06,
+        0.76,
+        0.21
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "part main: marks None must be a whole number",
+    "part marks add up to 0, but the question is worth 15"
+  ],
+  "warnings": []
+}

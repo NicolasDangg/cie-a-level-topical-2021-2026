@@ -1,0 +1,55 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-41-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-14-temperature/assets/9702-2025-mj-41-q03-p01.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define specific latent heat.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Explain why, for a substance, the specific latent heat of vaporisation is usually greater than the specific latent heat of fusion.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "An ice cube of mass 37.0 g at temperature 0.0 °C is placed in a beaker containing water of mass 208 g at temperature 26.4 °C.\n\nWhen all the ice has melted, and all the water in the beaker has reached thermal equilibrium, the final temperature of the water is 10.3 °C.\n\nThe specific heat capacity of water is 4.18 J g⁻¹ °C⁻¹.\n\nThe beaker has negligible specific heat capacity and is perfectly insulated from the surroundings.\n\nDetermine a value, to three significant figures, for the specific latent heat of fusion of water.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "specific latent heat of fusion",
+        "unit": "J g⁻¹"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

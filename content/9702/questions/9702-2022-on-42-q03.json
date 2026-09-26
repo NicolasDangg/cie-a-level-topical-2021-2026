@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2022-on-42-q03-p01.png",
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2022-on-42-q03-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "The equation of state for an ideal gas can be written as\n\n*pV* = *NkT*.\n\nState the meaning of each of the symbols in this equation.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Use the equation in (a) to show that the average translational kinetic energy *E*ₖ of a molecule of an ideal gas is given by\n\n*E*ₖ = $\\frac{3}{2}$*kT*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The mass of an oxygen molecule is 5.31 × 10⁻²⁶ kg. Assume that oxygen behaves as an ideal gas.",
+      "text": "Use the equation in (b) to determine the root-mean-square (r.m.s.) speed *u* of an oxygen molecule at 23 °C.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "u",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "A fixed mass of oxygen gas at initial pressure *P* is sealed in a cylindrical container by a movable piston at one end, as shown in Fig. 3.1.\n\n[[fig:f1]]\n\nThe temperature of the gas is 23 °C.\n\nThe piston is slowly moved into the cylinder so that the oxygen gas is compressed. At all times, the gas and the container remain in thermal equilibrium with the surroundings.\n\nOn Fig. 3.2, sketch the variation with pressure of the r.m.s. speed of the oxygen molecules as the pressure increases.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A labelled cylinder containing oxygen, with a movable piston at one end.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2022-on-42-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.168,
+        0.0796,
+        0.784,
+        0.2388
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 3.2",
+      "alt": "Blank axes for sketching r.m.s. speed against pressure, with the vertical axis marked r.m.s. speed and u, and the horizontal axis marked pressure and P.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2022-on-42-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.221,
+        0.4531,
+        0.779,
+        0.6682
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

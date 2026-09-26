@@ -1,0 +1,83 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-41-q02-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-41-q02-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define gravitational potential.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The Earth *E* and the Moon *M* can both be considered as isolated point masses at their centres. The mass of the Earth is 5.98 × 10²⁴ kg and the mass of the Moon is 7.35 × 10²² kg. The Earth and the Moon are separated by a distance of 3.84 × 10⁸ m, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\n*P* is a point, on the line joining the centres of *E* and *M*, where the resultant gravitational field strength is zero. Point *P* is at a distance *x* from the centre of the Earth.",
+      "text": "Explain how it is possible for the gravitational field strength to be zero despite the presence of two large masses nearby.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that *x* is approximately 3.5 × 10⁸ m.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the gravitational potential *φ* at point *P*.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "φ",
+        "unit": "J kg⁻¹"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A not-to-scale diagram shows Earth and Moon on a line, with point P between them, the distance between their centres, and the distance x from Earth to P.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-41-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0728,
+        0.2118,
+        0.9446,
+        0.4076
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

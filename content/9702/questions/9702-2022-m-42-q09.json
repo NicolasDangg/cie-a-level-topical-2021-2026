@@ -1,0 +1,109 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-m-42-q09-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-m-42-q09-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "Polonium-211 (²¹¹₈₄Po) decays by alpha emission to form a stable isotope of lead (Pb).",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Complete the equation for this decay.\n\n²¹¹₈₄Po → ⁽[[blank]]⁾₍[[blank]]₎Pb + ⁽[[blank]]⁾₍[[blank]]₎α",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The variation with time *t* of the number of unstable nuclei *N* in a sample of polonium-211 is shown in Fig. 9.1.\n\n[[fig:f1]]\n\nAt time *t* = 0, the sample contains only polonium-211.",
+      "text": "Use Fig. 9.1 to determine the decay constant λ of polonium-211. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "λ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Use your answer in (b)(i) to calculate the activity at time *t* = 0 of the sample of polonium-211.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "activity",
+        "unit": "Bq"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 9.1, sketch a line to show the variation with *t* of the number of lead nuclei in the sample.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Each decay releases an alpha particle with energy 690 keV.",
+      "text": "Calculate, in J, the total amount of energy given to alpha particles that are emitted between time *t* = 0.30 s and time *t* = 0.90 s.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Suggest why the total amount of energy released by the decay process between time *t* = 0.30 s and time *t* = 0.90 s is greater than your answer in (c)(i).",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "A graph of the number of unstable nuclei N, in units of 10¹², against time t in seconds, showing a decreasing curved line.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-m-42-q09-p01.png",
+      "source_size": [
+        852,
+        1238
+      ],
+      "box": [
+        0.099,
+        0.193,
+        0.906,
+        0.703
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

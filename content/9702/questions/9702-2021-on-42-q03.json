@@ -1,0 +1,137 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2021-on-42-q03-p01.png",
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2021-on-42-q03-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "One of the assumptions of the kinetic theory of gases is that all collisions involving molecules of the gas are elastic.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by an *elastic* collision.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State two other assumptions of the kinetic theory of gases.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A molecule of an ideal gas has mass *m* and is contained in a cubic box of side length *L*. The molecule is moving with velocity *u* towards the face of the box that is shaded in Fig. 3.1.\n\n[[fig:f1]]\n\nThe molecule collides elastically with the shaded face and the face opposite to it alternately.\n\nDeduce expressions, in terms of *m*, *u* and *L*, for:",
+      "text": "the magnitude of the change in momentum of the molecule on colliding with a face",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "change in momentum",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the time between consecutive collisions of the molecule with the shaded face",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "time",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "the average force exerted by the molecule on the shaded face",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "force",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "the pressure on the shaded face if the force in (iii) is exerted over the whole area of the face.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "pressure",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "When the model described in (b) is extended to three dimensions, and to a gas containing *N* molecules, each of mass *m*, travelling with mean-square speed ⟨*c*²⟩, it can be shown that\n\n*pV* = ⅓ *Nm*⟨*c*²⟩\n\nwhere *p* is the pressure exerted by the gas and *V* is the volume of the gas.\n\nUse this expression, together with the equation of state of an ideal gas, to show that the average translational kinetic energy *E*ₖ of a molecule of an ideal gas is given by\n\n*E*ₖ = ⅗ *kT*\n\nwhere *T* is the thermodynamic temperature of the gas and *k* is the Boltzmann constant.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The mass of a hydrogen molecule is 3.34 × 10⁻²⁷ kg.\n\nUse the expression for *E*ₖ in (c) to determine the root-mean-square (r.m.s.) speed of a molecule of hydrogen gas at 25 °C.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. speed",
+        "unit": "m s⁻¹"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A molecule moves inside a cube towards a shaded face, with the cube side labelled L and the molecule's velocity labelled u.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2021-on-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2394,
+        0.409,
+        0.7606,
+        0.587
+      ]
+    }
+  ],
+  "notes": [
+    "In (c), the printed equation for average translational kinetic energy appears to be Eₖ = ⅔kT, not ⅗kT."
+  ],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-mj-42-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-mj-42-q01-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Newton’s law of gravitation.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A satellite is in a circular orbit around a planet. The radius of the orbit is *R* and the period of the orbit is *T*. The planet is a uniform sphere.\n\nUse Newton’s law of gravitation to show that *R* and *T* are related by\n\n4π²*R*³ = *G**M**T*²\n\nwhere *M* is the mass of the planet and *G* is the gravitational constant.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The Earth may be considered to be a uniform sphere of mass 5.98 × 10²⁴ kg and radius 6.37 × 10⁶ m.\n\nA geostationary satellite is in orbit around the Earth.\n\nUse the expression in (b) to determine the height of the satellite above the Earth’s surface.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "height",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "Another satellite is in a circular orbit around the Earth with the same orbital radius and period as the satellite in (c).",
+      "text": "Calculate the angular speed of the satellite in this orbit. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "angular speed",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Despite having the same orbital period, the orbit of this satellite is not geostationary.\n\nSuggest two ways in which the orbit of this satellite could be different from the orbit of the satellite in (c).",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "1",
+        "2"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

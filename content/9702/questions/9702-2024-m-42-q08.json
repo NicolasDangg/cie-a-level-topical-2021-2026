@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-m-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-m-42-q08-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-m-42-q08-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the binding energy of a nucleus.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A nucleus of uranium-235 absorbs a neutron and becomes unstable. It then undergoes a fission reaction. One possible reaction is\n\n²³⁵₉₂U + ¹₀n → ¹⁴²₅₄Xe + ⁹⁰₃₈Sr + neutrons.",
+      "text": "Determine the number of neutrons produced in this fission reaction.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "number",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Data for the binding energies per nucleon for this fission reaction are given in Table 8.1.\n\n[[fig:f1]]\n\nCalculate the energy released, in MeV, from the fission of one nucleus of uranium-235.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "MeV"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "The isotope xenon-142 is unstable. The isotope xenon-132 is stable.\n\nSuggest a reason why xenon-142 is unstable.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Xenon-142 decays into the isotope caesium-142.\n\nA sample initially contains only nuclei of xenon-142. After a time equal to 6.0 s, the ratio $\\frac{\\text{number of decayed nuclei of xenon-142}}{\\text{number of undecayed nuclei of xenon-142}}$ is equal to 31.\n\nCalculate the half-life of xenon-142. Show your working.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "half-life",
+        "unit": "s"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 8.1",
+      "alt": "A table gives binding energy per nucleon in MeV: uranium-235, 7.59; xenon-142, 8.37; and strontium-90, 8.72.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-m-42-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.223,
+        0.4034,
+        0.7782,
+        0.5298
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

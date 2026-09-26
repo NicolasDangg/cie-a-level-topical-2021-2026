@@ -1,0 +1,106 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-41-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-41-q01-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is indicated by the direction of the gravitational field line at a point in a gravitational field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Explain, with reference to gravitational field lines, why the gravitational field near the surface of the Earth is approximately constant for small changes in height.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A large isolated uniform sphere has mass *M* and radius *R*.\n\nPoint P lies on a straight line passing through the centre of the sphere, at a variable displacement *x* from the centre, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nFig. 1.2 shows the variation with *x* of the gravitational field *g* at point P due to the sphere for the values of *x* for which P is inside the sphere.\n\n[[fig:f2]]\n\nThe magnitude of the gravitational field at the surface of the sphere is *Y*.",
+      "text": "Determine an expression for *Y* in terms of *M* and *R*. Identify any other symbols that you use.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain why, at the surface of the sphere, *g* always has the opposite sign to *x*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Complete Fig. 1.2 to show the variation of *g* with *x* for values of *x*, up to ±3*R*, for which point P is outside the sphere.",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A uniform sphere is centred on a horizontal dashed line, with point P to its right, displacement *x* indicated from the centre to P, and radius *R* shown.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-41-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.12,
+        0.3865,
+        0.87,
+        0.579
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 1.2",
+      "alt": "A gridded graph has *g* on the vertical axis and *x* on the horizontal axis, with a straight descending line through the origin over the region inside the sphere.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-on-41-q01-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1479,
+        0.082,
+        0.8638,
+        0.394
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

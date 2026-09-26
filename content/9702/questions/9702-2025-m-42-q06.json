@@ -1,0 +1,93 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q06-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q06-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "An electric field and a magnetic field are used to form a velocity selector. Charged particles, called ions, pass into a region of uniform electric and magnetic fields that is between parallel plates, as shown in Fig. 6.1.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "The potential difference (p.d.) between the plates of the velocity selector is *V*. The separation of the plates is *d* and the magnetic flux density is *B*.\n\nShow that the speed *u* of ions that pass undeviated through the velocity selector is given by\n\n$u = \\frac{V}{Bd}$",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Positive ions with kinetic energy 4.1 × 10⁻¹⁷ J and mass 3.2 × 10⁻²⁷ kg pass undeviated through the velocity selector when *V* is equal to 980 V and *d* is equal to 3.6 × 10⁻² m.\n\nDetermine *B*.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "B",
+        "unit": "T"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A proton passes undeviated through the velocity selector.\n\nAn alpha particle enters the velocity selector at the same speed as the proton.\n\nState how the expression in (a) predicts that the alpha particle also passes undeviated through the velocity selector.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "By reference to Fig. 6.1 and to the forces acting on a positive ion, determine the direction of the magnetic field. Explain your reasoning.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The positive ions in (b) enter the velocity selector with greater kinetic energy.\n\nOn Fig. 6.1, sketch the path of these ions.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A horizontal path of ions enters the region between two parallel plates, with positive signs on the upper plate and negative signs on the lower plate.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.198,
+        0.08,
+        0.8075,
+        0.2676
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

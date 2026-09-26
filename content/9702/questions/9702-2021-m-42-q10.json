@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-m-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q10-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q10-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": "The output potential difference (p.d.) of an alternating power supply is represented by\n\n*V* = 320 sin(100π*t*)\n\nwhere *V* is the p.d. in volts and *t* is the time in seconds.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Determine the root-mean-square (r.m.s.) p.d. of the power supply.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. p.d.",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Determine the period *T* of the output.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*T*",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The power supply is connected to resistor R and a diode in the circuit shown in Fig. 10.1.\n\n[[fig:f1]]",
+      "text": "State the name of the type of rectification produced by the diode in Fig. 10.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "On Fig. 10.2 sketch the variation with time *t* of the p.d. *V*₍R₎ across R from time *t* = 0 to time *t* = 40 ms.\n\n[[fig:f2]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "On Fig. 10.1, draw the symbol for a component that may be connected to produce smoothing of *V*₍R₎.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 10.1",
+      "alt": "A circuit with an alternating power supply, a diode in the top wire and resistor R in the right-hand wire.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3568,
+        0.3913,
+        0.6393,
+        0.5435
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 10.2",
+      "alt": "A square grid graph with vertical axis labelled V₍R₎ in volts from −400 to 400 and horizontal axis labelled t / ms from 0 to 40.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q10-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2148,
+        0.084,
+        0.7735,
+        0.405
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

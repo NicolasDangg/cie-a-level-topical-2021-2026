@@ -1,0 +1,94 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-42-q09-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-42-q09-p02.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-42-q09-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": "Electrons in a vacuum are accelerated from rest through a potential difference (p.d.) *V* to form a beam. The electrons each have mass *m* and charge *q*.\n\nThe beam is incident on a graphite crystal that acts as a diffraction grating. After passing through the crystal, the beam reaches a fluorescent screen. An interference pattern is observed on this screen.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Explain what this observation shows about the nature of electrons.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Determine an expression, in terms of *m*, *q* and *V*, for the momentum *p* of an electron in the beam.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "p",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The p.d. through which the electrons are accelerated is now increased to a greater value.\n\nDescribe and explain the effect of this change on the interference pattern observed.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "The electrons are now accelerated through different values of *V*, resulting in pairs of corresponding values for *p* and the de Broglie wavelength λ.",
+      "text": "On Fig. 9.1, sketch the variation of *p* with 1/λ.\n\n[[fig:f1]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "State the name of the quantity represented by the gradient of the line in Fig. 9.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "Axes with arrows show *p* vertically and 1/λ horizontally, with zero marked at the origin and on both axes.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-42-q09-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.142,
+        0.1135,
+        0.9354,
+        0.698
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

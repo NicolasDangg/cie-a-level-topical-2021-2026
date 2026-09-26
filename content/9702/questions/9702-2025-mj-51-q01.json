@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-51-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2025-mj-51-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-51-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-51-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Fig. 1.1 shows a thin coil of cross-sectional area *A* and length *l* connected to a resistor of resistance *S* and two terminals.\n\n[[fig:f1]]\n\nAn alternating voltage is applied to the terminals. The peak value of the alternating voltage is *E* and the frequency is *f*. The peak value of the potential difference *V* across the resistor is determined using an oscilloscope.\n\nIt is suggested that *V* is related to *f* by the relationship\n\n$\\frac{ES}{V} = \\frac{KAN^2f}{l}$\n\nwhere *N* is the number of turns on the coil and *K* is a constant.\n\nPlan a laboratory experiment to test the relationship between *V* and *f*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine a value for *K*.\n\nIn your plan you should include:\n\n• the procedure to be followed\n• the measurements to be taken\n• the control of variables\n• the analysis of the data\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A circuit diagram shows a thin coil connected in series with a resistor and two open terminals, with the coil length labelled l.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-mj-51-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.3415,
+        0.0593,
+        0.6596,
+        0.1931
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

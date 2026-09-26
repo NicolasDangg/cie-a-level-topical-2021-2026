@@ -1,0 +1,95 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2022-mj-42-q03-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2022-mj-42-q03-p02.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define specific latent heat of vaporisation.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The specific latent heat of vaporisation of water at atmospheric pressure of 1.0 × 10⁵ Pa is 2.3 × 10⁶ J kg⁻¹. A mass of 0.37 kg of liquid water at 100 °C is provided with the thermal energy needed to vaporise all of the water at atmospheric pressure.",
+      "text": "Calculate the thermal energy *q* supplied to the water.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "q",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The mass of 1.0 mol of water is 18g. Assume that water vapour can be considered to behave as an ideal gas.\n\nShow that the volume of water vapour produced is 0.64 m³.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Assume that the initial volume of the liquid water is negligible compared with the volume of water vapour produced.\n\nDetermine the magnitude of the work done by the water in expanding against the atmosphere when it vaporises.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "work done",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Use your answers in (b)(i) and (b)(iii) to determine the increase in internal energy of the water when it vaporises at 100 °C. Explain your reasoning.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "increase in internal energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Use the first law of thermodynamics to suggest, with a reason, how the specific latent heat of vaporisation of water at a pressure greater than atmospheric pressure compares with its value at atmospheric pressure.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

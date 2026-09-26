@@ -1,0 +1,98 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-m-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2023-m-42-q08-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2023-m-42-q08-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "Plutonium-238 (²³⁸₉₄Pu) is unstable and undergoes alpha decay.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Complete the equation to show the decay of plutonium-238.\n\n²³⁸₉₄Pu → [[blank]]U + [[blank]]α",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The power source in a space probe contains 0.874 kg of plutonium-238. Each nucleus of plutonium-238 that decays emits 5.59 MeV of energy. The half-life of plutonium-238 is 87.7 years.",
+      "text": "Calculate the initial number *N*₀ of nuclei of plutonium-238 in the power source.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "N₀",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the initial activity of the source. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "activity",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use your answer in (b)(ii) to determine the initial power output from the source due to the decay of plutonium-238.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "power output",
+        "unit": "W"
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "The space probe will continue to function until the power output from the plutonium in the source decreases to 65.3% of its initial value.\n\nCalculate the time, in years, for which the space probe will function.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "time",
+        "unit": "years"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "An alternative power source uses energy generated from the radioactive decay of polonium-210. This isotope has a half-life of 0.378 years. The mass of the isotope needed for the same initial power output as in (b) is 3.37 g.\n\nSuggest one advantage and one disadvantage of using polonium-210 as the source of energy.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "advantage",
+        "disadvantage"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

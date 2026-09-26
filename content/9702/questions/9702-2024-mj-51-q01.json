@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-51-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2024-mj-51-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2024-mj-51-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2024-mj-51-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Fig. 1.1 shows a small solid metal cylinder of mass *m*, length *L* and diameter *d*.\n\n[[fig:f1]]\n\nThe cylinder is heated to a uniform temperature. The cylinder is then removed from the heat source and the cylinder is wrapped in insulating material.\n\nThe temperature of the room is *T*₍R₎. At time *t* after the cylinder starts to cool, the surface temperature of the cylinder is *T*₍C₎.\n\nIt is suggested that *T*₍C₎ is related to *t* by the relationship\n\n(*T*₍C₎ − *T*₍R₎) = *Z*e^{−\\frac{*UAt*}{*mc*}}\n\nwhere *A* is the total surface area of the cylinder, *c* is the specific heat capacity of the metal, and *U* and *Z* are constants.\n\nPlan a laboratory experiment to test the relationship between *T*₍C₎ and *t*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for *U* and *Z*.\n\nIn your plan you should include:\n\n• the procedure to be followed\n\n• the measurements to be taken\n\n• the control of variables\n\n• the analysis of the data\n\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A solid cylinder is shown with its length labelled L and its diameter labelled d.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2024-mj-51-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3756,
+        0.04,
+        0.6244,
+        0.1337
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

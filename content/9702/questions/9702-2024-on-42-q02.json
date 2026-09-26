@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2024-on-42-q02-p01.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2024-on-42-q02-p02.png"
+  ],
+  "marks_total": 12,
+  "stem": "The Sun may be considered as a uniform sphere with a mass of 1.99 × 10³⁰ kg and a surface temperature of 580 K.\n\nA probe with a mass of 2.63 kg moves in a straight line towards the Sun. When it is at a distance *x* from the centre of the Sun, the probe measures the gravitational field strength *g* due to the Sun and the radiant flux intensity *F* of radiation from the Sun.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define gravitational field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "For the position of the probe where *x* = 1.47 × 10¹¹ m:",
+      "text": "calculate *g*",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "g",
+        "unit": "N kg⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "determine the gravitational potential energy *E*ₚ of the probe.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "Eₚ",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Show that, for any particular value of *x*, the numerical values of *g* and *F* are related by\n\n$g = \\frac{4πGM}{L}F$\n\nwhere *M* is the mass of the Sun, *L* is the luminosity of the Sun and *G* is the gravitational constant.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Fig. 2.1 shows the variation of *g* with *F*.\n\n[[fig:f1]]\n\nDetermine a value for the luminosity *L* of the Sun. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "L",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Use your answer in (c)(ii) to determine the radius *r* of the Sun.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r",
+        "unit": "m"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A graph of g against F with a straight rising line from the origin.",
+      "source_image": "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2024-on-42-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.142,
+        0.06,
+        0.9073,
+        0.44
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

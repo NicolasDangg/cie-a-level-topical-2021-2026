@@ -1,0 +1,141 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-42-q08-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-42-q08-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "Fig. 8.1 shows a circuit that produces rectification of an alternating input voltage.\n\n[[fig:f1]]\n\nThe input voltage *V*₍IN₎ is sinusoidal. The rectified output voltage *V*₍OUT₎ is applied across resistor R.\n\nThe variation of *V*₍IN₎ with time *t* has amplitude *V*₀ and period *T*, as shown in Fig. 8.2.\n\n[[fig:f2]]\n\nThe root-mean-square (r.m.s.) value of *V*₍IN₎ is 6.0 V.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State the type of rectification produced by the circuit of Fig. 8.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Calculate *V*₀.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*V*₀",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Resistor R has resistance 45 Ω.\n\nAssume that there is no p.d. across the diode when it is conducting.",
+      "text": "Determine the peak power *P*₀ in the resistor.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*P*₀",
+        "unit": "W"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 8.3, sketch the variation of the power *P* in the resistor with *t* between *t* = 0 and *t* = 2*T*.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use the answer in (b)(ii) to explain why the mean power in the resistor is ¼ *P*₀.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Use the information in (b)(ii) to determine the r.m.s. value of *V*₍OUT₎.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. voltage",
+        "unit": "V"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "A circuit with an input voltage across the left-hand terminals, a diode in the top wire and a resistor R across which the output voltage is measured.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-42-q08-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.265,
+        0.0393,
+        0.74,
+        0.1931
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 8.2",
+      "alt": "A graph of the sinusoidal input voltage against time, showing amplitude V₀ and a period T.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-42-q08-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2324,
+        0.31,
+        0.765,
+        0.49
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 8.3",
+      "alt": "A blank gridded graph for power against time, with the vertical axis marked at zero, half P₀ and P₀, and the horizontal axis marked from zero to 2T.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-42-q08-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.24,
+        0.3341,
+        0.77,
+        0.5256
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

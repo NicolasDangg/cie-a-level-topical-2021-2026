@@ -1,0 +1,106 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q07-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State two properties of an ideal operational amplifier (op-amp).",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "1.",
+        "2."
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Fig. 7.1 shows a circuit that includes an ideal op-amp and two identical resistors R.\n\n[[fig:f1]]\n\nState the names of components X and Y.",
+      "marks": 1,
+      "kind": "written",
+      "slots": [
+        "X:",
+        "Y:"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Explain why the op-amp in Fig. 7.1 has only two possible output states.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State the name of the type of op-amp circuit in which the op-amp behaves as in (c)(i).",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Describe the environmental condition under which the lamp L in Fig. 7.1 will light.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Suggest the purpose of the variable resistor Y in the circuit.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A circuit diagram with an ideal op-amp, two resistors R, a variable resistor Y, a component X, and a lamp L connected to +5 V and −5 V.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1549,
+        0.235,
+        0.845,
+        0.5016
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

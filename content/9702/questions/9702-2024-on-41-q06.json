@@ -1,0 +1,135 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-41-q06",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-41-q06-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-41-q06-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by rectification of an alternating voltage.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State the difference between half-wave rectification and full-wave rectification.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "Complete Fig. 6.1 to show a circuit that produces half-wave rectification of an alternating input voltage *V*₍IN₎ to produce output voltage *V*₍OUT₎ across the resistor *R*.\n\n[[fig:f1]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State the purpose of the capacitor *C* in the circuit of Fig. 6.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The input voltage *V*₍IN₎ in Fig. 6.1 is a square wave. Fig. 6.2 shows the variation of *V*₍IN₎ with time *t*.\n\n[[fig:f2]]\n\nFig. 6.3 shows the variation of *V*₍OUT₎ with *t*.\n\n[[fig:f3]]\n\nThe maximum energy stored in the capacitor is 0.041 J.",
+      "text": "Show that the capacitance of *C* is 570 μF.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Determine the resistance of *R*.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "resistance",
+        "unit": "Ω"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A circuit diagram with input terminals labelled V_IN, a capacitor C, a resistor R, and output voltage V_OUT across the resistor.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-41-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.19,
+        0.3205,
+        0.81,
+        0.49
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "A square-wave graph of V_IN against time, alternating between +12 V and −12 V from 0 to 0.04 s.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-41-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.211,
+        0.717,
+        0.7958,
+        0.885
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 6.3",
+      "alt": "A graph of V_OUT against time, showing repeated flat sections at 12 V followed by curved decreases to 8 V.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2024-on-41-q06-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.212,
+        0.061,
+        0.7934,
+        0.3751
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

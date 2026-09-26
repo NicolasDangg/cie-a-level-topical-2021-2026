@@ -1,0 +1,132 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p02.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p03.png"
+  ],
+  "marks_total": 11,
+  "stem": "A trolley on a track is attached by springs to fixed blocks X and Y, as shown in Fig. 4.1. The track contains many small holes through which air is blown vertically upwards. This results in the trolley resting on a cushion of air rather than being in direct contact with the track.\n\n[[fig:f1]]\n\nThe trolley is pulled to one side of its equilibrium position and then released so that it oscillates initially with simple harmonic motion. After a short time, the air blower is switched off. The variation with time *t* of the distance *L* of the trolley from block X is shown in Fig. 4.2.\n\n[[fig:f2]]",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Use Fig. 4.2 to determine:",
+      "text": "the initial amplitude of the oscillations",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "amplitude",
+        "unit": "cm"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "the angular frequency *ω* of the oscillations",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ω",
+        "unit": "rad s⁻¹"
+      }
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "the maximum speed *v*₀, in cm s⁻¹, of the oscillating trolley.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "v₀",
+        "unit": "cm s⁻¹"
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Apart from the quantities in (a), describe what may be deduced from Fig. 4.2 about the motion of the trolley between time *t* = 0 and time *t* = 24 s. No calculations are required.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "On Fig. 4.3, sketch the variation with *L* of the velocity *v* of the trolley for its first complete oscillation.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A trolley rests on an air cushion on a perforated track and is attached by springs to fixed blocks X and Y.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1033,
+        0.0733,
+        0.8955,
+        0.259
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A graph of distance L in centimetres against time t in seconds shows oscillations with decreasing amplitude after about 14 seconds.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1033,
+        0.391,
+        0.8967,
+        0.741
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 4.3",
+      "alt": "A blank gridded graph with L in centimetres on the horizontal axis and v in centimetres per second on the vertical axis.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2021-on-41-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0974,
+        0.5264,
+        0.993,
+        0.8976
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

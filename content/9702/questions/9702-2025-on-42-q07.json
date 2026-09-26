@@ -1,0 +1,115 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2025-on-42-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2025-on-42-q07-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": "An alternating voltage *V* varies with time *t* according to\n\n*V* = 18 cos 40π*t*\n\nwhere *V* is in V and *t* is in s.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "For the alternating voltage:",
+      "text": "show that the period is 0.050 s",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "determine the root-mean-square (r.m.s.) voltage.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. voltage",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "On Fig. 7.1, sketch the variation of *V* with *t* for values of *t* from *t* = 0 to *t* = 100 ms.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The alternating voltage is rectified to produce an output voltage across a load resistor *R*, as shown in Fig. 7.2.\n\n[[fig:f2]]\n\nFig. 7.3 shows the variation with *t* of the power *P* in the load resistor.\n\n[[fig:f3]]\n\nState three conclusions that can be drawn from Fig. 7.3. The conclusions may be qualitative or quantitative. Use the space for any working.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A blank gridded graph with voltage V / V on the vertical axis and time t / ms from 0 to 100 on the horizontal axis.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-on-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.218,
+        0.49,
+        0.7711,
+        0.661
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A rectification circuit block connected to an alternating voltage input and a load resistor R, with the output voltage indicated across the resistor.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-on-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.223,
+        0.7853,
+        0.7758,
+        0.905
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A graph of power P in the load resistor against time t, showing four repeating peaks between 0 and 100 ms.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-on-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.225,
+        0.066,
+        0.777,
+        0.33
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

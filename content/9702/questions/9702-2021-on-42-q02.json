@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-42-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-42-q02-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-42-q02-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the relationship between gravitational potential and gravitational field strength.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A moon of mass *M* and radius *R* orbits a planet of mass 3*M* and radius 2*R*. At a particular time, the distance between their centres is *D*, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nPoint P is a point along the line between the centres of the planet and the moon, at a variable distance *x* from the centre of the planet.\n\nThe variation with *x* of the gravitational potential *ϕ* at point P, for points between the planet and the moon, is shown in Fig. 2.2.\n\n[[fig:f2]]",
+      "text": "Explain why *ϕ* is negative throughout the entire range *x* = 2*R* to *x* = *D* − *R*.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "One of the features of Fig. 2.2 is that *ϕ* is negative throughout.\n\nDescribe two other features of Fig. 2.2.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 2.3, sketch the variation with *x* of the gravitational field strength *g* at point P between *x* = 2*R* and *x* = *D* − *R*.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "Diagram of a planet and a moon on a line, with their centres separated by distance D, and point P at distance x from the planet's centre.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-42-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1385,
+        0.1973,
+        0.8592,
+        0.395
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 2.2",
+      "alt": "Graph of gravitational potential ϕ against distance x, with a curve below the horizontal axis between 2R and D − R.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-42-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.111,
+        0.5564,
+        0.865,
+        0.891
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 2.3",
+      "alt": "Blank grid with axes for gravitational field strength g against distance x, marked at 2R and D − R.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-on-42-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1502,
+        0.466,
+        0.9073,
+        0.8014
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

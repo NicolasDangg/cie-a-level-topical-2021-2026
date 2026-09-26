@@ -1,0 +1,92 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2023-on-41-q03-p01.png",
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2023-on-41-q03-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "The product *pV* for an ideal gas is given by\n\n*pV* = ⅓ *N m*⟨*c*²⟩\n\nwhere *p* is the pressure of the gas and *V* is the volume of the gas.",
+      "text": "State the meaning of the symbols *N*, *m* and ⟨*c*²⟩ in this equation.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Use the equation of state for an ideal gas to show that the average translational kinetic energy *E*ₖ of a molecule of the gas at thermodynamic temperature *T* is given by\n\n*E*ₖ = ³⁄₂ *kT*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The surface of a star consists mainly of a gas that may be assumed to be ideal. The molecules of the gas have a root-mean-square (r.m.s.) speed of 930 m s⁻¹.\n\nThe mass of a molecule of the gas is 3.34 × 10⁻²⁷ kg.\n\nDetermine, to three significant figures, the temperature of the surface of the star.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "temperature",
+        "unit": "K"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The radiant flux intensity of the radiation from the star in (b) is 2.52 × 10⁻⁸ W m⁻² when observed at a distance of 4.16 × 10¹⁶ m from the star.",
+      "text": "Calculate the luminosity of the star. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "luminosity",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Determine the radius of the star.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "radius",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The gas at the surface of a star has a very high pressure.\n\nUse the basic assumptions of the kinetic theory to suggest why, in practice, a gas at the surface of a star is unlikely to behave as an ideal gas.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

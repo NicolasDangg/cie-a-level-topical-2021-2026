@@ -1,0 +1,102 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2022-m-42-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2022-m-42-q07-p02.png"
+  ],
+  "marks_total": 6,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Alternating current (a.c.) is converted into direct current (d.c.) using a full-wave rectification circuit. Part of the diagram of this circuit is shown in Fig. 7.1.\n\n[[fig:f1]]",
+      "text": "Complete the circuit in Fig. 7.1 by adding the necessary components in the gaps.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "On Fig. 7.1 mark with a + the positive output terminal of the rectifier.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The output voltage *V* of an a.c. power supply varies sinusoidally with time *t* as shown in Fig. 7.2.\n\n[[fig:f2]]",
+      "text": "Determine the equation for *V* in terms of *t*, where *V* is in volts and *t* is in seconds.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "V",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The supply is connected to a 12 Ω resistor. Calculate the mean power dissipated in the resistor.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mean power",
+        "unit": "W"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A partially drawn full-wave rectifier circuit with a.c. input and d.c. output terminals.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2022-m-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.18,
+        0.0523,
+        0.82,
+        0.259
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A sinusoidal voltage-time graph with four cycles, voltage axes from −4 to 4 V and time from 0 to 10 s.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2022-m-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1432,
+        0.4291,
+        0.8568,
+        0.7544
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

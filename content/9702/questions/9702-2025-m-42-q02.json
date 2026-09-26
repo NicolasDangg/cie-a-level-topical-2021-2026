@@ -1,0 +1,119 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-42-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p02.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p03.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "The magnitude of the gravitational potential on the surface of a planet of radius *R* is *φ*. The planet can be considered to be an isolated sphere.\n\nOn Fig. 2.1, sketch the variation of the gravitational potential with distance *x* from the centre of the planet for values of *x* between *R* and 4*R*.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A satellite is in a geostationary orbit above the Earth. At time *t* = 0, the magnitude of the gravitational potential due to the Earth at the location of the satellite is *φ*.\n\nOn Fig. 2.2, sketch the variation of the gravitational potential due to the Earth at the location of the satellite for values of *t* between *t* = 0 and *t* = 24 hours.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The electric potential difference (p.d.) between two parallel plates is *V*, as shown in Fig. 2.3.\n\n[[fig:f3]]\n\nThe distance between the plates is *d*. The region between the plates is a vacuum.\n\nOn Fig. 2.4, sketch the variation of the electric potential with distance from the positive plate.\n\n[[fig:f4]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A blank graph grid for gravitational potential against distance x, with the vertical axis marked from −φ to φ and the horizontal axis marked from 0 to 4R.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.305,
+        0.1114,
+        0.82,
+        0.435
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 2.2",
+      "alt": "A blank graph grid for gravitational potential against time, with the vertical axis marked from −2φ to 2φ and the horizontal axis marked from 0 to 24 hours.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0857,
+        0.61,
+        0.9143,
+        0.9327
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 2.3",
+      "alt": "Two horizontal parallel plates are separated by distance d, with a potential difference V, a positive terminal connected to the upper plate and the lower plate earthed.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.3169,
+        0.0552,
+        0.681,
+        0.244
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 2.4",
+      "alt": "A blank graph grid for electric potential against distance from the positive plate, with the vertical axis marked from 0 to V and the horizontal axis marked from 0 to d.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-m-42-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2013,
+        0.3621,
+        0.8045,
+        0.6126
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-42-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Faraday’s law of electromagnetic induction.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Two coils are wound on an iron bar, as shown in Fig. 7.1.\n\n[[fig:f1]]\n\nCoil 1 is connected to a potential difference (p.d.) *V*₁ that gives rise to a magnetic field in the iron bar.\n\nFig. 7.2 shows the variation with time *t* of the magnetic flux density *B* in the iron bar.\n\n[[fig:f2]]\n\nA voltmeter measures the electromotive force (e.m.f.) *V*₂ that is induced across coil 2.\n\nOn Fig. 7.3, sketch the variation with *t* of *V*₂ between *t* = 0 and *t* = 0.40 s.\n\n[[fig:f3]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Coil 2 in (b) is now replaced with a copper ring that rests loosely on top of coil 1. The supply to coil 1 is replaced with a cell and a switch that is initially open, as shown in Fig. 7.4.\n\n[[fig:f4]]",
+      "text": "The switch is now closed. As it is closed, the copper ring is observed to jump upwards.\n\nExplain why this happens.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Suggest, with a reason, what would be the effect of repeating the procedure in (c)(i) with the terminals of the cell reversed.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "Two coils are wound around a vertical iron bar, with coil 1 connected to a p.d. supply and coil 2 connected to a voltmeter.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.294,
+        0.1763,
+        0.7136,
+        0.4372
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A graph of magnetic flux density B against time, rising to a positive peak, falling steeply to a negative peak, then rising back to zero.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.25,
+        0.5725,
+        0.7535,
+        0.7931
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A blank graph grid with V₂ on the vertical axis and time t in seconds on the horizontal axis from 0 to 0.4.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2394,
+        0.0559,
+        0.7606,
+        0.234
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 7.4",
+      "alt": "A copper ring rests on top of a coil wound around an iron bar, with the coil connected to a cell and switch.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1408,
+        0.734,
+        0.9718,
+        0.938
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

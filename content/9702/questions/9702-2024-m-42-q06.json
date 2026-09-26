@@ -1,0 +1,159 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-m-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p02.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p03.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p04.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "A small coil *C* has 64 turns and cross-sectional area 0.71 cm². The coil is placed inside a solenoid as shown in Fig. 6.1.\n[[fig:f1]]\nThe centre of coil *C* is on the central axis of the solenoid.",
+      "text": "There is a constant current in the solenoid.\nCoil *C* is moved through the solenoid from position *X* to position *Y*.\n\nOn Fig. 6.2, sketch a line to show the variation of the magnetic flux linkage in coil *C* with position as it moves from *X* to *Y*.\n[[fig:f2]]",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Explain the shape of your line in (a)(i).",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "Coil *C* is now held stationary at *X*. The current in the solenoid varies so that the magnetic flux density *B* at *X* varies from time 0 to time 4*t* as shown in Fig. 6.3.\n[[fig:f3]]\nCalculate the maximum magnetic flux linkage in coil *C*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "flux linkage",
+        "unit": "Wb"
+      }
+    },
+    {
+      "partId": "a-iv",
+      "label": "(a)(iv)",
+      "lead": null,
+      "text": "On Fig. 6.4, sketch a line to show the induced electromotive force (e.m.f.) *E* in coil *C* from time 0 to time 4*t*.\n[[fig:f4]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A metal spring rests on a smooth table. The turns of the spring are equally spaced. The ends of the spring are connected to a d.c. power supply, as shown in Fig. 6.5.\n[[fig:f5]]\nThe spring is connected to the d.c. power supply using flexible leads. The spring is not under tension.\n\nWith reference to magnetic fields, describe and explain the change in the distance between the turns of the spring when the power supply is first switched on.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A coil inside a solenoid, with the central axis, current direction, and positions X and Y labelled.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1761,
+        0.0523,
+        0.8239,
+        0.1634
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "Blank axes for flux linkage against position, with position X at the origin and position Y at the right end.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2418,
+        0.353,
+        0.756,
+        0.5878
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 6.3",
+      "alt": "A graph of magnetic flux density against time, constant at 0.040 T until time t, rising to 0.080 T at 2t, then falling to zero at 4t.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.264,
+        0.077,
+        0.7418,
+        0.246
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 6.4",
+      "alt": "Blank grid for sketching electromotive force against time from 0 to 4t.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.299,
+        0.548,
+        0.702,
+        0.754
+      ]
+    },
+    {
+      "id": "f5",
+      "caption": "Fig. 6.5",
+      "alt": "An equally spaced metal spring resting on a smooth table and connected at both ends to a power supply.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-m-42-q06-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1796,
+        0.0749,
+        0.8216,
+        0.2009
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

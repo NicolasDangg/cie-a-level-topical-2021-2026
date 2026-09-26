@@ -1,0 +1,119 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p01.png",
+    "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p02.png",
+    "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p03.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Two metal cubes P and Q are in thermal contact with each other.",
+      "text": "P and Q are in thermal equilibrium.\n\nState what is meant by the term thermal equilibrium.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Data for P and Q are given in Table 3.1.\n\n[[fig:f1]]\n\nP and Q are initially both at the same temperature.\n\nP is supplied with 24 kJ of thermal energy. After some time, P and Q are once again both at the same temperature as each other.\n\nP and Q are perfectly insulated from the surroundings.\n\nDetermine the change in temperature Δ*T* of Q.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ΔT",
+        "unit": "K"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Nitrogen may be assumed to be an ideal gas. A fixed amount of nitrogen gas is contained at a constant pressure of 1.6 × 10⁵ Pa.\n\nThe variation of the volume *V* of the gas with the temperature *θ* of the gas is shown in Fig. 3.1.\n\n[[fig:f2]]",
+      "text": "The temperature of the nitrogen gas is increased from 0 °C to 210 °C.\nDetermine the work done on the gas.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "work done",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the number *N* of molecules of nitrogen gas.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "N",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "The mass of a nitrogen molecule is 4.7 × 10⁻²⁶ kg.\n\nCalculate the root-mean-square (r.m.s.) speed of a nitrogen molecule at 210 °C.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. speed",
+        "unit": "m s⁻¹"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 3.1",
+      "alt": "A table gives specific heat capacity and mass for cubes P and Q: specific heat capacity is 390 J kg⁻¹ K⁻¹ for P and 910 J kg⁻¹ K⁻¹ for Q; mass is 0.54 kg for P and 0.37 kg for Q.",
+      "source_image": "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2289,
+        0.2853,
+        0.7723,
+        0.375
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 3.1",
+      "alt": "A graph of volume V in m³ against temperature θ in °C, with a straight rising line from approximately 0.18 m³ at 0 °C to 0.38 m³ at 300 °C.",
+      "source_image": "/9702/9702-topic-14-temperature/assets/9702-2025-m-42-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.108,
+        0.11,
+        0.8979,
+        0.452
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

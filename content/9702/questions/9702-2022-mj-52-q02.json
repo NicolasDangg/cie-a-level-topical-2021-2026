@@ -1,0 +1,166 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2022-mj-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-52-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "The brightness of some stars varies regularly. These stars are called variable stars.\n\nFig. 2.1 shows the variation of luminosity with time for a variable star.\n\n[[fig:f1]]\n\nA student determines the period *T* and mean luminosity *L* of the star.\n\nThe student repeats the process for different variable stars.\n\nIt is suggested that *L* and *T* are related by the equation\n\n*L* = *S K T*ᵃ\n\nwhere *S* is the luminosity of the Sun, and *a* and *K* are constants.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted as lg *L* on the y-axis against lg *T* on the x-axis.\n\nDetermine expressions for the gradient and y-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *T* and *L* are given in Table 2.1.\n\n[[fig:f2]]\n\nCalculate and record values of lg (*T* / days) and lg (*L* / 10³⁰ W) in Table 2.1. Include the absolute uncertainties in lg (*L* / 10³⁰ W).",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of lg (*L* / 10³⁰ W) against lg (*T* / days).\n\nInclude error bars for lg (*L* / 10³⁰ W).\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *a* and *K*. Include the absolute uncertainties in your values. You need not be concerned with units.\n\nData: *S* = 3.85 × 10²⁶ W",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": null
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "A variable star has a period of 5.0 days.\n\nDetermine the luminosity *L* of this star.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "L",
+        "unit": "W"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A variable star's luminosity varies with time, with two successive peaks marked to show the period.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-mj-52-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.225,
+        0.0725,
+        0.7805,
+        0.261
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "A table of values of T in days and L in 10³⁰ W, with empty columns for lg (T / days) and lg (L / 10³⁰ W).",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-mj-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0962,
+        0.0867,
+        0.9049,
+        0.3909
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A blank graph grid with lg (T / days) on the horizontal axis and lg (L / 10³⁰ W) on the vertical axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-mj-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.017,
+        0.031,
+        0.9894,
+        0.9039
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

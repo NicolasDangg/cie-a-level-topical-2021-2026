@@ -1,0 +1,122 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-41-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2023-mj-41-q07-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2023-mj-41-q07-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the de Broglie wavelength.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 7.1 shows a glass tube in which electrons are accelerated through a high p.d. to form a beam that is incident on a thin graphite crystal.\n\n[[fig:f1]]\n\nAfter passing through the graphite crystal, the electrons reach the fluorescent screen. The screen glows where the electrons strike it.\n\nFig. 7.2 shows the fluorescent screen viewed end-on, from the right-hand side of Fig. 7.1.\n\n[[fig:f2]]",
+      "text": "State the name of the phenomenon demonstrated by the pattern shown in Fig. 7.2.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain what can be concluded from the pattern in Fig. 7.2 about the nature of electrons.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The electrons in (b) are now accelerated through a greater potential difference between the cathode and the anode.",
+      "text": "On Fig. 7.3, sketch the pattern that is now seen on the fluorescent screen in Fig. 7.1.\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Explain, with reference to de Broglie wavelength, the change in the pattern on the fluorescent screen.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1 (not to scale)",
+      "alt": "A labelled schematic of an electron diffraction tube, with a filament cathode, anode, graphite crystal and fluorescent screen.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2023-mj-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0622,
+        0.164,
+        0.939,
+        0.4871
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A circular fluorescent screen viewed end-on, showing a bright central spot and a concentric bright ring.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2023-mj-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3228,
+        0.6256,
+        0.6784,
+        0.8688
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A blank circular outline for sketching the fluorescent-screen pattern.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2023-mj-41-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1467,
+        0.694,
+        0.9214,
+        0.924
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

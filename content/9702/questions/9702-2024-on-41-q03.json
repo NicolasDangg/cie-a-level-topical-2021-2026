@@ -1,0 +1,96 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-41-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2024-on-41-q03-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2024-on-41-q03-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by the Avogadro constant.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State the relationship between the Avogadro constant *N*ₐ, the molar gas constant *R* and the Boltzmann constant *k*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Two samples X and Y of ideal gases are both at thermodynamic temperature *T*.\n\nSample X has volume *V* and consists of *N* molecules, each of mass *m*.\nSample Y has volume 2*V* and consists of 2*N* molecules, each of mass 2*m*.",
+      "text": "Complete Table 3.1 by giving expressions, in terms of some or all of *N*, *m*, *T*, *V* and the constants in (a)(ii), for the quantities indicated.\n\n[[fig:f1]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The temperature of sample X is now varied.\n\nOn Fig. 3.1, sketch the variation with thermodynamic temperature of the root-mean-square (r.m.s.) speed of the molecules of the gas.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 3.1",
+      "alt": "A blank table with columns for sample X and sample Y, and rows for pressure, amount of substance, mean-square speed of molecules, and internal energy.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2024-on-41-q03-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1315,
+        0.476,
+        0.8697,
+        0.7724
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 3.1",
+      "alt": "A blank set of axes with r.m.s. speed on the vertical axis and thermodynamic temperature on the horizontal axis, both starting at zero.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2024-on-41-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2101,
+        0.1072,
+        0.7911,
+        0.3286
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

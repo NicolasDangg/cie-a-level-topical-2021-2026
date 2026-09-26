@@ -1,0 +1,102 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-on-42-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-on-42-q04-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "Fig. 4.1 shows the variation with time *t* of the height *h* above the ground of an object of mass 36 kg that is undergoing vertical simple harmonic motion.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "For the oscillations of the object:",
+      "text": "determine the amplitude *x*₀, in cm",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "x₀",
+        "unit": "cm"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "show that the angular frequency *ω* is 1.6 rad s⁻¹",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "determine the total energy *E*.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "On Fig. 4.2, sketch the variation with *h* of the kinetic energy *E*ₖ of the object.\n\n[[fig:f2]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A height-versus-time graph oscillates between 2 cm and 18 cm, with peaks at 0, 4 and 8 seconds and troughs at 2 and 6 seconds.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-on-42-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.225,
+        0.0548,
+        0.7782,
+        0.248
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A blank graph grid has height h in cm on the horizontal axis from 0 to 20 and kinetic energy Eₖ in joules on the vertical axis from 0 to 0.4.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-on-42-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.223,
+        0.0607,
+        0.7853,
+        0.4123
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-41-q11",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p02.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p03.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State how, in a modern X-ray tube, the intensity of the X-ray beam and its hardness are controlled.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A model of a limb consists of soft tissue and bone, as illustrated in Fig. 11.1.\n\n[[fig:f1]]\n\nThe soft tissue has a thickness of 9.0 cm. The bone within the soft tissue has a thickness of 3.0 cm.\n\nData for the linear attenuation (absorption) coefficient μ of X-rays in soft tissue and in bone are shown in Table 11.1.\n\n[[fig:f2]]\n\nA parallel beam of X-rays of intensity *I*₀ is incident normally on the model.\n\nCalculate, in terms of *I*₀:",
+      "text": "the transmitted intensity *I*ₛ through soft tissue alone",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "Iₛ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the transmitted intensity *I*꜀ through soft tissue and bone.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "I꜀",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "By reference to your answers in (b), suggest, with a reason, whether good contrast on an X-ray image would be obtained.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 11.1",
+      "alt": "A limb model with a central bone surrounded by soft tissue, with incident and transmitted X-ray beams and thickness dimensions marked.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.15,
+        0.25,
+        0.85,
+        0.53
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 11.1",
+      "alt": "A table giving the linear attenuation coefficient in cm⁻¹ as 0.92 for soft tissue and 2.9 for bone.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2021-mj-41-q11-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3404,
+        0.7126,
+        0.6608,
+        0.8148
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

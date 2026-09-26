@@ -1,0 +1,78 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-41-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2022-on-41-q08-p01.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the work function energy of a metal.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Ultraviolet radiation of frequency 1.36 × 10¹⁵ Hz is incident, in a vacuum, on a metal surface. The power of the radiation incident on the surface is 8.36 mW. Photoelectrons are emitted with a maximum kinetic energy of 3.09 × 10⁻¹⁹ J.",
+      "text": "Determine the number of photons incident on the surface per unit time.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "number per unit time",
+        "unit": "s⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Calculate the work function energy Φ of the metal.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "Φ",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The frequency of the radiation incident on the surface in (b) is increased while the power remains constant.\n\nState and explain the effect of this change on:",
+      "text": "the maximum kinetic energy of the photoelectrons",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "the rate of emission of photoelectrons.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

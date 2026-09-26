@@ -1,0 +1,79 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-41-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-41-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-41-q01-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "The Earth may be assumed to be an isolated uniform sphere with its mass of 6.0 × 10²⁴ kg concentrated at its centre.\n\nA satellite of mass 1200 kg is in a circular orbit about the Earth in the Earth’s gravitational field. The period of the orbit is 94 minutes.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define *gravitational field strength*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Calculate the radius of the orbit of the satellite.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "radius",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Rockets on the satellite are fired so that the satellite enters a different circular orbit that has a period of 150 minutes. The change in the mass of the satellite may be assumed to be negligible.",
+      "text": "Show that the radius of the new orbit is 9.4 × 10⁶ m.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State, with a reason, whether the gravitational potential energy of the satellite increases or decreases.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the magnitude of the change in the gravitational potential energy of the satellite.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "change in potential energy",
+        "unit": "J"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

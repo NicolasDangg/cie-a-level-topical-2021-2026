@@ -1,0 +1,100 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-41-q09",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-41-q09-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-41-q09-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by a *magnetic field*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A rectangular piece of aluminium foil is situated in a uniform magnetic field of flux density *B*, as shown in Fig. 9.1.\n\n[[fig:f1]]\n\nThe magnetic field is normal to the face PQRS of the foil. Electrons, each of charge −*q*, enter the foil at right angles to the face PQTV.",
+      "text": "On Fig. 9.1, shade the face of the foil on which electrons initially accumulate.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain why electrons do not continuously accumulate on the face you have shaded.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The Hall voltage *V*ₕ developed across the foil in (b) is given by the expression\n\n*V*ₕ = $\\frac{BI}{ntq}$\n\nwhere *I* is the current in the foil.",
+      "text": "State the meaning of the quantity *n*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Using the letters on Fig. 9.1, identify the distance *t*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Suggest why, in practice, Hall probes are usually made using a semiconductor material rather than a metal.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "A rectangular foil is shown in a downward magnetic field, with electrons entering from the left and the foil faces labelled.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-41-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1444,
+        0.1916,
+        0.851,
+        0.506
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

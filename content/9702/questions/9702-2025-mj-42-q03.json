@@ -1,0 +1,102 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2025-mj-42-q03-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2025-mj-42-q03-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define specific heat capacity.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A block of aluminium has a volume of 3.612 × 10⁻³ m³ at a temperature of 0 °C.\n\nAluminium has a density of 2.700 × 10³ kg m⁻³ at 0 °C.\nIt has a density of 2.620 × 10³ kg m⁻³ at 500 °C.\n\nThe block is heated so that its temperature increases from 0 °C to 500 °C at an atmospheric pressure of 1.01 × 10⁵ Pa.\nThe increase in internal energy of the block is 4.38 MJ.",
+      "text": "Calculate the mass of the block.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mass",
+        "unit": "kg"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the volume of the block at a temperature of 500 °C is 3.722 × 10⁻³ m³.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use the information in (b)(ii) to determine the magnitude of the work done on the block when its temperature is raised from 0 °C to 500 °C.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "work done",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Explain whether the work done on the block is positive or negative.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-v",
+      "label": "(b)(v)",
+      "lead": null,
+      "text": "Use the first law of thermodynamics to determine, to three significant figures, a value for the specific heat capacity of aluminium. Explain your reasoning. Give a unit with your answer.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "specific heat capacity",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Without further calculation, suggest with a reason how doubling the pressure in (b) is likely to affect the answer in (b)(v).",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-43-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2025-mj-43-q08-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2025-mj-43-q08-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the de Broglie wavelength.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Calculate the de Broglie wavelength of an electron moving at a speed of 4.9 × 10⁷ m s⁻¹.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "State one similarity and one difference between an electron and a positron.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "similarity",
+        "difference"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "An electron moving at a speed of 4.9 × 10⁷ m s⁻¹ collides with a positron that is travelling at the same speed in the opposite direction. As a result of the collision, two gamma-ray photons are produced.",
+      "text": "State the name of this type of reaction.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "State what happens to the electron and to the positron.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-iii",
+      "label": "(d)(iii)",
+      "lead": null,
+      "text": "Explain why two gamma-ray photons are produced, rather than just one.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-iv",
+      "label": "(d)(iv)",
+      "lead": null,
+      "text": "Show that the kinetic energy of the electron before the collision is 1.1 × 10⁻¹⁵ J.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-v",
+      "label": "(d)(v)",
+      "lead": null,
+      "text": "Use the information in (d)(iv) to determine, to three significant figures, the wavelength associated with the gamma radiation emitted in the collision.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

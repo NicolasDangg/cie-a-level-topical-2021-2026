@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-51-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2025-on-51-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2025-on-51-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2025-on-51-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "On a bench, a steel ball of radius *r* is used to compress a spring by a distance *x*. The ball is held at rest in this position, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe ball is released and rolls along the bench. At a fixed point P, the ball has speed *v*. The speed of the ball at P is determined using one light gate connected to a timer.\n\nSeveral steel balls of different radii are available.\n\nIt is suggested that *v* is related to *r* by the relationship\n\n$v^2 = \\frac{Y k x^2}{r^n \\rho}$\n\nwhere *k* is the spring constant of the spring, *ρ* is the density of the steel, and *Y* and *n* are constants.\n\nPlan a laboratory experiment to test the relationship between *v* and *r*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for *Y* and *n*.\n\nIn your plan you should include:\n\n•\tthe procedure to be followed\n•\tthe measurements to be taken\n•\tthe control of variables\n•\tthe analysis of the data\n•\tany safety precautions to be taken.",
+      "marks": 15,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A compressed spring rests on a bench against a steel ball, with point P marked farther along the bench.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-on-51-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0751,
+        0.0593,
+        0.9249,
+        0.1803
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

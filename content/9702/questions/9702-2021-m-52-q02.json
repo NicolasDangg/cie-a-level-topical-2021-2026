@@ -1,0 +1,186 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-m-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p04.png",
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p05.png",
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p06.png",
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p07.png",
+    "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p08.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates the collision of two gliders A and B on a linear air-track, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nThe light gate is connected to a timer. A card of length *L* is attached to glider B. The mass of glider B and the card is *m*. Glider B is initially at rest.\n\nThe student releases glider A so that it travels at a constant velocity *u* towards the stationary glider B. The gliders collide and then separate.\n\nThe card on glider B passes through the light gate. The student records the time *t* for the card to pass through the light gate from the timer.\n\nThe student changes the mass of glider B and repeats the experiment.\n\nIt is suggested that the velocity *v* of glider B as it passes through the light gate and *m* are related by the equation\n\n$v = \\frac{2uA}{m + A}$\n\nwhere *A* is the mass of glider A.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of $\\frac{1}{v}$ on the *y*-axis against *m* on the *x*-axis.\n\nDetermine expressions for the gradient and *y*-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": [
+        "gradient",
+        "y-intercept"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *m* and *t* are given in Table 2.1.\n\n[[fig:f2]]\n\nCalculate and record values of $\\frac{1}{v}$ / s cm⁻¹ in Table 2.1 where $\\frac{1}{v} = \\frac{t}{L}$\n\nand *L* = 5.0 ± 0.1 cm.\n\nInclude the absolute uncertainties in $\\frac{1}{v}$.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of $\\frac{1}{v}$ / s cm⁻¹ against *m* / g.\n\nInclude error bars for $\\frac{1}{v}$.\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Both lines should be clearly labelled.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the *y*-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine values of *u* and *A*. Include appropriate units.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in *A*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty in A",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The experiment is repeated. Determine the mass *m* of glider B and the card when *t* has a value of 0.50 s.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "m",
+        "unit": "g"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A card attached to glider B passes through a light gate on an air-track as gliders A and B approach each other.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1244,
+        0.037,
+        0.8756,
+        0.181
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "A table with columns for m in grams, t in seconds, and 1/v in s cm⁻¹; the first two columns contain six sets of values and the last column is blank.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1643,
+        0.0867,
+        0.8369,
+        0.4247
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A blank graph grid with 1/v in s cm⁻¹ on the vertical axis and m in grams on the horizontal axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-m-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0153,
+        0.0276,
+        0.9847,
+        0.919
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

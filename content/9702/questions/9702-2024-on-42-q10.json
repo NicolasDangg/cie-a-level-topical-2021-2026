@@ -1,0 +1,73 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-on-42-q10-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-on-42-q10-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Radioactive decay is both random and spontaneous.",
+      "text": "State what is meant by random.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State what is meant by spontaneous.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "State one piece of evidence for the random nature of decay.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "Describe the differences between nuclear fission and nuclear fusion.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain, with reference to the variation of binding energy per nucleon with nucleon number, why the process of nuclear fission and nuclear fusion both result in a release of energy.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

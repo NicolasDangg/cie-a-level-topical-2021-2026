@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-m-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-m-42-q06-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-m-42-q06-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A Hall probe is placed in a magnetic field. The Hall voltage is zero. The Hall probe is rotated to a new position in the magnetic field. The Hall voltage is now maximum.\n\nExplain these observations.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The formula for calculating the Hall voltage *V*ₕ as measured by a Hall probe is\n\n$V_\\mathrm{H}=\\frac{BI}{nqt}$\n\nTable 6.1 shows the value of *n* for two materials.\n\n[[fig:f1]]",
+      "text": "State the meaning of *n*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain why a Hall probe is made from silicon rather than copper.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "A Hall probe gives a maximum reading of 24mV when placed in a uniform magnetic field of flux density 32mT.\n\nThe same Hall probe is then placed in a magnetic field of fixed direction and varying flux density. The Hall probe is in a fixed position so that the angle between the Hall probe and the magnetic field is the same as when the Hall voltage was 24mV.\n\nThe variation of the reading *V*ₕ on the Hall probe with time *t* from time *t* = 0 to time *t* = 8.6 s is shown in Fig. 6.1.\n\n[[fig:f2]]\n\nA coil with 780 turns and a diameter of 3.6cm is placed in this varying magnetic field. The plane of the coil is perpendicular to the field lines.\n\nCalculate the magnitude of the maximum electromotive force (e.m.f.) induced in the coil in the time between *t* = 0 and *t* = 8.6 s.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "e.m.f.",
+        "unit": "V"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 6.1",
+      "alt": "A two-column table gives the values of n for silicon and copper.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-m-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3005,
+        0.347,
+        0.7007,
+        0.442
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.1",
+      "alt": "A graph of Hall voltage Vₕ against time t rises from zero to about 36 mV, remains constant, then falls to zero.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-m-42-q06-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.16,
+        0.1952,
+        0.8486,
+        0.3973
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

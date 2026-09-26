@@ -1,0 +1,179 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-51-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2023-mj-51-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-51-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-51-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-51-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates the discharge of capacitors in the circuit shown in Fig. 2.1.\n\n[[fig:f1]]\n\nThe capacitors have capacitances *C*ₚ and $C_Q$.\n\nThe student closes the switch to charge the capacitors and then records the maximum reading *V*₀ on the voltmeter.\n\nThe switch is opened and a stop-watch is started. The capacitors discharge through the resistor and the reading on the voltmeter decreases. When the reading on the voltmeter is *V* the time *t* is recorded. The discharge of the capacitors is repeated and the mean time *T* is calculated.\n\nThe experiment is repeated for different values of *C*ₚ and $C_Q$.\n\nFor each combination of *C*ₚ and $C_Q$, the combined capacitance *C* is calculated.\n\nIt is suggested that *C* and *T* are related by the equation\n\n$\\ln\\left(\\frac{V}{V_0}\\right) = -\\frac{T}{CR}$\n\nwhere *R* is the resistance of the resistor.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of *T* on the y-axis against *C* on the x-axis.\n\nDetermine an expression for the gradient.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *C*ₚ, $C_Q$ and *t* are given in Table 2.1.\n\n[[fig:f2]]\n\nThe relationship between *C*, *C*ₚ and $C_Q$ is\n\n$C = \\frac{C_P C_Q}{C_P + C_Q}$.\n\nCalculate and record values of *C* / 10⁻⁴ F and *T* / s in Table 2.1. Include the absolute uncertainties in *T*.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of *T* / s against *C* / 10⁻⁴ F. Include error bars for *T*.\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The values of *V*₀ and *V* are:\n\n*V*₀ = (4.8 ± 0.1) V\n\n*V* = (2.4 ± 0.1) V.\n\nCalculate $\\ln\\left(\\frac{V}{V_0}\\right)$. Include the absolute uncertainty in $\\ln\\left(\\frac{V}{V_0}\\right)$.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ln(V/V₀)",
+        "unit": null
+      }
+    },
+    {
+      "partId": "e-i",
+      "label": "(e)(i)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (d), determine the value of *R*. Include an appropriate unit.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "R",
+        "unit": null
+      }
+    },
+    {
+      "partId": "e-ii",
+      "label": "(e)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in *R*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty in R",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "f",
+      "label": "(f)",
+      "lead": null,
+      "text": "The experiment is repeated. Determine the value of *C* that gives a value of *T* of 60.0 s. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "C",
+        "unit": "F"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "Circuit diagram showing capacitors Cₚ and Cᵩ connected with a voltmeter and resistor, powered by a battery and switch.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-51-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3697,
+        0.0346,
+        0.6315,
+        0.291
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "A table with columns for Cₚ, Cᵩ, combined capacitance C, two time readings t, and mean time T.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-51-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0399,
+        0.0867,
+        0.993,
+        0.81
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "Blank graph grid with T / s on the vertical axis and C / 10⁻⁴ F on the horizontal axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-51-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.054,
+        0.0276,
+        0.9484,
+        0.899
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

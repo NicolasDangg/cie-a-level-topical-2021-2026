@@ -1,0 +1,170 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2021-on-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2021-on-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2021-on-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2021-on-52-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A Geiger–Müller (G–M) tube is a device that can detect beta-radiation. A student places paper between a radioactive source emitting beta-radiation and a G–M tube, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nThe G–M tube is connected to a rate-meter which records the count rate *R*.\n\nThe thickness *t* of the paper is measured in two different places using a micrometer.\n\nThe student repeats the experiment for different thicknesses of paper.\n\nIt is suggested that *R* and *t* are related by the equation\n\n$R = R_0 e^{-\u0003bc9t}$\n\nwhere *R*₀ is the count rate without any paper and *μ* is a constant.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of ln *R* on the *y*-axis against *t* on the *x*-axis.\n\nDetermine expressions for the gradient and *y*-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": [
+        "gradient",
+        "y-intercept"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The two measurements of thickness are *t*₁ and *t*₂. Values of *t*₁, *t*₂ and *R* are given in Table 2.1.\n\n[[fig:f2]]\n\nCalculate and record values of average *t* / mm and ln (*R* / s⁻¹) in Table 2.1. Include the absolute uncertainties in average *t*.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of ln (*R* / s⁻¹) against average *t* / mm. Include error bars for average *t*.\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Both lines should be clearly labelled.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the *y*-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *μ* and *R*₀. Include the absolute uncertainties in your values and include appropriate units.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The experiment is repeated using a different thickness of paper.\n\nDetermine the value of *t* that would give a value of *R* of 20.0 s⁻¹.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "t",
+        "unit": "mm"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A radioactive source and a G–M tube are positioned on a bench with a sheet of paper between them, and the tube is connected to a rate-meter.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-on-52-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0692,
+        0.0539,
+        0.935,
+        0.207
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "A table with columns for t₁ / mm, t₂ / mm, average t / mm, R / s⁻¹ and ln (R / s⁻¹), with six rows of t₁, t₂ and R values and blank average-thickness and logarithm cells.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-on-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.007,
+        0.0914,
+        0.9941,
+        0.4303
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A blank graph grid with ln (R / s⁻¹) on the vertical axis from 3.35 to 3.90 and t / mm on the horizontal axis from 0.1 to 0.8.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-on-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.038,
+        0.0276,
+        0.9683,
+        0.899
+      ]
+    }
+  ],
+  "notes": [
+    "The exponent in the equation was unclear in the text rendering."
+  ],
+  "problems": [
+    "part d: numeric part needs answer {symbol, unit} (either may be null)"
+  ],
+  "warnings": []
+}

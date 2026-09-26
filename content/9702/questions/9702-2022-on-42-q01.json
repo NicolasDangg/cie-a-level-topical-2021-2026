@@ -1,0 +1,94 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-42-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-42-q01-p02.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-42-q01-p03.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define gravitational field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A spherical planet can be considered as a point mass at its centre.",
+      "text": "On Fig. 1.1, draw gravitational field lines outside the planet to represent the gravitational field due to the planet.\n\n[[fig:f1]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "A satellite is in a circular orbit around the planet.\n\nExplain, with reference to your answer in (b)(i), why the path of the satellite is circular.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "An object rests on the surface of the Earth at the Equator.\nThe radius of the Earth is 6.4 × 10⁶ m.",
+      "text": "Determine the centripetal acceleration of the object.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "centripetal acceleration",
+        "unit": "m s⁻²"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Describe how the two forces acting on the object give rise to this centripetal acceleration. You may draw a diagram if you wish.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A circular planet labelled “planet” is shown.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-42-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2153,
+        0.1996,
+        0.7966,
+        0.6278
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q09",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q09-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q09-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State, by reference to the power dissipated in a resistor, what is meant by the *root-mean-square (r.m.s.)* value of an alternating voltage.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A coil is rotating freely, on frictionless bearings, at constant speed in a uniform magnetic field. This rotation causes an induced alternating electromotive force (e.m.f.) across the open terminals of the coil. The induced e.m.f. has r.m.s. value 12 V and frequency 50 Hz.\n\nThe speed of rotation of the coil is now doubled.",
+      "text": "State and explain, with reference to the principles of electromagnetic induction, the effect of the increased speed of rotation on the r.m.s. value of the induced e.m.f.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 9.1, sketch the variation with time *t* of the induced e.m.f. *E* across the terminals of the coil at the increased speed of rotation. Your line should extend from time *t* = 0 to time *t* = 20 ms. Assume that *E* = 0 when *t* = 0.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "State and explain the effect on the motion of the coil in (b) of connecting a load resistor across its terminals.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "A blank graph grid of induced e.m.f. E in volts against time t in milliseconds, with E marked from −40 to 40 V and time marked from 0 to 20 ms.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.23,
+        0.56,
+        0.77,
+        0.89
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

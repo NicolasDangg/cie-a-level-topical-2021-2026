@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2022-mj-41-q03-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2022-mj-41-q03-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "A fixed mass of an ideal gas is initially at a temperature of 17 °C.\nThe gas has a volume of 0.24 m³ and a pressure of 1.2 × 10⁵ Pa.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by an ideal gas.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Calculate the amount *n* of gas.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "n",
+        "unit": "mol"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The gas undergoes three successive changes, as shown in Fig. 3.1.\n\n[[fig:f1]]\n\nThe initial state is represented by point A. The gas is cooled at constant pressure to point B by the removal of 48.0 kJ of thermal energy.\n\nThe gas is then heated at constant volume to point C.\n\nFinally, the gas expands at constant temperature back to its original pressure and volume at point A. During this expansion, the gas does 31.6 kJ of work.",
+      "text": "Show that the magnitude of the work done during the change AB is 19.2 kJ.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Complete Table 3.1 to show the work done on the gas, the thermal energy supplied to the gas and the increase in internal energy of the gas, for each of the changes AB, BC and CA.\n\n[[fig:f2]]",
+      "marks": 5,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A pressure–volume graph shows the curve from point A to B to C, with pressure on the vertical axis and volume on the horizontal axis.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2022-mj-41-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0493,
+        0.414,
+        0.9354,
+        0.774
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 3.1",
+      "alt": "A table has columns for change, work done on gas, thermal energy supplied to gas and increase in internal energy of gas, with rows AB, BC and CA; AB has −48.0 in the thermal energy column and CA has −31.6 in the work column.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2022-mj-41-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0974,
+        0.3168,
+        0.9038,
+        0.6076
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

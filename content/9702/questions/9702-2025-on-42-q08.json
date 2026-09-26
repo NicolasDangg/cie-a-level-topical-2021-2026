@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2025-on-42-q08-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2025-on-42-q08-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "Fig. 8.1 shows the three lowest-frequency lines in the part of the emission spectrum for hydrogen that relates to electron transitions to the ground state (level *n* = 1).\n\n[[fig:f1]]\n\nThe numbers represent the frequencies, in 10¹⁵ Hz, associated with the spectrum lines.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Use the photon model of electromagnetic radiation to explain how the existence of spectral lines in the emission spectrum provides evidence for discrete electron energy levels in the hydrogen atom.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The energy of the ground state (level *n* = 1) in a hydrogen atom is −13.6 eV.",
+      "text": "Calculate the energy, in J, of the ground state.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the energy difference between levels *n* = 1 and *n* = 2 is 10.2 eV.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Complete Table 8.1 to show the energy differences from the ground state, and the energies of the levels up to *n* = 4, in the hydrogen atom. Use the space for any working.\n\n[[fig:f2]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "Three vertical spectral lines span between two horizontal lines, with frequencies 3.09, 2.92 and 2.47 shown below them.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2025-on-42-q08-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1608,
+        0.0601,
+        0.8404,
+        0.142
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 8.1",
+      "alt": "A table with columns for level, energy difference from n = 1 in eV, and energy in eV, with rows for n = 4, n = 3, n = 2 and n = 1; some cells are blank.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2025-on-42-q08-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2019,
+        0.2766,
+        0.8005,
+        0.5398
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-42-q05-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-42-q05-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by simple harmonic motion.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A block is suspended by a spring. The block oscillates vertically with simple harmonic motion.\n\nThe velocity *v* of the block varies with time *t* according to\n\n*v* = 0.56 cos 16*t*\n\nwhere *v* is in m s⁻¹ and *t* is in s.",
+      "text": "Calculate the period of the oscillation.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "period",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the amplitude *x₀* of the oscillation.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "x₀",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use your answer in (b)(ii) to determine the equation for *v* in terms of the displacement *x* of the block, where *v* is in m s⁻¹ and *x* is in m.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "v",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "On Fig. 5.1, sketch the variation of *v* with *x*.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A blank graph grid with horizontal axis x / cm from −6 to 6 and vertical axis v / m s⁻¹ from −0.8 to 0.8.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-42-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1514,
+        0.0575,
+        0.8498,
+        0.3751
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

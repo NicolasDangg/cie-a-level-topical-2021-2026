@@ -1,0 +1,86 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2023-mj-42-q03-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2023-mj-42-q03-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the first law of thermodynamics. Identify the meaning of any symbols that you use.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The state of an ideal gas is continuously changed according to the cycle ABCDA shown in Fig. 3.1.\n\n[[fig:f1]]",
+      "text": "Complete Table 3.1 for the changes A to B and B to C by placing two ticks (✓) in each row.\n\n[[fig:f2]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Use the first law of thermodynamics to describe and explain the energy transfers associated with one complete cycle ABCDA.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A pressure–volume graph showing a rectangular cycle ABCDA, with arrows indicating the direction around the cycle.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2023-mj-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.248,
+        0.1973,
+        0.749,
+        0.3865
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 3.1",
+      "alt": "A table with rows A to B and B to C and columns for change in internal energy and work done on gas, each with decrease, no change or increase, and negative, zero or positive choices.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2023-mj-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0775,
+        0.5185,
+        0.9237,
+        0.6771
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

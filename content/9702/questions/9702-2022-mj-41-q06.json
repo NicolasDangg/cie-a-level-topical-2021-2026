@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q06-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q06-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define magnetic flux.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A square coil of wire of side length 12 cm consists of 8 insulated turns. The coil is stationary in a uniform magnetic field. The plane of the coil is perpendicular to the magnetic field, as shown in Fig. 6.1.\n\n[[fig:f1]]\n\nThe flux density *B* of the magnetic field varies with time *t* as shown in Fig. 6.2.\n\n[[fig:f2]]",
+      "text": "Determine the magnetic flux linkage inside the coil at time *t* = 0.60 s. Give a unit with your answer.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "magnetic flux linkage",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State how Fig. 6.2 shows that the electromotive force (e.m.f.) *E* induced across the terminals between *t* = 0 and *t* = 0.60 s is constant.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the magnitude of *E*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The procedure in (b) is repeated, but this time the terminals of the coil are connected together.\n\nState and explain the effect on the coil of connecting the terminals together during the change of magnetic flux density shown in Fig. 6.2.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A square coil with terminals is shown among magnetic field symbols pointing into the page, with its side length marked 12 cm.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1174,
+        0.2166,
+        0.864,
+        0.5531
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "A graph of magnetic flux density B in mT against time t in s rises linearly from 0 mT at 0 s to 400 mT at 0.60 s.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-mj-41-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.217,
+        0.605,
+        0.7817,
+        0.801
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

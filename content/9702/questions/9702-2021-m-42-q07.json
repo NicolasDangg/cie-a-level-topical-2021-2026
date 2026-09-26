@@ -1,0 +1,132 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-m-42-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q07-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Fig. 7.1 shows the circuit diagram containing an operational amplifier (op-amp).\n\n[[fig:f1]]",
+      "text": "State the name of this type of amplifier.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Show that the gain of the amplifier is 6.0.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "At time *t* = 0 the input potential *V*ᵢₙ is zero. *V*ᵢₙ then gradually increases with time *t* as shown in Fig. 7.2.\n\n[[fig:f2]]\n\nOn Fig. 7.2 sketch a line to show the variation with time *t* of the output potential *V*ₒᵤₜ from time *t* = 0 to time *t* = *T*.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iv",
+      "label": "(a)(iv)",
+      "lead": null,
+      "text": "State how the circuit of Fig. 7.1 may be changed so that the gain of the amplifier is dependent on light intensity.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An op-amp is to be used to switch on a high-voltage heater.",
+      "text": "State the name of the component used as the output device of the op-amp.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Complete Fig. 7.3 using the device name in (i) and a diode so that the heater may be switched on when the output of the op-amp is positive.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "Circuit diagram of an operational amplifier with 3.6 kΩ and 0.72 kΩ resistors, ±3.0 V supplies, and input and output potentials.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.169,
+        0.0475,
+        0.8263,
+        0.2971
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A gridded graph of potential in volts against time, with a straight line increasing from zero to about one volt.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.212,
+        0.0733,
+        0.7911,
+        0.3649
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "An incomplete op-amp circuit with input connections, a grounded lower rail, and two terminals marked for connections to a high-voltage heater.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-m-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1092,
+        0.699,
+        0.9026,
+        0.896
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

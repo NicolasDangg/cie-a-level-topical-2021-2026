@@ -1,0 +1,86 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2024-on-42-q04-p01.png",
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2024-on-42-q04-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State three of the basic assumptions of the kinetic theory of gases.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Explain how molecular movement causes the pressure exerted by a gas.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Fig. 4.1 shows the variation with the thermodynamic temperature *T* of the mean-square speeds ⟨*c*²⟩ for two gases X and Y.\n\n[[fig:f1]]\n\nFig. 4.2 shows the variation with *T* of the product *pV* for samples of the two gases, where *p* is the pressure of the gas and *V* is the volume of the gas.\n\n[[fig:f2]]\n\nState three conclusions about the gases and their samples that may be drawn from Fig. 4.1 and Fig. 4.2. The conclusions may be qualitative or quantitative. Use the space below for any working that you need.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A graph of mean-square speed ⟨c²⟩ against temperature T, with straight lines for gases X and Y rising from the origin.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2024-on-42-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.17,
+        0.53,
+        0.83,
+        0.82
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A graph of pV against temperature T, with straight lines for gases X and Y rising from the origin.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2024-on-42-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2,
+        0.0749,
+        0.8,
+        0.353
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

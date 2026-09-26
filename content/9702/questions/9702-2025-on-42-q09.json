@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2025-on-42-q09-p01.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2025-on-42-q09-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the mass defect of a nucleus.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The nuclear fusion reaction for the formation of helium-4 from deuterium is represented by\n\n²₁H + ²₁H → ⁴₂He.\n\nTable 9.1 shows the masses of the nuclides involved in this reaction.\n\n[[fig:f1]]\n\nCalculate the energy released in the formation of 1.00 mol of helium-4.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The star Sirius has a radius of 1.19 × 10⁹ m and loses mass due to nuclear fusion at a rate of 1.09 × 10¹¹ kg s⁻¹. Assume that the power of the radiation emitted by the star is equal to the power released by this process.",
+      "text": "Determine a value for the luminosity of Sirius. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "luminosity",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Use your answer in (c)(i) to determine the surface temperature of Sirius.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "surface temperature",
+        "unit": "K"
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Explain how cosmologists use standard candles to estimate the distance of a galaxy from the Earth.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 9.1",
+      "alt": "A table gives the nuclides ²₁H and ⁴₂He and their masses, 2.013 553 u and 4.001 505 u, respectively.",
+      "source_image": "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2025-on-42-q09-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2359,
+        0.3197,
+        0.7653,
+        0.4455
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

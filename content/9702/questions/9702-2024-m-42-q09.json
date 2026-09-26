@@ -1,0 +1,145 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-m-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p02.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p03.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Electrons in a vacuum are accelerated through a potential difference of 84 kV. The electrons then strike a metal target and X-rays are produced.",
+      "text": "Calculate the minimum wavelength of the X-rays that are produced.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "The melting points of two metals are given in Table 9.1.\n\n[[fig:f1]]\n\nSuggest why the metal target is made from tungsten rather than copper.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "An X-ray beam is incident normally on a sample of soft tissue and bone as shown in Fig. 9.1.\n\n[[fig:f2]]\n\nData for the two materials are given in Table 9.2.\n\n[[fig:f3]]\n\nThe total thickness of soft tissue is *x*. The total thickness of bone is also *x*.\n\nThe incident intensity of the X-ray beam is *I*₀. The transmitted intensity of the X-ray beam is 13% of the incident intensity.\n\nDetermine *x*, in cm.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "x",
+        "unit": "cm"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Define the specific acoustic impedance of a medium.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Use data from Table 9.2 to calculate the percentage of the intensity of ultrasound that is transmitted at a boundary between soft tissue and bone.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage transmitted",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "The ultrasound is now incident on the sample of soft tissue and bone shown in Fig. 9.1.\n\nSuggest two reasons why the transmitted intensity through the sample is less than the answer in (c)(ii).",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "1",
+        "2"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 9.1",
+      "alt": "A table gives the melting points of copper and tungsten.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3263,
+        0.31,
+        0.6749,
+        0.4042
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 9.1",
+      "alt": "An X-ray beam passes through soft tissue on either side of a central section of bone.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.358,
+        0.5862,
+        0.642,
+        0.772
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Table 9.2",
+      "alt": "A table gives the linear attenuation coefficients and specific acoustic impedances of soft tissue and bone.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2024-m-42-q09-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1115,
+        0.0575,
+        0.8897,
+        0.1671
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

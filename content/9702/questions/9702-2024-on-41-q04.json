@@ -1,0 +1,128 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-41-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2024-on-41-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2024-on-41-q04-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by simple harmonic motion.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A block is suspended from a spring, as shown in Fig. 4.1.\n\n[[fig:f1]]\n\nThe block is pulled down and released at time *t* = 0. It then oscillates vertically with simple harmonic motion.\n\nFig. 4.2 shows the variation of the velocity *v* of the block with height *h* of the base of the block above the floor.\n\n[[fig:f2]]",
+      "text": "Determine the amplitude, in cm, of the oscillations.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "amplitude",
+        "unit": "cm"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the angular frequency of the oscillations is 3.2 rad s⁻¹.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the period *T* of the oscillations.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "T",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "On Fig. 4.3, sketch the variation of *h* with time *t* from *t* = 0 to *t* = 6.0 s.\n\n[[fig:f3]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A block hangs from a vertical spring attached to a support above a floor, with the height h marked between the block and floor.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2024-on-41-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2641,
+        0.18,
+        0.7371,
+        0.3942
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A velocity-versus-height graph shows an oval closed curve on a grid, with velocity v on the vertical axis and height h on the horizontal axis.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2024-on-41-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0927,
+        0.55,
+        0.9085,
+        0.88
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 4.3",
+      "alt": "A blank grid for sketching height h against time t, with h on the vertical axis and t on the horizontal axis.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2024-on-41-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.11,
+        0.5,
+        0.89,
+        0.86
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

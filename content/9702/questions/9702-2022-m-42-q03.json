@@ -1,0 +1,136 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p02.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p03.png"
+  ],
+  "marks_total": 10,
+  "stem": "A small wooden block (cuboid) of mass *m* floats in water, as shown in Fig. 3.1.\n\n[[fig:f1]]\n\nThe top face of the block is horizontal and has area *A*. The density of the water is *ρ*.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the names of the two forces acting on the block when it is stationary.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The block is now displaced downwards as shown in Fig. 3.2 so that the surface of the water is higher up the block.\n\n[[fig:f2]]\n\nState and explain the direction of the resultant force acting on the wooden block in this position.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The block in (b) is now released so that it oscillates vertically.\n\nThe resultant force *F* acting on the block is given by\n\n*F* = −*Aρgx*\n\nwhere *g* is the gravitational field strength and *x* is the vertical displacement of the block from the equilibrium position.",
+      "text": "Explain why the oscillations of the block are simple harmonic.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Show that the angular frequency *ω* of the oscillations is given by\n\n$ω = \\sqrt{\\frac{Aρg}{m}}$.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "The block is now placed in a liquid with a greater density. The block is displaced and released so that it oscillates vertically. The variation with displacement *x* of the acceleration *a* of the block is measured for the first half oscillation, as shown in Fig. 3.3.\n\n[[fig:f3]]",
+      "text": "Explain why the maximum negative displacement of the block is not equal to its maximum positive displacement.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "The mass of the block is 0.57 kg.\n\nUse Fig. 3.3 to determine the decrease Δ*E* in energy of the oscillation for the first half oscillation.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E",
+        "unit": "J"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A wooden block of mass m floats partly submerged in water of density ρ.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2265,
+        0.037,
+        0.7746,
+        0.161
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 3.2",
+      "alt": "A block is shown displaced downwards, with the new water surface above the dashed line marking the original water surface.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3016,
+        0.3696,
+        0.6995,
+        0.505
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 3.3",
+      "alt": "A graph of acceleration a against displacement x shows a straight line sloping downwards from positive acceleration at negative displacement to negative acceleration at positive displacement.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-m-42-q03-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2453,
+        0.0922,
+        0.7547,
+        0.4846
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

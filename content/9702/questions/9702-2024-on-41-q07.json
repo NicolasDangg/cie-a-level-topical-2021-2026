@@ -1,0 +1,116 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-41-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-41-q07-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-41-q07-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define magnetic flux density.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A long, straight wire carries a current into the page, as shown in Fig. 7.1.\n\n[[fig:f1]]\n\nOn Fig. 7.1, draw four field lines to represent the magnetic field around the wire due to the current in it.",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Two identical wires X and Y are placed parallel to each other. The wires both carry current into the page, as shown in Fig. 7.2.\n\n[[fig:f2]]",
+      "text": "Explain why the two wires exert a magnetic force on each other.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "On Fig. 7.2, draw an arrow to show the direction of the magnetic force exerted on wire X. Label your arrow F.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "The current in X is double the current in Y.\n\nState how the magnetic force exerted on wire Y compares with the magnetic force exerted on wire X.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "The direction of the current in both wires is now reversed.\n\nState, with a reason, the effect of this change on the direction of the force on wire X.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A circle with a cross at its centre represents a current into the page.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-41-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.3656,
+        0.2621,
+        0.634,
+        0.4405
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "Two parallel wires labelled X and Y are shown with crosses indicating currents into the page.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-41-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2969,
+        0.7083,
+        0.7042,
+        0.76
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-41-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-41-q05-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-41-q05-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define electric potential at a point.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A hydrogen atom may be considered to consist of a proton and an electron separated by a distance of 120 pm, as shown in Fig. 5.1.\n\n[[fig:f1]]\n\nThe two particles may be considered as point charges.\n\nPoint P lies on the line joining the electron and the proton and is at a variable distance *x* from the proton.",
+      "text": "Show that the electric potential *V* at point P when *x* = 10 pm is equal to 130 V.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Calculate, to two significant figures, *V* when *x* = 30 pm.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "V",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 5.1, draw a cross (×) at one position, other than infinity, where the electric potential is zero.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "On Fig. 5.2, sketch the variation of *V* with *x* between *x* = 10 pm and *x* = 110 pm.\n\n[[fig:f2]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A proton and an electron are shown 120 pm apart, with point P between them at a distance x from the proton.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-41-q05-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.247,
+        0.201,
+        0.7594,
+        0.3269
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "A blank grid for sketching electric potential V against distance x, with axes labelled V / V and x / pm, spanning x = 10 to 110 pm and V = −160 to 160 V.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-on-41-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1596,
+        0.061,
+        0.839,
+        0.379
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

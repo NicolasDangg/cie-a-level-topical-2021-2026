@@ -1,0 +1,114 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-m-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p02.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p03.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p04.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define gravitational potential at a point.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Artemis is a spherical planet that may be assumed to be isolated in space. The variation with distance *x* from the centre of Artemis of the gravitational potential *ϕ* is shown in Fig. 1.1.\n\n[[fig:f1]]",
+      "text": "The radius of Artemis is 4800 km.\n\nDetermine the value of *ϕ* on the surface of Artemis.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ϕ",
+        "unit": "J kg⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the mass of Artemis is 2.55 × 10²⁴ kg.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the gravitational field strength *g* on the surface of Artemis.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "g",
+        "unit": "N kg⁻¹"
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "A satellite is in an orbit at a fixed position above a point on the surface of Artemis. The satellite is located above the equator of Artemis at a height above the surface where the gravitational potential is −0.65 × 10⁷ J kg⁻¹.\n\nCalculate the period, in hours, of rotation of Artemis.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "period",
+        "unit": "hours"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "State one similarity and one difference between gravitational potential due to a point mass and electric potential due to a point charge.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "similarity",
+        "difference"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A graph of gravitational potential ϕ against distance x from the centre of Artemis, with the potential increasing from about −3.5 to −0.5 as distance increases.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2023-m-42-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0998,
+        0.1965,
+        0.947,
+        0.8631
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

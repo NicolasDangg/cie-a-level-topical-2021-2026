@@ -1,0 +1,195 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates a circuit containing a capacitor and a resistor as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nA dual-beam oscilloscope is connected across the capacitor of capacitance *C* and resistor of resistance *R*. The oscilloscope displays two traces as shown in Fig. 2.2.\n\n[[fig:f2]]\n\nThe student determines the phase difference *θ* between the two traces.\n\nThe student repeats the experiment with different resistors.\n\nIt is suggested that *θ* and *R* are related by the equation\n\n$\\tan θ = \\frac{1}{2πfCR}$\n\nwhere *f* is the frequency of the a.c. power supply.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of tan *θ* on the y-axis against 1/*R* on the x-axis.\n\nDetermine an expression for the gradient.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *R* and *θ* are given in Table 2.1.\n\nEach value of *R* has a percentage uncertainty of ±5%.\n\n[[fig:f3]]\n\nCalculate and record values of 1/*R* / 10⁻³ Ω⁻¹ and tan *θ* in Table 2.1.\n\nInclude the absolute uncertainties in 1/*R*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of tan *θ* against 1/*R* / 10⁻³ Ω⁻¹.\n\nInclude error bars for 1/*R*.\n\n[[fig:f4]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The student measured the frequency of the a.c. power supply twice. The student’s values were 101 Hz and 97 Hz.\n\nDetermine the average frequency *f* of the power supply. Include the absolute uncertainty in *f*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*f*",
+        "unit": "Hz"
+      }
+    },
+    {
+      "partId": "e-i",
+      "label": "(e)(i)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(ii) and (d), determine the value of *C*. Include an appropriate unit.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*C*",
+        "unit": null
+      }
+    },
+    {
+      "partId": "e-ii",
+      "label": "(e)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in *C*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty in *C*",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "f",
+      "label": "(f)",
+      "lead": null,
+      "text": "The experiment is repeated using the same power supply and capacitor.\n\nDetermine the resistance of *R* that would give a phase difference of 40°. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*R*",
+        "unit": "Ω"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A circuit with an a.c. power supply, a capacitor and a resistor, with connections to a dual-beam oscilloscope.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2547,
+        0.0346,
+        0.7453,
+        0.1771
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 2.2",
+      "alt": "A graph grid showing two sinusoidal traces with different phases.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.284,
+        0.2746,
+        0.7171,
+        0.5725
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Table 2.1",
+      "alt": "A table with columns for resistance, reciprocal resistance, phase difference and tan θ; it gives resistance values 12, 16, 22, 33, 39 and 43 Ω and phase differences 80.8°, 77.5°, 73.0°, 65.2°, 61.7° and 59.3°.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1185,
+        0.1206,
+        0.8826,
+        0.4444
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": null,
+      "alt": "A blank graph grid with tan θ on the vertical axis, marked from 1.0 to 6.5, and 1/R / 10⁻³ Ω⁻¹ on the horizontal axis, marked from 20 to 90.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-m-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0387,
+        0.0276,
+        0.9613,
+        0.917
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

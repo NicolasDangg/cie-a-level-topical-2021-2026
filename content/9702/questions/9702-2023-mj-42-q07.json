@@ -1,0 +1,150 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2023-mj-42-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2023-mj-42-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "Four diodes are used in a bridge rectifier circuit to produce rectification of a sinusoidal a.c. input voltage *V*ᵢₙ.\nFig. 7.1 shows part of the circuit, but three of the diodes are missing.\n\n[[fig:f1]]\n\nThe p.d. across the load resistor R is the output p.d. *V*ₒᵤₜ of the bridge rectifier.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State the name of the type of rectification produced by a bridge rectifier.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Complete Fig. 7.1 by drawing the three missing diodes, correctly connected.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "On Fig. 7.1, draw an arrow to indicate the direction of the current in resistor R.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "*V*ᵢₙ has amplitude *V*₀ and period *T*. Fig. 7.2 shows the variation with time *t* of *V*ᵢₙ.\n\n[[fig:f2]]",
+      "text": "On Fig. 7.3, sketch the variation of *V*ₒᵤₜ with *t* between *t* = 0 and *t* = 2.0*T*.",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The power dissipated in the resistor is *P*.\n\nOn Fig. 7.4, sketch the variation of *P* with *t* between *t* = 0 and *t* = 2.0*T*.\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Suggest, with a reason, how the root-mean-square (r.m.s.) value of *V*ₒᵤₜ compares with the r.m.s. value of *V*ᵢₙ.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A partially shown bridge rectifier circuit with an a.c. input, load resistor R, output voltage, and one diode drawn.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2023-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2371,
+        0.0725,
+        0.7594,
+        0.316
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A gridded graph showing the sinusoidal input voltage against time from 0 to 2.0T.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2023-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2254,
+        0.5829,
+        0.7711,
+        0.8221
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A blank gridded graph for output voltage against time from 0 to 2.0T, marked with V₀ and −V₀.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2023-mj-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2171,
+        0.0607,
+        0.7817,
+        0.292
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 7.4",
+      "alt": "A blank gridded graph for power against time from 0 to 2.0T.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2023-mj-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2371,
+        0.4358,
+        0.764,
+        0.6942
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "figure f4: placed 0 times in the text, expected once"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,153 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-m-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p02.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p03.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p04.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Coulomb’s law.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A charged sphere *X* is supported on an insulating stand. A second charged sphere *Y* is suspended by an insulating thread so that sphere *Y* is in equilibrium at the position shown in Fig. 4.1.\n\n[[fig:f1]]\n\nThe charge on sphere *X* is +96 nC and the charge on sphere *Y* is +64 nC.\nAssume that the spheres behave as point charges.\n\nThe length of the thread is 1.2 m and the centres of sphere *X* and sphere *Y* are separated horizontally by a distance of 0.080 m.",
+      "text": "On Fig. 4.2, draw and label all the forces acting on sphere *Y*.\n\n[[fig:f2]]",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the mass of sphere *Y*.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mass",
+        "unit": "kg"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the total electric potential energy stored between *X* and *Y*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "An electron enters the region between two parallel plates *P* and *Q*, that are separated by a distance of 18 mm, as shown in Fig. 4.3.\n\n[[fig:f3]]\n\nThe space between the plates is a vacuum.\nThe potential difference between the plates is 250 V. The electric field may be assumed to be uniform in the region between the plates and zero outside this region.",
+      "text": "State the direction of the electric force on the electron when between the plates.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Determine the magnitude of the force acting on the electron due to the electric field.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "force",
+        "unit": "N"
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Explain why the electron does not follow a circular path.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "Sphere X rests on a stand below an insulating support, while sphere Y hangs from a thread sloping down to the right; the diagram labels the charges, thread length, horizontal separation, vertical line, and stand.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.25,
+        0.247,
+        0.75,
+        0.574
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "An unlabelled sphere Y hangs from a sloping thread attached to a hatched horizontal support.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.392,
+        0.0552,
+        0.6092,
+        0.2734
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 4.3",
+      "alt": "Two horizontal parallel plates are separated by 18 mm, with plate P at +250 V and plate Q earthed; an electron enters horizontally between them.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2023-m-42-q04-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2371,
+        0.0749,
+        0.7629,
+        0.3105
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

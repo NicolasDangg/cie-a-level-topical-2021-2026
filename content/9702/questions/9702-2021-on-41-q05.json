@@ -1,0 +1,135 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q05",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q05-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q05-p02.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q05-p03.png"
+  ],
+  "marks_total": 8,
+  "stem": "An analogue signal is to be transmitted to a receiver. Before transmission, the signal passes through an analogue-to-digital converter (ADC). After transmission it passes through a digital-to-analogue converter (DAC) before finally reaching the receiver, as shown in Fig. 5.1.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State two advantages of converting the signal into digital form for transmission.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "1",
+        "2"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The variation with time of the potential difference (p.d.) of the input signal is shown in Fig. 5.2.\n\n[[fig:f2]]\n\nThe ADC has a sampling frequency of 250 Hz and uses 4-bit sampling, with the least significant bit corresponding to 1 mV. The signal is first sampled at time 0, when the sampled bits are 001.",
+      "text": "State the sampled bits at time 4 ms and time 8 ms.",
+      "marks": 1,
+      "kind": "written",
+      "slots": [
+        "4 ms",
+        "8 ms"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Part of the signal received by the receiver, after the sampled signal has passed through the DAC, is shown in Fig. 5.3.\n\n[[fig:f3]]\n\nOn Fig. 5.3, complete the line to show the received signal for time 0 to time 12 ms.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The ADC in (b) is replaced by one that has a sampling frequency of 500 Hz and uses 3-bit sampling, with the least significant bit corresponding to 2 mV.\n\nOn Fig. 5.4, sketch the signal that is now received, after passing through the DAC, from time 0 to time 12 ms.\n\n[[fig:f4]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A signal path runs from an input signal through an ADC, along a transmission line, through a DAC, and to a receiver.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1092,
+        0.0733,
+        0.8873,
+        0.161
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "A graph of input potential difference in mV against time in ms, with a smooth curve rising to a peak near 6 ms, falling to a trough near 8 ms, and rising again before falling toward 12 ms.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.103,
+        0.442,
+        0.9026,
+        0.794
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 5.3",
+      "alt": "A graph of potential difference in mV against time in ms with a stepped signal at about 1 mV until 4 ms and about 5 mV from 4 ms to 6 ms.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.103,
+        0.0764,
+        0.9343,
+        0.801
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 5.4",
+      "alt": "An empty graph grid of potential difference in mV against time in ms, from 0 to 12 ms.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-on-41-q05-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.103,
+        0.1277,
+        0.9038,
+        0.485
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

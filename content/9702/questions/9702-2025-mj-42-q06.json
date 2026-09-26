@@ -1,0 +1,106 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-42-q06-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-42-q06-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "Two parallel metal plates X and Y are separated by a distance of 0.041 m, as shown in Fig. 6.1.\n\n[[fig:f1]]\n\nThere is a vacuum between the plates. An electron is at rest at the centre of plate X.\n\nA potential difference (p.d.) of 58 kV is applied across the plates. This causes the electron to accelerate towards plate Y.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "On Fig. 6.1, use the symbols + and − to indicate which of plates X and Y is the positive plate and which is the negative plate.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "Calculate the electric field strength *E* between the plates. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the acceleration of the electron.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "acceleration",
+        "unit": "m s⁻²"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Many electrons are now accelerated from rest from plate X to plate Y in Fig. 6.1. When the electrons hit plate Y, the absorption of their kinetic energies results in the emission of electromagnetic waves.",
+      "text": "Show that the minimum wavelength of these electromagnetic waves is 21 pm.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State the region of the electromagnetic spectrum that contains these waves.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Explain how these electromagnetic waves may be used to form images of internal body structures.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "Two vertical parallel metal plates X and Y face each other across a 0.041 m gap, with an electron at plate X and the gap labelled vacuum.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-42-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.25,
+        0.04,
+        0.75,
+        0.315
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

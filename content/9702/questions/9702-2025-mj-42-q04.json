@@ -1,0 +1,93 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2025-mj-42-q04-p01.png",
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2025-mj-42-q04-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "The equation of state for an ideal gas may be written as\n\n*pV* = *NBT*\n\nwhere *p* is the pressure of the gas, *V* is the volume of the gas, *A* is the Avogadro constant, *B* is another constant and *N* is the number of molecules of the gas.",
+      "text": "State the meaning, in the equation, of the symbol *T*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Identify the constant *B*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The product *pV* for an ideal gas is also given by\n\n*pV* = ⅓ *Nm* ⟨*c*²⟩.",
+      "text": "State the meanings, in this equation, of the symbols *m* and ⟨*c*²⟩.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "m",
+        "⟨c²⟩"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Use the equations in (a) and (b) to derive an expression, in terms of *A*, *B* and *T*, for the mean kinetic energy *E*ₖ for a molecule of the gas.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "On Fig. 4.1, sketch the variation with *T* of the root-mean-square (r.m.s.) speed of the molecules of an ideal gas.\n\n[[fig:f1]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A blank set of axes with r.m.s. speed on the vertical axis and T on the horizontal axis, both starting at zero.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2025-mj-42-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.232,
+        0.076,
+        0.769,
+        0.257
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

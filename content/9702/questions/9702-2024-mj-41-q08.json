@@ -1,0 +1,119 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-41-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-41-q08-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-41-q08-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by a photon.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 8.1 shows a tube in which X-rays are produced at a metal target.\n\n[[fig:f1]]",
+      "text": "State the name of the particles.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 8.1, use + and − signs to label terminals X and Y to indicate the polarity of the high voltage.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "For an accelerating voltage of 32kV in Fig. 8.1, determine:",
+      "text": "the maximum energy, in MeV, of an X-ray photon produced at the target",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "maximum photon energy",
+        "unit": "MeV"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "the maximum momentum of an X-ray photon produced at the target",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "maximum photon momentum",
+        "unit": "N s"
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "the minimum wavelength of X-rays produced at the target.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "minimum wavelength",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Explain why X-rays can be used to produce images of internal body structures that have good contrast.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "A diagram of an X-ray tube showing particles emitted from a filament and accelerated towards a metal target, with a glass tube surrounding the components.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2024-mj-41-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0845,
+        0.1771,
+        0.9167,
+        0.5564
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,149 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-51-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2022-mj-51-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-51-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-51-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2022-mj-51-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates the relationship between the luminosity *L* of a star and its mass *M* for a set of stars known as main-sequence stars.\n\nIt is suggested that *L* and *M* are related by the equation\n\n*L* = *SZM*ⁿ\n\nwhere *S* is the luminosity of the Sun, and *Z* and *n* are constants.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of lg *L* on the y-axis against lg *M* on the x-axis.\n\nDetermine expressions for the gradient and y-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *M* and *L* are given in Table 2.1.\n\n[[fig:f1]]\n\nCalculate and record values of lg (*M* / 10³⁰ kg) and lg (*L* / 10²⁸ W) in Table 2.1. Include the absolute uncertainties in lg (*M* / 10³⁰ kg).",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of lg (*L* / 10²⁸ W) against lg (*M* / 10³⁰ kg). Include error bars for lg (*M* / 10³⁰ kg).",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *n* and *Z*. Include the absolute uncertainties in your values. You need not be concerned with units.\n\nData: *S* = 3.85 × 10²⁶ W",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "Another main-sequence star has a mass of 3.0 × 10³⁰ kg.\n\nDetermine the luminosity *L* of this star.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "L",
+        "unit": "W"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 2.1",
+      "alt": "A table with columns for mass, luminosity, and their logarithms, containing six mass and luminosity values and blank cells for the logarithms.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-mj-51-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0575,
+        0.0914,
+        0.9437,
+        0.4153
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": null,
+      "alt": "A blank graph grid with lg (*L* / 10²⁸ W) on the vertical axis and lg (*M* / 10³⁰ kg) on the horizontal axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2022-mj-51-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0047,
+        0.034,
+        0.9918,
+        0.9173
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "part d: numeric part needs answer {symbol, unit} (either may be null)"
+  ],
+  "warnings": []
+}

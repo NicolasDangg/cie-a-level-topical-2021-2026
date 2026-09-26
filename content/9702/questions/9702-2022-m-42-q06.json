@@ -1,0 +1,80 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-m-42-q06-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-m-42-q06-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": "A small solenoid of area of cross section 1.6 × 10⁻³ m² is placed inside a larger solenoid of area of cross-section 6.4 × 10⁻³ m², as shown in Fig. 6.1.\n\n[[fig:f1]]\n\nThe larger solenoid has 600 turns and is attached to a d.c. power supply to create a magnetic field.\n\nThe smaller solenoid has 3000 turns.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Compare the magnetic flux in the two solenoids.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Compare the magnetic flux linkage in the two solenoids.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "State Lenz’s law of electromagnetic induction.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "The terminals of the smaller solenoid are connected together. The smaller solenoid is then removed from inside the larger solenoid.\n\nWith reference to magnetic fields, explain why a force is needed to remove the smaller solenoid.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A smaller solenoid inside a larger solenoid, with labels giving their cross-sectional areas and numbers of turns, and the larger solenoid connected to a d.c. supply.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2022-m-42-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0176,
+        0.0523,
+        0.9836,
+        0.215
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

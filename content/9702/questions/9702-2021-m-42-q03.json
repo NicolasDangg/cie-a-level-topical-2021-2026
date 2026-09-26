@@ -1,0 +1,96 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-m-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-14-temperature/assets/9702-2021-m-42-q03-p01.png",
+    "/9702/9702-topic-14-temperature/assets/9702-2021-m-42-q03-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Using a simple kinetic model of matter, describe the structure of a solid.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The specific latent heat of vaporisation is much greater than the specific latent heat of fusion for the same substance.\nExplain this, in terms of the spacing of molecules.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "A heater supplies energy at a constant rate to 0.045kg of a substance. The variation with time of the temperature of the substance is shown in Fig. 3.1. The substance is perfectly insulated from its surroundings.\n\n[[fig:f1]]",
+      "text": "Determine the temperature at which the substance melts.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "temperature",
+        "unit": "°C"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "The power of the heater is 150 W.\nUse data from Fig. 3.1 to calculate, in kJ kg⁻¹, the specific latent heat of vaporisation *L* of the substance.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*L*",
+        "unit": "kJ kg⁻¹"
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Suggest what can be deduced from the fact that section Q on the graph is less steep than section P.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A temperature–time graph with sections P and Q labelled, showing rising and horizontal portions.",
+      "source_image": "/9702/9702-topic-14-temperature/assets/9702-2021-m-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.123,
+        0.3889,
+        0.8638,
+        0.855
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

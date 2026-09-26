@@ -1,0 +1,70 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-41-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2024-mj-41-q10-p01.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2024-mj-41-q10-p02.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2024-mj-41-q10-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by the luminosity of a star.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Explain how a standard candle in a distant galaxy can be used to determine the distance of the galaxy from an observer.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The Sun has a radius of 6.96 × 10⁸ m and a surface temperature of 5780 K. Light from the Sun is observed to have a peak intensity at a wavelength of 501 nm.",
+      "text": "Calculate the luminosity of the Sun. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "luminosity",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Another star emits radiation that has a peak intensity at a wavelength of 624 nm.\n\nDetermine the surface temperature of this star.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "surface temperature",
+        "unit": "K"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

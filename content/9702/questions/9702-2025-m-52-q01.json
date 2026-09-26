@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-52-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2025-m-52-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2025-m-52-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2025-m-52-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Fig. 1.1 shows two identical cylindrical metal conductors P and Q, each of length *L* and cross-sectional area *A*.\n\n[[fig:f1]]\n\nThe conductors are placed parallel to each other. The perpendicular distance from the midpoint of P to point X is *p*. The perpendicular distance from the midpoint of Q to point X is *q*.\n\nThe two conductors are electrically connected in parallel. This parallel combination is connected in series to a power supply and a resistor. The potential difference *V* between the ends of P is the same as the potential difference between the ends of Q.\n\nThe magnetic flux density at X due to the currents in the conductors is *B*.\n\nIt is suggested that *B* is related to *p* by the relationship\n\n$B = \\frac{\\gamma AV}{Lp} + \\frac{\\gamma ZAV}{Lq}$\n\nwhere γ and Z are constants.\n\nPlan a laboratory experiment to test the relationship between *B* and *p*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for γ and Z.\n\nIn your plan you should include:\n\n• the procedure to be followed\n\n• the measurements to be taken\n\n• the control of variables\n\n• the analysis of the data\n\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "Two parallel horizontal cylindrical conductors P and Q are shown above point X, with their length and perpendicular distances to X labelled.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-m-52-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1068,
+        0.0593,
+        0.8932,
+        0.28
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

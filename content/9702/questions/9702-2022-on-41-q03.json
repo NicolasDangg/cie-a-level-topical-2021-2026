@@ -1,0 +1,140 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-41-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p02.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p03.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p04.png"
+  ],
+  "marks_total": 11,
+  "stem": "An object is suspended from a spring that is attached to a fixed point as shown in Fig. 3.1.\n\n[[fig:f1]]\n\nThe object oscillates vertically with simple harmonic motion about its equilibrium position.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the defining equation for simple harmonic motion. Identify the meaning of each of the symbols used to represent physical quantities.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The variation with displacement *x* from the equilibrium position of the velocity *v* of the object is shown in Fig. 3.2.\n\n[[fig:f2]]\n\n[[fig:f3]]\n\nUse Fig. 3.2 and Fig. 3.3 to:",
+      "text": "determine the amplitude *x*₀ of the oscillations",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "x₀",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "show that the angular frequency of the oscillations is 1.7 rad s⁻¹",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "determine the mass *M* of the object.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "M",
+        "unit": "kg"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The oscillations of the object are now light damped.",
+      "text": "State what is meant by damping.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Assume that the damping does not change the angular frequency of the oscillations.\n\nOn Fig. 3.2, sketch the variation with *x* of *v* when the amplitude of the oscillations is 0.060 m.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A spring hangs from a fixed point and supports an object that oscillates vertically about a dashed equilibrium position.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.162,
+        0.047,
+        0.828,
+        0.3092
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 3.2",
+      "alt": "A graph of velocity against displacement, with a closed elliptical curve centred on the origin.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.135,
+        0.608,
+        0.865,
+        0.928
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 3.3",
+      "alt": "A graph of potential energy against displacement, with a U-shaped curve having its minimum at the origin.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-on-41-q03-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0974,
+        0.078,
+        0.9024,
+        0.2744
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

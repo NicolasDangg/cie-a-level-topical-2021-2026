@@ -1,0 +1,134 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2023-on-41-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2023-on-41-q07-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": "A varying current *I* passes through a resistor of resistance *R* in the circuit shown in Fig. 7.1.\n\n[[fig:f1]]\n\nFig. 7.2 shows the variation with time *t* of *I*.\n\n[[fig:f2]]\n\nThe current has magnitude 2*I*₀ when it is in the positive direction and *I*₀ when it is in the negative direction. The period of the variation of the current is *T*.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Determine expressions, in terms of *I*₀ and *R*, for the power *P* dissipated in the resistor for the times when:",
+      "text": "the current is in the negative direction",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*P*",
+        "unit": null
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "the current is in the positive direction.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*P*",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "On Fig. 7.3, sketch the variation of *P* with *t* between *t* = 0 and *t* = 2.0*T*. Label the power axis with an appropriate scale.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Use your answer in (b) to determine an expression, in terms of *I*₀ and *R*, for:",
+      "text": "the mean power ⟨*P*⟩ in the resistor",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "⟨*P*⟩",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "the root-mean-square (r.m.s.) current *I*ᵣ.ₘ.ₛ. in the resistor.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*I*ᵣ.ₘ.ₛ.",
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A circuit with a resistor labelled R in the lower wire, an open gap in the upper wire, and a downward current arrow labelled I on the left.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2023-on-41-q07-p01.png",
+      "source_size": [
+        852,
+        1241
+      ],
+      "box": [
+        0.1984,
+        0.0403,
+        0.7946,
+        0.1845
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A current-versus-time graph from 0 to 2.0T, with the current alternating between −I₀ and 2I₀.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2023-on-41-q07-p01.png",
+      "source_size": [
+        852,
+        1241
+      ],
+      "box": [
+        0.2535,
+        0.284,
+        0.776,
+        0.5367
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A blank gridded graph with power P on the vertical axis and time t marked from 0 to 2.0T on the horizontal axis.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2023-on-41-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.241,
+        0.0898,
+        0.7676,
+        0.275
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

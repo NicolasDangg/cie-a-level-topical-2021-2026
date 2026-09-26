@@ -1,0 +1,93 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-m-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-m-42-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-m-42-q01-p02.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Newton’s law of gravitation.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Planets have been observed orbiting a star in another solar system. Measurements are made of the orbital radius *r* and the time period *T* of each of these planets.\n\nThe variation with *R*³ of *T*² is shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe relationship between *T* and *R* is given by\n\n*T*² = $\\frac{4π²R³}{GM}$\n\nwhere *G* is the gravitational constant and *M* is the mass of the star.\n\nDetermine the mass *M*.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "M",
+        "unit": "kg"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "A rock of mass *m* is also in orbit around the star in (b). The radius of the orbit is *r*.",
+      "text": "Explain why the gravitational potential energy of the rock is negative.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Show that the kinetic energy *E*ₖ of the rock is given by\n\n*E*ₖ = $\\frac{GMm}{2r}$.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Use the expression in (c)(ii) to derive an expression for the total energy of the rock.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A graph of *T*²/year² against *R*³/10³⁴ m³ with a straight line rising from the origin.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-m-42-q01-p01.png",
+      "source_size": [
+        852,
+        1198
+      ],
+      "box": [
+        0.081,
+        0.2638,
+        0.9167,
+        0.838
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

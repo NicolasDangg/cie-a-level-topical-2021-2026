@@ -1,0 +1,144 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-42-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-42-q07-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-42-q07-p02.png"
+  ],
+  "marks_total": 14,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Faraday’s law of electromagnetic induction.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 7.1 shows a coil at rest in a uniform magnetic field that is parallel to the axis of the coil.\n\n[[fig:f1]]\n\nThe coil is connected to a centre-zero voltmeter.\n\nThe flux density *B* of the uniform magnetic field varies with time *t* as shown in Fig. 7.2.\n\n[[fig:f2]]\n\nThe coil consists of 340 turns, each of cross-sectional area 3.2 × 10⁻⁴ m².",
+      "text": "Calculate the maximum magnetic flux through one turn of the coil.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "maximum magnetic flux",
+        "unit": "Wb"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the maximum rate of change of magnetic flux linkage in the coil.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "maximum rate of change of flux linkage",
+        "unit": "Wb s⁻¹"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "State the maximum electromotive force (e.m.f.) *V*₀ induced across the coil.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "V₀",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "On Fig. 7.3, sketch the variation of the e.m.f. *V* induced across the coil with *t* from *t* = 0 to *t* = 6.0 ms.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-v",
+      "label": "(b)(v)",
+      "lead": null,
+      "text": "The variation of *V* with *t* can be described by\n\n*V* = *A* sin *B**t*\n\nwhere *A* and *B* are constants.\n\nDetermine the values of *A* and *B*. Give units with your answers.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A coil in a uniform magnetic field is connected to a centre-zero voltmeter.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1232
+      ],
+      "box": [
+        0.344,
+        0.186,
+        0.8005,
+        0.3466
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A graph shows magnetic flux density varying periodically with time from 0 to 6 ms.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-42-q07-p01.png",
+      "source_size": [
+        852,
+        1232
+      ],
+      "box": [
+        0.1866,
+        0.4651,
+        0.8932,
+        0.6713
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A blank graph grid for induced e.m.f. V against time t, with axes marked from −V₀ to V₀ and 0 to 6 ms.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1213,
+        0.3571,
+        0.8851,
+        0.5391
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

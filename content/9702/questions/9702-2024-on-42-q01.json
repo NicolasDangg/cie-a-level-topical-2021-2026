@@ -1,0 +1,122 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-42-q01-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-42-q01-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": "A metal wheel consists of an axle A, eight spokes and a rim, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nPoint X is on the rim at the end of one of the spokes.\n\nThe rim has a radius of 0.85 m.\nThe wheel is rotating clockwise with an angular speed of 140 rad s⁻¹.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "For point X, determine:",
+      "text": "the speed",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "speed",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "the centripetal acceleration.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "acceleration",
+        "unit": "m s⁻²"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "There is a uniform magnetic field of flux density 0.18 T into the plane of the page.",
+      "text": "State Lenz’s law of electromagnetic induction.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the time taken for point X to complete one revolution is 45 ms.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the magnetic flux cut by spoke AX during one revolution of the wheel. Give a unit with your answer.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "magnetic flux",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Determine the magnitude of the electromotive force (e.m.f.) induced across spoke AX.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "induced e.m.f.",
+        "unit": "V"
+      }
+    },
+    {
+      "partId": "b-v",
+      "label": "(b)(v)",
+      "lead": null,
+      "text": "Use Lenz’s law to explain whether the potential is higher at end A or end X of the spoke.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A wheel with eight spokes and labels identifying the axle A, one spoke, the rim, and point X at the end of a horizontal spoke.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-on-42-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2171,
+        0.0417,
+        0.7829,
+        0.349
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q10-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q10-p02.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q10-p03.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "By reference to heat effect, explain what is meant by the *root-mean-square* (*r.m.s.*) value of an alternating current.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The variations with time *t* of two currents *I*₁ and *I*₂ are shown in Fig. 10.1 and Fig. 10.2.\n\n[[fig:f1]]\n\n[[fig:f2]]",
+      "text": "Use Fig. 10.1 to determine the peak value and the r.m.s. value of the current *I*₁.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": "A"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Use Fig. 10.2 to determine the peak value and the r.m.s. value of the current *I*₂.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": "A"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The variation with time *t* of the supply voltage *V* to a house is given by the expression\n\n*V* = 240 sin *kt*\n\nwhere *V* is in volts, *t* is in seconds and *k* is a constant with unit rad s⁻¹.",
+      "text": "The frequency of the supply voltage is 50 Hz.\n\nDetermine *k* to two significant figures.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "k",
+        "unit": "rad s⁻¹"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "The supply voltage is applied to a heater. The mean power of the heater is 3.2 kW.\n\nCalculate the resistance of the heater.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "resistance",
+        "unit": "Ω"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 10.1",
+      "alt": "A sinusoidal graph of current I₁ against time t on a gridded set of axes.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.189,
+        0.194,
+        0.806,
+        0.4436
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 10.2",
+      "alt": "A square-wave graph of current I₂ against time t on a gridded set of axes.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.189,
+        0.4984,
+        0.806,
+        0.7472
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

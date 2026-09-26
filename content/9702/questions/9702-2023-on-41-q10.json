@@ -1,0 +1,76 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-41-q10-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-41-q10-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": "Ultrasound and X-rays are both types of wave that are used in medical diagnosis to form images of internal body structures.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Complete Table 10.1 to state, for each type of wave:\n\n• the method of production of the wave\n• whether the wave that is detected and used for the image is the wave that has been absorbed, reflected or transmitted by the internal body structure.\n\n[[fig:f1]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "For one type of wave passing through tissue, the wave has 72% of its initial intensity after it has passed through 6.2 cm of the tissue.\n\nCalculate the linear attenuation coefficient μ of the tissue for this wave.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "μ",
+        "unit": "cm⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Another wave of the same type as in (b)(i) passes through 9.3 cm of the same tissue.\n\nCalculate the percentage of the initial intensity of the wave that is attenuated by the tissue.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage attenuated",
+        "unit": "%"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 10.1",
+      "alt": "A table with columns for ultrasound and X-rays and rows for method of production and detected wave (absorbed, reflected or transmitted), with spaces to complete.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2023-on-41-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0739,
+        0.2005,
+        0.9272,
+        0.4074
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

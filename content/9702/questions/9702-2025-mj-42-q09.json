@@ -1,0 +1,102 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2025-mj-42-q09-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2025-mj-42-q09-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by the photoelectric effect.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The photoelectric effect is investigated in two stages using the circuit shown in Fig. 9.1.\n\n[[fig:f1]]\n\nThe polished metal plate Y is illuminated with electromagnetic radiation of frequency *f* and constant power.\n\nIn stage 1 of the investigation, frequency *f* is set to a constant value of 2.5 × 10¹⁵ Hz. The current *I* in the ammeter is varied by adjusting the potentiometer P. Fig. 9.2 shows the variation of *I* with the voltmeter reading *V*. There is a value *V*ₛ of *V* at which the current just falls to zero.\n\nIn stage 2 of the investigation, stage 1 is repeated for different values of frequency. As frequency *f* is varied, the voltmeter reading *V*ₛ at which the current just falls to zero is measured. Fig. 9.3 shows the variation of *V*ₛ with *f*.\n\n[[fig:f2]]\n\n[[fig:f3]]",
+      "text": "Explain, with reference to photons, why *V*ₛ depends on the frequency of the incident electromagnetic radiation.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State three quantitative conclusions that can be drawn from the results in Fig. 9.2 and Fig. 9.3. Use the space for any working.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "Circuit diagram showing a polished metal plate illuminated by electromagnetic radiation, connected to an ammeter, voltmeter and potentiometer.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2025-mj-42-q09-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.027,
+        0.1795,
+        0.9754,
+        0.4103
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 9.2",
+      "alt": "Graph of current I in mA against voltmeter reading V in V, with a straight line decreasing to zero current.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2025-mj-42-q09-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0246,
+        0.6474,
+        0.4589,
+        0.8462
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 9.3",
+      "alt": "Graph of stopping potential Vₛ in V against frequency f in units of 10¹⁵ Hz, showing a straight line rising from zero.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2025-mj-42-q09-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.5423,
+        0.6474,
+        0.9754,
+        0.8462
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

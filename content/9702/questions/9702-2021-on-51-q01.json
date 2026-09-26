@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-51-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2021-on-51-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2021-on-51-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2021-on-51-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "A student investigates stationary sound wave in cylindrical tube. Fig. 1.1 shows a stationary wave pattern in a tube which is open at both ends.\n\n[[fig:f1]]\n\nThe tube has length *L* and diameter *d*. The frequency of the sound for the stationary wave pattern shown is *f*.\n\nThere are a number of different tubes available.\n\nIt is suggested that the relationship between *f* and *d* is\n\n$\\frac{v}{f} = 2L + kd$\n\nwhere *v* is the speed of sound in air and *k* is a constant.\n\nDesign a laboratory experiment to test the relationship between *f* and *d*. Explain how your results could be used to determine values for *k* and *v*.\n\nYou should draw a diagram, on page 3, to show the arrangement of your equipment. In your account you should pay particular attention to:\n\n• the procedure to be followed\n• the measurements to be taken\n• the control of variables\n• the analysis of the data\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A diagram shows a stationary wave pattern inside an open cylindrical tube, with its length labelled L and diameter labelled d.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-on-51-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2735,
+        0.0523,
+        0.7265,
+        0.2206
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

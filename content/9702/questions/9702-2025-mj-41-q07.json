@@ -1,0 +1,106 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-41-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-41-q07-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-41-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define magnetic flux density.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A particle of mass *m* and charge +*Q* moves at speed *v* into a region where there is a uniform magnetic field, as shown in Fig. 7.1.\n\n[[fig:f1]]\n\nThe uniform magnetic field is into the page and has flux density *B*. The particle enters the region of the field at point Y.",
+      "text": "State an expression, in terms of some or all of *m*, *Q*, *B* and *v*, for the magnetic force *F* that acts on the particle when it is at point Y.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "F",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 7.1, draw an arrow at point Y to indicate the direction of the force in (b)(i).",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 7.1, draw a line to show a possible path for the particle through the region of the magnetic field.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Explain how an electric field can be used with the magnetic field to ensure that the particle in (b) now passes through point Z.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Derive an expression for *v* in terms of *B* and the electric field strength *E*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "v",
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A particle moves along a horizontal path into a rectangular region of magnetic field marked with crosses, entering at point Y, with point Z on the opposite side.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-41-q07-p01.png",
+      "source_size": [
+        852,
+        858
+      ],
+      "box": [
+        0.108,
+        0.317,
+        0.892,
+        0.677
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

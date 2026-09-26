@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-mj-42-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-mj-42-q04-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "A small steel sphere is oscillating vertically on the end of a spring, as shown in Fig. 4.1.\n\n[[fig:f1]]\n\nThe velocity *v* of the sphere varies with displacement *x* from its equilibrium position according to\n\n*v* = ± 9.7√(11.6 − *x*²)\n\nwhere *v* is in cm s⁻¹ and *x* is in cm.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Calculate the frequency of the oscillations.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "frequency",
+        "unit": "Hz"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Show that the amplitude of the oscillations is 3.4 cm.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "Calculate the maximum acceleration *a*₀ of the sphere.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "a₀",
+        "unit": "m s⁻²"
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "On Fig. 4.2, sketch the variation with *x* of the acceleration *a* of the sphere.\n\n[[fig:f2]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Describe, without calculation, the interchange between the potential energy and the kinetic energy of the oscillations.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A steel sphere hangs from a vertical spring, with a vertical double arrow indicating its oscillations and labels pointing to the spring and sphere.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-mj-42-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2641,
+        0.0523,
+        0.7617,
+        0.228
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A square graph grid with horizontal axis x / cm from −4 to 4 and vertical acceleration axis a marked from −2a₀ to 2a₀.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-mj-42-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2531,
+        0.0643,
+        0.7456,
+        0.3855
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

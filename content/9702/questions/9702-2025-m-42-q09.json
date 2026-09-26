@@ -1,0 +1,144 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-42-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-m-42-q09-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-m-42-q09-p02.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-m-42-q09-p03.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-m-42-q09-p04.png"
+  ],
+  "marks_total": 10,
+  "stem": "Polonium-193 (¹⁹³₈₄Po) is an unstable nuclide. A nucleus of polonium-193 decays to a nucleus of lead-189 (¹⁸⁹₈₂Pb) by emitting an alpha-particle.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Radioactive decay is both random and spontaneous.\n\nState what is meant by:",
+      "text": "random",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "spontaneous.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Define half-life.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Data for the binding energy per nucleon of the particles involved in the decay of a nucleus of polonium-193 are given in Table 9.1.\n\n[[fig:f1]]\n\nDetermine the energy, in eV, released when a nucleus of polonium-193 decays into a nucleus of lead-189.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy",
+        "unit": "eV"
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "A pure sample of polonium-193 contains *N*₀ nuclei. After a time *t* the sample contains *N* nuclei of polonium-193. The variation of ln (*N*/*N*₀) with *t* is shown in Fig. 9.1.\n\n[[fig:f2]]",
+      "text": "State the name of the quantity that is represented by the magnitude of the gradient of the line in Fig. 9.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Use Fig. 9.1 to determine the half-life, in ms, of polonium-193.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "half-life",
+        "unit": "ms"
+      }
+    },
+    {
+      "partId": "e-i",
+      "label": "(e)(i)",
+      "lead": "Positron emission tomography (PET scanning) uses a radioactive tracer.",
+      "text": "State what happens to the positrons emitted by the tracer.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "e-ii",
+      "label": "(e)(ii)",
+      "lead": null,
+      "text": "Explain why a tracer with a half-life of approximately 2 hours is a suitable tracer to use.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 9.1",
+      "alt": "A table lists particles polonium-193, lead-189 and an alpha particle with their binding energies per nucleon.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-m-42-q09-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2453,
+        0.5673,
+        0.7559,
+        0.6875
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 9.1",
+      "alt": "A graph of ln(N/N₀) against time t in ms shows a straight line sloping downwards from zero.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2025-m-42-q09-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1408,
+        0.0741,
+        0.8603,
+        0.6414
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

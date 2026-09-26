@@ -1,0 +1,71 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2025-m-42-q08-p01.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by a photon.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A laser emits red light of a single wavelength. The light is produced when electrons move from a higher energy level to a lower energy level. The difference in energy between the two levels is 1.96 eV.",
+      "text": "Calculate the wavelength of the light.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The power of the beam emitted by the laser is 1.0 × 10⁻² W.\n\nCalculate the number of photons emitted per unit time by the laser.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "number per unit time",
+        "unit": "s⁻¹"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "The photons are incident normal to a surface. Half of the number of photons are absorbed by the surface, and half are reflected.\n\nDetermine the average force exerted by the beam of photons on the surface.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "average force",
+        "unit": "N"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

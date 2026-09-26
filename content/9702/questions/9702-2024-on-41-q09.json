@@ -1,0 +1,75 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-41-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2024-on-41-q09-p01.png"
+  ],
+  "marks_total": 10,
+  "stem": "Fluorine-18 (¹⁸₉F) decays by beta-plus (β⁺) emission with a half-life of 110 minutes.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State the name of the beta-plus particle.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Show that the decay constant of fluorine-18 is 1.05 × 10⁻⁴ s⁻¹.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "Determine the activity of 2.1 × 10⁻¹² kg of fluorine-18.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "activity",
+        "unit": "Bq"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A small sample of fluorine-18 injected into the body acts as a tracer for use in medical imaging.",
+      "text": "Describe how the interaction of a β⁺ particle with an electron in the body enables the formation of an image.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Suggest why 110 minutes is a suitable half-life for a nuclide used as a tracer in medical diagnosis.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

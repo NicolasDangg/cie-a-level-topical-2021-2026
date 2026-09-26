@@ -1,0 +1,83 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q12",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2022-m-42-q12-p01.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2022-m-42-q12-p02.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2022-m-42-q12-p03.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by luminosity of a star.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The luminosity of the Sun is 3.83 × 10²⁶ W. The distance between the Earth and the Sun is 1.51 × 10¹¹ m.\n\nCalculate the radiant flux intensity *F* of the Sun at the Earth. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "F",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Use data from (b) to calculate the mass that is converted into energy every second in the Sun.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mass",
+        "unit": "kg"
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "The radius of the Sun is 6.96 × 10⁸ m.\n\nShow that the temperature *T* of the surface of the Sun is 5770 K.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The wavelength λₘₐₓ of light for which the maximum rate of emission occurs from the Sun is 5.00 × 10⁻⁷ m.\nThe temperature of the surface of the star Sirius is 9940K.\n\nUse information from (d) to determine the wavelength of light for which the maximum rate of emission occurs from Sirius.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

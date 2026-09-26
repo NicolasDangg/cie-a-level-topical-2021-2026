@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-52-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2021-mj-52-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2021-mj-52-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2021-mj-52-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "A student investigates the heating of a solid metal cylinder. Fig. 1.1 shows the cylinder of cross-sectional area *A* and height *h*.\n\n[[fig:f1]]\n\nThe student places the cylinder and an electrical heater in a beaker of water. The electrical heater is switched on and the student measures the time *t* for the temperature of the water to increase by Δ*θ*.\n\nA number of cylinders of the same material but with different cross-sectional areas are available.\n\nIt is suggested that the relationship between *t* and *A* is\n\n*Pt = AhWΔθ + ZΔθ*\n\nwhere *P* is the power of the heater and *W* and *Z* are constants.\n\nDesign a laboratory experiment to test the relationship between *t* and *A*. Explain how your results could be used to determine values for *W* and *Z*.\n\nYou should draw a diagram, on page 3, showing the arrangement of your equipment. In your account you should pay particular attention to:\n\n• the procedure to be followed\n• the measurements to be taken\n• the control of variables\n• the analysis of the data\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A labelled solid cylinder with cross-sectional area A and height h.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2021-mj-52-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.27,
+        0.058,
+        0.7359,
+        0.2496
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

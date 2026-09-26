@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-52-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2024-on-52-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2024-on-52-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2024-on-52-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Fig. 1.1 shows a coil made from resistance wire.\n\n[[fig:f1]]\n\nThe coil is placed in cooking oil of mass *m*. The total length of the resistance wire in the oil is *L*.\n\nA potential difference *V* is applied to the coil. The temperature of the oil increases by *Δθ* in time *t*.\n\nIt is suggested that *Δθ* is related to *L* by the relationship\n\n$\\frac{AtV^2}{L}=mK\\Delta\\theta+Z$\n\nwhere *A* is the cross-sectional area of the wire, and *K* and *Z* are constants.\n\nPlan a laboratory experiment to test the relationship between *Δθ* and *L*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for *K* and *Z*.\n\nIn your plan you should include:\n\n• the procedure to be followed\n\n• the measurements to be taken\n\n• the control of variables\n\n• the analysis of the data\n\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A coil of resistance wire is shown.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2024-on-52-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.304,
+        0.0393,
+        0.6972,
+        0.1114
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

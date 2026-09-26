@@ -1,0 +1,112 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2023-mj-42-q02-p01.png",
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2023-mj-42-q02-p02.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by an ideal gas.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State the temperature, in degrees Celsius, of absolute zero.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "temperature",
+        "unit": "°C"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A sealed vessel contains a mass of 0.0424 kg of an ideal gas at 227 °C.\nThe pressure of the gas is 1.37 × 10⁵ Pa and the volume of the gas is 0.640 m³.\n\nCalculate:",
+      "text": "the number of molecules of the gas in the vessel",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "number of molecules",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the mass of one molecule of the gas",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mass",
+        "unit": "kg"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "the root-mean-square (r.m.s.) speed *v* of the molecules of the gas.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "v",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The gas in (b) is now cooled gradually to absolute zero.\n\nOn Fig. 2.1, sketch the variation with thermodynamic temperature *T* of the r.m.s. speed of the molecules of the gas.\n\n[[fig:f1]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A set of axes for sketching r.m.s. speed *v* against thermodynamic temperature *T* / K, with the axes marked at zero and the temperature axis also marked at 500.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2023-mj-42-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2195,
+        0.119,
+        0.7793,
+        0.3113
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

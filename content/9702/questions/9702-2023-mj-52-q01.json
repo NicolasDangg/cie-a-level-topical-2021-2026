@@ -1,0 +1,54 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-52-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2023-mj-52-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-52-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-52-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Two coils, P and Q, are placed close to each other, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nA resistor of resistance *R* is connected in series with coil P.\n\nA changing magnetic flux of frequency *f* in coil P causes an electromotive force (e.m.f.) *E* to be induced across the terminals of coil Q.\n\nIt is suggested that *E* is related to *R* by the relationship\n\n$E = 2\\pi fM\\left(\\frac{V}{R + k}\\right)$\n\nwhere *V* is the potential difference across the resistor and coil P, and *k* and *M* are constants.\n\nPlan a laboratory experiment to test the relationship between *E* and *R*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for *k* and *M*.\n\nIn your plan you should include:\n\n• the procedure to be followed\n• the measurements to be taken\n• the control of variables\n• the analysis of the data\n• any safety precautions to be taken.",
+      "marks": null,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A resistor labelled R is connected to coil P, which is positioned close to coil Q.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-52-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.3404,
+        0.045,
+        0.642,
+        0.2013
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "part main: marks None must be a whole number",
+    "part marks add up to 0, but the question is worth 15"
+  ],
+  "warnings": []
+}

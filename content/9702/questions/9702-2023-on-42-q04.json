@@ -1,0 +1,138 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-on-42-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-on-42-q04-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "An electron in a metal rod moves randomly about a mean position. When an alternating voltage is applied to the ends of the rod, the mean position can be considered to oscillate with simple harmonic motion along the axis of the rod. Fig. 4.1 shows the variation with time *t* of the displacement *x* of the mean position from a fixed point on the axis of the rod.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Determine the amplitude of the oscillations.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "amplitude",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Determine the angular frequency of the oscillations.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "angular frequency",
+        "unit": "rad s⁻¹"
+      }
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "Use your answers in (a)(i) and (a)(ii) to show that the maximum drift speed *v*₀ of the electron is 1.1 × 10⁻⁷ m s⁻¹.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The rod has a cross-sectional area of 4.3 cm² and contains a number density of conduction electrons (charge carriers) of 8.5 × 10²⁸ m⁻³.\n\nAll of the conduction electrons in the rod may be assumed to be oscillating in phase with, and with the same amplitude as, the oscillation shown in Fig. 4.1.",
+      "text": "Use the information in (a)(iii) to calculate the magnitude *I*₀ of the maximum current in the rod.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "I₀",
+        "unit": "A"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 4.2, sketch the variation of the current *I* in the rod with time *t* between *t* = 0 and *t* = 0.40 μs.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use your answers in (a)(ii) and (b)(i) to determine an expression for *I* in terms of *t*, where *I* is in A and *t* is in s.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Determine the root-mean-square (r.m.s.) current in the rod.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r.m.s. current",
+        "unit": "A"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A displacement–time graph showing a sinusoidal oscillation between 0 and about 7 × 10⁻¹⁵ m over 0.4 μs.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-on-42-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2,
+        0.09,
+        0.804,
+        0.29
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "An unfilled current–time graph with time marked from 0 to 0.4 μs and current levels marked at 0, I₀ and −I₀.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-on-42-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2177,
+        0.3413,
+        0.7561,
+        0.5841
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

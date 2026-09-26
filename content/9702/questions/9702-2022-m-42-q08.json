@@ -1,0 +1,106 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-m-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2022-m-42-q08-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2022-m-42-q08-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the formula for the de Broglie wavelength *λ* of a moving particle.\n\nState the meaning of any other symbol used.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Electrons accelerate through a potential difference, pass through a thin crystal and are then incident on a fluorescent screen.\n\nThe pattern in Fig. 8.1 is observed on the fluorescent screen.\n\n[[fig:f1]]",
+      "text": "State the name of the phenomenon shown by the electrons at the crystal.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State what this phenomenon shows about the nature of electrons.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Suggest why the thin crystal causes the phenomenon in (b)(i).",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "The electron is accelerated through a different potential difference. The new pattern observed on the screen is shown in Fig. 8.2.\n\n[[fig:f2]]\n\nState and explain the change that has been made to the potential difference to create the pattern shown in Fig. 8.2.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "Concentric circular rings and a central spot are shown on a fluorescent screen, with a label pointing to the screen.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2022-m-42-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2394,
+        0.2617,
+        0.7606,
+        0.4404
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 8.2",
+      "alt": "Concentric circular rings and a central spot are shown on a fluorescent screen, with a label pointing to the screen.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2022-m-42-q08-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2394,
+        0.0725,
+        0.7606,
+        0.244
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-42-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-42-q02-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-42-q02-p02.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is represented by a gravitational field line.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "The Earth may be considered as a uniform sphere, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nOn Fig. 2.1, draw field lines to represent the Earth’s gravitational field outside the Earth.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The Earth’s magnetic field may be considered as being due to the Earth acting as a long solenoid, as shown in Fig. 2.2.\n\n[[fig:f2]]\n\nThe magnetic poles do not align with the geographic poles, which are on the axis of rotation.\n\nFig. 2.3 is a copy of Fig. 2.2 without the labels but with two magnetic field lines shown.\n\n[[fig:f3]]",
+      "text": "On Fig. 2.3, label the magnetic poles with the letters N and S to indicate which one is the magnetic N pole and which one is the magnetic S pole.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 2.3, draw field lines to represent the Earth’s magnetic field outside the Earth.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "An observer moves around the surface of the Earth.",
+      "text": "Use your answer in (a)(ii) to explain why the observed gravitational field of the Earth does not vary around the surface.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "With reference to your answer in (b)(ii), describe how the observed magnetic field of the Earth varies around the surface.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A circle representing the Earth, labelled Earth.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-42-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.304,
+        0.188,
+        0.6971,
+        0.5002
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 2.2",
+      "alt": "A diagram of the Earth showing a tilted solenoid, magnetic poles, the equator and the axis of rotation.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-42-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.3028,
+        0.6651,
+        0.6984,
+        0.9014
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 2.3",
+      "alt": "An unlabelled circle representing the Earth with a tilted solenoid, a dashed equator, a dotted axis and two magnetic field lines.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-mj-42-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.3498,
+        0.0717,
+        0.6473,
+        0.4069
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

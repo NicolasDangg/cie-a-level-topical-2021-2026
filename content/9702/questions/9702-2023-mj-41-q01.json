@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-41-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2023-mj-41-q01-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2023-mj-41-q01-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Define gravitational field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Define electric field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "State one similarity and one difference between the gravitational potential due to a point mass and the electric potential due to a point charge.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "similarity",
+        "difference"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An isolated uniform conducting sphere has mass *M* and charge *Q*.\nThe gravitational field strength at the surface of the sphere is *g*.\nThe electric field strength at the surface of the sphere is *E*.",
+      "text": "Show that\n\n$\\frac{M}{Q} = \\alpha \\frac{g}{E}$\n\nwhere *α* is a constant.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the numerical value of *α* is 1.35 × 10²⁰ kg² C⁻².",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Assume that the Earth is a uniform conducting sphere of mass 5.98 × 10²⁴ kg.\nThe surface of the Earth carries a charge of −4.80 × 10⁵ C that is evenly distributed.",
+      "text": "Use the information in (b) to determine the electric field strength at the surface of the Earth. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "electric field strength",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State how the direction of the electric field at the surface of the Earth compares with the direction of the gravitational field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

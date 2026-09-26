@@ -1,0 +1,83 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-41-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-41-q09-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-41-q09-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define half-life of a radioactive isotope.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Radioactive isotope X decays to isotope Y.\n\nA sample contains only nuclei of X at time *t* = 0. Fig. 9.1 shows the variation with *t* of the numbers of nuclei of X and Y as the sample decays.\n\n[[fig:f1]]",
+      "text": "State the name of the quantity represented by the magnitude of the gradient of line X in Fig. 9.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State three conclusions about X or Y that may be drawn from Fig. 9.1. The conclusions may be qualitative or quantitative. Use the space below for any working that you need.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The mass of radioactive isotope X in the sample in (b) is 7.3 × 10⁻⁴ kg at time *t* = 0.\n\nDetermine the nucleon number of isotope X.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "nucleon number",
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "A graph of the numbers of nuclei of X and Y against time, with X decreasing and Y increasing.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2024-mj-41-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.078,
+        0.233,
+        0.924,
+        0.5878
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

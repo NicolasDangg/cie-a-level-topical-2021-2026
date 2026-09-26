@@ -1,0 +1,181 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-53-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2025-mj-53-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-53-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-53-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-53-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates an electrical circuit.\n\nThe circuit is set up as shown in [[fig:f1]].\n\nA battery of negligible internal resistance is connected to a resistor of resistance *Z*. Five resistors, each of resistance *R*, are connected in parallel between P and Q.\n\nThe switch is closed. The total current *I* in the circuit is measured using the ammeter.\n\nThe experiment is then repeated by changing the number *n* of resistors, each of resistance *R*, connected in parallel between P and Q.\n\nIt is suggested that *I* and *n* are related by the equation\n\n$E = I(\\frac{R}{n} + Z)$\n\nwhere *E* is the electromotive force (e.m.f.) of the battery.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of $\\frac{1}{I}$ on the y-axis against $\\frac{1}{n}$ on the x-axis.\n\nDetermine expressions for the gradient and y-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *n*, $\\frac{1}{n}$ and *I* are given in Table 2.1.\n\n[[fig:f2]]\n\nCalculate and record values of $\\frac{1}{I}$ / 10³ A⁻¹ in Table 2.1. Include the absolute uncertainties in $\\frac{1}{I}$.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of $\\frac{1}{I}$ / 10³ A⁻¹ against $\\frac{1}{n}$. Include error bars for $\\frac{1}{I}$.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "The e.m.f. *E* of the battery is determined twice during the experiment. The values obtained are 5.6 V and 6.0 V.",
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *R* and *Z*. Include appropriate units.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": null,
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in your value of *R*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The experiment is repeated with 20 resistors, each of resistance *R*, connected in parallel between P and Q. Determine the total current *I* in the circuit.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "I",
+        "unit": "A"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "Circuit diagram showing a battery, switch, ammeter and resistor Z in series with five resistors in parallel between P and Q.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-mj-53-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2746,
+        0.0769,
+        0.7265,
+        0.321
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "Table with columns n, 1/n, I / μA and 1/I / 10³ A⁻¹; entries are provided in the first three columns for n values 5, 6, 7, 8, 9 and 11, and the final column is blank.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-mj-53-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1315,
+        0.1001,
+        0.8697,
+        0.4752
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "Blank graph grid with 1/n on the x-axis from 0.08 to 0.22 and 1/I / 10³ A⁻¹ on the y-axis from 1.2 to 2.3.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-mj-53-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0223,
+        0.0268,
+        0.9777,
+        0.918
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "figure f3: placed 0 times in the text, expected once"
+  ],
+  "warnings": []
+}

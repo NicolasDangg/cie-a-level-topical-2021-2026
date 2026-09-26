@@ -1,0 +1,70 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-42-q09",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-42-q09-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-42-q09-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State two situations in which a charged particle in a magnetic field does not experience a force.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A loosely coiled metal spring is suspended from a fixed point, as shown in Fig. 9.1.\n\n[[fig:f1]]\n\nElectrical connections are made to the ends of the spring by means of a flexible lead.\n\nThe length of the spring is measured before the switch is closed and then again after the switch is closed.\n\nWhen the switch is closed, a magnetic field is set up around each coil of the spring.\n\nBy reference to these magnetic fields, explain why there is a change in length of the spring. State whether the spring extends or contracts.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "With the switch in (b) closed, the small mass on the free end of the spring is now made to oscillate vertically.\n\nUse the principles of electromagnetic induction to explain why small fluctuations in the current in the spring are found to occur.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "A loosely coiled spring hangs from a fixed point above a small mass, with a switch and flexible lead in the electrical circuit.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-mj-42-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.169,
+        0.2448,
+        0.887,
+        0.6159
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

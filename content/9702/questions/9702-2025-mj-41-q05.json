@@ -1,0 +1,131 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-41-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": "A cuboidal block floats in a liquid with its base horizontal, as shown in Fig. 5.1.\n\n[[fig:f1]]\n\nThe base of the block is at a depth *h* below the surface of the liquid.\n\nThe block is displaced downwards by a small distance and then released so that it oscillates.\n\nFig. 5.2 shows the variation with *h* of the acceleration *a* of the block.\n\n[[fig:f2]]\n\nFig. 5.3 shows the variation with *h* of the kinetic energy *E*ₖ of the block.\n\n[[fig:f3]]",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Determine the amplitude of the oscillations.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "amplitude",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State what the line in Fig. 5.2 shows about the nature of the oscillations.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "State three other quantitative conclusions that can be drawn from Fig. 5.2 and Fig. 5.3 about the block and its oscillations. Use the space for any working.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "On Fig. 5.4, sketch the variation with *h* of the potential energy *E*ₚ of the oscillations.\n\n[[fig:f4]]\n\n",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "A cuboidal block floats in a liquid, with its base below the liquid surface at a depth labelled h.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.173,
+        0.0417,
+        0.8333,
+        0.2268
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 5.2",
+      "alt": "A graph of acceleration a against depth h shows a straight line decreasing from about 1.0 m s⁻² at h = 0.8 m to −1.0 m s⁻² at h = 2.0 m.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0986,
+        0.3782,
+        0.9002,
+        0.546
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 5.3",
+      "alt": "A graph of kinetic energy Eₖ against depth h shows a downward-opening curve from zero at h = 0.8 m to zero at h = 2.0 m, with a maximum near 1.4 m.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.13,
+        0.6362,
+        0.9002,
+        0.835
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 5.4",
+      "alt": "An empty graph grid for sketching potential energy Eₚ against depth h.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-mj-41-q05-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1127,
+        0.629,
+        0.8885,
+        0.824
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

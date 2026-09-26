@@ -1,0 +1,110 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q09",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2023-on-41-q09-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2023-on-41-q09-p02.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2023-on-41-q09-p03.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by nuclear fusion.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "On Fig. 9.1, sketch the variation of binding energy per nucleon with nucleon number *A* for values of *A* between 1 and 250.\n\n[[fig:f1]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "On your line in Fig. 9.1, label:",
+      "text": "a point *X* that could represent a nucleus that undergoes alpha-decay",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "a point *Y* that could represent a nucleus that undergoes nuclear fusion.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "A nucleus *Z* undergoes nuclear fission to form strontium-93 (⁹³₃₈Sr) and xenon-139 (¹³⁹₅₄Xe) according to\n\n¹₀n + *Z* → ⁹³₃₈Sr + ¹³⁹₅₄Xe + 2¹₀n.\n\nTable 9.1 shows the binding energies of the strontium-93 and xenon-139 nuclei.\n\n[[fig:f2]]\n\nThe fission of 1.00 mol of *Z* releases 1.77 × 10¹³ J of energy.\n\nDetermine the binding energy per nucleon, in MeV, of *Z*.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "binding energy per nucleon",
+        "unit": "MeV"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 9.1",
+      "alt": "A blank graph with binding energy per nucleon on the vertical axis and nucleon number *A* on the horizontal axis, marked 0, 1 and 250.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2023-on-41-q09-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.215,
+        0.2061,
+        0.776,
+        0.402
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 9.1",
+      "alt": "A table listing the binding energy of ⁹³₃₈Sr as 1.25 × 10⁻¹⁰ J and ¹³⁹₅₄Xe as 1.81 × 10⁻¹⁰ J.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2023-on-41-q09-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2113,
+        0.1757,
+        0.7899,
+        0.2679
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

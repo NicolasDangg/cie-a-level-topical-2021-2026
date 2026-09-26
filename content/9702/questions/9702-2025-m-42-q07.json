@@ -1,0 +1,100 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-m-42-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p02.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Faraday’s law of electromagnetic induction.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A metal rod is accelerated uniformly from rest in a uniform magnetic field as shown in Fig. 7.1.\n\n[[fig:f1]]\n\nThe rod has length *l* and the flux density of the magnetic field is *B*.\n\nAn electromotive force (e.m.f.) is induced in the rod. The variation with time *t* of the induced e.m.f. *E* is shown in Fig. 7.2.\n\n[[fig:f2]]",
+      "text": "Explain how Fig. 7.2 shows that *E* is proportional to the velocity *v* of the rod.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Use Faraday’s law to show that the variation of *E* with time *t* is given by\n\n*E* = *B**l**a**t*\n\nwhere *a* is the acceleration of the rod.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "The length of the rod is 0.45 m. The acceleration *a* of the rod is 7.8 m s⁻².\n\nDetermine the value of *B*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "*B*",
+        "unit": "T"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A vertical metal rod moves to the right through a magnetic field directed into the page.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.25,
+        0.18,
+        0.75,
+        0.35
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A graph of induced e.m.f. E in mV against time t in seconds, with a straight line rising from the origin to 0.3 mV at 2 s.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2025-m-42-q07-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.33,
+        0.4856,
+        0.67,
+        0.64
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

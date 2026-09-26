@@ -1,0 +1,115 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-41-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-41-q04-p01.png",
+    "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-41-q04-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "State the value of absolute zero on:",
+      "text": "the Celsius temperature scale",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "temperature",
+        "unit": "°C"
+      }
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "the thermodynamic temperature scale. Give a unit with your answer.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "temperature",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A sample contains a fixed amount of gas. The gas has pressure *p*, volume *V* and thermodynamic temperature *T*.\n\nFig. 4.1 shows the variation of *pV* with *kT* for the sample, where *k* is the Boltzmann constant.\n\n[[fig:f1]]",
+      "text": "State what is indicated about the nature of the gas from the variation shown in Fig. 4.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the number *N* of molecules of the gas in the sample.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "N",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use your answer in (b)(ii) to determine the amount *n* of gas in the sample.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "n",
+        "unit": "mol"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The root-mean-square (r.m.s.) speed of the molecules of the gas is 190 m s⁻¹ when *pV* is equal to 270 J.\n\nDetermine the mass, in u, of one molecule of the gas, where u is the unified atomic mass unit.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mass",
+        "unit": "u"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A graph of pV / J against kT / 10⁻²¹ J, with a straight line rising from the origin.",
+      "source_image": "/9702/9702-topic-15-ideal-gases/assets/9702-2025-on-41-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.2136,
+        0.3373,
+        0.7864,
+        0.619
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

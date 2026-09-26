@@ -1,0 +1,172 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-41-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-on-41-q01-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-on-41-q01-p02.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2025-on-41-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "In terms of velocity and acceleration, describe uniform circular motion of an object.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 1.1 shows the view from above of a polystyrene ball undergoing horizontal circular motion of radius *R*.\n\n[[fig:f1]]\n\nThe ball is illuminated by parallel light so that a shadow of the ball forms on a screen placed on the opposite side of the ball from the light source.\n\nThe line joining points O and P is perpendicular to the screen.\n\nThe angular speed of the circular motion is *ω*.",
+      "text": "State an expression, in terms of *R* and *ω*, for the speed *v* of the ball.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "v",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine an expression, in terms of *v* and *ω*, for the centripetal acceleration of the ball.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "centripetal acceleration",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The ball in (b) is in the position shown in Fig. 1.1, such that line OB is at an angle *θ* to the line OP.",
+      "text": "Determine an expression, in terms of *R* and *θ*, for the displacement *x* of the shadow from P.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "x",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "The value of *θ* is zero at time *t* = 0.\n\nState an expression for *θ* in terms of *ω* and *t*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "θ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Use your answers in (c)(i) and (c)(ii) to show that *x* is given by\n\n*x* = *R* sin *ωt*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Explain, with reference to the equation in (c)(iii), why the motion of the shadow of the ball on the screen may be modelled as simple harmonic.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "The circular motion of the ball in Fig. 1.1 has a diameter of 0.46 m and an angular speed of 1.9 rad s⁻¹.\n\nFor the simple harmonic motion of the shadow of the ball in Fig. 1.1, calculate:",
+      "text": "the amplitude",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "amplitude",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "the period",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "period",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "d-iii",
+      "label": "(d)(iii)",
+      "lead": null,
+      "text": "the maximum acceleration.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "maximum acceleration",
+        "unit": "m s⁻²"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "On Fig. 1.1, draw, and label with the letter A, the position of the shadow on the screen when the shadow has its maximum positive acceleration.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A polystyrene ball moves on a dashed circular path around O, with its shadow projected onto a screen by parallel light.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2025-on-41-q01-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1303,
+        0.1971,
+        0.8685,
+        0.7292
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

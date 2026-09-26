@@ -1,0 +1,168 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2025-on-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2025-on-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2025-on-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2025-on-52-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student observes the orbits of some of the moons around the planet Saturn, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nFor the moon Pandora, the period of the orbit and the mean distance from the centre of Saturn are determined.\n\nThe measurements of period *T* and mean distance *r* are repeated for other moons.\n\nIt is suggested that *T* and *r* are related by the equation\n\n$T = \\frac{2\\pi r^n}{k}$\n\nwhere *n* and *k* are constants.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of lg *T* on the *y*-axis against lg *r* on the *x*-axis.\n\nDetermine expressions for the gradient and *y*-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": [
+        "gradient",
+        "y-intercept"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *r* and *T* are given for different moons in Table 2.1.\n\n[[fig:f2]]\n\nCalculate and record values of lg (*r* / 10⁸ m) and lg (*T* / 10³ s) in Table 2.1. Include the absolute uncertainties in lg (*T* / 10³ s).",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of lg (*T* / 10³ s) against lg (*r* / 10⁸ m). Include error bars for lg (*T* / 10³ s).\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the *y*-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *n* and *k*. Include the absolute uncertainties in *n* and *k*. You need not be concerned with units.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "Titan is another moon of Saturn. The orbit of Titan has a period of 1.38 × 10⁶ s.\n\nDetermine the value of *r* for Titan.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "r",
+        "unit": "m"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "Diagram of Saturn surrounded by oval orbits labelled with the moons Mimas, Pandora, Enceladus, Dione, Tethys and Rhea.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-on-52-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0692,
+        0.0433,
+        0.9343,
+        0.3349
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "Table of moon names and values of r and T, with blank columns for lg (r / 10⁸ m) and lg (T / 10³ s).",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-on-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0622,
+        0.0922,
+        0.939,
+        0.4421
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "Blank graph grid with lg (r / 10⁸ m) on the horizontal axis and lg (T / 10³ s) on the vertical axis.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-on-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.012,
+        0.0323,
+        0.9765,
+        0.92
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "part d: numeric part needs answer {symbol, unit} (either may be null)"
+  ],
+  "warnings": []
+}

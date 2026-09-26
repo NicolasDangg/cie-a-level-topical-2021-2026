@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2021-on-42-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2021-on-42-q04-p02.png"
+  ],
+  "marks_total": 7,
+  "stem": "A trolley on a smooth surface is attached by springs to fixed blocks as shown in Fig. 4.1.\n\n[[fig:f1]]\n\nThe trolley oscillates horizontally about its equilibrium position with an amplitude of 12 cm. Fig. 4.2 shows the variation of the acceleration *a* of the trolley with displacement *x* from its equilibrium position. Friction between the trolley and the surface can be assumed to be negligible.\n\n[[fig:f2]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Describe the features of the line in Fig. 4.2 that demonstrate that the motion of the trolley is simple harmonic.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Use Fig. 4.2 to determine the period *T* of the oscillations of the trolley.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "T",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "On the line of the graph of Fig. 4.2, label with the letter P one point where the kinetic energy of the trolley is zero.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "On the line of the graph of Fig. 4.2, label with the letter Q an approximate position of one point where the kinetic energy of the trolley is equal to the potential energy stored in the springs.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A trolley on a smooth surface is connected by springs to fixed blocks on either side.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2021-on-42-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.108,
+        0.045,
+        0.9002,
+        0.258
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A straight line with negative slope on a graph of acceleration a in m s⁻² against displacement x in cm, running from about (−12, 0.8) to (12, −0.8).",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2021-on-42-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.15,
+        0.3752,
+        0.8521,
+        0.7013
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

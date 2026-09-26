@@ -1,0 +1,69 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-42-q10-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-42-q10-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "X-rays for use in medical diagnosis are produced in an X-ray tube. In the X-ray tube, charged particles are accelerated towards a metal target by an applied potential difference (p.d.).",
+      "text": "State the name of the charged particles that are accelerated by the applied p.d.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Explain how X-rays are produced at the metal target.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "Calculate the minimum wavelength of X-rays produced when the applied p.d. is 5.80 kV.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "X-rays pass through a medium that has an attenuation coefficient of 1.4 cm⁻¹.\n\nCalculate the percentage of the X-ray energy that is absorbed by a 2.8 cm thickness of this medium.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage absorbed",
+        "unit": "%"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

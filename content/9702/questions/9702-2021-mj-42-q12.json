@@ -1,0 +1,83 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-42-q12",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2021-mj-42-q12-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2021-mj-42-q12-p02.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2021-mj-42-q12-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by a photon.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A stationary nucleus of samarium-157 (¹⁵⁷₆₂Sm) emits a gamma-ray (γ-ray) photon of energy 0.57 MeV.\n\nDetermine, for one γ-ray photon:",
+      "text": "its wavelength",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "its momentum.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "momentum",
+        "unit": "N s"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Using your answer to (b)(ii), determine the speed of the samarium-157 nucleus after emission of the photon.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "speed",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "By reference to your answer in (c)(i), explain qualitatively why the speed of the samarium-157 nucleus may be assumed to be negligible compared with the speed of the photon.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

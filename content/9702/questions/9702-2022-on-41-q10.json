@@ -1,0 +1,127 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-41-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-on-41-q10-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-on-41-q10-p02.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-on-41-q10-p03.png"
+  ],
+  "marks_total": 10,
+  "stem": "Carbon-15 (¹⁵₆C) is an isotope of carbon that undergoes radioactive decay to nitrogen-15 (¹⁵₇N), which is a stable isotope of nitrogen.\n\nRadioactive decay is both a random and a spontaneous process.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "State what is meant by:",
+      "text": "random",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "spontaneous.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A small sample of carbon-15 decays. The mass *M* of carbon-15 in the sample decreases with time *t*.\n\nFig. 10.1 shows the variation with *t* of the value of ln (*M* / 10⁻¹⁶ g).\n\n[[fig:f1]]",
+      "text": "State how Fig. 10.1 demonstrates that radioactive decay is random.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 10.1, draw the straight line of best fit.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Show that the decay constant *λ* of carbon-15 is given by the magnitude of the gradient of your line in (b)(ii).",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Use your line in (b)(ii) to determine *λ*. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "λ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-v",
+      "label": "(b)(v)",
+      "lead": null,
+      "text": "Use your answer in (b)(iv) to calculate the half-life of carbon-15.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "half-life",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The equation for the decay of carbon-15 can be written as\n\n¹⁵₆C → ¹⁵₇N + ⁰₋₁β + ⁰₀ν̄.\n\nState and explain how the mass of the products of the decay must compare with the mass of the carbon-15 nucleus.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 10.1",
+      "alt": "A graph of ln (M / 10⁻¹⁶ g) against t / s, showing a jagged curve that decreases over time.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-on-41-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.105,
+        0.4251,
+        0.9566,
+        0.7488
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

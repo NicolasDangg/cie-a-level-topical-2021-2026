@@ -1,0 +1,69 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-41-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-41-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-on-41-q01-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the equation for the gravitational force *F* between two point masses *m*₁ and *m*₂ that are separated by a distance *r*. State the meaning of one other symbol you use.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A satellite is in a circular orbit of radius *R* around a planet of mass *M*.\n\nShow that the period *T* of the orbit is given by\n\n*T*² = *kR*³\n\nwhere *k* is a constant that depends on the value of *M*. Explain your reasoning.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "A satellite is in a circular orbit around the Earth with a period of 24 hours.\nThe mass of the Earth is 6.0 × 10²⁴ kg.",
+      "text": "Calculate the radius of the orbit.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "radius",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State the two other conditions that must be met for the orbit to be geostationary.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "1",
+        "2"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

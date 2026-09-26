@@ -1,0 +1,68 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q11",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2021-on-41-q11-p01.png"
+  ],
+  "marks_total": 7,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "State, for an X-ray image, what is meant by:",
+      "text": "*sharpness*",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "*contrast*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "A parallel X-ray beam passes through a thickness of 2.3 cm of soft body tissue. The intensity of the emerging beam is 12% of the intensity of the incident beam.\n\nCalculate the linear attenuation (absorption) coefficient *μ* of the soft body tissue. Give a unit with your answer.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "μ",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "In medical diagnosis, X-rays may be used to produce a single X-ray image or may be used in computed tomography (CT scanning).\n\nSuggest an advantage and a disadvantage of CT scanning compared with single X-ray image for diagnosis.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "advantage",
+        "disadvantage"
+      ],
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2023-on-41-q08-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2023-on-41-q08-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Show that the momentum *p* of a photon of electromagnetic radiation with wavelength *λ* is given by\n\n*p* = *h*/*λ*\n\nwhere *h* is the Planck constant.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Use the expression in (a)(i) to show that a photon in free space that has a momentum of 9.5 × 10⁻²⁸ N s is a photon of red light.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A beam of red light of intensity 160 W m⁻² is incident normally on a plane mirror, as shown in Fig. 8.1. The momentum of each photon in the beam is 9.5 × 10⁻²⁸ N s.\n\n[[fig:f1]]\n\nAll of the light is reflected by the mirror in the opposite direction to its original path. The cross-sectional area of the beam is 2.5 × 10⁻⁶ m².",
+      "text": "Show that the number of photons incident on the mirror per unit time is 1.4 × 10¹⁵ s⁻¹.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Use the information in (b)(i) to determine the pressure exerted by the light beam on the mirror.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "pressure",
+        "unit": "Pa"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The beam of red light in (b) is now replaced with a beam of blue light of the same intensity.\n\nSuggest and explain whether the pressure exerted on the mirror by the beam of blue light is less than, the same as, or greater than the pressure exerted by the beam of red light.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "A beam of red light travels horizontally towards a vertical plane mirror, with labels for the beam intensity and the mirror.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2023-on-41-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.21,
+        0.5853,
+        0.83,
+        0.775
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

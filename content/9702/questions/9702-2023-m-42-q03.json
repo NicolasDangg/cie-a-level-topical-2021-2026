@@ -1,0 +1,118 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-m-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p02.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p03.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p04.png"
+  ],
+  "marks_total": 10,
+  "stem": "An object is suspended from a vertical spring as shown in Fig. 3.1.\n\n[[fig:f1]]\n\nThe object is displaced vertically and then released so that it oscillates, undergoing simple harmonic motion.\n\nFig. 3.2 shows the variation with displacement *x* of the energy *E* of the oscillations.\n\n[[fig:f2]]\n\nThe kinetic energy, the potential energy and the total energy of the oscillations are each represented by one of the lines P, Q and R.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the energy that is represented by each of the lines P, Q and R.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "P",
+        "Q",
+        "R"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "The object has a mass of 130 g.\nDetermine the period of the oscillations.",
+      "marks": 4,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "period",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "State the cause of damping.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "A light card is attached to the object. The object is displaced with the same initial amplitude and then released. During each complete oscillation the total energy of the system decreases by 8.0% of the total energy at the start of that oscillation.\n\nDetermine the decrease in total energy, in mJ, of the system by the end of the first 6 complete oscillations.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy lost",
+        "unit": "mJ"
+      }
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "State, with a reason, the type of damping that the card introduces into the system.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "An object hangs from a vertical spring attached to a support, with labels for the spring, object and oscillation.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.328,
+        0.0346,
+        0.6772,
+        0.222
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 3.2",
+      "alt": "A graph of energy E against displacement x shows three curves labelled P, Q and R.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2023-m-42-q03-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.036,
+        0.363,
+        0.9683,
+        0.949
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

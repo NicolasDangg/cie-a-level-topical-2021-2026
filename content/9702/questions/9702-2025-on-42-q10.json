@@ -1,0 +1,94 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-42-q10-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-42-q10-p02.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-42-q10-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by contrast in an X-ray image.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "X-rays of intensity *I*₀ are incident normally on a structure, as shown in Fig. 10.1.\n\n[[fig:f1]]\n\nMaterial P has a linear attenuation coefficient of 0.35 cm⁻¹.\nThe X-rays emerging from the structure in region A have an intensity of 0.05*I*₀.",
+      "text": "Show that the intensity of the X-rays emerging in region B is 0.13*I*₀.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the linear attenuation coefficient *μ* of material Q.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "μ",
+        "unit": "cm⁻¹"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use the information in (b)(i) to suggest why the X-rays emerging from the structure form an image that has poor contrast.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Explain how X-rays are used in computed tomography (CT) scanning to produce a three-dimensional image of an internal structure.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 10.1",
+      "alt": "A diagram shows horizontal incident and detected X-rays passing through a structure made of material P with a narrow central section of material Q, with regions A and B marked.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2025-on-42-q10-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.085,
+        0.153,
+        0.906,
+        0.515
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

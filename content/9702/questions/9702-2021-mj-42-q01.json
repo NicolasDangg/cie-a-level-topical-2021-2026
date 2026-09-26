@@ -1,0 +1,71 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2021-mj-42-q01-p01.png"
+  ],
+  "marks_total": 6,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define gravitational field strength.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An isolated planet is a uniform sphere of radius 3.39 × 10⁶ m. Its mass of 6.42 × 10²³ kg may be considered to be a point mass concentrated at its centre. The planet rotates about its axis with a period of 24.6 hours.\n\nFor an object resting on the surface of the planet at the equator, calculate, to three significant figures:",
+      "text": "the gravitational field strength",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "field strength",
+        "unit": "N kg⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the centripetal acceleration",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "acceleration",
+        "unit": "m s⁻²"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "the force per unit mass exerted on the object by the surface of the planet.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "force per unit mass",
+        "unit": "N kg⁻¹"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

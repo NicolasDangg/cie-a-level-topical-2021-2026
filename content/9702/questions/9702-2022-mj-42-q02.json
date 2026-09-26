@@ -1,0 +1,103 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-42-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2022-mj-42-q02-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2022-mj-42-q02-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Coulomb’s law.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Positronium is a system in which an electron and a positron orbit, with the same period around their common centre of mass, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nThe radius *r* of the orbit of both particles is 1.59 × 10⁻¹⁰ m.",
+      "text": "Explain how the electric force between the electron and the positron causes the path of the moving particles to be circular.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the magnitude of the electric force between the electron and the positron is 2.28 × 10⁻⁹ N.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Use the information in (b)(ii) to determine the period of the circular orbit of the two particles.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "period",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Positronium is highly unstable, and after a very short period of time it becomes gamma radiation.",
+      "text": "Describe how gamma radiation is formed from the two particles in positronium.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "State one medical application of the process described in (c)(i).",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "An electron and a positron orbit a marked centre of mass on a dashed circular path, with the radius labelled r.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2022-mj-42-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.181,
+        0.194,
+        0.8251,
+        0.4203
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

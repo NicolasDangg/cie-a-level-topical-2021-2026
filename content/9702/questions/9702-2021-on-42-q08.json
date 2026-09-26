@@ -1,0 +1,79 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-42-q08",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-42-q08-p01.png"
+  ],
+  "marks_total": 5,
+  "stem": "Two long straight parallel wires P and Q carry currents into the plane of the paper, as shown in Fig. 8.1.\n\n[[fig:f1]]\n\nThe current in P is *I* and the current in Q is 2*I*.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "On Fig. 8.1, draw an arrow to show the direction of the magnetic field at wire Q due to the current in wire P. Label this arrow *B*.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "On Fig. 8.1, draw another arrow to show the direction of the force acting on wire Q due to the current in wire P. Label this arrow *F*.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "State, with a reason, how the magnitude of the force acting on wire P compares with the magnitude of the force acting on wire Q.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State how the direction of the force on wire P compares with the direction of the force on wire Q.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "Two parallel wires P and Q are shown with into-the-page current symbols; the current at P is labelled I and the current at Q is labelled 2I.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-42-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2254,
+        0.1087,
+        0.777,
+        0.171
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

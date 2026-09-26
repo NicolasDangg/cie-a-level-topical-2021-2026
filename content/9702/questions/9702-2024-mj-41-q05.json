@@ -1,0 +1,116 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-41-q05",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-41-q05-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-41-q05-p02.png"
+  ],
+  "marks_total": 13,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define electric field.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 5.1 shows two parallel conducting plates that are in a vacuum. The plates are separated by a distance of 6.7 cm and have a potential difference (p.d.) of 430 V between them.\n\n[[fig:f1]]",
+      "text": "On Fig. 5.1, draw four field lines to represent the electric field between the plates.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the strength *E* of the electric field between the plates.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E",
+        "unit": "N C⁻¹"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "An electron travels at a speed of 2.6 × 10⁷ m s⁻¹ towards the region between the plates, as shown in Fig. 5.1.\n\nOn Fig. 5.1, draw the path of the electron as it moves between and beyond the plates.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "A uniform magnetic field is now applied in the region of the electric field in Fig. 5.1, so that the electron in (b)(iii) travels undeviated through the region.",
+      "text": "Determine the direction of the uniform magnetic field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Explain, with reference to the forces exerted by the two fields on the electron, why the path of the electron is undeviated.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the flux density *B* of the uniform magnetic field. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "B",
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 5.1",
+      "alt": "Two horizontal conducting plates are shown with a +430 V connection to the upper plate, a 0 V connection to the lower plate, and a 6.7 cm separation; an electron moves horizontally toward the region between them.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2024-mj-41-q05-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0352,
+        0.197,
+        0.9648,
+        0.444
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q03",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-14-temperature/assets/9702-2025-on-42-q03-p01.png",
+    "/9702/9702-topic-14-temperature/assets/9702-2025-on-42-q03-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by two objects being in thermal equilibrium.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 3.1 shows a type of thermometer called a constant volume gas thermometer.\n\n[[fig:f1]]\n\nThe thermometer is used to determine the thermodynamic temperature *T* of the gas in the gas bulb.\n\nThe gas bulb is immersed in the environment for which the temperature is to be measured. The height of the movable glass tube is then adjusted so that the level of the liquid on the left-hand side aligns with the reference line X marked on the fixed glass tube. The reference line Y is marked on the side of the movable glass tube. The level of the liquid at Y is higher than at X as a result of the pressure of the gas in the glass bulb.\n\nThe difference in height Δ*h* between the liquid levels at X and Y is then measured using the scale. The thermodynamic temperature *T* of the gas is directly proportional to the pressure of the gas. This pressure is directly proportional to Δ*h*.",
+      "text": "The value of Δ*h* can be used to calculate the pressure of the gas. In order to do this, the gravitational field strength is used, along with a property of the liquid.\n\nState the property of the liquid that is used to calculate the pressure.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Before the measurement of Δ*h* can be made, the glass bulb needs to reach thermal equilibrium with the environment for which the temperature is to be measured.\n\nState two disadvantages of using a constant volume gas thermometer to measure temperature.",
+      "marks": 2,
+      "kind": "written",
+      "slots": [
+        "1",
+        "2"
+      ],
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Suggest one situation in which a constant volume gas thermometer would be an appropriate type of thermometer to choose for measuring temperature.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Level X aligns with 2.31 cm on the scale. At 0 °C, level Y aligns with 8.69 cm.\n\nAt temperature θ, level Y aligns with 7.83 cm on the scale.\n\nDetermine a value for θ in °C.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "θ",
+        "unit": "°C"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 3.1",
+      "alt": "A labelled diagram of a constant volume gas thermometer, showing a gas bulb connected to fixed and movable glass tubes containing liquid, with a scale and height difference Δh marked.",
+      "source_image": "/9702/9702-topic-14-temperature/assets/9702-2025-on-42-q03-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.0047,
+        0.19,
+        1,
+        0.5938
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-42-q07",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "A Hall probe containing a thin slice of semiconducting material is placed in a uniform magnetic field of flux density *B*. The largest faces of the slice are perpendicular to the magnetic field, as shown in Fig. 7.1.\n\n[[fig:f1]]\n\nThe thickness *x* of the slice is 1.8 mm. The number density of charge carriers in the semiconducting material is 1.5 × 10¹⁶ m⁻³.\n\nA constant current of 5.4 A is passed through the slice between the shaded faces.\n\nThe Hall voltage *V*ₕ that is developed between the terminals PQ is recorded.\n\nFig. 7.2 shows the variation with time *t* of *B*.\n\n[[fig:f2]]",
+      "text": "Show that, when *B* is equal to 4.0 × 10⁻⁶ T, the magnitude of *V*ₕ is 5.0 V.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "On Fig. 7.3, sketch the variation of *V*ₕ with *t* between *t* = 0 and *t* = 0.080 s.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The Hall probe in (a) is replaced with a small flat coil that has 3000 turns. The cross-sectional area of the coil is 3.4 × 10⁻⁴ m².\n\nThe plane of the coil is perpendicular to the magnetic field. The electromotive force (e.m.f.) *E* induced between the terminals of the coil is recorded as *B* varies as shown in Fig. 7.2.",
+      "text": "Show that the magnitude of *E* at time *t* = 0.010 s is 2.0 × 10⁻⁴ V.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 7.4, sketch the variation of *E* with *t* between *t* = 0 and *t* = 0.080 s.\n\n[[fig:f4]]",
+      "marks": 4,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A semiconductor slice is shown in a magnetic field, with current flowing vertically through it and terminals P and Q connected to measure the Hall voltage.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1655,
+        0.076,
+        0.831,
+        0.429
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A graph shows magnetic flux density increasing from zero to 4 × 10⁻⁶ T, remaining constant, decreasing to 2 × 10⁻⁶ T, and then remaining constant over time.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.206,
+        0.6,
+        0.7993,
+        0.799
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "An empty grid for sketching Hall voltage against time, with positive and negative vertical scales.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.222,
+        0.059,
+        0.7723,
+        0.3002
+      ]
+    },
+    {
+      "id": "f4",
+      "caption": "Fig. 7.4",
+      "alt": "An empty grid for sketching induced electromotive force against time, with positive and negative vertical scales.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.142,
+        0.6832,
+        0.8462,
+        0.8849
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

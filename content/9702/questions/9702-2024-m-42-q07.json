@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-m-42-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-m-42-q07-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-m-42-q07-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A photon has an energy of 3.11 × 10⁻¹⁹ J.\n\nCalculate the momentum of the photon.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "momentum",
+        "unit": "N s"
+      }
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A laser beam has a power of 350 mW. The light from the laser has a wavelength of 640 nm.",
+      "text": "Determine the number of photons emitted by the laser in a time of 1.0 s.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "number",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The laser beam is incident normal on a surface that absorbs all of the photons.\n\nShow that the force *F* exerted on the surface by the laser beam is given by\n\n*F* = *P*/*c*\n\nwhere *P* is the power of the laser beam and *c* is the speed of light.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Light of a single wavelength is incident on the surface of different metals. The work function energy of the metals is given in Table 7.1.\n\n[[fig:f1]]",
+      "text": "Explain the term threshold wavelength.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "For the metals in Table 7.1, calculate the value of the largest threshold wavelength.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "threshold wavelength",
+        "unit": "m"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 7.1",
+      "alt": "A table with columns headed “metal” and “work function energy/eV”, listing tungsten as 4.49, magnesium as 3.68, and potassium as 2.26.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2024-m-42-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2735,
+        0.1087,
+        0.7277,
+        0.2285
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

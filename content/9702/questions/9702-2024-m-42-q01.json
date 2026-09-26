@@ -1,0 +1,86 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-m-42-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-m-42-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-m-42-q01-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Explain why the gravitational potential near to a point mass is negative.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A planet may be assumed to be a uniform sphere. It has gravitational potential *φ* at distance *r* from the centre of the planet.\n\nThe variation with $\\frac{1}{r}$ of *φ* is shown in Fig. 1.1.\n\n[[fig:f1]]",
+      "text": "Show that the mass of the planet is 8.8 × 10²⁵ kg.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The period of rotation of the planet is 0.72 Earth days.\n\nA satellite in orbit around the planet remains above the same point on the surface of the planet.\n\nUse the mass of the planet in (b)(i) to determine the radius *R* of the orbit of the satellite.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "R",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "The speed of the satellite in (b)(ii) is 8400 m s⁻¹. The mass of the satellite is 1200 kg.\n\nDetermine the additional energy required to move the satellite from its orbit to infinity.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "energy required",
+        "unit": "J"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "A graph of gravitational potential against 1/r, with both axes marked on a grid and a straight line sloping down from the origin.",
+      "source_image": "/9702/9702-topic-13-gravitational-fields/assets/9702-2024-m-42-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0,
+        0.266,
+        1,
+        0.7874
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

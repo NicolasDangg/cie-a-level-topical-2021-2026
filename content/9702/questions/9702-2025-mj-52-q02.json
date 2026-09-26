@@ -1,0 +1,181 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2025-mj-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2025-mj-52-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates a circuit containing capacitors. The circuit is connected with a capacitor of capacitance *A*, as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nTwo capacitors, each of capacitance *C*, are connected in parallel between P and Q.\n\nInitially, switch X and switch Z are closed and switch Y is open.\n\nSwitches X and Z are opened. Switch Y is then closed. The maximum potential difference between P and Q is measured using the voltmeter. This procedure is repeated and the mean maximum potential difference *V* between P and Q is determined.\n\nThe experiment is then repeated by changing the number *n* of capacitors, each of capacitance *C*, connected in parallel between P and Q.\n\nIt is suggested that *V* and *n* are related by the equation\n\n*EA* = *V*(*nC* + *A*)\n\nwhere *E* is the electromotive force (e.m.f.) of the battery.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted with $\\frac{1}{V}$ on the y-axis against *n* on the x-axis.\n\nDetermine expressions for the gradient and y-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *n* and the two measured values of the maximum potential difference *V*₁ and *V*₂ are given in Table 2.1.\n\n[[fig:f2]]\n\nCalculate and record values of *V* / V and $\\frac{1}{V}$ / V⁻¹ in Table 2.1. Include the absolute uncertainties in *V* and $\\frac{1}{V}$.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of $\\frac{1}{V}$ / V⁻¹ against *n*. Include error bars for $\\frac{1}{V}$.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of *E* and *C*. Include appropriate units.\n\nData: *A* = (2.2 ± 0.2) mF",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "E, C",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in your value of *C*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The experiment is repeated with 10 capacitors, each of capacitance *C*, connected in parallel between P and Q. Determine the maximum potential difference *V* between P and Q.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "V",
+        "unit": "V"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A circuit diagram shows a battery and switch X, a capacitor of capacitance A, two capacitors in parallel between P and Q, switch Y, a voltmeter, and switch Z.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-mj-52-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.3486,
+        0.0569,
+        0.6538,
+        0.4071
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "A table lists n values from 2 to 7 and measured values V₁ and V₂, with empty columns for V and 1/V.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-mj-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0962,
+        0.1087,
+        0.9049,
+        0.4586
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "A blank graph grid has n on the horizontal axis from 1 to 8 and 1/V on the vertical axis from 0.22 to 0.44 V⁻¹.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2025-mj-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.0411,
+        0.03,
+        0.9601,
+        0.9
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "figure f3: placed 0 times in the text, expected once"
+  ],
+  "warnings": []
+}

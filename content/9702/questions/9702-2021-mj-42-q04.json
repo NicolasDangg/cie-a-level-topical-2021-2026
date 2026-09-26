@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-mj-42-q04",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q04-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q04-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "A sinusoidal carrier wave has a constant amplitude and a frequency of 1.2MHz. The carrier wave is modulated by signal wave such that a 1.0V displacement of the signal wave causes a change in frequency of 25kHz.\n\nThe signal wave has frequency 8.0kHz and amplitude 2.0V.",
+      "text": "State the name of this type of modulation of the carrier wave.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "For this modulated carrier wave, determine the variation, if any, in:\n\n1. its amplitude\n\n2. its frequency.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "An audio signal is transmitted by means of a modulated radio wave.\n\nThe variation with frequency of the amplitude of the radio wave is shown in Fig. 4.1.\n\n[[fig:f1]]\n\nFor this transmission, determine:",
+      "text": "the wavelength, in km, of the carrier wave",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "wavelength",
+        "unit": "km"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "the bandwidth",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "bandwidth",
+        "unit": "kHz"
+      }
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "the frequency of the audio signal.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "frequency",
+        "unit": "kHz"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A graph of amplitude against frequency / kHz with vertical lines at 225, 240 and 255 kHz, the line at 240 kHz being tallest.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2021-mj-42-q04-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2077,
+        0.094,
+        0.79,
+        0.33
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

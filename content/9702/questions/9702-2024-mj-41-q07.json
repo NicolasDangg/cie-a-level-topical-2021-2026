@@ -1,0 +1,127 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-mj-41-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2024-mj-41-q07-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2024-mj-41-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "A circuit contains a power supply that provides a sinusoidal alternating input voltage *V*ᵢₙ. There is an output voltage *V*ₒᵤₜ across a load resistor *R*, as shown in Fig. 7.1.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the purpose of the circuit in Fig. 7.1.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 7.2 shows the variation of *V*ₒᵤₜ with time *t*.",
+      "text": "The load resistor *R* has a resistance of 370 Ω.\n\nShow that the maximum power dissipated in *R* is 0.22 W.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 7.3, sketch the variation with time *t* of the power *P* dissipated in *R*.\n\n[[fig:f3]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the mean power dissipated in *R*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "mean power",
+        "unit": "W"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The circuit of Fig. 7.1 is disconnected, and *R* is connected directly across the power supply.\n\nExplain, without calculation, how the mean power now dissipated in *R* compares with the answer in (b)(ii).",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A four-diode circuit with an alternating input supply and a load resistor connected across the output.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2024-mj-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2523,
+        0.0548,
+        0.7488,
+        0.3172
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 7.2",
+      "alt": "A graph of output voltage against time showing repeated positive half-cycle pulses.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2024-mj-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.206,
+        0.5395,
+        0.798,
+        0.742
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 7.3",
+      "alt": "A blank graph grid with power on the vertical axis and time on the horizontal axis.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2024-mj-41-q07-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.219,
+        0.3002,
+        0.786,
+        0.4996
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [
+    "figure f2: placed 0 times in the text, expected once"
+  ],
+  "warnings": []
+}

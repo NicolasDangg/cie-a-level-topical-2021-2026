@@ -1,0 +1,87 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2024-on-41-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-41-q08-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-41-q08-p02.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-41-q08-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": "A polished sheet of magnesium in a vacuum emits electrons when it is illuminated by ultraviolet radiation.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the name of this phenomenon.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "For emission of electrons to occur, the frequency of the ultraviolet radiation must be at least 8.8 × 10¹⁴ Hz.",
+      "text": "Calculate the work function energy of magnesium.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "work function energy",
+        "unit": "J"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "For ultraviolet radiation with a frequency of 11 × 10¹⁴ Hz, calculate the maximum speed of the emitted electrons.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "maximum speed",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The frequency *f* of the ultraviolet radiation incident on the magnesium sheet is varied between 8.0 × 10¹⁴ Hz and 11 × 10¹⁴ Hz.\n\nOn Fig. 8.1, sketch the variation with *f* of the maximum kinetic energy *E*ₘₐₓ of the emitted electrons. Use the space below for any working that you need.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "A blank grid for plotting maximum kinetic energy against frequency, with frequency on the horizontal axis and maximum kinetic energy on the vertical axis.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2024-on-41-q08-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.07,
+        0.3121,
+        0.9918,
+        0.81
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

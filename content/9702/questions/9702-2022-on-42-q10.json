@@ -1,0 +1,53 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-on-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2022-on-42-q10-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2022-on-42-q10-p02.png"
+  ],
+  "marks_total": 9,
+  "stem": "Positron emission tomography (PET scanning) involves the detection of gamma-radiation in order to identify the position of origin of positrons in the body.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "Positrons are not naturally present in the body.\n\nExplain how positrons come to be present in the body during PET scanning.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Explain how positrons cause the emission of gamma-radiation from the body during PET scanning.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Show that the wavelength of the gamma-radiation that is detected during PET scanning is approximately 2.4 pm. Explain your reasoning.",
+      "marks": 4,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

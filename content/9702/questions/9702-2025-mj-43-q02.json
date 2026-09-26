@@ -1,0 +1,122 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-43-q02",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-43-q02-p01.png",
+    "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-43-q02-p02.png"
+  ],
+  "marks_total": 11,
+  "stem": "A helium atom may be modelled as a nucleus surrounded by two electrons in diametrically opposite circular orbits, each of radius 170 pm, as shown in Fig. 2.1.\n\n[[fig:f1]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Coulomb’s law.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "State the charge on the nucleus, in terms of the elementary charge *e*.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "charge",
+        "unit": "e"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the electric force between the nucleus and one of the electrons is 1.6 × 10⁻⁸ N.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Assume that the force in (b)(ii) is the only force on the electrons.",
+      "text": "Calculate the speed of the orbiting electrons.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "speed",
+        "unit": "m s⁻¹"
+      }
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Calculate the period of the orbit of the electrons.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "period",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": "In practice, the orbit of each electron is affected by the presence of the other electron.",
+      "text": "For the position of one of the electrons, determine the ratio\n\n$\\frac{\\text{electric field strength due to the other electron}}{\\text{electric field strength due to the nucleus}}$.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ratio",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Use your answer in (d)(i) to suggest and explain how the orbit of the electron is affected by the presence of the other electron.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "A nucleus is at the centre of a circular dashed electron orbit, with electrons at opposite sides and a radius marked 170 pm.",
+      "source_image": "/9702/9702-topic-18-electric-fields/assets/9702-2025-mj-43-q02-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.1866,
+        0.0569,
+        0.8146,
+        0.323
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

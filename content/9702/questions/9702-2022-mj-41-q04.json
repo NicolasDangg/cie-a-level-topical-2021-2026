@@ -1,0 +1,102 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-41-q04-p01.png",
+    "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-41-q04-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": "A pendulum consists of a bob (small metal sphere) attached to the end of a piece of string. The other end of the string is attached to a fixed point. The bob oscillates with small oscillations about its equilibrium position, as shown in Fig. 4.1.\n\n[[fig:f1]]\n\nThe length *L* of the pendulum, measured from the fixed point to the centre of the bob, is 1.24 m.\n\nThe acceleration *a* of the bob varies with its displacement *x* from the equilibrium position as shown in Fig. 4.2.\n\n[[fig:f2]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State how Fig. 4.2 shows that the motion of the pendulum is simple harmonic.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "Use Fig. 4.2 to determine the angular frequency *ω* of the oscillations.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "ω",
+        "unit": "rad s⁻¹"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "The angular frequency *ω* is related to the length *L* of the pendulum by\n\n$ω = \\sqrt{\\frac{k}{L}}$\n\nwhere *k* is a constant.\n\nUse your answer in (b)(i) to determine *k*. Give a unit with your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "k",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "While the pendulum is oscillating, the length of the string is increased in such a way that the total energy of the oscillations remains constant.\n\nSuggest and explain the qualitative effect of this change on the amplitude of the oscillations.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A pendulum diagram shows the bob at its equilibrium position and at a displaced position, with the length, string and oscillations labelled.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-41-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1631,
+        0.0741,
+        0.798,
+        0.3527
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A straight line with negative gradient is plotted on a grid of acceleration against displacement.",
+      "source_image": "/9702/9702-topic-17-oscillations/assets/9702-2022-mj-41-q04-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.133,
+        0.503,
+        0.8556,
+        0.8253
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

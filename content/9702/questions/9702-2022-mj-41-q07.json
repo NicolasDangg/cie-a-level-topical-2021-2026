@@ -1,0 +1,90 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q07",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2022-mj-41-q07-p01.png",
+    "/9702/9702-topic-22-quantum-physics/assets/9702-2022-mj-41-q07-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by a photon.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Electromagnetic radiation of a varying frequency *f* and constant intensity *I* is used to illuminate a metal surface. At certain frequencies, electrons are emitted from the surface of the metal. The variation with *f* of the maximum kinetic energy *E*ₘₐₓ of the emitted electrons is shown in Fig. 7.1.\n\n[[fig:f1]]",
+      "text": "State the name of this phenomenon.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Describe three conclusions that can be drawn from the graph in Fig. 7.1. The conclusions may be qualitative or quantitative.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The experiment in (b) is repeated twice, each time making one change.\n\nState, with a reason, how the graph obtained would compare with Fig. 7.1 when:",
+      "text": "a different metal is used, but keeping the intensity *I* of the radiation the same",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "the same metal is used, but with electromagnetic radiation of intensity 2*I*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 7.1",
+      "alt": "A graph of maximum kinetic energy of emitted electrons against frequency, with a straight line rising from a threshold frequency to the upper right.",
+      "source_image": "/9702/9702-topic-22-quantum-physics/assets/9702-2022-mj-41-q07-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0646,
+        0.237,
+        0.9131,
+        0.595
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-41-q06",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-41-q06-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-41-q06-p02.png"
+  ],
+  "marks_total": 12,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define magnetic flux density.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Electrons are moving in a vacuum with speed 1.7 × 10⁷ m s⁻¹. The electrons enter a uniform magnetic field of flux density 4.8mT. Fig. 6.1 shows the path of the electrons.\n\n[[fig:f1]]\n\nThe path of the electrons remains in the plane of the page.",
+      "text": "State the direction of the magnetic field.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Show that the magnitude of the force exerted on each electron by the magnetic field is 1.3 × 10⁻¹⁴ N.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 6.1, draw an arrow to indicate the direction of the centripetal acceleration of the electron where it enters the magnetic field at point X.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Use the information in (b)(ii) to calculate the distance *d* between the path of the electrons entering the magnetic field and the path of the electrons leaving it.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "d",
+        "unit": "m"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The electrons in (b) are replaced with positrons that are moving with speed 3.4 × 10⁷ m s⁻¹ along the same initial path as the electrons. The positrons enter the magnetic field at point X on Fig. 6.1.\n\nOn Fig. 6.1, draw a line to show the path of the positrons through the magnetic field.",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A diagram shows electrons entering a shaded magnetic field at point X, following a curved path, and leaving along a path below their entry path; the separation is labelled d.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2023-on-41-q06-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.08,
+        0.24,
+        0.95,
+        0.622
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

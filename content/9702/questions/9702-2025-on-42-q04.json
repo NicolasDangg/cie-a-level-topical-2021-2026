@@ -1,0 +1,116 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-on-42-q04",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2025-on-42-q04-p01.png",
+    "/9702/9702-topic-16-thermodynamics/assets/9702-2025-on-42-q04-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": "A cylinder contains a fixed mass of an ideal gas at pressure 2Y and volume 6X.\n\nThe gas undergoes a sequence of changes from its initial state A, through states B, C and D, then finally back to its initial state A, as shown in Fig. 4.1.\n\n[[fig:f1]]\n\nFig. 4.2 shows the variation with time of the internal energy of the gas.\n\n[[fig:f2]]",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State the first law of thermodynamics.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": null,
+      "text": "Use Fig. 4.1 and Fig. 4.2 to determine the general expression for the internal energy *U* of the gas when it has pressure *p* and volume *V*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "An ideal gas at thermodynamic temperature *T* contains *N* molecules.\n\nUse your answer in (b)(i) and the equation of state for an ideal gas to deduce an expression for *U* in terms of *N* and *T*. Identify any other symbols you use.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "Determine expressions, in terms of *X* and *Y*, for the work *W* done on the gas during:",
+      "text": "change AB",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "change CD.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "Use your answers in (c) and the first law of thermodynamics to determine an expression, in terms of *X* and *Y*, for the net thermal energy *Q* supplied to the gas during one full cycle ABCDA. Explain your reasoning.",
+      "marks": 3,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 4.1",
+      "alt": "A pressure–volume graph shows the gas moving from A to B to C to D and back to A.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2025-on-42-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.204,
+        0.0994,
+        0.837,
+        0.383
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 4.2",
+      "alt": "A graph of internal energy against time shows the gas moving through states A, B, C and D and returning to A.",
+      "source_image": "/9702/9702-topic-16-thermodynamics/assets/9702-2025-on-42-q04-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.15,
+        0.4792,
+        0.8474,
+        0.744
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

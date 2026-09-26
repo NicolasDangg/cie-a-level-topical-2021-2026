@@ -1,0 +1,94 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2022-mj-41-q10-p01.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2022-mj-41-q10-p02.png",
+    "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2022-mj-41-q10-p03.png"
+  ],
+  "marks_total": 9,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State Wien’s displacement law.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 10.1 shows the wavelength distributions of electromagnetic radiation emitted by two stars A and B.\n\n[[fig:f1]]\n\nThe surface temperature of star A is known to be 5800 K.",
+      "text": "Determine the surface temperature of star B.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "surface temperature",
+        "unit": "K"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Star B appears less bright than star A when viewed from the Earth.\n\nUse Fig. 10.1 to suggest, with a reason, how else the physical appearance of star B compares with that of star A.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "The lines in Fig. 10.1 have been corrected for redshift.",
+      "text": "State what is meant by redshift.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Explain how cosmologists are able to determine that light from a distant star has undergone redshift.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 10.1",
+      "alt": "A graph of rate of emission against wavelength showing solid and dashed wavelength-distribution curves for stars A and B.",
+      "source_image": "/9702/9702-topic-25-astronomy-and-cosmology/assets/9702-2022-mj-41-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.207,
+        0.161,
+        0.7852,
+        0.5435
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-m-42-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2021-m-42-q08-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2021-m-42-q08-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Two long straight wires P and Q are parallel to each other, as shown in Fig. 8.1. There is a current in each wire in the direction shown.\n\nThe pattern of the magnetic field lines in a plane normal to wire P due to the current in the wire is also shown.\n\n[[fig:f1]]",
+      "text": "Draw arrows on the magnetic field lines in Fig. 8.1 around wire P to show the direction of the field.",
+      "marks": 1,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Determine the direction of the force on wire Q due to the magnetic field from wire P.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-iii",
+      "label": "(a)(iii)",
+      "lead": null,
+      "text": "The current in wire Q is less than the current in wire P.\n\nState and explain whether the magnitude of the force on wire P is less than, equal to, or greater than the magnitude of the force on wire Q.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Nuclear magnetic resonance imaging (NMR) is used to obtain diagnostic information about internal structures in the human body.\n\nRadio waves are produced and directed towards the body. The radio waves affect the protons within the body.",
+      "text": "Explain why radio waves are used.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain why the radio waves are applied in pulses.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "Two parallel vertical wires P and Q carry currents upwards, with concentric magnetic field lines around wire P shown in a plane normal to the wire.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2021-m-42-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.08,
+        0.11,
+        0.9108,
+        0.43
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

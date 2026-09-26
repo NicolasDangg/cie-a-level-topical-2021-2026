@@ -1,0 +1,76 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-41-q01",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-41-q01-p01.png",
+    "/9702/9702-topic-13-gravitational-fields/assets/9702-2022-mj-41-q01-p02.png"
+  ],
+  "marks_total": 10,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State Newton’s law of gravitation.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Use Newton’s law of gravitation to show that the gravitational field strength *g* at a distance *r* away from a point mass *M* is given by\n\n$g = \\frac{GM}{r^2}$.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "The Earth has a mass of 5.98 × 10²⁴ kg and a radius of 6.37 × 10⁶ m.\nThe Moon has a mass of 7.35 × 10²² kg and a radius of 1.74 × 10⁶ m.\nThe Earth and the Moon can both be considered as point masses at their centres. Their centres are a distance of 3.84 × 10⁸ m apart.",
+      "text": "Show that the gravitational field strength at the surface of the Moon due to the mass of the Moon is 1.62 N kg⁻¹.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Explain why there is a point X on the line between the centres of the Earth and the Moon where the resultant gravitational field strength due to the Earth and the Moon is zero.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "Calculate the distance *x* of point X from the centre of the Moon.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "x",
+        "unit": "m"
+      }
+    }
+  ],
+  "figures": [],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

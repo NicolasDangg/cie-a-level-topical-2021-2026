@@ -2,7 +2,7 @@
   "schema": "topicalpaper-question/v1",
   "id": "9990-2022-on-41-q01",
   "subject": "9990",
-  "status": "draft",
+  "status": "reviewed",
   "extracted_with": {
     "model": "openai/gpt-6-luna",
     "prompt": "q-extract-3",

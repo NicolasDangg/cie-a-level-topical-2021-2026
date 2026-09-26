@@ -1,0 +1,152 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2025-mj-43-q06",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-43-q06-p01.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-43-q06-p02.png",
+    "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-43-q06-p03.png"
+  ],
+  "marks_total": 12,
+  "stem": "Fig. 6.1 shows a circuit that rectifies an alternating input voltage *V*ᵢₙ and produces an output voltage *V*ₒᵤₜ across a resistor *R*.\n\n[[fig:f1]]\n\nThe four terminals of the rectification circuit are labelled W, X, Y and Z.\nA capacitor *C* is connected in parallel with resistor *R*.",
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": null,
+      "text": "State what is meant by rectification.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "State the purpose of capacitor *C*.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Fig. 6.2 shows the variations with time *t* of the potential differences (p.d.s) *V*ᵢₙ and *V*ₒᵤₜ.\n\n[[fig:f2]]",
+      "text": "The variation of *V*ᵢₙ with *t* can be represented by\n\n*V*ᵢₙ = *A* cos *Bt*\n\nwhere *A* and *B* are constants.\n\nDetermine the values of *A* and *B*. Give a unit with your answer for *A*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "A",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "Determine the type of rectification produced by the circuit in Fig. 6.1.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "On Fig. 6.3, draw the circuit diagram for the components inside the rectification circuit.\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iv",
+      "label": "(b)(iv)",
+      "lead": null,
+      "text": "Determine a value for the time constant for the discharge of the capacitor *C* through the resistor *R* in Fig. 6.1.",
+      "marks": 3,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "time constant",
+        "unit": "s"
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "The capacitor *C* has a capacitance of 570 μF.\n\nUse your answer in (b)(iv) to determine the resistance of resistor *R*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "resistance",
+        "unit": "Ω"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 6.1",
+      "alt": "A rectification circuit block with terminals W, X, Y and Z connected to an input voltage and an output circuit containing a capacitor in parallel with a resistor.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-43-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.127,
+        0.0569,
+        0.8803,
+        0.213
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 6.2",
+      "alt": "A graph of input and output potential difference against time, showing a sinusoidal input and a rectified, smoothed output.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-43-q06-p01.png",
+      "source_size": [
+        852,
+        1248
+      ],
+      "box": [
+        0.218,
+        0.56,
+        0.7829,
+        0.8053
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": "Fig. 6.3",
+      "alt": "A blank dashed rectangle for drawing a circuit, with terminals W and X on the left and Y and Z on the right.",
+      "source_image": "/9702/9702-topic-21-alternating-currents/assets/9702-2025-mj-43-q06-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2477,
+        0.4137,
+        0.749,
+        0.63
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

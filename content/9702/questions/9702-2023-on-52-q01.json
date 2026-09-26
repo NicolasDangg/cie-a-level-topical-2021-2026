@@ -1,0 +1,51 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-on-52-q01",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2023-on-52-q01-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2023-on-52-q01-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2023-on-52-q01-p03.png"
+  ],
+  "marks_total": 15,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "main",
+      "label": "",
+      "lead": null,
+      "text": "Two identical beakers, each of mass *M*, are attached to each other using string and suspended from a pulley, as shown in Fig. 1.1.\n\n[[fig:f1]]\n\nThe beakers are held at rest at a height *h* above a surface. Cooking oil of volume *V* is added to one of the beakers.\n\nThe beakers are released so that the beaker with the oil begins to fall. The speed of the beaker as it reaches the surface is *z*.\n\nIt is suggested that *z* is related to *V* by the relationship\n\n$\\frac{2h}{z^2} = \\frac{2M}{abV} + \\frac{1}{b}$\n\nwhere *a* and *b* are constants.\n\nPlan a laboratory experiment to test the relationship between *z* and *V*.\n\nDraw a diagram showing the arrangement of your equipment.\n\nExplain how the results could be used to determine values for *a* and *b*.\n\nIn your plan you should include:\n\n• the procedure to be followed\n• the measurements to be taken\n• the control of variables\n• the analysis of the data\n• any safety precautions to be taken.",
+      "marks": 15,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 1.1",
+      "alt": "Two beakers are suspended by a string over a pulley above a surface, with the height h marked between the beakers and the surface.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-on-52-q01-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1561,
+        0.0539,
+        0.8427,
+        0.38
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-41-q08",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-41-q08-p01.png",
+    "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-41-q08-p02.png"
+  ],
+  "marks_total": 8,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a-i",
+      "label": "(a)(i)",
+      "lead": "Table 8.1 shows some data relating to the properties of air, gel and body tissue. The data are given to three significant figures.\n\n[[fig:f1]]",
+      "text": "Show that the specific acoustic impedance of gel is 1.68 × 10⁶ kg m⁻² s⁻¹.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "a-ii",
+      "label": "(a)(ii)",
+      "lead": null,
+      "text": "Complete Table 8.1 by calculating the missing values to three significant figures. Use the space below for any working that you need.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "Use the information in (a) to calculate the intensity reflection coefficient for:",
+      "text": "an air–tissue boundary",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "intensity reflection coefficient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "a gel–tissue boundary.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "intensity reflection coefficient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c",
+      "label": "(c)",
+      "lead": null,
+      "text": "Use your answers in (b) to explain why gel is applied to the skin during ultrasound scanning.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Table 8.1",
+      "alt": "A table gives the density, speed of sound and specific acoustic impedance for air, gel and tissue, with some cells left blank.",
+      "source_image": "/9702/9702-topic-24-medical-physics/assets/9702-2023-mj-41-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.0622,
+        0.0837,
+        0.939,
+        0.2544
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

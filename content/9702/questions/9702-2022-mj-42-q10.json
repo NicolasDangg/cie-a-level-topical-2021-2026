@@ -1,0 +1,122 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2022-mj-42-q10",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-mj-42-q10-p01.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-mj-42-q10-p02.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-mj-42-q10-p03.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-mj-42-q10-p04.png",
+    "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-mj-42-q10-p05.png"
+  ],
+  "marks_total": 11,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "State what is meant by radioactive decay.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A radioactive sample consists of an isotope *X* of half-life *T* that decays to form a stable product. Only *X* and the stable product are present in the sample.\n\nAt time *t* = 0, the sample has an activity of *A*₀ and contains *N*₀ nuclei of *X*.",
+      "text": "On Fig. 10.1, sketch the variation with *t* of the number *N* of nuclei of *X* present in the sample. Your line should extend from time *t* = 0 to time *t* = 3*T*.\n\n[[fig:f1]]",
+      "marks": 3,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "On Fig. 10.2, sketch the variation with *N* of the activity *A* of the sample for values of *N* between *N* = 0 and *N* = *N*₀.\n\n[[fig:f2]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": "State the name of the quantity represented by the gradient of your line in:",
+      "text": "Fig. 10.1",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Fig. 10.2.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "d",
+      "label": "(d)",
+      "lead": null,
+      "text": "For the sample in (b), calculate the fraction $\\frac{N}{N_0}$ at time *t* = 1.70*T*.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "$\\frac{N}{N_0}$",
+        "unit": null
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 10.1",
+      "alt": "A blank grid for sketching the number of nuclei N against time t, with time marked from 0 to 3T.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-mj-42-q10-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.1056,
+        0.2899,
+        0.892,
+        0.6353
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 10.2",
+      "alt": "A blank grid for sketching activity A against the number of nuclei N, with axes ranging from 0 to A₀ and from 0 to N₀.",
+      "source_image": "/9702/9702-topic-23-nuclear-physics/assets/9702-2022-mj-42-q10-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.2289,
+        0.0812,
+        0.7793,
+        0.2734
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

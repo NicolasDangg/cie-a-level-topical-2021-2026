@@ -1,0 +1,99 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2021-on-41-q08",
+  "subject": "9702",
+  "status": "reviewed",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-25"
+  },
+  "source_images": [
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q08-p01.png",
+    "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q08-p02.png"
+  ],
+  "marks_total": 6,
+  "stem": null,
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "Define the *tesla*.",
+      "marks": 2,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-i",
+      "label": "(b)(i)",
+      "lead": "A stiff metal wire is used to form a rectangular frame measuring 8.0 cm × 6.0 cm. The frame is open at the top, and is suspended from a sensitive newton meter, as shown in Fig. 8.1.\n\n[[fig:f1]]\n\nThe open ends of the frame are connected to a power supply so that there is a current of 5.0 A in the frame in the direction indicated in Fig. 8.1.\n\nThe frame is slowly lowered into a uniform magnetic field of flux density *B* so that all of side PQ is in the field. The magnetic field lines are horizontal and at an angle of 50° to PQ, as shown in Fig. 8.2.\n\n[[fig:f2]]\n\nWhen side PQ of the frame first enters the magnetic field, the reading on the newton meter changes by 1.0 mN.",
+      "text": "Determine the magnetic flux density *B*, in mT.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "B",
+        "unit": "mT"
+      }
+    },
+    {
+      "partId": "b-ii",
+      "label": "(b)(ii)",
+      "lead": null,
+      "text": "State, with a reason, whether the change in the reading on the newton meter is an increase or a decrease.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b-iii",
+      "label": "(b)(iii)",
+      "lead": null,
+      "text": "The frame is lowered further so that the vertical sides start to enter the magnetic field.\n\nSuggest what effect this will have on the frame.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 8.1",
+      "alt": "A 6.0 cm by 8.0 cm rectangular wire frame, with a 5.0 A current, is suspended from a newton meter by insulating thread.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2512,
+        0.1948,
+        0.742,
+        0.494
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Fig. 8.2",
+      "alt": "A view from above shows the horizontal side PQ at 50° to parallel diagonal magnetic field lines, with arrows showing the field direction.",
+      "source_image": "/9702/9702-topic-20-magnetic-fields/assets/9702-2021-on-41-q08-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.236,
+        0.6771,
+        0.7617,
+        0.815
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}

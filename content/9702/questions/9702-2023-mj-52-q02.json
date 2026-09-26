@@ -1,0 +1,179 @@
+{
+  "schema": "topicalpaper-question/v1",
+  "id": "9702-2023-mj-52-q02",
+  "subject": "9702",
+  "status": "draft",
+  "extracted_with": {
+    "model": "openai/gpt-6-luna",
+    "prompt": "q-extract-4",
+    "date": "2026-09-26"
+  },
+  "source_images": [
+    "/9702/9702-practical-skills/assets/9702-2023-mj-52-q02-p01.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-52-q02-p02.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-52-q02-p03.png",
+    "/9702/9702-practical-skills/assets/9702-2023-mj-52-q02-p04.png"
+  ],
+  "marks_total": 15,
+  "stem": "A student investigates how the volume of a gas varies with its temperature. Air is trapped in a transparent cylinder of diameter *d* with a movable piston as shown in Fig. 2.1.\n\n[[fig:f1]]\n\nThe distance between the base of the cylinder and the bottom of the piston is *h*.\n\nThe trapped air is heated by placing the cylinder in water of temperature *θ*. The increase in temperature of the trapped air causes the piston to move. When the piston stops moving, the value of *h* is measured.\n\nFor each value of *h*, the volume *V* of the trapped air is calculated.\n\nThe experiment is repeated for different values of *θ*.\n\nIt is suggested that *V* and *θ* are related by the equation\n\n*pV* = γκ(*θ* + *Z*)\n\nwhere κ is the Boltzmann constant, *p* is the atmospheric pressure, and γ and *Z* are constants.",
+  "parts": [
+    {
+      "partId": "a",
+      "label": "(a)",
+      "lead": null,
+      "text": "A graph is plotted of *V* on the y-axis against *θ* on the x-axis.\n\nDetermine expressions for the gradient and y-intercept.",
+      "marks": 1,
+      "kind": "written",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "b",
+      "label": "(b)",
+      "lead": null,
+      "text": "Values of *θ* and *h* are given in Table 2.1.\n\n[[fig:f2]]\n\nThe value of *d* is (27.9 ± 0.1) mm.\nThe volume *V* is calculated using the relationship\n\n*V* = π*d*²*h*/4.\n\nCalculate and record values of *V* / 10⁻⁵ m³ in Table 2.1. Include the absolute uncertainties in *V*.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-i",
+      "label": "(c)(i)",
+      "lead": null,
+      "text": "Plot a graph of *V* / 10⁻⁵ m³ against *θ* / °C. Include error bars for *V*.\n\n[[fig:f3]]",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-ii",
+      "label": "(c)(ii)",
+      "lead": null,
+      "text": "Draw the straight line of best fit and a worst acceptable straight line on your graph. Label both lines.",
+      "marks": 2,
+      "kind": "diagram",
+      "slots": null,
+      "answer": null
+    },
+    {
+      "partId": "c-iii",
+      "label": "(c)(iii)",
+      "lead": null,
+      "text": "Determine the gradient of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "gradient",
+        "unit": null
+      }
+    },
+    {
+      "partId": "c-iv",
+      "label": "(c)(iv)",
+      "lead": null,
+      "text": "Determine the y-intercept of the line of best fit. Include the absolute uncertainty in your answer.",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "y-intercept",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-i",
+      "label": "(d)(i)",
+      "lead": null,
+      "text": "Using your answers to (a), (c)(iii) and (c)(iv), determine the values of γ and *Z*. Include appropriate units.\n\nData: *p* = (1.01 ± 0.01) × 10⁵ Pa\nκ = 1.38 × 10⁻²³ J K⁻¹",
+      "marks": 2,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "γ, Z",
+        "unit": null
+      }
+    },
+    {
+      "partId": "d-ii",
+      "label": "(d)(ii)",
+      "lead": null,
+      "text": "Determine the percentage uncertainty in γ.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "percentage uncertainty in γ",
+        "unit": "%"
+      }
+    },
+    {
+      "partId": "e",
+      "label": "(e)",
+      "lead": null,
+      "text": "The experiment is repeated. Determine the temperature *θ* that gives a value of *h* of 60.0 mm.",
+      "marks": 1,
+      "kind": "numeric",
+      "slots": null,
+      "answer": {
+        "symbol": "θ",
+        "unit": "°C"
+      }
+    }
+  ],
+  "figures": [
+    {
+      "id": "f1",
+      "caption": "Fig. 2.1",
+      "alt": "Diagram of a transparent vertical cylinder containing trapped air beneath a movable piston, with the cylinder diameter d and air height h indicated.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-52-q02-p01.png",
+      "source_size": [
+        852,
+        1242
+      ],
+      "box": [
+        0.2969,
+        0.0596,
+        0.692,
+        0.2585
+      ]
+    },
+    {
+      "id": "f2",
+      "caption": "Table 2.1",
+      "alt": "Table with columns θ / °C, h / mm and V / 10⁻⁵ m³; the first two columns contain the pairs 23 and 62.4 ± 0.1, 35 and 65.2 ± 0.1, 48 and 68.1 ± 0.1, 62 and 70.9 ± 0.1, 73 and 73.3 ± 0.1, and 88 and 76.1 ± 0.1, while the volume column is blank.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-52-q02-p02.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.1608,
+        0.0914,
+        0.8404,
+        0.4933
+      ]
+    },
+    {
+      "id": "f3",
+      "caption": null,
+      "alt": "Blank graph grid with θ / °C on the horizontal axis from 20 to 90 and V / 10⁻⁵ m³ on the vertical axis from 3.7 to 4.8.",
+      "source_image": "/9702/9702-practical-skills/assets/9702-2023-mj-52-q02-p03.png",
+      "source_size": [
+        852,
+        1269
+      ],
+      "box": [
+        0.02,
+        0.0323,
+        0.9636,
+        0.906
+      ]
+    }
+  ],
+  "notes": [],
+  "problems": [],
+  "warnings": []
+}
