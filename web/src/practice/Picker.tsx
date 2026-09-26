@@ -9,7 +9,7 @@ import { MAX_SET, MINUTES_PER_MARK, drawSet, loadPractice, setHref, type Mode } 
 
 const MODES: { id: Mode; label: string; desc: string }[] = [
   { id: 'practice', label: 'Practice', desc: 'Check each question as you go. The mark scheme opens when you check.' },
-  { id: 'test', label: 'Test', desc: 'Timed, flag questions to revisit, mark scheme at the end.' },
+  { id: 'test', label: 'Test', desc: 'Timed. Flag questions to revisit. Mark scheme at the end.' },
 ]
 
 // Build a practice set: subject, topic, how many questions, how to be marked.
@@ -21,7 +21,7 @@ export default function Picker() {
 
   return (
     <AppShell crumbs={[{ label: 'Practice sets' }]} classicHref={classicHref()}>
-      <main id="main" className="mx-auto max-w-[80rem] px-4 pb-16 pt-8 sm:px-6 sm:pt-10">
+      <main id="main">
         {index.status === 'error' || practice.status === 'error' ? (
           <PageError
             title="Practice sets aren't available right now"
@@ -87,83 +87,89 @@ function SetBuilder({
   }
 
   return (
-    <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_26rem]">
-      <section aria-labelledby="build-title">
-        <h1 id="build-title" className="m-0 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
-          Build a practice set
-        </h1>
-        <p className="mt-2 text-ink-muted">Pick a topic. We draw random past-paper questions from it, never the same question twice.</p>
-
-        <div role="group" aria-label="Subject" className="mt-6 inline-flex rounded-lg bg-rule/60 p-1">
-          {SUBJECTS.map((s) => (
+    <div className="grid lg:min-h-[calc(100dvh-3.5rem)] lg:grid-cols-[15rem_minmax(0,1fr)_24rem]">
+      <nav aria-label="Subject" className="flex gap-1 border-rule px-4 pt-6 max-lg:overflow-x-auto lg:flex-col lg:border-r lg:px-5 lg:py-7">
+        <span className="mb-2 hidden text-xs font-medium text-ink-muted lg:block">Subject</span>
+        {SUBJECTS.map((s) => {
+          const on = s.code === subject
+          return (
             <button
               key={s.code}
               type="button"
-              aria-pressed={s.code === subject}
+              aria-pressed={on}
               onClick={() => onSubject(s.code)}
-              className={`h-9 rounded-md px-4 text-sm font-medium ${s.code === subject ? 'bg-paper text-ink shadow-sheet' : 'text-ink-muted hover:text-ink'}`}
+              className={`flex shrink-0 items-center justify-between gap-3 rounded-md px-2.5 py-2 text-left text-sm ${on ? 'bg-surface font-medium text-ink' : 'text-ink-muted hover:text-ink'}`}
             >
-              {s.name}
+              <span>{s.name}</span>
+              <span className="font-mono text-xs text-ink-faint">{s.code}</span>
             </button>
-          ))}
-        </div>
+          )
+        })}
+      </nav>
 
-        <fieldset className="m-0 mt-6 border-0 p-0">
+      <section aria-labelledby="build-title" className="min-w-0 px-4 py-6 sm:px-8 lg:px-12 lg:py-9">
+        <h1 id="build-title" className="m-0 text-3xl font-semibold tracking-tight">
+          Build a practice set
+        </h1>
+        <p className="m-0 mt-2 max-w-[62ch] text-[15px] text-ink-muted">Pick a topic. We draw random past-paper questions from it, and never the same question twice in a set.</p>
+
+        <fieldset className="m-0 mt-6 border-0 border-t border-rule p-0">
           <legend className="sr-only">Topic</legend>
-          <div className="grid gap-2 sm:grid-cols-2">
-            {topics.map((t) => {
-              const on = t.slug === topicSlug
-              const disabled = t.pool.length === 0
-              return (
-                <label
-                  key={t.slug}
-                  className={`flex min-h-16 items-center justify-between gap-3 rounded-lg border px-4 py-3 ${
-                    disabled
-                      ? 'cursor-not-allowed border-dashed border-rule text-ink-muted'
-                      : on
-                        ? 'cursor-pointer border-ink bg-paper shadow-sheet'
-                        : 'cursor-pointer border-rule bg-paper hover:border-rule-strong'
-                  }`}
-                >
-                  <span className="min-w-0">
-                    <span className="block text-sm font-medium">{t.label}</span>
-                    <span className="block text-xs text-ink-muted">
-                      {disabled ? 'Not ready yet: questions are still being checked' : `${t.pool.length} question${t.pool.length === 1 ? '' : 's'} · ~${t.mean.toFixed(1)} marks each`}
+          {topics.map((t) => {
+            const on = t.slug === topicSlug
+            const disabled = t.pool.length === 0
+            return (
+              <label
+                key={t.slug}
+                className={`grid grid-cols-[1rem_minmax(0,1fr)_auto] items-center gap-x-3.5 border-b border-rule px-3 py-3 sm:grid-cols-[1rem_minmax(0,1fr)_8rem_9rem] ${
+                  disabled ? 'cursor-not-allowed text-ink-muted' : on ? 'cursor-pointer bg-accent-tint' : 'cursor-pointer hover:bg-surface'
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="topic"
+                  value={t.slug}
+                  checked={on}
+                  disabled={disabled}
+                  onChange={() => {
+                    setTopicSlug(t.slug)
+                    onTopic(t.slug)
+                  }}
+                  className="h-3.5 w-3.5 accent-[var(--color-accent)]"
+                />
+                <span className="text-[15px]">{t.label}</span>
+                {disabled ? (
+                  <span className="text-right text-xs text-ink-muted sm:col-span-2">Not ready yet: still being checked</span>
+                ) : (
+                  <>
+                    <span className="text-right font-mono text-[13px] text-ink-muted">
+                      {t.pool.length} question{t.pool.length === 1 ? '' : 's'}
                     </span>
-                  </span>
-                  <input
-                    type="radio"
-                    name="topic"
-                    value={t.slug}
-                    checked={on}
-                    disabled={disabled}
-                    onChange={() => {
-                      setTopicSlug(t.slug)
-                      onTopic(t.slug)
-                    }}
-                    className="h-4 w-4 shrink-0 accent-[var(--color-ink)]"
-                  />
-                </label>
-              )
-            })}
-          </div>
+                    <span className="text-right font-mono text-[13px] text-ink-faint max-sm:hidden">~{t.mean.toFixed(1)} marks each</span>
+                  </>
+                )}
+              </label>
+            )
+          })}
         </fieldset>
       </section>
 
-      <aside aria-label="Your set" className="rounded-lg border border-rule bg-paper p-6 shadow-sheet lg:sticky lg:top-20">
+      <aside aria-label="Your set" className="flex flex-col gap-6 bg-surface px-5 py-7 sm:px-7 lg:sticky lg:top-14 lg:h-[calc(100dvh-3.5rem)] lg:overflow-y-auto">
         {!topic ? (
           <p className="m-0 text-sm text-ink-muted">No topic in this subject is ready for practice yet.</p>
         ) : (
           <>
-            <p className="m-0 text-xs font-medium uppercase tracking-wide text-ink-muted">Your set</p>
-            <h2 className="m-0 mt-1 font-serif text-xl font-semibold">{topic.label}</h2>
+            <div>
+              <p className="m-0 text-xs font-medium text-ink-muted">Your set</p>
+              <h2 className="m-0 mt-1 text-xl font-semibold">{topic.label}</h2>
+            </div>
 
-            <div className="mt-6">
+            <div>
               <div className="flex items-baseline justify-between">
-                <label htmlFor={sliderId} className="text-sm">
+                <label htmlFor={sliderId} className="text-[15px] font-medium">
                   Questions
                 </label>
-                <span className="font-mono text-3xl" aria-hidden>
+                <span className="font-mono text-2xl" aria-hidden>
                   {count}
                 </span>
               </div>
@@ -175,9 +181,9 @@ function SetBuilder({
                 value={count}
                 disabled={max <= 1}
                 onChange={(e) => setWanted(Number(e.target.value))}
-                className="mt-2 w-full accent-[var(--color-ink)]"
+                className="mt-2 w-full accent-[var(--color-accent)]"
               />
-              <div className="flex justify-between font-mono text-xs text-ink-muted" aria-hidden>
+              <div className="flex justify-between font-mono text-xs text-ink-faint" aria-hidden>
                 <span>1</span>
                 <span>{max}</span>
               </div>
@@ -191,46 +197,47 @@ function SetBuilder({
               </p>
             </div>
 
-            <fieldset className="m-0 mt-6 border-0 p-0">
-              <legend className="mb-2 text-sm">How do you want to be marked?</legend>
+            <fieldset className="m-0 border-0 p-0">
+              <legend className="mb-2 text-[15px] font-medium">Marking</legend>
               <div className="flex flex-col gap-2">
                 {MODES.map((m) => (
                   <label
                     key={m.id}
-                    className={`flex cursor-pointer items-start gap-3 rounded-lg border px-4 py-3 ${m.id === mode ? 'border-ink' : 'border-rule hover:border-rule-strong'}`}
+                    className={`flex cursor-pointer items-start gap-3 rounded-lg bg-paper px-3.5 py-3 ${m.id === mode ? 'shadow-[inset_0_0_0_1.5px_var(--color-accent)]' : 'shadow-[inset_0_0_0_1px_var(--color-rule)]'}`}
                   >
                     <input
                       type="radio"
                       name="mode"
                       checked={m.id === mode}
                       onChange={() => setMode(m.id)}
-                      className="mt-1 h-4 w-4 shrink-0 accent-[var(--color-ink)]"
+                      className="mt-1 h-3.5 w-3.5 shrink-0 accent-[var(--color-accent)]"
                     />
                     <span>
-                      <span className="block text-sm font-medium">{m.label}</span>
-                      <span className="block text-xs text-ink-muted">{m.desc}</span>
+                      <span className="block text-[15px] font-medium">{m.label}</span>
+                      <span className="block text-[13px] leading-snug text-ink-muted">{m.desc}</span>
                     </span>
                   </label>
                 ))}
               </div>
             </fieldset>
 
-            <label className="mt-5 flex cursor-pointer items-center gap-3 text-sm">
+            <label className="flex cursor-pointer items-start gap-2.5 text-sm">
               <input
                 type="checkbox"
                 checked={preferUnseen}
                 onChange={(e) => setPreferUnseen(e.target.checked)}
-                className="h-4 w-4 accent-[var(--color-ink)]"
+                className="mt-0.5 h-4 w-4 accent-[var(--color-ink)]"
               />
               Prefer questions I haven't answered yet
             </label>
 
+            <span className="flex-1" />
             <button
               type="button"
               onClick={start}
-              className="mt-6 flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-ink text-base font-medium text-desk hover:opacity-90"
+              className="flex h-11 w-full items-center justify-center gap-2 rounded-lg bg-accent text-[15px] font-medium text-desk hover:opacity-90"
             >
-              Start {count} question{count === 1 ? '' : 's'} <ArrowRight size={18} aria-hidden />
+              Start {count} question{count === 1 ? '' : 's'} <ArrowRight size={16} aria-hidden />
             </button>
           </>
         )}

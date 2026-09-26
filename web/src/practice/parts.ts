@@ -1,4 +1,5 @@
 import type { ExtractedFigure, ExtractedPart, ExtractedQuestion } from '../content/types'
+import type { PartAnswer } from './answers'
 
 export const BLANK = '[[blank]]'
 const FIG_PLACE = /\[\[fig:([A-Za-z0-9_-]+)\]\]/g
@@ -58,4 +59,24 @@ export function partSummary(part: ExtractedPart): string {
     .trim()
   const sentence = plain.split(/(?<=[.?!])\s/).find((s) => /^(state|calculate|determine|explain|describe|show|suggest|draw|sketch|complete|write|give|identify|outline|define|evaluate|compare|discuss|name|use|on)\b/i.test(s)) ?? plain
   return sentence.length > 90 ? `${sentence.slice(0, 88).trimEnd()}…` : sentence
+}
+
+/** A one-line summary of what the student wrote, for the collapsed answer. */
+export function answerPreview(part: ExtractedPart, a: PartAnswer | undefined): string {
+  if (!a) return ''
+  const bits: string[] = []
+  const final = a.final?.trim()
+  if (part.kind === 'numeric' && final) {
+    bits.push(`${part.answer?.symbol ? `${part.answer.symbol} = ` : ''}${final}${part.answer?.unit ? ` ${part.answer.unit}` : ''}`)
+  } else if (a.text?.trim()) {
+    bits.push(a.text.trim())
+  }
+  const slots = (a.slots ?? []).map((s) => s?.trim()).filter(Boolean)
+  if (slots.length) bits.push(slots.join(' · '))
+  const blanks = (a.blanks ?? []).map((s) => s?.trim()).filter(Boolean)
+  if (blanks.length) bits.push(`Gaps: ${blanks.join(', ')}`)
+  const drawn = Object.values(a.drawings ?? {}).reduce((n, strokes) => n + strokes.length, 0)
+  if (drawn) bits.push(`${drawn} mark${drawn === 1 ? '' : 's'} drawn`)
+  if (!bits.length && a.text?.trim()) bits.push(a.text.trim())
+  return bits.join(' · ')
 }

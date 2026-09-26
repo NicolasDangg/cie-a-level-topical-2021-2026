@@ -13,11 +13,13 @@ type Props = {
   onActivate: (partId: string) => void
   /** Results: show the student's answers, nothing editable. */
   readOnly?: boolean
+  /** What goes under each part: the inline answer while answering. */
+  renderAnswer?: (partId: string, index: number) => ReactNode
 }
 
 // The question as text, for answering: click a part to work on it; gaps in
 // the text are inputs; the active diagram part's figure takes a drawing.
-export function PracticeQuestion({ question: q, answers, onAnswer, active, onActivate, readOnly = false }: Props) {
+export function PracticeQuestion({ question: q, answers, onAnswer, active, onActivate, readOnly = false, renderAnswer }: Props) {
   const targets = q.parts.map((_, i) => drawingTarget(q, i))
   const activeIndex = q.parts.findIndex((p) => p.partId === active)
   const activeTarget = activeIndex >= 0 ? targets[activeIndex] : null
@@ -72,9 +74,9 @@ export function PracticeQuestion({ question: q, answers, onAnswer, active, onAct
     }
 
   return (
-    <div className="flex flex-col gap-3 font-serif text-[17px] leading-relaxed text-ink">
+    <div className="flex flex-col gap-4 text-base leading-[1.7] text-ink">
       {q.stem && <RichText text={q.stem} figures={q.figures} figure={renderFigure} />}
-      {q.parts.map((part) => {
+      {q.parts.map((part, index) => {
         const on = part.partId === active
         return (
           <section
@@ -82,7 +84,7 @@ export function PracticeQuestion({ question: q, answers, onAnswer, active, onAct
             aria-label={part.label ? `Part ${part.label}` : 'Question'}
             data-part={part.partId}
             onClick={() => onActivate(part.partId)}
-            className={`-mx-3 flex scroll-mt-24 flex-col gap-3 rounded-md px-3 py-2.5 transition-colors ${on ? 'bg-[color-mix(in_srgb,var(--color-mark)_8%,transparent)]' : ''}`}
+            className={`-mx-3 flex scroll-mt-6 flex-col gap-3 rounded-md px-3 py-2.5 transition-colors ${on ? 'bg-accent-tint shadow-[inset_2px_0_0_var(--color-accent)]' : ''}`}
           >
             {part.lead && <RichText text={part.lead} figures={q.figures} figure={renderFigure} />}
             <div className={part.label ? 'grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-2' : 'grid'}>
@@ -91,7 +93,7 @@ export function PracticeQuestion({ question: q, answers, onAnswer, active, onAct
                   type="button"
                   onClick={() => onActivate(part.partId)}
                   aria-current={on ? 'step' : undefined}
-                  className="h-fit pt-0.5 text-left font-mono text-sm font-medium text-ink"
+                  className={`h-fit pt-0.5 text-left font-mono text-sm font-medium ${on ? 'text-accent' : 'text-ink'}`}
                 >
                   {part.label}
                 </button>
@@ -101,6 +103,7 @@ export function PracticeQuestion({ question: q, answers, onAnswer, active, onAct
                 <p className="m-0 text-right font-mono text-sm text-ink-muted">[{part.marks}]</p>
               </div>
             </div>
+            {renderAnswer?.(part.partId, index)}
           </section>
         )
       })}

@@ -8,9 +8,10 @@ import { SUBJECTS, loadTopic, useResource } from '../content/api'
 import type { ExtractedQuestion, Question, TopicFile } from '../content/types'
 import { useMediaQuery } from '../lib/media'
 import { AnswerPanel } from '../routes/topic/AnswerPanel'
-import { AnswerCards } from './AnswerCards'
 import { markDone, partIsAnswered, readAnswers, useQuestionAnswers, useSetState } from './answers'
 import { MINUTES_PER_MARK, loadQuestion, readSetSpec, setHref, type SetSpec } from './data'
+import { InlineAnswer } from './InlineAnswer'
+import { drawingTarget, partSummary } from './parts'
 import { PracticeQuestion } from './PracticeQuestion'
 
 /** Loads a set's topic data and extracted questions. Shared with Results. */
@@ -55,6 +56,8 @@ export default function SetPage() {
   return <SetScreen spec={spec} topic={data.data.topic} questions={data.data.questions} />
 }
 
+type Editing = { partId: string | null; focus: boolean }
+
 function SetScreen({ spec, topic, questions }: { spec: SetSpec; topic: TopicFile; questions: ExtractedQuestion[] }) {
   const navigate = useNavigate()
   const [params, setParams] = useSearchParams()
@@ -63,41 +66,48 @@ function SetScreen({ spec, topic, questions }: { spec: SetSpec; topic: TopicFile
   const q = questions[n - 1]
   const meta = topic.questions.find((x) => x.id === q.id)
   const [answers, onAnswer] = useQuestionAnswers(q.id)
-  const [activeByQuestion, setActiveByQuestion] = useState<Record<string, string>>({})
-  const active = activeByQuestion[q.id] ?? q.parts[0]?.partId ?? ''
+  const [editingByQuestion, setEditingByQuestion] = useState<Record<string, Editing>>({})
   const [view, setView] = useState<'text' | 'scan'>('text')
-  const [tab, setTab] = useState<'question' | 'answer'>('question')
   const [checking, setChecking] = useState(false)
   const [confirming, setConfirming] = useState(false)
   const wide = useMediaQuery('(min-width: 64rem)')
   const totalMarks = questions.reduce((sum, x) => sum + (x.marks_total ?? 0), 0)
   const subjectName = SUBJECTS.find((s) => s.code === spec.subject)?.name ?? spec.subject
   const flagged = set.flagged.includes(q.id)
+  const leaveHref = `/practice?subject=${spec.subject}&topic=${spec.topic}`
+
+  // A question opens on its first unanswered part, without taking the focus.
+  const firstOpen = q.parts.find((p) => !partIsAnswered(answers[p.partId]))?.partId ?? null
+  const editing = editingByQuestion[q.id] ?? { partId: firstOpen, focus: false }
+  const active = editing.partId ?? ''
+  const open = (partId: string | null, focus = true) => setEditingByQuestion((m) => ({ ...m, [q.id]: { partId, focus } }))
 
   const go = useCallback(
     (to: number) => {
       const next = new URLSearchParams(params)
       next.set('n', String(to))
       setParams(next, { replace: true })
-      setTab('question')
       window.scrollTo({ top: 0 })
+      document.getElementById('main')?.scrollTo({ top: 0 })
     },
     [params, setParams],
   )
 
-  const activate = (partId: string, from: 'question' | 'answer') => {
-    setActiveByQuestion((m) => ({ ...m, [q.id]: partId }))
-    // Keep the other side in step with where the student is working.
-    const selector = from === 'question' ? `#answer-${partId}-title` : `[data-part="${partId}"]`
-    requestAnimationFrame(() => document.querySelector(selector)?.scrollIntoView({ block: 'nearest' }))
+  const openPart = (partId: string) => {
+    open(partId)
+    requestAnimationFrame(() => document.querySelector(`[data-part="${partId}"]`)?.scrollIntoView({ block: 'nearest' }))
   }
 
   const status = questions.map((x) => {
     const a = x.id === q.id ? answers : readAnswers(x.id)
     const done = x.parts.filter((p) => partIsAnswered(a[p.partId])).length
-    return { done, total: x.parts.length, flagged: set.flagged.includes(x.id) }
+    const marks = x.parts.reduce((sum, p) => sum + (partIsAnswered(a[p.partId]) ? p.marks : 0), 0)
+    return { done, total: x.parts.length, marks, flagged: set.flagged.includes(x.id) }
   })
   const unanswered = status.reduce((sum, s) => sum + (s.total - s.done), 0)
+  const attempted = status[n - 1].marks
+
+  const toggleFlag = () => updateSet((s) => ({ ...s, flagged: flagged ? s.flagged.filter((id) => id !== q.id) : [...s.flagged, q.id] }))
 
   const submit = () => {
     markDone(spec.subject, spec.ids)
@@ -106,75 +116,238 @@ function SetScreen({ spec, topic, questions }: { spec: SetSpec; topic: TopicFile
   }
   if (set.submittedAt) return <Navigate to={setHref(spec, 'results')} replace />
 
-  const questionPane = (
-    <div className="flex min-w-0 flex-col gap-4">
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
-        <span className="inline-flex h-7 min-w-7 items-center justify-center rounded-md bg-ink px-1.5 font-mono text-sm text-desk">{n}</span>
-        <span className="font-mono text-sm">{q.id}</span>
-        {meta && (
-          <span className="text-sm text-ink-muted">
-            {meta.session} {meta.year} · Paper <span className="font-mono">{meta.variant}</span> · Question {meta.question_number}
-          </span>
-        )}
-        <span className="font-mono text-sm">[{q.marks_total}]</span>
-        <button
-          type="button"
-          aria-pressed={flagged}
-          onClick={() => updateSet((s) => ({ ...s, flagged: flagged ? s.flagged.filter((id) => id !== q.id) : [...s.flagged, q.id] }))}
-          className={`ml-auto inline-flex h-8 items-center gap-1.5 rounded-md border px-2.5 text-sm ${flagged ? 'border-mark text-mark' : 'border-rule-strong text-ink hover:bg-paper'}`}
-        >
-          <Flag size={14} aria-hidden fill={flagged ? 'currentColor' : 'none'} /> {flagged ? 'Flagged' : 'Flag for review'}
-        </button>
-      </div>
-      <div role="group" aria-label="Show the question as" className="inline-flex w-fit rounded-lg bg-rule/60 p-1">
-        {(['text', 'scan'] as const).map((v) => (
+  const partLabel = (i: number) => q.parts[i]?.label || 'the answer'
+  const nextStep = (index: number) =>
+    index + 1 < q.parts.length
+      ? { label: `Next: ${partLabel(index + 1)}`, run: () => openPart(q.parts[index + 1].partId) }
+      : n < questions.length
+        ? { label: 'Next question', run: () => go(n + 1) }
+        : { label: spec.mode === 'test' ? 'Submit set' : 'Finish', run: () => setConfirming(true) }
+
+  const renderAnswer = (partId: string, index: number) => {
+    const part = q.parts[index]
+    const step = nextStep(index)
+    return (
+      <InlineAnswer
+        part={part}
+        answer={answers[partId] ?? {}}
+        onAnswer={(change) => onAnswer(partId, change)}
+        editing={editing.partId === partId}
+        onEdit={() => open(partId)}
+        onDone={() => open(null)}
+        onNext={step.run}
+        nextLabel={step.label}
+        figureCaption={drawingTarget(q, index)?.caption ?? null}
+        focus={editing.focus}
+        tools={wide ? undefined : <SymbolBar />}
+      />
+    )
+  }
+
+  const sessionLine = meta ? `${meta.session} ${meta.year} · Paper ${meta.variant} · Q${meta.question_number}` : ''
+
+  const document_ = (
+    <div className="mx-auto flex w-full max-w-[46rem] flex-col gap-6 px-4 pb-24 pt-6 sm:px-8 lg:px-10 lg:pt-11">
+      <header className="flex flex-col gap-3">
+        <p className="m-0 font-mono text-xs text-ink-muted">
+          {q.id}
+          {sessionLine && ` · ${sessionLine}`} · {q.marks_total} marks
+        </p>
+        <div className="flex flex-wrap items-center gap-3">
+          <h1 className="m-0 mr-auto text-2xl font-semibold tracking-tight">
+            Question {n}
+            <span className="font-normal text-ink-muted"> of {questions.length}</span>
+          </h1>
+          <div role="group" aria-label="Show the question as" className="inline-flex rounded-md bg-surface p-0.5">
+            {(['text', 'scan'] as const).map((v) => (
+              <button
+                key={v}
+                type="button"
+                aria-pressed={view === v}
+                onClick={() => setView(v)}
+                className={`h-7 rounded-[5px] px-2.5 text-[13px] ${view === v ? 'bg-paper font-medium text-ink shadow-sheet' : 'text-ink-muted hover:text-ink'}`}
+              >
+                {v === 'text' ? 'Text' : 'Original scan'}
+              </button>
+            ))}
+          </div>
           <button
-            key={v}
             type="button"
-            aria-pressed={view === v}
-            onClick={() => setView(v)}
-            className={`h-8 rounded-md px-3 text-sm font-medium ${view === v ? 'bg-paper text-ink shadow-sheet' : 'text-ink-muted hover:text-ink'}`}
+            aria-pressed={flagged}
+            onClick={toggleFlag}
+            className={`inline-flex h-8 items-center gap-1.5 rounded-md px-2.5 text-[13px] ${flagged ? 'bg-[color-mix(in_srgb,var(--color-flag)_12%,transparent)] text-flag' : 'text-ink-muted hover:bg-surface hover:text-ink'}`}
           >
-            {v === 'text' ? 'Text' : 'Original scan'}
+            <Flag size={13} aria-hidden fill={flagged ? 'currentColor' : 'none'} /> {flagged ? 'Flagged' : 'Flag'}
           </button>
-        ))}
-      </div>
+        </div>
+      </header>
+
       {view === 'text' ? (
-        <article className="rounded-[2px] border border-rule bg-paper px-5 py-5 shadow-sheet sm:px-7">
-          <PracticeQuestion question={q} answers={answers} onAnswer={onAnswer} active={active} onActivate={(id) => activate(id, 'question')} />
-          <p className="m-0 mt-4 border-t border-rule pt-3 font-sans text-xs text-ink-muted">
+        <article aria-label={`Question ${n}`}>
+          <PracticeQuestion question={q} answers={answers} onAnswer={onAnswer} active={active} onActivate={(id) => open(id)} renderAnswer={renderAnswer} />
+          <p className="m-0 mt-6 border-t border-rule pt-3 text-xs text-ink-muted">
             Text taken from the paper and checked by hand. Something looks wrong? Switch to Original scan.
           </p>
         </article>
       ) : (
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-6">
           {(meta?.image_paths ?? q.source_images).map((src, i, all) => (
             <CropSheet key={src} src={src} alt={`Original scan of question ${n}, page ${i + 1} of ${all.length}`} sourcePdfUrl={meta?.source_pdf_url ?? ''} sourcePage={meta?.source_pages[i]} />
           ))}
+          <section aria-labelledby="scan-answers" className="flex flex-col gap-4">
+            <h2 id="scan-answers" className="m-0 text-base font-semibold">
+              Your answers
+            </h2>
+            {q.parts.map((p, i) => (
+              <div key={p.partId} data-part={p.partId} className="flex flex-col gap-2">
+                <p className="m-0 font-mono text-sm font-medium">
+                  {p.label || 'Answer'} <span className="font-normal text-ink-muted">[{p.marks}]</span>
+                </p>
+                {renderAnswer(p.partId, i)}
+              </div>
+            ))}
+          </section>
         </div>
       )}
+
+      <div className="flex items-center gap-2 border-t border-rule pt-4" data-print="hide">
+        <button type="button" onClick={() => go(n - 1)} disabled={n === 1} className="h-10 rounded-md px-3 text-sm text-ink-muted hover:bg-surface hover:text-ink disabled:opacity-40">
+          <ArrowLeft size={15} aria-hidden className="mr-1.5 inline" />
+          Previous question
+        </button>
+        <span className="flex-1" />
+        {n < questions.length ? (
+          <button type="button" onClick={() => go(n + 1)} className="inline-flex h-10 items-center gap-2 rounded-md bg-ink px-4 text-sm font-medium text-desk hover:opacity-90">
+            Next question <ArrowRight size={15} aria-hidden />
+          </button>
+        ) : (
+          <button type="button" onClick={() => setConfirming(true)} className="h-10 rounded-md bg-ink px-4 text-sm font-medium text-desk hover:opacity-90">
+            {spec.mode === 'test' ? 'Submit set' : 'Finish'}
+          </button>
+        )}
+      </div>
     </div>
   )
 
-  const answerPane = (
-    <div className="flex flex-col gap-3">
-      <div className="flex items-baseline justify-between">
-        <h2 className="m-0 text-base font-semibold">Your answers</h2>
-        <span className="text-xs text-ink-muted">Saved on this device</span>
-      </div>
-      <SymbolBar />
-      <AnswerCards question={q} answers={answers} onAnswer={onAnswer} active={active} onActivate={(id) => activate(id, 'answer')} />
-      {spec.mode === 'practice' && meta && (
-        <button
-          type="button"
-          onClick={() => setChecking(true)}
-          className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-ink bg-paper text-sm font-medium hover:bg-desk"
-        >
-          <BookOpenCheck size={16} aria-hidden /> Check with the mark scheme
-        </button>
-      )}
-    </div>
+  const questionList = (
+    <ol className="m-0 flex list-none flex-col gap-0.5 p-0">
+      {status.map((s, i) => {
+        const current = i + 1 === n
+        const x = questions[i]
+        const m = topic.questions.find((t) => t.id === x.id)
+        return (
+          <li key={x.id}>
+            <button
+              type="button"
+              onClick={() => go(i + 1)}
+              aria-current={current ? 'step' : undefined}
+              aria-label={`Question ${i + 1}, ${s.done === s.total ? 'answered' : s.done ? `${s.done} of ${s.total} parts answered` : 'not started'}${s.flagged ? ', flagged' : ''}`}
+              className={`grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-2 rounded-md px-2 py-1.5 text-left ${current ? 'bg-surface font-medium text-ink' : 'text-ink-muted hover:text-ink'}`}
+            >
+              <span className="truncate">
+                {i + 1} · {m ? `${m.session} ${m.year}` : x.id}
+                {s.flagged && <Flag size={11} aria-hidden fill="currentColor" className="ml-1.5 inline text-flag" />}
+              </span>
+              <span className="font-mono text-xs">
+                {s.done}/{s.total}
+              </span>
+            </button>
+            {current && (
+              <ul className="m-0 flex list-none flex-col gap-px py-1 pl-3 pr-0">
+                {q.parts.map((p) => {
+                  const on = p.partId === active
+                  const done = partIsAnswered(answers[p.partId])
+                  return (
+                    <li key={p.partId}>
+                      <button
+                        type="button"
+                        onClick={() => openPart(p.partId)}
+                        aria-current={on ? 'step' : undefined}
+                        className={`grid w-full grid-cols-[8px_4rem_minmax(0,1fr)] items-center gap-1.5 rounded-md px-2 py-1 text-left text-[13px] ${on ? 'bg-accent-tint text-accent' : 'text-ink-muted hover:text-ink'}`}
+                      >
+                        <span aria-hidden className={`h-[7px] w-[7px] rounded-full ${done ? 'bg-ink' : 'border-[1.5px] border-rule-strong'}`} />
+                        <span className="whitespace-nowrap font-mono text-xs">{p.label || "—"}</span>
+                        <span className="truncate">{partSummary(p)}</span>
+                        <span className="sr-only">{done ? ', answered' : ', not answered'}</span>
+                      </button>
+                    </li>
+                  )
+                })}
+              </ul>
+            )}
+          </li>
+        )
+      })}
+    </ol>
   )
+
+  const submitLabel = spec.mode === 'test' ? 'Submit set' : 'Finish set'
+
+  if (wide) {
+    return (
+      <div className="grid h-dvh grid-cols-[15rem_minmax(0,1fr)_15rem] bg-desk text-ink">
+        <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-md focus:bg-paper focus:px-3 focus:py-2">
+          Skip to the question
+        </a>
+        <nav aria-label="Questions in this set" className="flex min-h-0 flex-col gap-4 overflow-y-auto px-4 py-6 text-sm">
+          <Link to={leaveHref} className="inline-flex w-fit items-center gap-1.5 text-[13px] text-ink-muted no-underline hover:text-ink">
+            <ArrowLeft size={14} aria-hidden /> Leave set
+          </Link>
+          <div className="px-2">
+            <p className="m-0 font-semibold text-ink">{topic.topic.label}</p>
+            <p className="m-0 text-xs text-ink-muted">
+              {subjectName} · {spec.mode === 'test' ? 'Test' : 'Practice'}
+            </p>
+          </div>
+          {questionList}
+        </nav>
+
+        <main id="main" className="min-h-0 overflow-y-auto">
+          {document_}
+        </main>
+
+        <aside aria-label="Set status" className="flex min-h-0 flex-col gap-5 overflow-y-auto px-5 py-6 text-[13px] text-ink-muted">
+          {spec.mode === 'test' && <Timer startedAt={set.startedAt} minutes={Math.round(totalMarks * MINUTES_PER_MARK)} />}
+          <div className="flex flex-col gap-1.5">
+            <span>
+              {attempted} of {q.marks_total} marks attempted
+            </span>
+            <span aria-hidden className="block h-1 overflow-hidden rounded-full bg-rule">
+              <span className="block h-full bg-accent" style={{ width: `${Math.round((attempted / Math.max(1, q.marks_total ?? 1)) * 100)}%` }} />
+            </span>
+          </div>
+          <div className="flex flex-col gap-2">
+            <span className="text-xs font-medium text-ink">Symbols</span>
+            <SymbolBar />
+          </div>
+          {set.flagged.length > 0 && (
+            <div className="flex flex-col gap-1">
+              <span className="text-xs font-medium text-ink">Flagged to revisit</span>
+              {questions.map((x, i) =>
+                set.flagged.includes(x.id) ? (
+                  <button key={x.id} type="button" onClick={() => go(i + 1)} className="w-fit text-left text-flag hover:underline">
+                    Question {i + 1}
+                  </button>
+                ) : null,
+              )}
+            </div>
+          )}
+          {spec.mode === 'practice' && meta && (
+            <button type="button" onClick={() => setChecking(true)} className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-rule-strong text-sm text-ink hover:bg-surface">
+              <BookOpenCheck size={15} aria-hidden /> Check with the mark scheme
+            </button>
+          )}
+          <span className="flex-1" />
+          <button type="button" onClick={() => setConfirming(true)} className="h-10 rounded-md bg-ink text-sm font-medium text-desk hover:opacity-90">
+            {submitLabel}
+          </button>
+        </aside>
+
+        {meta && <AnswerPanel question={checking ? (meta as Question) : null} docked={false} onClose={() => setChecking(false)} />}
+        <ConfirmSubmit open={confirming} onOpenChange={setConfirming} onSubmit={submit} unanswered={unanswered} flagged={set.flagged.length} mode={spec.mode} />
+      </div>
+    )
+  }
 
   return (
     <div className="flex min-h-dvh flex-col bg-desk text-ink">
@@ -182,117 +355,59 @@ function SetScreen({ spec, topic, questions }: { spec: SetSpec; topic: TopicFile
         Skip to the question
       </a>
       <header className="sticky top-0 z-30 border-b border-rule bg-desk">
-        <div className="mx-auto flex h-14 max-w-[100rem] items-center gap-3 px-4 sm:px-6">
-          <Link to={`/practice?subject=${spec.subject}&topic=${spec.topic}`} aria-label="Leave the set (your answers stay saved)" className="text-ink-muted hover:text-ink">
+        <div className="flex h-14 items-center gap-2 px-2">
+          <Link to={leaveHref} aria-label="Leave the set (your answers stay saved)" className="inline-flex h-11 w-11 items-center justify-center text-ink-muted hover:text-ink">
             <ArrowLeft size={18} aria-hidden />
           </Link>
           <div className="min-w-0 flex-1">
-            <h1 className="m-0 truncate font-serif text-base font-semibold sm:text-lg">{topic.topic.label}</h1>
-            <p className="m-0 truncate text-xs text-ink-muted max-sm:hidden">
-              {subjectName} {spec.subject} · {spec.mode === 'test' ? 'Test' : 'Practice'} · {questions.length} question{questions.length === 1 ? '' : 's'}
+            <p className="m-0 truncate text-[15px] font-semibold">{topic.topic.label}</p>
+            <p className="m-0 truncate text-xs text-ink-muted">
+              {attempted}/{q.marks_total} marks attempted · {spec.mode === 'test' ? 'Test' : 'Practice'}
             </p>
           </div>
-          {spec.mode === 'test' && <Timer startedAt={set.startedAt} minutes={Math.round(totalMarks * MINUTES_PER_MARK)} />}
-          <button type="button" onClick={() => setConfirming(true)} className="h-9 rounded-md border border-ink px-3 text-sm font-medium hover:bg-paper">
-            {spec.mode === 'test' ? 'Submit set' : 'Finish'}
-          </button>
+          {spec.mode === 'test' && <Timer startedAt={set.startedAt} minutes={Math.round(totalMarks * MINUTES_PER_MARK)} compact />}
+          {spec.mode === 'practice' && meta && (
+            <button type="button" onClick={() => setChecking(true)} aria-label="Check with the mark scheme" className="inline-flex h-11 w-11 items-center justify-center text-ink-muted hover:text-ink">
+              <BookOpenCheck size={18} aria-hidden />
+            </button>
+          )}
         </div>
       </header>
 
-      {wide ? (
-        <main id="main" className="mx-auto grid w-full max-w-[100rem] flex-1 grid-cols-[minmax(0,1fr)_minmax(24rem,32rem)]">
-          <div className="px-6 py-6">{questionPane}</div>
-          {/* The answers scroll on their own, so they stay beside the question. */}
-          <div className="border-l border-rule">
-            <div className="sticky top-14 max-h-[calc(100dvh-3.5rem-4.25rem)] overflow-y-auto overscroll-contain px-6 py-6">{answerPane}</div>
-          </div>
-        </main>
-      ) : (
-        <main id="main" className="flex-1 px-4 py-4">
-          <div role="tablist" aria-label="Question or answer" className="mb-4 grid grid-cols-2 rounded-lg bg-rule/60 p-1">
-            {(['question', 'answer'] as const).map((t) => (
-              <button
-                key={t}
-                role="tab"
-                type="button"
-                aria-selected={tab === t}
-                onClick={() => setTab(t)}
-                className={`h-9 rounded-md text-sm font-medium ${tab === t ? 'bg-paper text-ink shadow-sheet' : 'text-ink-muted'}`}
-              >
-                {t === 'question' ? 'Question' : `Answer${q.parts.find((p) => p.partId === active)?.label ? ` ${q.parts.find((p) => p.partId === active)!.label}` : ''}`}
-              </button>
-            ))}
-          </div>
-          <div role="tabpanel">{tab === 'question' ? questionPane : answerPane}</div>
-        </main>
-      )}
+      <main id="main" className="flex-1">
+        {document_}
+      </main>
 
-      <footer className="sticky bottom-0 z-20 border-t border-rule bg-paper">
-        <div className="mx-auto flex max-w-[100rem] flex-wrap items-center gap-3 px-4 py-3 sm:px-6">
-          <nav aria-label="Questions in this set" className="flex min-w-0 flex-1 flex-wrap items-center gap-1.5">
+      <footer className="sticky bottom-0 z-20 border-t border-rule bg-desk pb-[env(safe-area-inset-bottom,0px)]">
+        <div className="flex items-center gap-2 px-3 py-2.5">
+          <nav aria-label="Questions in this set" className="flex min-w-0 flex-1 items-center gap-1 overflow-x-auto">
             {status.map((s, i) => {
               const current = i + 1 === n
-              const started = s.done > 0
               return (
                 <button
                   key={questions[i].id}
                   type="button"
                   onClick={() => go(i + 1)}
                   aria-current={current ? 'step' : undefined}
-                  aria-label={`Question ${i + 1}, ${s.done === s.total ? 'answered' : started ? `${s.done} of ${s.total} parts answered` : 'not started'}${s.flagged ? ', flagged' : ''}`}
-                  className={`relative inline-flex h-9 w-9 items-center justify-center rounded-md font-mono text-sm ${
-                    current
-                      ? 'border-2 border-ink bg-paper'
-                      : s.done === s.total
-                        ? 'bg-ink text-desk'
-                        : started
-                          ? 'border-[1.5px] border-ink bg-paper'
-                          : 'border-[1.5px] border-dashed border-rule-strong bg-paper'
+                  aria-label={`Question ${i + 1}, ${s.done === s.total ? 'answered' : s.done ? `${s.done} of ${s.total} parts answered` : 'not started'}${s.flagged ? ', flagged' : ''}`}
+                  className={`relative inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md font-mono text-sm ${
+                    current ? 'bg-accent text-desk' : s.done === s.total ? 'bg-ink text-desk' : s.done ? 'border-[1.5px] border-ink' : 'border-[1.5px] border-dashed border-rule-strong'
                   }`}
                 >
                   {i + 1}
-                  {s.flagged && <span className="absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full bg-mark" aria-hidden />}
+                  {s.flagged && <span className="absolute -right-0.5 -top-0.5 h-2.5 w-2.5 rounded-full border-2 border-desk bg-flag" aria-hidden />}
                 </button>
               )
             })}
-            <span className="ml-2 flex items-center gap-3 text-xs text-ink-muted max-md:hidden" aria-hidden>
-              <span className="inline-flex items-center gap-1">
-                <span className="h-2.5 w-2.5 rounded-sm bg-ink" /> Answered
-              </span>
-              <span className="inline-flex items-center gap-1">
-                <span className="h-2.5 w-2.5 rounded-sm border border-dashed border-rule-strong" /> Not started
-              </span>
-              <span className="inline-flex items-center gap-1">
-                <span className="h-2.5 w-2.5 rounded-full bg-mark" /> Flagged
-              </span>
-            </span>
           </nav>
-          <div className="flex gap-2">
-            <button type="button" onClick={() => go(n - 1)} disabled={n === 1} className="h-10 rounded-lg border border-rule-strong px-4 text-sm disabled:opacity-40">
-              Back
-            </button>
-            {n < questions.length ? (
-              <button type="button" onClick={() => go(n + 1)} className="inline-flex h-10 items-center gap-2 rounded-lg bg-ink px-4 text-sm font-medium text-desk">
-                Next question <ArrowRight size={16} aria-hidden />
-              </button>
-            ) : (
-              <button type="button" onClick={() => setConfirming(true)} className="h-10 rounded-lg bg-ink px-4 text-sm font-medium text-desk">
-                {spec.mode === 'test' ? 'Submit set' : 'Finish'}
-              </button>
-            )}
-          </div>
+          <button type="button" onClick={() => setConfirming(true)} className="h-10 shrink-0 rounded-md bg-ink px-3.5 text-sm font-medium text-desk">
+            {submitLabel}
+          </button>
         </div>
       </footer>
 
       {meta && <AnswerPanel question={checking ? (meta as Question) : null} docked={false} onClose={() => setChecking(false)} />}
-      <ConfirmSubmit
-        open={confirming}
-        onOpenChange={setConfirming}
-        onSubmit={submit}
-        unanswered={unanswered}
-        flagged={set.flagged.length}
-        mode={spec.mode}
-      />
+      <ConfirmSubmit open={confirming} onOpenChange={setConfirming} onSubmit={submit} unanswered={unanswered} flagged={set.flagged.length} mode={spec.mode} />
     </div>
   )
 }
@@ -320,7 +435,7 @@ function ConfirmSubmit({
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 z-40 bg-ink/30" />
         <Dialog.Content className="fixed left-1/2 top-1/2 z-50 w-[min(28rem,92vw)] -translate-x-1/2 -translate-y-1/2 rounded-lg bg-paper p-6 text-ink shadow-sheet">
-          <Dialog.Title className="m-0 font-serif text-xl font-semibold">{mode === 'test' ? 'Submit this set?' : 'Finish this set?'}</Dialog.Title>
+          <Dialog.Title className="m-0 text-xl font-semibold">{mode === 'test' ? 'Submit this set?' : 'Finish this set?'}</Dialog.Title>
           <Dialog.Description className="mt-2 text-sm text-ink-muted">
             {notes.length ? notes.join(' ') : 'Every part has an answer.'} Next you'll mark your answers against the official mark scheme.
           </Dialog.Description>
@@ -336,7 +451,7 @@ function ConfirmSubmit({
   )
 }
 
-function Timer({ startedAt, minutes }: { startedAt: number; minutes: number }) {
+function Timer({ startedAt, minutes, compact = false }: { startedAt: number; minutes: number; compact?: boolean }) {
   const [now, setNow] = useState(() => Date.now())
   const [shown, setShown] = useState(true)
   useEffect(() => {
@@ -347,19 +462,22 @@ function Timer({ startedAt, minutes }: { startedAt: number; minutes: number }) {
   const abs = Math.abs(left)
   const text = `${left < 0 ? '+' : ''}${Math.floor(abs / 60)}:${String(abs % 60).padStart(2, '0')}`
   return (
-    <div className="flex items-center gap-1.5">
-      {shown && (
-        <span role="timer" aria-label={left < 0 ? `${text} over time` : `${text} left`} className={`font-mono text-lg tabular-nums ${left < 0 ? 'text-mark' : ''}`}>
+    <div className="flex items-center gap-2">
+      {shown ? (
+        <span role="timer" aria-label={left < 0 ? `${text} over time` : `${text} left`} className={`font-mono tabular-nums text-ink ${compact ? 'text-sm' : 'text-xl'} ${left < 0 ? 'text-mark' : ''}`}>
           {text}
         </span>
+      ) : (
+        !compact && <span className="text-sm">Timer hidden</span>
       )}
       <button
         type="button"
         onClick={() => setShown((s) => !s)}
         aria-label={shown ? 'Hide timer' : 'Show timer'}
-        className="inline-flex h-8 w-8 items-center justify-center rounded-md text-ink-muted hover:text-ink"
+        className="inline-flex h-8 items-center justify-center gap-1 rounded-md px-1.5 text-xs text-ink-muted hover:bg-surface hover:text-ink"
       >
-        {shown ? <EyeOff size={16} aria-hidden /> : <Eye size={16} aria-hidden />}
+        {shown ? <EyeOff size={14} aria-hidden /> : <Eye size={14} aria-hidden />}
+        {!compact && (shown ? 'Hide' : 'Show')}
       </button>
     </div>
   )
@@ -398,7 +516,7 @@ function SymbolBar() {
           type="button"
           onMouseDown={(e) => e.preventDefault()}
           onClick={() => insert(s)}
-          className="h-8 min-w-8 rounded-md border border-rule bg-paper px-1.5 font-serif text-sm hover:border-rule-strong"
+          className="h-8 min-w-8 rounded-md bg-surface px-1.5 font-mono text-[13px] text-ink hover:bg-rule"
         >
           {s}
         </button>

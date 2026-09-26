@@ -42,7 +42,7 @@ export function AnswerPanel({ question, docked, onClose }: Props) {
   return question ? <DockedPanel question={question} onClose={onClose} /> : null
 }
 
-const TITLE = 'm-0 font-serif text-xl font-semibold'
+const TITLE = 'm-0 text-xl font-semibold'
 
 function DockedPanel({ question, onClose }: { question: Question; onClose: () => void }) {
   const headingRef = useRef<HTMLHeadingElement>(null)

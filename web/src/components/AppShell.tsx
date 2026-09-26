@@ -31,7 +31,7 @@ export function AppShell({ crumbs = [], classicHref, children }: Props) {
           <nav aria-label="Breadcrumb" className="flex min-w-0 flex-1 items-center">
             <ol className="m-0 flex min-w-0 list-none items-center gap-1.5 p-0 text-sm">
               <li className="shrink-0">
-                <Link to="/" className="font-serif text-lg font-semibold text-ink no-underline">
+                <Link to="/" className="text-lg font-semibold text-ink no-underline">
                   topicalpaper.me
                 </Link>
               </li>
@@ -83,7 +83,7 @@ export function PageLoading({ label }: { label: string }) {
 export function PageError({ title, detail, onRetry }: { title: string; detail: string; onRetry?: () => void }) {
   return (
     <div role="alert" className="mx-auto max-w-[var(--measure)] px-4 py-16">
-      <h1 className="m-0 font-serif text-2xl font-semibold">{title}</h1>
+      <h1 className="m-0 text-2xl font-semibold">{title}</h1>
       <p className="mt-2 text-ink-muted">{detail}</p>
       <div className="mt-6 flex flex-wrap gap-4">
         {onRetry && (
